@@ -1,0 +1,1725 @@
+{
+  "actor_reference": "Card_Play_Weapon.prefab:71f767d4f10681a45ac853936d1db800",
+  "table_reference": "Card_Play_Weapon_SpellTable.prefab:9eb63fe4f82064b50b443e1b15a4825d",
+  "actor_source": {
+    "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+    "pathid": "-7823333623901878313",
+    "type": "MonoBehaviour",
+    "bundle": "essential_base_global-prefab-0.unity3d"
+  },
+  "table_source": {
+    "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+    "pathid": "-8544165175048012169",
+    "type": "MonoBehaviour",
+    "bundle": "essential_base_global-prefab-0.unity3d"
+  },
+  "profile": "source-fsm-audio-and-summon-glow-v1",
+  "entries": [
+    {
+      "slot": 41,
+      "reference": "Card_Play_Weapon_SummonIn_Friendly.prefab:b142a0cfb212145268a4ec77aeb2912f",
+      "source": {
+        "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+        "pathid": "-2460574550354467750",
+        "type": "GameObject",
+        "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+      },
+      "fsm_source": {
+        "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+        "pathid": "-7741608799241280422",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+      },
+      "state": "State 3",
+      "action": "AudioPlaythroughAction",
+      "volume": 0.8,
+      "delay": 0,
+      "definition": {
+        "reference": "Card_Play_Weapon_SummonIn_Friendly.prefab:b142a0cfb212145268a4ec77aeb2912f",
+        "source": {
+          "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+          "pathid": "-2460574550354467750",
+          "type": "GameObject",
+          "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+        },
+        "nodes": [
+          {
+            "path": "",
+            "audio_sources": [
+              {
+                "source": {
+                  "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+                  "pathid": "-1790108005212396454",
+                  "type": "AudioSource",
+                  "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+                },
+                "values": {
+                  "m_GameObject": {
+                    "m_FileID": 0,
+                    "m_PathID": -2460574550354467750
+                  },
+                  "m_Enabled": 1,
+                  "OutputAudioMixerGroup": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_audioClip": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_Resource": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_PlayOnAwake": false,
+                  "m_Volume": 1.0,
+                  "m_Pitch": 1.0,
+                  "Loop": false,
+                  "Mute": false,
+                  "Spatialize": false,
+                  "SpatializePostEffects": false,
+                  "Priority": 128,
+                  "DopplerLevel": 1.0,
+                  "MinDistance": 1.0,
+                  "MaxDistance": 500.0,
+                  "Pan2D": 0.0,
+                  "rolloffMode": 0,
+                  "BypassEffects": false,
+                  "BypassListenerEffects": false,
+                  "BypassReverbZones": false,
+                  "rolloffCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      },
+                      {
+                        "time": 1.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "panLevelCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 0
+                  },
+                  "spreadCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "reverbZoneMixCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 0
+                  }
+                }
+              }
+            ],
+            "sound_defs": [
+              {
+                "source": {
+                  "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+                  "pathid": "4232861985634149466",
+                  "type": "MonoBehaviour",
+                  "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+                },
+                "values": {
+                  "m_GameObject": {
+                    "m_FileID": 0,
+                    "m_PathID": -2460574550354467750
+                  },
+                  "m_Enabled": 1,
+                  "m_Script": {
+                    "m_FileID": 0,
+                    "m_PathID": 5395326102866774978
+                  },
+                  "m_Name": "",
+                  "m_AudioClip": "",
+                  "m_Category": 1,
+                  "m_RandomClips": [],
+                  "m_RandomPitchMin": 1.0,
+                  "m_RandomPitchMax": 1.0,
+                  "m_RandomVolumeMin": 1.0,
+                  "m_RandomVolumeMax": 1.0,
+                  "m_IgnoreDucking": 0,
+                  "m_persistPastGameEnd": 0,
+                  "m_InstanceLimited": 0,
+                  "m_InstanceLimitedDuration": 0.0,
+                  "m_InstanceLimitMaximum": 1,
+                  "m_LimitMaxOutOption": 0
+                }
+              }
+            ]
+          }
+        ],
+        "clips": [],
+        "errors": [],
+        "complete": false,
+        "notes": [
+          "Exact source component data and clip provenance; SoundManager selection, ducking, limits, playback and FSM audio callbacks are not restored."
+        ]
+      },
+      "sound": {
+        "source": {
+          "cab": "CAB-4343ce54f038f79400e3a3e8964e10e6",
+          "pathid": "5597170003564368668",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-51c33550-prefab-0.unity3d"
+        },
+        "values": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 8306210589197275932
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 0,
+            "m_PathID": 5395326102866774978
+          },
+          "m_Name": "",
+          "m_AudioClip": "hero_weapon_draw.wav:e6f1e9d2da090c94fb2b0048acb84599",
+          "m_Category": 1,
+          "m_RandomClips": [],
+          "m_RandomPitchMin": 1.0,
+          "m_RandomPitchMax": 1.0,
+          "m_RandomVolumeMin": 1.0,
+          "m_RandomVolumeMax": 1.0,
+          "m_IgnoreDucking": 0,
+          "m_persistPastGameEnd": 0,
+          "m_InstanceLimited": 0,
+          "m_InstanceLimitedDuration": 0.0,
+          "m_InstanceLimitMaximum": 1,
+          "m_LimitMaxOutOption": 0
+        },
+        "clips": [
+          {
+            "reference": "hero_weapon_draw.wav:e6f1e9d2da090c94fb2b0048acb84599",
+            "source": {
+              "cab": "CAB-c5a93f7dd1cb2cb92bf1a135c39a2a18",
+              "pathid": "8766472941266416315",
+              "type": "AudioClip",
+              "bundle": "initial_base_global-51c33550-audio-0.unity3d"
+            },
+            "file": "863d52362b0426c62c0a4c96.wav"
+          }
+        ]
+      },
+      "preceding_animation_source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "2585133873067500320",
+        "type": "AnimationClip",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "preceding_animation_duration": 0.6833333373069763,
+      "timing_note": "AnimationPlaythroughAction.OnEnter calls Finish immediately after StartAnimation; duration is not an audio delay.",
+      "summon_glow": {
+        "profile": "source-additive-tint-v2",
+        "texture_name": "WeaponSummonBlue",
+        "texture_file": "e4f641faa51db7a3c4de2f2e.png",
+        "texture_source": {
+          "cab": "CAB-a8e7d77726c597e39e981817c71a6447",
+          "pathid": "-646629447142992627",
+          "type": "Texture2D",
+          "bundle": "initial_base_global-8411aad9-texture-10.unity3d"
+        },
+        "material_source": {
+          "cab": "CAB-ce5994190d1aec0cb58381aba153b724",
+          "pathid": "-4304543045473157492",
+          "type": "Material",
+          "bundle": "initial_base_global-75c96a85-material-3.unity3d"
+        },
+        "renderer_source": {
+          "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+          "pathid": "2702292988215714906",
+          "type": "MeshRenderer",
+          "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+        },
+        "material": "FX_Weapon_SummonGlowblue",
+        "shader_known": true,
+        "shader_name": "Hero/Additive/Additive",
+        "shader_source": {
+          "cab": "CAB-ce5994190d1aec0cb58381aba153b724",
+          "pathid": "-666151408197827071",
+          "type": "Shader",
+          "bundle": "initial_base_global-75c96a85-material-3.unity3d"
+        },
+        "compiled_source_verified": true,
+        "shader_verification": {
+          "status": "exact-audit-match",
+          "baseline_shader": {
+            "name": "Hero/Additive/Additive",
+            "bundle": "initial_base_global-41caf0cf-material-2.unity3d",
+            "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+            "pathid": "-666151408197827071"
+          },
+          "family": 16,
+          "platform": 4,
+          "keywords": [],
+          "bindings": [
+            {
+              "subshader": 0,
+              "pass_index": 0,
+              "pass_name": "",
+              "stage": "progVertex",
+              "blob": 1,
+              "gpu_type": 15,
+              "keywords": [],
+              "parameter_blob": 0,
+              "program_sha256": "15dd43c96dc5c9fd6df016d12bf837c3dd98f6ad5ec401f53577966cc5a8c920",
+              "parameter_sha256": "70878ed039754cc6681aeccfbfbfcb707ad1531881c8da8c95437031ff786c47"
+            },
+            {
+              "subshader": 0,
+              "pass_index": 0,
+              "pass_name": "",
+              "stage": "progFragment",
+              "blob": 3,
+              "gpu_type": 17,
+              "keywords": [],
+              "parameter_blob": 2,
+              "program_sha256": "a6399e8ecf7df20707ae41ed0b7105bab5684b9d3d4b498a1e6f8ffe85c65226",
+              "parameter_sha256": "06dfccf4f41db7e1cd89c9bab44e094f56f6dbf9b02f4bc804debbc478a99e13"
+            },
+            {
+              "subshader": 0,
+              "pass_index": 1,
+              "pass_name": "GlowTransparent",
+              "stage": "progVertex",
+              "blob": 4,
+              "gpu_type": 15,
+              "keywords": [],
+              "parameter_blob": 0,
+              "program_sha256": "97c9b6123bcc54ac0ff2ca40a0cb785f05ec6c81c31bddbf28ea4c2bde26a1c0",
+              "parameter_sha256": "70878ed039754cc6681aeccfbfbfcb707ad1531881c8da8c95437031ff786c47"
+            },
+            {
+              "subshader": 0,
+              "pass_index": 1,
+              "pass_name": "GlowTransparent",
+              "stage": "progFragment",
+              "blob": 6,
+              "gpu_type": 17,
+              "keywords": [],
+              "parameter_blob": 5,
+              "program_sha256": "23f3459e72c09da765859e979c5fcc78f37c64c17beda101b238cc9da4c0b9f7",
+              "parameter_sha256": "aa969974190fdff504ce7611eb8093a126964f64ba9a24150b6284b2afd6f270"
+            }
+          ],
+          "pass_render_states": [
+            {
+              "culling": 0.0,
+              "zWrite": 0.0,
+              "zTest": 4.0,
+              "blend": {
+                "srcBlend": 5.0,
+                "destBlend": 1.0,
+                "srcBlendAlpha": 5.0,
+                "destBlendAlpha": 1.0,
+                "blendOp": 0.0,
+                "blendOpAlpha": 0.0,
+                "colMask": 15.0
+              }
+            },
+            {
+              "culling": 0.0,
+              "zWrite": 0.0,
+              "zTest": 4.0,
+              "blend": {
+                "srcBlend": 1.0,
+                "destBlend": 1.0,
+                "srcBlendAlpha": 1.0,
+                "destBlendAlpha": 1.0,
+                "blendOp": 0.0,
+                "blendOpAlpha": 0.0,
+                "colMask": 15.0
+              }
+            }
+          ],
+          "pass_constant_byte_offsets": [
+            {
+              "progVertex": {
+                "$Globals": {
+                  "_MainLightColor": 96
+                },
+                "UnityPerDraw": {
+                  "unity_SHAr": 432,
+                  "unity_SHAg": 448,
+                  "unity_SHAb": 464
+                },
+                "UnityPerMaterial": {
+                  "_MainTex_ST": 0,
+                  "_TintColor": 16,
+                  "_LightingBlend": 64
+                }
+              },
+              "progFragment": {
+                "$Globals": {
+                  "_GlobalMipBias": 64
+                }
+              }
+            },
+            {
+              "progVertex": {
+                "$Globals": {},
+                "UnityPerDraw": {},
+                "UnityPerMaterial": {
+                  "_MainTex_ST": 0
+                }
+              },
+              "progFragment": {
+                "$Globals": {
+                  "_GlobalMipBias": 64
+                },
+                "UnityPerMaterial": {
+                  "_Color": 32,
+                  "_GlowColor": 48,
+                  "_GlowIntensity": 68,
+                  "_GlowAddMul": 72
+                }
+              }
+            }
+          ],
+          "full_card_effects_verified": false
+        },
+        "material_definition": {
+          "name": "FX_Weapon_SummonGlowblue",
+          "shader": "Hero/Additive/Additive",
+          "textures": [
+            {
+              "name": "_MainTex",
+              "path": "e4f641faa51db7a3c4de2f2e.png",
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          "floats": [
+            {
+              "name": "_GlowIntensity",
+              "value": 0.0
+            },
+            {
+              "name": "_GlowAddMul",
+              "value": 0.0
+            },
+            {
+              "name": "_LightingBlend",
+              "value": 0.0
+            },
+            {
+              "name": "_InvFade",
+              "value": 1.0
+            }
+          ],
+          "colors": [
+            {
+              "name": "_TintColor",
+              "value": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.501960813999176
+              }
+            },
+            {
+              "name": "_Color",
+              "value": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              }
+            },
+            {
+              "name": "_GlowColor",
+              "value": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              }
+            }
+          ],
+          "source": {
+            "cab": "CAB-ce5994190d1aec0cb58381aba153b724",
+            "pathid": "-4304543045473157492",
+            "type": "Material",
+            "bundle": "initial_base_global-75c96a85-material-3.unity3d"
+          },
+          "missing_shader": false,
+          "properties": [
+            "$Globals",
+            "UnityPerDraw",
+            "UnityPerMaterial",
+            "_Color",
+            "_GlobalMipBias",
+            "_GlowAddMul",
+            "_GlowColor",
+            "_GlowIntensity",
+            "_LightingBlend",
+            "_MainLightColor",
+            "_MainTex",
+            "_MainTex_ST",
+            "_TintColor",
+            "unity_MatrixVP",
+            "unity_ObjectToWorld",
+            "unity_SHAb",
+            "unity_SHAg",
+            "unity_SHAr"
+          ],
+          "render_queue": 3000,
+          "queue_tag": "Transparent",
+          "passes": [
+            {
+              "index": 0,
+              "light_mode": "SRPDefaultUnlit"
+            },
+            {
+              "index": 1,
+              "light_mode": "GlowTransparent"
+            }
+          ],
+          "keywords": [],
+          "src": 5,
+          "dst": 1,
+          "src_alpha": 5,
+          "dst_alpha": 1,
+          "compiled_only": true
+        },
+        "texture_alpha_opaque": true,
+        "texture_alpha": {
+          "min": 255,
+          "max": 255,
+          "pixels": 262144
+        },
+        "duration": 0.6833333373069763,
+        "tint_alpha": 0.501960813999176,
+        "tint_curves": {
+          "r": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0220921039581299,
+              "outSlope": 1.0220921039581299
+            },
+            {
+              "time": 0.21666666865348816,
+              "value": 0.22145329415798187,
+              "inSlope": 1.104301929473877,
+              "outSlope": 1.104301929473877
+            },
+            {
+              "time": 0.5,
+              "value": 0.5576316714286804,
+              "inSlope": 0.6289615035057068,
+              "outSlope": 0.6289615035057068
+            },
+            {
+              "time": 0.6833333373069763,
+              "value": 0.5707237124443054,
+              "inSlope": 0.0714111328125,
+              "outSlope": 0.0714111328125
+            }
+          ],
+          "g": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.2095232009887695,
+              "outSlope": 1.2095232009887695
+            },
+            {
+              "time": 0.21666666865348816,
+              "value": 0.2620633542537689,
+              "inSlope": 1.2567229270935059,
+              "outSlope": 1.2567229270935059
+            },
+            {
+              "time": 0.5,
+              "value": 0.6315081119537354,
+              "inSlope": 0.9082761406898499,
+              "outSlope": 0.9082761406898499
+            },
+            {
+              "time": 0.6833333373069763,
+              "value": 0.7254902124404907,
+              "inSlope": 0.5126296281814575,
+              "outSlope": 0.5126296281814575
+            }
+          ],
+          "b": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.447963833808899,
+              "outSlope": 1.447963833808899
+            },
+            {
+              "time": 0.21666666865348816,
+              "value": 0.3137255012989044,
+              "inSlope": 1.4506255388259888,
+              "outSlope": 1.4506255388259888
+            },
+            {
+              "time": 0.5,
+              "value": 0.7254902124404907,
+              "inSlope": 0.26884761452674866,
+              "outSlope": 0.26884761452674866
+            },
+            {
+              "time": 0.6833333373069763,
+              "value": 0.5576316714286804,
+              "inSlope": -0.9155920147895813,
+              "outSlope": -0.9155920147895813
+            }
+          ]
+        },
+        "transform": {
+          "position": {
+            "x": 0.0,
+            "y": 0.3100000023841858,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 18.736730575561523,
+            "y": 18.736730575561523,
+            "z": 18.736730575561523
+          }
+        }
+      }
+    },
+    {
+      "slot": 42,
+      "reference": "Card_Play_Weapon_SummonIn_Opponent.prefab:eafae527ed9d24df3b7b34367d2361bc",
+      "source": {
+        "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+        "pathid": "24093304187702507",
+        "type": "GameObject",
+        "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+      },
+      "fsm_source": {
+        "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+        "pathid": "3415543133106916587",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+      },
+      "state": "State 3",
+      "action": "AudioPlaythroughAction",
+      "volume": 0.8,
+      "delay": 0,
+      "definition": {
+        "reference": "Card_Play_Weapon_SummonIn_Opponent.prefab:eafae527ed9d24df3b7b34367d2361bc",
+        "source": {
+          "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+          "pathid": "24093304187702507",
+          "type": "GameObject",
+          "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+        },
+        "nodes": [
+          {
+            "path": "",
+            "audio_sources": [
+              {
+                "source": {
+                  "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+                  "pathid": "-7518380722388480789",
+                  "type": "AudioSource",
+                  "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+                },
+                "values": {
+                  "m_GameObject": {
+                    "m_FileID": 0,
+                    "m_PathID": 24093304187702507
+                  },
+                  "m_Enabled": 1,
+                  "OutputAudioMixerGroup": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_audioClip": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_Resource": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_PlayOnAwake": false,
+                  "m_Volume": 1.0,
+                  "m_Pitch": 1.0,
+                  "Loop": false,
+                  "Mute": false,
+                  "Spatialize": false,
+                  "SpatializePostEffects": false,
+                  "Priority": 128,
+                  "DopplerLevel": 1.0,
+                  "MinDistance": 1.0,
+                  "MaxDistance": 500.0,
+                  "Pan2D": 0.0,
+                  "rolloffMode": 0,
+                  "BypassEffects": false,
+                  "BypassListenerEffects": false,
+                  "BypassReverbZones": false,
+                  "rolloffCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      },
+                      {
+                        "time": 1.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "panLevelCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 0
+                  },
+                  "spreadCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "reverbZoneMixCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 0
+                  }
+                }
+              }
+            ],
+            "sound_defs": [
+              {
+                "source": {
+                  "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+                  "pathid": "2679191242979462379",
+                  "type": "MonoBehaviour",
+                  "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+                },
+                "values": {
+                  "m_GameObject": {
+                    "m_FileID": 0,
+                    "m_PathID": 24093304187702507
+                  },
+                  "m_Enabled": 1,
+                  "m_Script": {
+                    "m_FileID": 0,
+                    "m_PathID": 5395326102866774978
+                  },
+                  "m_Name": "",
+                  "m_AudioClip": "",
+                  "m_Category": 1,
+                  "m_RandomClips": [],
+                  "m_RandomPitchMin": 1.0,
+                  "m_RandomPitchMax": 1.0,
+                  "m_RandomVolumeMin": 1.0,
+                  "m_RandomVolumeMax": 1.0,
+                  "m_IgnoreDucking": 0,
+                  "m_persistPastGameEnd": 0,
+                  "m_InstanceLimited": 0,
+                  "m_InstanceLimitedDuration": 0.0,
+                  "m_InstanceLimitMaximum": 1,
+                  "m_LimitMaxOutOption": 0
+                }
+              }
+            ]
+          }
+        ],
+        "clips": [],
+        "errors": [],
+        "complete": false,
+        "notes": [
+          "Exact source component data and clip provenance; SoundManager selection, ducking, limits, playback and FSM audio callbacks are not restored."
+        ]
+      },
+      "sound": {
+        "source": {
+          "cab": "CAB-4343ce54f038f79400e3a3e8964e10e6",
+          "pathid": "5597170003564368668",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-51c33550-prefab-0.unity3d"
+        },
+        "values": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 8306210589197275932
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 0,
+            "m_PathID": 5395326102866774978
+          },
+          "m_Name": "",
+          "m_AudioClip": "hero_weapon_draw.wav:e6f1e9d2da090c94fb2b0048acb84599",
+          "m_Category": 1,
+          "m_RandomClips": [],
+          "m_RandomPitchMin": 1.0,
+          "m_RandomPitchMax": 1.0,
+          "m_RandomVolumeMin": 1.0,
+          "m_RandomVolumeMax": 1.0,
+          "m_IgnoreDucking": 0,
+          "m_persistPastGameEnd": 0,
+          "m_InstanceLimited": 0,
+          "m_InstanceLimitedDuration": 0.0,
+          "m_InstanceLimitMaximum": 1,
+          "m_LimitMaxOutOption": 0
+        },
+        "clips": [
+          {
+            "reference": "hero_weapon_draw.wav:e6f1e9d2da090c94fb2b0048acb84599",
+            "source": {
+              "cab": "CAB-c5a93f7dd1cb2cb92bf1a135c39a2a18",
+              "pathid": "8766472941266416315",
+              "type": "AudioClip",
+              "bundle": "initial_base_global-51c33550-audio-0.unity3d"
+            },
+            "file": "863d52362b0426c62c0a4c96.wav"
+          }
+        ]
+      },
+      "preceding_animation_source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "2585133873067500320",
+        "type": "AnimationClip",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "preceding_animation_duration": 0.6833333373069763,
+      "timing_note": "AnimationPlaythroughAction.OnEnter calls Finish immediately after StartAnimation; duration is not an audio delay.",
+      "summon_glow": {
+        "profile": "source-additive-tint-v2",
+        "texture_name": "WeaponSummonRed",
+        "texture_file": "8d033fb932762deee4d34e91.png",
+        "texture_source": {
+          "cab": "CAB-a8e7d77726c597e39e981817c71a6447",
+          "pathid": "-3197954313328847644",
+          "type": "Texture2D",
+          "bundle": "initial_base_global-8411aad9-texture-10.unity3d"
+        },
+        "material_source": {
+          "cab": "CAB-ce5994190d1aec0cb58381aba153b724",
+          "pathid": "5704215285339026488",
+          "type": "Material",
+          "bundle": "initial_base_global-75c96a85-material-3.unity3d"
+        },
+        "renderer_source": {
+          "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+          "pathid": "6059742863414250731",
+          "type": "MeshRenderer",
+          "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+        },
+        "material": "FX_Weapon_SummonGlowRed",
+        "shader_known": true,
+        "shader_name": "Hero/Additive/Additive",
+        "shader_source": {
+          "cab": "CAB-ce5994190d1aec0cb58381aba153b724",
+          "pathid": "-666151408197827071",
+          "type": "Shader",
+          "bundle": "initial_base_global-75c96a85-material-3.unity3d"
+        },
+        "compiled_source_verified": true,
+        "shader_verification": {
+          "status": "exact-audit-match",
+          "baseline_shader": {
+            "name": "Hero/Additive/Additive",
+            "bundle": "initial_base_global-41caf0cf-material-2.unity3d",
+            "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+            "pathid": "-666151408197827071"
+          },
+          "family": 16,
+          "platform": 4,
+          "keywords": [],
+          "bindings": [
+            {
+              "subshader": 0,
+              "pass_index": 0,
+              "pass_name": "",
+              "stage": "progVertex",
+              "blob": 1,
+              "gpu_type": 15,
+              "keywords": [],
+              "parameter_blob": 0,
+              "program_sha256": "15dd43c96dc5c9fd6df016d12bf837c3dd98f6ad5ec401f53577966cc5a8c920",
+              "parameter_sha256": "70878ed039754cc6681aeccfbfbfcb707ad1531881c8da8c95437031ff786c47"
+            },
+            {
+              "subshader": 0,
+              "pass_index": 0,
+              "pass_name": "",
+              "stage": "progFragment",
+              "blob": 3,
+              "gpu_type": 17,
+              "keywords": [],
+              "parameter_blob": 2,
+              "program_sha256": "a6399e8ecf7df20707ae41ed0b7105bab5684b9d3d4b498a1e6f8ffe85c65226",
+              "parameter_sha256": "06dfccf4f41db7e1cd89c9bab44e094f56f6dbf9b02f4bc804debbc478a99e13"
+            },
+            {
+              "subshader": 0,
+              "pass_index": 1,
+              "pass_name": "GlowTransparent",
+              "stage": "progVertex",
+              "blob": 4,
+              "gpu_type": 15,
+              "keywords": [],
+              "parameter_blob": 0,
+              "program_sha256": "97c9b6123bcc54ac0ff2ca40a0cb785f05ec6c81c31bddbf28ea4c2bde26a1c0",
+              "parameter_sha256": "70878ed039754cc6681aeccfbfbfcb707ad1531881c8da8c95437031ff786c47"
+            },
+            {
+              "subshader": 0,
+              "pass_index": 1,
+              "pass_name": "GlowTransparent",
+              "stage": "progFragment",
+              "blob": 6,
+              "gpu_type": 17,
+              "keywords": [],
+              "parameter_blob": 5,
+              "program_sha256": "23f3459e72c09da765859e979c5fcc78f37c64c17beda101b238cc9da4c0b9f7",
+              "parameter_sha256": "aa969974190fdff504ce7611eb8093a126964f64ba9a24150b6284b2afd6f270"
+            }
+          ],
+          "pass_render_states": [
+            {
+              "culling": 0.0,
+              "zWrite": 0.0,
+              "zTest": 4.0,
+              "blend": {
+                "srcBlend": 5.0,
+                "destBlend": 1.0,
+                "srcBlendAlpha": 5.0,
+                "destBlendAlpha": 1.0,
+                "blendOp": 0.0,
+                "blendOpAlpha": 0.0,
+                "colMask": 15.0
+              }
+            },
+            {
+              "culling": 0.0,
+              "zWrite": 0.0,
+              "zTest": 4.0,
+              "blend": {
+                "srcBlend": 1.0,
+                "destBlend": 1.0,
+                "srcBlendAlpha": 1.0,
+                "destBlendAlpha": 1.0,
+                "blendOp": 0.0,
+                "blendOpAlpha": 0.0,
+                "colMask": 15.0
+              }
+            }
+          ],
+          "pass_constant_byte_offsets": [
+            {
+              "progVertex": {
+                "$Globals": {
+                  "_MainLightColor": 96
+                },
+                "UnityPerDraw": {
+                  "unity_SHAr": 432,
+                  "unity_SHAg": 448,
+                  "unity_SHAb": 464
+                },
+                "UnityPerMaterial": {
+                  "_MainTex_ST": 0,
+                  "_TintColor": 16,
+                  "_LightingBlend": 64
+                }
+              },
+              "progFragment": {
+                "$Globals": {
+                  "_GlobalMipBias": 64
+                }
+              }
+            },
+            {
+              "progVertex": {
+                "$Globals": {},
+                "UnityPerDraw": {},
+                "UnityPerMaterial": {
+                  "_MainTex_ST": 0
+                }
+              },
+              "progFragment": {
+                "$Globals": {
+                  "_GlobalMipBias": 64
+                },
+                "UnityPerMaterial": {
+                  "_Color": 32,
+                  "_GlowColor": 48,
+                  "_GlowIntensity": 68,
+                  "_GlowAddMul": 72
+                }
+              }
+            }
+          ],
+          "full_card_effects_verified": false
+        },
+        "material_definition": {
+          "name": "FX_Weapon_SummonGlowRed",
+          "shader": "Hero/Additive/Additive",
+          "textures": [
+            {
+              "name": "_MainTex",
+              "path": "8d033fb932762deee4d34e91.png",
+              "scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          "floats": [
+            {
+              "name": "_GlowIntensity",
+              "value": 0.0
+            },
+            {
+              "name": "_GlowAddMul",
+              "value": 0.0
+            },
+            {
+              "name": "_LightingBlend",
+              "value": 0.0
+            },
+            {
+              "name": "_InvFade",
+              "value": 1.0
+            }
+          ],
+          "colors": [
+            {
+              "name": "_TintColor",
+              "value": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.501960813999176
+              }
+            },
+            {
+              "name": "_Color",
+              "value": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              }
+            },
+            {
+              "name": "_GlowColor",
+              "value": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              }
+            }
+          ],
+          "source": {
+            "cab": "CAB-ce5994190d1aec0cb58381aba153b724",
+            "pathid": "5704215285339026488",
+            "type": "Material",
+            "bundle": "initial_base_global-75c96a85-material-3.unity3d"
+          },
+          "missing_shader": false,
+          "properties": [
+            "$Globals",
+            "UnityPerDraw",
+            "UnityPerMaterial",
+            "_Color",
+            "_GlobalMipBias",
+            "_GlowAddMul",
+            "_GlowColor",
+            "_GlowIntensity",
+            "_LightingBlend",
+            "_MainLightColor",
+            "_MainTex",
+            "_MainTex_ST",
+            "_TintColor",
+            "unity_MatrixVP",
+            "unity_ObjectToWorld",
+            "unity_SHAb",
+            "unity_SHAg",
+            "unity_SHAr"
+          ],
+          "render_queue": 3000,
+          "queue_tag": "Transparent",
+          "passes": [
+            {
+              "index": 0,
+              "light_mode": "SRPDefaultUnlit"
+            },
+            {
+              "index": 1,
+              "light_mode": "GlowTransparent"
+            }
+          ],
+          "keywords": [],
+          "src": 5,
+          "dst": 1,
+          "src_alpha": 5,
+          "dst_alpha": 1,
+          "compiled_only": true
+        },
+        "texture_alpha_opaque": true,
+        "texture_alpha": {
+          "min": 255,
+          "max": 255,
+          "pixels": 262144
+        },
+        "duration": 0.6833333373069763,
+        "tint_alpha": 0.501960813999176,
+        "tint_curves": {
+          "r": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0220921039581299,
+              "outSlope": 1.0220921039581299
+            },
+            {
+              "time": 0.21666666865348816,
+              "value": 0.22145329415798187,
+              "inSlope": 1.104301929473877,
+              "outSlope": 1.104301929473877
+            },
+            {
+              "time": 0.5,
+              "value": 0.5576316714286804,
+              "inSlope": 0.6289615035057068,
+              "outSlope": 0.6289615035057068
+            },
+            {
+              "time": 0.6833333373069763,
+              "value": 0.5707237124443054,
+              "inSlope": 0.0714111328125,
+              "outSlope": 0.0714111328125
+            }
+          ],
+          "g": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.2095232009887695,
+              "outSlope": 1.2095232009887695
+            },
+            {
+              "time": 0.21666666865348816,
+              "value": 0.2620633542537689,
+              "inSlope": 1.2567229270935059,
+              "outSlope": 1.2567229270935059
+            },
+            {
+              "time": 0.5,
+              "value": 0.6315081119537354,
+              "inSlope": 0.9082761406898499,
+              "outSlope": 0.9082761406898499
+            },
+            {
+              "time": 0.6833333373069763,
+              "value": 0.7254902124404907,
+              "inSlope": 0.5126296281814575,
+              "outSlope": 0.5126296281814575
+            }
+          ],
+          "b": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.447963833808899,
+              "outSlope": 1.447963833808899
+            },
+            {
+              "time": 0.21666666865348816,
+              "value": 0.3137255012989044,
+              "inSlope": 1.4506255388259888,
+              "outSlope": 1.4506255388259888
+            },
+            {
+              "time": 0.5,
+              "value": 0.7254902124404907,
+              "inSlope": 0.26884761452674866,
+              "outSlope": 0.26884761452674866
+            },
+            {
+              "time": 0.6833333373069763,
+              "value": 0.5576316714286804,
+              "inSlope": -0.9155920147895813,
+              "outSlope": -0.9155920147895813
+            }
+          ]
+        },
+        "transform": {
+          "position": {
+            "x": 0.0,
+            "y": 0.3100000023841858,
+            "z": 0.0
+          },
+          "scale": {
+            "x": 18.736730575561523,
+            "y": 18.736730575561523,
+            "z": 18.736730575561523
+          }
+        }
+      }
+    },
+    {
+      "slot": 7,
+      "reference": "Card_Play_Weapon_Damage.prefab:f5881061a688d4095b81ca3d7a8c9cb7",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-6774036211842592729",
+        "type": "GameObject",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "fsm_source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "1938534218828304423",
+        "type": "MonoBehaviour",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "state": "Birth State 1",
+      "action": "AudioPlayAction",
+      "volume": 0.6,
+      "delay": 0,
+      "definition": {
+        "reference": "Card_Play_Weapon_Damage.prefab:f5881061a688d4095b81ca3d7a8c9cb7",
+        "source": {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-6774036211842592729",
+          "type": "GameObject",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        "nodes": [
+          {
+            "path": "",
+            "audio_sources": [
+              {
+                "source": {
+                  "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+                  "pathid": "691843042670235687",
+                  "type": "AudioSource",
+                  "bundle": "essential_base_global-prefab-0.unity3d"
+                },
+                "values": {
+                  "m_GameObject": {
+                    "m_FileID": 0,
+                    "m_PathID": -6774036211842592729
+                  },
+                  "m_Enabled": 1,
+                  "OutputAudioMixerGroup": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_audioClip": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_Resource": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_PlayOnAwake": false,
+                  "m_Volume": 1.0,
+                  "m_Pitch": 1.0,
+                  "Loop": false,
+                  "Mute": false,
+                  "Spatialize": false,
+                  "SpatializePostEffects": false,
+                  "Priority": 128,
+                  "DopplerLevel": 1.0,
+                  "MinDistance": 100.0,
+                  "MaxDistance": 500.0,
+                  "Pan2D": 0.0,
+                  "rolloffMode": 1,
+                  "BypassEffects": false,
+                  "BypassListenerEffects": false,
+                  "BypassReverbZones": false,
+                  "rolloffCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      },
+                      {
+                        "time": 1.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "panLevelCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 0
+                  },
+                  "spreadCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "reverbZoneMixCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 0
+                  }
+                }
+              }
+            ],
+            "sound_defs": [
+              {
+                "source": {
+                  "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+                  "pathid": "-5099911489269968857",
+                  "type": "MonoBehaviour",
+                  "bundle": "essential_base_global-prefab-0.unity3d"
+                },
+                "values": {
+                  "m_GameObject": {
+                    "m_FileID": 0,
+                    "m_PathID": -6774036211842592729
+                  },
+                  "m_Enabled": 1,
+                  "m_Script": {
+                    "m_FileID": 0,
+                    "m_PathID": 5395326102866774978
+                  },
+                  "m_Name": "",
+                  "m_AudioClip": "Weapon_Durability_Hit_01.wav:8cc86918ea7f78f4487be0f430b11119",
+                  "m_Category": 1,
+                  "m_RandomClips": [],
+                  "m_RandomPitchMin": 1.0,
+                  "m_RandomPitchMax": 1.0,
+                  "m_RandomVolumeMin": 1.0,
+                  "m_RandomVolumeMax": 1.0,
+                  "m_IgnoreDucking": 0,
+                  "m_persistPastGameEnd": 0,
+                  "m_InstanceLimited": 0,
+                  "m_InstanceLimitedDuration": 0.0,
+                  "m_InstanceLimitMaximum": 1,
+                  "m_LimitMaxOutOption": 0
+                }
+              }
+            ]
+          }
+        ],
+        "clips": [
+          {
+            "reference": "Weapon_Durability_Hit_01.wav:8cc86918ea7f78f4487be0f430b11119",
+            "source": {
+              "cab": "CAB-c491983cea83897756f11fa097177509",
+              "pathid": "4227194628362892406",
+              "type": "AudioClip",
+              "bundle": "essential_base_global-audio-0.unity3d"
+            },
+            "file": "508d69647c76de93961e372c.wav"
+          }
+        ],
+        "errors": [],
+        "complete": false,
+        "notes": [
+          "Exact source component data and clip provenance; SoundManager selection, ducking, limits, playback and FSM audio callbacks are not restored."
+        ]
+      },
+      "sound": null
+    },
+    {
+      "slot": 5,
+      "reference": "Card_Play_Weapon_Death.prefab:9583bd3b2ad5a4b9c90ed680d460a12e",
+      "source": {
+        "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+        "pathid": "-18408635862958045",
+        "type": "GameObject",
+        "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+      },
+      "fsm_source": {
+        "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+        "pathid": "-4378930605231521757",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+      },
+      "state": "Birth State 5",
+      "action": "AudioPlaythroughAction",
+      "volume": 1.0,
+      "delay": 0,
+      "definition": {
+        "reference": "Card_Play_Weapon_Death.prefab:9583bd3b2ad5a4b9c90ed680d460a12e",
+        "source": {
+          "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+          "pathid": "-18408635862958045",
+          "type": "GameObject",
+          "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+        },
+        "nodes": [
+          {
+            "path": "",
+            "audio_sources": [
+              {
+                "source": {
+                  "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+                  "pathid": "-3826802002970034141",
+                  "type": "AudioSource",
+                  "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+                },
+                "values": {
+                  "m_GameObject": {
+                    "m_FileID": 0,
+                    "m_PathID": -18408635862958045
+                  },
+                  "m_Enabled": 1,
+                  "OutputAudioMixerGroup": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_audioClip": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_Resource": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "m_PlayOnAwake": false,
+                  "m_Volume": 1.0,
+                  "m_Pitch": 1.0,
+                  "Loop": false,
+                  "Mute": false,
+                  "Spatialize": false,
+                  "SpatializePostEffects": false,
+                  "Priority": 128,
+                  "DopplerLevel": 1.0,
+                  "MinDistance": 100.0,
+                  "MaxDistance": 500.0,
+                  "Pan2D": 0.0,
+                  "rolloffMode": 1,
+                  "BypassEffects": false,
+                  "BypassListenerEffects": false,
+                  "BypassReverbZones": false,
+                  "rolloffCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      },
+                      {
+                        "time": 1.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "panLevelCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 0
+                  },
+                  "spreadCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "reverbZoneMixCustomCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.3333333432674408
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 0
+                  }
+                }
+              }
+            ],
+            "sound_defs": [
+              {
+                "source": {
+                  "cab": "CAB-33ac7a42de0e5712cf0d622e368df924",
+                  "pathid": "3489581598230429731",
+                  "type": "MonoBehaviour",
+                  "bundle": "initial_base_global-2ebe64b8-prefab-3.unity3d"
+                },
+                "values": {
+                  "m_GameObject": {
+                    "m_FileID": 0,
+                    "m_PathID": -18408635862958045
+                  },
+                  "m_Enabled": 1,
+                  "m_Script": {
+                    "m_FileID": 0,
+                    "m_PathID": 5395326102866774978
+                  },
+                  "m_Name": "",
+                  "m_AudioClip": "",
+                  "m_Category": 1,
+                  "m_RandomClips": [],
+                  "m_RandomPitchMin": 1.0,
+                  "m_RandomPitchMax": 1.0,
+                  "m_RandomVolumeMin": 1.0,
+                  "m_RandomVolumeMax": 1.0,
+                  "m_IgnoreDucking": 0,
+                  "m_persistPastGameEnd": 0,
+                  "m_InstanceLimited": 0,
+                  "m_InstanceLimitedDuration": 0.0,
+                  "m_InstanceLimitMaximum": 1,
+                  "m_LimitMaxOutOption": 0
+                }
+              }
+            ]
+          }
+        ],
+        "clips": [],
+        "errors": [],
+        "complete": false,
+        "notes": [
+          "Exact source component data and clip provenance; SoundManager selection, ducking, limits, playback and FSM audio callbacks are not restored."
+        ]
+      },
+      "sound": {
+        "source": {
+          "cab": "CAB-4343ce54f038f79400e3a3e8964e10e6",
+          "pathid": "-6015369536940729824",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-51c33550-prefab-0.unity3d"
+        },
+        "values": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 6597215921057503776
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 0,
+            "m_PathID": 5395326102866774978
+          },
+          "m_Name": "",
+          "m_AudioClip": "Weapon_Destruction_01.wav:780a0d0d979a7684484209017ab3ddd9",
+          "m_Category": 1,
+          "m_RandomClips": [],
+          "m_RandomPitchMin": 1.0,
+          "m_RandomPitchMax": 1.0,
+          "m_RandomVolumeMin": 1.0,
+          "m_RandomVolumeMax": 1.0,
+          "m_IgnoreDucking": 0,
+          "m_persistPastGameEnd": 0,
+          "m_InstanceLimited": 0,
+          "m_InstanceLimitedDuration": 0.0,
+          "m_InstanceLimitMaximum": 1,
+          "m_LimitMaxOutOption": 0
+        },
+        "clips": [
+          {
+            "reference": "Weapon_Destruction_01.wav:780a0d0d979a7684484209017ab3ddd9",
+            "source": {
+              "cab": "CAB-c5a93f7dd1cb2cb92bf1a135c39a2a18",
+              "pathid": "-3480726237575201046",
+              "type": "AudioClip",
+              "bundle": "initial_base_global-51c33550-audio-0.unity3d"
+            },
+            "file": "08d714cf9696d373af93bc9b.wav"
+          }
+        ]
+      }
+    }
+  ],
+  "audio_scope": {
+    "card_type": "WEAPON",
+    "trigger": "first true Summon for the equipped weapon entity",
+    "friendly_slot": 41,
+    "opponent_slot": 42,
+    "damage_slot": 7,
+    "death_slot": 5
+  },
+  "limitations": [
+    "The summon glow uses the exact locally audited Hero/Additive/Additive shader and source material; the wider Actor/Spell lifecycle remains unresolved."
+  ]
+}

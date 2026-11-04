@@ -1,0 +1,179 @@
+{
+  "programs": [
+    {
+      "file": "2ac223d9b583771c9eb24338.native-effect.json",
+      "actions": 8,
+      "parameters": 20,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super_Random.prefab:e51c00c98fe156748a1e45b17b0fb182",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5909194798680725276",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetMesh",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "SetMesh",
+          "parameter": "gameObject",
+          "node": 15
+        },
+        {
+          "action": "SetMesh",
+          "parameter": "gameObject",
+          "node": 17
+        },
+        {
+          "action": "SetMesh",
+          "parameter": "gameObject",
+          "node": 19
+        },
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 16
+        },
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 18
+        },
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 20
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Asphyxiate_Super_WithIdle.prefab:676fef5a5e50055409210c583d22859e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-4635486465453515186",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 22
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "Shadow_ShadowWordPain_FX.prefab:ceb8d5daaa8c10a4c9982de97967d6ae",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-4635486465453515186",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 19
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "actions": 8,
+      "parameters": 20,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super.prefab:5f189b59ddd96234ba95040813a40274",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "3278325011287662579",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetMesh",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "SetMesh",
+          "parameter": "gameObject",
+          "node": 15
+        },
+        {
+          "action": "SetMesh",
+          "parameter": "gameObject",
+          "node": 17
+        },
+        {
+          "action": "SetMesh",
+          "parameter": "gameObject",
+          "node": 19
+        },
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 16
+        },
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 18
+        },
+        {
+          "action": "SetMaterial",
+          "parameter": "gameObject",
+          "node": 20
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source SetMaterial, SetMesh parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

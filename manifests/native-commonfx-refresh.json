@@ -1,0 +1,3730 @@
+{
+  "programs": [
+    {
+      "cache": "local/runtime/0208d33997474327c8d92d82.native-effect.json",
+      "materials": 2,
+      "sources": [
+        {
+          "cab": "CAB-22d8ebc40a5c633f988930ccc4fdacd7",
+          "pathid": "-8012932930727587868",
+          "type": "Material",
+          "bundle": "initial_base_global-75c96a85-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-22d8ebc40a5c633f988930ccc4fdacd7",
+          "pathid": "-8012932930727587868",
+          "type": "Material",
+          "bundle": "initial_base_global-75c96a85-material-1.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/03f4011c21d2abaf92986b43.native-effect.json",
+      "materials": 6,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "912913155197267709",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/07d5c8fa493ccf7d60c73886.native-effect.json",
+      "materials": 5,
+      "sources": [
+        {
+          "cab": "CAB-de1cc296c5817e5321899d62ba846c8d",
+          "pathid": "-3367736066918114855",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-6.unity3d"
+        },
+        {
+          "cab": "CAB-de1cc296c5817e5321899d62ba846c8d",
+          "pathid": "-3367736066918114855",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-6.unity3d"
+        },
+        {
+          "cab": "CAB-b95e03c08f0747e67945a890cb84cdfc",
+          "pathid": "-6517370613661850603",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-de1cc296c5817e5321899d62ba846c8d",
+          "pathid": "-3367736066918114855",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-6.unity3d"
+        },
+        {
+          "cab": "CAB-b95e03c08f0747e67945a890cb84cdfc",
+          "pathid": "-6517370613661850603",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-3.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/0a68d36d48a0f777097c01e6.native-effect.json",
+      "materials": 15,
+      "sources": [
+        {
+          "cab": "CAB-44a978593b4a2f30685d5555cb1492c9",
+          "pathid": "7565575127343590017",
+          "type": "Material",
+          "bundle": "initial_base_global-0516e06c-material-5.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "181041972606778170",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4709472994146329061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-7e621910ec175ffd11744b5058033f80",
+          "pathid": "-5956535060539600354",
+          "type": "Material",
+          "bundle": "initial_base_global-384202c8-material-8.unity3d"
+        },
+        {
+          "cab": "CAB-dc745c644c559f8d08a292d38e4577db",
+          "pathid": "-5856091300514777752",
+          "type": "Material",
+          "bundle": "initial_base_global-7a441cb3-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-8697278102308028061",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5934037387141184363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-6643552435225949803",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "2425191998514590922",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-8697278102308028061",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-8697278102308028061",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-3551905254697570055",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/0f0ec46ae18fad7f2fa1dad7.native-effect.json",
+      "materials": 10,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-4621805816370488462",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "6559350765001264480",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "9192784400433890647",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5574982487252054290",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-4088767752657759885",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "9192784400433890647",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/13e4ba2cda5d567ad3d3e0be.native-effect.json",
+      "materials": 10,
+      "sources": [
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "4246557624846511550",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-2087729829086752345",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-8275038481226117795",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-8275038481226117795",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-2087729829086752345",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-2087729829086752345",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-de1cc296c5817e5321899d62ba846c8d",
+          "pathid": "-8138006986092597483",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-6.unity3d"
+        },
+        {
+          "cab": "CAB-7383f722cdce08666d85265705766e20",
+          "pathid": "-713359200836004765",
+          "type": "Material",
+          "bundle": "initial_base_global-64194cb9-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-7896b02ea6ae1e75d725415a5c58697e",
+          "pathid": "-6731504256346088083",
+          "type": "Material",
+          "bundle": "initial_base_global-5c47a539-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-3383784837126031188",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/14d308312c2f019c433233d2.native-effect.json",
+      "materials": 60,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7829564058214815133",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7829564058214815133",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7829564058214815133",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7484842917599301861",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1852227691487783001",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1852227691487783001",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7829564058214815133",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5431195404408582075",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5431195404408582075",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-6221844051969839011",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7710715285892106797",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "8532269460583809926",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5431195404408582075",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5431195404408582075",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5431195404408582075",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-6221844051969839011",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7710715285892106797",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "8532269460583809926",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5431195404408582075",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5431195404408582075",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-6221844051969839011",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4709472994146329061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7860943533413362208",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7829564058214815133",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5431195404408582075",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5431195404408582075",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8461419248072741883",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-6221844051969839011",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7710715285892106797",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "8532269460583809926",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7404121236535998055",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "6241873899395589857",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3453915697347051663",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3453915697347051663",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3453915697347051663",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3453915697347051663",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3453915697347051663",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3453915697347051663",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3453915697347051663",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-4946884669743758250",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-6355794544941013455",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/1ae606ad4f7dc8da9eb50b93.native-effect.json",
+      "materials": 4,
+      "sources": [
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "8471621188458365580",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3684901914381965317",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3486101058080075474",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "532118449680974290",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/1e0c31e9a92b65ad90510c2c.native-effect.json",
+      "materials": 4,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "8693614813915252866",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5934037387141184363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7949539841405695871",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/223522c32fa85768f21c4c95.native-effect.json",
+      "materials": 17,
+      "sources": [
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-3858398361758669534",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-3858398361758669534",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "8295385046024561946",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-2585966204605425885",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "4101029897418195026",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "4101029897418195026",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-2585966204605425885",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-4148263565124787032",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-4148263565124787032",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-4148263565124787032",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "6241873899395589857",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5691876700399819441",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+          "pathid": "-4008742131735265723",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/250d9fe15c7fdcd8f974c1af.native-effect.json",
+      "materials": 5,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5081681105784439061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4781992273204369874",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "2145219961704441120",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/2625abebdd54657b9367a411.native-effect.json",
+      "materials": 8,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-b95e03c08f0747e67945a890cb84cdfc",
+          "pathid": "-529533725590617833",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-b95e03c08f0747e67945a890cb84cdfc",
+          "pathid": "-529533725590617833",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-3a350020a3404124974e45e1327be50c",
+          "pathid": "5109772206520378629",
+          "type": "Material",
+          "bundle": "initial_base_global-7a441cb3-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2175265835373296603",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/27544fa6167cb58c1a323d04.native-effect.json",
+      "materials": 5,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1698854764859286708",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "1130528069726293511",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "-4501650066325840697",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/29935f9acd53575e648ee1cd.native-effect.json",
+      "materials": 1,
+      "sources": [
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "532118449680974290",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/2ac223d9b583771c9eb24338.native-effect.json",
+      "materials": 42,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022257554966695273",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7860943533413362208",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4781992273204369874",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5934037387141184363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/2c478f5ac211da01190f3cff.native-effect.json",
+      "materials": 17,
+      "sources": [
+        {
+          "cab": "CAB-bc9fc1a34ae382836d2491137f825b0f",
+          "pathid": "-7586677271728154524",
+          "type": "Material",
+          "bundle": "initial_base_global-67d2d0c1-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-bc9fc1a34ae382836d2491137f825b0f",
+          "pathid": "-7586677271728154524",
+          "type": "Material",
+          "bundle": "initial_base_global-67d2d0c1-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7860943533413362208",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-7896b02ea6ae1e75d725415a5c58697e",
+          "pathid": "-3091894725863503453",
+          "type": "Material",
+          "bundle": "initial_base_global-5c47a539-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "6241873899395589857",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-c0340cfc3cba33afd15c8ff759613fe9",
+          "pathid": "-3630368692384662640",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-5.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4709472994146329061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-dc745c644c559f8d08a292d38e4577db",
+          "pathid": "-5856091300514777752",
+          "type": "Material",
+          "bundle": "initial_base_global-7a441cb3-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-dc745c644c559f8d08a292d38e4577db",
+          "pathid": "-5856091300514777752",
+          "type": "Material",
+          "bundle": "initial_base_global-7a441cb3-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-eaa14145af3c37a7093d5341a6f2b162",
+          "pathid": "46870561614105579",
+          "type": "Material",
+          "bundle": "initial_base_global-384202c8-material-5.unity3d"
+        },
+        {
+          "cab": "CAB-eaa14145af3c37a7093d5341a6f2b162",
+          "pathid": "-9162351844788941310",
+          "type": "Material",
+          "bundle": "initial_base_global-384202c8-material-5.unity3d"
+        },
+        {
+          "cab": "CAB-28fe2b8997288321f38f180d0596c3b1",
+          "pathid": "-8594731950113080270",
+          "type": "Material",
+          "bundle": "initial_base_global-6aa9ba6a-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-28fe2b8997288321f38f180d0596c3b1",
+          "pathid": "-5579547193252429655",
+          "type": "Material",
+          "bundle": "initial_base_global-6aa9ba6a-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-bc9fc1a34ae382836d2491137f825b0f",
+          "pathid": "-7586677271728154524",
+          "type": "Material",
+          "bundle": "initial_base_global-67d2d0c1-material-4.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/3b53c6edac0ba99e03be30be.native-effect.json",
+      "materials": 18,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-893914699229748261",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4219049427212303973",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1778925660866676903",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1952882831649906968",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "8734945615698675873",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "8734945615698675873",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "8734945615698675873",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/3cb07efcffc2d55dbd6283ec.native-effect.json",
+      "materials": 10,
+      "sources": [
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "-2056526820643919121",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "-2056526820643919121",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-701514817f025c6f10b2cde3882ac5b8",
+          "pathid": "-825463206803071358",
+          "type": "Material",
+          "bundle": "initial_base_global-67d2d0c1-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "-2056526820643919121",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "6241873899395589857",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5691876700399819441",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+          "pathid": "-4008742131735265723",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-7896b02ea6ae1e75d725415a5c58697e",
+          "pathid": "-6731504256346088083",
+          "type": "Material",
+          "bundle": "initial_base_global-5c47a539-material-2.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/41e38a34b7bd86521bfdc021.native-effect.json",
+      "materials": 23,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3786854476453376428",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1983698107726135392",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1307373732370407713",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2294176223041515942",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2294176223041515942",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2294176223041515942",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2294176223041515942",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2294176223041515942",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1307373732370407713",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2294176223041515942",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2294176223041515942",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2294176223041515942",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2294176223041515942",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "6380349654901168286",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5487777829061559319",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5487777829061559319",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4414997911890260710",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7829564058214815133",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7829564058214815133",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/45ef4addd6c85646d51fbc40.native-effect.json",
+      "materials": 12,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8359172822425157478",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "6725597626495375408",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2052283505519279922",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-4776594977486902692",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2175265835373296603",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1729925016682128312",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "6725597626495375408",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2052283505519279922",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "238149437606375158",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2175265835373296603",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/4d8519098584bdd2988a4511.native-effect.json",
+      "materials": 8,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1698854764859286708",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "1130528069726293511",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "-4501650066325840697",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "8734945615698675873",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/4ee6ffa1aa571c59d1e93571.native-effect.json",
+      "materials": 9,
+      "sources": [
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "8471621188458365580",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3684901914381965317",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3486101058080075474",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "8471621188458365580",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3684901914381965317",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3486101058080075474",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "8471621188458365580",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3684901914381965317",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3486101058080075474",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/57e74cc43277c106c26561a5.native-effect.json",
+      "materials": 13,
+      "sources": [
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "7053466795280069407",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "1166583806754172511",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "912913155197267709",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-8274387384854588195",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "-4458540234643531616",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5596324248839077568",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "6818233465240724432",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-8a007ca127efc618f4134981ed48022b",
+          "pathid": "6679440540258475469",
+          "type": "Material",
+          "bundle": "initial_base_global-84b1a5c7-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-c0340cfc3cba33afd15c8ff759613fe9",
+          "pathid": "-3630368692384662640",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-5.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "912913155197267709",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "912913155197267709",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/602b502c504637627ef27839.native-effect.json",
+      "materials": 6,
+      "sources": [
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "-2056526820643919121",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "5957065568155469582",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "-5896514667491060749",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "-6612547195572309060",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "-2020618078346221903",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/621c28345b06404ee035c496.native-effect.json",
+      "materials": 5,
+      "sources": [
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "5648933705259253300",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "5648933705259253300",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3825841484765370788",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5594247805361335953",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/626a39e9a224655b6cbc8b10.native-effect.json",
+      "materials": 9,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5574982487252054290",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "1343496476500565867",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-4088767752657759885",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "-5850560283464868980",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "4281199411652716968",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "9070620643945710446",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-1345109031112865333",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/6add519a1ee232e82b2e0ec0.native-effect.json",
+      "materials": 17,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-893914699229748261",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4219049427212303973",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1778925660866676903",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1952882831649906968",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2494643840464101855",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2175265835373296603",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5691876700399819441",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2494643840464101855",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2175265835373296603",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/74398d37bea0bf0116c207f0.native-effect.json",
+      "materials": 18,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-893914699229748261",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4219049427212303973",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1778925660866676903",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1952882831649906968",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "8734945615698675873",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "8734945615698675873",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "8734945615698675873",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/7c00515137b2d3502a142b82.native-effect.json",
+      "materials": 4,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-e3cb11f7dce7f4646ea87caae3d48ffe",
+          "pathid": "-3567916711116684856",
+          "type": "Material",
+          "bundle": "initial_base_global-384202c8-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-e3cb11f7dce7f4646ea87caae3d48ffe",
+          "pathid": "-3567916711116684856",
+          "type": "Material",
+          "bundle": "initial_base_global-384202c8-material-4.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/81d48cc85076bc4fff8d63f8.native-effect.json",
+      "materials": 8,
+      "sources": [
+        {
+          "cab": "CAB-14a96c6564ca76ec8709c038709b0f66",
+          "pathid": "154783023592625735",
+          "type": "Material",
+          "bundle": "initial_base_global-ef57b03f-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-14a96c6564ca76ec8709c038709b0f66",
+          "pathid": "-5546527540716675111",
+          "type": "Material",
+          "bundle": "initial_base_global-ef57b03f-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-7b760d3605c84866ab5c9e7b2a1986f5",
+          "pathid": "-4412226528117534948",
+          "type": "Material",
+          "bundle": "initial_base_global-5c47a539-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7860943533413362208",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "-4488488082830834421",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-14a96c6564ca76ec8709c038709b0f66",
+          "pathid": "7921888936921788294",
+          "type": "Material",
+          "bundle": "initial_base_global-ef57b03f-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7860943533413362208",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "-4488488082830834421",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/90a7e2726cd4aa8e4a09b6a2.native-effect.json",
+      "materials": 15,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-893914699229748261",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4219049427212303973",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1778925660866676903",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1952882831649906968",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3371052122188278911",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2494643840464101855",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5691876700399819441",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2494643840464101855",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/926f7769cdb39f3539526249.native-effect.json",
+      "materials": 16,
+      "sources": [
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "9192784400433890647",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "9192784400433890647",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3699540904434205198",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "-6372480898650448592",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3699540904434205198",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3699540904434205198",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "-6372480898650448592",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-7b760d3605c84866ab5c9e7b2a1986f5",
+          "pathid": "-4412226528117534948",
+          "type": "Material",
+          "bundle": "initial_base_global-5c47a539-material-3.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/93313b7c2aed67a49667c4c4.native-effect.json",
+      "materials": 9,
+      "sources": [
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-3858398361758669534",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-3858398361758669534",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "8295385046024561946",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-2585966204605425885",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "4101029897418195026",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "4101029897418195026",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-2585966204605425885",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/a26a0cc9cc8643e15caa29a6.native-effect.json",
+      "materials": 4,
+      "sources": [
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "-3124945250877850586",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "8579537435680627165",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "-3124945250877850586",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "-3124945250877850586",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/a8ceb03085470907fbfcf134.native-effect.json",
+      "materials": 19,
+      "sources": [
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "23558208492129481",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7860943533413362208",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1048598798953933862",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/a8cf92633f5d3d82c7685134.native-effect.json",
+      "materials": 3,
+      "sources": [
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "8471621188458365580",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3684901914381965317",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3486101058080075474",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/b065ad44069e20c1ebba8485.native-effect.json",
+      "materials": 7,
+      "sources": [
+        {
+          "cab": "CAB-ca2a3e1fcded030ef052ed591e898d33",
+          "pathid": "6139641298026555583",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-9.unity3d"
+        },
+        {
+          "cab": "CAB-ca2a3e1fcded030ef052ed591e898d33",
+          "pathid": "-2407892982189130649",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-9.unity3d"
+        },
+        {
+          "cab": "CAB-ca2a3e1fcded030ef052ed591e898d33",
+          "pathid": "2564033118593586558",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-9.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2175265835373296603",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2175265835373296603",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "materials": 42,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-305245400860472363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2117347017853849092",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "7763319026970161061",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022257554966695273",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7860943533413362208",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4781992273204369874",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "5934037387141184363",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2271800496214560159",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/b1821a5603e5bb0cbd6f2deb.native-effect.json",
+      "materials": 2,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/c53d28f7c2d01da67780e3fd.native-effect.json",
+      "materials": 6,
+      "sources": [
+        {
+          "cab": "CAB-d4aa448d42df982fea4e41228ba60efb",
+          "pathid": "-2402261410564259445",
+          "type": "Material",
+          "bundle": "initial_base_global-9f363830-material-5.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-45cb47ff4055206c0511e79c40383325",
+          "pathid": "2601595335290966479",
+          "type": "Material",
+          "bundle": "initial_base_global-5fc02a26-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "-4488488082830834421",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-2022619447293706853",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/cf9d4c60b62b3aa53b3bbc73.native-effect.json",
+      "materials": 3,
+      "sources": [
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "8471621188458365580",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3684901914381965317",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3486101058080075474",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/d302cce0aba660e4a87ec9a8.native-effect.json",
+      "materials": 1,
+      "sources": [
+        {
+          "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+          "pathid": "-5263854459586137919",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/d40370bc9615eb69423e852d.native-effect.json",
+      "materials": 9,
+      "sources": [
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "8471621188458365580",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3684901914381965317",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3486101058080075474",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "8471621188458365580",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3684901914381965317",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "3486101058080075474",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "-5907267331096803345",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "-5907267331096803345",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2715889178752302503",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/d4dfd34b1825cf367c392e29.native-effect.json",
+      "materials": 9,
+      "sources": [
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "8579537435680627165",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "-4488488082830834421",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "-4488488082830834421",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "8579537435680627165",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-495501045043740233",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-2418566847162656167",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "8579537435680627165",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "-4488488082830834421",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "2715889178752302503",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/d554fc3ef71c90388d48ea9e.native-effect.json",
+      "materials": 12,
+      "sources": [
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-3858398361758669534",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-3858398361758669534",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "8295385046024561946",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-2585966204605425885",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "4101029897418195026",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "4101029897418195026",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+          "pathid": "-2585966204605425885",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+          "pathid": "8734945615698675873",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/d5938d6ea1d4ad32273f3adb.native-effect.json",
+      "materials": 7,
+      "sources": [
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1698854764859286708",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "1130528069726293511",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "-4501650066325840697",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-588079009979843790",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-401747006264248867",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/d983377e9b38c87392ce32b9.native-effect.json",
+      "materials": 1,
+      "sources": [
+        {
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "532118449680974290",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/e1259b0f7ac48a90c996cbfc.native-effect.json",
+      "materials": 6,
+      "sources": [
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "2131335879238958820",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1952882831649906968",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8278187377652424873",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3361880360113385377",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3361880360113385377",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/e32b4e8bcf8485b4ed5fcb47.native-effect.json",
+      "materials": 3,
+      "sources": [
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "5957065568155469582",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "624135709205307538",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        },
+        {
+          "cab": "CAB-a6782078c1c5ee14c773db48bebfcfd1",
+          "pathid": "-2056526820643919121",
+          "type": "Material",
+          "bundle": "initial_base_global-775a814d-material-3.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/ed5ac22edca10110b2504c5f.native-effect.json",
+      "materials": 14,
+      "sources": [
+        {
+          "cab": "CAB-c0340cfc3cba33afd15c8ff759613fe9",
+          "pathid": "4265676029825795799",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-5.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1952882831649906968",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8278187377652424873",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-8714bbd4ee88b6daf60bc05802a755fe",
+          "pathid": "-6694933256199509824",
+          "type": "Material",
+          "bundle": "initial_base_global-40cb6b8d-material-7.unity3d"
+        },
+        {
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "2131335879238958820",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1952882831649906968",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8278187377652424873",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-0057c29a7065428512ffc7a66f766ff3",
+          "pathid": "6568747003095182220",
+          "type": "Material",
+          "bundle": "initial_base_global-41caf0cf-material-1.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1952882831649906968",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7139440302662010311",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-8278187377652424873",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-8714bbd4ee88b6daf60bc05802a755fe",
+          "pathid": "-6694933256199509824",
+          "type": "Material",
+          "bundle": "initial_base_global-40cb6b8d-material-7.unity3d"
+        }
+      ]
+    },
+    {
+      "cache": "local/runtime/fb1aeb2761c9e4e2da46df0e.native-effect.json",
+      "materials": 10,
+      "sources": [
+        {
+          "cab": "CAB-28fe2b8997288321f38f180d0596c3b1",
+          "pathid": "-2040432070142565917",
+          "type": "Material",
+          "bundle": "initial_base_global-6aa9ba6a-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-28fe2b8997288321f38f180d0596c3b1",
+          "pathid": "-176798323380117889",
+          "type": "Material",
+          "bundle": "initial_base_global-6aa9ba6a-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "9192784400433890647",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "9192784400433890647",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-28fe2b8997288321f38f180d0596c3b1",
+          "pathid": "-2040432070142565917",
+          "type": "Material",
+          "bundle": "initial_base_global-6aa9ba6a-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-28fe2b8997288321f38f180d0596c3b1",
+          "pathid": "-176798323380117889",
+          "type": "Material",
+          "bundle": "initial_base_global-6aa9ba6a-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "9192784400433890647",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "9192784400433890647",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "162201876279239719",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "updated": 0,
+  "unique_materials": 151,
+  "notes": [
+    "Exact source keywords and property-backed blend states only. Geometry, textures, clips and enable flags preserved."
+  ]
+}

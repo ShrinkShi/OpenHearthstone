@@ -1,0 +1,1032 @@
+{
+  "assets": [
+    {
+      "id": "UI_MULLIGAN_BANNER",
+      "name": "Mulligan_Banner",
+      "bundle": "essential_base_global-texture-1.unity3d",
+      "cab": "CAB-e02b69b1bbe893a6736884865127e637",
+      "pathid": "3670461218850611425",
+      "type": "Texture2D",
+      "guids": [
+        "edfe46ac3fe249d4f9e4dbce95713486"
+      ],
+      "cache": "406cdedfa3e74fd65b6f1aa4.png",
+      "usage": "inspected_only",
+      "asset_id": "406cdedfa3e74fd65b6f1aa4"
+    },
+    {
+      "id": "UI_MULLIGAN_MARK",
+      "name": "Mulligan_X",
+      "bundle": "essential_base_global-texture-1.unity3d",
+      "cab": "CAB-e02b69b1bbe893a6736884865127e637",
+      "pathid": "1444403703838039205",
+      "type": "Texture2D",
+      "guids": [
+        "cd310c370cf7250408ba324cf94a64e5"
+      ],
+      "cache": "5743a46b23811e54b263cd55.png",
+      "usage": "runtime",
+      "asset_id": "5743a46b23811e54b263cd55"
+    },
+    {
+      "id": "UI_MULLIGAN_REPLACE",
+      "name": "Mulligan_ReplaceKeep",
+      "bundle": "essential_base_global-texture-1.unity3d",
+      "cab": "CAB-e02b69b1bbe893a6736884865127e637",
+      "pathid": "665404440593027719",
+      "type": "Texture2D",
+      "guids": [
+        "9426b45a46a2bd244939a29d041e61db"
+      ],
+      "cache": "13986ebfc5beb74edfcf7421.png",
+      "usage": "inspected_only",
+      "asset_id": "13986ebfc5beb74edfcf7421"
+    },
+    {
+      "id": "UI_STANDARD_BUTTON",
+      "name": "StandardButton",
+      "bundle": "@player/resources.assets",
+      "cab": "resources.assets",
+      "pathid": "42",
+      "type": "Texture2D",
+      "guids": [],
+      "cache": "c8b794e8a7da18b5a16f4983.png",
+      "usage": "inspected_only",
+      "asset_id": "c8b794e8a7da18b5a16f4983"
+    },
+    {
+      "id": "UI_MINION_READY",
+      "name": "GenFX_AllyInPlayGlow",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "6446678601891548080",
+      "type": "Texture2D",
+      "guids": [
+        "3849c1531ce056541b0301096d355fe9"
+      ],
+      "cache": "b8da39755ef4a473c0cba836.png",
+      "usage": "inspected_only",
+      "asset_id": "b8da39755ef4a473c0cba836"
+    },
+    {
+      "id": "UI_CARD_GLOW",
+      "name": "GenFX_CardGlow_Generic1",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-1265481825642155653",
+      "type": "Texture2D",
+      "guids": [
+        "3147cd6234ee1d0419b63ce2528d50ad"
+      ],
+      "cache": "c368bbfa625b734f0a761508.png",
+      "usage": "inspected_only",
+      "asset_id": "c368bbfa625b734f0a761508"
+    },
+    {
+      "id": "UI_VICTORY",
+      "name": "Victory",
+      "bundle": "essential_base_global-texture-1.unity3d",
+      "cab": "CAB-e02b69b1bbe893a6736884865127e637",
+      "pathid": "-1607805412206087595",
+      "type": "Texture2D",
+      "guids": [
+        "196914ae5ff87de409040aac0828aa9e"
+      ],
+      "cache": "733e03d7883a09200f8a2c77.png",
+      "usage": "inspected_only",
+      "asset_id": "733e03d7883a09200f8a2c77"
+    },
+    {
+      "id": "UI_TARGET_ARROW",
+      "name": "ArrowTail_D",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-7588750597135121321",
+      "type": "Texture2D",
+      "guids": [
+        "a9759d60655341b43bc8c830faa9fd40"
+      ],
+      "cache": "e3b47985948bcd134c2943b0.png",
+      "usage": "inspected_only",
+      "asset_id": "e3b47985948bcd134c2943b0"
+    },
+    {
+      "id": "UI_TARGET_HEAD",
+      "name": "ArrowTargetA_D",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-7582382417671539740",
+      "type": "Texture2D",
+      "guids": [
+        "2826622c6f83e5240ac71a2953811212"
+      ],
+      "cache": "47bd8957e7a9c53978fa5f9f.png",
+      "usage": "inspected_only",
+      "asset_id": "47bd8957e7a9c53978fa5f9f"
+    },
+    {
+      "id": "VFX_IMPACT_SOURCE",
+      "name": "GenFX_ArrowImpactGlow",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "4652189980459656417",
+      "type": "Texture2D",
+      "guids": [
+        "5a2a6a57ca1406947917ede7b9232525"
+      ],
+      "cache": "3bf125a39a0784ab3a363dde.png",
+      "usage": "inspected_only",
+      "asset_id": "3bf125a39a0784ab3a363dde"
+    },
+    {
+      "id": "UI_END_TURN",
+      "name": "Board_EndTurnButton",
+      "bundle": "essential_base_global-texture-0.unity3d",
+      "cab": "CAB-cfdc5301ac0b17c5a76ad477fba38b57",
+      "pathid": "-2803162062817682347",
+      "type": "Texture2D",
+      "guids": [
+        "3e791de4f1b04f9449117b5c69559b09"
+      ],
+      "cache": "3100498b64a7eb5e1ff37644.png",
+      "usage": "runtime",
+      "asset_id": "3100498b64a7eb5e1ff37644"
+    },
+    {
+      "id": "VFX_FIREBALL_BOLT",
+      "name": "GenFX_Fireball_1Hot",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "7351024354459681959",
+      "type": "Texture2D",
+      "guids": [
+        "3e717dfe8de514e88b83a4357b77e539"
+      ],
+      "cache": "bd2ee0d66cdfd78612981353.png",
+      "usage": "runtime",
+      "asset_id": "bd2ee0d66cdfd78612981353"
+    },
+    {
+      "id": "UI_GENFX_HEROFRAME",
+      "name": "GenFX_HeroFrame",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "6206067050481922451",
+      "type": "Texture2D",
+      "guids": [
+        "0d888833c7bc8e048bc5a39e09cece64"
+      ],
+      "cache": "f58981fbe45567c2db363b3b.png",
+      "usage": "runtime",
+      "asset_id": "f58981fbe45567c2db363b3b"
+    },
+    {
+      "id": "UI_GENFX_CARD_INPLAY_ALLYFRAME",
+      "name": "GenFX_Card_InPlay_AllyFrame",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "674626047316995440",
+      "type": "Texture2D",
+      "guids": [
+        "7d9055628b38abc4f9516f17bc900475"
+      ],
+      "cache": "9eb01cb2b3342b6f6fb734c2.png",
+      "usage": "runtime",
+      "asset_id": "9eb01cb2b3342b6f6fb734c2"
+    },
+    {
+      "id": "UI_GENFX_CARD_INHAND_BANNERATLAS",
+      "name": "GenFX_Card_InHand_BannerAtlas",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-3034482519384879705",
+      "type": "Texture2D",
+      "guids": [
+        "a4f34df432e6c2340bddfdb78370ce70"
+      ],
+      "cache": "57c3e365d2cd1e6552721929.png",
+      "usage": "runtime",
+      "asset_id": "57c3e365d2cd1e6552721929"
+    },
+    {
+      "id": "SFX_TURN_START",
+      "name": "ALERT_YourTurn_0v2",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "4381140095221488431",
+      "type": "AudioClip",
+      "guids": [
+        "ed4d6c88b0ba7d4488c71fe607d87e0e"
+      ],
+      "cache": "090767dbcbc49729339b44dd.wav",
+      "usage": "runtime",
+      "asset_id": "090767dbcbc49729339b44dd"
+    },
+    {
+      "id": "SFX_END_TURN",
+      "name": "FX_EndTurn_Down",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-2362708036934007715",
+      "type": "AudioClip",
+      "guids": [
+        "dedb8ffcd2e22fe4888ab6d27c0f5009"
+      ],
+      "cache": "ca8069f1496e2727cdc90407.wav",
+      "usage": "runtime",
+      "asset_id": "ca8069f1496e2727cdc90407"
+    },
+    {
+      "id": "SFX_ATTACK_IMPACT",
+      "name": "FX_Minion_AttackImpact",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-7770667372162459755",
+      "type": "AudioClip",
+      "guids": [
+        "784c4afefc057624fa90cab6478eed93"
+      ],
+      "cache": "361d87a70832cce968ae680b.wav",
+      "usage": "runtime",
+      "asset_id": "361d87a70832cce968ae680b"
+    },
+    {
+      "id": "SFX_ARMOR_HIT",
+      "name": "Armor_Splat_Damage",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-27.unity3d",
+      "cab": "CAB-45b9fdea82cf7866c7de02f0c98c4435",
+      "pathid": "-3838849964695695022",
+      "type": "AudioClip",
+      "guids": [
+        "4f353f9c70f72fb42b36580afcf66b94"
+      ],
+      "cache": "36cee8fa5f08b9bd40f4d6e4.wav",
+      "usage": "runtime",
+      "asset_id": "36cee8fa5f08b9bd40f4d6e4"
+    },
+    {
+      "id": "SFX_MULLIGAN_CONFIRM",
+      "name": "FX_MulliganCoin09_DeckShuffle",
+      "bundle": "initial_base_global-4f17698f-audio-0.unity3d",
+      "cab": "CAB-7cf090cc099e7e1f255b9ea77118bf69",
+      "pathid": "8996316980178828269",
+      "type": "AudioClip",
+      "guids": [
+        "4d0529927e433814eaea89fdf99f2448"
+      ],
+      "cache": "e5c5ccee936a82e4d994eeac.wav",
+      "usage": "runtime",
+      "asset_id": "e5c5ccee936a82e4d994eeac"
+    },
+    {
+      "id": "SFX_SPELL_IMPACT",
+      "name": "FX_FireballEvent04_SpellImpact_01",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-1715227243821850068",
+      "type": "AudioClip",
+      "guids": [
+        "c5a94e3aff7dcf3428886c099acfbf50"
+      ],
+      "cache": "f27289a23ad738e1244fc012.wav",
+      "usage": "runtime",
+      "asset_id": "f27289a23ad738e1244fc012"
+    },
+    {
+      "id": "SFX_TRANSFORM",
+      "name": "Shared_PolymorphHex_Impact",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-6987610038744868042",
+      "type": "AudioClip",
+      "guids": [
+        "b4f032e7a175ea34b98fc5ea9bd25d06"
+      ],
+      "cache": "1f5d641085b789b5df7d1d97.wav",
+      "usage": "runtime",
+      "asset_id": "1f5d641085b789b5df7d1d97"
+    },
+    {
+      "id": "SFX_VICTORY",
+      "name": "victory_jingle",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "173566399885561031",
+      "type": "AudioClip",
+      "guids": [
+        "cd329a8f18adbf6478b6793c281e5976"
+      ],
+      "cache": "3b746e980cdcd3bded026177.wav",
+      "usage": "runtime",
+      "asset_id": "3b746e980cdcd3bded026177"
+    },
+    {
+      "id": "SFX_DEFEAT",
+      "name": "defeat_jingle",
+      "bundle": "initial_base_global-7e62cfed-audio-0.unity3d",
+      "cab": "CAB-e6b23649a0679d2a5167a11813d5ab3b",
+      "pathid": "3020727921633430623",
+      "type": "AudioClip",
+      "guids": [
+        "788ffb1f12d962b479532edf89134b71"
+      ],
+      "cache": "2fe1c4031f2f385ffec71314.wav",
+      "usage": "runtime",
+      "asset_id": "2fe1c4031f2f385ffec71314"
+    },
+    {
+      "id": "SFX_MINION_DEATH",
+      "name": "Minion_Death_01",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-802629127293617608",
+      "type": "AudioClip",
+      "guids": [
+        "e4fbfb4155483eb4ebd8d4dd11673a24"
+      ],
+      "cache": "6a272599ff18511e08a4009c.wav",
+      "usage": "runtime",
+      "asset_id": "6a272599ff18511e08a4009c"
+    },
+    {
+      "id": "SFX_CARD_DRAW",
+      "name": "draw_card_1",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-5127019540591182088",
+      "type": "AudioClip",
+      "guids": [
+        "93cd7c474cf905849a03704d878e8c67"
+      ],
+      "cache": "a8433876a111a1718409a4cf.wav",
+      "usage": "runtime",
+      "asset_id": "a8433876a111a1718409a4cf"
+    },
+    {
+      "id": "SFX_UI_CLICK",
+      "name": "box_hub_button_press_2",
+      "bundle": "essential_base_box_global-audio-0.unity3d",
+      "cab": "CAB-0bebc93e0d9de00f325dddff44a31b02",
+      "pathid": "-7938994296353367",
+      "type": "AudioClip",
+      "guids": [
+        "31b5fe552fd56674d9f3ed1851fdd87d"
+      ],
+      "cache": "2b1dfb2d84867c0b6c6efe13.wav",
+      "usage": "runtime",
+      "asset_id": "2b1dfb2d84867c0b6c6efe13"
+    },
+    {
+      "id": "SFX_UI_HOVER",
+      "name": "box_large_button_mouse_over",
+      "bundle": "essential_base_box_global-audio-0.unity3d",
+      "cab": "CAB-0bebc93e0d9de00f325dddff44a31b02",
+      "pathid": "-1597693392231856188",
+      "type": "AudioClip",
+      "guids": [
+        "c136aca3d2dc2594ca1d2080c75d89b1"
+      ],
+      "cache": "6e19466a692b33629cffd884.wav",
+      "usage": "runtime",
+      "asset_id": "6e19466a692b33629cffd884"
+    },
+    {
+      "id": "SFX_CARD_PLAY",
+      "name": "FX_MinionSummon01_DrawFromHand_01",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-8278564630902752063",
+      "type": "AudioClip",
+      "guids": [
+        "630f053471521454c96fe96837040c13"
+      ],
+      "cache": "6bdd7dc10ed167d8b98ecd01.wav",
+      "usage": "runtime",
+      "asset_id": "6bdd7dc10ed167d8b98ecd01"
+    },
+    {
+      "id": "SFX_SUMMON",
+      "name": "FX_MinionSummon_Drop",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "2307216968499716871",
+      "type": "AudioClip",
+      "guids": [
+        "2630d970c5e7b3f4ebd2bd88723877ed"
+      ],
+      "cache": "908b0e260790c4be1c3cbd37.wav",
+      "usage": "runtime",
+      "asset_id": "908b0e260790c4be1c3cbd37"
+    },
+    {
+      "id": "SFX_ATTACK_LAUNCH",
+      "name": "FX_Minion_AttackLaunch",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "3256782753177288405",
+      "type": "AudioClip",
+      "guids": [
+        "84aa8fcefb2bd49459fc5649299b8d17"
+      ],
+      "cache": "3bc703b5e6d914f22ff17215.wav",
+      "usage": "runtime",
+      "asset_id": "3bc703b5e6d914f22ff17215"
+    },
+    {
+      "id": "BGM_MAIN_TITLE",
+      "name": "Main_Title",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-8377204497461048867",
+      "type": "AudioClip",
+      "guids": [
+        "d453e409cb08dd34fb2b22d39c907155"
+      ],
+      "cache": "02280a73c1c3225b7f41e215.wav",
+      "usage": "runtime",
+      "asset_id": "02280a73c1c3225b7f41e215"
+    },
+    {
+      "id": "BGM_DUEL",
+      "name": "Duel",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-3733759336410355439",
+      "type": "AudioClip",
+      "guids": [
+        "4e472c78150240c41896e7f88965e362"
+      ],
+      "cache": "9b991f98f9d4c0f68b2e3ef4.wav",
+      "usage": "runtime",
+      "asset_id": "9b991f98f9d4c0f68b2e3ef4"
+    },
+    {
+      "id": "FONT_NUMBERS_SOURCE",
+      "name": "BelweNumbers",
+      "bundle": "essential_base_global-content-0.unity3d",
+      "cab": "CAB-705da26e9aa366bdb912f703068dc208",
+      "pathid": "5345836296918725855",
+      "type": "Font",
+      "guids": [],
+      "cache": "BelweNumbers.ttf",
+      "usage": "runtime",
+      "asset_id": "4cca452fdaf1c7735fbbbeee"
+    },
+    {
+      "id": "FONT_LABEL_SOURCE",
+      "name": "UGCSH00M",
+      "bundle": "essential_base_zhcn-content-0.unity3d",
+      "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+      "pathid": "9090286071714314824",
+      "type": "Font",
+      "guids": [],
+      "cache": "UGCSH00M.ttf",
+      "usage": "runtime",
+      "asset_id": "664d5182b29209a1ec2b03ae"
+    },
+    {
+      "id": "FONT_BODY_SOURCE",
+      "name": "gkai00m",
+      "bundle": "essential_base_zhcn-content-0.unity3d",
+      "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+      "pathid": "-8284799884571857665",
+      "type": "Font",
+      "guids": [],
+      "cache": "gkai00m.ttf",
+      "usage": "runtime",
+      "asset_id": "025b9cf10b69d80422daed17"
+    },
+    {
+      "id": "UI_VS_LETTERS_ATLAS",
+      "name": "VS_letters",
+      "asset_id": "bfc3fe8a6ef5ea5aafdbaf74",
+      "bundle": "essential_base_global-texture-1.unity3d",
+      "cab": "CAB-e02b69b1bbe893a6736884865127e637",
+      "pathid": "-945091578145489584",
+      "type": "Texture2D",
+      "guids": [
+        "0748ea3e2b31a30478895e641b77a180"
+      ],
+      "cache": "45fde9f5a5e061416e9f73e1.png",
+      "usage": "inspected_only",
+      "texture_settings": {
+        "m_FilterMode": 1,
+        "m_Aniso": 1,
+        "m_MipBias": 0.0,
+        "m_WrapU": 0,
+        "m_WrapV": 0,
+        "m_WrapW": 0
+      }
+    },
+    {
+      "id": "SOURCE_VS_LETTER_V_MESH",
+      "name": "Letter_V_New",
+      "asset_id": "1d738415ddff66dc37763fed",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-6263969057931478504",
+      "type": "Mesh",
+      "guids": [
+        "d71b2db68e16949479a475a7f5c701ed"
+      ],
+      "usage": "source_only",
+      "cache": null,
+      "vertex_count": 347,
+      "uv0_vertex_count": 347,
+      "triangle_count": 416,
+      "transform_ids": [
+        "SOURCE_VS_LETTER_V_TRANSFORM",
+        "SOURCE_VS_LETTERS_GROUP_TRANSFORM",
+        "SOURCE_GAMESTART_VS_LETTERS_TRANSFORM"
+      ],
+      "uv0_bounds": [
+        0.0015391744673252106,
+        0.3097827732563019,
+        0.6546775698661804,
+        1.003843903541565
+      ]
+    },
+    {
+      "id": "SOURCE_VS_LETTER_S_MESH",
+      "name": "Letter_S_New",
+      "asset_id": "4b6f43885a00edfa8b6c1e7a",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-4932620133590648296",
+      "type": "Mesh",
+      "guids": [],
+      "usage": "source_only",
+      "cache": null,
+      "vertex_count": 728,
+      "uv0_vertex_count": 728,
+      "triangle_count": 956,
+      "transform_ids": [
+        "SOURCE_VS_LETTER_S_TRANSFORM",
+        "SOURCE_VS_LETTERS_GROUP_TRANSFORM",
+        "SOURCE_GAMESTART_VS_LETTERS_TRANSFORM"
+      ],
+      "uv0_bounds": [
+        0.4022231996059418,
+        0.00292292982339859,
+        0.9994268417358398,
+        0.7175630331039429
+      ]
+    },
+    {
+      "id": "SOURCE_VS_LETTER_V_MESH_FILTER",
+      "name": "",
+      "asset_id": "fa5dfe1c1370ca19d18156ab",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "7287320958062228609",
+      "type": "MeshFilter",
+      "guids": [],
+      "usage": "source_only",
+      "cache": null,
+      "mesh_id": "SOURCE_VS_LETTER_V_MESH"
+    },
+    {
+      "id": "SOURCE_VS_LETTER_V_MESH_RENDERER",
+      "name": "",
+      "asset_id": "5a30e17842d3278d000a66cd",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-7150521243504544639",
+      "type": "MeshRenderer",
+      "guids": [],
+      "usage": "source_only",
+      "cache": null,
+      "material_ids": [
+        "SOURCE_VS_LETTERS_MATERIAL"
+      ]
+    },
+    {
+      "id": "SOURCE_VS_LETTER_S_MESH_FILTER",
+      "name": "",
+      "asset_id": "fc1d4dd5e8c9ce89719a37f3",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "5798276256839496833",
+      "type": "MeshFilter",
+      "guids": [],
+      "usage": "source_only",
+      "cache": null,
+      "mesh_id": "SOURCE_VS_LETTER_S_MESH"
+    },
+    {
+      "id": "SOURCE_VS_LETTER_S_MESH_RENDERER",
+      "name": "",
+      "asset_id": "674e480191ff4205220537c7",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "4145192375553094785",
+      "type": "MeshRenderer",
+      "guids": [],
+      "usage": "source_only",
+      "cache": null,
+      "material_ids": [
+        "SOURCE_VS_LETTERS_MATERIAL"
+      ]
+    },
+    {
+      "id": "SOURCE_VS_LETTER_V_TRANSFORM",
+      "name": "",
+      "asset_id": "6525468b943f87166e62edad",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "8919840961775727745",
+      "type": "Transform",
+      "guids": [],
+      "usage": "source_only",
+      "cache": null,
+      "parent_transform_id": "SOURCE_VS_LETTERS_GROUP_TRANSFORM",
+      "local_position": [
+        0.15392494201660156,
+        0.014099478721618652,
+        -0.1821429580450058
+      ],
+      "local_rotation": [
+        -0.7071068286895752,
+        6.388480411345654e-09,
+        -6.388480411345654e-09,
+        0.7071068286895752
+      ],
+      "local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SOURCE_VS_LETTERS_GROUP_TRANSFORM",
+      "name": "",
+      "asset_id": "764dfc44f898ed3ada3865cc",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-577046752068504447",
+      "type": "Transform",
+      "guids": [],
+      "usage": "source_only",
+      "cache": null,
+      "parent_transform_id": "SOURCE_GAMESTART_VS_LETTERS_TRANSFORM",
+      "local_position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "local_rotation": [
+        0.0,
+        1.0,
+        0.0,
+        -1.6292068494294654e-07
+      ],
+      "local_scale": [
+        2.51271653175354,
+        2.51271653175354,
+        2.51271653175354
+      ]
+    },
+    {
+      "id": "SOURCE_GAMESTART_VS_LETTERS_TRANSFORM",
+      "name": "",
+      "asset_id": "8405c8ad480a60e8da770a99",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-1002877412734798719",
+      "type": "Transform",
+      "guids": [],
+      "usage": "source_only",
+      "cache": null,
+      "parent_transform_id": "",
+      "local_position": [
+        80.9800033569336,
+        4.881397724151611,
+        -3.518144130706787
+      ],
+      "local_rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SOURCE_VS_LETTER_S_TRANSFORM",
+      "name": "",
+      "asset_id": "348a29b4adecc5e2c52470b4",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "1124746910078792833",
+      "type": "Transform",
+      "guids": [],
+      "usage": "source_only",
+      "cache": null,
+      "parent_transform_id": "SOURCE_VS_LETTERS_GROUP_TRANSFORM",
+      "local_position": [
+        -0.12746000289916992,
+        0.014099478721618652,
+        0.07530690729618073
+      ],
+      "local_rotation": [
+        -0.7071068286895752,
+        -6.388480411345654e-09,
+        6.388480411345654e-09,
+        0.7071068286895752
+      ],
+      "local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SOURCE_VS_LETTERS_MATERIAL",
+      "name": "GameStart_VS_Letters-09 - Default",
+      "asset_id": "9539af11dcaadb79e504025b",
+      "bundle": "essential_base_global-material-0.unity3d",
+      "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+      "pathid": "-7149411977872907977",
+      "type": "Material",
+      "guids": [
+        "3dbce42febd5bfb45a202eb4a2f46d16"
+      ],
+      "usage": "source_only",
+      "cache": null,
+      "main_texture_id": "UI_VS_LETTERS_ATLAS",
+      "texture_scale": [
+        1.0,
+        1.0
+      ],
+      "texture_offset": [
+        0.0,
+        0.0
+      ],
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shader": ""
+    },
+    {
+      "id": "UI_VS_LETTERS",
+      "name": "VS_letters original front-facing mesh projection",
+      "type": "Texture2D",
+      "bundle": "",
+      "cab": "",
+      "pathid": "",
+      "asset_id": "",
+      "cache": "UI_VS_LETTERS_geometry.png",
+      "usage": "runtime",
+      "derived_from": "UI_VS_LETTERS_ATLAS",
+      "sha256": "0160da00d509eb15086897b03fd2e06eedd8ec3226044fb626fa1d1a7a4235e3",
+      "width": 435,
+      "height": 480,
+      "alpha_mask_bounds_px": [
+        0,
+        0,
+        435,
+        480
+      ],
+      "raster_bounds_supersampled_px": [
+        32,
+        32,
+        902,
+        992
+      ],
+      "source_triangle_count": 962,
+      "texture_settings": {
+        "m_FilterMode": 1,
+        "m_Aniso": 1,
+        "m_MipBias": 0.0,
+        "m_WrapU": 0,
+        "m_WrapV": 0,
+        "m_WrapW": 0
+      },
+      "projection": "depth_tested_orthographic_world_xz_from_positive_y",
+      "source_contract_limit": "static visible letter mesh geometry with base-level bilinear Repeat sampling only; VS_Shadow sibling, original prefab animation, camera, lighting, mip selection and controller behavior are not claimed",
+      "source_assets": [
+        "SOURCE_GAMESTART_VS_LETTERS",
+        "SOURCE_VS_LETTER_V_MESH",
+        "SOURCE_VS_LETTER_S_MESH",
+        "SOURCE_VS_LETTER_V_MESH_FILTER",
+        "SOURCE_VS_LETTER_V_MESH_RENDERER",
+        "SOURCE_VS_LETTER_S_MESH_FILTER",
+        "SOURCE_VS_LETTER_S_MESH_RENDERER",
+        "SOURCE_VS_LETTER_V_TRANSFORM",
+        "SOURCE_VS_LETTERS_GROUP_TRANSFORM",
+        "SOURCE_GAMESTART_VS_LETTERS_TRANSFORM",
+        "SOURCE_VS_LETTER_S_TRANSFORM",
+        "SOURCE_VS_LETTERS_MATERIAL"
+      ]
+    },
+    {
+      "id": "SCENE_BOARD",
+      "name": "Board_STR",
+      "bundle": "essential_base_qualityhigh_global-content-0.unity3d",
+      "cab": "CAB-82d08c8cc01bd15ce55e7d57190fd3af",
+      "pathid": "-2163216865032612886",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "SCENE_BOARD.scene.json",
+      "usage": "runtime",
+      "asset_id": "d7c80ce2b03dbf72a2d5f4eb"
+    },
+    {
+      "id": "SCENE_MAIN_MENU",
+      "name": "TheBox",
+      "bundle": "essential_base_box_global-prefab-0.unity3d",
+      "cab": "CAB-b84e9f355ab11451b0a46a63a5a58941",
+      "pathid": "-3683521650008349964",
+      "type": "GameObject",
+      "guids": [
+        "6b55a928ffdc1b341b5dbe8f8a88e768"
+      ],
+      "cache": "SCENE_MAIN_MENU.scene.json",
+      "usage": "runtime",
+      "asset_id": "1dea86c3be1e6e67bf149915"
+    },
+    {
+      "id": "MODEL_BOARD_TABLE",
+      "name": "TableTop",
+      "bundle": "essential_base_qualityhigh_global-content-0.unity3d",
+      "cab": "CAB-82d08c8cc01bd15ce55e7d57190fd3af",
+      "pathid": "-3312751518009207830",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_BOARD_TABLE.scene.json",
+      "usage": "runtime",
+      "asset_id": "0553160066bf0db0192a243d"
+    },
+    {
+      "id": "MODEL_HERO",
+      "name": "GenFX_Card_Hero_v3",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "5123078551039587593",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_HERO.scene.json",
+      "usage": "runtime",
+      "asset_id": "4aed3ac1b57de149ab089197"
+    },
+    {
+      "id": "MODEL_HERO_POWER",
+      "name": "Card_InPlay_HeroPowerV2",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-4467978634809551811",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_HERO_POWER.scene.json",
+      "usage": "runtime",
+      "asset_id": "4e5c1e2f51cb14e6ddda4ffe"
+    },
+    {
+      "id": "MODEL_CARD_MINION",
+      "name": "GenFX_Card_InHand_Ally_v3",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-2184635534557290599",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_CARD_MINION.scene.json",
+      "usage": "runtime",
+      "asset_id": "948024794adecb56f10b1ae6"
+    },
+    {
+      "id": "MODEL_CARD_SPELL",
+      "name": "Card_InHand_Ability",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-558838872777777656",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_CARD_SPELL.scene.json",
+      "usage": "runtime",
+      "asset_id": "e06a70b92329198a0e2e7835"
+    },
+    {
+      "id": "MODEL_CARD_WEAPON",
+      "name": "Card_InHand_Weapon_v3",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-7324705249711598049",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_CARD_WEAPON.scene.json",
+      "usage": "runtime",
+      "asset_id": "6d747c6af54521f0abf65d50"
+    },
+    {
+      "id": "MODEL_MINION",
+      "name": "GenFX_Card_InPlay_Ally_v2",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "885833137594050249",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_MINION.scene.json",
+      "usage": "runtime",
+      "asset_id": "19cd5b143a2260a0940c1986"
+    },
+    {
+      "id": "MODEL_CARD_BACK",
+      "name": "Card_Back_Default",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-742154249242800108",
+      "type": "GameObject",
+      "guids": [
+        "581a152092244499aa68d46c804051f1"
+      ],
+      "cache": "MODEL_CARD_BACK.scene.json",
+      "usage": "runtime",
+      "asset_id": "8a2d21b014cfefc3b50a35ef"
+    },
+    {
+      "id": "MODEL_GEM_MANA",
+      "name": "Gem_Mana",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-8514445295595320041",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_GEM_MANA.scene.json",
+      "usage": "runtime",
+      "asset_id": "00e1c34206b4900bd34a301b"
+    },
+    {
+      "id": "MODEL_GEM_ATTACK",
+      "name": "Gem_Attack",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "2855461564959322672",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_GEM_ATTACK.scene.json",
+      "usage": "runtime",
+      "asset_id": "c6180d08053a036532d4399b"
+    },
+    {
+      "id": "MODEL_GEM_HEALTH",
+      "name": "Gem_Health",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-7018110491991503593",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_GEM_HEALTH.scene.json",
+      "usage": "runtime",
+      "asset_id": "300ffef04ed5357975bd4f71"
+    },
+    {
+      "id": "MODEL_MULLIGAN_BANNER",
+      "name": "BannerMulligan",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "3490938346540359259",
+      "type": "GameObject",
+      "guids": [],
+      "cache": "MODEL_MULLIGAN_BANNER.scene.json",
+      "usage": "runtime",
+      "asset_id": "48867f9fd6524494a1f00b26"
+    },
+    {
+      "id": "MODEL_MULLIGAN_BUTTON",
+      "name": "MulliganButton",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "797710811736412717",
+      "type": "GameObject",
+      "guids": [
+        "f58c065fc711b604c891cefd1faf722a"
+      ],
+      "cache": "MODEL_MULLIGAN_BUTTON.scene.json",
+      "usage": "runtime",
+      "asset_id": "6a577340e133eda54c100692"
+    },
+    {
+      "id": "SOURCE_GAMESTART_VS_LETTERS",
+      "name": "GameStart_VS_Letters",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "3060361679846831233",
+      "type": "GameObject",
+      "guids": [
+        "3cb2cbed6d44a694eb23fb8791684003"
+      ],
+      "cache": null,
+      "usage": "source_only",
+      "asset_id": "51fa2c61ff9668c4f4d07720",
+      "static_runtime_reference": "MulliganManager.HandleGameStart"
+    }
+  ],
+  "errors": []
+}

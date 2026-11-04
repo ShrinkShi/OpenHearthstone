@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-11",
+  "full_original_effects_restored": false,
+  "supported_source_eases": [0, 1, 2, 7, 12, 13, 21, 24, 27, 30],
+  "remaining_ease_enum_count": 25,
+  "python_checks": 688,
+  "existing_client_checks": 4101,
+  "native_resource_runtime_checks": 78060,
+  "new_curve_checks": 32,
+  "new_parameter_scope_checks": 8,
+  "standard_gpu_checks": 41,
+  "standard_gpu_frames": 146,
+  "survey": {
+    "programs": 40,
+    "declared_tween_actions": 187,
+    "lifecycle_scenarios": 133,
+    "frames": 798,
+    "exceptions": 0,
+    "scenarios_with_no_unbound_tween": 132,
+    "blank_scenarios": 46,
+    "unbound": [{"card": "RLK_086@m_TriggerEffectDefs:1", "lifecycle": "Death", "count": 1, "cause": "ScaleTo gameObject node=-1"}],
+    "source_target_actor_binding_restored": false,
+    "not_a_full_visual_fidelity_gate": true
+  },
+  "windows_build": true,
+  "duel": {
+    "match_id": "9c9d109993de4264b990749dcf5b4127",
+    "turn": 14,
+    "version": 48,
+    "public_hash": "43716add1946a801e4b9c6870b22bea260096a43f6eb03faff286d894912cc15",
+    "winner": "Shrink2",
+    "queue_peak": 1,
+    "manual_game": false,
+    "full_gui_fps_verified": false
+  },
+  "enabled_native_slots": 2,
+  "source_cache_modified": false,
+  "official_install_modified": false,
+  "computer_use": false
+}

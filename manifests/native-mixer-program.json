@@ -1,0 +1,164 @@
+{
+  "source": {
+    "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+    "pathid": "-8058976051137792987",
+    "type": "AudioMixerController",
+    "bundle": "essential_base_global-prefab-0.unity3d"
+  },
+  "name": "LegendaryDucking",
+  "snapshot": "Snapshot",
+  "suspend": true,
+  "threshold": -80.0,
+  "update_mode": 0,
+  "groups": [
+    {
+      "index": 0,
+      "name": "Master",
+      "parent": -1,
+      "volume": 0.0,
+      "pitch": 1.0,
+      "mute": false,
+      "solo": false,
+      "bypass": false,
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-2881098312436796379",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      }
+    },
+    {
+      "index": 1,
+      "name": "L_Stinger",
+      "parent": 0,
+      "volume": 0.0,
+      "pitch": 1.0,
+      "mute": false,
+      "solo": false,
+      "bypass": false,
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "7669818204083074085",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      }
+    },
+    {
+      "index": 2,
+      "name": "L_SFX",
+      "parent": 0,
+      "volume": 0.0,
+      "pitch": 1.0,
+      "mute": false,
+      "solo": false,
+      "bypass": false,
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "8739943912118694949",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      }
+    },
+    {
+      "index": 3,
+      "name": "L_VO",
+      "parent": 0,
+      "volume": 0.0,
+      "pitch": 1.0,
+      "mute": false,
+      "solo": false,
+      "bypass": false,
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-9001829074451614683",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "index": 0,
+      "group": 1,
+      "name": "Attenuation",
+      "target": -1,
+      "bypass": false,
+      "parameters": [],
+      "mix": 0
+    },
+    {
+      "index": 1,
+      "group": 1,
+      "name": "Duck Volume",
+      "target": -1,
+      "bypass": false,
+      "parameters": [
+        -10.0,
+        3.0,
+        0.0010000000474974513,
+        0.009999999776482582,
+        0.0,
+        10.0,
+        1.0
+      ],
+      "mix": 0
+    },
+    {
+      "index": 2,
+      "group": 2,
+      "name": "Attenuation",
+      "target": -1,
+      "bypass": false,
+      "parameters": [],
+      "mix": 0
+    },
+    {
+      "index": 3,
+      "group": 2,
+      "name": "Duck Volume",
+      "target": -1,
+      "bypass": false,
+      "parameters": [
+        -17.0,
+        4.0,
+        0.0010000000474974513,
+        0.014999999664723873,
+        0.0,
+        10.0,
+        1.0
+      ],
+      "mix": 0
+    },
+    {
+      "index": 4,
+      "group": 3,
+      "name": "Attenuation",
+      "target": -1,
+      "bypass": false,
+      "parameters": [],
+      "mix": 0
+    },
+    {
+      "index": 5,
+      "group": 3,
+      "name": "Send",
+      "target": 1,
+      "bypass": false,
+      "parameters": [],
+      "mix": 0.0
+    },
+    {
+      "index": 6,
+      "group": 3,
+      "name": "Send",
+      "target": 3,
+      "bypass": false,
+      "parameters": [],
+      "mix": 0.0
+    }
+  ],
+  "complete": false,
+  "notes": [
+    "Original compiled topology and snapshot values. Derived Unity mixer uses newly generated editor asset GUIDs. Audible equivalence unverified."
+  ]
+}

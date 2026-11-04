@@ -1,0 +1,17 @@
+{
+  "repairs": [
+    {
+      "asset_id": "ece1bc9fd0482fc774a98323",
+      "name": "ReuseFX_DemonHunter_Glaive_Medium_Impact_Sound",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-9.unity3d",
+      "cab": "CAB-ec524943ccb23c3f088c066280ce324d",
+      "pathid": "6422869303029879525",
+      "guids": [
+        "4acf198bc70f6474686d37c67e469a99"
+      ],
+      "cache": "local/runtime/ece1bc9fd0482fc774a98323.wav",
+      "before_sha256": "cb395044325d99e6c3fb8d356cedc09e3188a893f355ca27c6c1887b7f482e14",
+      "after_sha256": "5d447558fc4c31576e9df394ab90c961e976bc52461ce1a2bd7a29c957d9d2df"
+    }
+  ]
+}

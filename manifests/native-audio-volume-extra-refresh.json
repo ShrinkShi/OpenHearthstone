@@ -1,0 +1,334 @@
+{
+  "programs": [
+    {
+      "file": "01f157ea2a009c0afbbefbb5.actor-spell.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": true,
+      "reference": "FloopsGloriousGloop_FX.prefab:6255a11468cc63549a8331678ee19a83",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-9b18c5a3f570b83cdae55383337bcae7",
+          "pathid": "-7086941263457222239",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 17
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 17
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5a360810c62fabb080bc018b.start-spell.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "ReuseFX_Holy_Idle_01.prefab:506c0a66b79385a4391e1db1b1f7ed59",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 0
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 0
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "66001510c5acdbaeb536fc25.actor-spell.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": true,
+      "reference": "Lock_and_Load_FX.prefab:fbe93ce3ea05cf44c8cdce7775bdb185",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-9b18c5a3f570b83cdae55383337bcae7",
+          "pathid": "-6923943654472608767",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a0be706d64ba23ec818f3d22.actor-spell.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": true,
+      "reference": "EmbraceShadow_FX.prefab:055920448de1b3346b369f9438b7ed7e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-9b18c5a3f570b83cdae55383337bcae7",
+          "pathid": "3278961257153698522",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "adee40ea8ac8cd8cb4726c78.actor-spell.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Card_Play_Ally_Magnetic_Linked_Left.prefab:55d5177a6055da14fa99784f61a20f3f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+          "pathid": "6852232956289744603",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ba5220bc610280125378e669.actor-spell.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "TLCFX_OpentheUnderfel_PortalFX.prefab:754b869cb5affaf49b19b99fc2b64399",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-2a88e1d9d1cc9a7a59e443fb30b1de29",
+          "pathid": "-8403549283931531761",
+          "type": "MonoBehaviour",
+          "bundle": "cardasset_base_global-2f546934-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "cec4bb66eab6a0845b61171d.actor-spell.json",
+      "actions": 4,
+      "parameters": 12,
+      "updated": true,
+      "reference": "Stampede_FX.prefab:a9ac633fdab4e014daa5070a736bc396",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-9b18c5a3f570b83cdae55383337bcae7",
+          "pathid": "-7071996768359255091",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 7
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 7
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ea3c23d46af72f69dfb1ba3d.actor-spell.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "WWFX_RenoLoneRanger_OpponentSide_LimitedBoard.prefab:e2ffb7c20772b534c8caa802359a7b3a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-9c907aa5847d24cfd7a81331b0581a09",
+          "pathid": "1285399927073252774",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-b10736ab-prefab-8.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ea9e0d509ef02d85442ff9d5.actor-spell.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Card_Play_Ally_Magnetic_Unlinked_Left.prefab:786818e3da3177c4f812715ef8739ca1",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+          "pathid": "3140873149612327616",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ebda16161172ac21f1af966b.actor-spell.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Card_Play_Ally_Magnetic_Unlinked_Left_Dimmed.prefab:e9483c421b9188b488823d46bf98f7ab",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+          "pathid": "-2813425554083187293",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ecd59dc9f68d4ea6b36a28e5.actor-spell.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Card_Play_Ally_Doomed_Idle.prefab:41a3913ed61a7bd4aba344e11f71bcd6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+          "pathid": "-3213805098022127183",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 11,
+  "failures": [],
+  "notes": [
+    "Exact source AudioSetVolumeAction parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

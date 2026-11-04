@@ -1,0 +1,940 @@
+{
+  "shader": {
+    "name": "Hero/Particle/Particle Multiply",
+    "bundle": "essential_base_global-shader-0.unity3d",
+    "cab": "CAB-c394926ba464822396a05cbfae08a8b3",
+    "pathid": "-5773009347599192354"
+  },
+  "bindings": [
+    {
+      "subshader": 0,
+      "pass_index": 0,
+      "pass_name": "",
+      "stage": "progVertex",
+      "blob": 1,
+      "gpu_type": 15,
+      "keywords": [],
+      "parameter_blob": 0,
+      "program_sha256": "34a192ec181a6beaab92488b82e8f4f36831820464f4e9f9faaa0ecf7e5a16aa",
+      "parameter_sha256": "bf4e7e916c02b3e1f0bcc43d1cc6c2d53ac7a60b279e3204e3f002e0aea2f2fa"
+    },
+    {
+      "subshader": 0,
+      "pass_index": 0,
+      "pass_name": "",
+      "stage": "progFragment",
+      "blob": 3,
+      "gpu_type": 17,
+      "keywords": [],
+      "parameter_blob": 2,
+      "program_sha256": "c9e2e13cd3530d21c4fd884390c6658b312fb8c672d61bf0ca20cafea8dc2a44",
+      "parameter_sha256": "06dfccf4f41db7e1cd89c9bab44e094f56f6dbf9b02f4bc804debbc478a99e13"
+    },
+    {
+      "subshader": 0,
+      "pass_index": 1,
+      "pass_name": "GlowTransparent",
+      "stage": "progVertex",
+      "blob": 4,
+      "gpu_type": 15,
+      "keywords": [],
+      "parameter_blob": 0,
+      "program_sha256": "97c9b6123bcc54ac0ff2ca40a0cb785f05ec6c81c31bddbf28ea4c2bde26a1c0",
+      "parameter_sha256": "bf4e7e916c02b3e1f0bcc43d1cc6c2d53ac7a60b279e3204e3f002e0aea2f2fa"
+    },
+    {
+      "subshader": 0,
+      "pass_index": 1,
+      "pass_name": "GlowTransparent",
+      "stage": "progFragment",
+      "blob": 6,
+      "gpu_type": 17,
+      "keywords": [],
+      "parameter_blob": 5,
+      "program_sha256": "44189c42f62d1c12a473449e52f0027a03eb83d61902664d3b171ed71cfe9688",
+      "parameter_sha256": "aa516515955e32d89a46f926e8c4ac14cab8cd4b45f92a561e5d3adff3a6a992"
+    }
+  ],
+  "references": [
+    {
+      "file": "00029afcc27a43680cb13656.native-effect.json",
+      "reference": "Fel_AE_OpponentArea_FX.prefab:a7cfb128df225344e8deb859016577de",
+      "materials": [
+        {
+          "node": 13,
+          "name": "Black 1",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 25,
+          "name": "Black 1",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "141e414fd66fb79d7eee66c2.native-effect.json",
+      "reference": "Unique_AE_TwistingNether_FX.prefab:f1e37b644475192409ab40ebce8b40b8",
+      "materials": [
+        {
+          "node": 15,
+          "name": "ParticleFinalWipe",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-2269162697920647822",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "15142b65714667e95c7be7ea.native-effect.json",
+      "reference": "Warlock_DrainLife_FX.prefab:03adb1d075c3ba941a2e9cbff4a18f8f",
+      "materials": [
+        {
+          "node": 2,
+          "name": "FX_motesSuckin",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "22291b74bdc6da4185f8a0d8.native-effect.json",
+      "reference": "Frost_AE_FrostNova_FX.prefab:871269ca16c3b90419870cb2ebe37dac",
+      "materials": [
+        {
+          "node": 12,
+          "name": "ParticleFinalWipe",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-2269162697920647822",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 27,
+          "name": "ParticleFinalWipe",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-2269162697920647822",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "228864b1f3e778228ee15fa2.native-effect.json",
+      "reference": "Sneaky_Eviscerate_FX.prefab:0a7e22e526c4aeb47841034843ce06e7",
+      "materials": [
+        {
+          "node": 20,
+          "name": "SneakySmokeStart2",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "5918904308024318007",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        },
+        {
+          "node": 31,
+          "name": "SneakySmokeStart2",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "5918904308024318007",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "24891eaf285847735931d28d.native-effect.json",
+      "reference": "Warlock_Skull_Missile.prefab:9fcd6c9d979075447b4b920d9bc61f58",
+      "materials": [
+        {
+          "node": 1,
+          "name": "FX_BlackVortex",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "-5734489993877547187",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "27bdd075f4f6580d4778d2d3.native-effect.json",
+      "reference": "Lunar_Target_FX.prefab:36108f70267053d44b75a79b066f4242",
+      "materials": [
+        {
+          "node": 19,
+          "name": "Particle Blast Mark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3708010735145582905",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "2a16624e279efbdccf6138f1.native-effect.json",
+      "reference": "Stealth_ColdBlood_FX.prefab:42db2c47244fc1a40a6b451550563ada",
+      "materials": [
+        {
+          "node": 10,
+          "name": "motes",
+          "source": {
+            "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+            "pathid": "-4576894204604535285",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "2c575b7037eb26b115a9f5fd.native-effect.json",
+      "reference": "Rage_BloodLust_FX.prefab:314caa92b3a517d4ba25921213373cc2",
+      "materials": [
+        {
+          "node": 7,
+          "name": "motes",
+          "source": {
+            "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+            "pathid": "-4576894204604535285",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "38ddc05994c8a8f377263c1e.native-effect.json",
+      "reference": "Warlock_Missiles_Suckin_FX.prefab:3a54ec5fedb7d0648ab17213c8f07ad5",
+      "materials": [
+        {
+          "node": 15,
+          "name": "FX_motesSuckin",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        },
+        {
+          "node": 19,
+          "name": "FX_motesSuckin",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "41c4e05d674c9ec7f8d18738.native-effect.json",
+      "reference": "Fire_AE_OpponentArea_FX.prefab:0b9b3e4ef9b62a240b4cbf362c0511b4",
+      "materials": [
+        {
+          "node": 13,
+          "name": "Black 1",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 25,
+          "name": "Black 1",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "42377e0740c2662ce6bb7b06.native-effect.json",
+      "reference": "Lunar_Starfall_FX.prefab:45b50eacd925210439b7ff1130258e3f",
+      "materials": [
+        {
+          "node": 19,
+          "name": "Particle Blast Mark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3708010735145582905",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "42a5a466e4cf3555811fcc65.native-effect.json",
+      "reference": "Lunar_Target_NoStart_FX.prefab:48ba3fa3d9c88274c8d362a4bcc2c112",
+      "materials": [
+        {
+          "node": 18,
+          "name": "Particle Blast Mark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3708010735145582905",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "46d81302ae2bb97b610d8d97.native-effect.json",
+      "reference": "Lunar_Target_Large_FX.prefab:554b1cb6c449d9f409adbef48401d1b4",
+      "materials": [
+        {
+          "node": 27,
+          "name": "Particle Blast Mark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3708010735145582905",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "4c92ac4d973163d8aa044fed.native-effect.json",
+      "reference": "Fireblast_FX.prefab:eabb56c674d4248be83c5c6bc82e9ddc",
+      "materials": [
+        {
+          "node": 11,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 31,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "5d9349d1d17e9b05e11ae8f8.native-effect.json",
+      "reference": "Fireball_FX.prefab:a5e144473b2f84563b77ff3cfc414b5d",
+      "materials": [
+        {
+          "node": 11,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 43,
+          "name": "BlastMark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "5027953042766222733",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "6880c3838b40fdf5ee40b286.native-effect.json",
+      "reference": "Fire_AE_FullBoard_FX.prefab:1d77444aaeef20d4494e2ad82c551341",
+      "materials": [
+        {
+          "node": 15,
+          "name": "Black 1",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "76cd717cacf8a2a8095c00ad.native-effect.json",
+      "reference": "Sneaky2_Attack_FX.prefab:6a9a8edafcae07b4dadc18db5550e663",
+      "materials": [
+        {
+          "node": 19,
+          "name": "SneakySmokeStart2",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "5918904308024318007",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "7a8e6c26f439a145cb9e19f9.native-effect.json",
+      "reference": "Ragnaros_Trigger_FX.prefab:51b6f614daaae8d4cbd6daebd5a69211",
+      "materials": [
+        {
+          "node": 11,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 43,
+          "name": "BlastMark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "5027953042766222733",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "7f5b7f88ce33488167db5847.native-effect.json",
+      "reference": "Lunar_Target_Silence_FX.prefab:96e1db570891845429edbb26801b06ad",
+      "materials": [
+        {
+          "node": 30,
+          "name": "Particle Blast Mark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3708010735145582905",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "8141bcb386615a6aac3f4f4e.native-effect.json",
+      "reference": "Fel_AE_FullBoard_Purple_FX.prefab:20f805fbdfd518a49beada54dcfa042d",
+      "materials": [
+        {
+          "node": 15,
+          "name": "Black 1",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "878fdf50d856cdf456617073.native-effect.json",
+      "reference": "DemonFire_FX.prefab:89903e1f18715bf40b4061ff2b16da8a",
+      "materials": [
+        {
+          "node": 11,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 31,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "8b9080000adab86469ff8b06.native-effect.json",
+      "reference": "SpawnToHand_WarlockBoosh_FX.prefab:a9d757d1dd2445340b973453f552679a",
+      "materials": [
+        {
+          "node": 6,
+          "name": "fx_intake_streaks",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "8f27eba70c61fc46ec632557.native-effect.json",
+      "reference": "Rage_Targeted_Charge_FX.prefab:b75b0c94b9f7e464e904c01709e14913",
+      "materials": [
+        {
+          "node": 10,
+          "name": "motes",
+          "source": {
+            "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+            "pathid": "-4576894204604535285",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Asphyxiate_Super_WithIdle.prefab:676fef5a5e50055409210c583d22859e",
+      "materials": [
+        {
+          "node": 24,
+          "name": "FX_motesSuckin",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+      "reference": "Shadow_ShadowWordPain_FX.prefab:ceb8d5daaa8c10a4c9982de97967d6ae",
+      "materials": [
+        {
+          "node": 21,
+          "name": "FX_motesSuckin",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "981819333488b6f836164c88.native-effect.json",
+      "reference": "PerditionsBlade_FX.prefab:171de26f1b94e0442a11f9ca73911b27",
+      "materials": [
+        {
+          "node": 14,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "9ac81ae7be2944e54fd04367.native-effect.json",
+      "reference": "ReuseFX_SpawnToHand_Void_Magic.prefab:94e4bf03acd8eda41b868fcee5c41989",
+      "materials": [
+        {
+          "node": 6,
+          "name": "fx_intake_streaks",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "9c3b2a977d2fd3ef2c0632a9.native-effect.json",
+      "reference": "YseraDreamWorld_Untargetted.prefab:ad3e7120eb962484fba1e7c7927a2f86",
+      "materials": [
+        {
+          "node": 7,
+          "name": "ParticleFinalWipe",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-2269162697920647822",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "a484b427845ecdd3236cbf88.native-effect.json",
+      "reference": "ReuseFX_Missile_Fire_Fireball_Medium_Super.prefab:563aacc1b2a435441988eae90cf8de94",
+      "materials": [
+        {
+          "node": 11,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 43,
+          "name": "BlastMark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "5027953042766222733",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "a5f6ee9b9167114993ee7bc9.native-effect.json",
+      "reference": "Hellfire_AE_FX.prefab:ce7fee3b48a76f14caddcdfa681db87b",
+      "materials": [
+        {
+          "node": 9,
+          "name": "SubEmitter2",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 27,
+          "name": "SubEmitter2",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "ac729f443614aebbf097c5ae.native-effect.json",
+      "reference": "Rage_Targeted_InnerRage_FX.prefab:199d710abbd77d348a33b08f15fc90bd",
+      "materials": [
+        {
+          "node": 10,
+          "name": "motes",
+          "source": {
+            "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+            "pathid": "-4576894204604535285",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "acf38a3473aedaf1aaba0517.native-effect.json",
+      "reference": "Rage_Targeted_BestialWrath_FX.prefab:05cc51d3d74ae514c8a65e2328250e20",
+      "materials": [
+        {
+          "node": 10,
+          "name": "motes",
+          "source": {
+            "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+            "pathid": "-4576894204604535285",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "b5870350c3bfca9f0391faa2.native-effect.json",
+      "reference": "Sneaky_Attack_NoStart_FX.prefab:e05d432f4439cb647899c13738ebfeab",
+      "materials": [
+        {
+          "node": 8,
+          "name": "SneakySmokeStart2",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "5918904308024318007",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        },
+        {
+          "node": 30,
+          "name": "SneakySmokeStart2",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "5918904308024318007",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "b60b46f66a938713c27ca97b.native-effect.json",
+      "reference": "Sneaky_Eviscerate_Minion_FX.prefab:7db60663c68a2dc4982e2cc2b25ad045",
+      "materials": [
+        {
+          "node": 19,
+          "name": "SneakySmokeStart2",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "5918904308024318007",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        },
+        {
+          "node": 31,
+          "name": "SneakySmokeStart2",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "5918904308024318007",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "c2d07a0a5c5f3c0254949c25.native-effect.json",
+      "reference": "ShadowFlame_AE_FX.prefab:22b59fba67b563549ac1835caf191d43",
+      "materials": [
+        {
+          "node": 25,
+          "name": "SubEmitter2",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "c98cce1aae02a4161ec3adfb.native-effect.json",
+      "reference": "Warlock_SacrificialPact_FX.prefab:bf91897c0d34f6d4db6b9c68beffa066",
+      "materials": [
+        {
+          "node": 2,
+          "name": "FX_motesSuckin",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "ce9e2ba5c3e2aa3061331d02.native-effect.json",
+      "reference": "Deathwing_OverrideDiscard.prefab:25dd08414a4e49d4fa427f1d33539161",
+      "materials": [
+        {
+          "node": 7,
+          "name": "fx_char_decal",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "5027953042766222733",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "cf7378eab15cd8e4899b84b5.native-effect.json",
+      "reference": "Warlock_Missiles_FX.prefab:6ca3ce5631d161744907c7790e623216",
+      "materials": [
+        {
+          "node": 15,
+          "name": "FX_motesSuckin",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "d4a8efbd566e7fc8149c939b.native-effect.json",
+      "reference": "FanOfKnives_FX.prefab:22bcac556a7b1cc4a9c378da1e677e0c",
+      "materials": [
+        {
+          "node": 12,
+          "name": "SneakySmokeStart2",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "5918904308024318007",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "d790330298f4596a1be10106.native-effect.json",
+      "reference": "Soulfire_FX.prefab:6ad98be477ebbd847b0a3110b7105abc",
+      "materials": [
+        {
+          "node": 42,
+          "name": "BlastMark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "5027953042766222733",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "d7dade5b86884e2cdaf658ef.native-effect.json",
+      "reference": "Fel_AE_FullBoard_FX.prefab:fddb438586fd403439e467f6f5ca5119",
+      "materials": [
+        {
+          "node": 15,
+          "name": "Black 1",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "3784326660231381856",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "ec35874f66086d68d154de9b.native-effect.json",
+      "reference": "Warlock_Tendril_SuckIn_Missile.prefab:a6ee56ff9897ec148bb4dc97b51709b7",
+      "materials": [
+        {
+          "node": 1,
+          "name": "FX_BlackVortex",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "-5734489993877547187",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        },
+        {
+          "node": 5,
+          "name": "FX_motesSuckin",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        },
+        {
+          "node": 15,
+          "name": "FX_motesSuckin",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "8175979767662950987",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "ef719cc32cc2ec11a8bb1456.native-effect.json",
+      "reference": "ReuseFX_Missile_Fire_Fireball_Large_Super.prefab:fafdcc62cdedb2e469dec13af89c124a",
+      "materials": [
+        {
+          "node": 11,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 33,
+          "name": "FireParticleMask",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "381486962782068921",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 43,
+          "name": "BlastMark",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "5027953042766222733",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Original base RGBA multiplier and shared Glow pass reimplemented from DXBC.",
+    "Internal RenderToTexture uses original Zero/SrcColor blend.",
+    "Final board capture does not yet preserve colored destination transmission through the transparent composite.",
+    "Material coverage and GPU math do not certify complete card animations."
+  ]
+}

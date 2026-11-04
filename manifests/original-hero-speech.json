@@ -1,0 +1,3349 @@
+{
+  "schema_version": 1,
+  "locale": "zhcn",
+  "source_files": {
+    "audio": "Strings/zhCN/GAMEPLAY_AUDIO.txt",
+    "labels": "Strings/zhCN/GAMEPLAY.txt"
+  },
+  "entry_count": 99,
+  "candidate_count": 99,
+  "entries": [
+    {
+      "card_id": "HERO_01",
+      "emote_id": "CONCEDE",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_01_CONCEDE",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_01",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "Emote_Concede.prefab:f38c2864d682df34a962b6cd29442982",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_01_CONCEDE",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_01_CONCEDE_0",
+          "name": "VO_HERO_01_Concede_07",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.2066667079925537,
+          "asset_id": "853d3f1103992c3b1929c5df",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "1775589058453437697",
+          "reference": "Emote_Concede.prefab:f38c2864d682df34a962b6cd29442982",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "3e76f9bda51f99c476c7cac1beb6ec05f096dcf7eeb9847640c6e34ec7d14f7c"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_01",
+      "emote_id": "GREETINGS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_01_GREETINGS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_01",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "Emote_Greetings.prefab:bf490856113bfa34ba905ded8b06e53f",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_01_GREETINGS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_01_GREETINGS_0",
+          "name": "VO_HERO_01_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.569833278656006,
+          "asset_id": "3f5b056fdf00b0d5d9b14227",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "2892463283728065868",
+          "reference": "Emote_Greetings.prefab:bf490856113bfa34ba905ded8b06e53f",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "eb3dd06e775fd9b81296f2b0794dbd9c606174af94f2c3ed32af56d150057681"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_01",
+      "emote_id": "OOPS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_01_OOPS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_01",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "Emote_Oops.prefab:a53a32525e2d9ad4d9538d7c449aba73",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_01_OOPS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_01_OOPS_0",
+          "name": "VO_HERO_01_Oops_03",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.7048332691192627,
+          "asset_id": "27b506c0047b7af7b8bf7418",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-8580331410516094933",
+          "reference": "Emote_Oops.prefab:a53a32525e2d9ad4d9538d7c449aba73",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "0c36c83eabb0e525ea66077e314d4ebcba3d64660b54f08e4f2aaffda2e7166f"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_01",
+      "emote_id": "SORRY",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_01_SORRY",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_01",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "Emote_Sorry.prefab:bdc7bd20b81322c44bf215b38addce5b",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_01_SORRY",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_01_SORRY_0",
+          "name": "VO_HERO_01_Sorry_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.385333299636841,
+          "asset_id": "c6a140ea10caa04be0677847",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-8809455077874942880",
+          "reference": "Emote_Sorry.prefab:bdc7bd20b81322c44bf215b38addce5b",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "dc9c774d7cc19bfac91d7c98b890a2ce2986f6416e467a4e7948dbb9eb9ba25a"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_01",
+      "emote_id": "START",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_01_START",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_01",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "Emote_Start.prefab:da635ef0d69fdab4ea96c82938f1e330",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_01_START",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_01_START_0",
+          "name": "VO_HERO_01_Start_09",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.4217708110809326,
+          "asset_id": "0e8e63231d311d11c0e51554",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-9045834864734567390",
+          "reference": "Emote_Start.prefab:da635ef0d69fdab4ea96c82938f1e330",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "13c2f036bc7a8134c0cb93cb838b8bc10166f860a4e24775fed20afbdda35b48"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_01",
+      "emote_id": "THANKS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_01_THANKS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_01",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "Emote_Thanks.prefab:31f1e441c79ae1640995155c053d9133",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_01_THANKS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_01_THANKS_0",
+          "name": "VO_HERO_01_Thanks_05",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.0426666736602783,
+          "asset_id": "6500c4bce8f84aece5079ee5",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-6380532981612733320",
+          "reference": "Emote_Thanks.prefab:31f1e441c79ae1640995155c053d9133",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "7df220330c4b3535cfb1c2569e4ef4ded4c618c75e719fdd02920d256e9e3295"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_01",
+      "emote_id": "THREATEN",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_01_THREATEN",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_01",
+          "field": "m_EmoteDefs[11]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "Emote_Threaten.prefab:cf38aa1233c01374d988d0cac6c6b63a",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_01_THREATEN",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_01_THREATEN_0",
+          "name": "VO_HERO_01_Threaten_04",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.4333748817443848,
+          "asset_id": "ca9e35f217e428681d7d9da7",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "8403689841843344225",
+          "reference": "Emote_Threaten.prefab:cf38aa1233c01374d988d0cac6c6b63a",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "22b3d5a4de2111ccb45015df2261a9f926f3202b775eb7873a29edd59257f1da"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_01",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_01_WELL_PLAYED",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_01",
+          "field": "m_EmoteDefs[13]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "Emote_Well_Played.prefab:69684b5662a8bfd4eaa120c315f0d652",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_01_WELL_PLAYED",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_01_WELL_PLAYED_0",
+          "name": "VO_HERO_01_Well Played_02",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.618666648864746,
+          "asset_id": "e7cba5ebaef579bb3f6a427d",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "2901137980081402382",
+          "reference": "Emote_Well_Played.prefab:69684b5662a8bfd4eaa120c315f0d652",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "447f45687468d10157a682be9743bdcaf6342d58d6b75f847ffd331118fedbf4"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_01",
+      "emote_id": "WOW",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_01_WOW",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_01",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "Emote_Wow.prefab:d9c82c82e6b41074a88e86e627a7c2bc",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_01_WOW",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_01_WOW_0",
+          "name": "VO_HERO_01_WOW_11",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.7613333463668823,
+          "asset_id": "5e2c350b415a6d29901b5dc5",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-829415900420392624",
+          "reference": "Emote_Wow.prefab:d9c82c82e6b41074a88e86e627a7c2bc",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "9fc2715f19aff8f6608b7cc28fe7e535b1a26f67f6d043b07bfd58237d351df2"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_02",
+      "emote_id": "CONCEDE",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_02_CONCEDE",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_02",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "Emote_Concede.prefab:fcde05f17421e1c44a7df31529ad658c",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_02_CONCEDE",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_02_CONCEDE_0",
+          "name": "VO_Hero_02_Concede_07",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.3493332862854004,
+          "asset_id": "f4dbac46668ae09e58902a0a",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-0.unity3d",
+          "cab": "CAB-93d9c010490a1992462773f1e7d8c88f",
+          "pathid": "8091387346695982828",
+          "reference": "Emote_Concede.prefab:fcde05f17421e1c44a7df31529ad658c",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "0c6fd2de2ccb8cbe84dce4800de13ee8739a996a92c8b0277266dd5d2aee21d0"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_02",
+      "emote_id": "GREETINGS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_02_GREETINGS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_02",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "Emote_Greetings.prefab:065b87ee78ceedd4cb78b49fa47c735b",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_02_GREETINGS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_02_GREETINGS_0",
+          "name": "VO_Hero_02_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.7866666316986084,
+          "asset_id": "dae8676503a6dbdcfc729192",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-0.unity3d",
+          "cab": "CAB-93d9c010490a1992462773f1e7d8c88f",
+          "pathid": "3560027838710255496",
+          "reference": "Emote_Greetings.prefab:065b87ee78ceedd4cb78b49fa47c735b",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "fd503fdb300ea6e0715843106afc511ac20dbf032ad89760bb3c22ec84f34188"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_02",
+      "emote_id": "OOPS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_02_OOPS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_02",
+          "field": "m_EmoteDefs[2]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "Emote_Oops.prefab:06d6652f345e13c47989502f347c5301",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_02_OOPS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_02_OOPS_0",
+          "name": "VO_Hero_02_Oops_03_ALT",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.5786666870117188,
+          "asset_id": "fb1e02cf832b81360022a667",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "4475722697905860014",
+          "reference": "Emote_Oops.prefab:06d6652f345e13c47989502f347c5301",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "63a681b50402dc3dc8b510e0c1d70f2e5e77f27371631332991dfa8128347aba"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_02",
+      "emote_id": "SORRY",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_02_SORRY",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_02",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "Emote_Sorry.prefab:cbadf0ec6d43a4d4e905086f7dabbecf",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_02_SORRY",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_02_SORRY_0",
+          "name": "VO_Hero_02_Sorry_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.434666633605957,
+          "asset_id": "c37c390f27b0f8f85babc267",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "2263945207696399202",
+          "reference": "Emote_Sorry.prefab:cbadf0ec6d43a4d4e905086f7dabbecf",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "a252206a48ed92afe4e70a95d4dbf2bf199d5ffb5260d34add9e43f205915014"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_02",
+      "emote_id": "START",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_02_START",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_02",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "Emote_Start.prefab:23a44fa9da13041438e24b3cfb561304",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_02_START",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_02_START_0",
+          "name": "VO_Hero_02_Start_09",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.8880000114440918,
+          "asset_id": "c641f17dcd9bf1660a33009b",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "536474802495120486",
+          "reference": "Emote_Start.prefab:23a44fa9da13041438e24b3cfb561304",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "48e9887ca9a4e5b69ef821a01cee0e977186cb3189def6367bb2ef69e76f77d9"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_02",
+      "emote_id": "THANKS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_02_THANKS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_02",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "Emote_Thanks.prefab:b85f0d73373c9124ab6f2176a88d314c",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_02_THANKS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_02_THANKS_0",
+          "name": "VO_Hero_02_Thanks_05",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.370666742324829,
+          "asset_id": "2806ad3522cb96e6d965c583",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "-6456424071280606184",
+          "reference": "Emote_Thanks.prefab:b85f0d73373c9124ab6f2176a88d314c",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "b92aa0649cb80a842d1a78fc1465e0d84ea8f5fd2e372faafbe4a235b3b45280"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_02",
+      "emote_id": "THREATEN",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_02_THREATEN",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_02",
+          "field": "m_EmoteDefs[3]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "Emote_Threaten.prefab:1d276b2a63d9ec9419ced44bde43d6b5",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_02_THREATEN",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_02_THREATEN_0",
+          "name": "VO_Hero_02_Threaten_04",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.821333408355713,
+          "asset_id": "fc9e2999debdb339af3361bc",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "2744501094078753274",
+          "reference": "Emote_Threaten.prefab:1d276b2a63d9ec9419ced44bde43d6b5",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "0d438a1cdaf669b11f7f28e1e9460b747b10ad64794834ee2f5d8d0c36fb87fc"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_02",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_02_WELL_PLAYED",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_02",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "Emote_Well_Played.prefab:8bfe488cf774c5d4398189a884c4d835",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_02_WELL_PLAYED",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_02_WELL_PLAYED_0",
+          "name": "VO_Hero_02_Well Played_02",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.5920000076293945,
+          "asset_id": "8d3b206593d1b27024125067",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "-8686062812023480735",
+          "reference": "Emote_Well_Played.prefab:8bfe488cf774c5d4398189a884c4d835",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "6a585de02b946b677735e48113db8076c837a41ff0f42be772ff4f367c1ac8d5"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_02",
+      "emote_id": "WOW",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_02_WOW",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_02",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "Emote_Wow.prefab:fe14bef06b9b8734ba78c087bbafc732",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_02_WOW",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_02_WOW_0",
+          "name": "VO_HERO_02_WOW_12_ALT",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.2933332920074463,
+          "asset_id": "1c5636a24e996157e9111aa1",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "1130202838634466997",
+          "reference": "Emote_Wow.prefab:fe14bef06b9b8734ba78c087bbafc732",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "74461c37877d5f3371281c3ba224ad838d3ffc1c26e001e6d42945da896420af"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_03",
+      "emote_id": "CONCEDE",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_03_CONCEDE",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_03",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "Emote_Concede.prefab:568ececbf141aed449805311c8bb5c32",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_03_CONCEDE",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_03_CONCEDE_0",
+          "name": "VO_HERO_03_Concede_07",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.9901458621025085,
+          "asset_id": "940ab513865d277306a93909",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "3148320869917078581",
+          "reference": "Emote_Concede.prefab:568ececbf141aed449805311c8bb5c32",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "a0e15ef0cf79f6465502fb0b1262d9d4fa0d38ee4010fb924af0b8f2ebc4f2d4"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_03",
+      "emote_id": "GREETINGS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_03_GREETINGS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_03",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "Emote_Greetings.prefab:cd537b47d42f996419958bbc30c04e43",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_03_GREETINGS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_03_GREETINGS_0",
+          "name": "VO_HERO_03_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.5151666402816772,
+          "asset_id": "fc8bb2c77d241599062c90a0",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "6905396433939675403",
+          "reference": "Emote_Greetings.prefab:cd537b47d42f996419958bbc30c04e43",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "1646ea769ddc9e6f14298247e20d4875a7681b2b6db7353613130eb0a885d0d3"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_03",
+      "emote_id": "OOPS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_03_OOPS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_03",
+          "field": "m_EmoteDefs[2]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "Emote_Oops.prefab:d79499b780e80f94bab55b0c8c27eec3",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_03_OOPS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_03_OOPS_0",
+          "name": "VO_HERO_03_Oops_03",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.4528332948684692,
+          "asset_id": "a8b18ef9f06cf6765c39ced4",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "8164965465302725703",
+          "reference": "Emote_Oops.prefab:d79499b780e80f94bab55b0c8c27eec3",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "890233461b139f5d93a5231edcd0b1b6d240bfe8fb95ad56b3f437d64e50f5d6"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_03",
+      "emote_id": "SORRY",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_03_SORRY",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_03",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "Emote_Sorry.prefab:920226dafe81d5f41994cf295e122857",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_03_SORRY",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_03_SORRY_0",
+          "name": "VO_HERO_03_Sorry_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.9275416135787964,
+          "asset_id": "121920c0c8e28e29f2f9e600",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "-4047398403397699782",
+          "reference": "Emote_Sorry.prefab:920226dafe81d5f41994cf295e122857",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "6d3e8041bf135cbcd706a13c85034a94c5c31b512237e883d0949a59d85eb23e"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_03",
+      "emote_id": "START",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_03_START",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_03",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "Emote_Start.prefab:ce2afaed57671f1489748bc701d7294d",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_03_START",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_03_START_0",
+          "name": "VO_HERO_03_Start_09",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.879312515258789,
+          "asset_id": "7c577f80e141265d60e7a8e9",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "-5299924301852428152",
+          "reference": "Emote_Start.prefab:ce2afaed57671f1489748bc701d7294d",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "870687784c4ac1b0c9e53541f6e0a47f027a2dfe0bb334bc9a02c743cc9e7dc5"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_03",
+      "emote_id": "THANKS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_03_THANKS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_03",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "Emote_Thanks.prefab:e443b07847fde7149992a1085fce35e3",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_03_THANKS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_03_THANKS_0",
+          "name": "VO_HERO_03_Thanks_05",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.0404791831970215,
+          "asset_id": "68ba59935902a3c1ea716ecc",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "4294097757476168976",
+          "reference": "Emote_Thanks.prefab:e443b07847fde7149992a1085fce35e3",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "69336f71857490c0bdcfdb1ac9bf12c57128313a6de0f049891c7676a342ec79"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_03",
+      "emote_id": "THREATEN",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_03_THREATEN",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_03",
+          "field": "m_EmoteDefs[3]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "Emote_Threaten.prefab:c9456ba7696cf6f45a0f1f6c98273a1a",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_03_THREATEN",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_03_THREATEN_0",
+          "name": "VO_HERO_03_Threaten_04",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.7836666107177734,
+          "asset_id": "f1a3c864faccfd69ff24adba",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "-9122130040847599462",
+          "reference": "Emote_Threaten.prefab:c9456ba7696cf6f45a0f1f6c98273a1a",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "f5ef85c61e0972dbbaa021c8255699f6b4f516c53760be1f9149a32ad8e75641"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_03",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_03_WELL_PLAYED",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_03",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "Emote_Well_Played.prefab:599b44a3b4aec1845be69a6e49ee2353",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_03_WELL_PLAYED",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_03_WELL_PLAYED_0",
+          "name": "VO_HERO_03_Well Played_02",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.3768333196640015,
+          "asset_id": "5a704d4e4f53a320180153a9",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "8662031283034121180",
+          "reference": "Emote_Well_Played.prefab:599b44a3b4aec1845be69a6e49ee2353",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "d4d3901da75189b458486b269e5102f37f90dc1d86d8a5103798bea93e378ae3"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_03",
+      "emote_id": "WOW",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_03_WOW",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_03",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "Emote_Wow.prefab:ead69a72aa14c0943b55368ba1c77568",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_03_WOW",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_03_WOW_0",
+          "name": "VO_HERO_03_WOW_11",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.7733333110809326,
+          "asset_id": "bc4bd7ba4b8e14634d072db5",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "-6435592815139411903",
+          "reference": "Emote_Wow.prefab:ead69a72aa14c0943b55368ba1c77568",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "66f1ff2dc4b2184323243d929470b27a1d29b863fbe07cc2eeeb7228ec09bf09"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_04",
+      "emote_id": "CONCEDE",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_04_CONCEDE",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_04",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "Emote_Concede.prefab:5bc789205bbe1ec4bb8937b270e6c5f0",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_04_CONCEDE",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_04_CONCEDE_0",
+          "name": "VO_HERO_04_Concede_07",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.7386666536331177,
+          "asset_id": "1e48c7a16a3e532dc0cba7cf",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "2474538516253749983",
+          "reference": "Emote_Concede.prefab:5bc789205bbe1ec4bb8937b270e6c5f0",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "364e75b84637d818a0e00434572d123715c5b624e0ae3e0cad6ae27e63db5f23"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_04",
+      "emote_id": "GREETINGS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_04_GREETINGS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_04",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "Emote_Greetings.prefab:4382e7a0870c5d54291b0b8a624f67aa",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_04_GREETINGS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_04_GREETINGS_0",
+          "name": "VO_HERO_04_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.0946667194366455,
+          "asset_id": "4123e70e89b1b2046ab3dc95",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "4903673051474916176",
+          "reference": "Emote_Greetings.prefab:4382e7a0870c5d54291b0b8a624f67aa",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "50e20b3b0f30b4efa28ad717a899480aed32a8652ce2ecdc750289e460226c41"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_04",
+      "emote_id": "OOPS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_04_OOPS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_04",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "Emote_Oops.prefab:1f953937af104d745a955b26d7915c5a",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_04_OOPS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_04_OOPS_0",
+          "name": "VO_HERO_04_Oops_03",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.3493332862854004,
+          "asset_id": "df80ede88dc5d7999650b8c0",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "6407534040819076998",
+          "reference": "Emote_Oops.prefab:1f953937af104d745a955b26d7915c5a",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "86b4f48926cbda4a549322002dbe65bd16770f7a0fc226ab3a2241dd6a7dbfa7"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_04",
+      "emote_id": "SORRY",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_04_SORRY",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_04",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "Emote_Sorry.prefab:a6f17bc69f81e7b42a31be6fc0ae6810",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_04_SORRY",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_04_SORRY_0",
+          "name": "VO_HERO_04_Sorry_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.0746666193008423,
+          "asset_id": "ef420de3b8fc1dcc23f7c36e",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "4420139106295588335",
+          "reference": "Emote_Sorry.prefab:a6f17bc69f81e7b42a31be6fc0ae6810",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "dfc13f171d4fd8075b4b8654ceffc5408f19391f23968c61245901a8cf2dcf14"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_04",
+      "emote_id": "START",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_04_START",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_04",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "Emote_Start.prefab:284a4a3b744aff940aad550155931ad7",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_04_START",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_04_START_0",
+          "name": "VO_HERO_04_Start_09",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.0799999237060547,
+          "asset_id": "8ea458ebc6fb5c4e9ae8267e",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "-6698973213528318244",
+          "reference": "Emote_Start.prefab:284a4a3b744aff940aad550155931ad7",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "ccdf0bd25ec18fee3512ce180f6d8db97d9e870450b6dd26dd23aaff3137e02d"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_04",
+      "emote_id": "THANKS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_04_THANKS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_04",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "Emote_Thanks.prefab:fd4c21057b2204742bdf548537b5217e",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_04_THANKS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_04_THANKS_0",
+          "name": "VO_HERO_04_Thanks_05",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.762666642665863,
+          "asset_id": "509acc1057143c6c0b222dc4",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "6705230909810457652",
+          "reference": "Emote_Thanks.prefab:fd4c21057b2204742bdf548537b5217e",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "9c2f2a5c67fab63cd3475e9bd83f90af6913a16a0ab6ba96395872da00cbec5b"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_04",
+      "emote_id": "THREATEN",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_04_THREATEN",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_04",
+          "field": "m_EmoteDefs[11]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "Emote_Threaten.prefab:a8612a7e63a6e494ba45728227d7a1e1",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_04_THREATEN",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_04_THREATEN_0",
+          "name": "VO_HERO_04_Threaten_04",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.749333381652832,
+          "asset_id": "41a19b0a08960f82674cc7b2",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "5902847078078283558",
+          "reference": "Emote_Threaten.prefab:a8612a7e63a6e494ba45728227d7a1e1",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "4801545a9b5ef724c5004f85267309d7d3bab081f2f5a5ea1a7860080fc6c14f"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_04",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_04_WELL_PLAYED",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_04",
+          "field": "m_EmoteDefs[13]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "Emote_Well_Played.prefab:7188b31278de46e428670ee5b55eede6",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_04_WELL_PLAYED",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_04_WELL_PLAYED_0",
+          "name": "VO_HERO_04_WellPlayed_02",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.9919999837875366,
+          "asset_id": "3164678f81dccee411982c16",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "2941032345173540911",
+          "reference": "Emote_Well_Played.prefab:7188b31278de46e428670ee5b55eede6",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "d56f0fd5d242b00cefc7470903064866e09b806c7ce438425b62965f247af50b"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_04",
+      "emote_id": "WOW",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_04_WOW",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_04",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "Emote_Wow.prefab:5752dbcd1f9d55848b16c22d6994f062",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_04_WOW",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_04_WOW_0",
+          "name": "VO_HERO_04_WOW_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.8173333406448364,
+          "asset_id": "e91346e5ef3874730025df7e",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "1650815080475995134",
+          "reference": "Emote_Wow.prefab:5752dbcd1f9d55848b16c22d6994f062",
+          "source_bundle": "initial_base_global-244154c1-prefab-2.unity3d",
+          "sha256": "328e49a34d609e530b2601f90ba61b414d18e61066c96d27f306ca0679d9fd0b"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_05",
+      "emote_id": "CONCEDE",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_05_CONCEDE",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_05",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "Emote_Concede.prefab:43c2dfd68b9ca3d45ba183bae02c8618",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_05_CONCEDE",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_05_CONCEDE_0",
+          "name": "VO_HERO_05_Concede_07",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.5826666355133057,
+          "asset_id": "2fd5593d99e610e42a150738",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-6264831272621393563",
+          "reference": "Emote_Concede.prefab:43c2dfd68b9ca3d45ba183bae02c8618",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "a8caffade453393aaa11a1d0628c321fbe18ccfc76b21a099d1f42c9d6dcaa79"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_05",
+      "emote_id": "GREETINGS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_05_GREETINGS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_05",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "Emote_Greetings.prefab:36b0c93920439d440a30b65360bdd25b",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_05_GREETINGS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_05_GREETINGS_0",
+          "name": "VO_HERO_05_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.0320000648498535,
+          "asset_id": "f9cd9409929daef19241f0bd",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-2151897955037433371",
+          "reference": "Emote_Greetings.prefab:36b0c93920439d440a30b65360bdd25b",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "0401669df55cdc6e86c786a028e9cbcd8dfce369416f34ac5b044b94db2c2acc"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_05",
+      "emote_id": "OOPS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_05_OOPS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_05",
+          "field": "m_EmoteDefs[2]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "Emote_Oops.prefab:0ce4ab3207edee84cba93465bccf1716",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_05_OOPS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_05_OOPS_0",
+          "name": "VO_HERO_05_Oops_03",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.501333236694336,
+          "asset_id": "be88d3888af8281899fc57f9",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-6649667766428585025",
+          "reference": "Emote_Oops.prefab:0ce4ab3207edee84cba93465bccf1716",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "8a05536f05562f882c5f869c28614434ce1f16ef3b61b8a8bb785afc83da74bd"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_05",
+      "emote_id": "SORRY",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_05_SORRY",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_05",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "Emote_Sorry.prefab:07a385bc3fb24c141ac10dd33af90ee4",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_05_SORRY",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_05_SORRY_0",
+          "name": "VO_HERO_05_Sorry_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.2960000038146973,
+          "asset_id": "a3ce4ad72f47b50d790ee551",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-602327363283434541",
+          "reference": "Emote_Sorry.prefab:07a385bc3fb24c141ac10dd33af90ee4",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "abca8151f28d6654a10c270ae8f574d08bd545302b39c0e8caf713c84ab7a1f9"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_05",
+      "emote_id": "START",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_05_START",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_05",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "Emote_Start.prefab:795406f408d54dd45a8ca79edf7290d6",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_05_START",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_05_START_0",
+          "name": "VO_HERO_05_Start_09",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.8453333377838135,
+          "asset_id": "8b614cf3544f15318c9f35ac",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "5889053445189046737",
+          "reference": "Emote_Start.prefab:795406f408d54dd45a8ca79edf7290d6",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "9d84559c4e4688f99fdec458dc53883e9d604a96417533ea62cf42ce69b82ec9"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_05",
+      "emote_id": "THANKS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_05_THANKS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_05",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "Emote_Thanks.prefab:6dc50b8836b4f1241a786c30c47ae904",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_05_THANKS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_05_THANKS_0",
+          "name": "VO_HERO_05_Thanks_05",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.0399999618530273,
+          "asset_id": "44f0a44a31a54880d730f240",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "1357564291572749139",
+          "reference": "Emote_Thanks.prefab:6dc50b8836b4f1241a786c30c47ae904",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "0790cb64306b31c3e5df8a7f206dd8b4230866b3913f3f4b0c0ef47b8ac7c87a"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_05",
+      "emote_id": "THREATEN",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_05_THREATEN",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_05",
+          "field": "m_EmoteDefs[3]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "Emote_Threaten.prefab:a288b4708dd8b374a83245844f44a37c",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_05_THREATEN",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_05_THREATEN_0",
+          "name": "VO_HERO_05_Threaten_04",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.197333335876465,
+          "asset_id": "5cb404508f32da76a8f3971b",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-3062052685193593437",
+          "reference": "Emote_Threaten.prefab:a288b4708dd8b374a83245844f44a37c",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "d2113a8cc373b3c794dc0f63bf4c201504fb2478cf14ea8d18e29ebcf64bb9e7"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_05",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_05_WELL_PLAYED",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_05",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "Emote_Well_Played.prefab:fe9e894ec2ef4a147ae52d7fe490b318",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_05_WELL_PLAYED",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_05_WELL_PLAYED_0",
+          "name": "VO_HERO_05_Well Played_02",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.7120000123977661,
+          "asset_id": "80714b1325af0669ca79208b",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "7248150567821478416",
+          "reference": "Emote_Well_Played.prefab:fe9e894ec2ef4a147ae52d7fe490b318",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "e731950516f14b5596f0e1dc1b68d231a1f9b50a2b66ed9c90cf17cf083083ca"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_05",
+      "emote_id": "WOW",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_05_WOW",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_05",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "Emote_Wow.prefab:94b6325b9f8aa63488e45fe16e6e3db7",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_05_WOW",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_05_WOW_0",
+          "name": "VO_HERO_05_WOW_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.5199999809265137,
+          "asset_id": "28d0653bc49ad1535e07b565",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-6834943388084860721",
+          "reference": "Emote_Wow.prefab:94b6325b9f8aa63488e45fe16e6e3db7",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "d316363ddb54120a33e56c5aa257c1552f752499aa773fe5eae8abce58055a62"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_06",
+      "emote_id": "CONCEDE",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_06_CONCEDE",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_06",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "Emote_Concede.prefab:ba6e0bc16289bc246925fe6659503444",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_06_CONCEDE",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_06_CONCEDE_0",
+          "name": "VO_HERO_06_Concede_07",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.8548333644866943,
+          "asset_id": "9f64b480252a626858ef3a47",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "-6284952631332194241",
+          "reference": "Emote_Concede.prefab:ba6e0bc16289bc246925fe6659503444",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "5f6e57e02481cc298d1e6fd83697a3784dfdea1dbc0f667b2e15e1c51135d67e"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_06",
+      "emote_id": "GREETINGS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_06_GREETINGS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_06",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "Emote_Greetings.prefab:8921016a00cecaa49844ad9aa7a667d8",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_06_GREETINGS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_06_GREETINGS_0",
+          "name": "VO_HERO_06_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.9106666445732117,
+          "asset_id": "ea9e6218b5c47e6d34042dc1",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+          "cab": "CAB-39f0060d22d36de4181537642b004baa",
+          "pathid": "-4883265672859950633",
+          "reference": "Emote_Greetings.prefab:8921016a00cecaa49844ad9aa7a667d8",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "98e15d4f2bf3c132fc997e4631b6f210ffae736237c40327cde502ec24f828a9"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_06",
+      "emote_id": "OOPS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_06_OOPS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_06",
+          "field": "m_EmoteDefs[2]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "Emote_Oops.prefab:ffd20ec41c1e2064cbd346f930624d74",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_06_OOPS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_06_OOPS_0",
+          "name": "VO_HERO_06_Oops_03",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.5157084465026855,
+          "asset_id": "473c11fa46f0dfd4df1fe541",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "8631426385443470504",
+          "reference": "Emote_Oops.prefab:ffd20ec41c1e2064cbd346f930624d74",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "69978f5db6f31830c89d4fe4a46ed6d3f06147463232ffac2012af8e67f5cdf4"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_06",
+      "emote_id": "SORRY",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_06_SORRY",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_06",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "Emote_Sorry.prefab:05e8a1a7699c50542ab48f62b86f1d4b",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_06_SORRY",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_06_SORRY_0",
+          "name": "VO_HERO_06_Sorry_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.3253333568573,
+          "asset_id": "3c1516e2ebad8c4d5ad2f49a",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "8334990486945689938",
+          "reference": "Emote_Sorry.prefab:05e8a1a7699c50542ab48f62b86f1d4b",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "3c83c9947626c40a60a79f83f53c74d21b2a55fa3d0bda90e250ab841f5e9bd3"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_06",
+      "emote_id": "START",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_06_START",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_06",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "Emote_Start.prefab:bd560568f65c7a4488f1b0070b3a7d28",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_06_START",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_06_START_0",
+          "name": "VO_HERO_06_Start_09",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.6352083683013916,
+          "asset_id": "cc004f999d1b8fb8c16fb9e4",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-384704540281214978",
+          "reference": "Emote_Start.prefab:bd560568f65c7a4488f1b0070b3a7d28",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "01076b14c1a80806b3b3df0495174d30a6c4d178bef9ae28ca800cea765177b9"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_06",
+      "emote_id": "THANKS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_06_THANKS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_06",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "Emote_Thanks.prefab:671a74cbfe98e6544a6d9a6cc44f755d",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_06_THANKS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_06_THANKS_0",
+          "name": "VO_HERO_06_Thanks_05",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.4133332967758179,
+          "asset_id": "b1090ca73b7282ed3084b67f",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "8557160885079498952",
+          "reference": "Emote_Thanks.prefab:671a74cbfe98e6544a6d9a6cc44f755d",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "a420cd1d7c6b44bff4d3f0e7144b4703be1dfacbea49c6a275ae67deea0f7192"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_06",
+      "emote_id": "THREATEN",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_06_THREATEN",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_06",
+          "field": "m_EmoteDefs[3]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "Emote_Threaten.prefab:ee057a435c179cb489427e694dfd9c42",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_06_THREATEN",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_06_THREATEN_0",
+          "name": "VO_HERO_06_Threaten_04",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.721708297729492,
+          "asset_id": "f7ca370d29297423f89ca248",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-2304366348904568276",
+          "reference": "Emote_Threaten.prefab:ee057a435c179cb489427e694dfd9c42",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "8162dda51e2ce827868c8811a649e62ef48dc926c73586e0b77dc42fe1380ebb"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_06",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_06_WELL_PLAYED",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_06",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "Emote_Well_Played.prefab:cedd8bf11c8aec94abdba2a76009db61",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_06_WELL_PLAYED",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_06_WELL_PLAYED_0",
+          "name": "VO_HERO_06_Well Played_02",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.8986666202545166,
+          "asset_id": "a4c103d66274f91eccdf381d",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-3199383300410460284",
+          "reference": "Emote_Well_Played.prefab:cedd8bf11c8aec94abdba2a76009db61",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "fd4a96b40467724e4d0ae2f49c1e2c96ca54ed9671858b930887eabf1f193069"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_06",
+      "emote_id": "WOW",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_06_WOW",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_06",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "Emote_Wow.prefab:ec8ed3a4c82ce5e48bf658710491193c",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_06_WOW",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_06_WOW_0",
+          "name": "VO_HERO_06_WOW_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.746666669845581,
+          "asset_id": "39f348abb78e0a19f952bddc",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "1512998055528137193",
+          "reference": "Emote_Wow.prefab:ec8ed3a4c82ce5e48bf658710491193c",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "083442c9be620dc15472a9d643d774aa3a8d600bc4c977b00e581f28b895fb43"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_07",
+      "emote_id": "CONCEDE",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_07_CONCEDE",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_07",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "Emote_Concede.prefab:ac4306d6b7598734592411f66a86ac52",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_07_CONCEDE",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_07_CONCEDE_0",
+          "name": "VO_HERO_07_Concede_07",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.8271665573120117,
+          "asset_id": "497581bc2ca6effc3321983e",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-5644480557982817027",
+          "reference": "Emote_Concede.prefab:ac4306d6b7598734592411f66a86ac52",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "efb6962f8abf93fd9f615560c9f0bc52fdcdd3c2f308682cd0fd8a880ec4981d"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_07",
+      "emote_id": "GREETINGS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_07_GREETINGS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_07",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "Emote_Greetings.prefab:a488368dc41aa7340ba6189def12794a",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_07_GREETINGS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_07_GREETINGS_0",
+          "name": "VO_HERO_07_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.1454166173934937,
+          "asset_id": "a7ed3fe7b977b2440b5d21b2",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "944173791826628838",
+          "reference": "Emote_Greetings.prefab:a488368dc41aa7340ba6189def12794a",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "d8f0735c6145ce5a01a9a6ed2a7a6f8422399fcd76e6c87f3961e1582b215a0d"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_07",
+      "emote_id": "OOPS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_07_OOPS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_07",
+          "field": "m_EmoteDefs[2]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "Emote_Oops.prefab:5198bf0fbb1b64f42b25742951ceccf4",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_07_OOPS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_07_OOPS_0",
+          "name": "VO_HERO_07_Oops_03",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.2592084407806396,
+          "asset_id": "cebb2014e1f48f80ca1584b6",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "205941694560908771",
+          "reference": "Emote_Oops.prefab:5198bf0fbb1b64f42b25742951ceccf4",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "9b0f970c5bf42feafea9fe96f26fa7efdf8d9312b48822d7cc513f809e89b7a5"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_07",
+      "emote_id": "SORRY",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_07_SORRY",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_07",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "Emote_Sorry.prefab:3f7b9993ff99c1a499803792a97ae0a0",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_07_SORRY",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_07_SORRY_0",
+          "name": "VO_HERO_07_Sorry_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.3637499809265137,
+          "asset_id": "63127f935619685954b4e053",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "4640829408053124934",
+          "reference": "Emote_Sorry.prefab:3f7b9993ff99c1a499803792a97ae0a0",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "7042890e7a2c9e538341c2396fa3678be5067484bc9317a285b40077dd45cc6b"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_07",
+      "emote_id": "START",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_07_START",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_07",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "Emote_Start.prefab:0a73d862e8cd4874eaca9e65790f036b",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_07_START",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_07_START_0",
+          "name": "VO_HERO_07_Start_09",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.5153748989105225,
+          "asset_id": "91dae23d239395ffd9142021",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "9051995961988909821",
+          "reference": "Emote_Start.prefab:0a73d862e8cd4874eaca9e65790f036b",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "b5dd550dd69913566eae48c86b868f1421701e21c05fd06ebf396bb17b8c559a"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_07",
+      "emote_id": "THANKS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_07_THANKS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_07",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "Emote_Thanks.prefab:9c04f8cb0e15d324eadf22724b6c8a03",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_07_THANKS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_07_THANKS_0",
+          "name": "VO_HERO_07_Thanks_05",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.8888541460037231,
+          "asset_id": "dd8543754b438a26107506a9",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "4465529054616313711",
+          "reference": "Emote_Thanks.prefab:9c04f8cb0e15d324eadf22724b6c8a03",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "5daf2905163df97f45cf60f85b49f3b10d243e4aa890e957024ff7e1f5e13a03"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_07",
+      "emote_id": "THREATEN",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_07_THREATEN",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_07",
+          "field": "m_EmoteDefs[3]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "Emote_Threaten.prefab:7fcc53bf4b87bcf4ca52388b52cc154e",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_07_THREATEN",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_07_THREATEN_0",
+          "name": "VO_HERO_07_Threaten_04",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 4.190896034240723,
+          "asset_id": "9f49cd6bf63b3bae557a3512",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-2916614221069224694",
+          "reference": "Emote_Threaten.prefab:7fcc53bf4b87bcf4ca52388b52cc154e",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "da7aa6b15a264ba885953a76bcd7fe26186d520bdd47663cc4dd34e48cf9802c"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_07",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_07_WELL_PLAYED",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_07",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "Emote_Well_Played.prefab:ade89630da122634ba600a5bd33b34f2",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_07_WELL_PLAYED",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_07_WELL_PLAYED_0",
+          "name": "VO_HERO_07_Well Played_02",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.695979118347168,
+          "asset_id": "3f99b3499a4ad01fba690185",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-4368224235423715502",
+          "reference": "Emote_Well_Played.prefab:ade89630da122634ba600a5bd33b34f2",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "31440e0dec564c47ab7a9809be5d6489bc8b4e35a632ab455a497f5fce7212f9"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_07",
+      "emote_id": "WOW",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_07_WOW",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_07",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "Emote_Wow.prefab:15a6abfea06961c49bb97d81957ec3b8",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_07_WOW",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_07_WOW_0",
+          "name": "VO_HERO_07_WOW_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.1546666622161865,
+          "asset_id": "26b530fc7b1fd3c8bc2b2eaf",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-750087502574526045",
+          "reference": "Emote_Wow.prefab:15a6abfea06961c49bb97d81957ec3b8",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "1481b52d79f706cb9a802e0aa06c94cd1e9fadec90b134963975c9c0a2282ec4"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_08",
+      "emote_id": "CONCEDE",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_08_CONCEDE",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_08",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "Emote_Concede.prefab:ce4bdd26b3ce52a48bc5fe7128b73513",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_08_CONCEDE",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_08_CONCEDE_0",
+          "name": "VO_HERO_08_Concede_62",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.6959999799728394,
+          "asset_id": "7adaf8d02195054d7a00fd31",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-6008279042674785434",
+          "reference": "Emote_Concede.prefab:ce4bdd26b3ce52a48bc5fe7128b73513",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "28dbd835ec28abb0d5b8d575610ffba2bb804beb6a9091d68a04ec7f840c266a"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_08",
+      "emote_id": "GREETINGS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_08_GREETINGS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_08",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "Emote_Greetings.prefab:cf79ab02044dd6a42934ce6a3f23ead3",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_08_GREETINGS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_08_GREETINGS_0",
+          "name": "VO_HERO_08_Greetings_56",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.4986666738986969,
+          "asset_id": "878083cb117979368069e2df",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "5822503221116062605",
+          "reference": "Emote_Greetings.prefab:cf79ab02044dd6a42934ce6a3f23ead3",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "304fa9ce246753d7c80cd398d9694c5f67e3635501f7828d60a01b89df1b5a3b"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_08",
+      "emote_id": "OOPS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_08_OOPS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_08",
+          "field": "m_EmoteDefs[2]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "Emote_Oops.prefab:6aa51cbf3999069459e70da1a9eec82a",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_08_OOPS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_08_OOPS_0",
+          "name": "VO_HERO_08_Oops_58",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.600000023841858,
+          "asset_id": "43467357f224a11f16085d30",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-3856666775457508271",
+          "reference": "Emote_Oops.prefab:6aa51cbf3999069459e70da1a9eec82a",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "0fb48520132e86317fed8786bc97195b93db3bb3c55d33e02a273b637bd36ed2"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_08",
+      "emote_id": "SORRY",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_08_SORRY",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_08",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "Emote_Sorry.prefab:af43b4679dd18ef4b84871ef06cbb0b6",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_08_SORRY",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_08_SORRY_0",
+          "name": "VO_HERO_08_Sorry_61",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.9013333320617676,
+          "asset_id": "e8463bbb52bf7afdb741618b",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "2160547386422682174",
+          "reference": "Emote_Sorry.prefab:af43b4679dd18ef4b84871ef06cbb0b6",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "5a9192da613682c84b0346e793afa4de4920fa9d629c150fe2a70ce6a89f8caf"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_08",
+      "emote_id": "START",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_08_START",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_08",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "Emote_Start.prefab:09cdae186c7c8f0408a1884c4e71e156",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_08_START",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_08_START_0",
+          "name": "VO_HERO_08_Start_64",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.4880000352859497,
+          "asset_id": "556a7eb565e614eb41a45540",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-9052169618828363635",
+          "reference": "Emote_Start.prefab:09cdae186c7c8f0408a1884c4e71e156",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "8501f5f3a3618100c21ce14f05e6178e36a1820a0e38c3e3f027a0d2029159d4"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_08",
+      "emote_id": "THANKS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_08_THANKS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_08",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "Emote_Thanks.prefab:1c06cd4188da1ea4ea9acded61dddacb",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_08_THANKS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_08_THANKS_0",
+          "name": "VO_HERO_08_Thanks_60",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.6666666865348816,
+          "asset_id": "7a6327eb43f90ef83d00ff2a",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "2287915702676371890",
+          "reference": "Emote_Thanks.prefab:1c06cd4188da1ea4ea9acded61dddacb",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "05e62df51d9913a164de5eb6c9443a1d99812f43f6352310abe4314afbc5c463"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_08",
+      "emote_id": "THREATEN",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_08_THREATEN",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_08",
+          "field": "m_EmoteDefs[3]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "Emote_Threaten.prefab:aa6dd5ed751b7b541a19f28feddf8da1",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_08_THREATEN",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_08_THREATEN_0",
+          "name": "VO_HERO_08_Threaten_59",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.554666757583618,
+          "asset_id": "7c9a76d5ef10a0d43bec1880",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-5737637133176399772",
+          "reference": "Emote_Threaten.prefab:aa6dd5ed751b7b541a19f28feddf8da1",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "1d34062bdf8b3ee198313c4e61e7c6fd042c84e72f9500e6f2b410dce83c2741"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_08",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_08_WELL_PLAYED",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_08",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "Emote_Well_Played.prefab:189288889eb3f3f4fa388463a13cb946",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_08_WELL_PLAYED",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_08_WELL_PLAYED_0",
+          "name": "VO_HERO_08_Well Played_57",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.9253333210945129,
+          "asset_id": "7cd56cecc4bf98deb2bddbae",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "144042170375142509",
+          "reference": "Emote_Well_Played.prefab:189288889eb3f3f4fa388463a13cb946",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "623ba5b8e7d4d55d5a916259b787b467296989e75e5535cc1c8c31367cfa4a88"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_08",
+      "emote_id": "WOW",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_08_WOW",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_08",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "Emote_Wow.prefab:5dd62892130ab82469dc9a4f2dc91aff",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_08_WOW",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_08_WOW_0",
+          "name": "VO_HERO_08_WOW_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.1493333578109741,
+          "asset_id": "ac87119679ecd268816e8363",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-1676693161416381918",
+          "reference": "Emote_Wow.prefab:5dd62892130ab82469dc9a4f2dc91aff",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "de7f7c35ad980575c97469f1914e1b8e1d1e6a565db229460f8e1ac79641d042"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_09",
+      "emote_id": "CONCEDE",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_09_CONCEDE",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_09",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "Emote_Concede.prefab:36e8ef7226991b64d8742ba273ae1a2a",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_09_CONCEDE",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_09_CONCEDE_0",
+          "name": "VO_HERO_09_Concede_07",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.1346666812896729,
+          "asset_id": "69d577475e5f6c5a000a60f5",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-7605593595396084187",
+          "reference": "Emote_Concede.prefab:36e8ef7226991b64d8742ba273ae1a2a",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "97fbfa4ef38176508b0d4a8eb1d515208cbe137f7e873519bbce94180506aba0"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_09",
+      "emote_id": "GREETINGS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_09_GREETINGS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_09",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "Emote_Greetings.prefab:0b3b7aac9d6e59342bcc9a1e58d87c4b",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_09_GREETINGS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_09_GREETINGS_0",
+          "name": "VO_HERO_09_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.4986666738986969,
+          "asset_id": "029a72af7a6a85790fbc2fd5",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "1615143709948944183",
+          "reference": "Emote_Greetings.prefab:0b3b7aac9d6e59342bcc9a1e58d87c4b",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "6466ac0ac683a57c5ad972416d22b7f75401d7da3f606ae82834689cde3b064b"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_09",
+      "emote_id": "OOPS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_09_OOPS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_09",
+          "field": "m_EmoteDefs[2]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "Emote_Oops.prefab:4194843127f6657478e4e6b2651dda8f",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_09_OOPS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_09_OOPS_0",
+          "name": "VO_HERO_09_Oops_03",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.2613332271575928,
+          "asset_id": "3e19a3594a0c982397a7234e",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-6065096385531078412",
+          "reference": "Emote_Oops.prefab:4194843127f6657478e4e6b2651dda8f",
+          "source_bundle": "initial_base_global-244154c1-prefab-3.unity3d",
+          "sha256": "76cad30e39e3ada8943c7fc1e3a5722546dd2295a55baaf2ce80dd8503a562df"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_09",
+      "emote_id": "SORRY",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_09_SORRY",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_09",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "Emote_Sorry.prefab:87e70546f7eac7144963de04ef4da9f5",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_09_SORRY",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_09_SORRY_0",
+          "name": "VO_HERO_09_Sorry_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.2093333005905151,
+          "asset_id": "0c4faf6db5614b0d63899dce",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "5318423759040506247",
+          "reference": "Emote_Sorry.prefab:87e70546f7eac7144963de04ef4da9f5",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "08d55e2ca4d0ffcd853ea6f99f8e2b09e01c21193b74653bb260d2fda66719b8"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_09",
+      "emote_id": "START",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_09_START",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_09",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "START.prefab:c1463f39759c5a344b3798f806ab0054",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_09_START",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_09_START_0",
+          "name": "VO_HERO_09_Start_09",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.309333324432373,
+          "asset_id": "95489a603b01b70e04fc3871",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-2570464984293292933",
+          "reference": "START.prefab:c1463f39759c5a344b3798f806ab0054",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "6643a317103fd515b50b89b8050751fbd83cbda62a29ff9352552f7aa72fcd5f"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_09",
+      "emote_id": "THANKS",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_09_THANKS",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_09",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "Emote_Thanks.prefab:70e83c72253c4e047935f44c4ef48e75",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_09_THANKS",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_09_THANKS_0",
+          "name": "VO_HERO_09_Thanks_05",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 0.6320000290870667,
+          "asset_id": "3015998ea1787263fdf30519",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "1243589575688189489",
+          "reference": "Emote_Thanks.prefab:70e83c72253c4e047935f44c4ef48e75",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "69cc285975ab59819ce962e8c8d2376c371b1796acbf6efb404057a2b6476d86"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_09",
+      "emote_id": "THREATEN",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_09_THREATEN",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_09",
+          "field": "m_EmoteDefs[3]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "Emote_Threaten.prefab:3043bbd2a9d91f44ca8433b179030f2a",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_09_THREATEN",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_09_THREATEN_0",
+          "name": "VO_HERO_09_Threaten_04",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.7613333463668823,
+          "asset_id": "91d8a3ed7336a3550206276e",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "7823041388865708779",
+          "reference": "Emote_Threaten.prefab:3043bbd2a9d91f44ca8433b179030f2a",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "0307ef02dff12677b8530fa8fb6084fbf6083250eda8710e939bba112c0b7a64"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_09",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_09_WELL_PLAYED",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_09",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "Emote_Well_Played.prefab:275aa5d5c892abf47b98a5fb2571d2de",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_09_WELL_PLAYED",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_09_WELL_PLAYED_0",
+          "name": "VO_HERO_09_Well_Played_02",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.2640000581741333,
+          "asset_id": "7ab052287a700f654ce35a8f",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "-5053068472909263995",
+          "reference": "Emote_Well_Played.prefab:275aa5d5c892abf47b98a5fb2571d2de",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "d10d09fc5e6c22effc5133ec9b0204c550c562ba74d3cd0c98605c9a179b8868"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_09",
+      "emote_id": "WOW",
+      "game_string_key": "GAMEPLAY_EMOTE_HERO_09_WOW",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_09",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "Emote_Wow.prefab:016efb054efaa1c4ca1881b2da556768",
+          "game_string_key": "GAMEPLAY_EMOTE_HERO_09_WOW",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_09_WOW_0",
+          "name": "VO_HERO_09_WOW_06",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.2266666889190674,
+          "asset_id": "f6bda668a7c95384c2292008",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "8390883673348101628",
+          "reference": "Emote_Wow.prefab:016efb054efaa1c4ca1881b2da556768",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "bf74efbc2eaa399c0ba437f16388c1a251d0116f902b0e789d13a239d17c387b"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_10",
+      "emote_id": "CONCEDE",
+      "game_string_key": "VO_Hero_10_Male_NightElf_Concede_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_10",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "CONCEDE.prefab:9d54d34f8404b8847ac7aa8c4858797e",
+          "game_string_key": "VO_Hero_10_Male_NightElf_Concede_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_10_CONCEDE_0",
+          "name": "VO_Hero_10_Male_NightElf_Concede_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.6656458377838135,
+          "asset_id": "3a292e56d6e9d4ffa2c8f56a",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+          "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+          "pathid": "5946351440963193222",
+          "reference": "CONCEDE.prefab:9d54d34f8404b8847ac7aa8c4858797e",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "2fcb7cc144df95d53ad4766c6d06dfeab910059e9ed8ecb133ac61d684b612ee"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_10",
+      "emote_id": "GREETINGS",
+      "game_string_key": "VO_Hero_10_Male_NightElf_Greetings_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_10",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "GREETINGS.prefab:bbdc094035f634a4593b506daf50fc36",
+          "game_string_key": "VO_Hero_10_Male_NightElf_Greetings_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_10_GREETINGS_0",
+          "name": "VO_Hero_10_Male_NightElf_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.427999973297119,
+          "asset_id": "734075c142712020aeb55e78",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-3.unity3d",
+          "cab": "CAB-ecded706bddbff887e1bcd8c92428a50",
+          "pathid": "3703743204088503222",
+          "reference": "GREETINGS.prefab:bbdc094035f634a4593b506daf50fc36",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "31f1fd70b0a491f499d776d8ad8a3d45f3ea20cc6ba8f1312243fe99bb965c6e"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_10",
+      "emote_id": "OOPS",
+      "game_string_key": "VO_Hero_10_Male_NightElf_Oops_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_10",
+          "field": "m_EmoteDefs[2]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "OOPS.prefab:86681f32b98f2bc4a85ce0feb7c9eb49",
+          "game_string_key": "VO_Hero_10_Male_NightElf_Oops_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_10_OOPS_0",
+          "name": "VO_Hero_10_Male_NightElf_Oops_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.7951041460037231,
+          "asset_id": "35f510e21641d89013ac29cb",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-3.unity3d",
+          "cab": "CAB-ecded706bddbff887e1bcd8c92428a50",
+          "pathid": "-732614509058266600",
+          "reference": "OOPS.prefab:86681f32b98f2bc4a85ce0feb7c9eb49",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "e3deac79f4bf66b19ac1b6dbb31b2af0ebfc3117d2c9f371028751c9347e4be0"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_10",
+      "emote_id": "SORRY",
+      "game_string_key": "VO_Hero_10_Male_NightElf_Sorry_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_10",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "SORRY.prefab:459dbb48dec0dde4788a13842dbfe252",
+          "game_string_key": "VO_Hero_10_Male_NightElf_Sorry_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_10_SORRY_0",
+          "name": "VO_Hero_10_Male_NightElf_Sorry_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.4145417213439941,
+          "asset_id": "f2493e49b65657f92a7aff0f",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-3.unity3d",
+          "cab": "CAB-ecded706bddbff887e1bcd8c92428a50",
+          "pathid": "8628748882930618765",
+          "reference": "SORRY.prefab:459dbb48dec0dde4788a13842dbfe252",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "91bb515d61084471d7f3e05750ef9fb7bde3367fe9995f7c65bfeb5b3e79048e"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_10",
+      "emote_id": "START",
+      "game_string_key": "VO_Hero_10_Male_NightElf_Start_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_10",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "START.prefab:3ce1ec321801f4b42978aeb6b57f1139",
+          "game_string_key": "VO_Hero_10_Male_NightElf_Start_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_10_START_0",
+          "name": "VO_Hero_10_Male_NightElf_Start_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.3719167709350586,
+          "asset_id": "df1d3648fa7f3c4fd5d9e623",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-3.unity3d",
+          "cab": "CAB-ecded706bddbff887e1bcd8c92428a50",
+          "pathid": "-3795029705230309122",
+          "reference": "START.prefab:3ce1ec321801f4b42978aeb6b57f1139",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "74eaab1b6eb9b2c8a6b84255a40b49d0222917de14918f449f3c7176d0518164"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_10",
+      "emote_id": "THANKS",
+      "game_string_key": "VO_Hero_10_Male_NightElf_Thanks_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_10",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "THANKS.prefab:bdc45f37becf50c4c999651b0292d0a5",
+          "game_string_key": "VO_Hero_10_Male_NightElf_Thanks_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_10_THANKS_0",
+          "name": "VO_Hero_10_Male_NightElf_Thanks_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 1.3505624532699585,
+          "asset_id": "de30d4fec37bbe149dc2dc7e",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-3.unity3d",
+          "cab": "CAB-ecded706bddbff887e1bcd8c92428a50",
+          "pathid": "-5686409635474104045",
+          "reference": "THANKS.prefab:bdc45f37becf50c4c999651b0292d0a5",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "73ede0514d90b546671ec9e9766c565edfdc074cb528a4753a0013e3ce31d53d"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_10",
+      "emote_id": "THREATEN",
+      "game_string_key": "VO_Hero_10_Male_NightElf_Threaten_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_10",
+          "field": "m_EmoteDefs[3]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "THREATEN.prefab:27afa866c3bb32e4ea5afdd7e6c6f4d0",
+          "game_string_key": "VO_Hero_10_Male_NightElf_Threaten_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_10_THREATEN_0",
+          "name": "VO_Hero_10_Male_NightElf_Threaten_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 4.724625110626221,
+          "asset_id": "5e53e25442cce9c660bd4015",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-3.unity3d",
+          "cab": "CAB-ecded706bddbff887e1bcd8c92428a50",
+          "pathid": "2624172816430910815",
+          "reference": "THREATEN.prefab:27afa866c3bb32e4ea5afdd7e6c6f4d0",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "10ed8c1004cfde136c640e3566f6ab9b4c1088736b8c1bbfda3ba5be2adb3caf"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_10",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "VO_Hero_10_Male_NightElf_Well_Played_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_10",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "WELL_PLAYED.prefab:e3c72a3710eb0a949a67f697b5e6a6e5",
+          "game_string_key": "VO_Hero_10_Male_NightElf_Well_Played_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_10_WELL_PLAYED_0",
+          "name": "VO_Hero_10_Male_NightElf_Well_Played_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.0216457843780518,
+          "asset_id": "902bcfca75160b3c471a6689",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-3.unity3d",
+          "cab": "CAB-ecded706bddbff887e1bcd8c92428a50",
+          "pathid": "-1169335687518005756",
+          "reference": "WELL_PLAYED.prefab:e3c72a3710eb0a949a67f697b5e6a6e5",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "8618dbd12ddaa67897982353791479e6f7453b6a9c6ef850680b2cef987c5b06"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_10",
+      "emote_id": "WOW",
+      "game_string_key": "VO_Hero_10_Male_NightElf_WOW_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_10",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "WOW.prefab:a1588fa6d8f32d447be4c175f8eb376e",
+          "game_string_key": "VO_Hero_10_Male_NightElf_WOW_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_10_WOW_0",
+          "name": "VO_Hero_10_Male_NightElf_WOW_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 2.3295416831970215,
+          "asset_id": "8a512a4df49777e523c71507",
+          "bundle": "soundotherminion_base_zhcn-244154c1-audio-3.unity3d",
+          "cab": "CAB-ecded706bddbff887e1bcd8c92428a50",
+          "pathid": "-8885959473458583180",
+          "reference": "WOW.prefab:a1588fa6d8f32d447be4c175f8eb376e",
+          "source_bundle": "initial_base_global-244154c1-prefab-4.unity3d",
+          "sha256": "0659a02efd602170f638b9bf841f6e16c05d0b039d995c94c222cbf99a61a90a"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_11",
+      "emote_id": "CONCEDE",
+      "game_string_key": "VO_HERO_11_Male_Human_Concede_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_11",
+          "field": "m_EmoteDefs[6]",
+          "emote_type": 7,
+          "emote_id": "CONCEDE",
+          "sound_ref": "VO_HERO_11_Male_Human_Concede_01.prefab:765c2a5eb9e07cc43b419842aabe6dc4",
+          "game_string_key": "VO_HERO_11_Male_Human_Concede_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_11_CONCEDE_0",
+          "name": "VO_HERO_11_Male_Human_Concede_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 5.2372918128967285,
+          "asset_id": "1a5fec293639e68354804487",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "1209433878043783700",
+          "reference": "VO_HERO_11_Male_Human_Concede_01.prefab:765c2a5eb9e07cc43b419842aabe6dc4",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "33152fd6110773ba9c7ddd9e998614a3e20d180565b24c52bf57d4e2d97092dc"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_11",
+      "emote_id": "GREETINGS",
+      "game_string_key": "VO_HERO_11_Male_Human_Greetings_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_11",
+          "field": "m_EmoteDefs[0]",
+          "emote_type": 1,
+          "emote_id": "GREETINGS",
+          "sound_ref": "VO_HERO_11_Male_Human_Greetings_01.prefab:74cc80e0a8873a841b2a9d27c2121f32",
+          "game_string_key": "VO_HERO_11_Male_Human_Greetings_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_11_GREETINGS_0",
+          "name": "VO_HERO_11_Male_Human_Greetings_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 4.449604034423828,
+          "asset_id": "a0f2d1d303815ad26ebd0a98",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "7835515053184481006",
+          "reference": "VO_HERO_11_Male_Human_Greetings_01.prefab:74cc80e0a8873a841b2a9d27c2121f32",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "0822ce86ff722f98b69223742b0a61d123b029919fc9932990d9f32ea10e9edb"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_11",
+      "emote_id": "OOPS",
+      "game_string_key": "VO_HERO_11_Male_Human_Oops_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_11",
+          "field": "m_EmoteDefs[2]",
+          "emote_type": 3,
+          "emote_id": "OOPS",
+          "sound_ref": "VO_HERO_11_Male_Human_Oops_01.prefab:501673f98a69ae240b9f22122e39dc82",
+          "game_string_key": "VO_HERO_11_Male_Human_Oops_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_11_OOPS_0",
+          "name": "VO_HERO_11_Male_Human_Oops_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.862520933151245,
+          "asset_id": "c355accc5ffe78596b90162a",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "4614197505074284296",
+          "reference": "VO_HERO_11_Male_Human_Oops_01.prefab:501673f98a69ae240b9f22122e39dc82",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "921a3a919ebcab1c4442222d57216fdcf7f308501032f6a0bf15a2852877a3a8"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_11",
+      "emote_id": "SORRY",
+      "game_string_key": "VO_HERO_11_Male_Human_Sorry_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_11",
+          "field": "m_EmoteDefs[5]",
+          "emote_type": 6,
+          "emote_id": "SORRY",
+          "sound_ref": "VO_HERO_11_Male_Human_Sorry_01.prefab:cc21ec8c6f8cbff49ae30d395a2051e6",
+          "game_string_key": "VO_HERO_11_Male_Human_Sorry_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_11_SORRY_0",
+          "name": "VO_HERO_11_Male_Human_Sorry_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.8702499866485596,
+          "asset_id": "ca0994b21ac1e1c7df66b34a",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-6448763026150928860",
+          "reference": "VO_HERO_11_Male_Human_Sorry_01.prefab:cc21ec8c6f8cbff49ae30d395a2051e6",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "d4f4a7adb40a48743e255861f87ffbd2cffb8eb1779c1bfac86094a6824a9e01"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_11",
+      "emote_id": "START",
+      "game_string_key": "VO_HERO_11_Male_Human_Start_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_11",
+          "field": "m_EmoteDefs[7]",
+          "emote_type": 8,
+          "emote_id": "START",
+          "sound_ref": "Emote_Start.prefab:0419b285765181745ad1fd55017313f7",
+          "game_string_key": "VO_HERO_11_Male_Human_Start_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_11_START_0",
+          "name": "VO_HERO_11_Male_Human_Start_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 7.729791641235352,
+          "asset_id": "ce8d657a297dd7483b4418bf",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "7640968065560583278",
+          "reference": "Emote_Start.prefab:0419b285765181745ad1fd55017313f7",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "5dcdf8f8c3d782ad19cfdb626d93d58bebdb588ac0078bb093be641e63906989"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_11",
+      "emote_id": "THANKS",
+      "game_string_key": "VO_HERO_11_Male_Human_Thanks_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_11",
+          "field": "m_EmoteDefs[4]",
+          "emote_type": 5,
+          "emote_id": "THANKS",
+          "sound_ref": "VO_HERO_11_Male_Human_Thanks_01.prefab:2ae627de2d66d964bad73554a68f323c",
+          "game_string_key": "VO_HERO_11_Male_Human_Thanks_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_11_THANKS_0",
+          "name": "VO_HERO_11_Male_Human_Thanks_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.7899582386016846,
+          "asset_id": "a1eabb6611be98e40be976d2",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "5852801321364738053",
+          "reference": "VO_HERO_11_Male_Human_Thanks_01.prefab:2ae627de2d66d964bad73554a68f323c",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "55416c8dbd0e7892f96569da82f9a287e460cd6ca1dd0171e8b0bed4bc9e3960"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_11",
+      "emote_id": "THREATEN",
+      "game_string_key": "VO_HERO_11_Male_Human_Threaten_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_11",
+          "field": "m_EmoteDefs[3]",
+          "emote_type": 4,
+          "emote_id": "THREATEN",
+          "sound_ref": "VO_HERO_11_Male_Human_Threaten_01.prefab:5d3e27fe2246fc84282dae10c0f8898d",
+          "game_string_key": "VO_HERO_11_Male_Human_Threaten_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_11_THREATEN_0",
+          "name": "VO_HERO_11_Male_Human_Threaten_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 6.841270923614502,
+          "asset_id": "8774b5a150fa7c3916f566a1",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "-8720673261978491738",
+          "reference": "VO_HERO_11_Male_Human_Threaten_01.prefab:5d3e27fe2246fc84282dae10c0f8898d",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "8ba1bd0aa322075ac507471ead4a889d8b1577ed15445f6169b264ab8a9d5c74"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_11",
+      "emote_id": "WELL_PLAYED",
+      "game_string_key": "VO_HERO_11_Male_Human_Well_Played_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_11",
+          "field": "m_EmoteDefs[1]",
+          "emote_type": 2,
+          "emote_id": "WELL_PLAYED",
+          "sound_ref": "VO_HERO_11_Male_Human_Well_Played_01.prefab:5e4bf4f8bbc9af749a102599b5718520",
+          "game_string_key": "VO_HERO_11_Male_Human_Well_Played_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_11_WELL_PLAYED_0",
+          "name": "VO_HERO_11_Male_Human_Well_Played_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 5.313083171844482,
+          "asset_id": "89e73df8e3005ec3d3a69786",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "2559482044712604720",
+          "reference": "VO_HERO_11_Male_Human_Well_Played_01.prefab:5e4bf4f8bbc9af749a102599b5718520",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "afbd723d1ede089de4d4387a570387552d865a98fbd2587766e9c1d8bc52026e"
+        }
+      ]
+    },
+    {
+      "card_id": "HERO_11",
+      "emote_id": "WOW",
+      "game_string_key": "VO_HERO_11_Male_Human_WOW_01",
+      "subtitle_available": true,
+      "sources": [
+        {
+          "card_id": "HERO_11",
+          "field": "m_EmoteDefs[30]",
+          "emote_type": 33,
+          "emote_id": "WOW",
+          "sound_ref": "VO_HERO_11_Male_Human_WOW_01.prefab:00153120eee9b2247a39e4c43bf94b28",
+          "game_string_key": "VO_HERO_11_Male_Human_WOW_01",
+          "bubble_spell_ref": ""
+        }
+      ],
+      "candidates": [
+        {
+          "id": "HERO_SPEECH_HERO_11_WOW_0",
+          "name": "VO_HERO_11_Male_Human_WOW_01",
+          "locale": "zhcn",
+          "resolved_locale": "global",
+          "duration": 3.611208438873291,
+          "asset_id": "d22bb45a457862ac4b0a6f87",
+          "bundle": "essential_base_zhcn-content-0.unity3d",
+          "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+          "pathid": "7230028082465715900",
+          "reference": "VO_HERO_11_Male_Human_WOW_01.prefab:00153120eee9b2247a39e4c43bf94b28",
+          "source_bundle": "essential_base_global-prefab-0.unity3d",
+          "sha256": "29615b28ea569c5ae842ffa52380077be6ec334ae0ef32cc17d9dd652f5813ef"
+        }
+      ]
+    }
+  ],
+  "bubble_art": {
+    "logical_id": "UI_EMOTE_BUBBLES",
+    "asset_name": "Emote_Bubbles",
+    "asset_id": "627f280b58231b6850834801",
+    "bundle": "initial_base_global-8411aad9-texture-18.unity3d",
+    "cab": "CAB-9700719c6895aa16719c40184051ca34",
+    "pathid": "-4582338155894409427",
+    "width": 512,
+    "height": 512,
+    "sha256": "ab7f3735df678b24fc9619567737cfa184f5dc2320efed245b9efc148ae0f7a6",
+    "region_origin": "top-left source pixels; UV values use Unity bottom-left convention",
+    "region_method": "the original image visibly contains two 512x256 bubbles; alpha>200 scanline core points verified both tail tips",
+    "regions": [
+      {
+        "id": "upper_right_tail",
+        "source_rect_px": [
+          0,
+          0,
+          512,
+          256
+        ],
+        "uv": [
+          0,
+          0.5,
+          1,
+          0.5
+        ],
+        "tail_tip_px": [
+          420,
+          209
+        ],
+        "text_rect_px": [
+          90,
+          40,
+          340,
+          98
+        ],
+        "flip_y": false
+      },
+      {
+        "id": "lower_left_tail",
+        "source_rect_px": [
+          0,
+          256,
+          512,
+          256
+        ],
+        "uv": [
+          0,
+          0,
+          1,
+          0.5
+        ],
+        "tail_tip_px": [
+          121,
+          455
+        ],
+        "text_rect_px": [
+          88,
+          282,
+          336,
+          80
+        ],
+        "flip_y": true
+      }
+    ],
+    "status": "original_texture_atlas",
+    "actor_link": "CardDef m_emoteSpellPath is empty for these standard emotes; the UI actor binding is not claimed."
+  },
+  "complete": true
+}

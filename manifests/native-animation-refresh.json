@@ -1,0 +1,3392 @@
+{
+  "programs": [
+    {
+      "file": "0194accb9992f97829c87db2.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "Finkle_DeathOverrideSpawn.prefab:e423561613259c94f8d0e942bd13498b",
+      "sources": [
+        {
+          "cab": "CAB-9657bde1805c0e2d6c5f18204d0ce517",
+          "pathid": "-3493732387280562962",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-d2f4bda7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": -1
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "04d908bfe69aa7fe54b9388b.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "NobleSacrifice_DeathOverrideSpawn.prefab:07a941032a702104dafc28c86eafd744",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "1663762677161871729",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "05928182ba88d64927d6d9d6.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Holy_Targeted_BlessingOfWisdom_FX.prefab:6314c57af52625b4ba66d7fe95161296",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7814619788516369634",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 18
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 22
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "05ca46c569163fce4e60f594.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Holy_Targeted_BlessingOfKings_FX.prefab:e6557a459816a9a47bea3b3cc4196e5f",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-4078443405887072298",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 18
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 23
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "06245da8e136d71b425cf6e7.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Beast_UnTargeted_Bite_FX.prefab:f25e8e68c2da89040b1477b8c4d989c6",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "4739288415162929022",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0bec2a4e780bcda3d1fe6fe5.native-effect.json",
+      "actions": 2,
+      "parameters": 10,
+      "updated": false,
+      "reference": "Beast_Targeted_Savagery_FX.prefab:8f399377643450d4784884d2dbd73296",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "3540098414449775096",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "521646678526328693",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0d67f25b786149ba8b08dddf.native-effect.json",
+      "actions": 4,
+      "parameters": 18,
+      "updated": false,
+      "reference": "Rage_Untargeted_BattleRage_FX.prefab:425db9c228e45b348b11c8949d888b26",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-865127712011010862",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "12101c367651a87196495d15.native-effect.json",
+      "actions": 2,
+      "parameters": 10,
+      "updated": false,
+      "reference": "Holy_AE_MassDispel_FX.prefab:b89eb0fcb9482104594e707c4849979d",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "7428530561950821265",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2221166597344368630",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1246094cae2466b286969390.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "ReuseFX_HealImpact_HolyLight_Small_Super_WithIdle.prefab:a8199b1050594654f84170f15e31aab2",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "6477909828587513399",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 31
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "141ae6667f81251453952240.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Physical_Target_NoMissile_FX.prefab:fe121a1dec018024bbce74ca1a8bbd88",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "8709078525112311304",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "141e414fd66fb79d7eee66c2.native-effect.json",
+      "actions": 4,
+      "parameters": 19,
+      "updated": false,
+      "reference": "Unique_AE_TwistingNether_FX.prefab:f1e37b644475192409ab40ebce8b40b8",
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-6030644828384409712",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-7288833104486020915",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 7
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1438c953f1f357de128e06d3.native-effect.json",
+      "actions": 2,
+      "parameters": 11,
+      "updated": false,
+      "reference": "Reticle_Targeted_FX.prefab:3b29c3a1b3ef4f841b01fb6beeeae18b",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3111767904491778622",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1ca86742da8eb534a697ead5.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Arrow_Targeted_Arcane_FX.prefab:5ffc34d2f9910d64e94a593d8449e6ec",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5595640420828493769",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 28
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1e176322efb4694e6d3b7c02.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "ManaTideTotem.prefab:32f57093e57fbeb49a2073f3a63be871",
+      "sources": [
+        {
+          "cab": "CAB-17c43a3179751cfc0e2efa0ab2394e6a",
+          "pathid": "7701975264560737267",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "22263b43e2c34c25a832edda.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_Targeted_BlessingOfMight_FX.prefab:e702d487e4a7e764e84b24394056fd43",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "4641950135365410572",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "22291b74bdc6da4185f8a0d8.native-effect.json",
+      "actions": 8,
+      "parameters": 40,
+      "updated": false,
+      "reference": "Frost_AE_FrostNova_FX.prefab:871269ca16c3b90419870cb2ebe37dac",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "8684928514641363595",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7099395162819936584",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 9
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 9
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 17
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 24
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 17
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 24
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "228864b1f3e778228ee15fa2.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Sneaky_Eviscerate_FX.prefab:0a7e22e526c4aeb47841034843ce06e7",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3091742677568600813",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 7
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "24831d85d68854dbf6bbe674.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Barrel_Throw_Beer_FX.prefab:f63d71e70a3f59b45b44add60ec61051",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8485573949750225234",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "278a7abd0e025bd619da512b.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Frost_AE_Blizzard_FX.prefab:202497cbb70bb7c4d95a48e01c705c26",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-3466089101023033986",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "27bdd075f4f6580d4778d2d3.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lunar_Target_FX.prefab:36108f70267053d44b75a79b066f4242",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "4443207832662110207",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2a16624e279efbdccf6138f1.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "Stealth_ColdBlood_FX.prefab:42db2c47244fc1a40a6b451550563ada",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "8631668420436391609",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 16
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 16
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2c575b7037eb26b115a9f5fd.native-effect.json",
+      "actions": 3,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Rage_BloodLust_FX.prefab:314caa92b3a517d4ba25921213373cc2",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-1298189383947985034",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "4847594075510180167",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 9
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2d71cfd344be5a73e7add479.native-effect.json",
+      "actions": 2,
+      "parameters": 10,
+      "updated": false,
+      "reference": "SandBlow_AE_FX.prefab:1c6f0194a1e22b840b90273a551aabf6",
+      "sources": [
+        {
+          "cab": "CAB-6bdf9aad67d979d9e884d79ffb8831d7",
+          "pathid": "328872501104838735",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-f8009423-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2dc0f32c42c2aec252d77e39.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Arrow_Targeted_ExplosiveShot_FX.prefab:c80a8011dc492a54aa5dba8529974bdd",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "1314595176555568645",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 17
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2fce94149a7c7c6badfecc1d.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "Nature_Targeted_Rockbiter_FX.prefab:f5d7a8053ac2d6140a37e0a3524094ee",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-7445082194133872178",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": -1
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3145382ed4eaa71f42512d35.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lightning_Targeted_FX.prefab:7eb7028e181c0fc4e9021f2efdf57b23",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5643892178135839218",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3508812405227941417",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 34
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "38ddc05994c8a8f377263c1e.native-effect.json",
+      "actions": 4,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Warlock_Missiles_Suckin_FX.prefab:3a54ec5fedb7d0648ab17213c8f07ad5",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "8340003984838633995",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3495179220145952008",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3c415989b1c0de7341d80bc2.native-effect.json",
+      "actions": 3,
+      "parameters": 19,
+      "updated": false,
+      "reference": "Demolisher_Throw_TNT_FX.prefab:7b623387b9646f646a7c8fa5916409c2",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-2762042481731899414",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 36
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 35
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "41dc6aefe35cdc594bf0be0a.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_Targeted_LayOnHands_FX.prefab:28df1bb4444584d3191e40815ef99b9c",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-9135551280522876070",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 19
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "42377e0740c2662ce6bb7b06.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lunar_Starfall_FX.prefab:45b50eacd925210439b7ff1130258e3f",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "4443207832662110207",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "42a5a466e4cf3555811fcc65.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lunar_Target_NoStart_FX.prefab:48ba3fa3d9c88274c8d362a4bcc2c112",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "4443207832662110207",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "42d289aca4cfca200b6b269c.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "ReuseFX_BuffImpact_Rage_Small_Super.prefab:0f56092efcbd8e74bb69ecd951b50906",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-5506364830365443325",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4434872dd310842925df6adb.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Ice_FX.prefab:af58499642cec471992ecb9e653b92b6",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-8643223142898677733",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "46d81302ae2bb97b610d8d97.native-effect.json",
+      "actions": 7,
+      "parameters": 34,
+      "updated": false,
+      "reference": "Lunar_Target_Large_FX.prefab:554b1cb6c449d9f409adbef48401d1b4",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-8506403831521721893",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3836939491222576833",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "StopAnimation",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "StopAnimation",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "StopAnimation",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 20
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4c92ac4d973163d8aa044fed.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Fireblast_FX.prefab:eabb56c674d4248be83c5c6bc82e9ddc",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "1793577957286404385",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4fc0fe4fe4824ecbe3db289c.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "SpawnToHand_BabblingBook.prefab:8f581f7ccd7bcc640b9b3884a7f24eec",
+      "sources": [
+        {
+          "cab": "CAB-4a70eaee9f36c479d7b8e75f8b18b902",
+          "pathid": "-9048167119699251965",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-7.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "547f1d181758e5d798bb68a8.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Physical_Target_FX.prefab:6ef009996e89fae4faa2994bf3d350b8",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "8709078525112311304",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5840edc5ac4646f614b1ea81.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Arcane_Crystal_Small_Super.prefab:c81e3c5e81007b84ead1a6c25698213f",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-6153650056993336048",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5bc655cb7218e5ef61cd20da.native-effect.json",
+      "actions": 3,
+      "parameters": 17,
+      "updated": false,
+      "reference": "Frost_Targetted_ConeOfCold_FX.prefab:7ffdb48f416a2fb40a0157e781ce5982",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-8643223142898677733",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-8250901370073851432",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 17
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 24
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5d9349d1d17e9b05e11ae8f8.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Fireball_FX.prefab:a5e144473b2f84563b77ff3cfc414b5d",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5e8791da25f86e52a2d27696.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "QuestingAdventurer_LevelUp_FX.prefab:3f06ced199c9a1e40bac2ca2e12f4fb1",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "4656274488295179938",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "630fccd3b4a282b77202efbb.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "ReuseFX_AE_Arcane_Explosion_Small_BothSides_Super.prefab:c3f9b580844671c4c96f0f55ed512bf7",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "4088191548007245364",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "634f354b95a5b5f95b589651.native-effect.json",
+      "actions": 2,
+      "parameters": 12,
+      "updated": false,
+      "reference": "Holy_Targeted_Redemption_FX.prefab:0f12e18807e8a6f48aed19ad5e4676fa",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "3727228666705909129",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6549e4c82c2d8dd7a8ff3a34.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_Targeted_Healing_Minion_FX.prefab:841d04a62b8741b49941829815c28658",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "6477909828587513399",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "66b8e43f03287453d605d652.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Sneaky_Betrayal_FX.prefab:3b83a25bbd1a176489ee997deff4eee6",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "5473757702931375117",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "684234766d5c17602805a25a.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Physical_Target_Slam_FX.prefab:f627a772abe86e144abcd9cbd9bab985",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5619245801614922063",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "68668acf8b7fe48b27f66412.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Lightning_AE_LightningStorm_FX.prefab:04445cfd602e0394d94e247d073a140a",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-9101590665959549899",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "68ce6261cb309d1eb06e6a92.native-effect.json",
+      "actions": 7,
+      "parameters": 39,
+      "updated": false,
+      "reference": "HolyFire_Targeted_FX.prefab:c4f70a1741b93d64ab8e6c940ca549f2",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1187844010597197590",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-2139829516684632656",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6f0ee4ab92545f1007043c0e.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "KnifeJuggler_FX.prefab:2fc5acc367f0ce34ab5ebd744d68aa84",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "5526949455797058790",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7024c8217869a2aa75640d34.native-effect.json",
+      "actions": 4,
+      "parameters": 21,
+      "updated": false,
+      "reference": "Beast_Targeted_KillCommand_FX.prefab:36a719e43aa59cf4d823636b97868cf5",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3111767904491778622",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "3540098414449775096",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "521646678526328693",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "711bdd40979a9097df1a99e4.native-effect.json",
+      "actions": 6,
+      "parameters": 28,
+      "updated": false,
+      "reference": "Holy_AE_HolyNova_FX.prefab:c3551914187ecec4d84c25717630365c",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-17003440560794744",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-3550568295866543059",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 10
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 16
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 24
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 24
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7a8e6c26f439a145cb9e19f9.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Ragnaros_Trigger_FX.prefab:51b6f614daaae8d4cbd6daebd5a69211",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7ebc7afc761e6aadb8ca2e1c.native-effect.json",
+      "actions": 4,
+      "parameters": 18,
+      "updated": false,
+      "reference": "Physical_AE_Whirlwind_FX.prefab:2585606479a5eda4b8472f8839033e4d",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-394418018291584526",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "2373867326866674392",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 5
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7f5b7f88ce33488167db5847.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lunar_Target_Silence_FX.prefab:96e1db570891845429edbb26801b06ad",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "4443207832662110207",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 23
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "835f1ff8f4e1cb1d3b2b9b68.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_AE_Equality_FX.prefab:72beea1d7fde4274f9e048de567f7728",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-2437155880951694241",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "878fdf50d856cdf456617073.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "DemonFire_FX.prefab:89903e1f18715bf40b4061ff2b16da8a",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "6154444588970563531",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "88051a8d118ad7bc6be54abb.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Warlock_Corruption_FX.prefab:ba0ede6cbdb982c4c80f409b8502aee7",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-1469527453560936289",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 26
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "898114ef7a678bd818a895df.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "Rage_Untargeted_GiveAttack_Minion_FX.prefab:d02ec3711d2eeb047a44a6bedb68b7d5",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3699974700115481872",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8c973b2fb26cb9a918bb96d7.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_Targeted_Healing_FX.prefab:878501a6ddf5ed84699eff303ef73930",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "6477909828587513399",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8e9f0d8f5a1886a9603d43dc.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Arcane_Blast_Minion_FX.prefab:4dafeada543b50048a8f82d9a3ba6dea",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-6153650056993336048",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8eba90bc307d0125fabbc7e4.native-effect.json",
+      "actions": 2,
+      "parameters": 12,
+      "updated": false,
+      "reference": "Holy_Targeted_BlessedChampion_FX.prefab:a7435d053f542374a9854383ef331b9d",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "4262190207727604153",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 21
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8f27eba70c61fc46ec632557.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "Rage_Targeted_Charge_FX.prefab:b75b0c94b9f7e464e904c01709e14913",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-6459078673285275361",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "92fcdd3ed877fa0cdae345a4.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "HarvestGolem_Trigger_FX.prefab:3575a72072b850e4d9cae380a1db87eb",
+      "sources": [
+        {
+          "cab": "CAB-133e7f4f0b137266b615c7e62b7f2d77",
+          "pathid": "-9074584093708155658",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Asphyxiate_Super_WithIdle.prefab:676fef5a5e50055409210c583d22859e",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-4635486465453515186",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 22
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Shadow_ShadowWordPain_FX.prefab:ceb8d5daaa8c10a4c9982de97967d6ae",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-4635486465453515186",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 19
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "97020148102e8691d2fa7836.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_Targeted_Humility_FX.prefab:a18668ebfbe911449aac596b88ab3f3e",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-6591763983725356978",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "9a89c23ddecaf3091a301378.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Antonidas_Trigger_FX.prefab:e7228138c6efd0e419d56178deb446b6",
+      "sources": [
+        {
+          "cab": "CAB-133e7f4f0b137266b615c7e62b7f2d77",
+          "pathid": "1652797805796385223",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "9c3b2a977d2fd3ef2c0632a9.native-effect.json",
+      "actions": 3,
+      "parameters": 15,
+      "updated": false,
+      "reference": "YseraDreamWorld_Untargetted.prefab:ad3e7120eb962484fba1e7c7927a2f86",
+      "sources": [
+        {
+          "cab": "CAB-17c43a3179751cfc0e2efa0ab2394e6a",
+          "pathid": "8323926786081240558",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 20
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 20
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a16d4d79564443df84f8d96c.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "HighInquisitorWhitemane_OverrideSpawn.prefab:8f7e688ea32fcfa448d3c5e1d8145e19",
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "1934417782868992685",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a1cb21a4028e9494468e6214.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_Targeted_Humility_Minion_FX.prefab:cac3affffadedc04891d0abd7d7b7f07",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-6591763983725356978",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a2cb6db8a8404ec3b1dd3276.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "Warlock_PowerOverwhelming_FX.prefab:fe1109b7794663e44b8d2b5f89097338",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-5674770184580716127",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 24
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 24
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a3a72c250112359a6fb121fe.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "MasterSwordsmith_Throw_FX.prefab:2cf9947b1dfe4df4ab191fb3adb1a650",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3105090311066529495",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a484b427845ecdd3236cbf88.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Fire_Fireball_Medium_Super.prefab:563aacc1b2a435441988eae90cf8de94",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a5f6ee9b9167114993ee7bc9.native-effect.json",
+      "actions": 8,
+      "parameters": 38,
+      "updated": false,
+      "reference": "Hellfire_AE_FX.prefab:ce7fee3b48a76f14caddcdfa681db87b",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-3398932776541870639",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-57422756975257515",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 12
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 20
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 20
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 32
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 30
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ac729f443614aebbf097c5ae.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "Rage_Targeted_InnerRage_FX.prefab:199d710abbd77d348a33b08f15fc90bd",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-7445082194133872178",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": -1
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "acf38a3473aedaf1aaba0517.native-effect.json",
+      "actions": 4,
+      "parameters": 18,
+      "updated": false,
+      "reference": "Rage_Targeted_BestialWrath_FX.prefab:05cc51d3d74ae514c8a65e2328250e20",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-7199506952502621317",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 17
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 17
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b10fae62eb82f7e577eb3ea0.native-effect.json",
+      "actions": 3,
+      "parameters": 19,
+      "updated": false,
+      "reference": "Barrel_Throw_TNT_FX.prefab:0c80f9d82d0f06d4f940de838411eb25",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-2762042481731899414",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 36
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 35
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b2596697f60ecbdf78727269.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lightning_Single_Target_Jade_FX.prefab:8898006db108e2d4b8667b8085d0b9ff",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2624071977702876608",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-6654730637650922424",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 34
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b34be3ab40864bfe57eb05fd.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Ice_Lance_FX.prefab:b1b4b03e20f064e5eafb62d78e7643a9",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-9054003336883015339",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b444de075185b8a1ebb1c22d.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "Rage_GiveAttack_Minion_FX.prefab:2f670b413642e064198208b18a275c86",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3699974700115481872",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b4a68adb9126b0ae5887306e.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Physical_Target_MortalStrike_FX.prefab:40476180fbbf0704dbd00dfe62eb5a32",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6252441635298518882",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b60b46f66a938713c27ca97b.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Sneaky_Eviscerate_Minion_FX.prefab:7db60663c68a2dc4982e2cc2b25ad045",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3091742677568600813",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 7
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b77051c245321f691eff0a45.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_Targeted_Minion_FX.prefab:2bb2733dfe57c584291f7c50c5a24f97",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-6591763983725356978",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ba8e1ded81a49840f2e94f91.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Holy_Idle_MindVision.prefab:bd8f150c314cd5e4585b9dc10172c7c1",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-3206141719244173332",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "bc0a0433da27909c271398dd.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_Targeted_Healing_ImpactOnly_FX.prefab:98a6ddb5b34da2a419a16dcab9a2ef2c",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "6477909828587513399",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c0126c6b893d74983177abdd.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Beast_Targeted_HungryCrab_FX.prefab:2040bfcf64149754bb27c4862a957db9",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "2283175816759092214",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c157297bee5084d3e3b8fe7c.native-effect.json",
+      "actions": 2,
+      "parameters": 10,
+      "updated": false,
+      "reference": "Holy_Targeted_HammerOfWrath_FX.prefab:e363f1785c55f1c4c9fda2b369325989",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "4471899072495571514",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-2044096107799176178",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c2d07a0a5c5f3c0254949c25.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "ShadowFlame_AE_FX.prefab:22b59fba67b563549ac1835caf191d43",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-6788458906239302188",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 18
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "cf7378eab15cd8e4899b84b5.native-effect.json",
+      "actions": 4,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Warlock_Missiles_FX.prefab:6ca3ce5631d161744907c7790e623216",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "8340003984838633995",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3495179220145952008",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d008c4b1a5fd2065b6a4df24.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_UnTargeted_Healing_TruesilverChamp_FX.prefab:1bc330ad4c164c348a8d08bcd490883c",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "6477909828587513399",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 17
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d089ebacb048f027de7a3178.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "ReuseFX_OverrideSpawn_DemonHunter_FlyIn_Super.prefab:ce0af23fef2600d46a2edcb017c24197",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-6763302021514414637",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d4a8efbd566e7fc8149c939b.native-effect.json",
+      "actions": 2,
+      "parameters": 10,
+      "updated": false,
+      "reference": "FanOfKnives_FX.prefab:22bcac556a7b1cc4a9c378da1e677e0c",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-6526990248571374722",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "406272888406683319",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d4dfd34b1825cf367c392e29.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "ReuseFX_AE_DemonHunter_Shockwave_Medium_BothSides_Super.prefab:e12888ab007dfb6439416a388f14ca49",
+      "sources": [
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "-2128819187541414741",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 10
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d51227451932961e4df2677e.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "Overload_Untargeted_Minion_FX.prefab:234cbe2a127b1f341ad3739659491c56",
+      "sources": [
+        {
+          "cab": "CAB-eb22baa383e6dc87fb1c211241e48c7e",
+          "pathid": "4017929686231400062",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-19c61f11-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "dbde447b3c82b2bf7e3b858c.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lightning_Single_Target_FX.prefab:000da182637d2ae4f9510633267d5e65",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5643892178135839218",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-6850453639819574333",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 34
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "dc47cf6c776ab507e0426971.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "TirionFordring_Throw_FX.prefab:61dc2ba75e02cc94680e15b1c4a3e0ee",
+      "sources": [
+        {
+          "cab": "CAB-133e7f4f0b137266b615c7e62b7f2d77",
+          "pathid": "-3465078888749774799",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "df523286c0405097d142dba7.native-effect.json",
+      "actions": 2,
+      "parameters": 9,
+      "updated": false,
+      "reference": "ReuseFX_Generic_OverrideSpawn_NobleSacrifice_Super_Random.prefab:d271d751dd8df004c998e7538a75198e",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-1363837606754258772",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": -1
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e508c8fbfe00910dd007818c.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_AE_Consecration_FX.prefab:bbd5d106d5c36445b8ad3b6c5dd59dd9",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "6477909828587513399",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e51ebd6e18ee660c0293070a.native-effect.json",
+      "actions": 4,
+      "parameters": 18,
+      "updated": false,
+      "reference": "Physical_AE_BladeFlurry_FX.prefab:b48cf4fb5e2c3af40b33d3293759c480",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-1818375978337976521",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "295093426868532",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 5
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e6bf6bb633f311b9460f3618.native-effect.json",
+      "actions": 4,
+      "parameters": 18,
+      "updated": false,
+      "reference": "BGFX_Beast_Targeted_Bite_Minion_FX.prefab:a6ddc3a80fa8c814bbaeb6a649489bb7",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-4249914192052597189",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 6
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e898a891b173f44013122303.native-effect.json",
+      "actions": 4,
+      "parameters": 18,
+      "updated": false,
+      "reference": "Rage_Untargeted_UnleashTheHounds_FX.prefab:8e34a6a647942a94796f43ee58000acf",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-7199506952502621317",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": 6
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e8ff6ac6020996b43d214a42.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "ReuseFX_OverrideSpawn_DemonHunter_FlyIn_Super_Random.prefab:13c1aa31ab5719244bf9422bde52b3e0",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "5680725306261830403",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e9f4b6acd287fc1e8a773ead.native-effect.json",
+      "actions": 2,
+      "parameters": 10,
+      "updated": false,
+      "reference": "Flare_FX.prefab:d852894a04f4afd45b05f0e21cdd6524",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-5667994996014571887",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "eb0bf826aae72bb9b8a0a26f.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Arrow_Targeted_FX.prefab:bbd7f9a5ebabd8e45b0a22cb4446f1d9",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "5788179214026420744",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 16
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "eb9d7ab24095fdd64b49926c.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_UnTargeted_Healing_Minion_FX.prefab:560b5e093f967604aaefcc1c9272e80e",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2010473292776868974",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ec35874f66086d68d154de9b.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Warlock_Tendril_SuckIn_Missile.prefab:a6ee56ff9897ec148bb4dc97b51709b7",
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-621824952075460450",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ec9f4d80a7c82910c627b95c.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lightning_Single_Target_EarthShock_FX.prefab:feb83eb128ff8934ca8fb87f4d827382",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2624071977702876608",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-6654730637650922424",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 34
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ef719cc32cc2ec11a8bb1456.native-effect.json",
+      "actions": 2,
+      "parameters": 12,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Fire_Fireball_Large_Super.prefab:fafdcc62cdedb2e469dec13af89c124a",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6175052074802016849",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "8764023430253907765",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 15
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 24
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ef926539dde7d46d001cfccd.native-effect.json",
+      "actions": 3,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Beast_UnTargeted_LeaderOfThePack_FX.prefab:04a4de06d100b7442a2a7fc030120bec",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "303629441859932881",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-7445082194133872178",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 2
+        },
+        {
+          "action": "SetAnimationSpeed",
+          "parameter": "gameObject",
+          "node": -1
+        },
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "f9e37ae0fa0b020d5f95c42d.native-effect.json",
+      "actions": 1,
+      "parameters": 5,
+      "updated": false,
+      "reference": "Nature_Untargeted_TotemicMight_FX.prefab:96ede24155f0d9d46a76995a79783322",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "6966591948988644950",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AnimationPlaythroughAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "fd19be80049757ae95f61bad.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "Holy_AE_CircleOfHealing_FX.prefab:6b6a3cf3ac48ce84d8cd3e37fea909f3",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-534886295326616329",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "PlayAnimation",
+          "parameter": "gameObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source AnimationPlaythroughAction, PlayAnimation, SetAnimationSpeed, StopAnimation parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

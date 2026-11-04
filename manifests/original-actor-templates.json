@@ -1,0 +1,690 @@
+{
+  "templates": [
+    {
+      "id": "MODEL_ACTOR_MINION",
+      "guid": "23b7de16184fa8042bf6b734e7ca4d60",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "7379369862269225637",
+        "type": "GameObject",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "actors": [
+        {
+          "owner": 0,
+          "portrait": 79,
+          "portrait_material_index": 0,
+          "spell_table": "Card_Play_Ally_SpellTable.prefab:81be4c58f5a9d454e815f1b0703d8179",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "7287244737665747621",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "animation_file": "6398cb0cbefa8bd928774efc.actor-animation.json"
+        }
+      ],
+      "nodes": 96,
+      "cache": "local/runtime/MODEL_ACTOR_MINION.scene.json",
+      "animation": {
+        "source": {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7379369862269225637",
+          "type": "GameObject",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        "reference": "23b7de16184fa8042bf6b734e7ca4d60",
+        "cache": "local/runtime/6398cb0cbefa8bd928774efc.actor-animation.json",
+        "nodes": 101,
+        "particles": 2,
+        "animations": 32,
+        "captures": 0,
+        "actions": {},
+        "unresolved_parameters": 0,
+        "shader_families": [
+          "Custom/Card/Diffuse",
+          "Custom/Card/UnlitTexture",
+          "Custom/Card/Unlit_Desaturate_2Texture2uv",
+          "Custom/Selection/Highlight",
+          "Hero/AddMultiply/AddMultiply",
+          "Hero/Additive/Additive",
+          "Hero/Diffuse/DiffuseAlphaMaskScroller",
+          "Hero/Multiply/Multiply",
+          "Hero/Particle/Particle Multiply",
+          "Hero/Unlit/Unlit_Texture",
+          "Hero/Unlit_Transparent"
+        ],
+        "unknown_actions": [],
+        "unsupported_modules": [],
+        "errors": []
+      },
+      "portrait_materials": [
+        {
+          "node": 79,
+          "slot": 0,
+          "material": {
+            "name": "GenFX_Card_InPlay-AllyPortrait InPlay",
+            "shader": "Custom/Card/Unlit_Desaturate_2Texture2uv",
+            "textures": [
+              {
+                "name": "_SecondTex",
+                "path": "2b039934faf4344af8c48849.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_BlendIntensity",
+                "value": 2.0
+              },
+              {
+                "name": "_Desaturate",
+                "value": 0.0
+              },
+              {
+                "name": "_Contrast",
+                "value": 0.0
+              },
+              {
+                "name": "_Intensity",
+                "value": 1.0
+              },
+              {
+                "name": "_LightingBlend",
+                "value": 1.0
+              },
+              {
+                "name": "_EmissionLM",
+                "value": 0.0
+              },
+              {
+                "name": "_ReflectionScale",
+                "value": 6.0
+              },
+              {
+                "name": "_RotationSpeed",
+                "value": 7.0
+              },
+              {
+                "name": "_RotationX",
+                "value": 0.5
+              },
+              {
+                "name": "_RotationY",
+                "value": 0.5
+              },
+              {
+                "name": "_ScrollX",
+                "value": 0.0
+              },
+              {
+                "name": "_ScrollY",
+                "value": 0.0
+              },
+              {
+                "name": "_Shininess",
+                "value": 0.8169309496879578
+              },
+              {
+                "name": "_Transistion",
+                "value": 0.0
+              },
+              {
+                "name": "_ValueRange",
+                "value": 1.2686567306518555
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_SecondTint",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 0.5
+                }
+              },
+              {
+                "name": "_DarkColor",
+                "value": {
+                  "r": 0.30000001192092896,
+                  "g": 0.30000001192092896,
+                  "b": 0.30000001192092896,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_AvgLum",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.1411764770746231,
+                  "g": 0.1411764770746231,
+                  "b": 0.1411764770746231,
+                  "a": 1.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "-5051119123349116526",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AvgLum",
+              "_BlendIntensity",
+              "_Color",
+              "_Contrast",
+              "_DarkColor",
+              "_Desaturate",
+              "_GlobalMipBias",
+              "_Intensity",
+              "_LightingBlend",
+              "_MainLightColor",
+              "_MainTex",
+              "_MainTex_ST",
+              "_SecondTex",
+              "_SecondTex_ST",
+              "_SecondTint",
+              "unity_LightData",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld",
+              "unity_SHAb",
+              "unity_SHAg",
+              "unity_SHAr"
+            ],
+            "render_queue": 2000,
+            "queue_tag": "Geometry",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDefaultUnlit"
+              }
+            ],
+            "keywords": [],
+            "src": 1,
+            "dst": 0,
+            "src_alpha": 1,
+            "dst_alpha": 0,
+            "compiled_only": true
+          }
+        },
+        {
+          "node": 79,
+          "slot": 1,
+          "material": {
+            "name": "GenFX_Card_InPlay_AllyFrame InPlay",
+            "shader": "Custom/Card/UnlitTexture",
+            "textures": [
+              {
+                "name": "_MainTex",
+                "path": "54828e863e84281ecf40a501.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_LightingBlend",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "-8511660510266246248",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_GlobalMipBias",
+              "_LightDirection",
+              "_LightingBlend",
+              "_MainLightColor",
+              "_MainTex",
+              "_MainTex_ST",
+              "_ShadowBias",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld",
+              "unity_SHAb",
+              "unity_SHAg",
+              "unity_SHAr",
+              "unity_WorldToObject"
+            ],
+            "render_queue": 2000,
+            "queue_tag": "Geometry",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SHADOWCASTER"
+              },
+              {
+                "index": 1,
+                "light_mode": "UniversalForward"
+              }
+            ],
+            "keywords": [],
+            "src": 1,
+            "dst": 0,
+            "src_alpha": 1,
+            "dst_alpha": 0,
+            "compiled_only": true
+          }
+        }
+      ],
+      "material_errors": []
+    },
+    {
+      "id": "MODEL_ACTOR_HERO",
+      "guid": "42cbbd2c4969afb46b3887bb628de19d",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-2507336562026496370",
+        "type": "GameObject",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "actors": [
+        {
+          "owner": 0,
+          "portrait": 55,
+          "portrait_material_index": 1,
+          "spell_table": "Card_Play_Hero_SpellTable.prefab:c7908ae61ab34412aa7f5a9bf3c89cf2",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "3078986562978823822",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "animation_file": "236eb8fc1b881febb116d02e.actor-animation.json"
+        }
+      ],
+      "nodes": 61,
+      "cache": "local/runtime/MODEL_ACTOR_HERO.scene.json",
+      "animation": {
+        "source": {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-2507336562026496370",
+          "type": "GameObject",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        "reference": "42cbbd2c4969afb46b3887bb628de19d",
+        "cache": "local/runtime/236eb8fc1b881febb116d02e.actor-animation.json",
+        "nodes": 65,
+        "particles": 0,
+        "animations": 16,
+        "captures": 0,
+        "actions": {},
+        "unresolved_parameters": 0,
+        "shader_families": [
+          "Custom/Card/UnlitTexture",
+          "Custom/Card/Unlit_Desaturate_2Texture2uv",
+          "Custom/Selection/Highlight",
+          "Effects/FX_Transparent_ColorAsAlpha",
+          "Hero/AddMultiply/AddMultiply",
+          "Hero/Diffuse/DiffuseAlphaMaskScroller",
+          "Hero/Unlit_Transparent",
+          "Legacy Shaders/Particles/Additive"
+        ],
+        "unknown_actions": [],
+        "unsupported_modules": [],
+        "errors": [
+          "Unity 内建资源不在客户端资源包中：unity default resources",
+          "Unity 内建资源不在客户端资源包中：unity default resources",
+          {
+            "owner": {
+              "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+              "pathid": "2221880731505573518",
+              "type": "MeshFilter",
+              "bundle": "essential_base_global-prefab-0.unity3d"
+            },
+            "pointer": {
+              "m_FileID": 7,
+              "m_PathID": 10210
+            },
+            "error": "Unity 内建资源不在客户端资源包中：unity default resources"
+          },
+          {
+            "owner": {
+              "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+              "pathid": "-1592040883068941750",
+              "type": "MeshFilter",
+              "bundle": "essential_base_global-prefab-0.unity3d"
+            },
+            "pointer": {
+              "m_FileID": 7,
+              "m_PathID": 10209
+            },
+            "error": "Unity 内建资源不在客户端资源包中：unity default resources"
+          }
+        ]
+      },
+      "portrait_materials": [
+        {
+          "node": 55,
+          "slot": 0,
+          "material": {
+            "name": "HeroFrame",
+            "shader": "Custom/Card/UnlitTexture",
+            "textures": [
+              {
+                "name": "_MainTex",
+                "path": "bdc3fb6db6bfbf6984aabd62.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_LightingBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_BlendIntensity",
+                "value": 2.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_SecondTint",
+                "value": {
+                  "r": 0.501960813999176,
+                  "g": 0.501960813999176,
+                  "b": 0.501960813999176,
+                  "a": 0.501960813999176
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "-7290633935978506876",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_GlobalMipBias",
+              "_LightDirection",
+              "_LightingBlend",
+              "_MainLightColor",
+              "_MainTex",
+              "_MainTex_ST",
+              "_ShadowBias",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld",
+              "unity_SHAb",
+              "unity_SHAg",
+              "unity_SHAr",
+              "unity_WorldToObject"
+            ],
+            "render_queue": 2000,
+            "queue_tag": "Geometry",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SHADOWCASTER"
+              },
+              {
+                "index": 1,
+                "light_mode": "UniversalForward"
+              }
+            ],
+            "keywords": [],
+            "src": 1,
+            "dst": 0,
+            "src_alpha": 1,
+            "dst_alpha": 0,
+            "compiled_only": true
+          }
+        },
+        {
+          "node": 55,
+          "slot": 1,
+          "material": {
+            "name": "GenFX_Card_Hero-HeroPortrait",
+            "shader": "Custom/Card/Unlit_Desaturate_2Texture2uv",
+            "textures": [
+              {
+                "name": "_MainTex",
+                "path": "7f2d823a03283a16355d4ea7.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_SecondTex",
+                "path": "bdc3fb6db6bfbf6984aabd62.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_BlendIntensity",
+                "value": 1.0
+              },
+              {
+                "name": "_Desaturate",
+                "value": 0.0
+              },
+              {
+                "name": "_Contrast",
+                "value": 0.0
+              },
+              {
+                "name": "_Intensity",
+                "value": 1.0
+              },
+              {
+                "name": "_LightingBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_AvgLum",
+                "value": 0.5
+              },
+              {
+                "name": "_EmissionLM",
+                "value": 0.0
+              },
+              {
+                "name": "_Shininess",
+                "value": 0.15200559794902802
+              },
+              {
+                "name": "_Transistion",
+                "value": 0.0
+              },
+              {
+                "name": "_ValueRange",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_SecondTint",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_DarkColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_AvgLum",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.05882352963089943,
+                  "g": 0.05882352963089943,
+                  "b": 0.05882352963089943,
+                  "a": 1.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "808594709144381278",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AvgLum",
+              "_BlendIntensity",
+              "_Color",
+              "_Contrast",
+              "_DarkColor",
+              "_Desaturate",
+              "_GlobalMipBias",
+              "_Intensity",
+              "_LightingBlend",
+              "_MainLightColor",
+              "_MainTex",
+              "_MainTex_ST",
+              "_SecondTex",
+              "_SecondTex_ST",
+              "_SecondTint",
+              "unity_LightData",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld",
+              "unity_SHAb",
+              "unity_SHAg",
+              "unity_SHAr"
+            ],
+            "render_queue": 2000,
+            "queue_tag": "Geometry",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDefaultUnlit"
+              }
+            ],
+            "keywords": [],
+            "src": 1,
+            "dst": 0,
+            "src_alpha": 1,
+            "dst_alpha": 0,
+            "compiled_only": true
+          }
+        }
+      ],
+      "material_errors": []
+    }
+  ],
+  "complete": false,
+  "errors": [
+    {
+      "scene": "MODEL_ACTOR_HERO",
+      "node": "Quad",
+      "error": "Unity 内建资源不在客户端资源包中：unity default resources"
+    }
+  ],
+  "notes": [
+    "Original catalog Actor structure and references; original Actor scripts, materials and SpellTable scheduling are not fully restored."
+  ]
+}

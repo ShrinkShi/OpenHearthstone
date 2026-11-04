@@ -1,0 +1,59 @@
+{
+  "programs": [
+    {
+      "file": "2ac223d9b583771c9eb24338.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super_Random.prefab:e51c00c98fe156748a1e45b17b0fb182",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5909194798680725276",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "ActorEliteEventAction",
+          "parameter": "m_ActorObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super.prefab:5f189b59ddd96234ba95040813a40274",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "3278325011287662579",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "ActorEliteEventAction",
+          "parameter": "m_ActorObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source ActorEliteEventAction parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

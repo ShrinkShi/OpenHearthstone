@@ -1,0 +1,213 @@
+{
+  "shader": {
+    "name": "Custom/FX/FX_SneakySmoke",
+    "bundle": "essential_base_global-shader-0.unity3d",
+    "cab": "CAB-c394926ba464822396a05cbfae08a8b3",
+    "pathid": "-1607209025186432915"
+  },
+  "family": 24,
+  "bindings": [
+    {
+      "subshader": 0,
+      "pass_index": 0,
+      "pass_name": "",
+      "stage": "progVertex",
+      "blob": 1,
+      "gpu_type": 15,
+      "keywords": [],
+      "parameter_blob": 0,
+      "program_sha256": "6c33f16b6a15c51061110a36dc11d1a5edea32756009f31743fdcd5a96142f2b",
+      "parameter_sha256": "bf4e7e916c02b3e1f0bcc43d1cc6c2d53ac7a60b279e3204e3f002e0aea2f2fa"
+    },
+    {
+      "subshader": 0,
+      "pass_index": 0,
+      "pass_name": "",
+      "stage": "progFragment",
+      "blob": 3,
+      "gpu_type": 17,
+      "keywords": [],
+      "parameter_blob": 2,
+      "program_sha256": "3d90e10bb86c7a5e2a2b606ab92b0b1b9960a463dbe81b8a2791aa09e06a328f",
+      "parameter_sha256": "aa516515955e32d89a46f926e8c4ac14cab8cd4b45f92a561e5d3adff3a6a992"
+    }
+  ],
+  "pass_constant_byte_offsets": [
+    {
+      "progVertex": {
+        "$Globals": {},
+        "UnityPerDraw": {},
+        "UnityPerMaterial": {
+          "_MainTex_ST": 0,
+          "_Color": 16
+        }
+      },
+      "progFragment": {
+        "$Globals": {
+          "_GlobalMipBias": 64
+        },
+        "UnityPerMaterial": {
+          "_Color": 16,
+          "_SecondColor": 32,
+          "_Intensity": 48
+        }
+      }
+    }
+  ],
+  "pass_render_states": [
+    {
+      "culling": 0.0,
+      "zWrite": 0.0,
+      "zTest": 4.0,
+      "blend": {
+        "srcBlend": 5.0,
+        "destBlend": 10.0,
+        "srcBlendAlpha": 5.0,
+        "destBlendAlpha": 10.0,
+        "blendOp": 0.0,
+        "blendOpAlpha": 0.0,
+        "colMask": 15.0
+      }
+    }
+  ],
+  "references": [
+    {
+      "file": "228864b1f3e778228ee15fa2.native-effect.json",
+      "reference": "Sneaky_Eviscerate_FX.prefab:0a7e22e526c4aeb47841034843ce06e7",
+      "materials": [
+        {
+          "node": 21,
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "-1634677431486415221",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        },
+        {
+          "node": 32,
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "-1634677431486415221",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "76cd717cacf8a2a8095c00ad.native-effect.json",
+      "reference": "Sneaky2_Attack_FX.prefab:6a9a8edafcae07b4dadc18db5550e663",
+      "materials": [
+        {
+          "node": 20,
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "-1634677431486415221",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "b5870350c3bfca9f0391faa2.native-effect.json",
+      "reference": "Sneaky_Attack_NoStart_FX.prefab:e05d432f4439cb647899c13738ebfeab",
+      "materials": [
+        {
+          "node": 9,
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "-1634677431486415221",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        },
+        {
+          "node": 14,
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "-1634677431486415221",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        },
+        {
+          "node": 20,
+          "name": "GenFX_StealthSmokeTrailParticleWisp",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "5564427562462743618",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        },
+        {
+          "node": 31,
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "-1634677431486415221",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "b60b46f66a938713c27ca97b.native-effect.json",
+      "reference": "Sneaky_Eviscerate_Minion_FX.prefab:7db60663c68a2dc4982e2cc2b25ad045",
+      "materials": [
+        {
+          "node": 20,
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "-1634677431486415221",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        },
+        {
+          "node": 32,
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "-1634677431486415221",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "d4a8efbd566e7fc8149c939b.native-effect.json",
+      "reference": "FanOfKnives_FX.prefab:22bcac556a7b1cc4a9c378da1e677e0c",
+      "materials": [
+        {
+          "node": 13,
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "source": {
+            "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+            "pathid": "-1634677431486415221",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+          }
+        }
+      ]
+    }
+  ],
+  "full_card_effects_verified": false,
+  "notes": [
+    "Vertex: MainTex ST, vertex RGB passed unused, vertex alpha multiplied by Color.a; no lighting.",
+    "Fragment mask=MainTex.r*vertex.a*Color.a; RGB=lerp(Color.rgb,SecondColor.rgb,mask); RGBA multiplied by Intensity.",
+    "Texture GBA, vertex RGB and SecondColor.a are unused. No saturation or clock.",
+    "Source RGBA SrcAlpha/OneMinusSrcAlpha blend is distinct from premultiplied affine capture.",
+    "Whole card playback, scene capture and complete script services remain incomplete."
+  ]
+}

@@ -1,0 +1,849 @@
+{
+  "programs": [
+    {
+      "file": "00029afcc27a43680cb13656.native-effect.json",
+      "parameters": 12,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "05928182ba88d64927d6d9d6.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "05ca46c569163fce4e60f594.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "06cf6d3f3e5615e63bff80f7.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "076d511f7b25ad78f327937e.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "07ebfc013884b374cb15adea.native-effect.json",
+      "parameters": 5,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "0b35d77cb19dfbe98486aba2.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "0bec2a4e780bcda3d1fe6fe5.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "0e605431912839a24eb098ef.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "12101c367651a87196495d15.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "1246094cae2466b286969390.native-effect.json",
+      "parameters": 28,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "13e4ba2cda5d567ad3d3e0be.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "141ae6667f81251453952240.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "141e414fd66fb79d7eee66c2.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": [
+        {
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1908980941378437675",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "path": ""
+        }
+      ]
+    },
+    {
+      "file": "15142b65714667e95c7be7ea.native-effect.json",
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "1ae606ad4f7dc8da9eb50b93.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "1ca86742da8eb534a697ead5.native-effect.json",
+      "parameters": 5,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "22263b43e2c34c25a832edda.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "22291b74bdc6da4185f8a0d8.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "228864b1f3e778228ee15fa2.native-effect.json",
+      "parameters": 4,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "22c4067aa2cd3c2bd8efeeaa.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "29935f9acd53575e648ee1cd.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "2a16624e279efbdccf6138f1.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "2ac223d9b583771c9eb24338.native-effect.json",
+      "parameters": 29,
+      "updated": false,
+      "unresolved": 0,
+      "assets": [
+        {
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "path": ""
+        },
+        {
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "path": ""
+        },
+        {
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "path": ""
+        },
+        {
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "path": ""
+        }
+      ]
+    },
+    {
+      "file": "2c575b7037eb26b115a9f5fd.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "2dc0f32c42c2aec252d77e39.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "2fce94149a7c7c6badfecc1d.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "3145382ed4eaa71f42512d35.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "32e839f264392a2fd7b69e3e.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "34c8b82ccc4284005f9e07a0.native-effect.json",
+      "parameters": 8,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "3abb96f98378bc6364578070.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "41c4e05d674c9ec7f8d18738.native-effect.json",
+      "parameters": 16,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "41dc6aefe35cdc594bf0be0a.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "42b269980a7b84d910d1ce3e.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "42d36a19bfb8163583de4af9.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "46d81302ae2bb97b610d8d97.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "4ee6ffa1aa571c59d1e93571.native-effect.json",
+      "parameters": 6,
+      "updated": false,
+      "unresolved": 0,
+      "assets": [
+        {
+          "source": {
+            "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+            "pathid": "-8039451771726812956",
+            "type": "Texture2D",
+            "bundle": "essential_base_global-texture-2.unity3d"
+          },
+          "path": "cd7ba7885a2d12ab34d1dabf.png"
+        },
+        {
+          "source": {
+            "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+            "pathid": "-8039451771726812956",
+            "type": "Texture2D",
+            "bundle": "essential_base_global-texture-2.unity3d"
+          },
+          "path": "cd7ba7885a2d12ab34d1dabf.png"
+        },
+        {
+          "source": {
+            "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+            "pathid": "3506897862555594978",
+            "type": "Texture2D",
+            "bundle": "essential_base_global-texture-2.unity3d"
+          },
+          "path": "db598f55f4e4c96b7e32d722.png"
+        }
+      ]
+    },
+    {
+      "file": "4fc0fe4fe4824ecbe3db289c.native-effect.json",
+      "parameters": 6,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "547f1d181758e5d798bb68a8.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "5840edc5ac4646f614b1ea81.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "5ddfa427c40a9439b7ef0f7c.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "5e498ee91e9dc919512fabc3.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "6549e4c82c2d8dd7a8ff3a34.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "684234766d5c17602805a25a.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "6880c3838b40fdf5ee40b286.native-effect.json",
+      "parameters": 8,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "69dcefb91e9e0f9355d2300e.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "6b31c155cae8a5b94ba13972.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "6ed9b2fe2d7816de1a381ef7.native-effect.json",
+      "parameters": 12,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "6f0ee4ab92545f1007043c0e.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "711bdd40979a9097df1a99e4.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "76cd717cacf8a2a8095c00ad.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "76fec7dec380b180d0d641f7.native-effect.json",
+      "parameters": 4,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "7eb05bff6341edbefb72ace7.native-effect.json",
+      "parameters": 12,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "8141bcb386615a6aac3f4f4e.native-effect.json",
+      "parameters": 5,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "81adc1ee5e4a815a745824b5.native-effect.json",
+      "parameters": 13,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "835f1ff8f4e1cb1d3b2b9b68.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "88051a8d118ad7bc6be54abb.native-effect.json",
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "8c973b2fb26cb9a918bb96d7.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "8e9f0d8f5a1886a9603d43dc.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "8eba90bc307d0125fabbc7e4.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "8f27eba70c61fc46ec632557.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "9056cd9b80f6f898aa88936f.native-effect.json",
+      "parameters": 9,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "parameters": 4,
+      "updated": false,
+      "unresolved": 0,
+      "assets": [
+        {
+          "source": {
+            "cab": "CAB-22d8ebc40a5c633f988930ccc4fdacd7",
+            "pathid": "4993936921643323141",
+            "type": "Material",
+            "bundle": "initial_base_global-75c96a85-material-1.unity3d"
+          },
+          "path": ""
+        }
+      ]
+    },
+    {
+      "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+      "parameters": 9,
+      "updated": false,
+      "unresolved": 0,
+      "assets": [
+        {
+          "source": {
+            "cab": "CAB-22d8ebc40a5c633f988930ccc4fdacd7",
+            "pathid": "4993936921643323141",
+            "type": "Material",
+            "bundle": "initial_base_global-75c96a85-material-1.unity3d"
+          },
+          "path": ""
+        }
+      ]
+    },
+    {
+      "file": "97020148102e8691d2fa7836.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "9c3b2a977d2fd3ef2c0632a9.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "a1cb21a4028e9494468e6214.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "a2cb6db8a8404ec3b1dd3276.native-effect.json",
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "a78b10af18608c6a921c39e6.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "ac729f443614aebbf097c5ae.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "acf38a3473aedaf1aaba0517.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "parameters": 29,
+      "updated": false,
+      "unresolved": 0,
+      "assets": [
+        {
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "path": ""
+        },
+        {
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "path": ""
+        },
+        {
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "path": ""
+        },
+        {
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "path": ""
+        }
+      ]
+    },
+    {
+      "file": "b170e03850894a05de412d11.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "b2596697f60ecbdf78727269.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "b4a68adb9126b0ae5887306e.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "b5870350c3bfca9f0391faa2.native-effect.json",
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "b60b46f66a938713c27ca97b.native-effect.json",
+      "parameters": 4,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "b9dfacd4ee8927ded86e0875.native-effect.json",
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "c157297bee5084d3e3b8fe7c.native-effect.json",
+      "parameters": 16,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "c2d07a0a5c5f3c0254949c25.native-effect.json",
+      "parameters": 12,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "c98cce1aae02a4161ec3adfb.native-effect.json",
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "ce9e2ba5c3e2aa3061331d02.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "cf9d4c60b62b3aa53b3bbc73.native-effect.json",
+      "parameters": 8,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "cfca89e9f4eaf103db6c7f47.native-effect.json",
+      "parameters": 4,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "d008c4b1a5fd2065b6a4df24.native-effect.json",
+      "parameters": 10,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "d40370bc9615eb69423e852d.native-effect.json",
+      "parameters": 6,
+      "updated": false,
+      "unresolved": 0,
+      "assets": [
+        {
+          "source": {
+            "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+            "pathid": "-8039451771726812956",
+            "type": "Texture2D",
+            "bundle": "essential_base_global-texture-2.unity3d"
+          },
+          "path": "cd7ba7885a2d12ab34d1dabf.png"
+        },
+        {
+          "source": {
+            "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+            "pathid": "-8039451771726812956",
+            "type": "Texture2D",
+            "bundle": "essential_base_global-texture-2.unity3d"
+          },
+          "path": "cd7ba7885a2d12ab34d1dabf.png"
+        },
+        {
+          "source": {
+            "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+            "pathid": "3506897862555594978",
+            "type": "Texture2D",
+            "bundle": "essential_base_global-texture-2.unity3d"
+          },
+          "path": "db598f55f4e4c96b7e32d722.png"
+        }
+      ]
+    },
+    {
+      "file": "d4a8efbd566e7fc8149c939b.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "d5791a890e4223c00a4717e8.native-effect.json",
+      "parameters": 3,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "d790330298f4596a1be10106.native-effect.json",
+      "parameters": 12,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "d7dade5b86884e2cdaf658ef.native-effect.json",
+      "parameters": 6,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "dbde447b3c82b2bf7e3b858c.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "e13c8852269ce9d6569c9aad.native-effect.json",
+      "parameters": 10,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "e508c8fbfe00910dd007818c.native-effect.json",
+      "parameters": 4,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "eb0bf826aae72bb9b8a0a26f.native-effect.json",
+      "parameters": 2,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "ec9f4d80a7c82910c627b95c.native-effect.json",
+      "parameters": 1,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "fd19be80049757ae95f61bad.native-effect.json",
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    },
+    {
+      "file": "fedd636d08b13599644d83e3.native-effect.json",
+      "parameters": 8,
+      "updated": false,
+      "unresolved": 0,
+      "assets": []
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Typed original FSM references. Runtime supports literal Texture2D/null on indexed renderer materials only.",
+    "Activation index and geometry are unchanged. RenderTexture/Cubemap bindings remain unresolved."
+  ]
+}

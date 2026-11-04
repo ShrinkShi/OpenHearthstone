@@ -1,0 +1,76 @@
+{
+  "assets": [
+    {
+      "id": "UI_POWER_DETAIL_FRAME",
+      "name": "Lettuce_Ability_SpellCaster_Frame",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "pathid": "-2493097801299107557",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "guids": [
+        "3e058de87d9d5b44ab6bbc51b3fb0018"
+      ],
+      "type": "Texture2D",
+      "usage": "runtime",
+      "cache": "local/runtime/14ce8ccb6949c39f95be95e5.png"
+    },
+    {
+      "id": "MODEL_POWER_DETAIL",
+      "name": "Lettuce_Ability_Frame",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "pathid": "-1180901414686532874",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "guids": [],
+      "type": "GameObject",
+      "usage": "runtime",
+      "cache": "local/runtime/MODEL_POWER_DETAIL.scene.json"
+    },
+    {
+      "id": "MODEL_HISTORY_CARD",
+      "name": "HistoryTile_Card",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "pathid": "-2509771608167281598",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "guids": [
+        "df3002d4532e4dd40b37101e83202db4"
+      ],
+      "type": "GameObject",
+      "usage": "runtime",
+      "cache": "local/runtime/MODEL_HISTORY_CARD.scene.json"
+    },
+    {
+      "id": "MODEL_HISTORY_ATTACK",
+      "name": "HistoryTile_Attack",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "pathid": "5051139782100101758",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "guids": [
+        "816bc6c1f4d8f0c439e981d30bf5b57b"
+      ],
+      "type": "GameObject",
+      "usage": "runtime",
+      "cache": "local/runtime/MODEL_HISTORY_ATTACK.scene.json"
+    },
+    {
+      "id": "MODEL_GEM_ARMOR",
+      "name": "Hero_Armor",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "pathid": "-5822074157915147728",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "guids": [],
+      "type": "GameObject",
+      "usage": "runtime",
+      "cache": "local/runtime/MODEL_GEM_ARMOR.scene.json"
+    },
+    {
+      "id": "MODEL_GEM_DURABILITY",
+      "name": "Wep_SheildBroken",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "pathid": "7678159068021834235",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "guids": [],
+      "type": "GameObject",
+      "usage": "runtime",
+      "cache": "local/runtime/MODEL_GEM_DURABILITY.scene.json"
+    }
+  ]
+}

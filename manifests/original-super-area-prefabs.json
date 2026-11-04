@@ -1,0 +1,149 @@
+{
+  "prefabs": [
+    {
+      "reference": "ReuseFX_AE_Arcane_Explosion_Small_BothSides.prefab:97c1eaad92e69354f92d25a8bd04e241",
+      "file": "32eb0ac4072ba2d9753492b8.area-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-2440671907754416588",
+          "type": "GameObject",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        "reference": "ReuseFX_AE_Arcane_Explosion_Small_BothSides.prefab:97c1eaad92e69354f92d25a8bd04e241",
+        "cache": "local/runtime/32eb0ac4072ba2d9753492b8.area-spell.json",
+        "nodes": 10,
+        "particles": 2,
+        "animations": 1,
+        "captures": 0,
+        "actions": {
+          "GetBoardAmbientColorAction": 1,
+          "SpellStateAction": 2,
+          "SetAnimationSpeed": 1,
+          "AnimationPlaythroughAction": 1,
+          "ParticlePlayAction": 1,
+          "SpellCardIdAudioPlayClipAction": 1,
+          "SpellFinishAction": 1,
+          "MainCameraShakerAction": 1,
+          "Wait": 1
+        },
+        "unresolved_parameters": 2,
+        "shader_families": [
+          "Hero/AddMultiply/AddMultiply",
+          "Hero/AddMultiply/AddMultiplyFXScrolling",
+          "Hero/Additive/Additive",
+          "Hero/Particle/Particle Additive + 1"
+        ],
+        "unknown_actions": [
+          "MainCameraShakerAction",
+          "SpellCardIdAudioPlayClipAction"
+        ],
+        "unsupported_modules": [
+          "SubModule"
+        ],
+        "errors": []
+      },
+      "audio_file": "32eb0ac4072ba2d9753492b8.area-audio.json",
+      "audio_errors": []
+    },
+    {
+      "reference": "ReuseFX_Hellfire_BothSide.prefab:8771de804ed0ced47b9679dde4b530b0",
+      "file": "3060d1b8aed0584da8fe9afa.area-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "8336597855351940561",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        "reference": "ReuseFX_Hellfire_BothSide.prefab:8771de804ed0ced47b9679dde4b530b0",
+        "cache": "local/runtime/3060d1b8aed0584da8fe9afa.area-spell.json",
+        "nodes": 18,
+        "particles": 3,
+        "animations": 3,
+        "captures": 1,
+        "actions": {
+          "GetBoardAmbientColorAction": 1,
+          "SetVisibility": 3,
+          "SpellStateAction": 2,
+          "SetAnimationSpeed": 1,
+          "AnimationPlaythroughAction": 3,
+          "ParticlePlayAction": 1,
+          "AudioPlayRandomClipAction": 1,
+          "SpellFinishAction": 1,
+          "MainCameraShakerAction": 1,
+          "Wait": 1
+        },
+        "unresolved_parameters": 2,
+        "shader_families": [
+          "Effects/AddMulDissolveSingleTex",
+          "Hero/AddMultiply/AddMultiplyFXScrolling",
+          "Hero/AddMultiply/AddMultiplyFXWorld",
+          "Hero/Particle/Particle Additive + 1",
+          "Hero/Particle/Particle Multiply",
+          "Utility/Black"
+        ],
+        "unknown_actions": [
+          "AudioPlayRandomClipAction",
+          "MainCameraShakerAction"
+        ],
+        "unsupported_modules": [
+          "SubModule"
+        ],
+        "errors": []
+      },
+      "audio_file": "3060d1b8aed0584da8fe9afa.area-audio.json",
+      "audio_errors": []
+    },
+    {
+      "reference": "ReuseFX_Hellfire_BothSide_Opponent.prefab:5faf710a86d96c64783950b8fd2d3753",
+      "file": "8131a0516da434b6caf0a013.area-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1227651292837926997",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        "reference": "ReuseFX_Hellfire_BothSide_Opponent.prefab:5faf710a86d96c64783950b8fd2d3753",
+        "cache": "local/runtime/8131a0516da434b6caf0a013.area-spell.json",
+        "nodes": 18,
+        "particles": 3,
+        "animations": 3,
+        "captures": 1,
+        "actions": {
+          "GetBoardAmbientColorAction": 1,
+          "SpellStateAction": 4,
+          "SetVisibility": 3,
+          "SetAnimationSpeed": 1,
+          "AnimationPlaythroughAction": 3,
+          "ParticlePlayAction": 1,
+          "AudioPlayRandomClipAction": 1,
+          "SpellFinishAction": 1,
+          "MainCameraShakerAction": 1,
+          "Wait": 1
+        },
+        "unresolved_parameters": 2,
+        "shader_families": [
+          "Effects/AddMulDissolveSingleTex",
+          "Hero/AddMultiply/AddMultiplyFXScrolling",
+          "Hero/AddMultiply/AddMultiplyFXWorld",
+          "Hero/Particle/Particle Additive + 1",
+          "Hero/Particle/Particle Multiply",
+          "Utility/Black"
+        ],
+        "unknown_actions": [
+          "AudioPlayRandomClipAction",
+          "MainCameraShakerAction"
+        ],
+        "unsupported_modules": [
+          "SubModule"
+        ],
+        "errors": []
+      },
+      "audio_file": "8131a0516da434b6caf0a013.area-audio.json",
+      "audio_errors": []
+    }
+  ],
+  "full_super_spell_restored": false
+}

@@ -1,0 +1,50 @@
+{
+  "assets": [
+    {
+      "id": "UI_MINION_DEATHRATTLE",
+      "name": "GenFX_Deathrattle_Skull",
+      "type": "Texture2D",
+      "bundle": "initial_base_global-41caf0cf-texture-1.unity3d",
+      "cab": "CAB-1c162886f5e4ea6804c80f2e68d53bbb",
+      "pathid": "6957025732014279090",
+      "guids": [
+        "86d811e328d8d54458acbb5840d951ba"
+      ],
+      "cache": "local/runtime/41afa853230fca32a3993c36.png"
+    },
+    {
+      "id": "UI_MINION_POISONOUS",
+      "name": "Poisonous",
+      "type": "Texture2D",
+      "bundle": "initial_base_global-8411aad9-texture-13.unity3d",
+      "cab": "CAB-51315388aaeaca768a550d02d88ba4c3",
+      "pathid": "-1251694845375794094",
+      "guids": [
+        "4d60ef7861398354595557aa0043ce70"
+      ],
+      "cache": "local/runtime/c63bdf1783c012efa39a9a81.png"
+    },
+    {
+      "id": "MODEL_MINION_DEATHRATTLE",
+      "name": "Card_Play_Ally_DeathRattle_Idle",
+      "type": "GameObject",
+      "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d",
+      "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+      "pathid": "4070505922543641971",
+      "guids": [
+        "0a66978d0c4994de6bfcf643a9cfe88e"
+      ],
+      "cache": "local/runtime/MODEL_MINION_DEATHRATTLE.scene.json"
+    },
+    {
+      "id": "MODEL_MINION_POISONOUS",
+      "name": "Poisonous",
+      "type": "GameObject",
+      "bundle": "initial_base_global-45e37529-mesh-0.unity3d",
+      "cab": "CAB-76e6b62ba523686d489a13daf5e0adbf",
+      "pathid": "-3560512112973454457",
+      "guids": [],
+      "cache": "local/runtime/MODEL_MINION_POISONOUS.scene.json"
+    }
+  ]
+}

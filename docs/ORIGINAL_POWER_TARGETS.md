@@ -1,0 +1,31 @@
+# 原控制器历史任务来源与目标收集
+
+后续恢复任务执行分派、范围回调和Update等待规则；下文保留收集节点历史状态，完整原服务/历史/动画仍未完成，见[ORIGINAL_POWER_EXECUTION](ORIGINAL_POWER_EXECUTION.md)。
+
+2026-10-12。全卡专属动画、完整Shader/脚本未完成；完整效果启用仍2。本节点恢复原控制器收集分支并提供明确历史输入接口，没有把SemanticEvent伪装为原PowerTaskList。
+
+## 原依据
+
+只读原SpellController.AddPowerSourceAndTargets/HasSourceCard/AttachPowerTaskList/SetPowerTaskList/DetachPowerTaskList及其两个空Card谓词、PowerTaskList.GetSourceEntities/HasTasks、SpellUtils.CanAddPowerTargets/IsNonMetaTaskListInMetaBlock。静态IL及程序集身份在original-script-audit.json；未执行官方程序集。
+
+来源Entity按原BlockStart.Entities顺序读取，保留重复、已移除缺失Entity的空槽。required且缺失未移除Entity时警告并返回null，dirty仍保留；非required时可缓存空项，后续required读取干净缓存不会重新验证。HasSourceCard跳过空Entity，但任何存在Entity的Card为空时拒绝，至少需要一个有效Card。
+
+CanAddPowerTargets拒绝效果时序MetaBlock中的非Meta任务列表；需要实际任务或EndOfBlock。收集时先更新来源，再从已附着m_taskList按顺序读取任务，只有PowerType4/HistTagChange提供目标Entity；缺失Entity警告，无Card跳过，排除来源Card和重复目标。直接AddTarget仍允许重复。方法参数提供来源/门槛，而扫描目标使用已附着任务列表，两者不能强制合并。
+
+## 接入与生命周期
+
+NativePowerTaskList承载明确提供的历史类型、来源ID、TAG_CHANGE目标、已解析时序/块边界标志和可选EffectEntityDef类型；Source缓存/dirty遵循上述规则。NativePowerTaskTargets持有原来源/目标列表及Attach/Set/Detach行为：同一Attach重新收集；Set仅切换且不更新taskListId；Detach清对象列表并保留原ID字段。
+
+NativeSpellContext.FromEvent可接收明确powerTasks，成功后覆盖来源/目标身份、类型及所属英雄，失败显式拒绝，不回退伪造语义来源。NativeEffectPlayer.OriginalPowerTasks是输入提供器，RemovedHistoryEntity提供原已移除信息；默认未设置，现有对战继续使用原语义事件路径。
+
+缓存Entity可能来自上一个表现上下文，因此每个当前实例重新核对实际来源模型并通过自己的借用门槛登记；不依赖旧上下文的writer集合。准备入口PrepareSource可在非GUI情况下执行；现有Prepare只负责Repaint适配并调用同一核心路径，渲染仍由原OnGUI流程负责。
+
+## 验证与缺口
+
+work/native-power-targets-complete-check.log退出0，33项新增检查：来源缓存/dirty/空Card、时序门槛、TAG_CHANGE筛选与来源排除/去重、已附着列表与方法参数差异、Attach/Set/Detach、真实模型跨快照导入、原攻击实例来源定位，以及真实NativeEffectPlayer提供器与缓存来源重新借用。既有27目标集合/35对象选择/29定位/57攻击/78193运行时/92召唤及四入场链通过。1165Python通过，15UnityPy版本回退警告，48.84秒。
+
+work/build-native-power-targets.log构建退出0；实际Mixer Bundle九编译常量匹配。只读现存D:/Program Files (x86)/Hearthstone/Logs/Hearthstone_2026_10_11_14_31_09/Power.log：976字节，最后写入2026-10-11 15:59:56，无BLOCK_START/META_DATA匹配；不能用它证明已取得真实对局历史，也未修改日志配置。
+
+后台power_targets_1/2在47434端口完成e6261ebb821c49cbad26afcb022ba77a：14回合/version57，Shrink2战士6血胜、Shrink1盗贼-2血负；两端hash均为5b559b31e8d96e6476254ad4baea9b3201f1efd7c1bc88a9403a58c0e97e343a。客户端与服务器日志无异常/fallback；终局核对命令行后仅清理三自有进程。UI校准SHA256仍E85CE40298C0FD45916D73FB1CC547AD9C46D1E3E124D2E0465F976C6B547DA6。该比赛是现有语义事件路径的可玩性回归，不证明完整原历史或新增动画已验收。
+
+未完成：原历史传输/反序列化、时序与块标志从原层级推导、任务执行/完成/服务器处理状态、完整Controller与Card组件身份、控制权中间状态、派生脚本、正式攻击合成及整卡Shader效果。当前提供器默认关闭，正式比赛没有获得完整原PowerTaskList；明确输入检查不能支持“原历史已全面接入”的结论。未使用Computer Use，未修改官方安装，未人工听音/画面或1080p60FPS验收。

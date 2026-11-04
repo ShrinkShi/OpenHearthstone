@@ -1,0 +1,31 @@
+# 原 SourceAuto 对象选择
+
+后续恢复基础Spell的共享目标列表与BestTarget选择；下文保留对象选择节点历史边界，完整任务导入及场景合成仍未完成，见[ORIGINAL_SPELL_TARGETS](ORIGINAL_SPELL_TARGETS.md)。
+
+2026-10-12。全卡原专属动画、完整Shader/脚本未完成；完整效果启用数仍2。恢复原SpellUtils的Auto分支并接入事件来源上下文，不等于已恢复完整控制器或攻击画面。
+
+## 原规则
+
+只读核对原FindSourceAutoObjectForSpell、FindTargetAutoObjectForSpell、FindAutoObjectForSpell及Location/Facing分支IL，来源见original-script-audit.json。SourceAuto先取得实际Source及Card，缺少Card时返回原对象；有PowerTaskList/EffectEntityDef时使用其类型覆盖源类型。TargetAuto始终使用VisualTarget自身类型，不使用此覆盖。
+
+类型5法术优先Controller Hero，再Lettuce Ability Owner，最后自身；类型10英雄技能优先GAME_TAG3919指定的indexed power，再默认power，最后自身；类型6附魔优先Attached实体Card，最后自身。类型7武器与普通随从走默认自身分支，不能把武器错当附魔。未执行官方程序集。
+
+## 接入
+
+NativeSpellObjectSelection保留上述优先级和缺失回退。NativeSpellContext.FromEvent从before/after快照保留source/target Entity及所属玩家；对象解析延迟调用既有ActorObject借用接口，不提前复制对象或绕过写入占用。打出后离开手牌的Source仍可来自before，目标删除后同理。
+
+NativeBattleActors新增真实法术卡、武器、英雄技能模型来源，分别使用现有card/weapon/power资源模板与缓存；没有用空GameObject替代这些对象。它们仍是本地重建表现模型，不包含官方Card MonoBehaviour，身份关系由本地Entity元数据提供。
+
+NativeEffectInstance在具有Placement上下文时自动使用其Location/Facing对象选择。正式NativeBattleSummons工厂绑定召唤随从来源上下文；ActorAttack源实例在测试中通过事件上下文完成原SourceAuto定位，不再手写location==2解析器。基础Location源/目标/英雄/技能及已核对Facing映射接入；Board/Zone、BestTarget、PowerTarget与OpposingHero缺少原上下文时返回未解析，不伪造对象。
+
+## 验证与未完成
+
+work/native-spell-object-selection-fixed.log退出0，35项检查：原法术/能力主人/技能索引/附魔附着/武器区别、EffectEntityDef类型覆盖及Target不覆盖、非Card/缺失源回退；真实五类模型创建、缓存和清理；事件桥接真实攻击Birth/Action并完成来源定位。测试中技能索引、附魔与任务覆盖使用显式元数据输入；它们尚未从正式网络Entity或PowerTaskList导入。
+
+既有29定位、57攻击声音/等待、57动画事件、78状态播放、78193运行时、92召唤及四原入场链通过。1165Python通过，15 UnityPy版本回退警告，48.48秒。
+
+未完成：完整官方Card身份/区域/墓地转位、正式任务列表覆盖和目标集合、Mercenaries/Lettuce归属、IndexedPower/Attached元数据导入、正式攻击附属状态生命周期、源/目标空间统一与整场合成。整效果启用范围未扩大，未人工听音/画面或1080p60FPS验收。未使用Computer Use，未修改官方安装。
+
+work/build-native-spell-objects.log构建退出0，实际Mixer Bundle九编译常量与原数据一致。后台spell_objects_1/2在47432端口完成89d3df751f83405f9192fb1006dbea7f：16回合/version58，Shrink2战士4血胜、Shrink1盗贼-1血负；两端hash均为3ff01af187e04c4b3e06f872c4c513b6d59156a8089cff491364baa0928baa4a，客户端与服务器日志无异常/fallback。终局后核对命令行，仅清理本次三进程。这是可玩性回归，不是新增原动画画面验收。
+
+UI校准SHA256保持E85CE40298C0FD45916D73FB1CC547AD9C46D1E3E124D2E0465F976C6B547DA6。

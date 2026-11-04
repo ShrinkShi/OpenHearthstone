@@ -1,0 +1,17 @@
+{
+  "kind": "unity-legacy-completion-playmode-oracle",
+  "restored": false,
+  "editor_test": "NativeLegacyCompletionChecks.Run",
+  "unity": "2022.3.60f1c1",
+  "source_il": "local/script-audit/Blizzard.T5.PlayMaker.Runtime.dll.PlayAnimation.il.txt",
+  "source_il_sha256": "7323fce39b9af527f5a3274190899c513e2c2caeadcd3be319f87b666770e0bd",
+  "report": "work/native-legacy-completion-oracle.json",
+  "observations": [
+    "Once disables after length",
+    "ClampForever=8 remains enabled with time exceeding length",
+    "Loop clock is unbounded rather than wrapped",
+    "Zero speed holds time and keeps animation enabled",
+    "Changing speed resumes from retained animation time"
+  ],
+  "runtime_gap": "Source wrap metadata is now refreshed in existing caches. Production completion follows ClipClock time and stop/replacement state; reverse Once boundaries and complete synchronous event dispatch remain unfinished."
+}

@@ -1,0 +1,31 @@
+# 原 Spell 定位与朝向
+
+后续节点接入事件上下文SourceAuto/TargetAuto基础选择；下文保留定位节点历史边界，完整对象集合/区域与正式攻击合成仍未完成，见[ORIGINAL_SPELL_OBJECTS](ORIGINAL_SPELL_OBJECTS.md)。
+
+2026-10-12。全卡专属动画、完整原Shader/脚本未完成；整效果启用数仍2。本节点恢复原UpdateTransform的定位/朝向操作，未接通正式攻击附属实例和完整SpellController。
+
+## 原来源
+
+静态核对Spell.UpdateTransform/UpdatePosition/UpdateOrientation、ForceUpdateTransform、位置/旋转setter、SpellUtils.SetPositionFromLocation/SetOrientationFromFacing及SetOrientation，未执行官方程序集。原程序集身份、方法调用和IL缓存在original-script-audit.json。
+
+`python -m tools.spell_transform_source`只读205实际根Prefab，205个根组件导出完整原记录和CAB/PathID/Bundle，写缓存spell_transforms与original-spell-transform-source.json。185个SourceAuto/无朝向/不重设父级；另有None、Source、SourceHero、区域定位等配置。全部源Facing=0，7个源配置重设父级、6个指定CenterPointBone。四ActorAttackSpell均SourceAuto、无朝向、不重设父级。派生脚本身份保留，不擅自按基础Spell执行未知派生行为。
+
+## 实现
+
+NativeSpellTransform保留原构造时两个dirty标记。Update先定位再朝向；成功或失败后均清dirty，普通Update不持续跟随对象。ForceUpdate仅将position标为dirty。显式世界/局部setter清对应标记。LocationTransformName按原Awake去空格，用原子节点名称substring查找，缺少命名节点时保留原对象fallback。
+
+重设父级使用保持世界姿态的Transform.parent语义，随后复制目标世界位置，不额外复制旋转/缩放。面对对象、同向、反向按原Facing分组；RotateX-only固定目标x，RotateY-only固定目标y，都关闭时不转，零方向不转。虽然现有源Facing均0，方向操作单独用真实Unity Transform验证，不能据此声称所有原场景对象选择已恢复。
+
+NativeEffectInstance通过BindSourcePlacement在播放前绑定实际Location/Facing对象。基础Spell的Birth/Action与ActorAttackSpell的Birth/等待恢复Action调用UpdateTransform。未绑定的对象显式计入UnboundSourcePlacements和UnrestoredSourceActionSideEffects；不凭UI坐标伪造源对象。反向Seek恢复原节点父级与dirty状态；释放时清理由原定位重设到外部父级的自有节点，保留外部Actor。
+
+## 验证与剩余差异
+
+work/native-spell-transform-verified.log退出0：29项定位/朝向检查，含真实ba5220bc610280125378e669源Prefab的SourceHero/重设父级及释放检查。四真实攻击Prefab的57声音/等待检查通过，显式绑定来源后均audio=1/action_callbacks=1/unbound_events=0/transform_gaps=0。原Birth只定位一次、Action不持续定位；未将UpdateTransform当作冲刺动画。
+
+57动画事件、78状态播放、78193运行时及四入场完整状态链通过。1165Python通过，15 UnityPy版本回退警告，51.04秒；新增检查重读原安装所有205根组件，与导出逐项比较。
+
+未完成：正式SourceAuto的Entity/PowerTaskList覆盖选择、VisualTarget集合、武器附着、区域/墓地定位、完整原控制器任务与回调、派生脚本、整卡画面合成。当前明确对象绑定验证不能代替这些原对象选择；尚未增加正式启用的完整卡牌效果。未人工听音/画面或1080p60FPS验收，未使用Computer Use，未修改官方安装。
+
+work/build-native-spell-transform.log构建退出0；实际Mixer Bundle九编译常量与原数据一致。新构建后台spell_transform_1/2在47431端口完成a61ce689b6f34f5d95c8b23bdfeb68f7：12回合/version49，Shrink1法师12血胜、Shrink2术士0血负；两端hash均为eded45b09131c8427c47efffc29ae4037749f8a797d4cd89bbb1de713c0c4d3f。两端及服务器日志无异常/fallback，验证命令行后仅清理本次三进程。该回归不证明新攻击画面已接入。
+
+UI校准SHA256保持E85CE40298C0FD45916D73FB1CC547AD9C46D1E3E124D2E0465F976C6B547DA6。原GameObjectUtils.FindChildBySubstring的static IL确认含根节点、OrdinalIgnoreCase、深度优先首匹配，与复用的本地查找一致。

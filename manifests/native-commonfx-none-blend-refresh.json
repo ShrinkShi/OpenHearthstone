@@ -1,0 +1,1051 @@
+{
+  "materials": [
+    {
+      "file": "03f4011c21d2abaf92986b43.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "181041972606778170",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "0f0ec46ae18fad7f2fa1dad7.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "0f0ec46ae18fad7f2fa1dad7.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "13e4ba2cda5d567ad3d3e0be.native-effect.json",
+      "material": {
+        "cab": "CAB-7896b02ea6ae1e75d725415a5c58697e",
+        "pathid": "-6731504256346088083",
+        "type": "Material",
+        "bundle": "initial_base_global-5c47a539-material-2.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "7829564058214815133",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "7829564058214815133",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "7829564058214815133",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "7829564058214815133",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "7829564058214815133",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "6241873899395589857",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "1e0c31e9a92b65ad90510c2c.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "223522c32fa85768f21c4c95.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "6241873899395589857",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "223522c32fa85768f21c4c95.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "5691876700399819441",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "250d9fe15c7fdcd8f974c1af.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "2625abebdd54657b9367a411.native-effect.json",
+      "material": {
+        "cab": "CAB-3a350020a3404124974e45e1327be50c",
+        "pathid": "5109772206520378629",
+        "type": "Material",
+        "bundle": "initial_base_global-7a441cb3-material-4.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "2ac223d9b583771c9eb24338.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "2c478f5ac211da01190f3cff.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "6241873899395589857",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "2c478f5ac211da01190f3cff.native-effect.json",
+      "material": {
+        "cab": "CAB-c0340cfc3cba33afd15c8ff759613fe9",
+        "pathid": "-3630368692384662640",
+        "type": "Material",
+        "bundle": "initial_base_global-41caf0cf-material-5.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "2c478f5ac211da01190f3cff.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "3cb07efcffc2d55dbd6283ec.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "6241873899395589857",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "3cb07efcffc2d55dbd6283ec.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "5691876700399819441",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "3cb07efcffc2d55dbd6283ec.native-effect.json",
+      "material": {
+        "cab": "CAB-7896b02ea6ae1e75d725415a5c58697e",
+        "pathid": "-6731504256346088083",
+        "type": "Material",
+        "bundle": "initial_base_global-5c47a539-material-2.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "41e38a34b7bd86521bfdc021.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "6380349654901168286",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "41e38a34b7bd86521bfdc021.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "7829564058214815133",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "41e38a34b7bd86521bfdc021.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "7829564058214815133",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "57e74cc43277c106c26561a5.native-effect.json",
+      "material": {
+        "cab": "CAB-c0340cfc3cba33afd15c8ff759613fe9",
+        "pathid": "-3630368692384662640",
+        "type": "Material",
+        "bundle": "initial_base_global-41caf0cf-material-5.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "626a39e9a224655b6cbc8b10.native-effect.json",
+      "material": {
+        "cab": "CAB-08424291406c59c12c970e0a93e42644",
+        "pathid": "-5850560283464868980",
+        "type": "Material",
+        "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "626a39e9a224655b6cbc8b10.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "6add519a1ee232e82b2e0ec0.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "6add519a1ee232e82b2e0ec0.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "5691876700399819441",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "90a7e2726cd4aa8e4a09b6a2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "90a7e2726cd4aa8e4a09b6a2.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "5691876700399819441",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "926f7769cdb39f3539526249.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "926f7769cdb39f3539526249.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-1048598798953933862",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-2271800496214560159",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "e1259b0f7ac48a90c996cbfc.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-8278187377652424873",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "ed5ac22edca10110b2504c5f.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-8278187377652424873",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "ed5ac22edca10110b2504c5f.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-8278187377652424873",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    },
+    {
+      "file": "ed5ac22edca10110b2504c5f.native-effect.json",
+      "material": {
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-8278187377652424873",
+        "type": "Material",
+        "bundle": "essential_base_global-material-0.unity3d"
+      },
+      "blend": {
+        "src": 1,
+        "dst": 10,
+        "src_alpha": 1,
+        "dst_alpha": 10,
+        "src_property": "_SrcBlendOutline",
+        "dst_property": "_DstBlendOutline",
+        "src_alpha_property": "_SrcBlendOutline",
+        "dst_alpha_property": "_DstBlendOutline"
+      }
+    }
+  ],
+  "unique_materials": 12,
+  "updated": 22
+}

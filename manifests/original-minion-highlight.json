@@ -1,0 +1,3996 @@
+{
+  "source": {
+    "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+    "pathid": "-5639427765453469019",
+    "type": "MonoBehaviour",
+    "bundle": "essential_base_global-prefab-0.unity3d"
+  },
+  "render_plane": {
+    "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+    "pathid": "6155655339892329125",
+    "type": "GameObject",
+    "bundle": "essential_base_global-prefab-0.unity3d"
+  },
+  "render_queue": 0,
+  "queue_offset": 3000,
+  "states": [
+    {
+      "state": 1,
+      "name": "CARD_IDLE",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": null
+    },
+    {
+      "state": 2,
+      "name": "CARD_MOUSE_OVER",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "GenFX_HighlightWhite",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.2999999523162842
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.2000000476837158
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.550000011920929
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.0
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 1.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 5.550000190734863
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.0
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 1.4500000476837158
+          },
+          {
+            "name": "_Vscale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 1.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.8823529481887817,
+              "g": 0.8764467239379883,
+              "b": 0.8434256315231323,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.8823529481887817,
+              "g": 0.8764467239379883,
+              "b": 0.8434256315231323,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.8823529481887817,
+              "g": 0.8764467239379883,
+              "b": 0.8434256315231323,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3018403259154643974",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 3,
+      "name": "CARD_OPPONENT_MOUSE_OVER",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "GenFX_HighlightRed",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.0
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.5
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.30000001192092896
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.3499999940395355
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.2000000476837158
+          },
+          {
+            "name": "_TimeValue",
+            "value": 0.0
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 1.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.8656716346740723,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.800000011920929,
+              "g": 0.2980392277240753,
+              "b": 0.14901961386203766,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3956747303798546345",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 7,
+      "name": "CARD_PLAYABLE_MOUSE_OVER",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightGreenMouseOverInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.399999976158142
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 4.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 3.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.04313725605607033,
+              "g": 0.8117647171020508,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.3764705955982208,
+              "g": 0.729411780834198,
+              "b": 0.3294117748737335,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.5215686559677124,
+              "g": 0.9098039269447327,
+              "b": 0.48235294222831726,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "90353998444937079",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 6,
+      "name": "CARD_PLAYABLE",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightGreenInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.5
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.2999999523162842
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.04313725605607033,
+              "g": 0.8117647171020508,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.3764705955982208,
+              "g": 0.729411780834198,
+              "b": 0.3294117748737335,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.25882354378700256,
+              "g": 0.729411780834198,
+              "b": 0.1882352977991104,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5791754436977069708",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 4,
+      "name": "CARD_SELECTABLE",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightGreenInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.5
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.2999999523162842
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.04313725605607033,
+              "g": 0.8117647171020508,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.3764705955982208,
+              "g": 0.729411780834198,
+              "b": 0.3294117748737335,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.25882354378700256,
+              "g": 0.729411780834198,
+              "b": 0.1882352977991104,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5791754436977069708",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 5,
+      "name": "CARD_SELECTED",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightGreenInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.5
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.2999999523162842
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.04313725605607033,
+              "g": 0.8117647171020508,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.3764705955982208,
+              "g": 0.729411780834198,
+              "b": 0.3294117748737335,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.25882354378700256,
+              "g": 0.729411780834198,
+              "b": 0.1882352977991104,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5791754436977069708",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 10,
+      "name": "CARD_COMBO_MOUSE_OVER",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightYellow",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 0.8999999761581421
+          },
+          {
+            "name": "_Intensity",
+            "value": 0.5
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 3.5
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 7.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.5
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.800000011920929
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.2999999523162842
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 1.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.9686274528503418,
+              "g": 1.0,
+              "b": 0.529411792755127,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.843137264251709,
+              "g": 0.8352941274642944,
+              "b": 0.1882352977991104,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "6910857211560070756",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 26,
+      "name": "CARD_VALID_TARGET",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "GenFX_HighlightOrangeInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 2.5
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.0
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.007843137718737125,
+              "g": 0.0032770768739283085,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.729411780834198,
+              "g": 0.49627408385276794,
+              "b": 0.3289504051208496,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.729411780834198,
+              "g": 0.41467589139938354,
+              "b": 0.18878892064094543,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-6183552841940532935",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 27,
+      "name": "CARD_VALID_TARGET_MOUSE_OVER",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "GenFX_HighlightOrangeMouseOverInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 2.5
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.0
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 4.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 3.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.01568627543747425,
+              "g": 0.006554153747856617,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.729411780834198,
+              "g": 0.49627408385276794,
+              "b": 0.3289504051208496,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.9098039269447327,
+              "g": 0.6605507135391235,
+              "b": 0.4816609025001526,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3080504552357699045",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 28,
+      "name": "CARD_HISTORY",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "GenFX_HighlightWhite",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.2999999523162842
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.2000000476837158
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.550000011920929
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.0
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 1.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 5.550000190734863
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.0
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 1.4500000476837158
+          },
+          {
+            "name": "_Vscale",
+            "value": 1.0
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 1.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.8823529481887817,
+              "g": 0.8764467239379883,
+              "b": 0.8434256315231323,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.8823529481887817,
+              "g": 0.8764467239379883,
+              "b": 0.8434256315231323,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.8823529481887817,
+              "g": 0.8764467239379883,
+              "b": 0.8434256315231323,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "3018403259154643974",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 38,
+      "name": "CARD_HISTORY_ALT_TINT",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightPurpleInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 2.5
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.0
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.004019883461296558,
+              "g": 0.0,
+              "b": 0.007843137718737125,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.53420090675354,
+              "g": 0.3289504051208496,
+              "b": 0.729411780834198,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.46587711572647095,
+              "g": 0.18878892064094543,
+              "b": 0.729411780834198,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7456211702680762573",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 39,
+      "name": "DEPRECATED_39",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightPurpleMouseOverInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 2.5
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.0
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 4.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 3.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.008039766922593117,
+              "g": 0.0,
+              "b": 0.01568627543747425,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.53420090675354,
+              "g": 0.3289504051208496,
+              "b": 0.729411780834198,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.7010992169380188,
+              "g": 0.4816609025001526,
+              "b": 0.9098039269447327,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-1744436744635674504",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 43,
+      "name": "CARD_ATTACKABLE_BY_RUSH",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightGreenRush",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.7999999523162842
+          },
+          {
+            "name": "_Intensity",
+            "value": 0.2800000011920929
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 6.0
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 5.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.30000001192092896
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.04313725605607033,
+              "g": 0.8117647171020508,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.3764705955982208,
+              "g": 0.729411780834198,
+              "b": 0.3294117748737335,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.25882354378700256,
+              "g": 0.729411780834198,
+              "b": 0.1882352977991104,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "1498512051037327340",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 44,
+      "name": "CARD_ATTACKABLE_BY_RUSH_MOUSE_OVER",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightGreenRushMouseOverInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.7999999523162842
+          },
+          {
+            "name": "_Intensity",
+            "value": 0.3499999940395355
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 6.0
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 5.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.30000001192092896
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.04313725605607033,
+              "g": 0.8117647171020508,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.3764705955982208,
+              "g": 0.729411780834198,
+              "b": 0.3294117748737335,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.5215686559677124,
+              "g": 0.9098039269447327,
+              "b": 0.48235294222831726,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "4505581080868004378",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 45,
+      "name": "CARD_MOVEABLE",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightMoveableInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.5
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.2999999523162842
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.29411762952804565,
+              "g": 0.7955376505851746,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.32320502400398254,
+              "g": 0.5890407562255859,
+              "b": 0.720588207244873,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.19269031286239624,
+              "g": 0.5507548451423645,
+              "b": 0.7279411554336548,
+              "a": 0.4440000057220459
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "527432998693204453",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 46,
+      "name": "CARD_MOVEABLE_MOUSE_OVER",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightMoveableMouseOverInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.399999976158142
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 4.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 3.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.29411762952804565,
+              "g": 0.7955376505851746,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.32320502400398254,
+              "g": 0.5890407562255859,
+              "b": 0.720588207244873,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.4987564980983734,
+              "g": 0.7701260447502136,
+              "b": 0.904411792755127,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "8640362600628196780",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 47,
+      "name": "CARD_AUTO_ATTACKING",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightAutoAttackingInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.399999976158142
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 4.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.3499999940395355
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.07545746117830276
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 3.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.25471699237823486,
+              "g": 0.0,
+              "b": 0.006703053135424852,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 1.0,
+              "g": 0.2783018946647644,
+              "b": 0.2783018946647644,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-6494587416455003577",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 50,
+      "name": "CARD_OVER_MOVE_MINION_TARGET",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightGreenInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.5
+          },
+          {
+            "name": "_Intensity",
+            "value": 1.2999999523162842
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 2.700000047683716
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.15000000596046448
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.20000000298023224
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.04313725605607033,
+              "g": 0.8117647171020508,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.3764705955982208,
+              "g": 0.729411780834198,
+              "b": 0.3294117748737335,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.25882354378700256,
+              "g": 0.729411780834198,
+              "b": 0.1882352977991104,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-5791754436977069708",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 51,
+      "name": "CARD_INTERACTABLE_ABILITY",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightBlueTitan",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.7999999523162842
+          },
+          {
+            "name": "_Intensity",
+            "value": 0.2800000011920929
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 6.0
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 5.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.30000001192092896
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.0,
+              "g": 0.36742717027664185,
+              "b": 0.8117647171020508,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.3294117748737335,
+              "g": 0.5261032581329346,
+              "b": 0.729411780834198,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.1882352977991104,
+              "g": 0.4375742971897125,
+              "b": 0.729411780834198,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-7450855222804370556",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    },
+    {
+      "state": 52,
+      "name": "CARD_INTERACTABLE_ABILITY_MOUSE_OVER",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "material": {
+        "name": "HighlightBlueTitanMouseOverInPlay",
+        "shader": "Custom/Selection/Highlight",
+        "textures": [
+          {
+            "name": "_FlareTex",
+            "path": "001cf36dd451de5a1dcde77c.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "name": "_MainTex",
+            "path": "bd0a840fa42345cfe1f2f92a.png",
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "floats": [
+          {
+            "name": "_ColorIntensity",
+            "value": 1.7999999523162842
+          },
+          {
+            "name": "_Intensity",
+            "value": 0.3499999940395355
+          },
+          {
+            "name": "_FlareIntensity",
+            "value": 6.0
+          },
+          {
+            "name": "_VflareSpeed",
+            "value": 5.0
+          },
+          {
+            "name": "_UflareScale",
+            "value": 0.30000001192092896
+          },
+          {
+            "name": "_VflareScale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_ColorAlphaWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_TexCoordTwoWeight",
+            "value": 1.0
+          },
+          {
+            "name": "_Seed",
+            "value": 0.0
+          },
+          {
+            "name": "_MoteIntensity",
+            "value": 1.600000023841858
+          },
+          {
+            "name": "_Umote2Scale",
+            "value": 3.0
+          },
+          {
+            "name": "_UmoteScale",
+            "value": 4.0
+          },
+          {
+            "name": "_Uscale",
+            "value": 1.8700000047683716
+          },
+          {
+            "name": "_Vmote2Scale",
+            "value": 0.4000000059604645
+          },
+          {
+            "name": "_Vmote2Speed",
+            "value": 1.5
+          },
+          {
+            "name": "_VmoteScale",
+            "value": 0.699999988079071
+          },
+          {
+            "name": "_VmoteSpeed",
+            "value": 2.0
+          },
+          {
+            "name": "_Vscale",
+            "value": 0.6000000238418579
+          },
+          {
+            "name": "_Vshift",
+            "value": 0.0
+          },
+          {
+            "name": "_Vspeed",
+            "value": 4.0
+          }
+        ],
+        "colors": [
+          {
+            "name": "_Color",
+            "value": {
+              "r": 0.0,
+              "g": 0.42667433619499207,
+              "b": 0.8117647171020508,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_HiColor",
+            "value": {
+              "r": 0.3294117748737335,
+              "g": 0.5221813917160034,
+              "b": 0.729411780834198,
+              "a": 1.0
+            }
+          },
+          {
+            "name": "_Colorize",
+            "value": {
+              "r": 0.48235294222831726,
+              "g": 0.6585533022880554,
+              "b": 0.9098039269447327,
+              "a": 1.0
+            }
+          }
+        ],
+        "source": {
+          "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+          "pathid": "-3849321343146844490",
+          "type": "Material",
+          "bundle": "essential_base_global-material-0.unity3d"
+        },
+        "missing_shader": false,
+        "properties": [
+          "$Globals",
+          "UnityPerDraw",
+          "UnityPerFrame",
+          "UnityPerMaterial",
+          "_Color",
+          "_ColorAlphaWeight",
+          "_ColorIntensity",
+          "_Colorize",
+          "_FlareIntensity",
+          "_FlareTex",
+          "_GlobalMipBias",
+          "_HiColor",
+          "_Intensity",
+          "_MainTex",
+          "_MainTex_ST",
+          "_Seed",
+          "_ShaderTime",
+          "_TexCoordTwoWeight",
+          "_UflareScale",
+          "_VflareScale",
+          "_VflareSpeed",
+          "unity_MatrixVP",
+          "unity_ObjectToWorld"
+        ],
+        "render_queue": 3000,
+        "queue_tag": "Transparent",
+        "passes": [
+          {
+            "index": 0,
+            "light_mode": "SRPDefaultUnlit"
+          }
+        ],
+        "keywords": [],
+        "src": 5,
+        "dst": 10,
+        "src_alpha": 5,
+        "dst_alpha": 10,
+        "compiled_only": true
+      }
+    }
+  ],
+  "state_driver": {
+    "has_fsm": false,
+    "source_type": 0,
+    "resolved_type": 1,
+    "parent_scripts": [
+      "ActorStateMgr"
+    ],
+    "history_translation": {
+      "x": 0.0,
+      "y": -0.25,
+      "z": 0.0
+    },
+    "owner": {
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "3266363883134372517",
+      "type": "GameObject",
+      "bundle": "essential_base_global-prefab-0.unity3d"
+    }
+  },
+  "static_silhouette": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "dynamic_render": {
+    "source": {
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-3549819905990538587",
+      "type": "MonoBehaviour",
+      "bundle": "essential_base_global-prefab-0.unity3d"
+    },
+    "root_transform": {
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-3756367857154995547",
+      "type": "Transform",
+      "bundle": "essential_base_global-prefab-0.unity3d"
+    },
+    "silhouette_render_size": 1.0,
+    "silhouette_clip_size": 1.0,
+    "shader_dependencies": [
+      "Custom/Selection/Highlight",
+      "Custom/Selection/HighlightMaskBlend",
+      "Custom/Selection/HighlightMultiSample",
+      "Custom/Selection/HighlightMultiSampleBlend",
+      "Custom/Unlit/Color/BlackOverlay",
+      "Custom/Unlit/Color/DarkGrey",
+      "Custom/Unlit/Color/Grey",
+      "Custom/Unlit/Color/LightGrey",
+      "Custom/Unlit/Color/White",
+      "Custom/UnlitColor"
+    ],
+    "complete": false,
+    "mesh": {
+      "source": {
+        "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+        "pathid": "-7756402925575413283",
+        "type": "Mesh",
+        "bundle": "essential_base_global-mesh-0.unity3d"
+      },
+      "cache": "165a212ee0cb87359589bb7c.mesh.json",
+      "color_format": "UNorm8",
+      "uv2_vertices": 32
+    }
+  },
+  "complete": false,
+  "errors": [],
+  "notes": [
+    "Exact source state materials, textures and renderer FSM presence. Ordinary minion has no renderer FSM; original immediate branch applies. Production routing remains disabled."
+  ]
+}

@@ -1,0 +1,21 @@
+# 原区域布局分发与手牌准备等待
+
+2026-10-12。全卡专属动画、完整Shader/脚本未完成；完整效果启用仍2。本节点恢复原UpdateDirtyZones/ZoneHand_UpdateLayout的分发和等待，不代表实际ZoneHand姿态算法或卡牌区域动画已实现。
+
+只读ZoneChangeList两个原迭代器及ZoneHand等待谓词，原身份在original-script-audit.json。loadingEntities按原迭代器顺序处理：每Entity开始时捕获Card一次，等待Entity.IsLoadingAssets或该Card.IsActorLoading；跨帧不重新取Card。输入集合枚举未复制成快照，多个调用保留独立枚举，缺失服务报错而非直接放行。
+
+非死亡块复制dirtyZone集合后分发，支持同步布局回调移除dirty而不破坏枚举。普通Zone先注册OnUpdateLayoutComplete再UpdateLayout，原回调注册boolean被忽略。Hand先等待第一个未准备且需排序的Card：TurnStartManager已处理draw和DoNotSort跳过；然后注册回调、更新布局，布局完成仍由回调清dirty。
+
+死亡块独立消费RemoveNextDeathBlockLayoutDelaySec；负值不等待，非负值交明确DelayScaled服务。原时间是缩放时间，未提供服务时失败，不使用猜测延迟。等待后直接遍历dirty Zone.UpdateLayout并清集合，不擅自插入普通Zone的完成注册。随后启动原dirty/Busy完成等待。
+
+NativeZoneLayout驱动上述分发并连接NativeZoneChangeList完成器。组合Update阶段时显式标记runner执行中，新Yield不会在同一次Update误恢复；普通此前创建的等待仍可按原顺序处理。
+
+work/native-zone-layout.log退出0，16项新增检查：实体/Actor加载与捕获Card、普通/手牌布局回调顺序、准备状态、draw/DoNotSort排除、死亡延迟与直接清dirty路径、缺失服务/取消和并行枚举。既有24区域列表、61执行、33历史、27集合、35选择、29定位、57攻击、78193运行时、92召唤及四入场链通过。
+
+未完成：真实ZoneHand/ZonePlay姿态与Tween算法、Zone.UpdateLayout实现、DeathDelay的原UniTask宿主、实际Card加载/Actor状态/TurnStartManager、原区域变化创建/处理、完整GameState/历史/Controller、正式攻击与全卡Shader合成。普通客户端仍用既有HandPresentation，没有用近似手牌收敛阈值伪造原布局完成。没有新增整卡画面/听音/FPS验收；未Computer Use、未改官方安装。
+
+全量1165Python通过，15UnityPy版本回退警告，102.44秒；work/build-native-zone-layout.log退出0，实际Mixer Bundle九编译常量匹配。
+
+后台zone_layout_1/2在47438端口完成67d354ae4b8546a3a79bdfb1bfa41e7a：12回合/version48，Shrink2战士17血胜、Shrink1盗贼-1血负；两端hash均dc6875183873a5776eeb32d854c349f35328dfbb306fdb7a250b4828231ef528。日志无异常/fallback，终局核对命令行后仅清理三自有进程。该比赛不代表原布局分发已在正式对战替换现有手牌系统。
+
+UI校准SHA256保持E85CE40298C0FD45916D73FB1CC547AD9C46D1E3E124D2E0465F976C6B547DA6。

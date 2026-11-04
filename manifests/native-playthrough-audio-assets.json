@@ -1,0 +1,1219 @@
+{
+  "programs": [
+    {
+      "file": "01f157ea2a009c0afbbefbb5.actor-spell.json",
+      "audio_file": "01f157ea2a009c0afbbefbb5.actor-spell.fade-audio.json",
+      "nodes": 6,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "05928182ba88d64927d6d9d6.native-effect.json",
+      "audio_file": "05928182ba88d64927d6d9d6.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "05ca46c569163fce4e60f594.native-effect.json",
+      "audio_file": "05ca46c569163fce4e60f594.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "06cf6d3f3e5615e63bff80f7.native-effect.json",
+      "audio_file": "06cf6d3f3e5615e63bff80f7.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "076d511f7b25ad78f327937e.native-effect.json",
+      "audio_file": "076d511f7b25ad78f327937e.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "07ebfc013884b374cb15adea.native-effect.json",
+      "audio_file": "07ebfc013884b374cb15adea.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "0c16f384e54027485898f9e3.actor-spell.json",
+      "audio_file": "0c16f384e54027485898f9e3.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "0e605431912839a24eb098ef.native-effect.json",
+      "audio_file": "0e605431912839a24eb098ef.native-audio.json",
+      "nodes": 2,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "12101c367651a87196495d15.native-effect.json",
+      "audio_file": "12101c367651a87196495d15.native-audio.json",
+      "nodes": 2,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "121894af071e48c2715a0e15.actor-spell.json",
+      "audio_file": "121894af071e48c2715a0e15.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "1438c953f1f357de128e06d3.native-effect.json",
+      "audio_file": "1438c953f1f357de128e06d3.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "15142b65714667e95c7be7ea.native-effect.json",
+      "audio_file": "15142b65714667e95c7be7ea.native-effect.fade-audio.json",
+      "nodes": 6,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "15600cb6a6e0015e314df975.actor-spell.json",
+      "audio_file": "15600cb6a6e0015e314df975.native-audio.json",
+      "nodes": 1,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "165524c23a5e97e3c737c48e.actor-spell.json",
+      "audio_file": "165524c23a5e97e3c737c48e.native-audio.json",
+      "nodes": 3,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "1ae606ad4f7dc8da9eb50b93.native-effect.json",
+      "audio_file": "1ae606ad4f7dc8da9eb50b93.native-effect.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "1ca86742da8eb534a697ead5.native-effect.json",
+      "audio_file": "1ca86742da8eb534a697ead5.native-effect.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "1db128fc77a832a0de534243.actor-spell.json",
+      "audio_file": "1db128fc77a832a0de534243.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "22263b43e2c34c25a832edda.native-effect.json",
+      "audio_file": "22263b43e2c34c25a832edda.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "228864b1f3e778228ee15fa2.native-effect.json",
+      "audio_file": "228864b1f3e778228ee15fa2.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "22c4067aa2cd3c2bd8efeeaa.native-effect.json",
+      "audio_file": "22c4067aa2cd3c2bd8efeeaa.native-effect.fade-audio.json",
+      "nodes": 3,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "23335d4e9c9dba363b1dc975.actor-spell.json",
+      "audio_file": "23335d4e9c9dba363b1dc975.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "24831d85d68854dbf6bbe674.native-effect.json",
+      "audio_file": "24831d85d68854dbf6bbe674.native-audio.json",
+      "nodes": 2,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "24891eaf285847735931d28d.native-effect.json",
+      "audio_file": "24891eaf285847735931d28d.native-effect.fade-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "27544fa6167cb58c1a323d04.native-effect.json",
+      "audio_file": "27544fa6167cb58c1a323d04.native-audio.json",
+      "nodes": 2,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "2887e37c6383245e676b92b3.actor-spell.json",
+      "audio_file": "2887e37c6383245e676b92b3.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "2d06d3d386558efd7fe8bd67.actor-spell.json",
+      "audio_file": "2d06d3d386558efd7fe8bd67.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "2d71cfd344be5a73e7add479.native-effect.json",
+      "audio_file": "2d71cfd344be5a73e7add479.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "2dc0f32c42c2aec252d77e39.native-effect.json",
+      "audio_file": "2dc0f32c42c2aec252d77e39.native-audio.json",
+      "nodes": 2,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "2e82bdaf81ecefbf3081585d.actor-spell.json",
+      "audio_file": "2e82bdaf81ecefbf3081585d.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "2fce94149a7c7c6badfecc1d.native-effect.json",
+      "audio_file": "2fce94149a7c7c6badfecc1d.native-effect.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "3103b4ed667194f48fb00546.actor-spell.json",
+      "audio_file": "3103b4ed667194f48fb00546.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "32e839f264392a2fd7b69e3e.native-effect.json",
+      "audio_file": "32e839f264392a2fd7b69e3e.native-effect.fade-audio.json",
+      "nodes": 3,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "340344cb43a9df74ee7dc0e7.actor-spell.json",
+      "audio_file": "340344cb43a9df74ee7dc0e7.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "34c8b82ccc4284005f9e07a0.native-effect.json",
+      "audio_file": "34c8b82ccc4284005f9e07a0.native-audio.json",
+      "nodes": 3,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "3864c2d28e0feef530bfa37f.actor-spell.json",
+      "audio_file": "3864c2d28e0feef530bfa37f.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "38ddc05994c8a8f377263c1e.native-effect.json",
+      "audio_file": "38ddc05994c8a8f377263c1e.native-audio.json",
+      "nodes": 5,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "3abb96f98378bc6364578070.native-effect.json",
+      "audio_file": "3abb96f98378bc6364578070.native-audio.json",
+      "nodes": 2,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "3c415989b1c0de7341d80bc2.native-effect.json",
+      "audio_file": "3c415989b1c0de7341d80bc2.native-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "3cb07efcffc2d55dbd6283ec.native-effect.json",
+      "audio_file": "3cb07efcffc2d55dbd6283ec.native-audio.json",
+      "nodes": 5,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "41dc6aefe35cdc594bf0be0a.native-effect.json",
+      "audio_file": "41dc6aefe35cdc594bf0be0a.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "42d36a19bfb8163583de4af9.native-effect.json",
+      "audio_file": "42d36a19bfb8163583de4af9.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "4434872dd310842925df6adb.native-effect.json",
+      "audio_file": "4434872dd310842925df6adb.native-effect.fade-audio.json",
+      "nodes": 5,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "44cbea4fb945cabacb37fd64.actor-spell.json",
+      "audio_file": "44cbea4fb945cabacb37fd64.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "4661fa65b86274c4702feb57.actor-spell.json",
+      "audio_file": "4661fa65b86274c4702feb57.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "471f708e572395661844e707.native-effect.json",
+      "audio_file": "471f708e572395661844e707.native-audio.json",
+      "nodes": 2,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "4a35495c36a986d5d935b812.native-effect.json",
+      "audio_file": "4a35495c36a986d5d935b812.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "4aedaf04ab1fb3344f774635.actor-spell.json",
+      "audio_file": "4aedaf04ab1fb3344f774635.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "4c92ac4d973163d8aa044fed.native-effect.json",
+      "audio_file": "4c92ac4d973163d8aa044fed.native-audio.json",
+      "nodes": 9,
+      "clips": 5,
+      "errors": []
+    },
+    {
+      "file": "4e378c8d8e43aa9aedd2e62d.actor-spell.json",
+      "audio_file": "4e378c8d8e43aa9aedd2e62d.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "4fc0fe4fe4824ecbe3db289c.native-effect.json",
+      "audio_file": "4fc0fe4fe4824ecbe3db289c.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "5840edc5ac4646f614b1ea81.native-effect.json",
+      "audio_file": "5840edc5ac4646f614b1ea81.native-effect.fade-audio.json",
+      "nodes": 4,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "58f038e6c6583bad4b0cc8bc.native-effect.json",
+      "audio_file": "58f038e6c6583bad4b0cc8bc.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "59a79c5657182aca10a0cd29.native-effect.json",
+      "audio_file": "59a79c5657182aca10a0cd29.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "5bc655cb7218e5ef61cd20da.native-effect.json",
+      "audio_file": "5bc655cb7218e5ef61cd20da.native-effect.fade-audio.json",
+      "nodes": 4,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "5d9349d1d17e9b05e11ae8f8.native-effect.json",
+      "audio_file": "5d9349d1d17e9b05e11ae8f8.native-audio.json",
+      "nodes": 12,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "5ddfa427c40a9439b7ef0f7c.native-effect.json",
+      "audio_file": "5ddfa427c40a9439b7ef0f7c.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "5e498ee91e9dc919512fabc3.native-effect.json",
+      "audio_file": "5e498ee91e9dc919512fabc3.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "634f354b95a5b5f95b589651.native-effect.json",
+      "audio_file": "634f354b95a5b5f95b589651.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "66001510c5acdbaeb536fc25.actor-spell.json",
+      "audio_file": "66001510c5acdbaeb536fc25.actor-spell.fade-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "66b8e43f03287453d605d652.native-effect.json",
+      "audio_file": "66b8e43f03287453d605d652.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "68ce6261cb309d1eb06e6a92.native-effect.json",
+      "audio_file": "68ce6261cb309d1eb06e6a92.native-effect.fade-audio.json",
+      "nodes": 3,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "68e6112a8cefe76fe70d3a1c.actor-spell.json",
+      "audio_file": "68e6112a8cefe76fe70d3a1c.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "69dcefb91e9e0f9355d2300e.native-effect.json",
+      "audio_file": "69dcefb91e9e0f9355d2300e.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "6b31c155cae8a5b94ba13972.native-effect.json",
+      "audio_file": "6b31c155cae8a5b94ba13972.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "6ed9b2fe2d7816de1a381ef7.native-effect.json",
+      "audio_file": "6ed9b2fe2d7816de1a381ef7.native-effect.fade-audio.json",
+      "nodes": 6,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "6f2aec92c2bb963850495dc3.actor-spell.json",
+      "audio_file": "6f2aec92c2bb963850495dc3.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "711bdd40979a9097df1a99e4.native-effect.json",
+      "audio_file": "711bdd40979a9097df1a99e4.native-audio.json",
+      "nodes": 2,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "72814e02a8395c67027a3fe0.actor-spell.json",
+      "audio_file": "72814e02a8395c67027a3fe0.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "762b0d4d666d476a37cc68d7.native-effect.json",
+      "audio_file": "762b0d4d666d476a37cc68d7.native-effect.fade-audio.json",
+      "nodes": 3,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "76cd717cacf8a2a8095c00ad.native-effect.json",
+      "audio_file": "76cd717cacf8a2a8095c00ad.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "78fbd2ec738f0aeb091139de.actor-spell.json",
+      "audio_file": "78fbd2ec738f0aeb091139de.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "79b1ccc3f0297a76c2b59cf5.native-effect.json",
+      "audio_file": "79b1ccc3f0297a76c2b59cf5.native-audio.json",
+      "nodes": 3,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "79d5b54377efbeb715c5992f.native-effect.json",
+      "audio_file": "79d5b54377efbeb715c5992f.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "7a8e6c26f439a145cb9e19f9.native-effect.json",
+      "audio_file": "7a8e6c26f439a145cb9e19f9.native-audio.json",
+      "nodes": 12,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "7b2683055f4d8074f6955d38.native-effect.json",
+      "audio_file": "7b2683055f4d8074f6955d38.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "7c1e1ba46f7a94d8e6e1f380.native-effect.json",
+      "audio_file": "7c1e1ba46f7a94d8e6e1f380.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "7eb05bff6341edbefb72ace7.native-effect.json",
+      "audio_file": "7eb05bff6341edbefb72ace7.native-effect.fade-audio.json",
+      "nodes": 5,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "7f5b7f88ce33488167db5847.native-effect.json",
+      "audio_file": "7f5b7f88ce33488167db5847.native-effect.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "8141bcb386615a6aac3f4f4e.native-effect.json",
+      "audio_file": "8141bcb386615a6aac3f4f4e.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "835f1ff8f4e1cb1d3b2b9b68.native-effect.json",
+      "audio_file": "835f1ff8f4e1cb1d3b2b9b68.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "83626d1ce020d19bc86a5371.actor-spell.json",
+      "audio_file": "83626d1ce020d19bc86a5371.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "841bc43c6ec17f01970fc3fc.actor-spell.json",
+      "audio_file": "841bc43c6ec17f01970fc3fc.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "878fdf50d856cdf456617073.native-effect.json",
+      "audio_file": "878fdf50d856cdf456617073.native-audio.json",
+      "nodes": 9,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "88051a8d118ad7bc6be54abb.native-effect.json",
+      "audio_file": "88051a8d118ad7bc6be54abb.native-effect.fade-audio.json",
+      "nodes": 4,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "8b9080000adab86469ff8b06.native-effect.json",
+      "audio_file": "8b9080000adab86469ff8b06.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "8e42b37b6e4a4d89c1ce2d48.actor-spell.json",
+      "audio_file": "8e42b37b6e4a4d89c1ce2d48.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "8eba90bc307d0125fabbc7e4.native-effect.json",
+      "audio_file": "8eba90bc307d0125fabbc7e4.native-audio.json",
+      "nodes": 2,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "8ec19034aa14ba4ee692bad0.actor-spell.json",
+      "audio_file": "8ec19034aa14ba4ee692bad0.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "8f27eba70c61fc46ec632557.native-effect.json",
+      "audio_file": "8f27eba70c61fc46ec632557.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "8f3c70dfa9d67e9d58c227a9.actor-spell.json",
+      "audio_file": "8f3c70dfa9d67e9d58c227a9.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "9056cd9b80f6f898aa88936f.native-effect.json",
+      "audio_file": "9056cd9b80f6f898aa88936f.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "92c50d3e8ca46833c7a5dc25.actor-spell.json",
+      "audio_file": "92c50d3e8ca46833c7a5dc25.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "audio_file": "93313b7c2aed67a49667c4c4.native-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+      "audio_file": "96d6edb199ef520b5b3430f4.native-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "97020148102e8691d2fa7836.native-effect.json",
+      "audio_file": "97020148102e8691d2fa7836.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "97462c016367d1613cf7dfe7.actor-spell.json",
+      "audio_file": "97462c016367d1613cf7dfe7.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "981819333488b6f836164c88.native-effect.json",
+      "audio_file": "981819333488b6f836164c88.native-audio.json",
+      "nodes": 5,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "9ac81ae7be2944e54fd04367.native-effect.json",
+      "audio_file": "9ac81ae7be2944e54fd04367.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "9add73a48bda0f94d51e2988.native-effect.json",
+      "audio_file": "9add73a48bda0f94d51e2988.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "9cd2c0f666a5d4a6338a9d29.actor-spell.json",
+      "audio_file": "9cd2c0f666a5d4a6338a9d29.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "9f0259df9297000668e88dcb.actor-spell.json",
+      "audio_file": "9f0259df9297000668e88dcb.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "a0614be9344a4dcba2c4ffe6.native-effect.json",
+      "audio_file": "a0614be9344a4dcba2c4ffe6.native-effect.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "a0be706d64ba23ec818f3d22.actor-spell.json",
+      "audio_file": "a0be706d64ba23ec818f3d22.actor-spell.fade-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "a0ef7e88beb6db6cf3e722ee.actor-spell.json",
+      "audio_file": "a0ef7e88beb6db6cf3e722ee.actor-spell.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "a16d4d79564443df84f8d96c.native-effect.json",
+      "audio_file": "a16d4d79564443df84f8d96c.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "a1cb21a4028e9494468e6214.native-effect.json",
+      "audio_file": "a1cb21a4028e9494468e6214.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "a2a5230a0723263a4450b36c.native-effect.json",
+      "audio_file": "a2a5230a0723263a4450b36c.native-effect.fade-audio.json",
+      "nodes": 4,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "a2cb6db8a8404ec3b1dd3276.native-effect.json",
+      "audio_file": "a2cb6db8a8404ec3b1dd3276.native-effect.fade-audio.json",
+      "nodes": 4,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "a411dc84f594e40145f9fadc.actor-spell.json",
+      "audio_file": "a411dc84f594e40145f9fadc.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "a484b427845ecdd3236cbf88.native-effect.json",
+      "audio_file": "a484b427845ecdd3236cbf88.native-audio.json",
+      "nodes": 12,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "a58e436ebef3903afa584383.actor-spell.json",
+      "audio_file": "a58e436ebef3903afa584383.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "a6c927c5cecb9564ebd79396.actor-spell.json",
+      "audio_file": "a6c927c5cecb9564ebd79396.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "a8cf92633f5d3d82c7685134.native-effect.json",
+      "audio_file": "a8cf92633f5d3d82c7685134.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "aa217bfcd367c449d0a13613.actor-spell.json",
+      "audio_file": "aa217bfcd367c449d0a13613.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "acf38a3473aedaf1aaba0517.native-effect.json",
+      "audio_file": "acf38a3473aedaf1aaba0517.native-audio.json",
+      "nodes": 2,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "ade0e2fb2209b4b952a3afe1.native-effect.json",
+      "audio_file": "ade0e2fb2209b4b952a3afe1.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "adee40ea8ac8cd8cb4726c78.actor-spell.json",
+      "audio_file": "adee40ea8ac8cd8cb4726c78.actor-spell.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "b10fae62eb82f7e577eb3ea0.native-effect.json",
+      "audio_file": "b10fae62eb82f7e577eb3ea0.native-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "b159a8d807dbae8046e4e0d1.native-effect.json",
+      "audio_file": "b159a8d807dbae8046e4e0d1.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "b170e03850894a05de412d11.native-effect.json",
+      "audio_file": "b170e03850894a05de412d11.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "b34be3ab40864bfe57eb05fd.native-effect.json",
+      "audio_file": "b34be3ab40864bfe57eb05fd.native-effect.fade-audio.json",
+      "nodes": 5,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "b5870350c3bfca9f0391faa2.native-effect.json",
+      "audio_file": "b5870350c3bfca9f0391faa2.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "b5add23f94fa890461126b49.actor-spell.json",
+      "audio_file": "b5add23f94fa890461126b49.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "b60b46f66a938713c27ca97b.native-effect.json",
+      "audio_file": "b60b46f66a938713c27ca97b.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "b6bdbb13f26a7d26080d16bf.actor-spell.json",
+      "audio_file": "b6bdbb13f26a7d26080d16bf.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "b77051c245321f691eff0a45.native-effect.json",
+      "audio_file": "b77051c245321f691eff0a45.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "b9dfacd4ee8927ded86e0875.native-effect.json",
+      "audio_file": "b9dfacd4ee8927ded86e0875.native-effect.fade-audio.json",
+      "nodes": 5,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "ba5220bc610280125378e669.actor-spell.json",
+      "audio_file": "ba5220bc610280125378e669.actor-spell.fade-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "bee96859dfcabd7d35d9afc2.native-effect.json",
+      "audio_file": "bee96859dfcabd7d35d9afc2.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "bf8150c66ce9dd323450e412.actor-spell.json",
+      "audio_file": "bf8150c66ce9dd323450e412.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "c157297bee5084d3e3b8fe7c.native-effect.json",
+      "audio_file": "c157297bee5084d3e3b8fe7c.native-audio.json",
+      "nodes": 2,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "c2d07a0a5c5f3c0254949c25.native-effect.json",
+      "audio_file": "c2d07a0a5c5f3c0254949c25.native-effect.fade-audio.json",
+      "nodes": 4,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "c594c90847f062869d227076.actor-spell.json",
+      "audio_file": "c594c90847f062869d227076.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "c91c87256bd6cbbf7fd6b693.actor-spell.json",
+      "audio_file": "c91c87256bd6cbbf7fd6b693.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "c98cce1aae02a4161ec3adfb.native-effect.json",
+      "audio_file": "c98cce1aae02a4161ec3adfb.native-effect.fade-audio.json",
+      "nodes": 6,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "caf5faf2e0f3e114e315420f.native-effect.json",
+      "audio_file": "caf5faf2e0f3e114e315420f.native-audio.json",
+      "nodes": 2,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "ce9e2ba5c3e2aa3061331d02.native-effect.json",
+      "audio_file": "ce9e2ba5c3e2aa3061331d02.native-audio.json",
+      "nodes": 3,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "cec4bb66eab6a0845b61171d.actor-spell.json",
+      "audio_file": "cec4bb66eab6a0845b61171d.actor-spell.fade-audio.json",
+      "nodes": 4,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "cefabb6396b2b50617d99ac5.actor-spell.json",
+      "audio_file": "cefabb6396b2b50617d99ac5.native-audio.json",
+      "nodes": 2,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "cf7378eab15cd8e4899b84b5.native-effect.json",
+      "audio_file": "cf7378eab15cd8e4899b84b5.native-audio.json",
+      "nodes": 4,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "cf9d4c60b62b3aa53b3bbc73.native-effect.json",
+      "audio_file": "cf9d4c60b62b3aa53b3bbc73.native-effect.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "d089ebacb048f027de7a3178.native-effect.json",
+      "audio_file": "d089ebacb048f027de7a3178.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "d372694235612634216d20d7.native-effect.json",
+      "audio_file": "d372694235612634216d20d7.native-effect.fade-audio.json",
+      "nodes": 3,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "d468bbd3b756fd3e281c04c7.native-effect.json",
+      "audio_file": "d468bbd3b756fd3e281c04c7.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "d51227451932961e4df2677e.native-effect.json",
+      "audio_file": "d51227451932961e4df2677e.native-audio.json",
+      "nodes": 3,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "d5791a890e4223c00a4717e8.native-effect.json",
+      "audio_file": "d5791a890e4223c00a4717e8.native-effect.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "d755e7cc0e89cb1e6ce938a1.native-effect.json",
+      "audio_file": "d755e7cc0e89cb1e6ce938a1.native-effect.fade-audio.json",
+      "nodes": 3,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "d790330298f4596a1be10106.native-effect.json",
+      "audio_file": "d790330298f4596a1be10106.native-effect.fade-audio.json",
+      "nodes": 11,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "d8a6fae1472426f61e3f501e.actor-spell.json",
+      "audio_file": "d8a6fae1472426f61e3f501e.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "d98da28a8a8b48e1461e962d.native-effect.json",
+      "audio_file": "d98da28a8a8b48e1461e962d.native-effect.fade-audio.json",
+      "nodes": 3,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "d9f0d3c88015e71f25b300f2.actor-spell.json",
+      "audio_file": "d9f0d3c88015e71f25b300f2.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "dcbe22dd079ad33741546201.actor-spell.json",
+      "audio_file": "dcbe22dd079ad33741546201.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "e0edf3bda820838309332c70.actor-spell.json",
+      "audio_file": "e0edf3bda820838309332c70.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "e32e6f086c81d002be102d77.native-effect.json",
+      "audio_file": "e32e6f086c81d002be102d77.native-effect.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "e412030495735831f0dc0d19.actor-spell.json",
+      "audio_file": "e412030495735831f0dc0d19.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "e699852b8c7128ce10195759.actor-spell.json",
+      "audio_file": "e699852b8c7128ce10195759.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "e898a891b173f44013122303.native-effect.json",
+      "audio_file": "e898a891b173f44013122303.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "e8ff6ac6020996b43d214a42.native-effect.json",
+      "audio_file": "e8ff6ac6020996b43d214a42.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "e9f4b6acd287fc1e8a773ead.native-effect.json",
+      "audio_file": "e9f4b6acd287fc1e8a773ead.native-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "ea3c23d46af72f69dfb1ba3d.actor-spell.json",
+      "audio_file": "ea3c23d46af72f69dfb1ba3d.actor-spell.fade-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "ea9e0d509ef02d85442ff9d5.actor-spell.json",
+      "audio_file": "ea9e0d509ef02d85442ff9d5.actor-spell.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "eaa5bf38012deba5d902a90a.actor-spell.json",
+      "audio_file": "eaa5bf38012deba5d902a90a.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "eb0bf826aae72bb9b8a0a26f.native-effect.json",
+      "audio_file": "eb0bf826aae72bb9b8a0a26f.native-audio.json",
+      "nodes": 1,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "ebda16161172ac21f1af966b.actor-spell.json",
+      "audio_file": "ebda16161172ac21f1af966b.actor-spell.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "ec35874f66086d68d154de9b.native-effect.json",
+      "audio_file": "ec35874f66086d68d154de9b.native-effect.fade-audio.json",
+      "nodes": 4,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "ecd59dc9f68d4ea6b36a28e5.actor-spell.json",
+      "audio_file": "ecd59dc9f68d4ea6b36a28e5.actor-spell.fade-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "ef719cc32cc2ec11a8bb1456.native-effect.json",
+      "audio_file": "ef719cc32cc2ec11a8bb1456.native-audio.json",
+      "nodes": 9,
+      "clips": 4,
+      "errors": []
+    },
+    {
+      "file": "efa5f4696a63e4cd7c75b242.actor-spell.json",
+      "audio_file": "efa5f4696a63e4cd7c75b242.native-audio.json",
+      "nodes": 1,
+      "clips": 6,
+      "errors": []
+    },
+    {
+      "file": "f3302ecaf8cc5b9e55072711.actor-spell.json",
+      "audio_file": "f3302ecaf8cc5b9e55072711.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "f84779d52b10761811ff4543.actor-spell.json",
+      "audio_file": "f84779d52b10761811ff4543.native-audio.json",
+      "nodes": 1,
+      "clips": 0,
+      "errors": []
+    },
+    {
+      "file": "f9c4dafb08a3dd8ac378d330.actor-spell.json",
+      "audio_file": "f9c4dafb08a3dd8ac378d330.native-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "fd19be80049757ae95f61bad.native-effect.json",
+      "audio_file": "fd19be80049757ae95f61bad.native-audio.json",
+      "nodes": 2,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "fedd636d08b13599644d83e3.native-effect.json",
+      "audio_file": "fedd636d08b13599644d83e3.native-audio.json",
+      "nodes": 2,
+      "clips": 2,
+      "errors": []
+    }
+  ],
+  "complete": false,
+  "notes": [
+    "Exact source audio dependencies, not whole-effect certification."
+  ]
+}

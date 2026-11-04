@@ -1,0 +1,408 @@
+{
+  "programs": [
+    {
+      "file": "05928182ba88d64927d6d9d6.native-effect.json",
+      "reference": "Holy_Targeted_BlessingOfWisdom_FX.prefab:6314c57af52625b4ba66d7fe95161296",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "05ca46c569163fce4e60f594.native-effect.json",
+      "reference": "Holy_Targeted_BlessingOfKings_FX.prefab:e6557a459816a9a47bea3b3cc4196e5f",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "0bec2a4e780bcda3d1fe6fe5.native-effect.json",
+      "reference": "Beast_Targeted_Savagery_FX.prefab:8f399377643450d4784884d2dbd73296",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "0e605431912839a24eb098ef.native-effect.json",
+      "reference": "Holy_Targeted_Smite_FX.prefab:d4bbc7ea9f31b0a4784927f43612de09",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "1246094cae2466b286969390.native-effect.json",
+      "reference": "ReuseFX_HealImpact_HolyLight_Small_Super_WithIdle.prefab:a8199b1050594654f84170f15e31aab2",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-2620043120407347922",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "141ae6667f81251453952240.native-effect.json",
+      "reference": "Physical_Target_NoMissile_FX.prefab:fe121a1dec018024bbce74ca1a8bbd88",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "22263b43e2c34c25a832edda.native-effect.json",
+      "reference": "Holy_Targeted_BlessingOfMight_FX.prefab:e702d487e4a7e764e84b24394056fd43",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7917781848626466493",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "32e839f264392a2fd7b69e3e.native-effect.json",
+      "reference": "Holy_Targeted_AvengingWrath_FX.prefab:0d003801653ae4e579a3e936348109a1",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-5617402925546971557",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "3abb96f98378bc6364578070.native-effect.json",
+      "reference": "Holy_Targeted_Smite_Variable_FX.prefab:793557dabcfa04a6fbe77b2395defc79",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "41dc6aefe35cdc594bf0be0a.native-effect.json",
+      "reference": "Holy_Targeted_LayOnHands_FX.prefab:28df1bb4444584d3191e40815ef99b9c",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "46d81302ae2bb97b610d8d97.native-effect.json",
+      "reference": "Lunar_Target_Large_FX.prefab:554b1cb6c449d9f409adbef48401d1b4",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-8506403831521721893",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "547f1d181758e5d798bb68a8.native-effect.json",
+      "reference": "Physical_Target_FX.prefab:6ef009996e89fae4faa2994bf3d350b8",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "6549e4c82c2d8dd7a8ff3a34.native-effect.json",
+      "reference": "Holy_Targeted_Healing_Minion_FX.prefab:841d04a62b8741b49941829815c28658",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1665107967474714929",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "684234766d5c17602805a25a.native-effect.json",
+      "reference": "Physical_Target_Slam_FX.prefab:f627a772abe86e144abcd9cbd9bab985",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "835f1ff8f4e1cb1d3b2b9b68.native-effect.json",
+      "reference": "Holy_AE_Equality_FX.prefab:72beea1d7fde4274f9e048de567f7728",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "8c973b2fb26cb9a918bb96d7.native-effect.json",
+      "reference": "Holy_Targeted_Healing_FX.prefab:878501a6ddf5ed84699eff303ef73930",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "8eba90bc307d0125fabbc7e4.native-effect.json",
+      "reference": "Holy_Targeted_BlessedChampion_FX.prefab:a7435d053f542374a9854383ef331b9d",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "97020148102e8691d2fa7836.native-effect.json",
+      "reference": "Holy_Targeted_Humility_FX.prefab:a18668ebfbe911449aac596b88ab3f3e",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "a1cb21a4028e9494468e6214.native-effect.json",
+      "reference": "Holy_Targeted_Humility_Minion_FX.prefab:cac3affffadedc04891d0abd7d7b7f07",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1665107967474714929",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "b4a68adb9126b0ae5887306e.native-effect.json",
+      "reference": "Physical_Target_MortalStrike_FX.prefab:40476180fbbf0704dbd00dfe62eb5a32",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "c157297bee5084d3e3b8fe7c.native-effect.json",
+      "reference": "Holy_Targeted_HammerOfWrath_FX.prefab:e363f1785c55f1c4c9fda2b369325989",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "4471899072495571514",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "cfca89e9f4eaf103db6c7f47.native-effect.json",
+      "reference": "Beast_Targeted_Swipe_FX.prefab:c9963a472c02b7d4091fce34732b6ca6",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 15,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "d008c4b1a5fd2065b6a4df24.native-effect.json",
+      "reference": "Holy_UnTargeted_Healing_TruesilverChamp_FX.prefab:1bc330ad4c164c348a8d08bcd490883c",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "3004981293332153997",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "e13c8852269ce9d6569c9aad.native-effect.json",
+      "reference": "Holy_Untargeted_FX.prefab:9abe2b276b167a9459cc37d1d50b1660",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-1256982497026704249",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "fd19be80049757ae95f61bad.native-effect.json",
+      "reference": "Holy_AE_CircleOfHealing_FX.prefab:6b6a3cf3ac48ce84d8cd3e37fea909f3",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 45,
+      "updated": false,
+      "unresolved": 0
+    }
+  ],
+  "failures": [],
+  "notes": [
+    "Exact AnimateColor parameters, None and curve wrap modes. No activation change."
+  ]
+}

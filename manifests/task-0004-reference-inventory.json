@@ -1,0 +1,532 @@
+{
+  "schema_version": 1,
+  "search_root": "E:\\HS",
+  "method": "bounded media walk after rg file discovery",
+  "extensions": [
+    ".avi",
+    ".gif",
+    ".jpeg",
+    ".jpg",
+    ".mkv",
+    ".mov",
+    ".mp4",
+    ".png",
+    ".webm"
+  ],
+  "excluded_directories": [
+    "E:\\HS\\HearthstoneClone\\.git",
+    "E:\\HS\\HearthstoneClone\\.pytest_cache",
+    "E:\\HS\\HearthstoneClone\\.venv",
+    "E:\\HS\\HearthstoneClone\\UnityClient\\Library",
+    "E:\\HS\\HearthstoneClone\\build",
+    "E:\\HS\\HearthstoneClone\\game\\__pycache__",
+    "E:\\HS\\HearthstoneClone\\local\\cache",
+    "E:\\HS\\HearthstoneClone\\local\\runtime",
+    "E:\\HS\\HearthstoneClone\\tests\\__pycache__",
+    "E:\\HS\\HearthstoneClone\\tools\\__pycache__",
+    "E:\\HS\\HearthstoneClone\\tools\\vendor\\__pycache__",
+    "E:\\HS\\HearthstoneClone\\tools\\verification\\__pycache__",
+    "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\.git",
+    "E:\\HS\\references\\fireplace\\.git",
+    "E:\\HS\\references\\fireplace\\.pytest_cache",
+    "E:\\HS\\references\\fireplace\\tests\\__pycache__"
+  ],
+  "counts": {
+    "project_generated_not_official": 1573,
+    "official_ui_still_not_target_sequence": 18,
+    "reference_repository_ui_or_logo_not_gameplay": 17
+  },
+  "candidates": [
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\board-ui\\01.png",
+      "sha256": "3003e750cf51b9eb40577818ba02696ddcf343af9184fd9719a059308007feee",
+      "bytes": 36273,
+      "size": [
+        196,
+        100
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\board-ui\\02.png",
+      "sha256": "f976016d442cc3ba7e867a0bea9688249159c213d379b492293d25a5e0fee8a7",
+      "bytes": 56445,
+      "size": [
+        461,
+        86
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\board-ui\\03.png",
+      "sha256": "7fae2fc27bdc03720e320419f2b2726ff5b303ca4d719ab1d2a1a548741413c6",
+      "bytes": 116484,
+      "size": [
+        359,
+        240
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\board-ui\\04.png",
+      "sha256": "bd51845ba7c95782a149a237018e1b02182de731e6d05f470f30185c861ef9f4",
+      "bytes": 55943,
+      "size": [
+        264,
+        126
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\interaction\\01-mulligan.png",
+      "sha256": "206103415b38e546b12da108de6dddeba01d667e807836eb40606cd5c2dc186e",
+      "bytes": 2231599,
+      "size": [
+        1924,
+        1127
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\interaction\\02-board-exhausted.png",
+      "sha256": "5876079a8d813fb4b7a49ae620edd87453862edba18dfcbf269676562129819b",
+      "bytes": 2883733,
+      "size": [
+        1924,
+        1127
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\interaction\\03-power-ready.png",
+      "sha256": "5b51ec186138c360a3bca34983bc47d76b98286e056531784062933508f77fdf",
+      "bytes": 2898752,
+      "size": [
+        1924,
+        1127
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\interaction\\04-power-detail.png",
+      "sha256": "2b28b12fc4026a0da96b42a13c682789311834b164fb63e0c2ce801d6f76d34c",
+      "bytes": 399542,
+      "size": [
+        549,
+        411
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\interaction\\05-minion-detail.png",
+      "sha256": "c51a47e0d9237b2f8d3761de3896b54dd5333cac39966daa04547ed9f79e8cf2",
+      "bytes": 484654,
+      "size": [
+        607,
+        468
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\interaction\\06-history.png",
+      "sha256": "a10ba2c84e1035cbcec6b5209a1802f2c9ceea73bdafb92e78a8de87eda1d1d3",
+      "bytes": 123622,
+      "size": [
+        165,
+        486
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\interaction\\07-history-detail.png",
+      "sha256": "991b22d5e5c66556dedcfbdd3d0cfa41e8221a091d08f99c08451823b71d4d02",
+      "bytes": 427420,
+      "size": [
+        503,
+        510
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\main_menu.png",
+      "sha256": "740db9291a83b611934d09c324f26a886d2528c5ce30ba40cc3083b9ff0c6914",
+      "bytes": 2099466,
+      "size": [
+        1920,
+        1080
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\pacing\\deck-in-slot.png",
+      "sha256": "ce3e0887ab407edd5909be22573ffbfc88c9a05bc9a18318db693dbacb86b49b",
+      "bytes": 211248,
+      "size": [
+        249,
+        558
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\pacing\\power-used-hover.png",
+      "sha256": "f647dd7056ec0c4245343c0565e88d13ab3e3bb90f93ddc32689db1b985d24ee",
+      "bytes": 540766,
+      "size": [
+        792,
+        428
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\pacing\\power-used.png",
+      "sha256": "cdb9a2fa9a2ad300714ae70f77d8438be0481f561f4c8a261179b460b58337c3",
+      "bytes": 203983,
+      "size": [
+        396,
+        282
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\pacing\\weapon-equipped.png",
+      "sha256": "4b1969335fd0623afc4021a09228dd64c21bfbcf47a3ae6c0578f6e264c719ff",
+      "bytes": 210780,
+      "size": [
+        435,
+        279
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\window-feedback\\menu-narrow.png",
+      "sha256": "4696b303c1b7fe754350f9b2db13ecce6d9ad76e19cb137575d607a2458c66f2",
+      "bytes": 1777672,
+      "size": [
+        1221,
+        1157
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\reference\\oracle\\window-feedback\\menu-wide.png",
+      "sha256": "36dfebf0fb4dafdca24441692d73bb2e4747b52172a3dce4a21dd3f0529e5c78",
+      "bytes": 1011340,
+      "size": [
+        2335,
+        560
+      ],
+      "kind": "official_ui_still_not_target_sequence",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\artwork.png",
+      "sha256": "7aab56b0ecfbc2056596b83b62ed205f2b8ee275eae57436b0d97d358c04acc5",
+      "bytes": 1205072,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\audio-library.png",
+      "sha256": "6ad6a16684cea8b313a1ea80cdfa39d0b803500f8adead7a4a926ba6067c6895",
+      "bytes": 918750,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\battlegrounds.png",
+      "sha256": "75097a3ade57e9a9294673c775b6e890dcde59b8dbc47aff0116352acb25ce65",
+      "bytes": 1320238,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\cards.png",
+      "sha256": "fc4eece119d9d6c101b306f2422107a5f0287b79733a858335253beac0956120",
+      "bytes": 1168577,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\effects.png",
+      "sha256": "410b8dcfbf59972e690466ff9e70e95afa7155771c22f2221ae4b3303ec95732",
+      "bytes": 417790,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\gallery-viewer.png",
+      "sha256": "7ff1df794c4e7cc98be5150db78be3c06b5696145bf528f6dd606a65027e10e5",
+      "bytes": 1655555,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\gallery.png",
+      "sha256": "bf4546aa364a1fe109a81a603c8a43c8e787a93fa7910c897cd516e316cefbee",
+      "bytes": 1542022,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\hero-voices.png",
+      "sha256": "2f58aa513068dfdbd18f20ee6db03c1edb8c7921c74e9e46f4a14de337e84837",
+      "bytes": 750240,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\music-scenes.png",
+      "sha256": "6348f8c77002c09f9a677e2732ce40b81c14c2d4b4afd1827ab9c83b85af7328",
+      "bytes": 360693,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\overview.png",
+      "sha256": "189749aed1ce19ce3f5353ecf9057fe094db0d04e27d389af17f3dae7364b1a7",
+      "bytes": 1684928,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\playback.png",
+      "sha256": "8d842bb98d2386e7d5a449209ec39e9a23ea1ad9ebf361b9e2410cec35d3ba9e",
+      "bytes": 715843,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\settings.png",
+      "sha256": "7fd5571f773f81d508838a63ccc716ef65032c665791c2940690b8081110f57a",
+      "bytes": 305624,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\voice-export.png",
+      "sha256": "11f30d0b9f4922beac81ed0b2cbd0be367e8ce1d55cbd12e676b25abe1f65043",
+      "bytes": 731571,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\voice-groups.png",
+      "sha256": "582366994d06788fa8d75a2cf7194e9e0d70d013949e7009034fc64b6f943ca9",
+      "bytes": 723793,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\docs\\screenshots\\welcome.png",
+      "sha256": "49ea260a3a53f5b438793168a2f0a2b296915b1a4ef2ba6dfde80294b0ac0bdb",
+      "bytes": 621993,
+      "size": [
+        2880,
+        1880
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\Heartstone-Tool-Resource-Lab\\pengpeng\\web\\icon.png",
+      "sha256": "81f8a658b5a178160bd643af4799965a8dadab0b9f8d4ef47ffcb3e8788fc24c",
+      "bytes": 26017,
+      "size": [
+        256,
+        256
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    },
+    {
+      "path": "E:\\HS\\references\\fireplace\\logo.png",
+      "sha256": "f71aadd6b2e214fe9befc0b22e8ef4f4475e56830a3cf526cf550c672187a6ba",
+      "bytes": 11684,
+      "size": [
+        601,
+        601
+      ],
+      "kind": "reference_repository_ui_or_logo_not_gameplay",
+      "card_id": "Unknown",
+      "phase": "Unknown",
+      "official_effect_comparable": false
+    }
+  ],
+  "official_target_sequences": [],
+  "status": "BLOCKED",
+  "source_installation": "D:\\Program Files (x86)\\Hearthstone",
+  "source_installation_usage": "read-only source bundles, no client interaction",
+  "official_product_version": "Unknown",
+  "reason": "No attributable EX1_129/EX1_134 Birth/Early/Mid/Arrival/Hit/Death sequence in searched capture locations.",
+  "scope_limit": "Not an assertion about unrelated directories or unprovided user captures; imported textures are not frames.",
+  "historical_white_center": {
+    "card": "EX1_134",
+    "name": "SI:7 Agent",
+    "image": {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\current\\native-effects\\EX1_134-0.30.png",
+      "sha256": "e5d9a254ad8f84ff1895bd55ed8ef5b818cf8e7372e0cb273007a6e9b82ee57f",
+      "bytes": 6749,
+      "size": [
+        512,
+        512
+      ]
+    },
+    "report": {
+      "path": "E:\\HS\\HearthstoneClone\\tests\\visual\\current\\native-effects\\render-report.json",
+      "sha256": "033c5c2e8626ed9d0a644e0441409a6dfbafeeec80a7824a48e7f97c404b6b33",
+      "bytes": 24896
+    },
+    "reported_program_sha256": "3a9f994500259b54eae6c4a4154938f5987aed93ed5d803628d37defc550e8bb",
+    "scope": "project offscreen flattened diagnostic, not official; do not migrate to EX1_124"
+  },
+  "oracle_inventory_contact": {
+    "path": "E:\\HS\\HearthstoneClone\\work\\task4\\oracle-inventory.png",
+    "sha256": "f514444bd411679dc40c82f8ed239dbaf57b7d0bcc73d42a222fd1e09d442170",
+    "bytes": 1219787,
+    "size": [
+      960,
+      1320
+    ]
+  }
+}

@@ -1,0 +1,4730 @@
+{
+  "programs": [
+    {
+      "file": "2ac223d9b583771c9eb24338.native-effect.json",
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super_Random.prefab:e51c00c98fe156748a1e45b17b0fb182",
+      "actions": [
+        {
+          "state": "NonLegendary",
+          "action": "SetMesh",
+          "node": 13,
+          "source": {
+            "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+            "pathid": "-1115502772572045766",
+            "type": "Mesh",
+            "bundle": "essential_base_global-mesh-0.unity3d"
+          },
+          "file": "dedb2ef7021512f896afde86.mesh.json",
+          "metadata": {
+            "vertices": 97,
+            "uv": 97,
+            "submeshes": [
+              234,
+              18
+            ]
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMesh",
+          "node": 15,
+          "source": {
+            "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+            "pathid": "-4578371029689156038",
+            "type": "Mesh",
+            "bundle": "essential_base_global-mesh-0.unity3d"
+          },
+          "file": "5bceb64a9367150c76040597.mesh.json",
+          "metadata": {
+            "vertices": 116,
+            "uv": 116,
+            "submeshes": [
+              282,
+              27
+            ]
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMesh",
+          "node": 17,
+          "source": {
+            "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+            "pathid": "-808494164974354886",
+            "type": "Mesh",
+            "bundle": "essential_base_global-mesh-0.unity3d"
+          },
+          "file": "d28f5e48b4091d82150bcb30.mesh.json",
+          "metadata": {
+            "vertices": 121,
+            "uv": 121,
+            "submeshes": [
+              276,
+              27
+            ]
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMesh",
+          "node": 19,
+          "source": {
+            "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+            "pathid": "3685253907496844858",
+            "type": "Mesh",
+            "bundle": "essential_base_global-mesh-0.unity3d"
+          },
+          "file": "dec3150357d5de4c70b152c5.mesh.json",
+          "metadata": {
+            "vertices": 137,
+            "uv": 137,
+            "submeshes": [
+              324,
+              33
+            ]
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMaterial",
+          "node": 14,
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "file": "9c76c0546c06f106070610fc.native-material.json",
+          "metadata": {
+            "name": "GenFX_Card_Ally_Fragmented_EdgeGlows",
+            "shader": "FX/CommonFX",
+            "textures": [
+              {
+                "name": "_LookupTex",
+                "path": "b3ef833ace3397e70e90036b.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "40aed4b142c225f011dc85be.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_TextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorAdd",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaMul",
+                "value": 1.5
+              },
+              {
+                "name": "_PremultipliedRGBTexture",
+                "value": 1.0
+              },
+              {
+                "name": "_Coloring",
+                "value": 1.0
+              },
+              {
+                "name": "_MiddlePointPos",
+                "value": 0.871999979019165
+              },
+              {
+                "name": "_LookupLine",
+                "value": 0.0
+              },
+              {
+                "name": "_Scrolling",
+                "value": 0.0
+              },
+              {
+                "name": "_SwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_ClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexture",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul2",
+                "value": 1.0
+              },
+              {
+                "name": "_SecondTexRotation",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexRotSpeed",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexInitRot",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexSwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexGlobalUV",
+                "value": 0.0
+              },
+              {
+                "name": "_Dissolve",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveFactor",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveSmoothness",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_MinAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_IgnoreVertexAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_Fresnel",
+                "value": 0.0
+              },
+              {
+                "name": "_FresnelPower",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelFrontColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBorderColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowIntensity",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowAddMul",
+                "value": 0.0
+              },
+              {
+                "name": "_DistanceFadeout",
+                "value": 0.0
+              },
+              {
+                "name": "_FadeoutDistance",
+                "value": 0.30000001192092896
+              },
+              {
+                "name": "_FadeoutY",
+                "value": -0.05999999865889549
+              },
+              {
+                "name": "_VertexMask",
+                "value": 0.0
+              },
+              {
+                "name": "_VertexMaskAlphaMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ZWrite",
+                "value": 0.0
+              },
+              {
+                "name": "_Culling",
+                "value": 0.0
+              },
+              {
+                "name": "_SrcBlendOutline",
+                "value": 1.0
+              },
+              {
+                "name": "_DstBlendOutline",
+                "value": 10.0
+              },
+              {
+                "name": "_Offset1",
+                "value": 0.0
+              },
+              {
+                "name": "_Offset2",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaClip",
+                "value": 0.0
+              },
+              {
+                "name": "_Blend",
+                "value": 0.0
+              },
+              {
+                "name": "_BumpScale",
+                "value": 1.0
+              },
+              {
+                "name": "_Cull",
+                "value": 2.0
+              },
+              {
+                "name": "_Cutoff",
+                "value": 0.5
+              },
+              {
+                "name": "_DstBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_EnvironmentReflections",
+                "value": 1.0
+              },
+              {
+                "name": "_GlossMapScale",
+                "value": 0.0
+              },
+              {
+                "name": "_Glossiness",
+                "value": 0.0
+              },
+              {
+                "name": "_GlossyReflections",
+                "value": 0.0
+              },
+              {
+                "name": "_Metallic",
+                "value": 0.0
+              },
+              {
+                "name": "_OcclusionStrength",
+                "value": 1.0
+              },
+              {
+                "name": "_QueueOffset",
+                "value": 0.0
+              },
+              {
+                "name": "_ReceiveShadows",
+                "value": 1.0
+              },
+              {
+                "name": "_Smoothness",
+                "value": 0.5
+              },
+              {
+                "name": "_SmoothnessTextureChannel",
+                "value": 0.0
+              },
+              {
+                "name": "_SpecularHighlights",
+                "value": 1.0
+              },
+              {
+                "name": "_SrcBlend",
+                "value": 1.0
+              },
+              {
+                "name": "_Surface",
+                "value": 0.0
+              },
+              {
+                "name": "_WorkflowMode",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.4811320900917053,
+                  "g": 0.4811320900917053,
+                  "b": 0.4811320900917053,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_WhiteColor",
+                "value": {
+                  "r": 0.7452830076217651,
+                  "g": 1.0,
+                  "b": 0.981326162815094,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_MidColor",
+                "value": {
+                  "r": 0.31132078170776367,
+                  "g": 1.0,
+                  "b": 0.9791309237480164,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_LastColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.1993296593427658,
+                  "b": 0.27358490228652954,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_Color2",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_FresnelFrontColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_FresnelBorderColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_GlowColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_BaseColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_EmissionColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_ScrollingSpeed",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_SecondTexSpeed_NoiseForce",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 0.5
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.20000000298023224,
+                  "g": 0.20000000298023224,
+                  "b": 0.20000000298023224,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskLinearGradient",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskUVScaleOffset",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "1088084104359054711",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AlphaMul",
+              "_ClampUV",
+              "_Color",
+              "_Color2",
+              "_ColorAdd",
+              "_ColorMul",
+              "_ColorMul2",
+              "_Coloring",
+              "_Culling",
+              "_Dissolve",
+              "_DissolveFactor",
+              "_DissolveSmoothness",
+              "_DistanceFadeout",
+              "_DstBlendOutline",
+              "_FadeoutDistance",
+              "_FadeoutY",
+              "_Fresnel",
+              "_FresnelBlend",
+              "_FresnelBorderColor",
+              "_FresnelBorderColorMultiplier",
+              "_FresnelFrontColor",
+              "_FresnelFrontColorMultiplier",
+              "_FresnelPower",
+              "_GlobalMipBias",
+              "_GlowAddMul",
+              "_GlowColor",
+              "_GlowIntensity",
+              "_IgnoreVertexAlpha",
+              "_LastColor",
+              "_LookupLine",
+              "_LookupTex",
+              "_MainTex",
+              "_MainTex_ST",
+              "_MidColor",
+              "_MiddlePointPos",
+              "_MinAlpha",
+              "_Offset1",
+              "_Offset2",
+              "_PremultipliedRGBTexture",
+              "_Scrolling",
+              "_ScrollingSpeed",
+              "_SecondTex",
+              "_SecondTexClampUV",
+              "_SecondTexGlobalUV",
+              "_SecondTexInitRot",
+              "_SecondTexRotSpeed",
+              "_SecondTexRotation",
+              "_SecondTexSpeed_NoiseForce",
+              "_SecondTexSwapUV",
+              "_SecondTexture",
+              "_SecondTextureType",
+              "_SrcBlendOutline",
+              "_SwapUV",
+              "_TextureType",
+              "_VertexMask",
+              "_VertexMaskAlphaMul",
+              "_VertexMaskLinearGradient",
+              "_VertexMaskUVScaleOffset",
+              "_WhiteColor",
+              "_ZWrite",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDEFAULTUNLIT"
+              },
+              {
+                "index": 1,
+                "light_mode": "GlowTransparent"
+              }
+            ],
+            "keywords": [
+              "_COLORING_RAMP",
+              "_DISSOLVE_NONE",
+              "_SECONDTEXTURETYPE_RGBR",
+              "_SECONDTEXTURE_NONE",
+              "_TEXTURETYPE_RGBR"
+            ],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMaterial",
+          "node": 16,
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "file": "9c76c0546c06f106070610fc.native-material.json",
+          "metadata": {
+            "name": "GenFX_Card_Ally_Fragmented_EdgeGlows",
+            "shader": "FX/CommonFX",
+            "textures": [
+              {
+                "name": "_LookupTex",
+                "path": "b3ef833ace3397e70e90036b.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "40aed4b142c225f011dc85be.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_TextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorAdd",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaMul",
+                "value": 1.5
+              },
+              {
+                "name": "_PremultipliedRGBTexture",
+                "value": 1.0
+              },
+              {
+                "name": "_Coloring",
+                "value": 1.0
+              },
+              {
+                "name": "_MiddlePointPos",
+                "value": 0.871999979019165
+              },
+              {
+                "name": "_LookupLine",
+                "value": 0.0
+              },
+              {
+                "name": "_Scrolling",
+                "value": 0.0
+              },
+              {
+                "name": "_SwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_ClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexture",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul2",
+                "value": 1.0
+              },
+              {
+                "name": "_SecondTexRotation",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexRotSpeed",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexInitRot",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexSwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexGlobalUV",
+                "value": 0.0
+              },
+              {
+                "name": "_Dissolve",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveFactor",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveSmoothness",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_MinAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_IgnoreVertexAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_Fresnel",
+                "value": 0.0
+              },
+              {
+                "name": "_FresnelPower",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelFrontColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBorderColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowIntensity",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowAddMul",
+                "value": 0.0
+              },
+              {
+                "name": "_DistanceFadeout",
+                "value": 0.0
+              },
+              {
+                "name": "_FadeoutDistance",
+                "value": 0.30000001192092896
+              },
+              {
+                "name": "_FadeoutY",
+                "value": -0.05999999865889549
+              },
+              {
+                "name": "_VertexMask",
+                "value": 0.0
+              },
+              {
+                "name": "_VertexMaskAlphaMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ZWrite",
+                "value": 0.0
+              },
+              {
+                "name": "_Culling",
+                "value": 0.0
+              },
+              {
+                "name": "_SrcBlendOutline",
+                "value": 1.0
+              },
+              {
+                "name": "_DstBlendOutline",
+                "value": 10.0
+              },
+              {
+                "name": "_Offset1",
+                "value": 0.0
+              },
+              {
+                "name": "_Offset2",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaClip",
+                "value": 0.0
+              },
+              {
+                "name": "_Blend",
+                "value": 0.0
+              },
+              {
+                "name": "_BumpScale",
+                "value": 1.0
+              },
+              {
+                "name": "_Cull",
+                "value": 2.0
+              },
+              {
+                "name": "_Cutoff",
+                "value": 0.5
+              },
+              {
+                "name": "_DstBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_EnvironmentReflections",
+                "value": 1.0
+              },
+              {
+                "name": "_GlossMapScale",
+                "value": 0.0
+              },
+              {
+                "name": "_Glossiness",
+                "value": 0.0
+              },
+              {
+                "name": "_GlossyReflections",
+                "value": 0.0
+              },
+              {
+                "name": "_Metallic",
+                "value": 0.0
+              },
+              {
+                "name": "_OcclusionStrength",
+                "value": 1.0
+              },
+              {
+                "name": "_QueueOffset",
+                "value": 0.0
+              },
+              {
+                "name": "_ReceiveShadows",
+                "value": 1.0
+              },
+              {
+                "name": "_Smoothness",
+                "value": 0.5
+              },
+              {
+                "name": "_SmoothnessTextureChannel",
+                "value": 0.0
+              },
+              {
+                "name": "_SpecularHighlights",
+                "value": 1.0
+              },
+              {
+                "name": "_SrcBlend",
+                "value": 1.0
+              },
+              {
+                "name": "_Surface",
+                "value": 0.0
+              },
+              {
+                "name": "_WorkflowMode",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.4811320900917053,
+                  "g": 0.4811320900917053,
+                  "b": 0.4811320900917053,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_WhiteColor",
+                "value": {
+                  "r": 0.7452830076217651,
+                  "g": 1.0,
+                  "b": 0.981326162815094,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_MidColor",
+                "value": {
+                  "r": 0.31132078170776367,
+                  "g": 1.0,
+                  "b": 0.9791309237480164,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_LastColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.1993296593427658,
+                  "b": 0.27358490228652954,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_Color2",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_FresnelFrontColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_FresnelBorderColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_GlowColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_BaseColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_EmissionColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_ScrollingSpeed",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_SecondTexSpeed_NoiseForce",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 0.5
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.20000000298023224,
+                  "g": 0.20000000298023224,
+                  "b": 0.20000000298023224,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskLinearGradient",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskUVScaleOffset",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "1088084104359054711",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AlphaMul",
+              "_ClampUV",
+              "_Color",
+              "_Color2",
+              "_ColorAdd",
+              "_ColorMul",
+              "_ColorMul2",
+              "_Coloring",
+              "_Culling",
+              "_Dissolve",
+              "_DissolveFactor",
+              "_DissolveSmoothness",
+              "_DistanceFadeout",
+              "_DstBlendOutline",
+              "_FadeoutDistance",
+              "_FadeoutY",
+              "_Fresnel",
+              "_FresnelBlend",
+              "_FresnelBorderColor",
+              "_FresnelBorderColorMultiplier",
+              "_FresnelFrontColor",
+              "_FresnelFrontColorMultiplier",
+              "_FresnelPower",
+              "_GlobalMipBias",
+              "_GlowAddMul",
+              "_GlowColor",
+              "_GlowIntensity",
+              "_IgnoreVertexAlpha",
+              "_LastColor",
+              "_LookupLine",
+              "_LookupTex",
+              "_MainTex",
+              "_MainTex_ST",
+              "_MidColor",
+              "_MiddlePointPos",
+              "_MinAlpha",
+              "_Offset1",
+              "_Offset2",
+              "_PremultipliedRGBTexture",
+              "_Scrolling",
+              "_ScrollingSpeed",
+              "_SecondTex",
+              "_SecondTexClampUV",
+              "_SecondTexGlobalUV",
+              "_SecondTexInitRot",
+              "_SecondTexRotSpeed",
+              "_SecondTexRotation",
+              "_SecondTexSpeed_NoiseForce",
+              "_SecondTexSwapUV",
+              "_SecondTexture",
+              "_SecondTextureType",
+              "_SrcBlendOutline",
+              "_SwapUV",
+              "_TextureType",
+              "_VertexMask",
+              "_VertexMaskAlphaMul",
+              "_VertexMaskLinearGradient",
+              "_VertexMaskUVScaleOffset",
+              "_WhiteColor",
+              "_ZWrite",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDEFAULTUNLIT"
+              },
+              {
+                "index": 1,
+                "light_mode": "GlowTransparent"
+              }
+            ],
+            "keywords": [
+              "_COLORING_RAMP",
+              "_DISSOLVE_NONE",
+              "_SECONDTEXTURETYPE_RGBR",
+              "_SECONDTEXTURE_NONE",
+              "_TEXTURETYPE_RGBR"
+            ],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMaterial",
+          "node": 18,
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "file": "9c76c0546c06f106070610fc.native-material.json",
+          "metadata": {
+            "name": "GenFX_Card_Ally_Fragmented_EdgeGlows",
+            "shader": "FX/CommonFX",
+            "textures": [
+              {
+                "name": "_LookupTex",
+                "path": "b3ef833ace3397e70e90036b.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "40aed4b142c225f011dc85be.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_TextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorAdd",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaMul",
+                "value": 1.5
+              },
+              {
+                "name": "_PremultipliedRGBTexture",
+                "value": 1.0
+              },
+              {
+                "name": "_Coloring",
+                "value": 1.0
+              },
+              {
+                "name": "_MiddlePointPos",
+                "value": 0.871999979019165
+              },
+              {
+                "name": "_LookupLine",
+                "value": 0.0
+              },
+              {
+                "name": "_Scrolling",
+                "value": 0.0
+              },
+              {
+                "name": "_SwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_ClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexture",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul2",
+                "value": 1.0
+              },
+              {
+                "name": "_SecondTexRotation",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexRotSpeed",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexInitRot",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexSwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexGlobalUV",
+                "value": 0.0
+              },
+              {
+                "name": "_Dissolve",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveFactor",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveSmoothness",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_MinAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_IgnoreVertexAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_Fresnel",
+                "value": 0.0
+              },
+              {
+                "name": "_FresnelPower",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelFrontColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBorderColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowIntensity",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowAddMul",
+                "value": 0.0
+              },
+              {
+                "name": "_DistanceFadeout",
+                "value": 0.0
+              },
+              {
+                "name": "_FadeoutDistance",
+                "value": 0.30000001192092896
+              },
+              {
+                "name": "_FadeoutY",
+                "value": -0.05999999865889549
+              },
+              {
+                "name": "_VertexMask",
+                "value": 0.0
+              },
+              {
+                "name": "_VertexMaskAlphaMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ZWrite",
+                "value": 0.0
+              },
+              {
+                "name": "_Culling",
+                "value": 0.0
+              },
+              {
+                "name": "_SrcBlendOutline",
+                "value": 1.0
+              },
+              {
+                "name": "_DstBlendOutline",
+                "value": 10.0
+              },
+              {
+                "name": "_Offset1",
+                "value": 0.0
+              },
+              {
+                "name": "_Offset2",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaClip",
+                "value": 0.0
+              },
+              {
+                "name": "_Blend",
+                "value": 0.0
+              },
+              {
+                "name": "_BumpScale",
+                "value": 1.0
+              },
+              {
+                "name": "_Cull",
+                "value": 2.0
+              },
+              {
+                "name": "_Cutoff",
+                "value": 0.5
+              },
+              {
+                "name": "_DstBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_EnvironmentReflections",
+                "value": 1.0
+              },
+              {
+                "name": "_GlossMapScale",
+                "value": 0.0
+              },
+              {
+                "name": "_Glossiness",
+                "value": 0.0
+              },
+              {
+                "name": "_GlossyReflections",
+                "value": 0.0
+              },
+              {
+                "name": "_Metallic",
+                "value": 0.0
+              },
+              {
+                "name": "_OcclusionStrength",
+                "value": 1.0
+              },
+              {
+                "name": "_QueueOffset",
+                "value": 0.0
+              },
+              {
+                "name": "_ReceiveShadows",
+                "value": 1.0
+              },
+              {
+                "name": "_Smoothness",
+                "value": 0.5
+              },
+              {
+                "name": "_SmoothnessTextureChannel",
+                "value": 0.0
+              },
+              {
+                "name": "_SpecularHighlights",
+                "value": 1.0
+              },
+              {
+                "name": "_SrcBlend",
+                "value": 1.0
+              },
+              {
+                "name": "_Surface",
+                "value": 0.0
+              },
+              {
+                "name": "_WorkflowMode",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.4811320900917053,
+                  "g": 0.4811320900917053,
+                  "b": 0.4811320900917053,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_WhiteColor",
+                "value": {
+                  "r": 0.7452830076217651,
+                  "g": 1.0,
+                  "b": 0.981326162815094,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_MidColor",
+                "value": {
+                  "r": 0.31132078170776367,
+                  "g": 1.0,
+                  "b": 0.9791309237480164,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_LastColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.1993296593427658,
+                  "b": 0.27358490228652954,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_Color2",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_FresnelFrontColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_FresnelBorderColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_GlowColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_BaseColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_EmissionColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_ScrollingSpeed",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_SecondTexSpeed_NoiseForce",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 0.5
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.20000000298023224,
+                  "g": 0.20000000298023224,
+                  "b": 0.20000000298023224,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskLinearGradient",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskUVScaleOffset",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "1088084104359054711",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AlphaMul",
+              "_ClampUV",
+              "_Color",
+              "_Color2",
+              "_ColorAdd",
+              "_ColorMul",
+              "_ColorMul2",
+              "_Coloring",
+              "_Culling",
+              "_Dissolve",
+              "_DissolveFactor",
+              "_DissolveSmoothness",
+              "_DistanceFadeout",
+              "_DstBlendOutline",
+              "_FadeoutDistance",
+              "_FadeoutY",
+              "_Fresnel",
+              "_FresnelBlend",
+              "_FresnelBorderColor",
+              "_FresnelBorderColorMultiplier",
+              "_FresnelFrontColor",
+              "_FresnelFrontColorMultiplier",
+              "_FresnelPower",
+              "_GlobalMipBias",
+              "_GlowAddMul",
+              "_GlowColor",
+              "_GlowIntensity",
+              "_IgnoreVertexAlpha",
+              "_LastColor",
+              "_LookupLine",
+              "_LookupTex",
+              "_MainTex",
+              "_MainTex_ST",
+              "_MidColor",
+              "_MiddlePointPos",
+              "_MinAlpha",
+              "_Offset1",
+              "_Offset2",
+              "_PremultipliedRGBTexture",
+              "_Scrolling",
+              "_ScrollingSpeed",
+              "_SecondTex",
+              "_SecondTexClampUV",
+              "_SecondTexGlobalUV",
+              "_SecondTexInitRot",
+              "_SecondTexRotSpeed",
+              "_SecondTexRotation",
+              "_SecondTexSpeed_NoiseForce",
+              "_SecondTexSwapUV",
+              "_SecondTexture",
+              "_SecondTextureType",
+              "_SrcBlendOutline",
+              "_SwapUV",
+              "_TextureType",
+              "_VertexMask",
+              "_VertexMaskAlphaMul",
+              "_VertexMaskLinearGradient",
+              "_VertexMaskUVScaleOffset",
+              "_WhiteColor",
+              "_ZWrite",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDEFAULTUNLIT"
+              },
+              {
+                "index": 1,
+                "light_mode": "GlowTransparent"
+              }
+            ],
+            "keywords": [
+              "_COLORING_RAMP",
+              "_DISSOLVE_NONE",
+              "_SECONDTEXTURETYPE_RGBR",
+              "_SECONDTEXTURE_NONE",
+              "_TEXTURETYPE_RGBR"
+            ],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMaterial",
+          "node": 20,
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "file": "9c76c0546c06f106070610fc.native-material.json",
+          "metadata": {
+            "name": "GenFX_Card_Ally_Fragmented_EdgeGlows",
+            "shader": "FX/CommonFX",
+            "textures": [
+              {
+                "name": "_LookupTex",
+                "path": "b3ef833ace3397e70e90036b.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "40aed4b142c225f011dc85be.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_TextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorAdd",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaMul",
+                "value": 1.5
+              },
+              {
+                "name": "_PremultipliedRGBTexture",
+                "value": 1.0
+              },
+              {
+                "name": "_Coloring",
+                "value": 1.0
+              },
+              {
+                "name": "_MiddlePointPos",
+                "value": 0.871999979019165
+              },
+              {
+                "name": "_LookupLine",
+                "value": 0.0
+              },
+              {
+                "name": "_Scrolling",
+                "value": 0.0
+              },
+              {
+                "name": "_SwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_ClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexture",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul2",
+                "value": 1.0
+              },
+              {
+                "name": "_SecondTexRotation",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexRotSpeed",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexInitRot",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexSwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexGlobalUV",
+                "value": 0.0
+              },
+              {
+                "name": "_Dissolve",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveFactor",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveSmoothness",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_MinAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_IgnoreVertexAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_Fresnel",
+                "value": 0.0
+              },
+              {
+                "name": "_FresnelPower",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelFrontColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBorderColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowIntensity",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowAddMul",
+                "value": 0.0
+              },
+              {
+                "name": "_DistanceFadeout",
+                "value": 0.0
+              },
+              {
+                "name": "_FadeoutDistance",
+                "value": 0.30000001192092896
+              },
+              {
+                "name": "_FadeoutY",
+                "value": -0.05999999865889549
+              },
+              {
+                "name": "_VertexMask",
+                "value": 0.0
+              },
+              {
+                "name": "_VertexMaskAlphaMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ZWrite",
+                "value": 0.0
+              },
+              {
+                "name": "_Culling",
+                "value": 0.0
+              },
+              {
+                "name": "_SrcBlendOutline",
+                "value": 1.0
+              },
+              {
+                "name": "_DstBlendOutline",
+                "value": 10.0
+              },
+              {
+                "name": "_Offset1",
+                "value": 0.0
+              },
+              {
+                "name": "_Offset2",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaClip",
+                "value": 0.0
+              },
+              {
+                "name": "_Blend",
+                "value": 0.0
+              },
+              {
+                "name": "_BumpScale",
+                "value": 1.0
+              },
+              {
+                "name": "_Cull",
+                "value": 2.0
+              },
+              {
+                "name": "_Cutoff",
+                "value": 0.5
+              },
+              {
+                "name": "_DstBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_EnvironmentReflections",
+                "value": 1.0
+              },
+              {
+                "name": "_GlossMapScale",
+                "value": 0.0
+              },
+              {
+                "name": "_Glossiness",
+                "value": 0.0
+              },
+              {
+                "name": "_GlossyReflections",
+                "value": 0.0
+              },
+              {
+                "name": "_Metallic",
+                "value": 0.0
+              },
+              {
+                "name": "_OcclusionStrength",
+                "value": 1.0
+              },
+              {
+                "name": "_QueueOffset",
+                "value": 0.0
+              },
+              {
+                "name": "_ReceiveShadows",
+                "value": 1.0
+              },
+              {
+                "name": "_Smoothness",
+                "value": 0.5
+              },
+              {
+                "name": "_SmoothnessTextureChannel",
+                "value": 0.0
+              },
+              {
+                "name": "_SpecularHighlights",
+                "value": 1.0
+              },
+              {
+                "name": "_SrcBlend",
+                "value": 1.0
+              },
+              {
+                "name": "_Surface",
+                "value": 0.0
+              },
+              {
+                "name": "_WorkflowMode",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.4811320900917053,
+                  "g": 0.4811320900917053,
+                  "b": 0.4811320900917053,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_WhiteColor",
+                "value": {
+                  "r": 0.7452830076217651,
+                  "g": 1.0,
+                  "b": 0.981326162815094,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_MidColor",
+                "value": {
+                  "r": 0.31132078170776367,
+                  "g": 1.0,
+                  "b": 0.9791309237480164,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_LastColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.1993296593427658,
+                  "b": 0.27358490228652954,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_Color2",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_FresnelFrontColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_FresnelBorderColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_GlowColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_BaseColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_EmissionColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_ScrollingSpeed",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_SecondTexSpeed_NoiseForce",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 0.5
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.20000000298023224,
+                  "g": 0.20000000298023224,
+                  "b": 0.20000000298023224,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskLinearGradient",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskUVScaleOffset",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "1088084104359054711",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AlphaMul",
+              "_ClampUV",
+              "_Color",
+              "_Color2",
+              "_ColorAdd",
+              "_ColorMul",
+              "_ColorMul2",
+              "_Coloring",
+              "_Culling",
+              "_Dissolve",
+              "_DissolveFactor",
+              "_DissolveSmoothness",
+              "_DistanceFadeout",
+              "_DstBlendOutline",
+              "_FadeoutDistance",
+              "_FadeoutY",
+              "_Fresnel",
+              "_FresnelBlend",
+              "_FresnelBorderColor",
+              "_FresnelBorderColorMultiplier",
+              "_FresnelFrontColor",
+              "_FresnelFrontColorMultiplier",
+              "_FresnelPower",
+              "_GlobalMipBias",
+              "_GlowAddMul",
+              "_GlowColor",
+              "_GlowIntensity",
+              "_IgnoreVertexAlpha",
+              "_LastColor",
+              "_LookupLine",
+              "_LookupTex",
+              "_MainTex",
+              "_MainTex_ST",
+              "_MidColor",
+              "_MiddlePointPos",
+              "_MinAlpha",
+              "_Offset1",
+              "_Offset2",
+              "_PremultipliedRGBTexture",
+              "_Scrolling",
+              "_ScrollingSpeed",
+              "_SecondTex",
+              "_SecondTexClampUV",
+              "_SecondTexGlobalUV",
+              "_SecondTexInitRot",
+              "_SecondTexRotSpeed",
+              "_SecondTexRotation",
+              "_SecondTexSpeed_NoiseForce",
+              "_SecondTexSwapUV",
+              "_SecondTexture",
+              "_SecondTextureType",
+              "_SrcBlendOutline",
+              "_SwapUV",
+              "_TextureType",
+              "_VertexMask",
+              "_VertexMaskAlphaMul",
+              "_VertexMaskLinearGradient",
+              "_VertexMaskUVScaleOffset",
+              "_WhiteColor",
+              "_ZWrite",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDEFAULTUNLIT"
+              },
+              {
+                "index": 1,
+                "light_mode": "GlowTransparent"
+              }
+            ],
+            "keywords": [
+              "_COLORING_RAMP",
+              "_DISSOLVE_NONE",
+              "_SECONDTEXTURETYPE_RGBR",
+              "_SECONDTEXTURE_NONE",
+              "_TEXTURETYPE_RGBR"
+            ],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        }
+      ]
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Asphyxiate_Super_WithIdle.prefab:676fef5a5e50055409210c583d22859e",
+      "actions": [
+        {
+          "state": "State 1",
+          "action": "SetMaterial",
+          "node": 22,
+          "source": {
+            "cab": "CAB-22d8ebc40a5c633f988930ccc4fdacd7",
+            "pathid": "4993936921643323141",
+            "type": "Material",
+            "bundle": "initial_base_global-75c96a85-material-1.unity3d"
+          },
+          "file": "b410fa754471c65b644fc402.native-material.json",
+          "metadata": {
+            "name": "FX_FlareBurstBlue",
+            "shader": "Hero/AddMultiply/AddMultiplyFXWorld",
+            "textures": [
+              {
+                "name": "_FxTex",
+                "path": "af08d8bbaf69fabd285884cd.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "ff5a033174bd85f1290b72ef.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_Intensity",
+                "value": 0.0
+              },
+              {
+                "name": "_FxIntensity",
+                "value": 1.0
+              },
+              {
+                "name": "_ScrollX",
+                "value": 4.0
+              },
+              {
+                "name": "_ScrollY",
+                "value": -15.0
+              },
+              {
+                "name": "_ScaleX",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_ScaleY",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_LightingBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_InvFade",
+                "value": 3.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.022058844566345215,
+                  "g": 0.47393515706062317,
+                  "b": 1.0,
+                  "a": 0.3764705955982208
+                }
+              },
+              {
+                "name": "_TintColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.33793115615844727,
+                  "b": 1.0,
+                  "a": 0.45490196347236633
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-22d8ebc40a5c633f988930ccc4fdacd7",
+              "pathid": "4993936921643323141",
+              "type": "Material",
+              "bundle": "initial_base_global-75c96a85-material-1.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_Color",
+              "_FxIntensity",
+              "_FxTex",
+              "_GlobalMipBias",
+              "_Intensity",
+              "_LightingBlend",
+              "_MainLightColor",
+              "_MainTex",
+              "_ScaleX",
+              "_ScaleY",
+              "_ScrollX",
+              "_ScrollY",
+              "_Time",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld",
+              "unity_SHAb",
+              "unity_SHAg",
+              "unity_SHAr"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDefaultUnlit"
+              }
+            ],
+            "keywords": [],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        }
+      ]
+    },
+    {
+      "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+      "reference": "Shadow_ShadowWordPain_FX.prefab:ceb8d5daaa8c10a4c9982de97967d6ae",
+      "actions": [
+        {
+          "state": "State 1",
+          "action": "SetMaterial",
+          "node": 19,
+          "source": {
+            "cab": "CAB-22d8ebc40a5c633f988930ccc4fdacd7",
+            "pathid": "4993936921643323141",
+            "type": "Material",
+            "bundle": "initial_base_global-75c96a85-material-1.unity3d"
+          },
+          "file": "b410fa754471c65b644fc402.native-material.json",
+          "metadata": {
+            "name": "FX_FlareBurstBlue",
+            "shader": "Hero/AddMultiply/AddMultiplyFXWorld",
+            "textures": [
+              {
+                "name": "_FxTex",
+                "path": "af08d8bbaf69fabd285884cd.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "ff5a033174bd85f1290b72ef.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_Intensity",
+                "value": 0.0
+              },
+              {
+                "name": "_FxIntensity",
+                "value": 1.0
+              },
+              {
+                "name": "_ScrollX",
+                "value": 4.0
+              },
+              {
+                "name": "_ScrollY",
+                "value": -15.0
+              },
+              {
+                "name": "_ScaleX",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_ScaleY",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_LightingBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_InvFade",
+                "value": 3.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.022058844566345215,
+                  "g": 0.47393515706062317,
+                  "b": 1.0,
+                  "a": 0.3764705955982208
+                }
+              },
+              {
+                "name": "_TintColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.33793115615844727,
+                  "b": 1.0,
+                  "a": 0.45490196347236633
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-22d8ebc40a5c633f988930ccc4fdacd7",
+              "pathid": "4993936921643323141",
+              "type": "Material",
+              "bundle": "initial_base_global-75c96a85-material-1.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_Color",
+              "_FxIntensity",
+              "_FxTex",
+              "_GlobalMipBias",
+              "_Intensity",
+              "_LightingBlend",
+              "_MainLightColor",
+              "_MainTex",
+              "_ScaleX",
+              "_ScaleY",
+              "_ScrollX",
+              "_ScrollY",
+              "_Time",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld",
+              "unity_SHAb",
+              "unity_SHAg",
+              "unity_SHAr"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDefaultUnlit"
+              }
+            ],
+            "keywords": [],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        }
+      ]
+    },
+    {
+      "file": "b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super.prefab:5f189b59ddd96234ba95040813a40274",
+      "actions": [
+        {
+          "state": "NonLegendary",
+          "action": "SetMesh",
+          "node": 13,
+          "source": {
+            "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+            "pathid": "-1115502772572045766",
+            "type": "Mesh",
+            "bundle": "essential_base_global-mesh-0.unity3d"
+          },
+          "file": "dedb2ef7021512f896afde86.mesh.json",
+          "metadata": {
+            "vertices": 97,
+            "uv": 97,
+            "submeshes": [
+              234,
+              18
+            ]
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMesh",
+          "node": 15,
+          "source": {
+            "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+            "pathid": "-4578371029689156038",
+            "type": "Mesh",
+            "bundle": "essential_base_global-mesh-0.unity3d"
+          },
+          "file": "5bceb64a9367150c76040597.mesh.json",
+          "metadata": {
+            "vertices": 116,
+            "uv": 116,
+            "submeshes": [
+              282,
+              27
+            ]
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMesh",
+          "node": 17,
+          "source": {
+            "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+            "pathid": "-808494164974354886",
+            "type": "Mesh",
+            "bundle": "essential_base_global-mesh-0.unity3d"
+          },
+          "file": "d28f5e48b4091d82150bcb30.mesh.json",
+          "metadata": {
+            "vertices": 121,
+            "uv": 121,
+            "submeshes": [
+              276,
+              27
+            ]
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMesh",
+          "node": 19,
+          "source": {
+            "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+            "pathid": "3685253907496844858",
+            "type": "Mesh",
+            "bundle": "essential_base_global-mesh-0.unity3d"
+          },
+          "file": "dec3150357d5de4c70b152c5.mesh.json",
+          "metadata": {
+            "vertices": 137,
+            "uv": 137,
+            "submeshes": [
+              324,
+              33
+            ]
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMaterial",
+          "node": 14,
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "file": "9c76c0546c06f106070610fc.native-material.json",
+          "metadata": {
+            "name": "GenFX_Card_Ally_Fragmented_EdgeGlows",
+            "shader": "FX/CommonFX",
+            "textures": [
+              {
+                "name": "_LookupTex",
+                "path": "b3ef833ace3397e70e90036b.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "40aed4b142c225f011dc85be.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_TextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorAdd",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaMul",
+                "value": 1.5
+              },
+              {
+                "name": "_PremultipliedRGBTexture",
+                "value": 1.0
+              },
+              {
+                "name": "_Coloring",
+                "value": 1.0
+              },
+              {
+                "name": "_MiddlePointPos",
+                "value": 0.871999979019165
+              },
+              {
+                "name": "_LookupLine",
+                "value": 0.0
+              },
+              {
+                "name": "_Scrolling",
+                "value": 0.0
+              },
+              {
+                "name": "_SwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_ClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexture",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul2",
+                "value": 1.0
+              },
+              {
+                "name": "_SecondTexRotation",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexRotSpeed",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexInitRot",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexSwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexGlobalUV",
+                "value": 0.0
+              },
+              {
+                "name": "_Dissolve",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveFactor",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveSmoothness",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_MinAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_IgnoreVertexAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_Fresnel",
+                "value": 0.0
+              },
+              {
+                "name": "_FresnelPower",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelFrontColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBorderColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowIntensity",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowAddMul",
+                "value": 0.0
+              },
+              {
+                "name": "_DistanceFadeout",
+                "value": 0.0
+              },
+              {
+                "name": "_FadeoutDistance",
+                "value": 0.30000001192092896
+              },
+              {
+                "name": "_FadeoutY",
+                "value": -0.05999999865889549
+              },
+              {
+                "name": "_VertexMask",
+                "value": 0.0
+              },
+              {
+                "name": "_VertexMaskAlphaMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ZWrite",
+                "value": 0.0
+              },
+              {
+                "name": "_Culling",
+                "value": 0.0
+              },
+              {
+                "name": "_SrcBlendOutline",
+                "value": 1.0
+              },
+              {
+                "name": "_DstBlendOutline",
+                "value": 10.0
+              },
+              {
+                "name": "_Offset1",
+                "value": 0.0
+              },
+              {
+                "name": "_Offset2",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaClip",
+                "value": 0.0
+              },
+              {
+                "name": "_Blend",
+                "value": 0.0
+              },
+              {
+                "name": "_BumpScale",
+                "value": 1.0
+              },
+              {
+                "name": "_Cull",
+                "value": 2.0
+              },
+              {
+                "name": "_Cutoff",
+                "value": 0.5
+              },
+              {
+                "name": "_DstBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_EnvironmentReflections",
+                "value": 1.0
+              },
+              {
+                "name": "_GlossMapScale",
+                "value": 0.0
+              },
+              {
+                "name": "_Glossiness",
+                "value": 0.0
+              },
+              {
+                "name": "_GlossyReflections",
+                "value": 0.0
+              },
+              {
+                "name": "_Metallic",
+                "value": 0.0
+              },
+              {
+                "name": "_OcclusionStrength",
+                "value": 1.0
+              },
+              {
+                "name": "_QueueOffset",
+                "value": 0.0
+              },
+              {
+                "name": "_ReceiveShadows",
+                "value": 1.0
+              },
+              {
+                "name": "_Smoothness",
+                "value": 0.5
+              },
+              {
+                "name": "_SmoothnessTextureChannel",
+                "value": 0.0
+              },
+              {
+                "name": "_SpecularHighlights",
+                "value": 1.0
+              },
+              {
+                "name": "_SrcBlend",
+                "value": 1.0
+              },
+              {
+                "name": "_Surface",
+                "value": 0.0
+              },
+              {
+                "name": "_WorkflowMode",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.4811320900917053,
+                  "g": 0.4811320900917053,
+                  "b": 0.4811320900917053,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_WhiteColor",
+                "value": {
+                  "r": 0.7452830076217651,
+                  "g": 1.0,
+                  "b": 0.981326162815094,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_MidColor",
+                "value": {
+                  "r": 0.31132078170776367,
+                  "g": 1.0,
+                  "b": 0.9791309237480164,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_LastColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.1993296593427658,
+                  "b": 0.27358490228652954,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_Color2",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_FresnelFrontColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_FresnelBorderColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_GlowColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_BaseColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_EmissionColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_ScrollingSpeed",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_SecondTexSpeed_NoiseForce",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 0.5
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.20000000298023224,
+                  "g": 0.20000000298023224,
+                  "b": 0.20000000298023224,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskLinearGradient",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskUVScaleOffset",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "1088084104359054711",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AlphaMul",
+              "_ClampUV",
+              "_Color",
+              "_Color2",
+              "_ColorAdd",
+              "_ColorMul",
+              "_ColorMul2",
+              "_Coloring",
+              "_Culling",
+              "_Dissolve",
+              "_DissolveFactor",
+              "_DissolveSmoothness",
+              "_DistanceFadeout",
+              "_DstBlendOutline",
+              "_FadeoutDistance",
+              "_FadeoutY",
+              "_Fresnel",
+              "_FresnelBlend",
+              "_FresnelBorderColor",
+              "_FresnelBorderColorMultiplier",
+              "_FresnelFrontColor",
+              "_FresnelFrontColorMultiplier",
+              "_FresnelPower",
+              "_GlobalMipBias",
+              "_GlowAddMul",
+              "_GlowColor",
+              "_GlowIntensity",
+              "_IgnoreVertexAlpha",
+              "_LastColor",
+              "_LookupLine",
+              "_LookupTex",
+              "_MainTex",
+              "_MainTex_ST",
+              "_MidColor",
+              "_MiddlePointPos",
+              "_MinAlpha",
+              "_Offset1",
+              "_Offset2",
+              "_PremultipliedRGBTexture",
+              "_Scrolling",
+              "_ScrollingSpeed",
+              "_SecondTex",
+              "_SecondTexClampUV",
+              "_SecondTexGlobalUV",
+              "_SecondTexInitRot",
+              "_SecondTexRotSpeed",
+              "_SecondTexRotation",
+              "_SecondTexSpeed_NoiseForce",
+              "_SecondTexSwapUV",
+              "_SecondTexture",
+              "_SecondTextureType",
+              "_SrcBlendOutline",
+              "_SwapUV",
+              "_TextureType",
+              "_VertexMask",
+              "_VertexMaskAlphaMul",
+              "_VertexMaskLinearGradient",
+              "_VertexMaskUVScaleOffset",
+              "_WhiteColor",
+              "_ZWrite",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDEFAULTUNLIT"
+              },
+              {
+                "index": 1,
+                "light_mode": "GlowTransparent"
+              }
+            ],
+            "keywords": [
+              "_COLORING_RAMP",
+              "_DISSOLVE_NONE",
+              "_SECONDTEXTURETYPE_RGBR",
+              "_SECONDTEXTURE_NONE",
+              "_TEXTURETYPE_RGBR"
+            ],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMaterial",
+          "node": 16,
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "file": "9c76c0546c06f106070610fc.native-material.json",
+          "metadata": {
+            "name": "GenFX_Card_Ally_Fragmented_EdgeGlows",
+            "shader": "FX/CommonFX",
+            "textures": [
+              {
+                "name": "_LookupTex",
+                "path": "b3ef833ace3397e70e90036b.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "40aed4b142c225f011dc85be.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_TextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorAdd",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaMul",
+                "value": 1.5
+              },
+              {
+                "name": "_PremultipliedRGBTexture",
+                "value": 1.0
+              },
+              {
+                "name": "_Coloring",
+                "value": 1.0
+              },
+              {
+                "name": "_MiddlePointPos",
+                "value": 0.871999979019165
+              },
+              {
+                "name": "_LookupLine",
+                "value": 0.0
+              },
+              {
+                "name": "_Scrolling",
+                "value": 0.0
+              },
+              {
+                "name": "_SwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_ClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexture",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul2",
+                "value": 1.0
+              },
+              {
+                "name": "_SecondTexRotation",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexRotSpeed",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexInitRot",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexSwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexGlobalUV",
+                "value": 0.0
+              },
+              {
+                "name": "_Dissolve",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveFactor",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveSmoothness",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_MinAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_IgnoreVertexAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_Fresnel",
+                "value": 0.0
+              },
+              {
+                "name": "_FresnelPower",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelFrontColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBorderColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowIntensity",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowAddMul",
+                "value": 0.0
+              },
+              {
+                "name": "_DistanceFadeout",
+                "value": 0.0
+              },
+              {
+                "name": "_FadeoutDistance",
+                "value": 0.30000001192092896
+              },
+              {
+                "name": "_FadeoutY",
+                "value": -0.05999999865889549
+              },
+              {
+                "name": "_VertexMask",
+                "value": 0.0
+              },
+              {
+                "name": "_VertexMaskAlphaMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ZWrite",
+                "value": 0.0
+              },
+              {
+                "name": "_Culling",
+                "value": 0.0
+              },
+              {
+                "name": "_SrcBlendOutline",
+                "value": 1.0
+              },
+              {
+                "name": "_DstBlendOutline",
+                "value": 10.0
+              },
+              {
+                "name": "_Offset1",
+                "value": 0.0
+              },
+              {
+                "name": "_Offset2",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaClip",
+                "value": 0.0
+              },
+              {
+                "name": "_Blend",
+                "value": 0.0
+              },
+              {
+                "name": "_BumpScale",
+                "value": 1.0
+              },
+              {
+                "name": "_Cull",
+                "value": 2.0
+              },
+              {
+                "name": "_Cutoff",
+                "value": 0.5
+              },
+              {
+                "name": "_DstBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_EnvironmentReflections",
+                "value": 1.0
+              },
+              {
+                "name": "_GlossMapScale",
+                "value": 0.0
+              },
+              {
+                "name": "_Glossiness",
+                "value": 0.0
+              },
+              {
+                "name": "_GlossyReflections",
+                "value": 0.0
+              },
+              {
+                "name": "_Metallic",
+                "value": 0.0
+              },
+              {
+                "name": "_OcclusionStrength",
+                "value": 1.0
+              },
+              {
+                "name": "_QueueOffset",
+                "value": 0.0
+              },
+              {
+                "name": "_ReceiveShadows",
+                "value": 1.0
+              },
+              {
+                "name": "_Smoothness",
+                "value": 0.5
+              },
+              {
+                "name": "_SmoothnessTextureChannel",
+                "value": 0.0
+              },
+              {
+                "name": "_SpecularHighlights",
+                "value": 1.0
+              },
+              {
+                "name": "_SrcBlend",
+                "value": 1.0
+              },
+              {
+                "name": "_Surface",
+                "value": 0.0
+              },
+              {
+                "name": "_WorkflowMode",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.4811320900917053,
+                  "g": 0.4811320900917053,
+                  "b": 0.4811320900917053,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_WhiteColor",
+                "value": {
+                  "r": 0.7452830076217651,
+                  "g": 1.0,
+                  "b": 0.981326162815094,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_MidColor",
+                "value": {
+                  "r": 0.31132078170776367,
+                  "g": 1.0,
+                  "b": 0.9791309237480164,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_LastColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.1993296593427658,
+                  "b": 0.27358490228652954,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_Color2",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_FresnelFrontColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_FresnelBorderColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_GlowColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_BaseColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_EmissionColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_ScrollingSpeed",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_SecondTexSpeed_NoiseForce",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 0.5
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.20000000298023224,
+                  "g": 0.20000000298023224,
+                  "b": 0.20000000298023224,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskLinearGradient",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskUVScaleOffset",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "1088084104359054711",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AlphaMul",
+              "_ClampUV",
+              "_Color",
+              "_Color2",
+              "_ColorAdd",
+              "_ColorMul",
+              "_ColorMul2",
+              "_Coloring",
+              "_Culling",
+              "_Dissolve",
+              "_DissolveFactor",
+              "_DissolveSmoothness",
+              "_DistanceFadeout",
+              "_DstBlendOutline",
+              "_FadeoutDistance",
+              "_FadeoutY",
+              "_Fresnel",
+              "_FresnelBlend",
+              "_FresnelBorderColor",
+              "_FresnelBorderColorMultiplier",
+              "_FresnelFrontColor",
+              "_FresnelFrontColorMultiplier",
+              "_FresnelPower",
+              "_GlobalMipBias",
+              "_GlowAddMul",
+              "_GlowColor",
+              "_GlowIntensity",
+              "_IgnoreVertexAlpha",
+              "_LastColor",
+              "_LookupLine",
+              "_LookupTex",
+              "_MainTex",
+              "_MainTex_ST",
+              "_MidColor",
+              "_MiddlePointPos",
+              "_MinAlpha",
+              "_Offset1",
+              "_Offset2",
+              "_PremultipliedRGBTexture",
+              "_Scrolling",
+              "_ScrollingSpeed",
+              "_SecondTex",
+              "_SecondTexClampUV",
+              "_SecondTexGlobalUV",
+              "_SecondTexInitRot",
+              "_SecondTexRotSpeed",
+              "_SecondTexRotation",
+              "_SecondTexSpeed_NoiseForce",
+              "_SecondTexSwapUV",
+              "_SecondTexture",
+              "_SecondTextureType",
+              "_SrcBlendOutline",
+              "_SwapUV",
+              "_TextureType",
+              "_VertexMask",
+              "_VertexMaskAlphaMul",
+              "_VertexMaskLinearGradient",
+              "_VertexMaskUVScaleOffset",
+              "_WhiteColor",
+              "_ZWrite",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDEFAULTUNLIT"
+              },
+              {
+                "index": 1,
+                "light_mode": "GlowTransparent"
+              }
+            ],
+            "keywords": [
+              "_COLORING_RAMP",
+              "_DISSOLVE_NONE",
+              "_SECONDTEXTURETYPE_RGBR",
+              "_SECONDTEXTURE_NONE",
+              "_TEXTURETYPE_RGBR"
+            ],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMaterial",
+          "node": 18,
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "file": "9c76c0546c06f106070610fc.native-material.json",
+          "metadata": {
+            "name": "GenFX_Card_Ally_Fragmented_EdgeGlows",
+            "shader": "FX/CommonFX",
+            "textures": [
+              {
+                "name": "_LookupTex",
+                "path": "b3ef833ace3397e70e90036b.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "40aed4b142c225f011dc85be.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_TextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorAdd",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaMul",
+                "value": 1.5
+              },
+              {
+                "name": "_PremultipliedRGBTexture",
+                "value": 1.0
+              },
+              {
+                "name": "_Coloring",
+                "value": 1.0
+              },
+              {
+                "name": "_MiddlePointPos",
+                "value": 0.871999979019165
+              },
+              {
+                "name": "_LookupLine",
+                "value": 0.0
+              },
+              {
+                "name": "_Scrolling",
+                "value": 0.0
+              },
+              {
+                "name": "_SwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_ClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexture",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul2",
+                "value": 1.0
+              },
+              {
+                "name": "_SecondTexRotation",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexRotSpeed",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexInitRot",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexSwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexGlobalUV",
+                "value": 0.0
+              },
+              {
+                "name": "_Dissolve",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveFactor",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveSmoothness",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_MinAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_IgnoreVertexAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_Fresnel",
+                "value": 0.0
+              },
+              {
+                "name": "_FresnelPower",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelFrontColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBorderColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowIntensity",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowAddMul",
+                "value": 0.0
+              },
+              {
+                "name": "_DistanceFadeout",
+                "value": 0.0
+              },
+              {
+                "name": "_FadeoutDistance",
+                "value": 0.30000001192092896
+              },
+              {
+                "name": "_FadeoutY",
+                "value": -0.05999999865889549
+              },
+              {
+                "name": "_VertexMask",
+                "value": 0.0
+              },
+              {
+                "name": "_VertexMaskAlphaMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ZWrite",
+                "value": 0.0
+              },
+              {
+                "name": "_Culling",
+                "value": 0.0
+              },
+              {
+                "name": "_SrcBlendOutline",
+                "value": 1.0
+              },
+              {
+                "name": "_DstBlendOutline",
+                "value": 10.0
+              },
+              {
+                "name": "_Offset1",
+                "value": 0.0
+              },
+              {
+                "name": "_Offset2",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaClip",
+                "value": 0.0
+              },
+              {
+                "name": "_Blend",
+                "value": 0.0
+              },
+              {
+                "name": "_BumpScale",
+                "value": 1.0
+              },
+              {
+                "name": "_Cull",
+                "value": 2.0
+              },
+              {
+                "name": "_Cutoff",
+                "value": 0.5
+              },
+              {
+                "name": "_DstBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_EnvironmentReflections",
+                "value": 1.0
+              },
+              {
+                "name": "_GlossMapScale",
+                "value": 0.0
+              },
+              {
+                "name": "_Glossiness",
+                "value": 0.0
+              },
+              {
+                "name": "_GlossyReflections",
+                "value": 0.0
+              },
+              {
+                "name": "_Metallic",
+                "value": 0.0
+              },
+              {
+                "name": "_OcclusionStrength",
+                "value": 1.0
+              },
+              {
+                "name": "_QueueOffset",
+                "value": 0.0
+              },
+              {
+                "name": "_ReceiveShadows",
+                "value": 1.0
+              },
+              {
+                "name": "_Smoothness",
+                "value": 0.5
+              },
+              {
+                "name": "_SmoothnessTextureChannel",
+                "value": 0.0
+              },
+              {
+                "name": "_SpecularHighlights",
+                "value": 1.0
+              },
+              {
+                "name": "_SrcBlend",
+                "value": 1.0
+              },
+              {
+                "name": "_Surface",
+                "value": 0.0
+              },
+              {
+                "name": "_WorkflowMode",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.4811320900917053,
+                  "g": 0.4811320900917053,
+                  "b": 0.4811320900917053,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_WhiteColor",
+                "value": {
+                  "r": 0.7452830076217651,
+                  "g": 1.0,
+                  "b": 0.981326162815094,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_MidColor",
+                "value": {
+                  "r": 0.31132078170776367,
+                  "g": 1.0,
+                  "b": 0.9791309237480164,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_LastColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.1993296593427658,
+                  "b": 0.27358490228652954,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_Color2",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_FresnelFrontColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_FresnelBorderColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_GlowColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_BaseColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_EmissionColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_ScrollingSpeed",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_SecondTexSpeed_NoiseForce",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 0.5
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.20000000298023224,
+                  "g": 0.20000000298023224,
+                  "b": 0.20000000298023224,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskLinearGradient",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskUVScaleOffset",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "1088084104359054711",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AlphaMul",
+              "_ClampUV",
+              "_Color",
+              "_Color2",
+              "_ColorAdd",
+              "_ColorMul",
+              "_ColorMul2",
+              "_Coloring",
+              "_Culling",
+              "_Dissolve",
+              "_DissolveFactor",
+              "_DissolveSmoothness",
+              "_DistanceFadeout",
+              "_DstBlendOutline",
+              "_FadeoutDistance",
+              "_FadeoutY",
+              "_Fresnel",
+              "_FresnelBlend",
+              "_FresnelBorderColor",
+              "_FresnelBorderColorMultiplier",
+              "_FresnelFrontColor",
+              "_FresnelFrontColorMultiplier",
+              "_FresnelPower",
+              "_GlobalMipBias",
+              "_GlowAddMul",
+              "_GlowColor",
+              "_GlowIntensity",
+              "_IgnoreVertexAlpha",
+              "_LastColor",
+              "_LookupLine",
+              "_LookupTex",
+              "_MainTex",
+              "_MainTex_ST",
+              "_MidColor",
+              "_MiddlePointPos",
+              "_MinAlpha",
+              "_Offset1",
+              "_Offset2",
+              "_PremultipliedRGBTexture",
+              "_Scrolling",
+              "_ScrollingSpeed",
+              "_SecondTex",
+              "_SecondTexClampUV",
+              "_SecondTexGlobalUV",
+              "_SecondTexInitRot",
+              "_SecondTexRotSpeed",
+              "_SecondTexRotation",
+              "_SecondTexSpeed_NoiseForce",
+              "_SecondTexSwapUV",
+              "_SecondTexture",
+              "_SecondTextureType",
+              "_SrcBlendOutline",
+              "_SwapUV",
+              "_TextureType",
+              "_VertexMask",
+              "_VertexMaskAlphaMul",
+              "_VertexMaskLinearGradient",
+              "_VertexMaskUVScaleOffset",
+              "_WhiteColor",
+              "_ZWrite",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDEFAULTUNLIT"
+              },
+              {
+                "index": 1,
+                "light_mode": "GlowTransparent"
+              }
+            ],
+            "keywords": [
+              "_COLORING_RAMP",
+              "_DISSOLVE_NONE",
+              "_SECONDTEXTURETYPE_RGBR",
+              "_SECONDTEXTURE_NONE",
+              "_TEXTURETYPE_RGBR"
+            ],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        },
+        {
+          "state": "NonLegendary",
+          "action": "SetMaterial",
+          "node": 20,
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "1088084104359054711",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          },
+          "file": "9c76c0546c06f106070610fc.native-material.json",
+          "metadata": {
+            "name": "GenFX_Card_Ally_Fragmented_EdgeGlows",
+            "shader": "FX/CommonFX",
+            "textures": [
+              {
+                "name": "_LookupTex",
+                "path": "b3ef833ace3397e70e90036b.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              },
+              {
+                "name": "_MainTex",
+                "path": "40aed4b142c225f011dc85be.png",
+                "scale": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            ],
+            "floats": [
+              {
+                "name": "_TextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorAdd",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaMul",
+                "value": 1.5
+              },
+              {
+                "name": "_PremultipliedRGBTexture",
+                "value": 1.0
+              },
+              {
+                "name": "_Coloring",
+                "value": 1.0
+              },
+              {
+                "name": "_MiddlePointPos",
+                "value": 0.871999979019165
+              },
+              {
+                "name": "_LookupLine",
+                "value": 0.0
+              },
+              {
+                "name": "_Scrolling",
+                "value": 0.0
+              },
+              {
+                "name": "_SwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_ClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexture",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTextureType",
+                "value": 1.0
+              },
+              {
+                "name": "_ColorMul2",
+                "value": 1.0
+              },
+              {
+                "name": "_SecondTexRotation",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexRotSpeed",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexInitRot",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexClampUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexSwapUV",
+                "value": 0.0
+              },
+              {
+                "name": "_SecondTexGlobalUV",
+                "value": 0.0
+              },
+              {
+                "name": "_Dissolve",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveFactor",
+                "value": 0.0
+              },
+              {
+                "name": "_DissolveSmoothness",
+                "value": 0.10000000149011612
+              },
+              {
+                "name": "_MinAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_IgnoreVertexAlpha",
+                "value": 0.0
+              },
+              {
+                "name": "_Fresnel",
+                "value": 0.0
+              },
+              {
+                "name": "_FresnelPower",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelFrontColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBorderColorMultiplier",
+                "value": 1.0
+              },
+              {
+                "name": "_FresnelBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowIntensity",
+                "value": 0.0
+              },
+              {
+                "name": "_GlowAddMul",
+                "value": 0.0
+              },
+              {
+                "name": "_DistanceFadeout",
+                "value": 0.0
+              },
+              {
+                "name": "_FadeoutDistance",
+                "value": 0.30000001192092896
+              },
+              {
+                "name": "_FadeoutY",
+                "value": -0.05999999865889549
+              },
+              {
+                "name": "_VertexMask",
+                "value": 0.0
+              },
+              {
+                "name": "_VertexMaskAlphaMul",
+                "value": 1.0
+              },
+              {
+                "name": "_ZWrite",
+                "value": 0.0
+              },
+              {
+                "name": "_Culling",
+                "value": 0.0
+              },
+              {
+                "name": "_SrcBlendOutline",
+                "value": 1.0
+              },
+              {
+                "name": "_DstBlendOutline",
+                "value": 10.0
+              },
+              {
+                "name": "_Offset1",
+                "value": 0.0
+              },
+              {
+                "name": "_Offset2",
+                "value": 0.0
+              },
+              {
+                "name": "_AlphaClip",
+                "value": 0.0
+              },
+              {
+                "name": "_Blend",
+                "value": 0.0
+              },
+              {
+                "name": "_BumpScale",
+                "value": 1.0
+              },
+              {
+                "name": "_Cull",
+                "value": 2.0
+              },
+              {
+                "name": "_Cutoff",
+                "value": 0.5
+              },
+              {
+                "name": "_DstBlend",
+                "value": 0.0
+              },
+              {
+                "name": "_EnvironmentReflections",
+                "value": 1.0
+              },
+              {
+                "name": "_GlossMapScale",
+                "value": 0.0
+              },
+              {
+                "name": "_Glossiness",
+                "value": 0.0
+              },
+              {
+                "name": "_GlossyReflections",
+                "value": 0.0
+              },
+              {
+                "name": "_Metallic",
+                "value": 0.0
+              },
+              {
+                "name": "_OcclusionStrength",
+                "value": 1.0
+              },
+              {
+                "name": "_QueueOffset",
+                "value": 0.0
+              },
+              {
+                "name": "_ReceiveShadows",
+                "value": 1.0
+              },
+              {
+                "name": "_Smoothness",
+                "value": 0.5
+              },
+              {
+                "name": "_SmoothnessTextureChannel",
+                "value": 0.0
+              },
+              {
+                "name": "_SpecularHighlights",
+                "value": 1.0
+              },
+              {
+                "name": "_SrcBlend",
+                "value": 1.0
+              },
+              {
+                "name": "_Surface",
+                "value": 0.0
+              },
+              {
+                "name": "_WorkflowMode",
+                "value": 1.0
+              }
+            ],
+            "colors": [
+              {
+                "name": "_Color",
+                "value": {
+                  "r": 0.4811320900917053,
+                  "g": 0.4811320900917053,
+                  "b": 0.4811320900917053,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_WhiteColor",
+                "value": {
+                  "r": 0.7452830076217651,
+                  "g": 1.0,
+                  "b": 0.981326162815094,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_MidColor",
+                "value": {
+                  "r": 0.31132078170776367,
+                  "g": 1.0,
+                  "b": 0.9791309237480164,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_LastColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.1993296593427658,
+                  "b": 0.27358490228652954,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_Color2",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_FresnelFrontColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_FresnelBorderColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_GlowColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_BaseColor",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_EmissionColor",
+                "value": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_ScrollingSpeed",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              },
+              {
+                "name": "_SecondTexSpeed_NoiseForce",
+                "value": {
+                  "r": 0.5,
+                  "g": 0.5,
+                  "b": 0.5,
+                  "a": 0.5
+                }
+              },
+              {
+                "name": "_SpecColor",
+                "value": {
+                  "r": 0.20000000298023224,
+                  "g": 0.20000000298023224,
+                  "b": 0.20000000298023224,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskLinearGradient",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                }
+              },
+              {
+                "name": "_VertexMaskUVScaleOffset",
+                "value": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 0.0
+                }
+              }
+            ],
+            "source": {
+              "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+              "pathid": "1088084104359054711",
+              "type": "Material",
+              "bundle": "essential_base_global-material-0.unity3d"
+            },
+            "missing_shader": false,
+            "properties": [
+              "$Globals",
+              "UnityPerDraw",
+              "UnityPerMaterial",
+              "_AlphaMul",
+              "_ClampUV",
+              "_Color",
+              "_Color2",
+              "_ColorAdd",
+              "_ColorMul",
+              "_ColorMul2",
+              "_Coloring",
+              "_Culling",
+              "_Dissolve",
+              "_DissolveFactor",
+              "_DissolveSmoothness",
+              "_DistanceFadeout",
+              "_DstBlendOutline",
+              "_FadeoutDistance",
+              "_FadeoutY",
+              "_Fresnel",
+              "_FresnelBlend",
+              "_FresnelBorderColor",
+              "_FresnelBorderColorMultiplier",
+              "_FresnelFrontColor",
+              "_FresnelFrontColorMultiplier",
+              "_FresnelPower",
+              "_GlobalMipBias",
+              "_GlowAddMul",
+              "_GlowColor",
+              "_GlowIntensity",
+              "_IgnoreVertexAlpha",
+              "_LastColor",
+              "_LookupLine",
+              "_LookupTex",
+              "_MainTex",
+              "_MainTex_ST",
+              "_MidColor",
+              "_MiddlePointPos",
+              "_MinAlpha",
+              "_Offset1",
+              "_Offset2",
+              "_PremultipliedRGBTexture",
+              "_Scrolling",
+              "_ScrollingSpeed",
+              "_SecondTex",
+              "_SecondTexClampUV",
+              "_SecondTexGlobalUV",
+              "_SecondTexInitRot",
+              "_SecondTexRotSpeed",
+              "_SecondTexRotation",
+              "_SecondTexSpeed_NoiseForce",
+              "_SecondTexSwapUV",
+              "_SecondTexture",
+              "_SecondTextureType",
+              "_SrcBlendOutline",
+              "_SwapUV",
+              "_TextureType",
+              "_VertexMask",
+              "_VertexMaskAlphaMul",
+              "_VertexMaskLinearGradient",
+              "_VertexMaskUVScaleOffset",
+              "_WhiteColor",
+              "_ZWrite",
+              "unity_MatrixVP",
+              "unity_ObjectToWorld"
+            ],
+            "render_queue": 3000,
+            "queue_tag": "Transparent",
+            "passes": [
+              {
+                "index": 0,
+                "light_mode": "SRPDEFAULTUNLIT"
+              },
+              {
+                "index": 1,
+                "light_mode": "GlowTransparent"
+              }
+            ],
+            "keywords": [
+              "_COLORING_RAMP",
+              "_DISSOLVE_NONE",
+              "_SECONDTEXTURETYPE_RGBR",
+              "_SECONDTEXTURE_NONE",
+              "_TEXTURETYPE_RGBR"
+            ],
+            "src": 1,
+            "dst": 10,
+            "src_alpha": 1,
+            "dst_alpha": 10,
+            "compiled_only": true,
+            "dependency_errors": []
+          }
+        }
+      ]
+    }
+  ],
+  "complete": false,
+  "notes": [
+    "Original mesh bytes/textures stay in local/. Material replacement does not prove complete original shader or MaterialService restoration."
+  ]
+}

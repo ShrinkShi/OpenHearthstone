@@ -1,0 +1,35 @@
+# 原 PowerTask 执行与等待
+
+TASK-0002 补充了 [SuperSpell 命中 metadata 宿主契约](ORIGINAL_SUPER_IMPACT.md)：Until 与 From 的协程/任务回调完成不同，视觉 Pending 不能代替根 metadata pending。当前未自动连接 NativePowerExecution、真实原历史或正式比赛；缺失服务明确拒绝。
+
+后续恢复原区域列表完成/回调及dirty/Busy等待接口；以下保留任务执行节点历史状态，实际布局/ZoneMgr和整卡合成仍未完成，见[ORIGINAL_ZONE_CHANGE_LIST](ORIGINAL_ZONE_CHANGE_LIST.md)。
+
+2026-10-12。全卡原专属动画、完整Shader/脚本未完成；整效果启用仍2。本节点恢复任务执行分派、完成标记及列表范围等待，不等于完整原GameState/ZoneMgr已恢复。
+
+## 原依据
+
+静态只读原PowerTask.DoTask/SetCompleted、PowerTaskList.CreateTask/AddTask/AddTasks/OnTaskCompleted/IsComplete/DoTasks及WaitForGameStateAndDoTasks迭代器、ZoneMgr.IsHandledPower；原UniTask.PlayerLoopTiming常量确认8为Update。原程序集身份在original-script-audit.json，未执行官方程序集。
+
+SetCompleted(true)每次调用完成回调，false只改标记；DoTask在已有完成标记时直接返回。已知历史类型分派到对应GameState方法，返回boolean被忽略；FullEntity/ShowEntity随后通知HistoryManager揭示实体，再完成任务。Block等未分派类型也完成。异常发生时不能提前标记完成。
+
+CreateTask绑定列表完成回调并增加pending；AddTask/AddTasks直接追加和加计数，不改原任务回调所有者，也不跳过已完成任务。pending减到零时记录realtimeSinceStartup并发TimelineEnd；IsComplete则独立检查全部task标记和ZoneChangeList，不能用pending==0代替。原重复回调可能产生负pending，保留该行为。
+
+## 范围、区域和等待
+
+范围末端仅上界裁剪，原请求start/count/userData保留给回调。扫描找到首个未完成任务，遇到ZoneMgr处理类型先交区域服务；返回非空ZoneChangeList后不直接执行，区域回调负责原范围完成。空ZoneChangeList按原规则继续；未提供区域服务会明确拒绝，不绕过。
+
+区域路由恢复原FullEntity标签顺序与Game/Player排除，Show/Hide必处理；TagChange只处理49/263/50/1702/1703/2032，实体缺失也路由，Game/Player不处理。
+
+没有Gameplay时同步执行范围；有Gameplay时逐任务先等待CanDoTask，执行后等待MulliganBusy结束。Yield在下一次原Update阶段恢复，使用显式presentationFrame：本帧Update尚未执行时可同帧恢复，执行中/之后入队等下一帧。原YieldPromise创建时即检查已取消token，未取消的Yield在恢复时也检查。没有Yield的立即完成路径不主动增加取消检查。异步错误报告一次并终止该请求，不反复尝试缺失服务。
+
+NativePowerServices提供明确GameState handler、HistoryManager、PowerProcessor、ZoneMgr、时钟与等待门槛。输入payloadType标记在本地验证已知历史分派；它仍是规范化输入，不包含官方Network对象或完整protobuf反序列化。NativeSpellContext.CreatePowerExecution只能从明确附着的原历史输入创建，普通SemanticEvent不自动生成历史任务。
+
+## 验证与缺口
+
+work/native-power-execution-verified.log退出0，61项新增检查：12分派与7无操作类型、揭示顺序、缺失handler/错误payload、重复完成与pending、范围回调、取消/Update/换牌门槛、故障不重试及原区域路由。另读原YieldPromise.Create和PlayerLoopRunner.AddAction确认创建即取消与同帧Update/运行中等候队列，新增三项边界检查。既有33历史收集、27目标集合、35对象选择、29定位、57攻击、78193运行时、92召唤和四入场图通过。1165Python通过，15UnityPy版本回退警告，48.16秒；最终构建与比赛证据见下，旧构建不作为最终代码验收。
+
+最终work/build-native-power-execution-final.log退出0，实际Mixer Bundle九编译常量与原一致。最终构建后台power_exec_final_1/2在47436端口完成54896360ab5240218d73f5107b947eff：12回合/version37，Shrink2战士30血胜、Shrink1盗贼-1血负；两端hash均837a788018d5f9c3937216ebf1174dc26b1e197f863e8cbeeb76dd9ddd3fc3f8，客户端和服务器日志无异常/fallback。终局核对命令行后只清理本次三进程。该比赛证明现有语义事件路径回归通过，不证明原任务执行或新动画已正式启用。
+
+UI校准SHA256保持E85CE40298C0FD45916D73FB1CC547AD9C46D1E3E124D2E0465F976C6B547DA6。此前47435在调度修正前的比赛结果不作为最终构建验收。
+
+未完成：完整GameState/HistoryManager/PowerProcessor/ZoneMgr实现及原任务副作用、ZoneChangeList实际动画、原历史传输/层级/反序列化、完整Controller及派生脚本、正式攻击与整卡Shader合成。执行服务默认没有接入正式游戏，正常客户端继续既有语义事件路径，没有新增完整原卡效果或人工画面/听音/1080p60FPS验收。未Computer Use，未修改官方安装。

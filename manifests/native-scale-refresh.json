@@ -1,0 +1,449 @@
+{
+  "programs": [
+    {
+      "file": "07ebfc013884b374cb15adea.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "0b35d77cb19dfbe98486aba2.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "1246094cae2466b286969390.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "13e4ba2cda5d567ad3d3e0be.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "1438c953f1f357de128e06d3.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "actions": 4,
+      "parameters": 28,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 4
+    },
+    {
+      "file": "1ae606ad4f7dc8da9eb50b93.native-effect.json",
+      "actions": 4,
+      "parameters": 28,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 4
+    },
+    {
+      "file": "1ca86742da8eb534a697ead5.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "1e0c31e9a92b65ad90510c2c.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "22c4067aa2cd3c2bd8efeeaa.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "3145382ed4eaa71f42512d35.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "3c415989b1c0de7341d80bc2.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "42d289aca4cfca200b6b269c.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "4434872dd310842925df6adb.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 5
+    },
+    {
+      "file": "46d81302ae2bb97b610d8d97.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "4c92ac4d973163d8aa044fed.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 5
+    },
+    {
+      "file": "4ee6ffa1aa571c59d1e93571.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "57e74cc43277c106c26561a5.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "5840edc5ac4646f614b1ea81.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 5
+    },
+    {
+      "file": "5b07a18207a346acdccc8e67.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "5bc655cb7218e5ef61cd20da.native-effect.json",
+      "actions": 4,
+      "parameters": 28,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 4
+    },
+    {
+      "file": "5d9349d1d17e9b05e11ae8f8.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 5
+    },
+    {
+      "file": "621c28345b06404ee035c496.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "6ed9b2fe2d7816de1a381ef7.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "7024c8217869a2aa75640d34.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "762b0d4d666d476a37cc68d7.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "7a8e6c26f439a145cb9e19f9.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 5
+    },
+    {
+      "file": "7eb05bff6341edbefb72ace7.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "7f5b7f88ce33488167db5847.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "81adc1ee5e4a815a745824b5.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "81d48cc85076bc4fff8d63f8.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "878fdf50d856cdf456617073.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 5
+    },
+    {
+      "file": "88b10fdc27a19c6d8b6ad1de.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "8e9f0d8f5a1886a9603d43dc.native-effect.json",
+      "actions": 4,
+      "parameters": 28,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 4
+    },
+    {
+      "file": "981819333488b6f836164c88.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "a0614be9344a4dcba2c4ffe6.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "a3a72c250112359a6fb121fe.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "a484b427845ecdd3236cbf88.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 5
+    },
+    {
+      "file": "a8cf92633f5d3d82c7685134.native-effect.json",
+      "actions": 4,
+      "parameters": 28,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 4
+    },
+    {
+      "file": "b10fae62eb82f7e577eb3ea0.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "b2596697f60ecbdf78727269.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "b34be3ab40864bfe57eb05fd.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 5
+    },
+    {
+      "file": "cf9d4c60b62b3aa53b3bbc73.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 7
+    },
+    {
+      "file": "d302cce0aba660e4a87ec9a8.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "d40370bc9615eb69423e852d.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "d4dfd34b1825cf367c392e29.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "d790330298f4596a1be10106.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "d983377e9b38c87392ce32b9.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "d98da28a8a8b48e1461e962d.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "dbde447b3c82b2bf7e3b858c.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "dc47cf6c776ab507e0426971.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "e8ff6ac6020996b43d214a42.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "ec9f4d80a7c82910c627b95c.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "ef719cc32cc2ec11a8bb1456.native-effect.json",
+      "actions": 5,
+      "parameters": 35,
+      "updated": false,
+      "unresolved": 0,
+      "none_parameters": 5
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source SetScale parameters and vector defaults only. Unbound target variables remain unsupported."
+  ]
+}

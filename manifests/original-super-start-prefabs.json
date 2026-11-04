@@ -1,0 +1,59 @@
+{
+  "prefabs": [
+    {
+      "reference": "ReuseFX_Holy_Idle_01.prefab:506c0a66b79385a4391e1db1b1f7ed59",
+      "file": "5a360810c62fabb080bc018b.start-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-3917846533252072615",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        "reference": "ReuseFX_Holy_Idle_01.prefab:506c0a66b79385a4391e1db1b1f7ed59",
+        "cache": "local/runtime/5a360810c62fabb080bc018b.start-spell.json",
+        "nodes": 12,
+        "particles": 4,
+        "animations": 0,
+        "captures": 0,
+        "actions": {
+          "SpellStateAction": 6,
+          "SetVisibility": 3,
+          "SetMaterialColor": 7,
+          "ParticlePlayAction": 4,
+          "AudioPlayClipAction": 2,
+          "ParticleStopAction": 6,
+          "AnimateFloat": 19,
+          "SetColorRGBA": 3,
+          "SetProperty": 10,
+          "AnimateColor": 3,
+          "SetMaterialFloat": 7,
+          "AudioPlayAction": 1,
+          "AudioSetVolumeAction": 3,
+          "Wait": 4,
+          "SpellFinishAction": 3
+        },
+        "unresolved_parameters": 0,
+        "shader_families": [
+          "Custom/FX/FX_HeroMask_VertColorOnly",
+          "Custom/FX/FX_HolyRender",
+          "Effects/FX_AdditiveVertColor",
+          "Hero/AddMultiply/AddMultiply",
+          "Hero/Additive/Additive"
+        ],
+        "unknown_actions": [
+          "AnimateColor",
+          "AudioPlayAction",
+          "AudioPlayClipAction",
+          "AudioSetVolumeAction",
+          "SetProperty"
+        ],
+        "unsupported_modules": [],
+        "errors": []
+      },
+      "audio_file": "5a360810c62fabb080bc018b.start-audio.json",
+      "audio_errors": []
+    }
+  ],
+  "full_super_spell_restored": false
+}

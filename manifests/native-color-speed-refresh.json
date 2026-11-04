@@ -1,0 +1,2156 @@
+{
+  "programs": [
+    {
+      "file": "0f0ec46ae18fad7f2fa1dad7.native-effect.json",
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_Small_Super.prefab:826a514f97c88fd47bc3fb4b526660d2",
+      "modules": [
+        {
+          "node": 6,
+          "path": "Root/Minion_Root/FX_Smoke",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "1166949464218037362",
+            "type": "ParticleSystem",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 1,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 16384,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 0,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 1.0
+            }
+          }
+        },
+        {
+          "node": 12,
+          "path": "Root/Hero_Root/FX_Smoke",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-584119875628405646",
+            "type": "ParticleSystem",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 1,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 16384,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 0,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 1.0
+            }
+          }
+        }
+      ],
+      "updated": false,
+      "dependency_errors": [
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources"
+      ]
+    },
+    {
+      "file": "2ac223d9b583771c9eb24338.native-effect.json",
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super_Random.prefab:e51c00c98fe156748a1e45b17b0fb182",
+      "modules": [
+        {
+          "node": 31,
+          "path": "Root/FX_Smoke",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-2117800477728549092",
+            "type": "ParticleSystem",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 1,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 0.7830188870429993,
+                  "g": 0.7830188870429993,
+                  "b": 0.7830188870429993,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 9059,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 9059,
+                "atime2": 65535,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 3
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 0,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 4.0
+            }
+          }
+        }
+      ],
+      "updated": false,
+      "dependency_errors": [
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources"
+      ]
+    },
+    {
+      "file": "3b53c6edac0ba99e03be30be.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_WithIdle.prefab:dc16293627043ed4a8204cf20b128328",
+      "modules": [
+        {
+          "node": 38,
+          "path": "Root/TargetJoint/TargetJoint_Slash03/Mesh_Slash/FX_SlashSparks",
+          "source": {
+            "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+            "pathid": "8262307600871975550",
+            "type": "ParticleSystem",
+            "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 3,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.06363473832607269,
+                  "g": 0.07086241990327835,
+                  "b": 0.12264150381088257,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 5012,
+                "ctime1": 24865,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 20.0
+            }
+          }
+        },
+        {
+          "node": 28,
+          "path": "Root/TargetJoint/TargetJoint_Slash01/Mesh_Slash/FX_SlashSparks",
+          "source": {
+            "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+            "pathid": "5102046250391759486",
+            "type": "ParticleSystem",
+            "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 3,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.06363473832607269,
+                  "g": 0.07086241990327835,
+                  "b": 0.12264150381088257,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 5012,
+                "ctime1": 24865,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 20.0
+            }
+          }
+        },
+        {
+          "node": 33,
+          "path": "Root/TargetJoint/TargetJoint_Slash02/Mesh_Slash/FX_SlashSparks",
+          "source": {
+            "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+            "pathid": "-4427710414050432386",
+            "type": "ParticleSystem",
+            "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 3,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.06363473832607269,
+                  "g": 0.07086241990327835,
+                  "b": 0.12264150381088257,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 5012,
+                "ctime1": 24865,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 20.0
+            }
+          }
+        }
+      ],
+      "updated": false,
+      "dependency_errors": [
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources"
+      ]
+    },
+    {
+      "file": "4d8519098584bdd2988a4511.native-effect.json",
+      "reference": "ReuseFX_Decay_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:ade894ff3a30e9b43b0bc0daa1667303",
+      "modules": [
+        {
+          "node": 17,
+          "path": "Root/Slash_Root/SourceJoint/TargetJoint/Mesh_Slash/FX_SlashSparks",
+          "source": {
+            "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+            "pathid": "3561334988950902221",
+            "type": "ParticleSystem",
+            "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 1,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.045050956308841705,
+                  "g": 0.12156862765550613,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 0.4114243984222412,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 6361,
+                "ctime1": 23323,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 0,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 20.0
+            }
+          }
+        }
+      ],
+      "updated": false,
+      "dependency_errors": [
+        "Unity 内建资源不在客户端资源包中：unity default resources"
+      ]
+    },
+    {
+      "file": "74398d37bea0bf0116c207f0.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_NoIdle.prefab:58fda7c5c9a94f04bb88e51dea789cab",
+      "modules": [
+        {
+          "node": 38,
+          "path": "Root/TargetJoint/TargetJoint_Slash03/Mesh_Slash/FX_SlashSparks",
+          "source": {
+            "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+            "pathid": "8262307600871975550",
+            "type": "ParticleSystem",
+            "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 3,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.06363473832607269,
+                  "g": 0.07086241990327835,
+                  "b": 0.12264150381088257,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 5012,
+                "ctime1": 24865,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 20.0
+            }
+          }
+        },
+        {
+          "node": 28,
+          "path": "Root/TargetJoint/TargetJoint_Slash01/Mesh_Slash/FX_SlashSparks",
+          "source": {
+            "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+            "pathid": "5102046250391759486",
+            "type": "ParticleSystem",
+            "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 3,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.06363473832607269,
+                  "g": 0.07086241990327835,
+                  "b": 0.12264150381088257,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 5012,
+                "ctime1": 24865,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 20.0
+            }
+          }
+        },
+        {
+          "node": 33,
+          "path": "Root/TargetJoint/TargetJoint_Slash02/Mesh_Slash/FX_SlashSparks",
+          "source": {
+            "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+            "pathid": "-4427710414050432386",
+            "type": "ParticleSystem",
+            "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 3,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.06363473832607269,
+                  "g": 0.07086241990327835,
+                  "b": 0.12264150381088257,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 5012,
+                "ctime1": 24865,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 0.38447844982147217,
+                  "g": 0.5068448781967163,
+                  "b": 0.7547169923782349,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 20.0
+            }
+          }
+        }
+      ],
+      "updated": false,
+      "dependency_errors": [
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources"
+      ]
+    },
+    {
+      "file": "b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super.prefab:5f189b59ddd96234ba95040813a40274",
+      "modules": [
+        {
+          "node": 31,
+          "path": "Root/FX_Smoke",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "371744479808675827",
+            "type": "ParticleSystem",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 1,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 0.7830188870429993,
+                  "g": 0.7830188870429993,
+                  "b": 0.7830188870429993,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 9059,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 9059,
+                "atime2": 65535,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 3
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 0,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 4.0
+            }
+          }
+        }
+      ],
+      "updated": false,
+      "dependency_errors": [
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources"
+      ]
+    },
+    {
+      "file": "d554fc3ef71c90388d48ea9e.native-effect.json",
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:4c6b1bd7d021c0f4e8da477dc769a6db",
+      "modules": [
+        {
+          "node": 23,
+          "path": "Root/Slash_Root/SourceJoint/TargetJoint/Mesh_Slash/FX_SlashSparks",
+          "source": {
+            "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+            "pathid": "3582345701512777842",
+            "type": "ParticleSystem",
+            "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+          },
+          "original": {
+            "enabled": true,
+            "gradient": {
+              "minMaxState": 1,
+              "minColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "maxGradient": {
+                "key0": {
+                  "r": 0.12264150381088257,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 6361,
+                "ctime1": 23323,
+                "ctime2": 65535,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 3,
+                "m_NumAlphaKeys": 2
+              },
+              "minGradient": {
+                "key0": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key1": {
+                  "r": 1.0,
+                  "g": 1.0,
+                  "b": 1.0,
+                  "a": 1.0
+                },
+                "key2": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key3": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key4": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key5": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key6": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "key7": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 0.0
+                },
+                "ctime0": 0,
+                "ctime1": 65535,
+                "ctime2": 0,
+                "ctime3": 0,
+                "ctime4": 0,
+                "ctime5": 0,
+                "ctime6": 0,
+                "ctime7": 0,
+                "atime0": 0,
+                "atime1": 65535,
+                "atime2": 0,
+                "atime3": 0,
+                "atime4": 0,
+                "atime5": 0,
+                "atime6": 0,
+                "atime7": 0,
+                "m_Mode": 0,
+                "m_ColorSpace": -1,
+                "m_NumColorKeys": 2,
+                "m_NumAlphaKeys": 2
+              }
+            },
+            "range": {
+              "x": 0.0,
+              "y": 20.0
+            }
+          }
+        }
+      ],
+      "updated": false,
+      "dependency_errors": [
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources",
+        "Unity 内建资源不在客户端资源包中：unity default resources"
+      ]
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source ColorBySpeed parameters only. Other modules and card enable decisions are unchanged."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "textures": [
+    {
+      "png": "bd0a840fa42345cfe1f2f92a.png",
+      "raw": "bd0a840fa42345cfe1f2f92a.texturedata",
+      "name": "GenFX_Black32x32",
+      "source": {
+        "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+        "pathid": "4833020495498419601",
+        "type": "Texture2D",
+        "bundle": "essential_base_global-texture-2.unity3d"
+      },
+      "sha256": "8adc66c076d11545de2a82da2b76e6903d35e65188fe6e3532671814b8e54807",
+      "width": 32,
+      "height": 32,
+      "format": 10,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "001cf36dd451de5a1dcde77c.png",
+      "raw": "001cf36dd451de5a1dcde77c.texturedata",
+      "name": "GenFX_Lines",
+      "source": {
+        "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+        "pathid": "575926003976946273",
+        "type": "Texture2D",
+        "bundle": "essential_base_global-texture-2.unity3d"
+      },
+      "sha256": "5c56558ee5dba26557ab5c615638c429df52d5840af74b3123ee4b605492c928",
+      "width": 128,
+      "height": 128,
+      "format": 3,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    }
+  ],
+  "complete": false,
+  "notes": [
+    "Exact original RGB24/DXT1 payload, one mip and sampler for the two ordinary minion flare dependencies. Other source textures remain outside this restoration."
+  ]
+}

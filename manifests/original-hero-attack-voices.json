@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "locale": "zhcn",
+  "heroes": [
+    {
+      "class_id": 1,
+      "card_id": "HERO_11"
+    },
+    {
+      "class_id": 2,
+      "card_id": "HERO_06"
+    },
+    {
+      "class_id": 3,
+      "card_id": "HERO_05"
+    },
+    {
+      "class_id": 4,
+      "card_id": "HERO_08"
+    },
+    {
+      "class_id": 5,
+      "card_id": "HERO_04"
+    },
+    {
+      "class_id": 6,
+      "card_id": "HERO_09"
+    },
+    {
+      "class_id": 7,
+      "card_id": "HERO_03"
+    },
+    {
+      "class_id": 8,
+      "card_id": "HERO_02"
+    },
+    {
+      "class_id": 9,
+      "card_id": "HERO_07"
+    },
+    {
+      "class_id": 10,
+      "card_id": "HERO_01"
+    },
+    {
+      "class_id": 14,
+      "card_id": "HERO_10"
+    }
+  ],
+  "voices": [
+    {
+      "id": "VOICE_HERO_01_ATTACK_0",
+      "card_id": "HERO_01",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:30e37701594b3a943a0d101a34f76a03"
+      ],
+      "name": "VO_HERO_01_Attack_16",
+      "locale": "zhcn",
+      "timing": {
+        "seconds": 0.0,
+        "resolved": true,
+        "anchor": "card_event",
+        "source": "CardSoundData.m_DelaySec",
+        "label": "卡牌事件开始后 0 秒"
+      },
+      "delay": 0.0,
+      "asset_id": "73c050ccbc6dc8623727a8e5",
+      "bundle": "essential_base_zhcn-content-0.unity3d",
+      "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+      "pathid": "4632708352652411439",
+      "file": "73c050ccbc6dc8623727a8e5.wav",
+      "sha256": "c02ab2349bdab45c8019124ad00e49a69b8e6afa09b15a9768f5e79d79d230aa"
+    },
+    {
+      "id": "VOICE_HERO_02_ATTACK_0",
+      "card_id": "HERO_02",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:eadfb5108a4170e4fa4832c1d97756dd"
+      ],
+      "name": "VO_Hero_02_Attack_16",
+      "locale": "zhcn",
+      "timing": {
+        "seconds": 0.0,
+        "resolved": true,
+        "anchor": "card_event",
+        "source": "CardSoundData.m_DelaySec",
+        "label": "卡牌事件开始后 0 秒"
+      },
+      "delay": 0.0,
+      "asset_id": "ee7797e12732579cb49875f4",
+      "bundle": "soundotherminion_base_zhcn-244154c1-audio-0.unity3d",
+      "cab": "CAB-93d9c010490a1992462773f1e7d8c88f",
+      "pathid": "-1226618090990310800",
+      "file": "ee7797e12732579cb49875f4.wav",
+      "sha256": "ca39d8325f45f1415768f8765a18199247e09945f7adfb36c07950b2662f4729"
+    },
+    {
+      "id": "VOICE_HERO_03_ATTACK_0",
+      "card_id": "HERO_03",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:e5cb0a24b2693dd4db604197eab25a97"
+      ],
+      "name": "VO_HERO_03_Attack_16",
+      "locale": "zhcn",
+      "timing": {
+        "seconds": 0.0,
+        "resolved": true,
+        "anchor": "card_event",
+        "source": "CardSoundData.m_DelaySec",
+        "label": "卡牌事件开始后 0 秒"
+      },
+      "delay": 0.0,
+      "asset_id": "92381fd191d610f46f2a9da9",
+      "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+      "cab": "CAB-39f0060d22d36de4181537642b004baa",
+      "pathid": "2037274676136039523",
+      "file": "92381fd191d610f46f2a9da9.wav",
+      "sha256": "5b5397aea26074792eb4cbe64b47904936c744e723d9f468102191dea1bf19cb"
+    },
+    {
+      "id": "VOICE_HERO_04_ATTACK_0",
+      "card_id": "HERO_04",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:ab459069dd3f8de42b4fb0d3e60c4809"
+      ],
+      "name": "VO_HERO_04_Attack_16",
+      "locale": "zhcn",
+      "timing": {
+        "seconds": 0.0,
+        "resolved": true,
+        "anchor": "card_event",
+        "source": "CardSoundData.m_DelaySec",
+        "label": "卡牌事件开始后 0 秒"
+      },
+      "delay": 0.0,
+      "asset_id": "50755178e1c50dba0fedce37",
+      "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+      "cab": "CAB-39f0060d22d36de4181537642b004baa",
+      "pathid": "-4119564147771439930",
+      "file": "50755178e1c50dba0fedce37.wav",
+      "sha256": "bf7c1c70914b0c68a8fe4887918e1031a1c24028a36b59d86d3ef284838f8575"
+    },
+    {
+      "id": "VOICE_HERO_05_ATTACK_0",
+      "card_id": "HERO_05",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:7121158d15e17ca4f86bfd4ae7b6add8"
+      ],
+      "name": "VO_HERO_05_Attack_16",
+      "locale": "zhcn",
+      "timing": {
+        "seconds": 0.0,
+        "resolved": true,
+        "anchor": "card_event",
+        "source": "CardSoundData.m_DelaySec",
+        "label": "卡牌事件开始后 0 秒"
+      },
+      "delay": 0.0,
+      "asset_id": "ff9f13b4e93013abb1c77dad",
+      "bundle": "essential_base_zhcn-content-0.unity3d",
+      "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+      "pathid": "-2831665452687838114",
+      "file": "ff9f13b4e93013abb1c77dad.wav",
+      "sha256": "d23381c7676fd9934624b6dd1653f87e929eefca1467d99e5707e04c36acdfc9"
+    },
+    {
+      "id": "VOICE_HERO_06_ATTACK_0",
+      "card_id": "HERO_06",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:9ff06546da9483a49891c9daf495eea9"
+      ],
+      "name": "VO_HERO_06_Attack_16",
+      "locale": "zhcn",
+      "timing": {
+        "seconds": 0.0,
+        "resolved": true,
+        "anchor": "card_event",
+        "source": "CardSoundData.m_DelaySec",
+        "label": "卡牌事件开始后 0 秒"
+      },
+      "delay": 0.0,
+      "asset_id": "f583459cf51942cc04845a84",
+      "bundle": "soundotherminion_base_zhcn-244154c1-audio-1.unity3d",
+      "cab": "CAB-39f0060d22d36de4181537642b004baa",
+      "pathid": "7196377538606496276",
+      "file": "f583459cf51942cc04845a84.wav",
+      "sha256": "104417f7928542099b10646ce03deb640d68c0c43e1af786ee1a41fc92b98cf8"
+    },
+    {
+      "id": "VOICE_HERO_07_ATTACK_0",
+      "card_id": "HERO_07",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:ecc39b2ce8d5e4e48b62bfc307068b3b"
+      ],
+      "name": "VO_HERO_07_Attack_16",
+      "locale": "zhcn",
+      "timing": {
+        "seconds": 0.0,
+        "resolved": true,
+        "anchor": "card_event",
+        "source": "CardSoundData.m_DelaySec",
+        "label": "卡牌事件开始后 0 秒"
+      },
+      "delay": 0.0,
+      "asset_id": "253ebfaff8a0e261ee8fc3a1",
+      "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+      "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+      "pathid": "-7065112425380914465",
+      "file": "253ebfaff8a0e261ee8fc3a1.wav",
+      "sha256": "b079d14354bc4e97ae0e37034b62745abba9901ed1985209c56225631262cd9d"
+    },
+    {
+      "id": "VOICE_HERO_08_ATTACK_0",
+      "card_id": "HERO_08",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:4c85956ed4f604e42b089f09cfee3690"
+      ],
+      "name": "VO_HERO_08_Attack_71",
+      "locale": "zhcn",
+      "timing": {
+        "seconds": 0.0,
+        "resolved": true,
+        "anchor": "card_event",
+        "source": "CardSoundData.m_DelaySec",
+        "label": "卡牌事件开始后 0 秒"
+      },
+      "delay": 0.0,
+      "asset_id": "2f684784aa4d7203be00af4b",
+      "bundle": "essential_base_zhcn-content-0.unity3d",
+      "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+      "pathid": "-2464538404216660408",
+      "file": "2f684784aa4d7203be00af4b.wav",
+      "sha256": "63eb45cdaf9cd2927e017a45e1bd5497fdc2d45aa1a2f14c0adf56c2a29f873e"
+    },
+    {
+      "id": "VOICE_HERO_09_ATTACK_0",
+      "card_id": "HERO_09",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:c4a2dbfb28f90874f84b33dd27f51e02"
+      ],
+      "name": "VO_HERO_09_Attack_16",
+      "locale": "zhcn",
+      "timing": {
+        "seconds": 0.0,
+        "resolved": true,
+        "anchor": "card_event",
+        "source": "CardSoundData.m_DelaySec",
+        "label": "卡牌事件开始后 0 秒"
+      },
+      "delay": 0.0,
+      "asset_id": "a654381be0924c4d217bf54a",
+      "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+      "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+      "pathid": "9116429798464764738",
+      "file": "a654381be0924c4d217bf54a.wav",
+      "sha256": "0bb93c7facfe47113764dc0e312313debdfa0cbf7c2dfea8d6f7098eddd88141"
+    },
+    {
+      "id": "VOICE_HERO_10_ATTACK_0",
+      "card_id": "HERO_10",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:1918e49d77f5c0d4ea9209e988c24a72"
+      ],
+      "name": "VO_Hero_10_Male_NightElf_Attack_01",
+      "locale": "zhcn",
+      "timing": {
+        "resolved": false,
+        "anchor": "random_selection",
+        "label": "客户端随机候选音轨；不能将互斥候选同时叠放"
+      },
+      "delay": 0,
+      "asset_id": "23425424c1f8850a60a69c3e",
+      "bundle": "soundotherminion_base_zhcn-244154c1-audio-2.unity3d",
+      "cab": "CAB-4ff854363a2bcc70d4f8eb0d05fd3164",
+      "pathid": "3895666378853505749",
+      "file": "23425424c1f8850a60a69c3e.wav",
+      "sha256": "9cd72799948514e4ef510d1d378a3f7e2f372ecb841a2bd299833f1317c6818d"
+    },
+    {
+      "id": "VOICE_HERO_10_ATTACK_1",
+      "card_id": "HERO_10",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:1918e49d77f5c0d4ea9209e988c24a72"
+      ],
+      "name": "VO_BTA_BOSS_17hx_Male_NightElf_Mission_Fight_26_Boss_Attack_01",
+      "locale": "zhcn",
+      "timing": {
+        "resolved": false,
+        "anchor": "random_selection",
+        "label": "客户端随机候选音轨；不能将互斥候选同时叠放"
+      },
+      "delay": 0,
+      "asset_id": "904ed190eaba942518ba3c57",
+      "bundle": "soundmission_base_zhcn-4670aad5-audio-0.unity3d",
+      "cab": "CAB-adb4daed2b2374ef11b47bcbff595604",
+      "pathid": "-4189967078807760491",
+      "file": "904ed190eaba942518ba3c57.wav",
+      "sha256": "3c88b6b8e8575c2d067d924ca3e2ebd4dab90de2a2fff139ba61ed14f89ecd90"
+    },
+    {
+      "id": "VOICE_HERO_10_ATTACK_2",
+      "card_id": "HERO_10",
+      "event": "ATTACK",
+      "reference": [
+        "Attack.prefab:1918e49d77f5c0d4ea9209e988c24a72"
+      ],
+      "name": "VO_BTA_BOSS_17hx_Male_NightElf_Mission_Fight_26_Boss_Attack_01g",
+      "locale": "zhcn",
+      "timing": {
+        "resolved": false,
+        "anchor": "random_selection",
+        "label": "客户端随机候选音轨；不能将互斥候选同时叠放"
+      },
+      "delay": 0,
+      "asset_id": "157e015ceab9925134f8863f",
+      "bundle": "soundmission_base_zhcn-4670aad5-audio-0.unity3d",
+      "cab": "CAB-adb4daed2b2374ef11b47bcbff595604",
+      "pathid": "-8736481879998545750",
+      "file": "904ed190eaba942518ba3c57.wav",
+      "sha256": "3c88b6b8e8575c2d067d924ca3e2ebd4dab90de2a2fff139ba61ed14f89ecd90"
+    },
+    {
+      "id": "VOICE_HERO_11_ATTACK_0",
+      "card_id": "HERO_11",
+      "event": "ATTACK",
+      "reference": [
+        "VO_HERO_11_Male_Human_Attack_01.prefab:40b945f6352b11a40bb3337a4290dd67"
+      ],
+      "name": "VO_HERO_11_Male_Human_Attack_01",
+      "locale": "zhcn",
+      "timing": {
+        "resolved": false,
+        "anchor": "random_selection",
+        "label": "客户端随机候选音轨；不能将互斥候选同时叠放"
+      },
+      "delay": 0,
+      "asset_id": "8637de48c0ac2abb862863aa",
+      "bundle": "essential_base_zhcn-content-0.unity3d",
+      "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+      "pathid": "-2397601667268806773",
+      "file": "8637de48c0ac2abb862863aa.wav",
+      "sha256": "f345f3cd6dfd048df5de748114787e095096526d19ffb1a903cce15f2860d979"
+    },
+    {
+      "id": "VOICE_HERO_11_ATTACK_1",
+      "card_id": "HERO_11",
+      "event": "ATTACK",
+      "reference": [
+        "VO_HERO_11_Male_Human_Attack_01.prefab:40b945f6352b11a40bb3337a4290dd67"
+      ],
+      "name": "VO_HERO_11_Male_Human_Attack_02",
+      "locale": "zhcn",
+      "timing": {
+        "resolved": false,
+        "anchor": "random_selection",
+        "label": "客户端随机候选音轨；不能将互斥候选同时叠放"
+      },
+      "delay": 0,
+      "asset_id": "d7f790abe99011f5ce8cc131",
+      "bundle": "essential_base_zhcn-content-0.unity3d",
+      "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+      "pathid": "6387550577280035043",
+      "file": "d7f790abe99011f5ce8cc131.wav",
+      "sha256": "d71dcb6b3337a2483e5f5988f4f0a1f1a2a2b07b971dc28eda5ebc71f253d284"
+    },
+    {
+      "id": "VOICE_HERO_11_ATTACK_2",
+      "card_id": "HERO_11",
+      "event": "ATTACK",
+      "reference": [
+        "VO_HERO_11_Male_Human_Attack_01.prefab:40b945f6352b11a40bb3337a4290dd67"
+      ],
+      "name": "VO_HERO_11_Male_Human_Attack_03",
+      "locale": "zhcn",
+      "timing": {
+        "resolved": false,
+        "anchor": "random_selection",
+        "label": "客户端随机候选音轨；不能将互斥候选同时叠放"
+      },
+      "delay": 0,
+      "asset_id": "5da14f5969bb1432012ab4ca",
+      "bundle": "essential_base_zhcn-content-0.unity3d",
+      "cab": "CAB-2c4ea62f671516b3f442827af165e5e6",
+      "pathid": "-2514077570176140702",
+      "file": "5da14f5969bb1432012ab4ca.wav",
+      "sha256": "d0be959ee15891a9f5a937b2b0f8871ac17344416a9d6eff47d6444283e02a9a"
+    }
+  ],
+  "errors": [],
+  "actor_binding": "not applicable: source is CardDef.m_AttackEffectDef audio"
+}

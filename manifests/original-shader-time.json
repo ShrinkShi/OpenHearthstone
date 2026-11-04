@@ -1,0 +1,29 @@
+{
+  "source": {
+    "assembly": "Assembly-CSharp.dll",
+    "assembly_sha256": "3F67779510122DBCE79EC431E4E7494643083160EC9E7592F6ECB899B2B69728",
+    "type": "ShaderTime",
+    "cache": "local/script-audit/Assembly-CSharp.dll.ShaderTime.il.txt",
+    "initializer_cache": "local/script-audit/Assembly-CSharp.dll.ShaderTime._Initialize_d__6.il.txt"
+  },
+  "runtime": "UnityClient/Assets/Scripts/NativeShaderTime.cs",
+  "delta_source": "UnityEngine.Time.deltaTime",
+  "divisor": 20,
+  "max_time": 65535,
+  "enabled_initial": true,
+  "time_initial": 0,
+  "disabled_time": 1,
+  "wrap": "if greater than maximum, subtract once; if result <= 0, set 0.0001",
+  "time_uniform": "_ShaderTime",
+  "gyro_uniform": "_Gyroscope",
+  "gyro_source": "Input.gyro.gravity; implicit Vector4 w=0",
+  "shutdown": "SetGlobalFloat(_ShaderTime, 0); leave gyro and instance accumulator unchanged",
+  "production_clock": true,
+  "complete": false,
+  "notes": [
+    "Exact source time/gyro math and shutdown are bound by ClientApp.Update/OnDestroy.",
+    "Original initializer MoveNext immediately returns false; GetDependencies lists IGraphicsManager. Original service locator/bootstrap is not executed or restored here.",
+    "Global time is independent of client cue Speed, Paused and Seek, as in the original service.",
+    "Production HighlightState routing and full card-specific shaders/scripts remain incomplete."
+  ]
+}

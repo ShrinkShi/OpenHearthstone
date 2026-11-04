@@ -1,0 +1,78 @@
+{
+  "prefabs": [
+    {
+      "reference": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+      "file": "66903021322d6ccef05c91a6.missile-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-1330860700261165441",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+        "cache": "local/runtime/66903021322d6ccef05c91a6.missile-spell.json",
+        "nodes": 9,
+        "particles": 2,
+        "animations": 0,
+        "captures": 0,
+        "actions": {
+          "SetProperty": 6,
+          "SpellStateAction": 4,
+          "SpellFinishAction": 1,
+          "Wait": 1,
+          "ParticleStopAction": 2,
+          "ParticlePlayAction": 2,
+          "AudioPlayRandomClipAction": 1,
+          "RandomWaitAction": 1
+        },
+        "unresolved_parameters": 2,
+        "shader_families": [
+          "Custom/FX/FX_SneakySmoke",
+          "Custom/FX/FX_SneakySmokeParticle"
+        ],
+        "unknown_actions": [
+          "AudioPlayRandomClipAction",
+          "SetProperty"
+        ],
+        "unsupported_modules": [],
+        "errors": []
+      },
+      "audio_file": "66903021322d6ccef05c91a6.missile-audio.json",
+      "audio_errors": []
+    },
+    {
+      "reference": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+      "file": "8d7692871e4e35e68559e40f.missile-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-2126308650509798530",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+        "cache": "local/runtime/8d7692871e4e35e68559e40f.missile-spell.json",
+        "nodes": 3,
+        "particles": 0,
+        "animations": 1,
+        "captures": 0,
+        "actions": {
+          "SpellStateAction": 4,
+          "SetVisibility": 1,
+          "AnimationPlaythroughAction": 1
+        },
+        "unresolved_parameters": 0,
+        "shader_families": [
+          "Hero/AddMultiply/AddMultiply"
+        ],
+        "unknown_actions": [],
+        "unsupported_modules": [],
+        "errors": []
+      },
+      "audio_file": "8d7692871e4e35e68559e40f.missile-audio.json",
+      "audio_errors": []
+    }
+  ],
+  "full_super_spell_restored": false
+}

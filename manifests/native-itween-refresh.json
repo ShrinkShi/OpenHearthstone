@@ -1,0 +1,1769 @@
+{
+  "programs": [
+    {
+      "file": "076d511f7b25ad78f327937e.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "Paw_OverrideSpawn_Random.prefab:110e3d741c15e0341a4c58d37c9828b5",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3591445307062445802",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "iTweenScaleFrom",
+          "parameter": "gameObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 9
+    },
+    {
+      "file": "0b35d77cb19dfbe98486aba2.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Arcane_Blast_Minion_Self_FX.prefab:340602b4cdd5edc4ba1cbed087254f16",
+      "sources": [
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "5112792242839160990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "13e4ba2cda5d567ad3d3e0be.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "RLKFX_Patchwerk_Missile_Cleaver_Super.prefab:c16105d5c6f17cd49a1d69a0d768716d",
+      "sources": [
+        {
+          "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+          "pathid": "6213330190800977981",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 10
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 12
+    },
+    {
+      "file": "1438c953f1f357de128e06d3.native-effect.json",
+      "actions": 4,
+      "parameters": 53,
+      "updated": false,
+      "reference": "Reticle_Targeted_FX.prefab:3b29c3a1b3ef4f841b01fb6beeeae18b",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3111767904491778622",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 6
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "RLKFX_TheScourge_OverrideCustomSpawn.prefab:2139e2c153644c947891793b2cce34ff",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-3420463197209531452",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 34
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 49
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 71
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 9
+    },
+    {
+      "file": "1ca86742da8eb534a697ead5.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "Arrow_Targeted_Arcane_FX.prefab:5ffc34d2f9910d64e94a593d8449e6ec",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 9
+    },
+    {
+      "file": "22c4067aa2cd3c2bd8efeeaa.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "Silence_FX.prefab:45ff6d3a135b275449e2444b91d4e3a4",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "5750247372840352696",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 12
+    },
+    {
+      "file": "24831d85d68854dbf6bbe674.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Barrel_Throw_Beer_FX.prefab:f63d71e70a3f59b45b44add60ec61051",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8485573949750225234",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "3145382ed4eaa71f42512d35.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "Lightning_Targeted_FX.prefab:7eb7028e181c0fc4e9021f2efdf57b23",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5643892178135839218",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 12
+    },
+    {
+      "file": "3c415989b1c0de7341d80bc2.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Demolisher_Throw_TNT_FX.prefab:7b623387b9646f646a7c8fa5916409c2",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-2762042481731899414",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "4434872dd310842925df6adb.native-effect.json",
+      "actions": 17,
+      "parameters": 230,
+      "updated": false,
+      "reference": "Ice_FX.prefab:af58499642cec471992ecb9e653b92b6",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-8643223142898677733",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-6295714230017425956",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 6
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 15
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 6
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 37
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 35
+    },
+    {
+      "file": "46d81302ae2bb97b610d8d97.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lunar_Target_Large_FX.prefab:554b1cb6c449d9f409adbef48401d1b4",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-8506403831521721893",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "4c92ac4d973163d8aa044fed.native-effect.json",
+      "actions": 9,
+      "parameters": 126,
+      "updated": false,
+      "reference": "Fireblast_FX.prefab:eabb56c674d4248be83c5c6bc82e9ddc",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "1793577957286404385",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "8808308807956681743",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 43
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 27
+    },
+    {
+      "file": "4fc0fe4fe4824ecbe3db289c.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "SpawnToHand_BabblingBook.prefab:8f581f7ccd7bcc640b9b3884a7f24eec",
+      "sources": [
+        {
+          "cab": "CAB-4a70eaee9f36c479d7b8e75f8b18b902",
+          "pathid": "-9048167119699251965",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-7.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "5840edc5ac4646f614b1ea81.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Arcane_Crystal_Small_Super.prefab:c81e3c5e81007b84ead1a6c25698213f",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-4017497222421805315",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 39
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 12
+    },
+    {
+      "file": "5b07a18207a346acdccc8e67.native-effect.json",
+      "actions": 9,
+      "parameters": 119,
+      "updated": false,
+      "reference": "Ice_Barrier_FX.prefab:65107a2e808cc4cddadf405d20cb3b7e",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "4452757468564171434",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 4
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 5
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 5
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 4
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 13
+    },
+    {
+      "file": "5bc655cb7218e5ef61cd20da.native-effect.json",
+      "actions": 16,
+      "parameters": 216,
+      "updated": false,
+      "reference": "Frost_Targetted_ConeOfCold_FX.prefab:7ffdb48f416a2fb40a0157e781ce5982",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-8643223142898677733",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 6
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 15
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 6
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 10
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 32
+    },
+    {
+      "file": "5d9349d1d17e9b05e11ae8f8.native-effect.json",
+      "actions": 9,
+      "parameters": 126,
+      "updated": false,
+      "reference": "Fireball_FX.prefab:a5e144473b2f84563b77ff3cfc414b5d",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6055582466056812273",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 46
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 27
+    },
+    {
+      "file": "6ed9b2fe2d7816de1a381ef7.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "MortalCoil_FX.prefab:51b46dd3ff842ba41b4c437325994220",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "1079944156725505371",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 28
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "7024c8217869a2aa75640d34.native-effect.json",
+      "actions": 4,
+      "parameters": 53,
+      "updated": false,
+      "reference": "Beast_Targeted_KillCommand_FX.prefab:36a719e43aa59cf4d823636b97868cf5",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3111767904491778622",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 2
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 6
+    },
+    {
+      "file": "762b0d4d666d476a37cc68d7.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "ReuseFX_TransformImpact_Minion_Arcane_Super.prefab:440eed6d453960b49bad9e13d81151f4",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 9
+    },
+    {
+      "file": "7a8e6c26f439a145cb9e19f9.native-effect.json",
+      "actions": 9,
+      "parameters": 126,
+      "updated": false,
+      "reference": "Ragnaros_Trigger_FX.prefab:51b6f614daaae8d4cbd6daebd5a69211",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6055582466056812273",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 46
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 27
+    },
+    {
+      "file": "7eb05bff6341edbefb72ace7.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "ShadowBolt_FX.prefab:e6ce5b6e7e1250e4a92dac52a3508671",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-8878251930795417463",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 26
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "7f5b7f88ce33488167db5847.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "Lunar_Target_Silence_FX.prefab:96e1db570891845429edbb26801b06ad",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 9
+    },
+    {
+      "file": "81adc1ee5e4a815a745824b5.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Frostmourne_OverrideSpawn.prefab:f899391938833d449a884561cf135d0e",
+      "sources": [
+        {
+          "cab": "CAB-93ce91e5953dced408f61269ec90fec3",
+          "pathid": "8180084455173008769",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": -1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "878fdf50d856cdf456617073.native-effect.json",
+      "actions": 9,
+      "parameters": 126,
+      "updated": false,
+      "reference": "DemonFire_FX.prefab:89903e1f18715bf40b4061ff2b16da8a",
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "6154444588970563531",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "1079944156725505371",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 44
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 27
+    },
+    {
+      "file": "88b10fdc27a19c6d8b6ad1de.native-effect.json",
+      "actions": 6,
+      "parameters": 79,
+      "updated": false,
+      "reference": "Ice_Untargeted_FX.prefab:01e7f2d34d953483fa762a11c29582e0",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "7032512706991529189",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 4
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 8
+    },
+    {
+      "file": "8e9f0d8f5a1886a9603d43dc.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Arcane_Blast_Minion_FX.prefab:4dafeada543b50048a8f82d9a3ba6dea",
+      "sources": [
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "-2573246168482737926",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 27
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "981819333488b6f836164c88.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "PerditionsBlade_FX.prefab:171de26f1b94e0442a11f9ca73911b27",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "8808308807956681743",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 26
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "a0614be9344a4dcba2c4ffe6.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "Arcane_UnTargeted_SpellBender_FX.prefab:18ff4a9ca3c2bac439dd0fee79762a43",
+      "sources": [
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "3179287452098458089",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 6
+    },
+    {
+      "file": "a484b427845ecdd3236cbf88.native-effect.json",
+      "actions": 9,
+      "parameters": 126,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Fire_Fireball_Medium_Super.prefab:563aacc1b2a435441988eae90cf8de94",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6055582466056812273",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 46
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 27
+    },
+    {
+      "file": "b10fae62eb82f7e577eb3ea0.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Barrel_Throw_TNT_FX.prefab:0c80f9d82d0f06d4f940de838411eb25",
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-2762042481731899414",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "b2596697f60ecbdf78727269.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "Lightning_Single_Target_Jade_FX.prefab:8898006db108e2d4b8667b8085d0b9ff",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2624071977702876608",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 12
+    },
+    {
+      "file": "b34be3ab40864bfe57eb05fd.native-effect.json",
+      "actions": 17,
+      "parameters": 230,
+      "updated": false,
+      "reference": "Ice_Lance_FX.prefab:b1b4b03e20f064e5eafb62d78e7643a9",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-9054003336883015339",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-9189306618509363958",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 6
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 15
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 6
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenFadeToAction",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 38
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 35
+    },
+    {
+      "file": "ce9e2ba5c3e2aa3061331d02.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Deathwing_OverrideDiscard.prefab:25dd08414a4e49d4fa427f1d33539161",
+      "sources": [
+        {
+          "cab": "CAB-e1524aee0fe6112746c6047476e42c1b",
+          "pathid": "-1267057192271868688",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "d790330298f4596a1be10106.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Soulfire_FX.prefab:6ad98be477ebbd847b0a3110b7105abc",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6055582466056812273",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 45
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 3
+    },
+    {
+      "file": "d98da28a8a8b48e1461e962d.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "Arcane_Targeted_Hex_FX.prefab:815703e81b45e9f448c82fc280dac233",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 9
+    },
+    {
+      "file": "dbde447b3c82b2bf7e3b858c.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "Lightning_Single_Target_FX.prefab:000da182637d2ae4f9510633267d5e65",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5643892178135839218",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 12
+    },
+    {
+      "file": "ec9f4d80a7c82910c627b95c.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "Lightning_Single_Target_EarthShock_FX.prefab:feb83eb128ff8934ca8fb87f4d827382",
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2624071977702876608",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 10
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 12
+    },
+    {
+      "file": "ef719cc32cc2ec11a8bb1456.native-effect.json",
+      "actions": 9,
+      "parameters": 126,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Fire_Fireball_Large_Super.prefab:fafdcc62cdedb2e469dec13af89c124a",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6175052074802016849",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-4976199420857942119",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 8
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 12
+        },
+        {
+          "action": "iTweenScaleTo",
+          "parameter": "gameObject",
+          "node": 46
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 27
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source iTweenFadeToAction, iTweenScaleFrom, iTweenScaleTo parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

@@ -1,0 +1,29 @@
+# 原播放模板与空间声音
+
+2026-10-12：沿原SoundManager.GenerateAudioSource和InitSourceTransform的静态IL，恢复SoundConfig播放模板及AudioPlayClipAction空间参数。完整全卡原版动画、Shader与脚本仍未完成。
+
+## 原资源与行为
+
+`python -m tools.native_audio_config`只读essential_base_global-prefab-0.unity3d中的SoundConfig GameObject，CAB-69c88b234dfa427e02d1fcee9337ae34、PathID3460946133557208792。原SoundConfig MonoBehaviour为-8607417786929617192，m_PlayClipTemplate精确指向AudioSource -8545291008535992616。原组件全文及来源在manifests/native-audio-config.json，运行缓存为local/runtime/native-audio-config.json。没有执行官方程序集或修改安装。
+
+原GenerateAudioSource在动作显式模板为空时实例化此模板GameObject；显式模板非空时调用CopyAudioSource，二者不可混为同一分支。当前恢复默认模板分支，两个显式模板动作仍未恢复。
+
+模板为线性衰减、MinDistance100、MaxDistance500、Doppler1、Priority128、Pan0，附原rolloff / spatial blend / spread / reverb四条曲线；音量、音高、循环、静音、spatialize和bypass标志原样保留。OutputAudioMixerGroup与主Clip为空，无需猜测混音器。播放动作随后覆盖自身volume / pitch / spatialBlend。完整分类混音、ducking、限制及语音抑制仍未恢复。
+
+原InitSourceTransform将声音挂在SoundManager场景对象下，并在播放时拷贝parent世界位置；parent为空时置世界零。声音不会持续追随parent。客户端读取原节点位置，并去掉离屏效果Root的隔离平移；外部目标保持世界坐标。此平移转换属于客户端适配，不能称为原场景全部坐标、监听器和声音路由逐帧一致。
+
+## 运行证据与边界
+
+1135项Python测试通过，包括直接核对官方只读模板和重复提取一致性；50项实际Unity音频检查通过，覆盖原曲线、模板数值、位置快照，以及Physical_Weapon_Upgrade!_FX原动作（空间混合1、音量0.7、pitch1）的PCM和静音AudioSource。完整GPU回归退出0，Windows构建Success、退出0。
+
+另外对183程序的347个AudioPlayClipAction全部隔离运行：327动作启动并完成、327原PCM播放cue、20动作明确未恢复（19实例限制动作与2显式模板动作存在重叠）。原owner索引、层级、位置、动作参数保留，其他渲染和FSM行为隔离；这不是183整卡效果验收。报告work/native-audio-source-census.json，日志work/native-audio-source-census.log。测试静音，不宣称听觉验收。
+
+完整源音频重复刷新183程序、零更新、零失败。完整效果启用数仍2；整卡材质、动态绑定、其他脚本、Shader、全局SoundManager依赖与原听觉/视觉验收：未完成。
+
+默认全GPU回归现包含RunAllSourceAudio；work/native-audio-spatial-final-gpu.log确认50音频检查、183程序327声音cue及既有1034 Timeline检查等均通过，退出0。Windows客户端构建日志work/build-native-audio-spatial.log为Success、退出0。
+
+47419端口、spatialaudio_1/2后台客户端完成比赛ca5d3f17a27748deb993bb8c40cbc9ec：11回合、version38，Shrink1法师0血失败、Shrink2术士11血获胜，公共hash均为9e4d8b57b1953ccd22bb750c11c06d8a7451651eb19dfb3bea3c9169ea572cf6。日志无异常或fallback。后台card_render_count=0，不证明新动画视觉一致、人工比赛或1080p性能。自有客户端与服务器测试后清理，未操作桌面或官方客户端。
+
+用户校准SHA256保持E85CE40298C0FD45916D73FB1CC547AD9C46D1E3E124D2E0465F976C6B547DA6；构建生成的场景ID归一。下个声音缺口是19动作实例限制与2显式模板动作；完成它们也仍不能替代全卡Shader、脚本和视觉验收。
+
+后续声音实例限制已恢复，最新345动作请求及剩余显式Mixer依赖见[ORIGINAL_SOUND_LIMITS](ORIGINAL_SOUND_LIMITS.md)；上述327/20是本模板节点的历史统计。

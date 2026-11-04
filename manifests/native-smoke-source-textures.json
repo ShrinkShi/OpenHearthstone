@@ -1,0 +1,344 @@
+{
+  "textures": [
+    {
+      "png": "71a1d3db0c82fd8c128299c0.png",
+      "raw": "71a1d3db0c82fd8c128299c0.smoke-texturedata",
+      "name": "GenFX_Smoke5",
+      "source": {
+        "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+        "pathid": "-6682873434947950321",
+        "type": "Texture2D",
+        "bundle": "essential_base_global-texture-2.unity3d"
+      },
+      "sha256": "41a6c9d95997f8ae9175fc573746d4615464a3ea4c5ac200623ad81225a09bea",
+      "width": 256,
+      "height": 256,
+      "format": 12,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "da39168a9e1bf46fb308ede7.png",
+      "raw": "da39168a9e1bf46fb308ede7.smoke-texturedata",
+      "name": "GenFX_FireballCrescentAlpha",
+      "source": {
+        "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+        "pathid": "6075611665488705295",
+        "type": "Texture2D",
+        "bundle": "essential_base_global-texture-2.unity3d"
+      },
+      "sha256": "1976a5bf390b7df95d70c3a83ad79cce6053e2c2e0bfe902f224c398f9381cc4",
+      "width": 128,
+      "height": 128,
+      "format": 4,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "f9a69902732d2a9ec3fb120d.png",
+      "raw": "f9a69902732d2a9ec3fb120d.smoke-texturedata",
+      "name": "GenFX_clouds1",
+      "source": {
+        "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+        "pathid": "-5221288237390482334",
+        "type": "Texture2D",
+        "bundle": "essential_base_global-texture-2.unity3d"
+      },
+      "sha256": "0ce723d323e2947e0485e385b358f41da255d9db871fb98122c57821ad7db299",
+      "width": 256,
+      "height": 256,
+      "format": 10,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "b447db7642f125aa6d29a7cf.png",
+      "raw": "b447db7642f125aa6d29a7cf.smoke-texturedata",
+      "name": "GenFX_Smoke6",
+      "source": {
+        "cab": "CAB-af30cce7b2d47db9dc819a028b605f2f",
+        "pathid": "-3662344470557108300",
+        "type": "Texture2D",
+        "bundle": "cardtexture_base_global-41caf0cf-texture-0.unity3d"
+      },
+      "sha256": "5d0843cd85729c52fe31398c685ec2977f3ae43ce451fcf96a07fc74634f531d",
+      "width": 256,
+      "height": 256,
+      "format": 12,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "abe482c1d584741828c09420.png",
+      "raw": "abe482c1d584741828c09420.smoke-texturedata",
+      "name": "GenFX_clouds9",
+      "source": {
+        "cab": "CAB-29155062fb23fa05472cfd5ec90cc365",
+        "pathid": "-5375866536692498486",
+        "type": "Texture2D",
+        "bundle": "essential_base_global-texture-3.unity3d"
+      },
+      "sha256": "6641fad3bea6974e378aa6c23abc8763928593a097f97d239ed4108ad880ead5",
+      "width": 256,
+      "height": 256,
+      "format": 10,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "80573532a96919fbf7f73fac.png",
+      "raw": "80573532a96919fbf7f73fac.smoke-texturedata",
+      "name": "Default-Particle",
+      "source": {
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "5681093337556782924",
+        "type": "Texture2D",
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d"
+      },
+      "sha256": "7120d29a22dd998b8d69f3bb0ca561ab7b595aacede42949bea06b5c0e523106",
+      "width": 64,
+      "height": 64,
+      "format": 4,
+      "mips": 7,
+      "color_space": 1,
+      "filter": 1,
+      "aniso": 1,
+      "mip_bias": 0.0,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "29172213346e8736a2641397.png",
+      "raw": "29172213346e8736a2641397.smoke-texturedata",
+      "name": "GenFX_Smoke_Wispy_01",
+      "source": {
+        "cab": "CAB-29155062fb23fa05472cfd5ec90cc365",
+        "pathid": "254692995483891203",
+        "type": "Texture2D",
+        "bundle": "essential_base_global-texture-3.unity3d"
+      },
+      "sha256": "dea378d1c6bd682dd9be23f1f0302e9868c4dddac747ffffdd6fc36fc3ca8dd2",
+      "width": 256,
+      "height": 256,
+      "format": 12,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "997a2474106760fce43a126d.png",
+      "raw": "997a2474106760fce43a126d.smoke-texturedata",
+      "name": "GenFX_CurlWisp01",
+      "source": {
+        "cab": "CAB-66cfdd8b2021072966e5d4cd424ab23f",
+        "pathid": "-5191718966858490121",
+        "type": "Texture2D",
+        "bundle": "initial_base_global-41caf0cf-texture-7.unity3d"
+      },
+      "sha256": "56d44ab1103a9de70e9f4ace0a064ac3990831a8747d1ad8da3443254f603b03",
+      "width": 256,
+      "height": 256,
+      "format": 10,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    }
+  ],
+  "bindings": [
+    {
+      "material": {
+        "bundle": "essential_base_global-material-0.unity3d",
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-3764023389316094429"
+      },
+      "property": "_AlphaNoise",
+      "png": "71a1d3db0c82fd8c128299c0.png"
+    },
+    {
+      "material": {
+        "bundle": "essential_base_global-material-0.unity3d",
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "-3764023389316094429"
+      },
+      "property": "_MainTex",
+      "png": "da39168a9e1bf46fb308ede7.png"
+    },
+    {
+      "material": {
+        "bundle": "essential_base_global-material-0.unity3d",
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "3150573071162672041"
+      },
+      "property": "_AlphaNoise",
+      "png": "71a1d3db0c82fd8c128299c0.png"
+    },
+    {
+      "material": {
+        "bundle": "essential_base_global-material-0.unity3d",
+        "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+        "pathid": "3150573071162672041"
+      },
+      "property": "_MainTex",
+      "png": "da39168a9e1bf46fb308ede7.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-2.unity3d",
+        "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+        "pathid": "8904983181760146259"
+      },
+      "property": "_AlphaNoise",
+      "png": "f9a69902732d2a9ec3fb120d.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-2.unity3d",
+        "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+        "pathid": "8904983181760146259"
+      },
+      "property": "_MainTex",
+      "png": "b447db7642f125aa6d29a7cf.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "-6708821278249539798"
+      },
+      "property": "_AlphaNoise",
+      "png": "abe482c1d584741828c09420.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "-6708821278249539798"
+      },
+      "property": "_MainTex",
+      "png": "80573532a96919fbf7f73fac.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "4212727161734495343"
+      },
+      "property": "_AlphaNoise",
+      "png": "29172213346e8736a2641397.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "4212727161734495343"
+      },
+      "property": "_MainTex",
+      "png": "da39168a9e1bf46fb308ede7.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "6488246420220976556"
+      },
+      "property": "_AlphaNoise",
+      "png": "71a1d3db0c82fd8c128299c0.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "6488246420220976556"
+      },
+      "property": "_MainTex",
+      "png": "da39168a9e1bf46fb308ede7.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "6927807085316700505"
+      },
+      "property": "_AlphaNoise",
+      "png": "71a1d3db0c82fd8c128299c0.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "6927807085316700505"
+      },
+      "property": "_MainTex",
+      "png": "da39168a9e1bf46fb308ede7.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "768370421435260992"
+      },
+      "property": "_AlphaNoise",
+      "png": "29172213346e8736a2641397.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-7.unity3d",
+        "cab": "CAB-4fa5ae6b4d83b746ad8cfb40261b2af1",
+        "pathid": "768370421435260992"
+      },
+      "property": "_MainTex",
+      "png": "da39168a9e1bf46fb308ede7.png"
+    },
+    {
+      "material": {
+        "bundle": "initial_base_global-41caf0cf-material-8.unity3d",
+        "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+        "pathid": "5564427562462743618"
+      },
+      "property": "_MainTex",
+      "png": "997a2474106760fce43a126d.png"
+    }
+  ],
+  "whole_effects_verified": false
+}

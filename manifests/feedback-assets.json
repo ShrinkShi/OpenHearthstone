@@ -1,0 +1,313 @@
+{
+  "assets": [
+    {
+      "id": "SFX_CARD_HOVER",
+      "name": "card_mouse_over",
+      "type": "AudioClip",
+      "bundle": "initial_base_global-9d8d1dea-audio-0.unity3d",
+      "cab": "CAB-03db3e8aade6f84cda30f13df543334a",
+      "pathid": "5428946112878077815",
+      "guids": [
+        "47bc8ff6097fd054a99d0a3d1bfe1434"
+      ],
+      "cache": "local/runtime/a6123c5682b576a8d7f6a5ff.wav"
+    },
+    {
+      "id": "SFX_CARD_PICKUP",
+      "name": "card_mouse_away",
+      "type": "AudioClip",
+      "bundle": "initial_base_global-9d8d1dea-audio-0.unity3d",
+      "cab": "CAB-03db3e8aade6f84cda30f13df543334a",
+      "pathid": "4379438983373980190",
+      "guids": [
+        "7f5da019113167a4b9b53c84c69467c6"
+      ],
+      "cache": "local/runtime/21a8a9bfc608ef807fccd0cf.wav"
+    },
+    {
+      "id": "SFX_MULLIGAN_SELECT",
+      "name": "card_turn_over_normal",
+      "type": "AudioClip",
+      "bundle": "initial_base_global-9d8d1dea-audio-0.unity3d",
+      "cab": "CAB-03db3e8aade6f84cda30f13df543334a",
+      "pathid": "-1882380661988791472",
+      "guids": [
+        "d045717340cb1d84ea042121fa2c9fce"
+      ],
+      "cache": "local/runtime/2df17dd2d68face3c4e3bfe2.wav"
+    },
+    {
+      "id": "SFX_FIRE_START",
+      "name": "Shared_Fire_Start_1",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "2671548132117570870",
+      "guids": [
+        "a314c32e2614ed146996c7670ec6648b"
+      ],
+      "cache": "local/runtime/09c3674371874eb98da95fcb.wav"
+    },
+    {
+      "id": "SFX_FIRE_CAST",
+      "name": "Shared_Fire_Cast_1",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "3808234146291948406",
+      "guids": [
+        "392319ce5d9054a46a9c1f1b04961af9"
+      ],
+      "cache": "local/runtime/2edd465874b2013d71e40367.wav"
+    },
+    {
+      "id": "SFX_FIREBLAST_IMPACT",
+      "name": "Shared_Fire_Impact_Small",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-8558120859902437018",
+      "guids": [
+        "a3a6787067b478844901093212feaf42"
+      ],
+      "cache": "local/runtime/e087b402abb5a99466e7f47d.wav"
+    },
+    {
+      "id": "SFX_FIREBALL_IMPACT",
+      "name": "Shared_Fire_Impact",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-2538442441759040948",
+      "guids": [
+        "783cac59839c61e4c810cd046a28c926"
+      ],
+      "cache": "local/runtime/f6fae2a92293efaf02503c66.wav"
+    },
+    {
+      "id": "SFX_FROST_START",
+      "name": "Shared_Frost_Start_1",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-7198076010519312411",
+      "guids": [
+        "5aaede36303aa90479a7e15706feebfb"
+      ],
+      "cache": "local/runtime/b168ef4e7439482e26a054a3.wav"
+    },
+    {
+      "id": "SFX_FROST_CAST",
+      "name": "Shared_Frost_Cast_1",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "179546127409438323",
+      "guids": [
+        "62f409c56fe341041b252f153f204161"
+      ],
+      "cache": "local/runtime/5d21c49bc2dcd0d173642917.wav"
+    },
+    {
+      "id": "SFX_FROST_IMPACT",
+      "name": "Shared_Frost_Impact_1",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "3359257583775028196",
+      "guids": [
+        "04cf56b4010b5314eb18bd8984df2f5f"
+      ],
+      "cache": "local/runtime/792c5bca8e9ff7bf8aad54a3.wav"
+    },
+    {
+      "id": "SFX_INTELLECT_CAST",
+      "name": "Mage_ArcaneIntellect_Cast_1",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-7687128327224857058",
+      "guids": [
+        "85d2bde4dcc5a3b42ada01c2d648f1b8"
+      ],
+      "cache": "local/runtime/c326a1b67dec14811ab072df.wav"
+    },
+    {
+      "id": "VFX_FIRE_CRESCENT",
+      "name": "GenFX_FireballCrescentAlpha",
+      "type": "Texture2D",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "6075611665488705295",
+      "guids": [
+        "26a8d59f386ea4b0cb59cee258695a62"
+      ],
+      "cache": "local/runtime/0f2d0710238345c47adadecd.png"
+    },
+    {
+      "id": "VFX_FIRE_SPARK",
+      "name": "GenFX_elecspark",
+      "type": "Texture2D",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-3204840420008441634",
+      "guids": [
+        "17f6ee427b53fca4b93d334519e0cd62"
+      ],
+      "cache": "local/runtime/26fa5fb69ebe7077c04430f6.png"
+    },
+    {
+      "id": "VFX_FROST_MISSILE",
+      "name": "GenFX_FrostMissles01",
+      "type": "Texture2D",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-5634045193987054455",
+      "guids": [
+        "3d5527bb3ea111b45afc447ea80b4395"
+      ],
+      "cache": "local/runtime/5743045e8ea64db75663c139.png"
+    },
+    {
+      "id": "VFX_FROST_SHARDS",
+      "name": "GenFX_Ice_Shards",
+      "type": "Texture2D",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-2391021739299692773",
+      "guids": [
+        "0f583488642bc4f90b64e669b479efbc"
+      ],
+      "cache": "local/runtime/630bfaaf07844782e7d1ffe0.png"
+    },
+    {
+      "id": "VFX_INTELLECT_SYMBOL",
+      "name": "GenFX_Intellect_Symbol",
+      "type": "Texture2D",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-8962128072343656663",
+      "guids": [
+        "c4d12c430806aed4294e5f883f2dc57b"
+      ],
+      "cache": "local/runtime/dad6471579d7dd4e77accc88.png"
+    },
+    {
+      "id": "VFX_INTELLECT_RUNES",
+      "name": "GenFX_Runes2b",
+      "type": "Texture2D",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "1446073632303542602",
+      "guids": [
+        "d181212b296753e448ac703e7ffc436d"
+      ],
+      "cache": "local/runtime/5ad41951e0548671ef0d22c2.png"
+    },
+    {
+      "id": "MODEL_MINION_TRIGGER",
+      "name": "Trigger",
+      "type": "GameObject",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "8592577316887630196",
+      "guids": [],
+      "cache": "local/runtime/MODEL_MINION_TRIGGER.scene.json"
+    }
+  ],
+  "effects": [
+    {
+      "card_id": "HERO_08bp",
+      "start": "SFX_FIRE_START",
+      "cast": "SFX_FIRE_CAST",
+      "hit": "SFX_FIREBLAST_IMPACT",
+      "projectile": "VFX_FIRE_CRESCENT",
+      "impact": "VFX_FIRE_SPARK",
+      "kind": "fire"
+    },
+    {
+      "card_id": "CS2_029",
+      "start": "SFX_FIRE_START",
+      "cast": "SFX_FIRE_CAST",
+      "hit": "SFX_FIREBALL_IMPACT",
+      "projectile": "VFX_FIRE_CRESCENT",
+      "impact": "VFX_FIRE_SPARK",
+      "kind": "fire"
+    },
+    {
+      "card_id": "CS2_024",
+      "start": "SFX_FROST_START",
+      "cast": "SFX_FROST_CAST",
+      "hit": "SFX_FROST_IMPACT",
+      "projectile": "VFX_FROST_MISSILE",
+      "impact": "VFX_FROST_SHARDS",
+      "kind": "frost"
+    },
+    {
+      "card_id": "CS2_023",
+      "start": "SFX_INTELLECT_CAST",
+      "cast": "",
+      "hit": "",
+      "projectile": "",
+      "impact": "VFX_INTELLECT_SYMBOL",
+      "kind": "draw"
+    }
+  ],
+  "references": [
+    {
+      "card_id": "HERO_08bp",
+      "reference": "ReuseFX_Missile_Fire_Fireball_Small_Super.prefab:b8e7bb6e0944d204297efdc937967085",
+      "animation": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-5072756975452216391",
+          "type": "AnimationClip",
+          "name": "Fireball_Start",
+          "bundle": "",
+          "cache": "local/runtime/dc05dd7554e38abfae48d982.animationclip.json"
+        }
+      ],
+      "particle_count": 30
+    },
+    {
+      "card_id": "CS2_029",
+      "reference": "ReuseFX_Missile_Fire_Fireball_Medium_Super.prefab:563aacc1b2a435441988eae90cf8de94",
+      "animation": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-5072756975452216391",
+          "type": "AnimationClip",
+          "name": "Fireball_Start",
+          "bundle": "",
+          "cache": "local/runtime/dc05dd7554e38abfae48d982.animationclip.json"
+        }
+      ],
+      "particle_count": 28
+    },
+    {
+      "card_id": "CS2_024",
+      "reference": "Ice_FX.prefab:af58499642cec471992ecb9e653b92b6",
+      "animation": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-5072756975452216391",
+          "type": "AnimationClip",
+          "name": "Fireball_Start",
+          "bundle": "",
+          "cache": "local/runtime/dc05dd7554e38abfae48d982.animationclip.json"
+        }
+      ],
+      "particle_count": 30
+    },
+    {
+      "card_id": "CS2_023",
+      "reference": "Arcane_Untargeted_ArcaneIntellect_FX.prefab:cdb73ebec49c96442bedf461e04e962b",
+      "animation": [],
+      "particle_count": 6
+    }
+  ],
+  "notes": [
+    "交互音轨来自本机；留牌选择沿用翻牌 Foley，尚未证实原版按钮实际引用。",
+    "效果关联取自 CardDef，粒子/动画原参数仅在 local 缓存；播放轨迹由表现层重实现。"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "original-action-il-and-unity-playmode-oracle",
+  "restored": false,
+  "sources": [
+    {"assembly": "Assembly-CSharp.dll", "type": "HutongGames.PlayMaker.Actions.AnimationPlaythroughAction", "method": "StartAnimation", "il_sha256": "d1e75ba0cb497f49eb240dca71d895feb39ee24e86272d221aa54f15452587a5", "play_threshold": "Mathf.Epsilon", "otherwise": "Animation.CrossFade"},
+    {"assembly": "Blizzard.T5.PlayMaker.Runtime.dll", "type": "HutongGames.PlayMaker.Actions.PlayAnimation", "method": "OnEnter", "il_sha256": "7323fce39b9af527f5a3274190899c513e2c2caeadcd3be319f87b666770e0bd", "play_threshold": 0.001, "otherwise": "Animation.CrossFade"}
+  ],
+  "native_unity_modes": {"StopAll": 4, "StopSameLayer": 0},
+  "verified_behavior": [
+    "Incoming and outgoing weights follow the measured fade interval.",
+    "One active clip normalizes partial positive weight instead of blending from the rest pose.",
+    "StopSameLayer preserves other-layer playback; StopAll fades it out.",
+    "CrossFade to an already playing clip preserves its current time."
+  ],
+  "runtime_gap": "Default-layer mixed transforms and material scalars now use retained clocks and normalized weights. Full layers, lifecycle and interrupted-fade certification remain incomplete.",
+  "probe": "NativeLegacyBlendChecks.Run",
+  "local_report": "work/native-legacy-blend-oracle.json",
+  "notes": ["Self-created native Unity clips only. No official assembly executed.", "No additional card effect enabled. This oracle is not a full-card animation certification."]
+}

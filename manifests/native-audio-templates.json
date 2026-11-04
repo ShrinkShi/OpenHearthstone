@@ -1,0 +1,49 @@
+{
+  "templates": [
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "state": "Action",
+      "parameter": {
+        "name": "m_TemplateSource",
+        "kind": 5,
+        "node": -1,
+        "number": 0,
+        "text": "",
+        "variable": "",
+        "object_null": false,
+        "asset_source": {
+          "cab": "CAB-cb5dcbff875df9d17ec5f2e8f08234e9",
+          "pathid": "-3578336463979097055",
+          "type": "AudioSource",
+          "bundle": "initial_base_global-ffbd77eb-prefab-1.unity3d"
+        },
+        "asset_path": "63310936058510f277e76c91.native-audio-template.json",
+        "asset_type": "AudioSource",
+        "unresolved": false
+      }
+    },
+    {
+      "file": "2c575b7037eb26b115a9f5fd.native-effect.json",
+      "state": "BirthState",
+      "parameter": {
+        "name": "m_TemplateSource",
+        "kind": 5,
+        "node": -1,
+        "number": 0,
+        "text": "",
+        "variable": "",
+        "object_null": false,
+        "asset_source": {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3152687695816417142",
+          "type": "AudioSource",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        "asset_path": "e4acc721cf83206ecab4a7cd.native-audio-template.json",
+        "asset_type": "AudioSource",
+        "unresolved": false
+      }
+    }
+  ],
+  "complete": false
+}

@@ -1,0 +1,572 @@
+{
+  "programs": [
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "RLKFX_LordMarrowgar_CustomSpawnOverride.prefab:8cbf12bd9c26545418fcad0244336ca9",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+          "pathid": "5913873795420807501",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0f0ec46ae18fad7f2fa1dad7.native-effect.json",
+      "actions": 2,
+      "parameters": 4,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_Small_Super.prefab:826a514f97c88fd47bc3fb4b526660d2",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-4722765840836432782",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 3
+        },
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "13e4ba2cda5d567ad3d3e0be.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "RLKFX_Patchwerk_Missile_Cleaver_Super.prefab:c16105d5c6f17cd49a1d69a0d768716d",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+          "pathid": "-8374616294698780962",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1e0c31e9a92b65ad90510c2c.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromGround_Super_Random.prefab:42069975192ed4a4fb2d84d4925509b7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "1504366497305557449",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "223522c32fa85768f21c4c95.native-effect.json",
+      "actions": 2,
+      "parameters": 4,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Thrust_Super_WithIdle.prefab:5b88c25bd948e0b439f78bd85bb55f05",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-1479790732263158659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        },
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-7725951043050759455",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2ac223d9b583771c9eb24338.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super_Random.prefab:e51c00c98fe156748a1e45b17b0fb182",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5909194798680725276",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2c478f5ac211da01190f3cff.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "RLKFX_LadyDeathWhisper_SpawnToHand_Super.prefab:5f94db093325459418a27f4aa66b9820",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-f3512d6b16c4aa3131facc70ec668380",
+          "pathid": "-2876491649188548307",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-6aa9ba6a-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3b53c6edac0ba99e03be30be.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_WithIdle.prefab:dc16293627043ed4a8204cf20b128328",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-1091095910909482370",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "41e38a34b7bd86521bfdc021.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "RLKFX_TheScourge_BoardAE_Super.prefab:76308d912a476ef4eae39ca4dfb7cc79",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-565717686913190686",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "45ef4addd6c85646d51fbc40.native-effect.json",
+      "actions": 2,
+      "parameters": 4,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_AE_Freeze_Halfboard_Super.prefab:e9a6dcfcb666a734bbce7a36938e7dc0",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5438443539801782664",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7594688359205784410",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4d8519098584bdd2988a4511.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Decay_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:ade894ff3a30e9b43b0bc0daa1667303",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-3047213174040324659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "57e74cc43277c106c26561a5.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "RLKFX_Xyrella_AE_Super.prefab:20d2f18a3e830884aad5a22926e4e337",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+          "pathid": "-2758471983819703186",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "626a39e9a224655b6cbc8b10.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_AntiMagicShell_Super_WithIdle.prefab:c08f3d01cb170ce4d900696be4d8f13c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "8054691823212055992",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6add519a1ee232e82b2e0ec0.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Medium_Super_WithIdle.prefab:6f83b437b11353d4d8660c204ecd355f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-1037197477999517331",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "74398d37bea0bf0116c207f0.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_NoIdle.prefab:58fda7c5c9a94f04bb88e51dea789cab",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-1091095910909482370",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "90a7e2726cd4aa8e4a09b6a2.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Small_Super_WithIdle.prefab:c31bdfb48572b6d488f9de72d3a677c7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "2034196153742382508",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 27
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Asphyxiate_Super_WithIdle.prefab:676fef5a5e50055409210c583d22859e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-1479790732263158659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_GainCorpse_Super.prefab:d10fb7a6897bc214399b5c7b42f22026",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "494788277155169936",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b065ad44069e20c1ebba8485.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_VerySmall_Super_Simultaneous.prefab:829c6e1a69a97a845a7b4812a15bb366",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-912265615053973157",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "actions": 1,
+      "parameters": 2,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super.prefab:5f189b59ddd96234ba95040813a40274",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "3278325011287662579",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d554fc3ef71c90388d48ea9e.native-effect.json",
+      "actions": 2,
+      "parameters": 4,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:4c6b1bd7d021c0f4e8da477dc769a6db",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-1479790732263158659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        },
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-4467498114306142094",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 1
+        },
+        {
+          "action": "TimelinePlay",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source TimelinePlay parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

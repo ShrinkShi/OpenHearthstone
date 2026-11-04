@@ -1,0 +1,4201 @@
+{
+  "unity": "2022.3.60f1c1",
+  "gpu": "NVIDIA GeForce RTX 4080 Laptop GPU",
+  "api": "Direct3D 11.0 [level 11.1]",
+  "colorSpace": "Gamma",
+  "clock": "explicit monotonic 1/240 second; quantization <= 1 step; no wall clock",
+  "random": "root System.Random(117), uniform Range and Next(2); particles 117+node; audio/random-wait/timeline 117",
+  "output": "autonomous root C+D*K via production RenderAffine on fixed RGBA(.18,.18,.18,1); separate C/K; no board, glow/postprocess or audible mix",
+  "officialReference": false,
+  "wholeEffectVerified": false,
+  "shaderSamples": [
+    {
+      "name": "mask",
+      "file": "shader-mask.png",
+      "expected": {
+        "r": 0.5199999809265137,
+        "g": 0.8400000333786011,
+        "b": 1.1600000858306885,
+        "a": 0.20000000298023224
+      },
+      "actual": {
+        "r": 0.5200000405311584,
+        "g": 0.8400000333786011,
+        "b": 1.1600000858306885,
+        "a": 0.20000000298023224
+      },
+      "maxError": 5.960464477539063e-08
+    },
+    {
+      "name": "ignored-channels-clock",
+      "file": "shader-ignored-channels-clock.png",
+      "expected": {
+        "r": 0.5199999809265137,
+        "g": 0.8400000333786011,
+        "b": 1.1600000858306885,
+        "a": 0.20000000298023224
+      },
+      "actual": {
+        "r": 0.5200000405311584,
+        "g": 0.8400000333786011,
+        "b": 1.1600000858306885,
+        "a": 0.20000000298023224
+      },
+      "maxError": 5.960464477539063e-08
+    },
+    {
+      "name": "zero-alpha",
+      "file": "shader-zero-alpha.png",
+      "expected": {
+        "r": 0.4000000059604645,
+        "g": 0.800000011920929,
+        "b": 1.2000000476837158,
+        "a": 0.0
+      },
+      "actual": {
+        "r": 0.4000000059604645,
+        "g": 0.800000011920929,
+        "b": 1.2000000476837158,
+        "a": 0.0
+      },
+      "maxError": 0.0
+    },
+    {
+      "name": "hdr-unclamped",
+      "file": "shader-hdr-unclamped.png",
+      "expected": {
+        "r": 2.0,
+        "g": 1.0,
+        "b": -2.9802322387695312e-08,
+        "a": 3.0
+      },
+      "actual": {
+        "r": 2.0,
+        "g": 1.0,
+        "b": -2.9802322387695312e-08,
+        "a": 3.0
+      },
+      "maxError": 0.0
+    },
+    {
+      "name": "source-rgba-blend",
+      "file": "shader-source-rgba-blend.png",
+      "expected": {
+        "r": 0.18400000035762787,
+        "g": 0.328000009059906,
+        "b": 0.47200003266334534,
+        "a": 0.36000001430511475
+      },
+      "actual": {
+        "r": 0.18400001525878906,
+        "g": 0.328000009059906,
+        "b": 0.47200003266334534,
+        "a": 0.36000001430511475
+      },
+      "maxError": 1.4901161193847656e-08
+    },
+    {
+      "name": "zero-intensity",
+      "file": "shader-zero-intensity.png",
+      "expected": {
+        "r": 0.10000000149011612,
+        "g": 0.20000000298023224,
+        "b": 0.30000001192092896,
+        "a": 0.4000000059604645
+      },
+      "actual": {
+        "r": 0.10000000149011612,
+        "g": 0.20000000298023224,
+        "b": 0.30000001192092896,
+        "a": 0.4000000059604645
+      },
+      "maxError": 0.0
+    },
+    {
+      "name": "negative-extrapolation",
+      "file": "shader-negative-extrapolation.png",
+      "expected": {
+        "r": -0.2800000011920929,
+        "g": 0.23999999463558197,
+        "b": 0.7600000500679016,
+        "a": -0.800000011920929
+      },
+      "actual": {
+        "r": -0.2800000309944153,
+        "g": 0.23999999463558197,
+        "b": 0.7600000500679016,
+        "a": -0.800000011920929
+      },
+      "maxError": 2.9802322387695312e-08
+    }
+  ],
+  "schema_version": 1,
+  "git_base": "fdadec5ccf95d3814ae021b3d536707b660d9bc0",
+  "implementation_files": [
+    {
+      "path": "E:\\HS\\HearthstoneClone\\UnityClient\\Assets\\Editor\\Task4VisualEvidence.cs",
+      "sha256": "80af084bcd62f3c34bc4637cac2198be5b0fd0e7943f40e721aa98fd7ead5d3d",
+      "bytes": 15693
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\UnityClient\\Assets\\Resources\\NativeEffect.shader",
+      "sha256": "0237707ca73f6b67212d39122b1a36e2f4989ef13a79dc7a204f6a99a1f3f06b",
+      "bytes": 19034
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\UnityClient\\Assets\\Resources\\NativeEffectAffineComposite.shader",
+      "sha256": "2a53ef3ee8df7840b05004054e1b4cbd61724cd6804e150dfa55689a14d36e85",
+      "bytes": 1118
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\UnityClient\\Assets\\Scripts\\NativeSuperSpellPlayback.cs",
+      "sha256": "77a7aa6faf98ebcba767254364ccd1a23ce46885ae8b28f9fca88893322ae59e",
+      "bytes": 11091
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\UnityClient\\Assets\\Scripts\\NativeSuperSpell.cs",
+      "sha256": "7e25aa3df06bd8655dbba5beaa781ff959787b36916a5bf92a09fd6c7d5fdbe5",
+      "bytes": 20561
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tools\\task4_visual_evidence.py",
+      "sha256": "f72a18deae0c0e0a28a067c4ded5a993a928dcae07a9e5ccf50a5da72f8c1213",
+      "bytes": 19970
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\tools\\Invoke-Task4VisualEvidence.ps1",
+      "sha256": "3b4d310b5fae94057fadbd8cf34180aedef4081da7f650b334bd05e1549ff508",
+      "bytes": 2042
+    }
+  ],
+  "calibration": {
+    "path": "E:\\HS\\HearthstoneClone\\local\\ui-calibration.json",
+    "sha256": "e85ce40298c0fd45916d73fb1cc547ad9c46d1e3e124d2e0465f976c6b547da6",
+    "bytes": 39174
+  },
+  "capture": {
+    "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\capture.json",
+    "sha256": "13b035924ddfaf35189d90e4897610252d7285a8c2187e9e7018f3703dde4995",
+    "bytes": 87936
+  },
+  "source_data": [
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\5a1f2c96f5fe0aed6904b61c.impact-spell.json",
+      "sha256": "c6f266b7ef789c1e8fc176ec20388ad33f78a45d8bb3645e558df28043ca21a5",
+      "bytes": 135059
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\66903021322d6ccef05c91a6.missile-spell.json",
+      "sha256": "e27dce97f26ed2e1b72f8d40e492838c87aca63d4e6d2f909c265b9d329ffc9b",
+      "bytes": 156966
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\66903021322d6ccef05c91a6.root-missile-spell.json",
+      "sha256": "31474d8c853d028c838e6b47ea8e8315d01d49bf5678c8c3b2c362bae4863472",
+      "bytes": 178518
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\8d7692871e4e35e68559e40f.missile-spell.json",
+      "sha256": "5e97ef435c4582bff3858b11e8355fa03db2e7de99bd0bbd446365bff963456c",
+      "bytes": 14176
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\8d7692871e4e35e68559e40f.root-missile-spell.json",
+      "sha256": "8521a0e4c152495fae77771aedb54e16470ff2b3192cc587a400703cdab23987",
+      "bytes": 26015
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\b5870350c3bfca9f0391faa2.native-effect.json",
+      "sha256": "3a9f994500259b54eae6c4a4154938f5987aed93ed5d803628d37defc550e8bb",
+      "bytes": 530717
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\ccff72d7c18be921bf0ed7ab.impact-spell.json",
+      "sha256": "27d5e991deec7ff77cc18966c486db78dbe1fc9e7b61eb5a0a390be01459e4ae",
+      "bytes": 142902
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\d4a8efbd566e7fc8149c939b.native-effect.json",
+      "sha256": "25941700ee37bf18c7a1620cd23f3efc07241e8d51e5cd2f44c9a62107296c6c",
+      "bytes": 211336
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\native-effect-index.json",
+      "sha256": "4154b3fb61da8604a4553c80f9341ebb785cf0b19e26ffefcb22b2f02318bb12",
+      "bytes": 48601
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\native-smoke-source-textures.json",
+      "sha256": "aea65f3a279fc59a7c7a44b9f4edfd32565ab7a16f37a7be8f110a99a443af15",
+      "bytes": 10532
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\native-super-spell.json",
+      "sha256": "31ddb3dc335ea0a913fcbb37ece8b0cae2bc6b624c5f030349ecd5f4fdfd555d",
+      "bytes": 20817
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\manifests\\native-smoke-source-textures.json",
+      "sha256": "aea65f3a279fc59a7c7a44b9f4edfd32565ab7a16f37a7be8f110a99a443af15",
+      "bytes": 10532
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\manifests\\original-super-impact.json",
+      "sha256": "778ddd7a55c7361b0563545cca651d0ef9849174dcaa46ae087012db77adbc7e",
+      "bytes": 7494
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\manifests\\original-super-missile-config.json",
+      "sha256": "524e290e3da6095b9f9197c555dbd495f159ce478c80368d27269efd6d74c226",
+      "bytes": 516276
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\manifests\\original-super-spell.json",
+      "sha256": "31ddb3dc335ea0a913fcbb37ece8b0cae2bc6b624c5f030349ecd5f4fdfd555d",
+      "bytes": 20817
+    }
+  ],
+  "audio_files": [
+    {
+      "path": "E:\\HS\\HearthstoneClone\\local\\runtime\\37fc7033912eb05b1be004df.wav",
+      "sha256": "36dd221d09343efbd07a839c9aa298c1c410a4b93e6a3d920e79085b99c6e200",
+      "bytes": 107784
+    }
+  ],
+  "process_records": [
+    {
+      "path": "E:\\HS\\HearthstoneClone\\work\\task4\\process-a.json",
+      "sha256": "84d2b4a2e9f4b274290f91f20287988e03cb2dc86512e8032266eefd1c0a89c5",
+      "bytes": 268
+    },
+    {
+      "path": "E:\\HS\\HearthstoneClone\\work\\task4\\process-b.json",
+      "sha256": "06c64d23343f598ba94029636d01fc9bd6f660f93cf19735c59e111232a56553",
+      "bytes": 269
+    }
+  ],
+  "repeat_capture": {
+    "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-b\\capture.json",
+    "sha256": "13b035924ddfaf35189d90e4897610252d7285a8c2187e9e7018f3703dde4995",
+    "bytes": 87936
+  },
+  "sequences": [
+    {
+      "card": "EX1_129",
+      "before": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\scenes\\EX1_129-0-before.json",
+        "sha256": "f220af081923d2b4f9da10603e6dc1e92fce3888b480b1640988db885ce6e310",
+        "bytes": 4500
+      },
+      "after": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\scenes\\EX1_129-0-after.json",
+        "sha256": "631d0aee312ad0b5718c8c7d5aaf0590347b21dea9b59c2963589d315e61af08",
+        "bytes": 7896
+      },
+      "seat": 0,
+      "camera": {
+        "localPosition": {
+          "x": 0.0,
+          "y": 100.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071068286895752
+        },
+        "orthographicSize": 16.0,
+        "near": 0.10000000149011612,
+        "far": 200.0,
+        "aspect": 1.7777777910232544,
+        "width": 1024,
+        "height": 576,
+        "cullingMask": 1073741824,
+        "colorSpace": "Gamma",
+        "format": "ARGB32"
+      },
+      "frames": [
+        {
+          "card": "EX1_129",
+          "phase": "Birth",
+          "file": "EX1_129-seat0-Birth.png",
+          "emissionFile": "EX1_129-seat0-Birth-C.png",
+          "transmissionFile": "EX1_129-seat0-Birth-K.png",
+          "trigger": "first observed MissileBirth; includes source Birth before flight",
+          "seat": 0,
+          "step": 1,
+          "particles": 0,
+          "trailPoints": 4,
+          "pending": 2,
+          "time": 0.004166666883975267,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives.prefab:60570beba584281469015748504b6ea6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 1,
+              "particles": 0,
+              "trailPoints": 2,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 1,
+              "particles": 0,
+              "trailPoints": 2,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Birth.png",
+          "sha256": "70ef50559797c77242e83d09f5b33f73d07850aa98d8514d63c5c1ac615b9801",
+          "bytes": 12314,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.034766303168404,
+              46.04167344835069,
+              46.03400166829427,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              508,
+              397,
+              517,
+              433
+            ],
+            "pixels_delta_above_3": 135,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Birth-C.png",
+            "sha256": "b7bf9e3ba7a9af8ef89337bcc9c0261aa7f84cbdf9e971554ad71c995bfadb07",
+            "bytes": 11065,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Birth-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Early",
+          "file": "EX1_129-seat0-Early.png",
+          "emissionFile": "EX1_129-seat0-Early-C.png",
+          "transmissionFile": "EX1_129-seat0-Early-K.png",
+          "trigger": "first flight >=10% of absolute path duration",
+          "seat": 0,
+          "step": 4,
+          "particles": 0,
+          "trailPoints": 8,
+          "pending": 2,
+          "time": 0.01666666753590107,
+          "flightFraction": 0.14322753250598907,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives.prefab:60570beba584281469015748504b6ea6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": -0.244140625,
+                "y": 0.052734375,
+                "z": -5.98828125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 0.9999999403953552
+              },
+              "rotation": {
+                "x": -0.016941221430897713,
+                "y": -0.06813805550336838,
+                "z": -0.0011571983341127634,
+                "w": 0.9975314140319824
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 4,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 0.359375,
+                "y": 0.05078125,
+                "z": -6.05078125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 0.9999998807907104
+              },
+              "rotation": {
+                "x": 0.015805913135409355,
+                "y": -0.10715669393539429,
+                "z": -0.0017037360230460763,
+                "w": -0.9941150546073914
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 4,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Early.png",
+          "sha256": "dc240c8e06b23fd51788cfb0fffe77ab63c32e7ec1e5b3fd20990afc6a038041",
+          "bytes": 13707,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.03738572862413,
+              46.07213846842448,
+              46.03558010525174,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              501,
+              367,
+              525,
+              403
+            ],
+            "pixels_delta_above_3": 273,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Early-C.png",
+            "sha256": "dc4cf6e1b21b4fc55e8700efe88d0f141e1ba99cde0082c710df4aed562d0cab",
+            "bytes": 11963,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Early-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Mid",
+          "file": "EX1_129-seat0-Mid.png",
+          "emissionFile": "EX1_129-seat0-Mid-C.png",
+          "transmissionFile": "EX1_129-seat0-Mid-K.png",
+          "trigger": "first flight >=50% of absolute path duration",
+          "seat": 0,
+          "step": 12,
+          "particles": 2,
+          "trailPoints": 24,
+          "pending": 2,
+          "time": 0.05000000074505806,
+          "flightFraction": 0.5282580852508545,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives.prefab:60570beba584281469015748504b6ea6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 2,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": -0.96875,
+                "y": 0.1513671875,
+                "z": -1.380859375
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": -0.004662216641008854,
+                "y": 0.10239478200674057,
+                "z": -0.0004799148009624332,
+                "w": -0.9947327971458435
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 12,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 1.296875,
+                "y": 0.15234375,
+                "z": -1.607421875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 0.9999999403953552
+              },
+              "rotation": {
+                "x": -0.003066023113206029,
+                "y": -0.09178585559129715,
+                "z": 0.0002826113486662507,
+                "w": -0.9957740306854248
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 12,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Mid.png",
+          "sha256": "c9fb7367b779870f65d6ae54aa9262dfb8706f084280d50272a06c017fc10d0d",
+          "bytes": 18122,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.04572889539931,
+              46.12404547797309,
+              46.043178982204864,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              455,
+              285,
+              542,
+              405
+            ],
+            "pixels_delta_above_3": 1172,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Mid-C.png",
+            "sha256": "1866f9438c5e65cd93e932bdd1cca41e30b92b08cb8e812616da9cef376bc1c1",
+            "bytes": 17844,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Mid-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Arrival",
+          "file": "EX1_129-seat0-Arrival.png",
+          "emissionFile": "EX1_129-seat0-Arrival-C.png",
+          "transmissionFile": "EX1_129-seat0-Arrival-K.png",
+          "trigger": "first Arrival callback",
+          "seat": 0,
+          "step": 22,
+          "particles": 4,
+          "trailPoints": 44,
+          "pending": 3,
+          "time": 0.09166666865348816,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives.prefab:60570beba584281469015748504b6ea6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 4,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": -2.294921875,
+                "y": 0.0,
+                "z": 4.265625
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": -0.013343377970159054,
+                "y": 0.1162581816315651,
+                "z": -0.0015620108461007476,
+                "w": -0.9931281805038452
+              },
+              "state": 5,
+              "particles": 0,
+              "trailPoints": 22,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 2.244140625,
+                "y": 0.0087890625,
+                "z": 3.94921875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 0.9999999403953552
+              },
+              "rotation": {
+                "x": 0.013672108761966228,
+                "y": 0.08538026362657547,
+                "z": -0.001171716721728444,
+                "w": 0.9962539672851562
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 22,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Arrival.png",
+          "sha256": "30a0dedd2abd15ae66a4752f1c420db13f3a9e65c9264ac8547dfef8b049fa4a",
+          "bytes": 20674,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0627187093099,
+              46.17078823513455,
+              46.058980305989586,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              431,
+              334,
+              567,
+              414
+            ],
+            "pixels_delta_above_3": 1796,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Arrival-C.png",
+            "sha256": "873b79da2252e941a5a629a2db6a3545601e12c197589acc48566591faa105ae",
+            "bytes": 21330,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Arrival-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Death",
+          "file": "EX1_129-seat0-Death.png",
+          "emissionFile": "EX1_129-seat0-Death-C.png",
+          "transmissionFile": "EX1_129-seat0-Death-K.png",
+          "trigger": "first MissileDeath activation; may share Arrival step, not forced later",
+          "seat": 0,
+          "step": 22,
+          "particles": 4,
+          "trailPoints": 44,
+          "pending": 3,
+          "time": 0.09166666865348816,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives.prefab:60570beba584281469015748504b6ea6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 4,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": -2.294921875,
+                "y": 0.0,
+                "z": 4.265625
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": -0.013343377970159054,
+                "y": 0.1162581816315651,
+                "z": -0.0015620108461007476,
+                "w": -0.9931281805038452
+              },
+              "state": 5,
+              "particles": 0,
+              "trailPoints": 22,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 2.244140625,
+                "y": 0.0087890625,
+                "z": 3.94921875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 0.9999999403953552
+              },
+              "rotation": {
+                "x": 0.013672108761966228,
+                "y": 0.08538026362657547,
+                "z": -0.001171716721728444,
+                "w": 0.9962539672851562
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 22,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Death.png",
+          "sha256": "30a0dedd2abd15ae66a4752f1c420db13f3a9e65c9264ac8547dfef8b049fa4a",
+          "bytes": 20674,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0627187093099,
+              46.17078823513455,
+              46.058980305989586,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              431,
+              334,
+              567,
+              414
+            ],
+            "pixels_delta_above_3": 1796,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Death-C.png",
+            "sha256": "873b79da2252e941a5a629a2db6a3545601e12c197589acc48566591faa105ae",
+            "bytes": 21330,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Death-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Hit",
+          "file": "EX1_129-seat0-Hit.png",
+          "emissionFile": "EX1_129-seat0-Hit-C.png",
+          "transmissionFile": "EX1_129-seat0-Hit-K.png",
+          "trigger": "first actual impact State5",
+          "seat": 0,
+          "step": 31,
+          "particles": 6,
+          "trailPoints": 0,
+          "pending": 1,
+          "time": 0.12916666269302368,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives.prefab:60570beba584281469015748504b6ea6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 6,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Impact_FanOfKnives.prefab:7bdf273a76b122d41b3c9fb262a6f4a9",
+              "position": {
+                "x": 2.296875,
+                "y": 0.0,
+                "z": 4.267578125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.9955112338066101,
+                "z": 0.0,
+                "w": -0.0946434810757637
+              },
+              "state": 5,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": []
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Hit.png",
+          "sha256": "3c87c6a22837dbbd46b2e7a6b80be6ae5b14a53ac538433a724c9647fa1e60df",
+          "bytes": 24003,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.11372545030382,
+              46.28587849934896,
+              46.10713026258681,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              419,
+              204,
+              598,
+              436
+            ],
+            "pixels_delta_above_3": 2590,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Hit-C.png",
+            "sha256": "6d8e3ba5da3ed4fbf5f7d994f3a92db52edce83ed5b51d6e3169941911b442f8",
+            "bytes": 25162,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Hit-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Cleanup",
+          "file": "EX1_129-seat0-Cleanup.png",
+          "emissionFile": "EX1_129-seat0-Cleanup-C.png",
+          "transmissionFile": "EX1_129-seat0-Cleanup-K.png",
+          "trigger": "completed and zero active clones",
+          "seat": 0,
+          "step": 840,
+          "particles": 0,
+          "trailPoints": 0,
+          "pending": 0,
+          "time": 3.5,
+          "flightFraction": -1.0,
+          "completed": true,
+          "clones": [],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Cleanup.png",
+          "sha256": "5d77833a3ef404f9cd43fa850e5caf8a2d568725f33891e41cb91a2d2b85ae02",
+          "bytes": 11587,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0,
+              46.0,
+              46.0,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": null,
+            "pixels_delta_above_3": 0,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Cleanup-C.png",
+            "sha256": "97f26c47ff234adcb8a2bc32cde8b4df2fa336127594a2960fc3fadd87244270",
+            "bytes": 10382,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-Cleanup-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        }
+      ],
+      "events": [
+        "0.000000 Birth -1",
+        "0.000000 Action -1",
+        "0.000000 AreaClone -1",
+        "0.000000 AreaState3 -1",
+        "0.000000 StartAction -1",
+        "0.004167 MissileClone -1",
+        "0.004167 MissileBirth 0",
+        "0.004167 MissileState1 -1",
+        "0.004167 MissileClone -1",
+        "0.004167 MissileBirth 1",
+        "0.004167 MissileState1 -1",
+        "0.004167 AreaFinishedNotification -1",
+        "0.008333 MissileState3 -1",
+        "0.008333 MissileState3 -1",
+        "0.091667 Arrival 0",
+        "0.091667 ImpactScheduled 0",
+        "0.091667 MissileDeath 0",
+        "0.091667 MissileState5 -1",
+        "0.095833 MissileNone 0",
+        "0.095833 MissileState0 -1",
+        "0.095833 MissileFinished 0",
+        "0.095833 MissileFinishedNotification -1",
+        "0.095833 Arrival 1",
+        "0.095833 ImpactScheduled 1",
+        "0.095833 MissileDeath 1",
+        "0.095833 MissileState5 -1",
+        "0.100000 MissileNone 1",
+        "0.100000 MissileState0 -1",
+        "0.100000 MissileFinished 1",
+        "0.100000 MissileFinishedNotification -1",
+        "0.129167 ImpactClone -1",
+        "0.129167 ImpactState5 -1",
+        "0.129167 ImpactFinishedNotification -1",
+        "0.500000 ImpactClone -1",
+        "0.500000 ImpactState5 -1",
+        "0.500000 Finished -1",
+        "0.500000 None -1",
+        "0.500000 CleanUp -1",
+        "0.500000 ImpactFinishedNotification -1",
+        "1.000000 AreaState0 -1",
+        "3.129167 ImpactState0 -1",
+        "3.500000 ImpactState0 -1"
+      ],
+      "audio": [
+        {
+          "file": "37fc7033912eb05b1be004df.wav",
+          "callbackTime": 0.0,
+          "clipTime": 0.0,
+          "volume": 1.0,
+          "pitch": 1.0,
+          "spatialBlend": 1.0
+        }
+      ],
+      "completed": true,
+      "released": true,
+      "contact_sheet": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat0-contact.png",
+        "sha256": "75323234b371064a820b2f3200584a8b725590a26a8c5c15b98e47ceb74cc716",
+        "bytes": 19671,
+        "size": [
+          1152,
+          738
+        ]
+      }
+    },
+    {
+      "card": "EX1_129",
+      "before": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\scenes\\EX1_129-1-before.json",
+        "sha256": "496c548772111dd6922adac6f2c3d82f4a17436753869f17eabb45e25656fa3e",
+        "bytes": 6237
+      },
+      "after": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\scenes\\EX1_129-1-after.json",
+        "sha256": "ec6d407974114d63793d83b40d7244f945b5cef5fcbad76a16a46ec91ae818c8",
+        "bytes": 9397
+      },
+      "seat": 1,
+      "camera": {
+        "localPosition": {
+          "x": 0.0,
+          "y": 100.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071068286895752
+        },
+        "orthographicSize": 16.0,
+        "near": 0.10000000149011612,
+        "far": 200.0,
+        "aspect": 1.7777777910232544,
+        "width": 1024,
+        "height": 576,
+        "cullingMask": 1073741824,
+        "colorSpace": "Gamma",
+        "format": "ARGB32"
+      },
+      "frames": [
+        {
+          "card": "EX1_129",
+          "phase": "Birth",
+          "file": "EX1_129-seat1-Birth.png",
+          "emissionFile": "EX1_129-seat1-Birth-C.png",
+          "transmissionFile": "EX1_129-seat1-Birth-K.png",
+          "trigger": "first observed MissileBirth; includes source Birth before flight",
+          "seat": 1,
+          "step": 1,
+          "particles": 0,
+          "trailPoints": 4,
+          "pending": 2,
+          "time": 0.004166666883975267,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives_Opponent.prefab:457dcdab0d0eab2429e985dabe5ee2b6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 1,
+              "particles": 0,
+              "trailPoints": 2,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 1,
+              "particles": 0,
+              "trailPoints": 2,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Birth.png",
+          "sha256": "75daf4ee64fafb98687a951cb37962bdb295028aaf63e99fb96f6b5a4f1f14d0",
+          "bytes": 12887,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.03401014539931,
+              46.04119194878472,
+              46.033301459418404,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              508,
+              72,
+              517,
+              107
+            ],
+            "pixels_delta_above_3": 133,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Birth-C.png",
+            "sha256": "f263b09fa8713ac6d8de8db1522905a938c4ecb739c4a5e757383723435d1825",
+            "bytes": 11075,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Birth-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Early",
+          "file": "EX1_129-seat1-Early.png",
+          "emissionFile": "EX1_129-seat1-Early-C.png",
+          "transmissionFile": "EX1_129-seat1-Early-K.png",
+          "trigger": "first flight >=10% of absolute path duration",
+          "seat": 1,
+          "step": 4,
+          "particles": 0,
+          "trailPoints": 8,
+          "pending": 2,
+          "time": 0.01666666753590107,
+          "flightFraction": 0.14322753250598907,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives_Opponent.prefab:457dcdab0d0eab2429e985dabe5ee2b6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": -0.4140625,
+                "y": 0.0537109375,
+                "z": 8.689453125
+              },
+              "scale": {
+                "x": 1.0000001192092896,
+                "y": 0.9999999403953552,
+                "z": 1.0000001192092896
+              },
+              "rotation": {
+                "x": -0.0019688906613737345,
+                "y": -0.9926034808158875,
+                "z": -0.016246318817138672,
+                "w": 0.12029356509447098
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 4,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 0.275390625,
+                "y": 0.05078125,
+                "z": 8.751953125
+              },
+              "scale": {
+                "x": 1.0000004768371582,
+                "y": 1.0,
+                "z": 1.0000005960464478
+              },
+              "rotation": {
+                "x": 0.001341237686574459,
+                "y": -0.9966118335723877,
+                "z": -0.016595231369137764,
+                "w": -0.08054684847593307
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 4,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Early.png",
+          "sha256": "a4a6004cb68c1d3eeee53ad3788646617c7fd4042884d14e02ebc60805ed4d43",
+          "bytes": 14164,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.037161933051216,
+              46.072235107421875,
+              46.035341050889755,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              497,
+              124,
+              524,
+              160
+            ],
+            "pixels_delta_above_3": 268,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Early-C.png",
+            "sha256": "2603fe97915be0d37093e58a0a97e5971471a7bf386d1f977a2926a971adada1",
+            "bytes": 11953,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Early-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Mid",
+          "file": "EX1_129-seat1-Mid.png",
+          "emissionFile": "EX1_129-seat1-Mid-C.png",
+          "transmissionFile": "EX1_129-seat1-Mid-K.png",
+          "trigger": "first flight >=50% of absolute path duration",
+          "seat": 1,
+          "step": 12,
+          "particles": 2,
+          "trailPoints": 24,
+          "pending": 2,
+          "time": 0.05000000074505806,
+          "flightFraction": 0.5282580852508545,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives_Opponent.prefab:457dcdab0d0eab2429e985dabe5ee2b6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 2,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": -1.458984375,
+                "y": 0.1533203125,
+                "z": 4.01171875
+              },
+              "scale": {
+                "x": 1.0000003576278687,
+                "y": 1.0,
+                "z": 1.0000004768371582
+              },
+              "rotation": {
+                "x": -0.00040045735659077764,
+                "y": 0.9962840676307678,
+                "z": -0.00463904021307826,
+                "w": -0.08600261062383652
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 12,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 1.041015625,
+                "y": 0.154296875,
+                "z": 4.2421875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 0.9999998807907104
+              },
+              "rotation": {
+                "x": -0.0002929486217908561,
+                "y": -0.9953214526176453,
+                "z": 0.0030193040147423744,
+                "w": -0.09657125920057297
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 12,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Mid.png",
+          "sha256": "78d6ddd843b5487f109bcc40b475ef89db10bf621cd12fd427d0bf79f7390249",
+          "bytes": 18340,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.04563903808594,
+              46.123870849609375,
+              46.04308403862847,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              479,
+              122,
+              569,
+              244
+            ],
+            "pixels_delta_above_3": 1166,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Mid-C.png",
+            "sha256": "012c5823598e897718c0e07da3315554b982bf6fdfaca01610a0628135ff8271",
+            "bytes": 17840,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Mid-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Arrival",
+          "file": "EX1_129-seat1-Arrival.png",
+          "emissionFile": "EX1_129-seat1-Arrival-C.png",
+          "transmissionFile": "EX1_129-seat1-Arrival-K.png",
+          "trigger": "first Arrival callback",
+          "seat": 1,
+          "step": 22,
+          "particles": 4,
+          "trailPoints": 44,
+          "pending": 3,
+          "time": 0.09166666865348816,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives_Opponent.prefab:457dcdab0d0eab2429e985dabe5ee2b6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 4,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": -2.294921875,
+                "y": -0.0009765625,
+                "z": -1.720703125
+              },
+              "scale": {
+                "x": 1.000000238418579,
+                "y": 1.0,
+                "z": 1.000000238418579
+              },
+              "rotation": {
+                "x": -0.0009707793942652643,
+                "y": 0.9972965121269226,
+                "z": -0.013401216827332973,
+                "w": -0.0722438246011734
+              },
+              "state": 5,
+              "particles": 0,
+              "trailPoints": 22,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 2.23046875,
+                "y": 0.0078125,
+                "z": -1.396484375
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 0.9999999403953552,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.001378288259729743,
+                "y": 0.9945138096809387,
+                "z": -0.013210712932050228,
+                "w": 0.10375870019197464
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 22,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Arrival.png",
+          "sha256": "285f940a095f8e973a00a2b4f79aec4f2ee66b699fe978f027c0c6f83ca6c613",
+          "bytes": 20964,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0626949734158,
+              46.17074415418837,
+              46.05901082356771,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              457,
+              113,
+              593,
+              194
+            ],
+            "pixels_delta_above_3": 1793,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Arrival-C.png",
+            "sha256": "10c3018d70aa6eb28c04b3f9d3052855774966e65b880bcc280d314520e4b006",
+            "bytes": 21448,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Arrival-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Death",
+          "file": "EX1_129-seat1-Death.png",
+          "emissionFile": "EX1_129-seat1-Death-C.png",
+          "transmissionFile": "EX1_129-seat1-Death-K.png",
+          "trigger": "first MissileDeath activation; may share Arrival step, not forced later",
+          "seat": 1,
+          "step": 22,
+          "particles": 4,
+          "trailPoints": 44,
+          "pending": 3,
+          "time": 0.09166666865348816,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives_Opponent.prefab:457dcdab0d0eab2429e985dabe5ee2b6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 4,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": -2.294921875,
+                "y": -0.0009765625,
+                "z": -1.720703125
+              },
+              "scale": {
+                "x": 1.000000238418579,
+                "y": 1.0,
+                "z": 1.000000238418579
+              },
+              "rotation": {
+                "x": -0.0009707793942652643,
+                "y": 0.9972965121269226,
+                "z": -0.013401216827332973,
+                "w": -0.0722438246011734
+              },
+              "state": 5,
+              "particles": 0,
+              "trailPoints": 22,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+              "position": {
+                "x": 2.23046875,
+                "y": 0.0078125,
+                "z": -1.396484375
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 0.9999999403953552,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.001378288259729743,
+                "y": 0.9945138096809387,
+                "z": -0.013210712932050228,
+                "w": 0.10375870019197464
+              },
+              "state": 3,
+              "particles": 0,
+              "trailPoints": 22,
+              "trailTimes": [
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Death.png",
+          "sha256": "285f940a095f8e973a00a2b4f79aec4f2ee66b699fe978f027c0c6f83ca6c613",
+          "bytes": 20964,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0626949734158,
+              46.17074415418837,
+              46.05901082356771,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              457,
+              113,
+              593,
+              194
+            ],
+            "pixels_delta_above_3": 1793,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Death-C.png",
+            "sha256": "10c3018d70aa6eb28c04b3f9d3052855774966e65b880bcc280d314520e4b006",
+            "bytes": 21448,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Death-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Hit",
+          "file": "EX1_129-seat1-Hit.png",
+          "emissionFile": "EX1_129-seat1-Hit-C.png",
+          "transmissionFile": "EX1_129-seat1-Hit-K.png",
+          "trigger": "first actual impact State5",
+          "seat": 1,
+          "step": 31,
+          "particles": 6,
+          "trailPoints": 0,
+          "pending": 1,
+          "time": 0.12916666269302368,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_AE_FanOfKnives_Opponent.prefab:457dcdab0d0eab2429e985dabe5ee2b6",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 6,
+              "trailPoints": 0,
+              "trailTimes": []
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Impact_FanOfKnives.prefab:7bdf273a76b122d41b3c9fb262a6f4a9",
+              "position": {
+                "x": 2.296875,
+                "y": 0.0,
+                "z": -1.71875
+              },
+              "scale": {
+                "x": 0.9999999403953552,
+                "y": 1.0,
+                "z": 0.9999999403953552
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": -0.09329504519701004,
+                "z": 0.0,
+                "w": 0.9956385493278503
+              },
+              "state": 5,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": []
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Hit.png",
+          "sha256": "2e9307dc09d60d25b43ca69dbd20cd9ac1dff45ad67857c2357ed0a8ec3a3cae",
+          "bytes": 24698,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.11397806803385,
+              46.28544277615018,
+              46.107520209418404,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              426,
+              91,
+              605,
+              326
+            ],
+            "pixels_delta_above_3": 2601,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Hit-C.png",
+            "sha256": "cb6e5e5b084e35d0460ae433f22921de112cbf1e21ec2d17236577b19544e390",
+            "bytes": 25420,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Hit-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_129",
+          "phase": "Cleanup",
+          "file": "EX1_129-seat1-Cleanup.png",
+          "emissionFile": "EX1_129-seat1-Cleanup-C.png",
+          "transmissionFile": "EX1_129-seat1-Cleanup-K.png",
+          "trigger": "completed and zero active clones",
+          "seat": 1,
+          "step": 840,
+          "particles": 0,
+          "trailPoints": 0,
+          "pending": 0,
+          "time": 3.5,
+          "flightFraction": -1.0,
+          "completed": true,
+          "clones": [],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Cleanup.png",
+          "sha256": "5d77833a3ef404f9cd43fa850e5caf8a2d568725f33891e41cb91a2d2b85ae02",
+          "bytes": 11587,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0,
+              46.0,
+              46.0,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": null,
+            "pixels_delta_above_3": 0,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Cleanup-C.png",
+            "sha256": "97f26c47ff234adcb8a2bc32cde8b4df2fa336127594a2960fc3fadd87244270",
+            "bytes": 10382,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-Cleanup-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        }
+      ],
+      "events": [
+        "0.000000 Birth -1",
+        "0.000000 Action -1",
+        "0.000000 AreaClone -1",
+        "0.000000 AreaState3 -1",
+        "0.000000 StartAction -1",
+        "0.004167 MissileClone -1",
+        "0.004167 MissileBirth 0",
+        "0.004167 MissileState1 -1",
+        "0.004167 MissileClone -1",
+        "0.004167 MissileBirth 1",
+        "0.004167 MissileState1 -1",
+        "0.004167 AreaFinishedNotification -1",
+        "0.008333 MissileState3 -1",
+        "0.008333 MissileState3 -1",
+        "0.091667 Arrival 0",
+        "0.091667 ImpactScheduled 0",
+        "0.091667 MissileDeath 0",
+        "0.091667 MissileState5 -1",
+        "0.095833 MissileNone 0",
+        "0.095833 MissileState0 -1",
+        "0.095833 MissileFinished 0",
+        "0.095833 MissileFinishedNotification -1",
+        "0.095833 Arrival 1",
+        "0.095833 ImpactScheduled 1",
+        "0.095833 MissileDeath 1",
+        "0.095833 MissileState5 -1",
+        "0.100000 MissileNone 1",
+        "0.100000 MissileState0 -1",
+        "0.100000 MissileFinished 1",
+        "0.100000 MissileFinishedNotification -1",
+        "0.129167 ImpactClone -1",
+        "0.129167 ImpactState5 -1",
+        "0.129167 ImpactFinishedNotification -1",
+        "0.500000 ImpactClone -1",
+        "0.500000 ImpactState5 -1",
+        "0.500000 Finished -1",
+        "0.500000 None -1",
+        "0.500000 CleanUp -1",
+        "0.500000 ImpactFinishedNotification -1",
+        "1.000000 AreaState0 -1",
+        "3.129167 ImpactState0 -1",
+        "3.500000 ImpactState0 -1"
+      ],
+      "audio": [
+        {
+          "file": "37fc7033912eb05b1be004df.wav",
+          "callbackTime": 0.0,
+          "clipTime": 0.0,
+          "volume": 1.0,
+          "pitch": 1.0,
+          "spatialBlend": 1.0
+        }
+      ],
+      "completed": true,
+      "released": true,
+      "contact_sheet": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_129-seat1-contact.png",
+        "sha256": "866a694e960b5b5a09644e9bb8b1f77ac4b5556806630e7a89322330a7822f37",
+        "bytes": 19546,
+        "size": [
+          1152,
+          738
+        ]
+      }
+    },
+    {
+      "card": "EX1_134",
+      "before": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\scenes\\EX1_134-0-before.json",
+        "sha256": "5c98f0a629fa5831f7fe39dd046c9372e5249a796add0eada6ea6af1f24e0aab",
+        "bytes": 4196
+      },
+      "after": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\scenes\\EX1_134-0-after.json",
+        "sha256": "46a012b0cd92f98fefc44d624faf616ca1a3b2f63babd3536f5bd3536fc841f9",
+        "bytes": 5522
+      },
+      "seat": 0,
+      "camera": {
+        "localPosition": {
+          "x": 0.0,
+          "y": 100.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071068286895752
+        },
+        "orthographicSize": 16.0,
+        "near": 0.10000000149011612,
+        "far": 200.0,
+        "aspect": 1.7777777910232544,
+        "width": 1024,
+        "height": 576,
+        "cullingMask": 1073741824,
+        "colorSpace": "Gamma",
+        "format": "ARGB32"
+      },
+      "frames": [
+        {
+          "card": "EX1_134",
+          "phase": "Birth",
+          "file": "EX1_134-seat0-Birth.png",
+          "emissionFile": "EX1_134-seat0-Birth-C.png",
+          "transmissionFile": "EX1_134-seat0-Birth-K.png",
+          "trigger": "first observed MissileBirth; includes source Birth before flight",
+          "seat": 0,
+          "step": 1,
+          "particles": 0,
+          "trailPoints": 0,
+          "pending": 1,
+          "time": 0.004166666883975267,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.77734375
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 1,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": [
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Birth.png",
+          "sha256": "5d77833a3ef404f9cd43fa850e5caf8a2d568725f33891e41cb91a2d2b85ae02",
+          "bytes": 11587,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0,
+              46.0,
+              46.0,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": null,
+            "pixels_delta_above_3": 0,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Birth-C.png",
+            "sha256": "97f26c47ff234adcb8a2bc32cde8b4df2fa336127594a2960fc3fadd87244270",
+            "bytes": 10382,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Birth-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Early",
+          "file": "EX1_134-seat0-Early.png",
+          "emissionFile": "EX1_134-seat0-Early-C.png",
+          "transmissionFile": "EX1_134-seat0-Early-K.png",
+          "trigger": "first flight >=10% of absolute path duration",
+          "seat": 0,
+          "step": 112,
+          "particles": 38,
+          "trailPoints": 12,
+          "pending": 1,
+          "time": 0.46666666865348816,
+          "flightFraction": 0.10377838462591171,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": -0.80078125,
+                "y": 0.26171875,
+                "z": 4.03515625
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 38,
+              "trailPoints": 12,
+              "trailTimes": [
+                0.30000001192092896,
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Early.png",
+          "sha256": "65ab4c1c1a992699a405dd5866a99df15fd160d1b8afa1e1b89d4a0bc531e83f",
+          "bytes": 12136,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.99894883897569,
+              45.99867248535156,
+              45.99902852376302,
+              254.98719618055554
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              502,
+              212,
+              512,
+              221
+            ],
+            "pixels_delta_above_3": 68,
+            "alpha_extrema_8bit": [
+              63,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Early-C.png",
+            "sha256": "ac57c2dc5651cf83612ba63c89b5e013d6173fc28321f8084892678e0c4cfb47",
+            "bytes": 10819,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Early-K.png",
+            "sha256": "3ee87bf6c566decc888930d1aa544e8a251510c849d10a51c68c34e2051195cc",
+            "bytes": 12722,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Mid",
+          "file": "EX1_134-seat0-Mid.png",
+          "emissionFile": "EX1_134-seat0-Mid-C.png",
+          "transmissionFile": "EX1_134-seat0-Mid-K.png",
+          "trigger": "first flight >=50% of absolute path duration",
+          "seat": 0,
+          "step": 151,
+          "particles": 164,
+          "trailPoints": 48,
+          "pending": 1,
+          "time": 0.6291666626930237,
+          "flightFraction": 0.5085174441337585,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": -3.310546875,
+                "y": 1.0810546875,
+                "z": 11.796875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 164,
+              "trailPoints": 48,
+              "trailTimes": [
+                0.30000001192092896,
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Mid.png",
+          "sha256": "b7a98dbc7758203432ddd6a8f59a57b9eadb698fbae2298292b3c2da52d88c95",
+          "bytes": 14214,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.99039204915365,
+              45.98981730143229,
+              45.990415785047745,
+              254.9356197781033
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              452,
+              69,
+              470,
+              86
+            ],
+            "pixels_delta_above_3": 229,
+            "alpha_extrema_8bit": [
+              24,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Mid-C.png",
+            "sha256": "ac45a37e79e18987dafb39ddf523cde65c5a33b67aa6188341c028b48605d2ad",
+            "bytes": 11641,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Mid-K.png",
+            "sha256": "71977f55eaf4ffabe9abbcf58748fc4b6b6f241ca624a12b984db442bebaccfb",
+            "bytes": 13323,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Arrival",
+          "file": "EX1_134-seat0-Arrival.png",
+          "emissionFile": "EX1_134-seat0-Arrival-C.png",
+          "transmissionFile": "EX1_134-seat0-Arrival-K.png",
+          "trigger": "first Arrival callback",
+          "seat": 0,
+          "step": 199,
+          "particles": 180,
+          "trailPoints": 46,
+          "pending": 2,
+          "time": 0.8291666507720947,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 5,
+              "particles": 180,
+              "trailPoints": 46,
+              "trailTimes": [
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Arrival.png",
+          "sha256": "fabd40aee9a495561db5217277dd9a998d096f4297590a60a963b712ba875c9f",
+          "bytes": 14387,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.99586486816406,
+              45.99510531955295,
+              45.99588521321615,
+              254.95794169108072
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              514,
+              95,
+              528,
+              109
+            ],
+            "pixels_delta_above_3": 154,
+            "alpha_extrema_8bit": [
+              20,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Arrival-C.png",
+            "sha256": "26ad1614478d9126f9445ab49fbd4368b76af30773dec3d006a0156db301bbf6",
+            "bytes": 11538,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Arrival-K.png",
+            "sha256": "dbad9439c7093ca34edf6984a5b800cb648bb922f3356051be4e7de53b281891",
+            "bytes": 13851,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Death",
+          "file": "EX1_134-seat0-Death.png",
+          "emissionFile": "EX1_134-seat0-Death-C.png",
+          "transmissionFile": "EX1_134-seat0-Death-K.png",
+          "trigger": "first MissileDeath activation; may share Arrival step, not forced later",
+          "seat": 0,
+          "step": 199,
+          "particles": 180,
+          "trailPoints": 46,
+          "pending": 2,
+          "time": 0.8291666507720947,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 5,
+              "particles": 180,
+              "trailPoints": 46,
+              "trailTimes": [
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Death.png",
+          "sha256": "fabd40aee9a495561db5217277dd9a998d096f4297590a60a963b712ba875c9f",
+          "bytes": 14387,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.99586486816406,
+              45.99510531955295,
+              45.99588521321615,
+              254.95794169108072
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              514,
+              95,
+              528,
+              109
+            ],
+            "pixels_delta_above_3": 154,
+            "alpha_extrema_8bit": [
+              20,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Death-C.png",
+            "sha256": "26ad1614478d9126f9445ab49fbd4368b76af30773dec3d006a0156db301bbf6",
+            "bytes": 11538,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Death-K.png",
+            "sha256": "dbad9439c7093ca34edf6984a5b800cb648bb922f3356051be4e7de53b281891",
+            "bytes": 13851,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Hit",
+          "file": "EX1_134-seat0-Hit.png",
+          "emissionFile": "EX1_134-seat0-Hit-C.png",
+          "transmissionFile": "EX1_134-seat0-Hit-K.png",
+          "trigger": "first actual impact State5",
+          "seat": 0,
+          "step": 200,
+          "particles": 176,
+          "trailPoints": 0,
+          "pending": 0,
+          "time": 0.8333333134651184,
+          "flightFraction": -1.0,
+          "completed": true,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 5,
+              "particles": 176,
+              "trailPoints": 0,
+              "trailTimes": [
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Impact_01.prefab:ad6a1891058a81d499ce5b6f7c330477",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 10.4296875
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 5,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": []
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Hit.png",
+          "sha256": "685dc64cac3baeeaf9d6bbad0441de08e88ee72e142c94e71a9ce75bd45913f1",
+          "bytes": 13805,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.99575636121962,
+              45.995032416449654,
+              45.99576314290365,
+              254.958499484592
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              514,
+              95,
+              528,
+              108
+            ],
+            "pixels_delta_above_3": 149,
+            "alpha_extrema_8bit": [
+              21,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Hit-C.png",
+            "sha256": "b4a0288b57240c502f7282f435fc4b931694665dc8283b362b66d2928b68a4ba",
+            "bytes": 11568,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Hit-K.png",
+            "sha256": "7c43287ca00093f0646e237f8e0b07443fec88705ec8af653106925e46b791d9",
+            "bytes": 13904,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Cleanup",
+          "file": "EX1_134-seat0-Cleanup.png",
+          "emissionFile": "EX1_134-seat0-Cleanup-C.png",
+          "transmissionFile": "EX1_134-seat0-Cleanup-K.png",
+          "trigger": "completed and zero active clones",
+          "seat": 0,
+          "step": 920,
+          "particles": 0,
+          "trailPoints": 0,
+          "pending": 0,
+          "time": 3.8333332538604736,
+          "flightFraction": -1.0,
+          "completed": true,
+          "clones": [],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Cleanup.png",
+          "sha256": "5d77833a3ef404f9cd43fa850e5caf8a2d568725f33891e41cb91a2d2b85ae02",
+          "bytes": 11587,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0,
+              46.0,
+              46.0,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": null,
+            "pixels_delta_above_3": 0,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Cleanup-C.png",
+            "sha256": "97f26c47ff234adcb8a2bc32cde8b4df2fa336127594a2960fc3fadd87244270",
+            "bytes": 10382,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-Cleanup-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        }
+      ],
+      "events": [
+        "0.000000 Birth -1",
+        "0.000000 Action -1",
+        "0.004167 MissileClone -1",
+        "0.004167 MissileBirth 0",
+        "0.004167 MissileState1 -1",
+        "0.425000 MissileState3 -1",
+        "0.829167 Arrival 0",
+        "0.829167 ImpactScheduled 0",
+        "0.829167 MissileDeath 0",
+        "0.829167 MissileState5 -1",
+        "0.833333 ImpactClone -1",
+        "0.833333 ImpactState5 -1",
+        "0.833333 MissileFinished 0",
+        "0.833333 MissileFinishedNotification -1",
+        "0.833333 Finished -1",
+        "0.833333 None -1",
+        "0.833333 CleanUp -1",
+        "0.833333 ImpactFinishedNotification -1",
+        "2.829167 MissileNone 0",
+        "2.829167 MissileState0 -1",
+        "3.833333 ImpactState0 -1"
+      ],
+      "audio": [],
+      "completed": true,
+      "released": true,
+      "contact_sheet": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat0-contact.png",
+        "sha256": "68a3ca90631591a87ef121bdc6d3c467ca311a0f19368a4b51042d5726935177",
+        "bytes": 14469,
+        "size": [
+          1152,
+          738
+        ]
+      }
+    },
+    {
+      "card": "EX1_134",
+      "before": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\scenes\\EX1_134-1-before.json",
+        "sha256": "43a0d9b1d0c544efff4d1ac42c5bf7e3564bdb4a8938d6ee804094490fe4c269",
+        "bytes": 5719
+      },
+      "after": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\scenes\\EX1_134-1-after.json",
+        "sha256": "56792d51d42b7659363365eb64ecb5d0b7cdf1a50ebfbdca9b22a5882b3a6618",
+        "bytes": 7828
+      },
+      "seat": 1,
+      "camera": {
+        "localPosition": {
+          "x": 0.0,
+          "y": 100.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.7071068286895752,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.7071068286895752
+        },
+        "orthographicSize": 16.0,
+        "near": 0.10000000149011612,
+        "far": 200.0,
+        "aspect": 1.7777777910232544,
+        "width": 1024,
+        "height": 576,
+        "cullingMask": 1073741824,
+        "colorSpace": "Gamma",
+        "format": "ARGB32"
+      },
+      "frames": [
+        {
+          "card": "EX1_134",
+          "phase": "Birth",
+          "file": "EX1_134-seat1-Birth.png",
+          "emissionFile": "EX1_134-seat1-Birth-C.png",
+          "transmissionFile": "EX1_134-seat1-Birth-K.png",
+          "trigger": "first observed MissileBirth; includes source Birth before flight",
+          "seat": 1,
+          "step": 1,
+          "particles": 0,
+          "trailPoints": 0,
+          "pending": 1,
+          "time": 0.004166666883975267,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.77734375
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 1,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": [
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Birth.png",
+          "sha256": "5d77833a3ef404f9cd43fa850e5caf8a2d568725f33891e41cb91a2d2b85ae02",
+          "bytes": 11587,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0,
+              46.0,
+              46.0,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": null,
+            "pixels_delta_above_3": 0,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Birth-C.png",
+            "sha256": "97f26c47ff234adcb8a2bc32cde8b4df2fa336127594a2960fc3fadd87244270",
+            "bytes": 10382,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Birth-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Early",
+          "file": "EX1_134-seat1-Early.png",
+          "emissionFile": "EX1_134-seat1-Early-C.png",
+          "transmissionFile": "EX1_134-seat1-Early-K.png",
+          "trigger": "first flight >=10% of absolute path duration",
+          "seat": 1,
+          "step": 112,
+          "particles": 38,
+          "trailPoints": 12,
+          "pending": 1,
+          "time": 0.46666666865348816,
+          "flightFraction": 0.10377838462591171,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 0.876953125,
+                "y": 0.2861328125,
+                "z": -0.6953125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 38,
+              "trailPoints": 12,
+              "trailTimes": [
+                0.30000001192092896,
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Early.png",
+          "sha256": "f72f8d72d4c8a96c9c425ec2379468b062c31d88414a6a262fa67bf6c66786b9",
+          "bytes": 12756,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.998953925238716,
+              45.99866739908854,
+              45.9990234375,
+              254.98707919650607
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              532,
+              297,
+              542,
+              307
+            ],
+            "pixels_delta_above_3": 69,
+            "alpha_extrema_8bit": [
+              60,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Early-C.png",
+            "sha256": "7037187a5c47f40699c072453dd8c9c04b0bbc402be6b7346f5b5ee15336222d",
+            "bytes": 10830,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Early-K.png",
+            "sha256": "0866723e5741241ea7840c5340ca1227736316d3d4e1b764797593586273f900",
+            "bytes": 12606,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Mid",
+          "file": "EX1_134-seat1-Mid.png",
+          "emissionFile": "EX1_134-seat1-Mid-C.png",
+          "transmissionFile": "EX1_134-seat1-Mid-K.png",
+          "trigger": "first flight >=50% of absolute path duration",
+          "seat": 1,
+          "step": 151,
+          "particles": 164,
+          "trailPoints": 48,
+          "pending": 1,
+          "time": 0.6291666626930237,
+          "flightFraction": 0.5085174441337585,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 3.626953125,
+                "y": 1.1845703125,
+                "z": -9.203125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 3,
+              "particles": 164,
+              "trailPoints": 48,
+              "trailTimes": [
+                0.30000001192092896,
+                0.30000001192092896
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Mid.png",
+          "sha256": "e05689e6fd997a52ae668bc00b8be7963bf03ac0c8bf806012e24d62db9be26f",
+          "bytes": 13742,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.99036322699653,
+              45.98981051974826,
+              45.990386962890625,
+              254.9354722764757
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              577,
+              447,
+              595,
+              464
+            ],
+            "pixels_delta_above_3": 228,
+            "alpha_extrema_8bit": [
+              23,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Mid-C.png",
+            "sha256": "ba24db803d8d54d662b8f7ed06aea97f179a87cf89f8281e5a11b4b938a97d39",
+            "bytes": 11636,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Mid-K.png",
+            "sha256": "bd30998093577b4500343cd75ac6035f538eec50bdee863b95d167dab5984320",
+            "bytes": 13199,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Arrival",
+          "file": "EX1_134-seat1-Arrival.png",
+          "emissionFile": "EX1_134-seat1-Arrival-C.png",
+          "transmissionFile": "EX1_134-seat1-Arrival-K.png",
+          "trigger": "first Arrival callback",
+          "seat": 1,
+          "step": 199,
+          "particles": 180,
+          "trailPoints": 48,
+          "pending": 2,
+          "time": 0.8291666507720947,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 0.001953125,
+                "y": -0.0009765625,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 5,
+              "particles": 180,
+              "trailPoints": 48,
+              "trailTimes": [
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Arrival.png",
+          "sha256": "07d3aad1af76104b19772f7908faf1e8f3d89c7219ce386a46beafd6034e5883",
+          "bytes": 13834,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.995880126953125,
+              45.99511040581597,
+              45.99589708116319,
+              254.95794338650174
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              514,
+              421,
+              528,
+              435
+            ],
+            "pixels_delta_above_3": 152,
+            "alpha_extrema_8bit": [
+              20,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Arrival-C.png",
+            "sha256": "42170c9257b983c7601ac08f08f578f95a08e468ed8f4bdcefdf625f27b63698",
+            "bytes": 11509,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Arrival-K.png",
+            "sha256": "9d2145128603cd691c2ceb98dc7be8505cede39397b818a134f6ca80bfbb6119",
+            "bytes": 13332,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Death",
+          "file": "EX1_134-seat1-Death.png",
+          "emissionFile": "EX1_134-seat1-Death-C.png",
+          "transmissionFile": "EX1_134-seat1-Death-K.png",
+          "trigger": "first MissileDeath activation; may share Arrival step, not forced later",
+          "seat": 1,
+          "step": 199,
+          "particles": 180,
+          "trailPoints": 48,
+          "pending": 2,
+          "time": 0.8291666507720947,
+          "flightFraction": -1.0,
+          "completed": false,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 0.001953125,
+                "y": -0.0009765625,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 5,
+              "particles": 180,
+              "trailPoints": 48,
+              "trailTimes": [
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Death.png",
+          "sha256": "07d3aad1af76104b19772f7908faf1e8f3d89c7219ce386a46beafd6034e5883",
+          "bytes": 13834,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.995880126953125,
+              45.99511040581597,
+              45.99589708116319,
+              254.95794338650174
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              514,
+              421,
+              528,
+              435
+            ],
+            "pixels_delta_above_3": 152,
+            "alpha_extrema_8bit": [
+              20,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Death-C.png",
+            "sha256": "42170c9257b983c7601ac08f08f578f95a08e468ed8f4bdcefdf625f27b63698",
+            "bytes": 11509,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Death-K.png",
+            "sha256": "9d2145128603cd691c2ceb98dc7be8505cede39397b818a134f6ca80bfbb6119",
+            "bytes": 13332,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Hit",
+          "file": "EX1_134-seat1-Hit.png",
+          "emissionFile": "EX1_134-seat1-Hit-C.png",
+          "transmissionFile": "EX1_134-seat1-Hit-K.png",
+          "trigger": "first actual impact State5",
+          "seat": 1,
+          "step": 200,
+          "particles": 176,
+          "trailPoints": 0,
+          "pending": 0,
+          "time": 0.8333333134651184,
+          "flightFraction": -1.0,
+          "completed": true,
+          "clones": [
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+              "position": {
+                "x": 0.001953125,
+                "y": -0.0009765625,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 5,
+              "particles": 176,
+              "trailPoints": 0,
+              "trailTimes": [
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "prefab": "ReuseFX_Sneaky_Attack_Impact_01.prefab:ad6a1891058a81d499ce5b6f7c330477",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -7.703125
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "state": 5,
+              "particles": 0,
+              "trailPoints": 0,
+              "trailTimes": []
+            }
+          ],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Hit.png",
+          "sha256": "5b0ad58dc7efea22f1d2158a09158e067f0232491971e5a079b1b012a4ca2fd9",
+          "bytes": 13661,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              45.99575975206163,
+              45.99502733018663,
+              45.99576653374566,
+              254.95855373806424
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": [
+              514,
+              421,
+              528,
+              435
+            ],
+            "pixels_delta_above_3": 153,
+            "alpha_extrema_8bit": [
+              20,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Hit-C.png",
+            "sha256": "6b7890a9808dbab8f2210f949b2d4c3010eace50ef55fb6fef389f1da897869a",
+            "bytes": 11528,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Hit-K.png",
+            "sha256": "cb1a61e8ab90efcd0d4152b4ef9160276d9369f44cda38da713da2f3f922cb74",
+            "bytes": 13338,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        },
+        {
+          "card": "EX1_134",
+          "phase": "Cleanup",
+          "file": "EX1_134-seat1-Cleanup.png",
+          "emissionFile": "EX1_134-seat1-Cleanup-C.png",
+          "transmissionFile": "EX1_134-seat1-Cleanup-K.png",
+          "trigger": "completed and zero active clones",
+          "seat": 1,
+          "step": 920,
+          "particles": 0,
+          "trailPoints": 0,
+          "pending": 0,
+          "time": 3.8333332538604736,
+          "flightFraction": -1.0,
+          "completed": true,
+          "clones": [],
+          "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Cleanup.png",
+          "sha256": "5d77833a3ef404f9cd43fa850e5caf8a2d568725f33891e41cb91a2d2b85ae02",
+          "bytes": 11587,
+          "size": [
+            1024,
+            576
+          ],
+          "metrics": {
+            "rgba_mean_8bit": [
+              46.0,
+              46.0,
+              46.0,
+              255.0
+            ],
+            "background_rgb_8bit": [
+              46,
+              46,
+              46
+            ],
+            "effect_bbox": null,
+            "pixels_delta_above_3": 0,
+            "alpha_extrema_8bit": [
+              255,
+              255
+            ],
+            "interpretation": "production C+D*K on fixed diagnostic background; no official delta"
+          },
+          "emission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Cleanup-C.png",
+            "sha256": "97f26c47ff234adcb8a2bc32cde8b4df2fa336127594a2960fc3fadd87244270",
+            "bytes": 10382,
+            "size": [
+              1024,
+              576
+            ]
+          },
+          "transmission": {
+            "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-Cleanup-K.png",
+            "sha256": "a8376c9d387486ba64a78866bf23db208f7c4d241cc70c61bafc2ce469fd3c65",
+            "bytes": 11584,
+            "size": [
+              1024,
+              576
+            ]
+          }
+        }
+      ],
+      "events": [
+        "0.000000 Birth -1",
+        "0.000000 Action -1",
+        "0.004167 MissileClone -1",
+        "0.004167 MissileBirth 0",
+        "0.004167 MissileState1 -1",
+        "0.425000 MissileState3 -1",
+        "0.829167 Arrival 0",
+        "0.829167 ImpactScheduled 0",
+        "0.829167 MissileDeath 0",
+        "0.829167 MissileState5 -1",
+        "0.833333 ImpactClone -1",
+        "0.833333 ImpactState5 -1",
+        "0.833333 MissileFinished 0",
+        "0.833333 MissileFinishedNotification -1",
+        "0.833333 Finished -1",
+        "0.833333 None -1",
+        "0.833333 CleanUp -1",
+        "0.833333 ImpactFinishedNotification -1",
+        "2.829167 MissileNone 0",
+        "2.829167 MissileState0 -1",
+        "3.833333 ImpactState0 -1"
+      ],
+      "audio": [],
+      "completed": true,
+      "released": true,
+      "contact_sheet": {
+        "path": "E:\\HS\\HearthstoneClone\\work\\task4\\capture-a\\EX1_134-seat1-contact.png",
+        "sha256": "7831943724570f52676131ab5a1b51747cf717f0b162a6043f2bd0430dcd744e",
+        "bytes": 14395,
+        "size": [
+          1152,
+          738
+        ]
+      }
+    }
+  ],
+  "internal_repeatability": [
+    {
+      "card": "EX1_129",
+      "seat": 0,
+      "phase": "Birth",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 0,
+      "phase": "Early",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 0,
+      "phase": "Mid",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 0,
+      "phase": "Arrival",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 0,
+      "phase": "Death",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 0,
+      "phase": "Hit",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 0,
+      "phase": "Cleanup",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 1,
+      "phase": "Birth",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 1,
+      "phase": "Early",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 1,
+      "phase": "Mid",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 1,
+      "phase": "Arrival",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 1,
+      "phase": "Death",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 1,
+      "phase": "Hit",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_129",
+      "seat": 1,
+      "phase": "Cleanup",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 0,
+      "phase": "Birth",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 0,
+      "phase": "Early",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 0,
+      "phase": "Mid",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 0,
+      "phase": "Arrival",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 0,
+      "phase": "Death",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 0,
+      "phase": "Hit",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 0,
+      "phase": "Cleanup",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 1,
+      "phase": "Birth",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 1,
+      "phase": "Early",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 1,
+      "phase": "Mid",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 1,
+      "phase": "Arrival",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 1,
+      "phase": "Death",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 1,
+      "phase": "Hit",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    },
+    {
+      "card": "EX1_134",
+      "seat": 1,
+      "phase": "Cleanup",
+      "pixels_identical": true,
+      "max_channel_delta_8bit": 0,
+      "telemetry_identical": true
+    }
+  ],
+  "internal_repeatability_passed": true,
+  "official_comparison": [
+    {
+      "card": "EX1_129",
+      "seat": 0,
+      "missing": [
+        "source_media",
+        "source_sha256",
+        "product_version",
+        "capture_origin",
+        "camera",
+        "resolution",
+        "state",
+        "clock",
+        "seed",
+        "color_pipeline",
+        "audio_environment",
+        "source_kind",
+        "frame:Birth",
+        "frame:Early",
+        "frame:Mid",
+        "frame:Arrival",
+        "frame:Hit",
+        "frame:Death"
+      ],
+      "status": "MISSING",
+      "official_frame_index": "Unknown",
+      "overall": "Unknown",
+      "dimensions": {
+        "position": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "rotation": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "timing": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "color": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "alpha": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "particles": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "trail": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "audio": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        }
+      }
+    },
+    {
+      "card": "EX1_129",
+      "seat": 1,
+      "missing": [
+        "source_media",
+        "source_sha256",
+        "product_version",
+        "capture_origin",
+        "camera",
+        "resolution",
+        "state",
+        "clock",
+        "seed",
+        "color_pipeline",
+        "audio_environment",
+        "source_kind",
+        "frame:Birth",
+        "frame:Early",
+        "frame:Mid",
+        "frame:Arrival",
+        "frame:Hit",
+        "frame:Death"
+      ],
+      "status": "MISSING",
+      "official_frame_index": "Unknown",
+      "overall": "Unknown",
+      "dimensions": {
+        "position": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "rotation": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "timing": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "color": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "alpha": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "particles": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "trail": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "audio": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        }
+      }
+    },
+    {
+      "card": "EX1_134",
+      "seat": 0,
+      "missing": [
+        "source_media",
+        "source_sha256",
+        "product_version",
+        "capture_origin",
+        "camera",
+        "resolution",
+        "state",
+        "clock",
+        "seed",
+        "color_pipeline",
+        "audio_environment",
+        "source_kind",
+        "frame:Birth",
+        "frame:Early",
+        "frame:Mid",
+        "frame:Arrival",
+        "frame:Hit",
+        "frame:Death"
+      ],
+      "status": "MISSING",
+      "official_frame_index": "Unknown",
+      "overall": "Unknown",
+      "dimensions": {
+        "position": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "rotation": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "timing": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "color": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "alpha": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "particles": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "trail": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "audio": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        }
+      }
+    },
+    {
+      "card": "EX1_134",
+      "seat": 1,
+      "missing": [
+        "source_media",
+        "source_sha256",
+        "product_version",
+        "capture_origin",
+        "camera",
+        "resolution",
+        "state",
+        "clock",
+        "seed",
+        "color_pipeline",
+        "audio_environment",
+        "source_kind",
+        "frame:Birth",
+        "frame:Early",
+        "frame:Mid",
+        "frame:Arrival",
+        "frame:Hit",
+        "frame:Death"
+      ],
+      "status": "MISSING",
+      "official_frame_index": "Unknown",
+      "overall": "Unknown",
+      "dimensions": {
+        "position": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "rotation": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "timing": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "color": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "alpha": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "particles": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "trail": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        },
+        "audio": {
+          "grade": "Unknown",
+          "difference": "Unknown",
+          "reason": "Missing qualified official evidence; project telemetry is one-sided."
+        }
+      }
+    }
+  ],
+  "task_status": "BLOCKED",
+  "compatibility_upgrade": false,
+  "official_input_contract": "E:\\HS\\HearthstoneClone\\manifests\\task-0004-official-input.json",
+  "limitations": [
+    "Diagnostic production C+D*K on fixed gray; no final GUI/glow/postprocessing.",
+    "Audio cue metadata captured, no waveform/physical playback comparison.",
+    "Death can share Arrival timestamp; event ordering retained.",
+    "Positions/rotations/particles/trail data have no corresponding official telemetry.",
+    "Official product version, source sequence, camera/state/time/seed remain Unknown."
+  ]
+}

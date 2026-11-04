@@ -1,0 +1,624 @@
+{
+  "programs": [
+    {
+      "file": "0194accb9992f97829c87db2.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "Finkle_DeathOverrideSpawn.prefab:e423561613259c94f8d0e942bd13498b",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-9657bde1805c0e2d6c5f18204d0ce517",
+            "pathid": "-3493732387280562962",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-d2f4bda7-prefab-1.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-9657bde1805c0e2d6c5f18204d0ce517",
+          "pathid": "-3493732387280562962",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-d2f4bda7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "03f4011c21d2abaf92986b43.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "RLKFX_DeathbringerSaurfang_SpawnToHand_Impact_Super.prefab:8f2635237c2c19a40ab7e144a250c616",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-f3512d6b16c4aa3131facc70ec668380",
+            "pathid": "-8546283498390005232",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-6aa9ba6a-prefab-0.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-f3512d6b16c4aa3131facc70ec668380",
+          "pathid": "-8546283498390005232",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-6aa9ba6a-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "04d908bfe69aa7fe54b9388b.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "NobleSacrifice_DeathOverrideSpawn.prefab:07a941032a702104dafc28c86eafd744",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+            "pathid": "1663762677161871729",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "1663762677161871729",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "076d511f7b25ad78f327937e.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "Paw_OverrideSpawn_Random.prefab:110e3d741c15e0341a4c58d37c9828b5",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+            "pathid": "-3591445307062445802",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3591445307062445802",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "RLKFX_LordMarrowgar_CustomSpawnOverride.prefab:8cbf12bd9c26545418fcad0244336ca9",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+            "pathid": "5913873795420807501",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+          "pathid": "5913873795420807501",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "14d308312c2f019c433233d2.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "RLKFX_TheScourge_OverrideCustomSpawn.prefab:2139e2c153644c947891793b2cce34ff",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-3420463197209531452",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-3420463197209531452",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "2c478f5ac211da01190f3cff.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "RLKFX_LadyDeathWhisper_SpawnToHand_Super.prefab:5f94db093325459418a27f4aa66b9820",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 0,
+          "known": true,
+          "source": {
+            "cab": "CAB-f3512d6b16c4aa3131facc70ec668380",
+            "pathid": "-2876491649188548307",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-6aa9ba6a-prefab-0.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-f3512d6b16c4aa3131facc70ec668380",
+          "pathid": "-2876491649188548307",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-6aa9ba6a-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "621c28345b06404ee035c496.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_HandBuff_ScaleUp_OpponentAE_Super.prefab:2426721976ad3e9468d3e806b243d3a1",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+            "pathid": "2672387297230820162",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+          }
+        },
+        {
+          "index": 1,
+          "node": 7,
+          "known": true,
+          "source": {
+            "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+            "pathid": "3236657471805114190",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "2672387297230820162",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "81adc1ee5e4a815a745824b5.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "Frostmourne_OverrideSpawn.prefab:f899391938833d449a884561cf135d0e",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-5031000274645188929",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "index": 1,
+          "node": 5,
+          "known": true,
+          "source": {
+            "cab": "CAB-93ce91e5953dced408f61269ec90fec3",
+            "pathid": "8180084455173008769",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-1.unity3d"
+          }
+        },
+        {
+          "index": 2,
+          "node": 12,
+          "known": true,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-5293044126117901016",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "index": 3,
+          "node": 26,
+          "known": true,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4739821098582707698",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "index": 4,
+          "node": 40,
+          "known": true,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "3425402841430599548",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "3425402841430599548",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "81d48cc85076bc4fff8d63f8.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "Nethrandamus_Minion_OverrideSpawn.prefab:462d9d20d9679db47b45da2d99c80804",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-2a08a377353579804b020ac2f3d64792",
+            "pathid": "8367025618424814963",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-ef57b03f-prefab-0.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-2a08a377353579804b020ac2f3d64792",
+          "pathid": "8367025618424814963",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-ef57b03f-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 1
+    },
+    {
+      "file": "92fcdd3ed877fa0cdae345a4.native-effect.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": false,
+      "reference": "HarvestGolem_Trigger_FX.prefab:3575a72072b850e4d9cae380a1db87eb",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-133e7f4f0b137266b615c7e62b7f2d77",
+            "pathid": "-9074584093708155658",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-775a814d-prefab-3.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-133e7f4f0b137266b615c7e62b7f2d77",
+          "pathid": "-9074584093708155658",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a16d4d79564443df84f8d96c.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "HighInquisitorWhitemane_OverrideSpawn.prefab:8f7e688ea32fcfa448d3c5e1d8145e19",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+            "pathid": "1934417782868992685",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "1934417782868992685",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "ce9e2ba5c3e2aa3061331d02.native-effect.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": false,
+      "reference": "Deathwing_OverrideDiscard.prefab:25dd08414a4e49d4fa427f1d33539161",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-263d7cbab995829467b4dbe24d7c4833",
+            "pathid": "8001587897209245450",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2173dfcb-prefab-2.unity3d"
+          }
+        },
+        {
+          "index": 1,
+          "node": 11,
+          "known": true,
+          "source": {
+            "cab": "CAB-e1524aee0fe6112746c6047476e42c1b",
+            "pathid": "-1267057192271868688",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-775a814d-prefab-5.unity3d"
+          }
+        },
+        {
+          "index": 2,
+          "node": 18,
+          "known": true,
+          "source": {
+            "cab": "CAB-e1524aee0fe6112746c6047476e42c1b",
+            "pathid": "-8483615743646141543",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-775a814d-prefab-5.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-e1524aee0fe6112746c6047476e42c1b",
+          "pathid": "-8483615743646141543",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 4
+    },
+    {
+      "file": "d089ebacb048f027de7a3178.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "ReuseFX_OverrideSpawn_DemonHunter_FlyIn_Super.prefab:ce0af23fef2600d46a2edcb017c24197",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+            "pathid": "-6763302021514414637",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-6763302021514414637",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d4dfd34b1825cf367c392e29.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "ReuseFX_AE_DemonHunter_Shockwave_Medium_BothSides_Super.prefab:e12888ab007dfb6439416a388f14ca49",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+            "pathid": "370880271930061368",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+          }
+        },
+        {
+          "index": 1,
+          "node": 9,
+          "known": true,
+          "source": {
+            "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+            "pathid": "-2128819187541414741",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "370880271930061368",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 2
+    },
+    {
+      "file": "df523286c0405097d142dba7.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "ReuseFX_Generic_OverrideSpawn_NobleSacrifice_Super_Random.prefab:d271d751dd8df004c998e7538a75198e",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+            "pathid": "-1363837606754258772",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-1363837606754258772",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e8ff6ac6020996b43d214a42.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": false,
+      "reference": "ReuseFX_OverrideSpawn_DemonHunter_FlyIn_Super_Random.prefab:13c1aa31ab5719244bf9422bde52b3e0",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+            "pathid": "5680725306261830403",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "5680725306261830403",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source SpellInitActorVariables parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

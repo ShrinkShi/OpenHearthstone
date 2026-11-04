@@ -1,0 +1,373 @@
+{
+  "reference": "Card_Play_Hero_DamageSplat.prefab:2ecc84d6a2db7461799ad55067409307",
+  "cache": "local/runtime/native-hero-damage-splat-audio.json",
+  "profile": "hero-health-damagesplat-v1",
+  "source": {
+    "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+    "pathid": "-6173526402183834210",
+    "type": "GameObject",
+    "bundle": "essential_base_global-prefab-0.unity3d"
+  },
+  "action_source": {
+    "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+    "pathid": "188442603838002590",
+    "type": "MonoBehaviour",
+    "bundle": "essential_base_global-prefab-0.unity3d"
+  },
+  "action": {
+    "state": "Health",
+    "name": "AudioPlayAction",
+    "game_object_node": 0,
+    "m_VolumeScale": 1.0,
+    "m_Delay": 0.0,
+    "sound_asset": "89352ea351860883f08a2df7.native-sound.json",
+    "params": [
+      {
+        "name": "m_GameObject",
+        "kind": 20,
+        "node": 0,
+        "number": 0,
+        "text": "",
+        "variable": ""
+      },
+      {
+        "name": "m_VolumeScale",
+        "kind": 15,
+        "node": -1,
+        "number": 1.0,
+        "text": "",
+        "variable": "",
+        "none_known": true,
+        "is_none": false
+      },
+      {
+        "name": "m_Delay",
+        "kind": 2,
+        "node": -1,
+        "number": 0.0,
+        "text": "",
+        "variable": ""
+      },
+      {
+        "name": "m_OneShotSound",
+        "kind": 24,
+        "node": -1,
+        "number": 0,
+        "text": "",
+        "variable": "",
+        "none_known": true,
+        "is_none": false,
+        "object_null": false,
+        "asset_type": "MonoBehaviour",
+        "asset_source": {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "8997213827551090078",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        "asset_path": "89352ea351860883f08a2df7.native-sound.json",
+        "unresolved": false
+      },
+      {
+        "name": "m_FinishedEvent",
+        "kind": 23,
+        "node": -1,
+        "number": 0,
+        "text": "",
+        "variable": ""
+      }
+    ]
+  },
+  "audio_source": {
+    "source": {
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-4717049972804004450",
+      "type": "AudioSource",
+      "bundle": "essential_base_global-prefab-0.unity3d"
+    },
+    "values": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -6173526402183834210
+      },
+      "m_Enabled": 1,
+      "OutputAudioMixerGroup": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_audioClip": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_Resource": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_PlayOnAwake": false,
+      "m_Volume": 1.0,
+      "m_Pitch": 1.0,
+      "Loop": false,
+      "Mute": false,
+      "Spatialize": false,
+      "SpatializePostEffects": false,
+      "Priority": 128,
+      "DopplerLevel": 1.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 500.0,
+      "Pan2D": 0.0,
+      "rolloffMode": 0,
+      "BypassEffects": false,
+      "BypassListenerEffects": false,
+      "BypassReverbZones": false,
+      "rolloffCustomCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 1.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "panLevelCustomCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "spreadCustomCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "reverbZoneMixCustomCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.3333333432674408
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      }
+    }
+  },
+  "sound_source": {
+    "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+    "pathid": "8997213827551090078",
+    "type": "MonoBehaviour",
+    "bundle": "essential_base_global-prefab-0.unity3d"
+  },
+  "sound": {
+    "source": {
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "8997213827551090078",
+      "type": "MonoBehaviour",
+      "bundle": "essential_base_global-prefab-0.unity3d"
+    },
+    "values": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -8209859142409431650
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 0,
+        "m_PathID": 5395326102866774978
+      },
+      "m_Name": "",
+      "m_AudioClip": "Blood_Splat_Damage.wav:4dbf1353322e92443997499cf169c06e",
+      "m_Category": 1,
+      "m_RandomClips": [],
+      "m_RandomPitchMin": 1.0,
+      "m_RandomPitchMax": 1.0,
+      "m_RandomVolumeMin": 0.75,
+      "m_RandomVolumeMax": 0.75,
+      "m_IgnoreDucking": 0,
+      "m_persistPastGameEnd": 0,
+      "m_InstanceLimited": 0,
+      "m_InstanceLimitedDuration": 0.0,
+      "m_InstanceLimitMaximum": 1,
+      "m_LimitMaxOutOption": 0
+    },
+    "audio_sources": [
+      {
+        "source": {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-48588555585366626",
+          "type": "AudioSource",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        "values": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -8209859142409431650
+          },
+          "m_Enabled": 1,
+          "OutputAudioMixerGroup": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_audioClip": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Resource": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_PlayOnAwake": true,
+          "m_Volume": 1.0,
+          "m_Pitch": 1.0,
+          "Loop": false,
+          "Mute": false,
+          "Spatialize": false,
+          "SpatializePostEffects": false,
+          "Priority": 128,
+          "DopplerLevel": 1.0,
+          "MinDistance": 100.0,
+          "MaxDistance": 500.0,
+          "Pan2D": 0.0,
+          "rolloffMode": 1,
+          "BypassEffects": false,
+          "BypassListenerEffects": false,
+          "BypassReverbZones": false,
+          "rolloffCustomCurve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              },
+              {
+                "time": 1.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "panLevelCustomCurve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "spreadCustomCurve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 0.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "reverbZoneMixCustomCurve": {
+            "m_Curve": [
+              {
+                "time": 0.0,
+                "value": 1.0,
+                "inSlope": 0.0,
+                "outSlope": 0.0,
+                "weightedMode": 0,
+                "inWeight": 0.3333333432674408,
+                "outWeight": 0.3333333432674408
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          }
+        }
+      }
+    ],
+    "clips": [
+      {
+        "reference": "Blood_Splat_Damage.wav:4dbf1353322e92443997499cf169c06e",
+        "source": {
+          "cab": "CAB-45b9fdea82cf7866c7de02f0c98c4435",
+          "pathid": "-3131256469023351089",
+          "type": "AudioClip",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-27.unity3d"
+        },
+        "file": "168325fbd2339614f597e9cf.wav"
+      }
+    ],
+    "errors": [],
+    "complete": false
+  },
+  "complete": false,
+  "notes": [
+    "Health uses root AudioSource plus the explicit SFX_BloodSplatHealth SoundDef.",
+    "AudioPlayAction has zero delay and unit VolumeScale; SoundDef supplies fixed 0.75 volume and 1.0 pitch."
+  ]
+}

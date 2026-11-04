@@ -1,0 +1,271 @@
+{
+  "shader": {
+    "name": "Hero/Particle/Particles_Transparent_ColorAsAlpha",
+    "bundle": "essential_base_global-shader-0.unity3d",
+    "cab": "CAB-c394926ba464822396a05cbfae08a8b3",
+    "pathid": "9166864898872631166"
+  },
+  "family": 18,
+  "bindings": [
+    {
+      "subshader": 0,
+      "pass_index": 0,
+      "pass_name": "",
+      "stage": "progVertex",
+      "blob": 1,
+      "gpu_type": 15,
+      "keywords": [],
+      "parameter_blob": 0,
+      "program_sha256": "0119fecc61f219dbc4d49ccb78de84ea0b119485f583df3297831da4a3485588",
+      "parameter_sha256": "123e06bd189bde26a7c895f0e7affe27d79f801d959358fd25a7e1d5790ef4d8"
+    },
+    {
+      "subshader": 0,
+      "pass_index": 0,
+      "pass_name": "",
+      "stage": "progFragment",
+      "blob": 3,
+      "gpu_type": 17,
+      "keywords": [],
+      "parameter_blob": 2,
+      "program_sha256": "92f1c78b29ca23be35b082e0f77bad3c19185874c6d213ef7a1e7167682d172b",
+      "parameter_sha256": "0c3bf34a12bc4b72c63f1b7b48b70c56d0c72da0c88ae246e36a327ea9b209cf"
+    },
+    {
+      "subshader": 0,
+      "pass_index": 1,
+      "pass_name": "GlowTransparent",
+      "stage": "progVertex",
+      "blob": 4,
+      "gpu_type": 15,
+      "keywords": [],
+      "parameter_blob": 0,
+      "program_sha256": "97c9b6123bcc54ac0ff2ca40a0cb785f05ec6c81c31bddbf28ea4c2bde26a1c0",
+      "parameter_sha256": "123e06bd189bde26a7c895f0e7affe27d79f801d959358fd25a7e1d5790ef4d8"
+    },
+    {
+      "subshader": 0,
+      "pass_index": 1,
+      "pass_name": "GlowTransparent",
+      "stage": "progFragment",
+      "blob": 5,
+      "gpu_type": 17,
+      "keywords": [],
+      "parameter_blob": 2,
+      "program_sha256": "7f82983fe653136d9dc4a85de78ea855d4c943ad4b2156d58fa2ae0ab36d4d82",
+      "parameter_sha256": "0c3bf34a12bc4b72c63f1b7b48b70c56d0c72da0c88ae246e36a327ea9b209cf"
+    }
+  ],
+  "pass_constant_byte_offsets": [
+    {
+      "progVertex": {
+        "$Globals": {},
+        "UnityPerDraw": {
+          "unity_SHAr": 432,
+          "unity_SHAg": 448,
+          "unity_SHAb": 464
+        },
+        "UnityPerMaterial": {
+          "_MainTex_ST": 0,
+          "_TintColor": 16,
+          "_Intensity": 64,
+          "_LightingBlend": 72
+        }
+      },
+      "progFragment": {
+        "$Globals": {
+          "_GlobalMipBias": 64
+        },
+        "UnityPerMaterial": {
+          "_AlphaIntensity": 68
+        }
+      }
+    },
+    {
+      "progVertex": {
+        "$Globals": {},
+        "UnityPerDraw": {},
+        "UnityPerMaterial": {
+          "_MainTex_ST": 0
+        }
+      },
+      "progFragment": {
+        "$Globals": {
+          "_GlobalMipBias": 64
+        },
+        "UnityPerMaterial": {
+          "_Color": 32,
+          "_GlowColor": 48,
+          "_GlowIntensity": 76,
+          "_GlowAddMul": 80
+        }
+      }
+    }
+  ],
+  "pass_render_states": [
+    {
+      "culling": 0.0,
+      "zWrite": 0.0,
+      "zTest": 4.0,
+      "blend": {
+        "srcBlend": 5.0,
+        "destBlend": 10.0,
+        "srcBlendAlpha": 5.0,
+        "destBlendAlpha": 10.0,
+        "blendOp": 0.0,
+        "blendOpAlpha": 0.0,
+        "colMask": 15.0
+      }
+    },
+    {
+      "culling": 0.0,
+      "zWrite": 0.0,
+      "zTest": 4.0,
+      "blend": {
+        "srcBlend": 1.0,
+        "destBlend": 1.0,
+        "srcBlendAlpha": 1.0,
+        "destBlendAlpha": 1.0,
+        "blendOp": 0.0,
+        "blendOpAlpha": 0.0,
+        "colMask": 15.0
+      }
+    }
+  ],
+  "references": [
+    {
+      "file": "13e4ba2cda5d567ad3d3e0be.native-effect.json",
+      "reference": "RLKFX_Patchwerk_Missile_Cleaver_Super.prefab:c16105d5c6f17cd49a1d69a0d768716d",
+      "materials": [
+        {
+          "node": 18,
+          "name": "GenFX_Motes_Set0_Trans",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-522227199497454704",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "81adc1ee5e4a815a745824b5.native-effect.json",
+      "reference": "Frostmourne_OverrideSpawn.prefab:f899391938833d449a884561cf135d0e",
+      "materials": [
+        {
+          "node": 49,
+          "name": "GenFX_Snowflakes_pickbook_2x2",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-9120987448875931390",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "8b9080000adab86469ff8b06.native-effect.json",
+      "reference": "SpawnToHand_WarlockBoosh_FX.prefab:a9d757d1dd2445340b973453f552679a",
+      "materials": [
+        {
+          "node": 2,
+          "name": "GenFX_SoftGlow_Trans",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-20836347670333421",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 3,
+          "name": "GenFX_AshMotes",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "4470117061015945707",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "9ac81ae7be2944e54fd04367.native-effect.json",
+      "reference": "ReuseFX_SpawnToHand_Void_Magic.prefab:94e4bf03acd8eda41b868fcee5c41989",
+      "materials": [
+        {
+          "node": 2,
+          "name": "GenFX_SoftGlow_Trans",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-20836347670333421",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 3,
+          "name": "GenFX_AshMotes",
+          "source": {
+            "cab": "CAB-53aa70359623d5d4ed05ccee946409f9",
+            "pathid": "4470117061015945707",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "c53d28f7c2d01da67780e3fd.native-effect.json",
+      "reference": "RLKFX_PlaguedGrain_SpawnToDeck_Super.prefab:6b2f8f8c93b3c054189d643a8d322adb",
+      "materials": [
+        {
+          "node": 6,
+          "name": "GenFX_SoftGlow_Trans",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-20836347670333421",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        },
+        {
+          "node": 8,
+          "name": "GenFX_SoftGlow_Trans",
+          "source": {
+            "cab": "CAB-3563ba8b89db13ca6eb196aa111591f1",
+            "pathid": "-20836347670333421",
+            "type": "Material",
+            "bundle": "essential_base_global-material-0.unity3d"
+          }
+        }
+      ]
+    },
+    {
+      "file": "ce9e2ba5c3e2aa3061331d02.native-effect.json",
+      "reference": "Deathwing_OverrideDiscard.prefab:25dd08414a4e49d4fa427f1d33539161",
+      "materials": [
+        {
+          "node": 8,
+          "name": "GenFX_MedivhSmoke_Trans",
+          "source": {
+            "cab": "CAB-c0340cfc3cba33afd15c8ff759613fe9",
+            "pathid": "-7538295075951335118",
+            "type": "Material",
+            "bundle": "initial_base_global-41caf0cf-material-5.unity3d"
+          }
+        }
+      ]
+    }
+  ],
+  "full_card_effects_verified": false,
+  "notes": [
+    "Base vertex: vertex*TintColor*Intensity with SH gamma and no main-light addition.",
+    "Base RGB is twice interpolated vertex RGB, independent of texture color.",
+    "Alpha: saturate(dot(texture.rgb, (.3,.59,.11))*AlphaIntensity)*interpolated alpha.",
+    "Texture alpha is ignored by base; Glow retains its separate original RGBA sampling.",
+    "Original binaries are not executed; full card effects remain unverified."
+  ]
+}

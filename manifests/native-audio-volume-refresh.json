@@ -1,0 +1,1454 @@
+{
+  "programs": [
+    {
+      "file": "05928182ba88d64927d6d9d6.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_BlessingOfWisdom_FX.prefab:6314c57af52625b4ba66d7fe95161296",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "05ca46c569163fce4e60f594.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_BlessingOfKings_FX.prefab:e6557a459816a9a47bea3b3cc4196e5f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0e605431912839a24eb098ef.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_Smite_FX.prefab:d4bbc7ea9f31b0a4784927f43612de09",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1246094cae2466b286969390.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "ReuseFX_HealImpact_HolyLight_Small_Super_WithIdle.prefab:a8199b1050594654f84170f15e31aab2",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-2620043120407347922",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "15142b65714667e95c7be7ea.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Warlock_DrainLife_FX.prefab:03adb1d075c3ba941a2e9cbff4a18f8f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1ae606ad4f7dc8da9eb50b93.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "ReuseFX_Missile_DemonHunter_Glaive_Medium_Super_WithIdle.prefab:8d47deab210dafb4cb7c357f12d65a2d",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7314286011951022931",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "22263b43e2c34c25a832edda.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_BlessingOfMight_FX.prefab:e702d487e4a7e764e84b24394056fd43",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7917781848626466493",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2a16624e279efbdccf6138f1.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Stealth_ColdBlood_FX.prefab:42db2c47244fc1a40a6b451550563ada",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3721193731021052200",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2d71cfd344be5a73e7add479.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "SandBlow_AE_FX.prefab:1c6f0194a1e22b840b90273a551aabf6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6bdf9aad67d979d9e884d79ffb8831d7",
+          "pathid": "328872501104838735",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-f8009423-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3145382ed4eaa71f42512d35.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Lightning_Targeted_FX.prefab:7eb7028e181c0fc4e9021f2efdf57b23",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5643892178135839218",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "34c8b82ccc4284005f9e07a0.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Shadow_DarkCommand_FX.prefab:d2e2d2cd566ad4f4da6c800e1f0da3fa",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3029461608279519396",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3abb96f98378bc6364578070.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_Smite_Variable_FX.prefab:793557dabcfa04a6fbe77b2395defc79",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3cb07efcffc2d55dbd6283ec.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "ReuseFX_Blood_DeathKnight_AE_Backlash_Super.prefab:a4aa0578359a412489a5215bf7eb420c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "557886185636452246",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "41dc6aefe35cdc594bf0be0a.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_LayOnHands_FX.prefab:28df1bb4444584d3191e40815ef99b9c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "46d81302ae2bb97b610d8d97.native-effect.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": true,
+      "reference": "Lunar_Target_Large_FX.prefab:554b1cb6c449d9f409adbef48401d1b4",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-8506403831521721893",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6549e4c82c2d8dd7a8ff3a34.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_Healing_Minion_FX.prefab:841d04a62b8741b49941829815c28658",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1665107967474714929",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "68ce6261cb309d1eb06e6a92.native-effect.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": true,
+      "reference": "HolyFire_Targeted_FX.prefab:c4f70a1741b93d64ab8e6c940ca549f2",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1187844010597197590",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6ed9b2fe2d7816de1a381ef7.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "MortalCoil_FX.prefab:51b46dd3ff842ba41b4c437325994220",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7eb05bff6341edbefb72ace7.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "ShadowBolt_FX.prefab:e6ce5b6e7e1250e4a92dac52a3508671",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "835f1ff8f4e1cb1d3b2b9b68.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_AE_Equality_FX.prefab:72beea1d7fde4274f9e048de567f7728",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "88051a8d118ad7bc6be54abb.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Warlock_Corruption_FX.prefab:ba0ede6cbdb982c4c80f409b8502aee7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8c973b2fb26cb9a918bb96d7.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_Healing_FX.prefab:878501a6ddf5ed84699eff303ef73930",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8eba90bc307d0125fabbc7e4.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_BlessedChampion_FX.prefab:a7435d053f542374a9854383ef331b9d",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8f27eba70c61fc46ec632557.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Rage_Targeted_Charge_FX.prefab:b75b0c94b9f7e464e904c01709e14913",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3721193731021052200",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "9056cd9b80f6f898aa88936f.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Warlock_Untargeted_SenseDemons.prefab:99942defbd1504f4daa3aa7f1c65e3bb",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-2204095217311699925",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Shadow_ShadowWordPain_FX.prefab:ceb8d5daaa8c10a4c9982de97967d6ae",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3029461608279519396",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "97020148102e8691d2fa7836.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_Humility_FX.prefab:a18668ebfbe911449aac596b88ab3f3e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a1cb21a4028e9494468e6214.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_Humility_Minion_FX.prefab:cac3affffadedc04891d0abd7d7b7f07",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1665107967474714929",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a2cb6db8a8404ec3b1dd3276.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Warlock_PowerOverwhelming_FX.prefab:fe1109b7794663e44b8d2b5f89097338",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a78b10af18608c6a921c39e6.native-effect.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": true,
+      "reference": "Shadow_Untargeted_01.prefab:ec68c9be582beeb40bf4221ac5360e11",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "1982716549043662078",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 0
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a8cf92633f5d3d82c7685134.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "ReuseFX_KeywordImpact_Silence_Super_DemonHunter.prefab:d2735f7017ca28443b6f75d48d6678d9",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7314286011951022931",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ac729f443614aebbf097c5ae.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Rage_Targeted_InnerRage_FX.prefab:199d710abbd77d348a33b08f15fc90bd",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3721193731021052200",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "acf38a3473aedaf1aaba0517.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Rage_Targeted_BestialWrath_FX.prefab:05cc51d3d74ae514c8a65e2328250e20",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3721193731021052200",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b2596697f60ecbdf78727269.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Lightning_Single_Target_Jade_FX.prefab:8898006db108e2d4b8667b8085d0b9ff",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2624071977702876608",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b9dfacd4ee8927ded86e0875.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Warlock_BaneOfDoom_FX.prefab:9237d29e91604c042beba717a9dc2a30",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c157297bee5084d3e3b8fe7c.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_Targeted_HammerOfWrath_FX.prefab:e363f1785c55f1c4c9fda2b369325989",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "4471899072495571514",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c2d07a0a5c5f3c0254949c25.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "ShadowFlame_AE_FX.prefab:22b59fba67b563549ac1835caf191d43",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c98cce1aae02a4161ec3adfb.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Warlock_SacrificialPact_FX.prefab:bf91897c0d34f6d4db6b9c68beffa066",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "cf9d4c60b62b3aa53b3bbc73.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "ReuseFX_Missile_DemonHunter_EyeBeam_Small_Super.prefab:19f497e56d4024342a2879a13a492eb8",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7314286011951022931",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d008c4b1a5fd2065b6a4df24.native-effect.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": true,
+      "reference": "Holy_UnTargeted_Healing_TruesilverChamp_FX.prefab:1bc330ad4c164c348a8d08bcd490883c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "3004981293332153997",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d790330298f4596a1be10106.native-effect.json",
+      "actions": 1,
+      "parameters": 3,
+      "updated": true,
+      "reference": "Soulfire_FX.prefab:6ad98be477ebbd847b0a3110b7105abc",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "dbde447b3c82b2bf7e3b858c.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Lightning_Single_Target_FX.prefab:000da182637d2ae4f9510633267d5e65",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5643892178135839218",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e13c8852269ce9d6569c9aad.native-effect.json",
+      "actions": 2,
+      "parameters": 6,
+      "updated": true,
+      "reference": "Holy_Untargeted_FX.prefab:9abe2b276b167a9459cc37d1d50b1660",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-1256982497026704249",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ec9f4d80a7c82910c627b95c.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Lightning_Single_Target_EarthShock_FX.prefab:feb83eb128ff8934ca8fb87f4d827382",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2624071977702876608",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "fd19be80049757ae95f61bad.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Holy_AE_CircleOfHealing_FX.prefab:6b6a3cf3ac48ce84d8cd3e37fea909f3",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "fedd636d08b13599644d83e3.native-effect.json",
+      "actions": 3,
+      "parameters": 9,
+      "updated": true,
+      "reference": "Shadow_MindControl_FX.prefab:6af9de4d4ef35024eb3e83fe65f18af8",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3029461608279519396",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        },
+        {
+          "action": "AudioSetVolumeAction",
+          "parameter": "m_GameObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 46,
+  "failures": [],
+  "notes": [
+    "Exact source AudioSetVolumeAction parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

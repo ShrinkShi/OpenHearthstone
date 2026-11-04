@@ -1,0 +1,186 @@
+{
+  "assets": [
+    {
+      "card_id": "EX1_134",
+      "texture": "VFX_ASSOC_514295A015529FAA15BF9AB7",
+      "type": "ParticleSystem",
+      "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+      "pathid": "3347864559368086147",
+      "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+      "cache": "local/runtime/a05d44aec1c8ab9ba7be6969.particlesystem.json",
+      "renderer_pathid": "-4395851249858174333",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "EX1_134",
+      "texture": "VFX_ASSOC_0880D38FDA290610E824B603",
+      "type": "ParticleSystem",
+      "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+      "pathid": "-40395634628156797",
+      "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+      "cache": "local/runtime/404d113be256425d57ece4c3.particlesystem.json",
+      "renderer_pathid": "8428643469804774019",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "CS2_025",
+      "texture": "VFX_ASSOC_92998708D7AE345DD5C22A71",
+      "type": "ParticleSystem",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "6999615887809635892",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/56c452141d5470c41916da4f.particlesystem.json",
+      "renderer_pathid": "149424303946589748",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "CS2_028",
+      "texture": "VFX_ASSOC_52034268FC04CE0727457099",
+      "type": "ParticleSystem",
+      "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+      "pathid": "-7007366115100899970",
+      "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d",
+      "cache": "local/runtime/3d18de287f81b70a6e917cb0.particlesystem.json",
+      "renderer_pathid": "9071998214324241790",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "CS2_028",
+      "texture": "VFX_ASSOC_45E422405C1F105363500D76",
+      "type": "ParticleSystem",
+      "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+      "pathid": "5420945719250011518",
+      "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d",
+      "cache": "local/runtime/bb255a021268f05e877c1439.particlesystem.json",
+      "renderer_pathid": "-3970772979025623682",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "CS2_028",
+      "texture": "VFX_ASSOC_BE80583B7A826E6EED1FBE60",
+      "type": "ParticleSystem",
+      "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+      "pathid": "-181318815354043010",
+      "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d",
+      "cache": "local/runtime/eaa454879867d5b71d68088c.particlesystem.json",
+      "renderer_pathid": "3859813649249420670",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "CS2_032",
+      "texture": "VFX_ASSOC_C881035F615A52D4ED297A18",
+      "type": "ParticleSystem",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-6902523143794525050",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/68c9fdcd45dd8c3808af8198.particlesystem.json",
+      "renderer_pathid": "-2549962169107612538",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "CS2_032",
+      "texture": "VFX_ASSOC_7E0A66C1EE4483276BE054F0",
+      "type": "ParticleSystem",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "2607356580212898950",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/8676dfb0a57d247b940fd2fa.particlesystem.json",
+      "renderer_pathid": "-3002284496183886714",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "CS1_112",
+      "texture": "VFX_ASSOC_BA2022695097C6584C6F5E99",
+      "type": "ParticleSystem",
+      "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+      "pathid": "-29076474672573560",
+      "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d",
+      "cache": "local/runtime/83cfc4439a106328e2d17fb5.particlesystem.json",
+      "renderer_pathid": "3507032425248068488",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "EX1_593",
+      "texture": "VFX_ASSOC_C9B16C03322C1C179FAD6A0B",
+      "type": "ParticleSystem",
+      "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+      "pathid": "-1219758341514896708",
+      "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+      "cache": "local/runtime/ba4dce40f0193bbd6128d68b.particlesystem.json",
+      "renderer_pathid": "7700622695445977788",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    },
+    {
+      "card_id": "EX1_593",
+      "texture": "VFX_ASSOC_C5ABCF579C5E637FBA30BE74",
+      "type": "ParticleSystem",
+      "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+      "pathid": "-4031620024117994820",
+      "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+      "cache": "local/runtime/63b14e22e782efe7bd2192a8.particlesystem.json",
+      "renderer_pathid": "3675161972778097340",
+      "restored": [
+        "startColor",
+        "ColorModule",
+        "SizeModule",
+        "RotationModule"
+      ]
+    }
+  ],
+  "limitations": [
+    "normalized lifetime",
+    "max curve deterministic sampling",
+    "no script FSM",
+    "no emission shape/collision restoration"
+  ]
+}

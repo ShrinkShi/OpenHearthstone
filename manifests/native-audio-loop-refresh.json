@@ -1,0 +1,429 @@
+{
+  "programs": [
+    {
+      "file": "223522c32fa85768f21c4c95.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Thrust_Super_WithIdle.prefab:5b88c25bd948e0b439f78bd85bb55f05",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-1479790732263158659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "27544fa6167cb58c1a323d04.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "RLKFX_UnholyFrenzy_Reticle_FX.prefab:61f44ec022c25d2429493a5291384e61",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-2961124480039748281",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "38ddc05994c8a8f377263c1e.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "Warlock_Missiles_Suckin_FX.prefab:3a54ec5fedb7d0648ab17213c8f07ad5",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "8340003984838633995",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3b53c6edac0ba99e03be30be.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_WithIdle.prefab:dc16293627043ed4a8204cf20b128328",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7376166540014252046",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4d8519098584bdd2988a4511.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "ReuseFX_Decay_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:ade894ff3a30e9b43b0bc0daa1667303",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-2961124480039748281",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6add519a1ee232e82b2e0ec0.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Medium_Super_WithIdle.prefab:6f83b437b11353d4d8660c204ecd355f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7376166540014252046",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "74398d37bea0bf0116c207f0.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_NoIdle.prefab:58fda7c5c9a94f04bb88e51dea789cab",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7376166540014252046",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "90a7e2726cd4aa8e4a09b6a2.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Small_Super_WithIdle.prefab:c31bdfb48572b6d488f9de72d3a677c7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7376166540014252046",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Asphyxiate_Super_WithIdle.prefab:676fef5a5e50055409210c583d22859e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-1479790732263158659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "cf7378eab15cd8e4899b84b5.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "Warlock_Missiles_FX.prefab:6ca3ce5631d161744907c7790e623216",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "8340003984838633995",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d554fc3ef71c90388d48ea9e.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:4c6b1bd7d021c0f4e8da477dc769a6db",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-1479790732263158659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d5938d6ea1d4ad32273f3adb.native-effect.json",
+      "actions": 3,
+      "parameters": 11,
+      "updated": true,
+      "reference": "ReuseFX_Necrotic_DeathKnight_Impact_Transform_Super_WithIdle.prefab:fb60ebef9e2bcac47bc697d7271ed83a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-2961124480039748281",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioLoopingStartAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        },
+        {
+          "action": "AudioLoopingEndAction",
+          "parameter": "m_GameObject",
+          "node": 8
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 12,
+  "failures": [],
+  "notes": [
+    "Exact source AudioLoopingEndAction, AudioLoopingStartAction parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

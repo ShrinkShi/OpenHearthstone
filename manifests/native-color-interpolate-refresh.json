@@ -1,0 +1,356 @@
+{
+  "programs": [
+    {
+      "file": "076d511f7b25ad78f327937e.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Paw_OverrideSpawn_Random.prefab:110e3d741c15e0341a4c58d37c9828b5",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3591445307062445802",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "141e414fd66fb79d7eee66c2.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Unique_AE_TwistingNether_FX.prefab:f1e37b644475192409ab40ebce8b40b8",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-7288833104486020915",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "27bdd075f4f6580d4778d2d3.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Lunar_Target_FX.prefab:36108f70267053d44b75a79b066f4242",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "1098716421848614754",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3292a3d59a8d7534c8035048.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Stealth_Vanish_FX.prefab:9b1c755760fe5d34196ed27708b30643",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-4596798438386743061",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "32e839f264392a2fd7b69e3e.native-effect.json",
+      "actions": 3,
+      "parameters": 21,
+      "updated": false,
+      "reference": "Holy_Targeted_AvengingWrath_FX.prefab:0d003801653ae4e579a3e936348109a1",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-5617402925546971557",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "41dc6aefe35cdc594bf0be0a.native-effect.json",
+      "actions": 1,
+      "parameters": 8,
+      "updated": false,
+      "reference": "Holy_Targeted_LayOnHands_FX.prefab:28df1bb4444584d3191e40815ef99b9c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-9135551280522876070",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "41e38a34b7bd86521bfdc021.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "RLKFX_TheScourge_BoardAE_Super.prefab:76308d912a476ef4eae39ca4dfb7cc79",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-565717686913190686",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "42377e0740c2662ce6bb7b06.native-effect.json",
+      "actions": 3,
+      "parameters": 21,
+      "updated": false,
+      "reference": "Lunar_Starfall_FX.prefab:45b50eacd925210439b7ff1130258e3f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "9222082519921669178",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "42d36a19bfb8163583de4af9.native-effect.json",
+      "actions": 4,
+      "parameters": 28,
+      "updated": false,
+      "reference": "Assassinate_Targeted_FX.prefab:8e965ed568c43bc4fa0a6f093387a30a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "5611746392261673788",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-5907651812258333516",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "46d81302ae2bb97b610d8d97.native-effect.json",
+      "actions": 3,
+      "parameters": 21,
+      "updated": false,
+      "reference": "Lunar_Target_Large_FX.prefab:554b1cb6c449d9f409adbef48401d1b4",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-8506403831521721893",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4fc0fe4fe4824ecbe3db289c.native-effect.json",
+      "actions": 1,
+      "parameters": 7,
+      "updated": false,
+      "reference": "SpawnToHand_BabblingBook.prefab:8f581f7ccd7bcc640b9b3884a7f24eec",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-4a70eaee9f36c479d7b8e75f8b18b902",
+          "pathid": "-9048167119699251965",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-7.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "68668acf8b7fe48b27f66412.native-effect.json",
+      "actions": 6,
+      "parameters": 42,
+      "updated": false,
+      "reference": "Lightning_AE_LightningStorm_FX.prefab:04445cfd602e0394d94e247d073a140a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "6511387165257458258",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-9101590665959549899",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-1085919183516321091",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "81adc1ee5e4a815a745824b5.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Frostmourne_OverrideSpawn.prefab:f899391938833d449a884561cf135d0e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "3425402841430599548",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ce9e2ba5c3e2aa3061331d02.native-effect.json",
+      "actions": 2,
+      "parameters": 16,
+      "updated": false,
+      "reference": "Deathwing_OverrideDiscard.prefab:25dd08414a4e49d4fa427f1d33539161",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e1524aee0fe6112746c6047476e42c1b",
+          "pathid": "-8483615743646141543",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e508c8fbfe00910dd007818c.native-effect.json",
+      "actions": 4,
+      "parameters": 28,
+      "updated": false,
+      "reference": "Holy_AE_Consecration_FX.prefab:bbd5d106d5c36445b8ad3b6c5dd59dd9",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-180908081856114345",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-1749499294890251696",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e9f4b6acd287fc1e8a773ead.native-effect.json",
+      "actions": 2,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Flare_FX.prefab:d852894a04f4afd45b05f0e21cdd6524",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-5667994996014571887",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ef719cc32cc2ec11a8bb1456.native-effect.json",
+      "actions": 3,
+      "parameters": 21,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Fire_Fireball_Large_Super.prefab:fafdcc62cdedb2e469dec13af89c124a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6175052074802016849",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source ColorInterpolate parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "scenes": [
+    {
+      "id": "HUB_WIDGET_GAME_MENU",
+      "widget_ids": ["menu.panel"],
+      "name": "GameMenu",
+      "asset_id": "017818645286172029cada82",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-4967278496867493649",
+      "source_guid": "dc76cbcfb64a34d7e93755df33db2f80",
+      "source_note": "Exact indexed GameMenu GameObject; its standalone camera/layout is not confirmed."
+    },
+    {
+      "id": "HUB_WIDGET_GAME_MENU_OPTION",
+      "widget_ids": ["chrome.gear"],
+      "name": "GameMenuButton_Default",
+      "asset_id": "504e11bf49706292bc8498c1",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-6612155514829492827",
+      "source_note": "Exact indexed settings gear control from GameMenu; use at icon aspect, not as a stretched text button."
+    },
+    {
+      "id": "HUB_WIDGET_OPTIONS_MENU",
+      "widget_ids": ["menu.header", "menu.button", "options.panel"],
+      "name": "OptionsMenu",
+      "asset_id": "54970300db107706c57e59da",
+      "bundle": "initial_base_qualityhigh_global-7d7ed54d-prefab-0.unity3d",
+      "cab": "CAB-f5ad7d630bc37ce49a02d3fb1c8dcb03",
+      "pathid": "3686670408411879302",
+      "source_guid": "a6e5621068fd7c8429475b3e1a1aa991",
+      "source_note": "Exact indexed high-quality OptionsMenu GameObject; menu.header selects Header/slimTitleHeader and menu.button selects the ResolutionDropDown ButtonBack left/center/right meshes only."
+    },
+    {
+      "id": "HUB_WIDGET_FRIENDS_BUTTON",
+      "widget_ids": ["chrome.friends"],
+      "name": "FriendListButton",
+      "asset_id": "a5990ee7bc0ae0f3f188e4c8",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "-4414672878544966235",
+      "source_note": "Exact indexed friend-list button prefab."
+    },
+    {
+      "id": "HUB_WIDGET_FRIENDS_FRAME",
+      "widget_ids": ["social.panel", "social.panel.frame", "social.action", "social.flyout"],
+      "name": "FriendListFrame",
+      "asset_id": "9dbea5cd9773f2296d413a34",
+      "bundle": "initial_base_qualityhigh_global-7d7ed54d-prefab-0.unity3d",
+      "cab": "CAB-f5ad7d630bc37ce49a02d3fb1c8dcb03",
+      "pathid": "-2958536674217761761",
+      "source_guid": "cdf3b7f04b5ed45cb8ba0160d43a5bf6",
+      "source_note": "Exact indexed high-quality friend-list frame; social.flyout selects only FlyoutMenu/Frame and composes the verified menu.button source into derived slots; dynamic text and hitboxes remain GUI-owned."
+    },
+    {
+      "id": "HUB_WIDGET_CURRENCY_BACKGROUND",
+      "widget_ids": ["chrome.coinbar.currency"],
+      "name": "CurrencyBackground",
+      "asset_id": "76290cc1934c4bce0b9786c3",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "7517421533239745267",
+      "source_note": "Exact indexed currency background candidate; visual role must be checked in the isolated GPU capture."
+    },
+    {
+      "id": "HUB_WIDGET_BNET_BAR",
+      "widget_ids": ["chrome.coinbar.bnet"],
+      "name": "BnetBar",
+      "asset_id": "bd42af513a4600efd6c92e15",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "pathid": "7936149519509073317",
+      "source_note": "Exact indexed social/currency toolbar candidate; visual role must be checked in the isolated GPU capture."
+    },
+    {
+      "id": "HUB_WIDGET_SHOP_DETAILS_BOOSTER",
+      "widget_ids": ["modal.bulkBuy.candidate"],
+      "name": "ShopDetailsBooster",
+      "asset_id": "7eac305f112e74df0fecac18",
+      "bundle": "initial_base_shop_global-content-0.unity3d",
+      "cab": "CAB-8403e2729844cf2708b1a4ce75d66a6c",
+      "pathid": "-7812945621874800062",
+      "source_guid": "c447a41416cd5dd40bf262061c07bda6",
+      "source_note": "Exact indexed prefab candidate, but it has no useful render mesh in the isolated capture; rejected as the modal surface. modal.bulkBuy.frame uses the explicitly documented source-texture composition instead."
+    },
+    {
+      "id": "HUB_WIDGET_COLLECTION_MANA_TABS",
+      "widget_ids": ["collection.mana.cell"],
+      "name": "ManaTabManager",
+      "asset_id": "e2acb560f2b270b8331eebcc",
+      "bundle": "initial_base_qualityhigh_global-0bb4d88a-prefab-0.unity3d",
+      "cab": "CAB-f90d0b2bc41aeecdd35ed8ea25d14cf7",
+      "pathid": "-1939140360021256520",
+      "source_note": "Desktop manager includes seven same-named single cells and a dynamic end cell. Runtime selects the first single-cell mesh only; its child gem material and text are not reconstructed here."
+    },
+    {
+      "id": "HUB_WIDGET_COLLECTION_SET_FILTER",
+      "widget_ids": ["collection.set.button", "collection.set.button.hover"],
+      "name": "SetFilterTray",
+      "asset_id": "d6fd5c44f064db7055dbdd68",
+      "bundle": "initial_base_qualityhigh_global-7d7ed54d-prefab-0.unity3d",
+      "cab": "CAB-f5ad7d630bc37ce49a02d3fb1c8dcb03",
+      "pathid": "-7616479857959998971",
+      "expected_node_count": 45,
+      "required_renderers": [
+        {"path": ["SetFilterTray", "FilterButton", "SortButtonBackground_mesh"], "mesh": "SortButtonBackground_mesh", "materials": ["UIElements"]},
+        {"path": ["SetFilterTray", "FilterButton", "CurrentIcon"], "mesh": "Quad", "materials": ["FilterMode_Icons_FilterWindow"]},
+        {"path": ["SetFilterTray", "FilterButton", "SortButtonHighlight"], "mesh": "SortButtonGlow", "materials": ["UIElements_glow"]},
+        {"path": ["SetFilterTray", "FilterButton", "SortButton_mesh"], "mesh": "SortButton_mesh", "materials": ["UIElements_desat"]}
+      ],
+      "material_overrides": [
+        {"path": ["SetFilterTray", "FilterButton", "CurrentIcon"], "material": "FilterMode_Icons_FilterWindow", "transparent": true}
+      ],
+      "source_note": "Desktop set-filter button and its initially inactive highlight. The icon atlas UV is serialized on CurrentIcon; dynamic selection and original hover timing remain unverified."
+    },
+    {
+      "id": "HUB_WIDGET_COLLECTION_CARD_COUNT",
+      "widget_ids": ["collection.card.count"],
+      "name": "CollectionCardCount",
+      "asset_id": "daa000a435f763b2955349b2",
+      "bundle": "initial_base_cm_global-prefab-0.unity3d",
+      "cab": "CAB-2f6eb5417cc3dd6b3bf28b5f81e0b9ee",
+      "pathid": "8374935117128931570",
+      "allow_duplicate_name": true,
+      "expected_node_count": 21,
+      "required_renderers": [
+        {
+          "path": ["CollectionCardCount", "Normal", "PageCountBorder"],
+          "mesh": "pPlane69",
+          "materials": ["CardCounts"],
+          "textures": ["ArrowsCardCounts"]
+        }
+      ],
+      "source_note": "Exact asset-index identity; normal owned count uses Normal/PageCountBorder. The GameObject name is duplicated within this bundle, so export selects this exact asset_id/CAB/pathID."
+    },
+    {
+      "id": "HUB_WIDGET_COLLECTION_FILTER_BUTTONS",
+      "widget_ids": ["collection.filter.ownership.on", "collection.filter.ownership.off"],
+      "name": "FilterButton",
+      "asset_id": "1b9ff214b21831b4fe3f7693",
+      "bundle": "initial_base_qualityhigh_cm_global-prefab-0.unity3d",
+      "cab": "CAB-ad9396eede3cc8b77170eb32b9ad113b",
+      "pathid": "-1517621203480054893",
+      "expected_node_count": 25,
+      "required_renderers": [
+        {
+          "path": ["FilterButton", "FilterAll_Off", "Button", "ButtonBack_Left_mesh"],
+          "mesh": "ButtonBack_Left_mesh",
+          "materials": ["Button_Back_V3"]
+        },
+        {
+          "path": ["FilterButton", "FilterAll_Off", "Button", "ButtonBack_Center_mesh"],
+          "mesh": "ButtonBack_Center_mesh",
+          "materials": ["Button_Back_V3"]
+        },
+        {
+          "path": ["FilterButton", "FilterAll_Off", "Button", "ButtonBack_Right_mesh"],
+          "mesh": "ButtonBack_Right_mesh",
+          "materials": ["Button_Back_V3"]
+        },
+        {
+          "path": ["FilterButton", "FilterAll_On", "Button"],
+          "mesh": "BaconActiveFilter_mesh",
+          "materials": ["DeckTray_phone"]
+        }
+      ],
+      "source_note": "Exact indexed high-quality CollectionManager filter-button prefab. Off and on source states are rendered as isolated native mesh hierarchies; IMGUI owns labels and hitboxes."
+    },
+    {
+      "id": "HUB_WIDGET_COLLECTION_DETAIL_RELATED",
+      "widget_ids": ["collection.detail.related"],
+      "native_node_paths": {
+        "collection.detail.related": ["RelatedCardsTray", "RelatedCardsContainer", "RelatedCardTray_Model"]
+      },
+      "name": "RelatedCardsTray",
+      "asset_id": "b6418775b7a7e47b46a1f692",
+      "bundle": "initial_base_qualityhigh_global-7d7ed54d-prefab-0.unity3d",
+      "cab": "CAB-f5ad7d630bc37ce49a02d3fb1c8dcb03",
+      "pathid": "5427222932020808134",
+      "required_renderers": [
+        {
+          "path": ["RelatedCardsTray", "RelatedCardsContainer", "RelatedCardTray_Model", "RelatedCardTray_Mesh"],
+          "mesh": "RelatedCardTray_Mesh",
+          "materials": ["RelatedCardTray_Atlas_Mat"],
+          "textures": ["GeneratedCardTrays_Atlas"]
+        }
+      ],
+      "source_note": "Exact indexed high-quality RelatedCardsTray prefab. The selected model subtree supplies the native tray shell and scroll hardware; card rows and title remain data-driven in IMGUI."
+    },
+    {
+      "id": "HUB_WIDGET_COLLECTION_DETAIL_INFO",
+      "widget_ids": ["collection.detail.info"],
+      "native_node_paths": {
+        "collection.detail.info": ["CardInfoPane", "CardExchange_Info_mesh"]
+      },
+      "name": "CardInfoPane",
+      "asset_id": "6740ab3e01d9c4e2fc75621b",
+      "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d",
+      "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae",
+      "pathid": "-1557595605060377290",
+      "required_renderers": [
+        {
+          "path": ["CardInfoPane", "CardExchange_Info_mesh"],
+          "mesh": "CardExchangeInfo_mesh",
+          "materials": ["CardExchange_Info"],
+          "textures": ["CardExchange_Info"]
+        }
+      ],
+      "source_note": "Exact indexed CardInfoPane and its information backing mesh. The prefab's artist/flavor slots are MonoBehaviour text bindings, not static renderers; client card data supplies their text."
+    },
+    {
+      "id": "HUB_WIDGET_COLLECTION_DETAIL_CRAFTING",
+      "widget_ids": ["collection.detail.crafting"],
+      "native_node_paths": {
+        "collection.detail.crafting": ["CraftingUI"]
+      },
+      "name": "CraftingUI",
+      "asset_id": "4ca0a95b68c924bf1ecf0bbc",
+      "bundle": "initial_base_qualityhigh_global-7d7ed54d-prefab-0.unity3d",
+      "cab": "CAB-f5ad7d630bc37ce49a02d3fb1c8dcb03",
+      "pathid": "-3979778524996882012",
+      "expected_node_count": 13,
+      "include_node_paths": [
+        ["CraftingUI"],
+        ["CraftingUI", "Button_Create", "CardXchange_ButtonMultiFront_mesh"],
+        ["CraftingUI", "Button_Create", "CreateCostBar", "CardXchange_RedBar_Mesh"],
+        ["CraftingUI", "Button_Create", "CreateCostBar", "DustJar_Icon_Create"],
+        ["CraftingUI", "Button_Disenchant", "CardXchange_ButtonMultiFront_mesh"],
+        ["CraftingUI", "Button_Disenchant", "DisenchantCostBar", "CardXchange_GreenBar_Mesh"],
+        ["CraftingUI", "Button_Disenchant", "DisenchantCostBar", "DustJar_Icon_Disenchant"],
+        ["CraftingUI", "Lightning_Missile_01", "CardXchange_Gem_mesh"]
+      ],
+      "required_renderers": [
+        {
+          "path": ["CraftingUI"],
+          "mesh": "CardXchange_BaseV2_mesh",
+          "materials": ["CardExchange_base"],
+          "textures": ["CardExchange_base"]
+        },
+        {
+          "path": ["CraftingUI", "Button_Create", "CardXchange_ButtonMultiFront_mesh"],
+          "mesh": "CardXchange_ButtonV2_mesh",
+          "materials": ["CardExchange_ButtonCreate"],
+          "textures": ["CardExchange_base"]
+        },
+        {
+          "path": ["CraftingUI", "Button_Create", "CreateCostBar", "CardXchange_RedBar_Mesh"],
+          "mesh": "CardXchange_RedBar_Mesh",
+          "materials": ["CardExchange_base"],
+          "textures": ["CardExchange_base"]
+        },
+        {
+          "path": ["CraftingUI", "Button_Create", "CreateCostBar", "DustJar_Icon_Create"],
+          "mesh": "WeldSparkQuad",
+          "materials": ["DustJarIcon"],
+          "textures": ["DustJar_Icon"]
+        },
+        {
+          "path": ["CraftingUI", "Button_Disenchant", "CardXchange_ButtonMultiFront_mesh"],
+          "mesh": "CardXchange_ButtonV2_mesh",
+          "materials": ["CardExchange_ButtonDis"],
+          "textures": ["CardExchange_base"]
+        },
+        {
+          "path": ["CraftingUI", "Button_Disenchant", "DisenchantCostBar", "CardXchange_GreenBar_Mesh"],
+          "mesh": "CardXchange_GreenBar_Mesh",
+          "materials": ["CardExchange_base"],
+          "textures": ["CardExchange_base"]
+        },
+        {
+          "path": ["CraftingUI", "Button_Disenchant", "DisenchantCostBar", "DustJar_Icon_Disenchant"],
+          "mesh": "WeldSparkQuad",
+          "materials": ["DustJarIcon"],
+          "textures": ["DustJar_Icon"]
+        },
+        {
+          "path": ["CraftingUI", "Lightning_Missile_01", "CardXchange_Gem_mesh"],
+          "mesh": "CardXchange_GemV2_mesh",
+          "materials": ["CardExchange_gem"],
+          "textures": ["CardExchange_base"]
+        }
+      ],
+      "material_overrides": [
+        {
+          "path": ["CraftingUI", "Button_Create", "CreateCostBar", "DustJar_Icon_Create"],
+          "material": "DustJarIcon",
+          "transparent": true,
+          "source_note": "The source Hero/Unlit/Unlit_TransparentColor material uses DustJar_Icon alpha."
+        },
+        {
+          "path": ["CraftingUI", "Button_Disenchant", "DisenchantCostBar", "DustJar_Icon_Disenchant"],
+          "material": "DustJarIcon",
+          "transparent": true,
+          "source_note": "The source Hero/Unlit/Unlit_TransparentColor material uses DustJar_Icon alpha."
+        }
+      ],
+      "source_note": "Exact high-quality desktop CraftingUI split craft/disenchant tray. Only its base, two buttons, cost bars, dust icons, and center gem export; labels, costs, and hitboxes stay client-owned. The root's serialized 180-degree Y rotation is retained."
+    }
+  ],
+  "textures": [
+    {
+      "id": "HUB_TEXTURE_SHOP_DETAIL_BUNDLE_FRAME",
+      "name": "Shop_DetailBundle_Frame",
+      "asset_id": "c2cabe4e14642f5b14388556",
+      "bundle": "initial_base_global-8411aad9-texture-28.unity3d",
+      "cab": "CAB-45fb0d51ff05737c7b176dc0094841fa",
+      "pathid": "-7663725261492350269",
+      "source_note": "Exact indexed detail bundle frame; the dark metal panel crop is used for the bulk-buy quantity/price region."
+    },
+    {
+      "id": "HUB_TEXTURE_SHOP_DETAIL_CONVERSION_FRAME",
+      "name": "Shop_Detail_ConversionFrame",
+      "asset_id": "9956ac8b86a02344d257637c",
+      "bundle": "essential_base_shop_global-content-0.unity3d",
+      "cab": "CAB-de5771ecfb00e5aa7273d4f9cd73ba71",
+      "pathid": "-8700645518898738320",
+      "source_note": "Exact indexed conversion frame retained with source provenance; not currently drawn by the bulk-buy composition."
+    },
+    {
+      "id": "HUB_TEXTURE_SHOP_DETAIL_FRAME",
+      "name": "Shop_Detail_Frame",
+      "asset_id": "0f7638f41c309dd56bae6fd7",
+      "bundle": "essential_base_global-texture-1.unity3d",
+      "cab": "CAB-e02b69b1bbe893a6736884865127e637",
+      "pathid": "1593616158842758052",
+      "source_note": "Exact indexed detail frame; its outer wood/metal border and parchment crop form the bulk-buy derived frame."
+    },
+    {
+      "id": "HUB_TEXTURE_SHOP_BACKING_PLATE",
+      "name": "ShopBackingPlate",
+      "asset_id": "e0fd679602ccee9a48f8370a",
+      "bundle": "essential_base_shop_global-content-0.unity3d",
+      "cab": "CAB-de5771ecfb00e5aa7273d4f9cd73ba71",
+      "pathid": "3387382257238294434",
+      "source_note": "Exact indexed purple shop backing plate used behind bulk-buy contents."
+    },
+    {
+      "id": "HUB_TEXTURE_PACK_TRAY_ATLAS",
+      "name": "SidePackOpeningTray",
+      "asset_id": "c344939515b83d62d4b9f349",
+      "bundle": "initial_base_global-8411aad9-texture-13.unity3d",
+      "cab": "CAB-51315388aaeaca768a550d02d88ba4c3",
+      "pathid": "-6581863386966491286",
+      "source_settings": {
+        "m_FilterMode": 1,
+        "m_Aniso": 1,
+        "m_MipBias": 0,
+        "m_WrapU": 0,
+        "m_WrapV": 0,
+        "m_WrapW": 0,
+        "wrap_mode": "Repeat"
+      },
+      "source_note": "Serialized Texture2D settings directly confirm Unity TextureWrapMode.Repeat (enum 0) on U/V/W; native clone restores these settings locally."
+    },
+    {
+      "id": "HUB_TEXTURE_COLLECTION_DETAIL_CRAFTING_ATLAS",
+      "name": "CardExchange_base",
+      "asset_id": "d7bd65e0c91603b60af8b5e1",
+      "bundle": "initial_base_global-8411aad9-texture-3.unity3d",
+      "cab": "CAB-7b70bd91b2b3e7aadbfd1b3b6aeb14d8",
+      "pathid": "8509001286227595423",
+      "source_settings": {
+        "width": 512,
+        "height": 512,
+        "format": 10,
+        "filter": 1,
+        "aniso": 1,
+        "mip_bias": 0.0,
+        "wrap_u": 0,
+        "wrap_v": 0,
+        "wrap_w": 0,
+        "wrap_mode": "Repeat",
+        "alpha_extrema": [255, 255]
+      },
+      "source_note": "Exact CardExchange atlas. Repeat wrapping and material UV offsets are preserved; the source texture is fully opaque."
+    },
+    {
+      "id": "HUB_TEXTURE_COLLECTION_DETAIL_DUST_JAR_ICON",
+      "name": "DustJar_Icon",
+      "asset_id": "1dd085f1d8de1e04060fa5b3",
+      "bundle": "essential_base_global-texture-0.unity3d",
+      "cab": "CAB-cfdc5301ac0b17c5a76ad477fba38b57",
+      "pathid": "163321096101898969",
+      "source_settings": {
+        "width": 128,
+        "height": 128,
+        "format": 12,
+        "filter": 1,
+        "aniso": 1,
+        "mip_bias": 0.0,
+        "wrap_u": 0,
+        "wrap_v": 0,
+        "wrap_w": 0,
+        "wrap_mode": "Repeat",
+        "alpha_extrema": [0, 255]
+      },
+      "source_note": "Exact source icon texture; Repeat wrapping and alpha transparency are retained."
+    }
+  ],
+  "derived_widgets": {
+    "social.flyout": {
+      "frame_scene": "HUB_WIDGET_FRIENDS_FRAME",
+      "frame_node_path": ["FriendListFrame", "FriendListFrame_Root", "FlyoutMenu", "Frame"],
+      "button_widget": "menu.button",
+      "button_order": ["AddButton", "RAFButton", "RemoveButton", "PrivacySettingsButton"],
+      "layout_normalized": {
+        "buttons": [
+          [0.11, 0.09, 0.78, 0.17],
+          [0.11, 0.295, 0.78, 0.17],
+          [0.11, 0.50, 0.78, 0.17],
+          [0.11, 0.705, 0.78, 0.17]
+        ]
+      },
+      "source_note": "The serialized FlyoutMenu button transforms overflow the frame in the isolated initial-state capture; four gold buttons are drawn at these derived positions and the same rectangles are returned for hitboxes."
+    },
+    "modal.bulkBuy.frame": {
+      "kind": "native source texture composition",
+      "layout_normalized": {
+        "preview": [0.052, 0.071, 0.897, 0.624],
+        "description": [0.040, 0.706, 0.676, 0.269],
+        "quantity": [0.718, 0.718, 0.245, 0.259]
+      },
+      "source_regions_pixels_top_left": {
+        "outer_frame": {"texture": "HUB_TEXTURE_SHOP_DETAIL_FRAME", "rect": [30, 10, 980, 486], "nine_slice": [42, 40, 36, 22], "center": "omitted"},
+        "description_paper": {"texture": "HUB_TEXTURE_SHOP_DETAIL_FRAME", "rect": [72, 344, 650, 132], "nine_slice": [24, 24, 14, 12]},
+        "quantity_panel": {"texture": "HUB_TEXTURE_SHOP_DETAIL_BUNDLE_FRAME", "rect": [690, 152, 245, 130], "nine_slice": [20, 20, 14, 12]},
+        "preview_backing": {"texture": "HUB_TEXTURE_SHOP_BACKING_PLATE", "rect": "full texture"}
+      },
+      "nine_slice_order": "left,right,top,bottom source pixels",
+      "source_note": "Derived layout from original game textures; no user screenshot pixels are used as product art."
+    }
+  },
+  "existing_runtime_assets": {
+    "chrome.gold": "UI_GOLD",
+    "chrome.dust": "UI_DUST",
+    "quests.reroll": {
+      "scene_id": "SCENE_QUEST_TILE_DAILY",
+      "node_path": ["QuestTile", "Root", "RerollButton"],
+      "mesh": "494848279b94e36cceb0d968.mesh.json",
+      "source_material": "QuestTileDaily",
+      "source_texture": "dbc91219b94d1e6df883fa82.png",
+      "source_uv_bounds": {
+        "x_min": 0.016265869140625,
+        "y_min": 0.0665283203125,
+        "x_max": 0.1236572265625,
+        "y_max": 0.177978515625
+      },
+      "source_note": "Render the original reroll mesh, which samples the parchment red-arrow corner directly from QuestTileDaily; UV bounds are recorded from the exported mesh."
+    },
+    "chrome.coinbar.legacy": {
+      "scene_id": "SCENE_MAIN_MENU",
+      "node_path": ["TheBox", "RootObject", "BnetBarBg"],
+      "source_note": "Existing native main-menu scene node; only its background mesh is selected."
+    }
+  },
+  "rejected_sources": [
+    {
+      "name": "ShopQuantityPrompt",
+      "asset_id": "69ce12b45c069b46ee9040f2",
+      "bundle": "essential_base_shop_global-content-0.unity3d",
+      "capture": "modal-bulkBuy-frame.png",
+      "reason": "GPU capture is the friend-add input strip and does not match the pack purchase page."
+    },
+    {
+      "name": "ShopDetailsBooster",
+      "asset_id": "7eac305f112e74df0fecac18",
+      "capture": "modal-bulkBuy-candidate.png",
+      "reason": "The prefab produced no useful frame geometry; it is not used as the bulk-buy panel."
+    },
+    {
+      "name": "questReroll",
+      "capture": "quests-reroll.png",
+      "source_texture": "2ed4cadf99fae4c063072d11.png",
+      "reason": "The captured texture is a blue button with a yellow arrow and does not match the red parchment corner in the supplied reference."
+    }
+  ],
+  "camera_note": "Widget cameras are derived from active mesh bounds. No source UI camera or exact screen-space transform is claimed."
+}

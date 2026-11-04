@@ -1,0 +1,66 @@
+{
+  "assets": [
+    {
+      "id": "MODEL_RESULT_CROWN",
+      "asset_id": "1cb44379a001a00a4e52f298",
+      "name": "Victory_Crown",
+      "type": "GameObject",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "388153026966201394",
+      "guids": [],
+      "cache": "local/runtime/MODEL_RESULT_CROWN.scene.json"
+    },
+    {
+      "id": "MODEL_RESULT_BANNER",
+      "asset_id": "f8f8b0266cd1799c5e3bed58",
+      "name": "VictoryBanner",
+      "type": "GameObject",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "2925489007068718130",
+      "guids": [],
+      "cache": "local/runtime/MODEL_RESULT_BANNER.scene.json"
+    },
+    {
+      "id": "VFX_HERO_CRACKS",
+      "asset_id": "3096d59df11346e35ef77f30",
+      "name": "HeroDeathCracks",
+      "type": "Texture2D",
+      "bundle": "essential_base_global-texture-1.unity3d",
+      "cab": "CAB-e02b69b1bbe893a6736884865127e637",
+      "pathid": "3611432290050831556",
+      "guids": [
+        "bd06f2246b45cc94cab6553ad12fbb7b"
+      ],
+      "cache": "local/runtime/3096d59df11346e35ef77f30.png"
+    },
+    {
+      "id": "SFX_HERO_SHATTER",
+      "asset_id": "c69a7958a84c00b55ffe78a4",
+      "name": "GlassShatter_Underlay_Death",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-7772680967111287506",
+      "guids": [
+        "eb186ad834ac6c2499358737245c0c9e"
+      ],
+      "cache": "local/runtime/c69a7958a84c00b55ffe78a4.wav"
+    },
+    {
+      "id": "SFX_RESULT_START",
+      "asset_id": "63fb20149e7a49f139e65f32",
+      "name": "victory_screen_start",
+      "type": "AudioClip",
+      "bundle": "essential_base_global-audio-0.unity3d",
+      "cab": "CAB-c491983cea83897756f11fa097177509",
+      "pathid": "-1495760236804329381",
+      "guids": [
+        "e21784744d4eee74696da8908078e90c"
+      ],
+      "cache": "local/runtime/63fb20149e7a49f139e65f32.wav"
+    }
+  ],
+  "motion": "client_reimplementation"
+}

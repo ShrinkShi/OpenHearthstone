@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "catalog_source": "game.accounts.catalog.CardCatalog.pack_sets",
+  "catalog_count": 23,
+  "render_contract": {
+    "scene_data": "RuntimeExport.scene: local/runtime/<MODEL_PACK_ID>.scene.json",
+    "ui_pack": "Registry alias to the same SceneData path; derived 3D preview, not a flat image",
+    "material_texture_rule": "The Texture2D is a UV atlas bound by the source Material; do not display the atlas as a pack cover.",
+    "camera": {"projection": "orthographic", "fit": "primary_mesh_bounds", "ignore_source_world_position": true, "front_axis": "per-set", "up_axis": "per-set", "front_axis_note": "Only axes explicitly listed in verified_pack_axes_by_set are applied; all other mapped sources remain unknown. These are derived preview orientations, not original cameras.", "framing_note": "For explicitly mapped models, preserve the primary mesh UV orientation and apply a slight yaw to expose thickness.", "official_camera": "not present in the mapped source GameObjects"},
+    "verified_pack_axes_by_set": {
+      "3": {"front_axis": "-Y", "up_axis": "-Z"},
+      "13": {"front_axis": "-Y", "up_axis": "-Z"},
+      "15": {"front_axis": "-Y", "up_axis": "-Z"},
+      "21": {"front_axis": "-Y", "up_axis": "-Z"},
+      "25": {"front_axis": "-Y", "up_axis": "-Z"},
+      "27": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1001": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1004": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1125": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1127": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1129": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1130": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1158": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1347": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1414": {"front_axis": "-Y", "up_axis": "-Z"},
+      "1443": {"front_axis": "-Y", "up_axis": "-Z"}
+    },
+    "exclude_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"]
+  },
+  "source_assets": {
+    "3": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "ca5a7384c9c65f1a1faf8886", "name": "PackLowPoly", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-4787347059234539970", "guid": "b52e98fe2ba42e047855406c2b3c67df"},
+      "mesh": {"asset_id": "9fce13f3ac6098d1fb07f888", "name": "PackBaseLow_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-7380958956500230192", "guid": "49a73cb48149f1349980067ef9a22117"},
+      "material": {"asset_id": "b57f2624824548a23b1e58c5", "name": "PackOrg", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "6243788524746159138", "guid": "8ea6e9e8502259042b8f55edf8e40722"},
+      "texture": {"asset_id": "16b70bed67b559bfaf397c0f", "name": "PackOrg", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "-6741777953165787930", "guid": "31777c680eb0c1a408e16168e01689ff"}
+    },
+    "12": {
+      "source_kind": "adventure_book_model",
+      "game_object": {"asset_id": "0b6584949da6d336f9b8242a", "name": "Adv_StoryModeStore_Book_NAX_mesh", "bundle": "initial_base_global-2fdb1ccb-prefab-0.unity3d", "cab": "CAB-9092b058b9bfaf87ab790ac4a2b0fec4", "pathid": "-2876586458938016373", "guid": null},
+      "mesh": {"asset_id": "4583c3f656303f7a876e7397", "name": "StoreAdvBook_NAX_mesh", "bundle": "initial_base_global-3f9d10e4-mesh-0.unity3d", "cab": "CAB-1134056d38f0a8edb5587846751fd2d8", "pathid": "-8662883781992604337", "guid": null},
+      "material": {"asset_id": "e30de03ac185ebb054a90213", "name": "StoreAdvBooks_NAX_BRM", "bundle": "initial_base_global-3f9d10e4-material-0.unity3d", "cab": "CAB-9789a19a4c20e2ebc456c18f905cc015", "pathid": "3967290420621198319", "guid": "068cb3ee5f42dc14a8547ed4720bc222"},
+      "texture": {"asset_id": "46c03aec075cb3c2f17a5c20", "name": "StoreAdvBooks_NAX_BRM", "bundle": "initial_base_global-8411aad9-texture-19.unity3d", "cab": "CAB-0da9c7bdcca83bb03fdd4fce2c94282b", "pathid": "-4811578157334381248", "guid": "b776296864d6481498d90195f146d4f5"}
+    },
+    "13": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "ac833805919fb96220ab4b12", "name": "PackLowPoly_GvG", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-3702241369627839155", "guid": "d72e2ddb77ace4efa9683c1e24ad5fd7"},
+      "mesh": {"asset_id": "6964c6ac24a27014be29ca1a", "name": "PackGvGLow_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-2612691026448318179", "guid": "b19d7faa5e110b44588ed38fed505005"},
+      "material": {"asset_id": "2485da61ad820b1f27ae7275", "name": "PackGvG", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "3973218814098848822", "guid": "ab18735496f49c74eabd997ef0776c09"},
+      "texture": {"asset_id": "d1a80a390fdf41d5ba22e82c", "name": "PackGvG", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "8113041330966359252", "guid": "73adc7a87d2a4504d9137c351d09879f"}
+    },
+    "15": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "fb916b66eb0b54e8793e0850", "name": "PackLowPoly_TGT", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "9022678319600056601", "guid": "2964bf50b88739b4da38ecc3d0f17346"},
+      "mesh": {"asset_id": "af5223138537492bb66c256d", "name": "PackTGTLow_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-4223366394618420044", "guid": "912c8cba67765224da404c0f5588ef06"},
+      "material": {"asset_id": "d6b04a253e38e31c153aea23", "name": "PackTGT", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "-5110942627616303090", "guid": "73996186607cb4148a1f72aef6014512"},
+      "texture": {"asset_id": "9ac30e26be00ca9b19f5e01a", "name": "PackTGT", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "7443678916794615401", "guid": "5fc5bbde205b93b42adc784ca8a345f1"}
+    },
+    "14": {
+      "source_kind": "adventure_book_model",
+      "game_object": {"asset_id": "0c9ca53ee573539d5f92d3fd", "name": "Adv_StoryModeStore_Book_BRM_mesh", "bundle": "initial_base_global-2fdb1ccb-prefab-0.unity3d", "cab": "CAB-9092b058b9bfaf87ab790ac4a2b0fec4", "pathid": "2890623863532112888", "guid": null},
+      "mesh": {"asset_id": "3b13e934695a4da9e9d4a033", "name": "StoreAdvBook_BRM_mesh", "bundle": "initial_base_global-3f9d10e4-mesh-0.unity3d", "cab": "CAB-1134056d38f0a8edb5587846751fd2d8", "pathid": "-1833062099357229745", "guid": null},
+      "material": {"asset_id": "e30de03ac185ebb054a90213", "name": "StoreAdvBooks_NAX_BRM", "bundle": "initial_base_global-3f9d10e4-material-0.unity3d", "cab": "CAB-9789a19a4c20e2ebc456c18f905cc015", "pathid": "3967290420621198319", "guid": "068cb3ee5f42dc14a8547ed4720bc222"},
+      "texture": {"asset_id": "46c03aec075cb3c2f17a5c20", "name": "StoreAdvBooks_NAX_BRM", "bundle": "initial_base_global-8411aad9-texture-19.unity3d", "cab": "CAB-0da9c7bdcca83bb03fdd4fce2c94282b", "pathid": "-4811578157334381248", "guid": "b776296864d6481498d90195f146d4f5"}
+    },
+    "20": {
+      "source_kind": "adventure_book_model",
+      "game_object": {"asset_id": "e4729c81cf270dd65a9bd5be", "name": "Adv_StoryModeStore_Book_LOE_mesh", "bundle": "initial_base_global-2fdb1ccb-prefab-0.unity3d", "cab": "CAB-9092b058b9bfaf87ab790ac4a2b0fec4", "pathid": "3036446449006254001", "guid": null},
+      "mesh": {"asset_id": "1a2bd8845eb1f6ebd8bce417", "name": "polySurface1", "bundle": "initial_base_global-3f9d10e4-mesh-0.unity3d", "cab": "CAB-1134056d38f0a8edb5587846751fd2d8", "pathid": "-104477027538647502", "guid": null},
+      "material": {"asset_id": "c5080d959b4ab0b98db6a1dc", "name": "StoreAdvBooks_LOE", "bundle": "initial_base_global-3f9d10e4-material-0.unity3d", "cab": "CAB-9789a19a4c20e2ebc456c18f905cc015", "pathid": "6346172419254362521", "guid": "b9f3c0c07895eae44a205277107fca52"},
+      "texture": {"asset_id": "2481e1f796a21a0d2745cd25", "name": "StoreAdvBooks_LOE", "bundle": "initial_base_global-8411aad9-texture-19.unity3d", "cab": "CAB-0da9c7bdcca83bb03fdd4fce2c94282b", "pathid": "-5569409970605908224", "guid": "3145949d0ecaf7b4b93ade409554a7be"}
+    },
+    "23": {
+      "source_kind": "adventure_book_model",
+      "game_object": {"asset_id": "0b2ba21ec60f73e062494230", "name": "Adv_StoryModeStore_Book_KAR_mesh", "bundle": "initial_base_global-2fdb1ccb-prefab-0.unity3d", "cab": "CAB-9092b058b9bfaf87ab790ac4a2b0fec4", "pathid": "891851587327819687", "guid": null},
+      "mesh": {"asset_id": "f7a6c5c547e5b4da078ba82b", "name": "StoreAdvBooks_KARA", "bundle": "initial_base_global-3f9d10e4-mesh-0.unity3d", "cab": "CAB-1134056d38f0a8edb5587846751fd2d8", "pathid": "2429955485920376296", "guid": null},
+      "material": {"asset_id": "90369502376e237cf2d2fc48", "name": "StoreAdvBooks_KARA", "bundle": "initial_base_global-3f9d10e4-material-0.unity3d", "cab": "CAB-9789a19a4c20e2ebc456c18f905cc015", "pathid": "-8326052322116328741", "guid": "1877d85bfcac5df4c9c0f5bc084accb0"},
+      "texture": {"asset_id": "2481e1f796a21a0d2745cd25", "name": "StoreAdvBooks_LOE", "bundle": "initial_base_global-8411aad9-texture-19.unity3d", "cab": "CAB-0da9c7bdcca83bb03fdd4fce2c94282b", "pathid": "-5569409970605908224", "guid": "3145949d0ecaf7b4b93ade409554a7be"}
+    },
+    "21": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "2eb4b3ae1c3cab71ebaf0946", "name": "PackLowPoly_OG", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "8184094724989611806", "guid": "372c73ad6533f4a4991163bfc72b2d65"},
+      "mesh": {"asset_id": "3c97c177d931b47468664617", "name": "Pack_OG_low", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-1868744451228539975", "guid": "bc2a42f8cd9329c45a00191ad3109b02"},
+      "material": {"asset_id": "b8ae468d8163ba45eacfde3b", "name": "PackOG_LowPoly", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "2286383362226717912", "guid": "dcf24d2387a502c4fb99638e42bed5b0"},
+      "texture": {"asset_id": "0014a419cee967149e6ad432", "name": "Pack_OG_low", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "1248330168181716398", "guid": "19a73ddf3b00e98498ab1d561c16bf84"}
+    },
+    "25": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "8cd4102441f7ce5c47969747", "name": "PackLowPoly_MSG", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-7611504409475848525", "guid": "25bf2674d701e2e4b9c6b53f64015ff7"},
+      "mesh": {"asset_id": "5b26419d20b4ee4f85275e48", "name": "Pack_MSG_Low_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-3060635343198511402", "guid": "3ca58abe50ddaa24b998762c2509931a"},
+      "material": {"asset_id": "56906d722814c22251300152", "name": "Pack_MSG", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "-4521486905852888449", "guid": "050ac28f3188981458dd76ff36ba7bf5"},
+      "texture": {"asset_id": "42bc822057e2aa83d417c749", "name": "PackMSG", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "3788680937148273240", "guid": "e9ae4aca8492fc1429852d069160bb0a"}
+    },
+    "27": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "6f35ef4d304da68c4a60d8f8", "name": "PackLowPoly_UNG", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "1268618275579657481", "guid": "22a5a8d1aa6bac843a04f3ae3ee57e91"},
+      "mesh": {"asset_id": "276ad50c45b19f57eceffce9", "name": "Pack_UNG_Low_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "2048371852982689412", "guid": "fcbaf21225fb75f419cd7345d3b31778"},
+      "material": {"asset_id": "b22eec0ae73fe030b35d3536", "name": "Pack_UNG", "bundle": "initial_base_global-6fa5b9a2-material-1.unity3d", "cab": "CAB-168eba0528732da5b93f7edb8331e8cc", "pathid": "-8417260389366777900", "guid": "5b1cea2668926ef4fb18f44370553cb1"},
+      "texture": {"asset_id": "7c10bf88412857569f1ab1e4", "name": "PackUNG", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "-8415199472428255385", "guid": "24e79323b42ac9941b1091a3a74a4e15"}
+    },
+    "1001": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "ec78c118112637d1d7998488", "name": "PackLowPoly_ICC", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-4915828435746650565", "guid": "e20c22ddde03ea548b64a3f36ef64e8f"},
+      "mesh": {"asset_id": "904397a7d72b53c81e67abd1", "name": "Pack_ICC_low_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "5502557307050341475", "guid": "592583d5a9f975441922e0cb6ece50bb"},
+      "material": {"asset_id": "f34838dd3a1c082739452b99", "name": "Pack_ICC", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "-8818482639924708557", "guid": "1905bea851df35640979522a104a05d4"},
+      "texture": {"asset_id": "cd95511e478b862cd364bfc7", "name": "Pack_ICC", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "2715860771105067529", "guid": "5accd2b35b920254383c47c8db40aba3"}
+    },
+    "1004": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "55bbd09b3fa8b2edd7ffe012", "name": "PackLowPoly_LOOT", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-6678864882763640946", "guid": "c25ff8f61d392ba40b3de04e9f2e2ce6"},
+      "mesh": {"asset_id": "70075d530176208d072e58d3", "name": "Pack_LOOT_low_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "8769747801971812396", "guid": "86f146e14b8e5a84cb00af574b6f1085"},
+      "material": {"asset_id": "05175871255edeb7b61c447f", "name": "Pack_LOOT", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "-297816111854179194", "guid": "fcff800c2a4d7834c8a4e9cc47a4e18a"},
+      "texture": {"asset_id": "9bfa3bc7c3cb089abe0ad34d", "name": "Pack_LOOT", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "-3285979897188897615", "guid": "9b19bc4a7fa94c74bb3822d20c5c9f6d"}
+    },
+    "1125": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "c2f177f8fef331f48916aae2", "name": "PackLowPoly_GIL", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-6667645897659957033", "guid": "0ff2348b719198e408ac96b5044b4c0f"},
+      "mesh": {"asset_id": "d0b1bbf1fb77d2cb518f7680", "name": "pack_GIL_Low_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-677788222200737548", "guid": "f69de61bfbde2ff45aa9d55b4d0c5e6c"},
+      "material": {"asset_id": "68d6d9962f92064392361234", "name": "Pack_GIL_Flat", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "4138920928016665396", "guid": "c1af227e53f961b4ba04db7326bd5309"},
+      "texture": {"asset_id": "2458a3d9e7951cf7fa1b32e6", "name": "Pack_GIL_Flat", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "4340942521159819835", "guid": "14723425da414554dba702540942f77c"}
+    },
+    "1127": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "d345b49c7e8ae3dde3a52be1", "name": "PackLowPoly_BOT", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "2915504095555226098", "guid": "6f6f8663fd859394cb221cd065f87346"},
+      "mesh": {"asset_id": "e58191d0c04e4a698c43dd27", "name": "BOT_Pack_LowPoly", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-5319692753802233289", "guid": "d6edf24c9176a494cb3ecacdeea9d9be"},
+      "material": {"asset_id": "a88d8177c74806643b26c7e4", "name": "Pack_BOT_Flat", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "-1662822775362760", "guid": "c59fcf6bddd2b5548aa204bc02d6b48f"},
+      "texture": {"asset_id": "949db2485a78c7c35630132a", "name": "Pack_BOT_Flat", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "5406557966703464526", "guid": "d52e2b1c17f325443a5d0409f482a3b4"}
+    },
+    "1129": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "4ceea2918e450a23bbb6006e", "name": "PackLowPoly_TRL", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-7912687169427508766", "guid": "b843682d4529bd54cbedc7cf9259bb24"},
+      "mesh": {"asset_id": "318426bed2dfeae732d23f77", "name": "Pack_TRL_Low_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-2355458096991091484", "guid": "8c1edd0948f8b1e4da6a513b182b5880"},
+      "material": {"asset_id": "1339be1595c6dfcf7b34165f", "name": "Pack_TRL", "bundle": "initial_base_global-6fa5b9a2-material-1.unity3d", "cab": "CAB-168eba0528732da5b93f7edb8331e8cc", "pathid": "2294485708682396229", "guid": "2c829c0d54df7304cb6365fa6ee6e298"},
+      "texture": {"asset_id": "a7591e7f573a12b61edc3244", "name": "Pack_TRL", "bundle": "initial_base_global-8411aad9-texture-13.unity3d", "cab": "CAB-51315388aaeaca768a550d02d88ba4c3", "pathid": "8003100811362627049", "guid": "2da2199fa5d5ce540b7524dcb35a69ca"}
+    },
+    "1130": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "fb5976db39521fd4ec99bc12", "name": "PackLowPoly_DAL", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-4928153500900297053", "guid": "753bc823e13ab774aacd375159b053a5"},
+      "mesh": {"asset_id": "92e048c3ab41db293720c429", "name": "Pack_Evil_Low", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "8032975039144141774", "guid": "600318a486bb56e4a81fdbdf0b33732b"},
+      "material": {"asset_id": "5a78eaa31e641436d9a529d1", "name": "Pack_DAL", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "2057328190531974319", "guid": "f30ef7fe093de134e83add5395ffd6ed"},
+      "texture": {"asset_id": "a6a84d89d4fa45714306bd76", "name": "Pack_DAL", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "8466713859379852575", "guid": "38255239150bb2049b13066d554ce976"}
+    },
+    "1158": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "4ae55e4fa0d99f087c7b5655", "name": "PackLowPoly_ULD", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-7413137271602866308", "guid": "6c22b67081ed59548a7abe214c0db4f8"},
+      "mesh": {"asset_id": "73a886e87d86422206a883c6", "name": "Pack_ULD_Low_mesh", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "6519350907325243360", "guid": "060af586393192c4ba05b4d2a99651a3"},
+      "material": {"asset_id": "05be10d1fc0971e894423327", "name": "Pack_ULD", "bundle": "initial_base_global-6fa5b9a2-material-1.unity3d", "cab": "CAB-168eba0528732da5b93f7edb8331e8cc", "pathid": "-1570327752913432173", "guid": "4b9b1ea87e9d2244495b195648aeedfc"},
+      "texture": {"asset_id": "148a5838e407a4efa9cb5519", "name": "Pack_ULD", "bundle": "initial_base_global-8411aad9-texture-13.unity3d", "cab": "CAB-51315388aaeaca768a550d02d88ba4c3", "pathid": "6995927686884565279", "guid": "6fadaf839ad54c14995c48f21eea0fe2"}
+    },
+    "1347": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "b0a30398eb7605005d69ab5f", "name": "PackLowPoly_DRG", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "672610541649206345", "guid": "d2e31fc3070b02642b712b3ddf69333d"},
+      "mesh": {"asset_id": "b4b330e5d7eced84e9082ba5", "name": "mesh_Pack_DRG_Low", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "7076471333561563975", "guid": "df4442985c3d3644a8b6d71fc5f0a8ef"},
+      "material": {"asset_id": "42248059765952eb1f10484e", "name": "Pack_DRG", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "2589628073987079738", "guid": "b88e33030b981bb4f834f60b20e27534"},
+      "texture": {"asset_id": "19042897b39162fb3f10ff71", "name": "Pack_DRG", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "-7596862403161360569", "guid": "f8a3ef108ada77d45b9b6df0ab1cebe5"}
+    },
+    "1414": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "0113db662c99308395d3389b", "name": "PackLowPoly_BT", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "-6299725643672948658", "guid": "4ae8f3fdc8514fb4bbbf734315387d00"},
+      "mesh": {"asset_id": "f7b6ddf8e62886883ff7b154", "name": "Pack_BT_LowPoly", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "8202382555458568687", "guid": "d1d69298788d41b40bad79895d1660f3"},
+      "material": {"asset_id": "ab1376fa70983f38bf2e2930", "name": "Pack_BT_Flat", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "2595293109498722161", "guid": "cf1851f61a8c31b4ab33b07f345f4e90"},
+      "texture": {"asset_id": "04cdf297d994ed9a1583ebef", "name": "Pack_BT_Flat", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "-8312638799022362936", "guid": "ff6ca6d8778b478db574b9434c203680"}
+    },
+    "1403": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "52e68eadaac5bc036c2af66b", "name": "PackLowPoly_Modular_YearOfTheDragon", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "7886081077620935529", "guid": "6e3f1d748a1a91f41a01f4980ff84fe4"},
+      "mesh": {"asset_id": "c2fd6a2e711b64a755ca7159", "name": "mesh_Pack_Modular_Low", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-532666305381185938", "guid": "37dac8218eb2d8941b994a8ffae20a4f"},
+      "material": {"asset_id": "af832cd883248a7531544979", "name": "Pack_Modular_YearOfTheDragon", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "-65431070171708189", "guid": "c057bf97e3e27314696d2f1d186c4b76"},
+      "texture": {"asset_id": "26e8f19720255dcb4d39b6cc", "name": "Pack_Modular_YearoftheDragon", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "2203578554949364443", "guid": "e672c32f115186544991164c793496e8"}
+    },
+    "1443": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "94b9eb5d1c968193a99661a3", "name": "SCHPack_PackLowPoly", "bundle": "initial_base_global-7d7ed54d-prefab-1.unity3d", "cab": "CAB-3b38172631bdcd2457308569564b17ab", "pathid": "-4050862736558741868", "guid": "6cef71d4bc85e044b9d4866a5768b472"},
+      "mesh": {"asset_id": "accc231bb90f1936e5ec1a5c", "name": "mesh_SCHPack_LowPoly", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "2650901054077526303", "guid": "75255d17635750f4dbdb772f722a3b82"},
+      "material": {"asset_id": "633f790e1d09b5422280b1b9", "name": "SCHPack_Flat", "bundle": "initial_base_global-6fa5b9a2-material-1.unity3d", "cab": "CAB-168eba0528732da5b93f7edb8331e8cc", "pathid": "-8206429686399927333", "guid": "6c5c20396b222c140b95610a3370e2dd"},
+      "texture": {"asset_id": "14900a40573ab728c7a1ceea", "name": "SCHPack_Flat", "bundle": "initial_base_global-8411aad9-texture-13.unity3d", "cab": "CAB-51315388aaeaca768a550d02d88ba4c3", "pathid": "-97110131986541206", "guid": "65ae4e76edcc4ad88635c6474eda81ad"}
+    },
+    "1463": {
+      "source_kind": "native_3d_pack",
+      "game_object": {"asset_id": "815b53afd99140b30e505e73", "name": "PackLowPoly_Modular_demonhunter", "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d", "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae", "pathid": "4999356043139089985", "guid": "948056ee808f5c24c8fd7de950caa23d"},
+      "mesh": {"asset_id": "c2fd6a2e711b64a755ca7159", "name": "mesh_Pack_Modular_Low", "bundle": "initial_base_global-6fa5b9a2-mesh-0.unity3d", "cab": "CAB-6dac418a423f43b40dee7af0a50fb1e2", "pathid": "-532666305381185938", "guid": "37dac8218eb2d8941b994a8ffae20a4f"},
+      "material": {"asset_id": "f8b1e2ff7edfc72849c54433", "name": "Pack_Modular_demonhunter", "bundle": "initial_base_global-6fa5b9a2-material-0.unity3d", "cab": "CAB-ce4e7de852b745872a7a311c00e90a1e", "pathid": "-5062930361929256739", "guid": "8536391767d9751458c2b143ee77ecfe"},
+      "texture": {"asset_id": "c909da6adae3ccedcfbda763", "name": "Pack_Modular_demonhunter", "bundle": "initial_base_global-8411aad9-texture-12.unity3d", "cab": "CAB-ee7fc9209d7d174673f87f30e26bc1fe", "pathid": "-8523958238617638262", "guid": "db696993791367346b820f1c5b737dea"}
+    },
+    "1869": {
+      "source_kind": "related_theme_book_model",
+      "game_object": {"asset_id": "0d379c0df888449bb0bd7e26", "name": "AdventureBookCover_ROTLK", "bundle": "initial_adventure_global-8a1cef51-prefab-0.unity3d", "cab": "CAB-1a4648ac1382fa1efeacda23c7a215a1", "pathid": "6743855496332505565", "guid": "55a1acd3c4cde8c4f95ca74ad9d707ca"},
+      "mesh": {"asset_id": "78fd86eddfb5b07a0260e551", "name": "ROTLK_Cover_Mesh", "bundle": "initial_adventure_global-770adc7e-mesh-1.unity3d", "cab": "CAB-8ecb65ba6440749f5938c7e1c7c5abf5", "pathid": "-1934874237201395384", "guid": null},
+      "material": {"asset_id": "c6c5301561e2271010d5c7c0", "name": "Adv_ROTLK_Cover_Mat", "bundle": "initial_adventure_global-2904641c-material-0.unity3d", "cab": "CAB-8f09e670c8bdad00b5c0c6838ec7ce7e", "pathid": "8444782289567431292", "guid": "8c9739d840afa2e48aece4c52530b1ba"},
+      "texture": {"asset_id": "aa7a59d270571015b10506a8", "name": "Adv_ROTLK_StoryModeCover_Texture", "bundle": "initial_adventure_global-8411aad9-texture-2.unity3d", "cab": "CAB-0fcae4dece27701335f1f3845a036056", "pathid": "-8844781926774910009", "guid": "0a54eae638afef14f92fe26d1e919b21"}
+    }
+  },
+  "packs": [
+    {"set_id": 3, "set_name": "CLASSIC", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 3, "logical_ids": {"scene": "MODEL_PACK_3", "ui": "UI_PACK_3"}, "render": {"primary_node_name": "PackLowPoly", "primary_node_path": ["PackLowPoly"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 12, "set_name": "NAXX", "source_type": "adventure_book_model", "presentation_kind": "adventure_book_model_derived", "source_asset_set_id": 12, "presentation_note": "Custom server card pool; uses the original Naxxramas adventure store book model, not a standard booster pack.", "logical_ids": {"scene": "MODEL_PACK_12", "ui": "UI_PACK_12"}, "render": {"primary_node_name": "Adv_StoryModeStore_Book_NAX_mesh", "primary_node_path": ["Adv_StoryModeStore_Book_NAX_mesh"], "include_primary_mesh_only": true, "excluded_node_names": [], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; derive front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 13, "set_name": "GVG", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 13, "logical_ids": {"scene": "MODEL_PACK_13", "ui": "UI_PACK_13"}, "render": {"primary_node_name": "PackLowPoly_GvG", "primary_node_path": ["PackLowPoly_GvG"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 14, "set_name": "BRM", "source_type": "adventure_book_model", "presentation_kind": "adventure_book_model_derived", "source_asset_set_id": 14, "presentation_note": "Custom server card pool; uses the original Blackrock Mountain adventure store book model, not a standard booster pack.", "logical_ids": {"scene": "MODEL_PACK_14", "ui": "UI_PACK_14"}, "render": {"primary_node_name": "Adv_StoryModeStore_Book_BRM_mesh", "primary_node_path": ["Adv_StoryModeStore_Book_BRM_mesh"], "include_primary_mesh_only": true, "excluded_node_names": [], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; derive front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 15, "set_name": "TGT", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 15, "logical_ids": {"scene": "MODEL_PACK_15", "ui": "UI_PACK_15"}, "render": {"primary_node_name": "PackLowPoly_TGT", "primary_node_path": ["PackLowPoly_TGT"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 20, "set_name": "LOE", "source_type": "adventure_book_model", "presentation_kind": "adventure_book_model_derived", "source_asset_set_id": 20, "presentation_note": "Custom server card pool; uses the original League of Explorers adventure store book model, not a standard booster pack.", "logical_ids": {"scene": "MODEL_PACK_20", "ui": "UI_PACK_20"}, "render": {"primary_node_name": "Adv_StoryModeStore_Book_LOE_mesh", "primary_node_path": ["Adv_StoryModeStore_Book_LOE_mesh"], "include_primary_mesh_only": true, "excluded_node_names": [], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; derive front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 21, "set_name": "OG", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 21, "logical_ids": {"scene": "MODEL_PACK_21", "ui": "UI_PACK_21"}, "render": {"primary_node_name": "PackLowPoly_OG", "primary_node_path": ["PackLowPoly_OG"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 23, "set_name": "KARA", "source_type": "adventure_book_model", "presentation_kind": "adventure_book_model_derived", "source_asset_set_id": 23, "presentation_note": "Custom server card pool; uses the original Karazhan adventure store book model, not a standard booster pack.", "logical_ids": {"scene": "MODEL_PACK_23", "ui": "UI_PACK_23"}, "render": {"primary_node_name": "Adv_StoryModeStore_Book_KAR_mesh", "primary_node_path": ["Adv_StoryModeStore_Book_KAR_mesh"], "include_primary_mesh_only": true, "excluded_node_names": [], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; derive front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 25, "set_name": "GANGS", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 25, "logical_ids": {"scene": "MODEL_PACK_25", "ui": "UI_PACK_25"}, "render": {"primary_node_name": "PackLowPoly_MSG", "primary_node_path": ["PackLowPoly_MSG"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 27, "set_name": "UNGORO", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 27, "logical_ids": {"scene": "MODEL_PACK_27", "ui": "UI_PACK_27"}, "render": {"primary_node_name": "PackLowPoly_UNG", "primary_node_path": ["PackLowPoly_UNG"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1001, "set_name": "ICECROWN", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1001, "logical_ids": {"scene": "MODEL_PACK_1001", "ui": "UI_PACK_1001"}, "render": {"primary_node_name": "PackLowPoly_ICC", "primary_node_path": ["PackLowPoly_ICC"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1004, "set_name": "LOOTAPALOOZA", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1004, "logical_ids": {"scene": "MODEL_PACK_1004", "ui": "UI_PACK_1004"}, "render": {"primary_node_name": "PackLowPoly_LOOT", "primary_node_path": ["PackLowPoly_LOOT"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1125, "set_name": "GILNEAS", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1125, "logical_ids": {"scene": "MODEL_PACK_1125", "ui": "UI_PACK_1125"}, "render": {"primary_node_name": "PackLowPoly_GIL", "primary_node_path": ["PackLowPoly_GIL"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1127, "set_name": "BOOMSDAY", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1127, "logical_ids": {"scene": "MODEL_PACK_1127", "ui": "UI_PACK_1127"}, "render": {"primary_node_name": "PackLowPoly_BOT", "primary_node_path": ["PackLowPoly_BOT"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1129, "set_name": "TROLL", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1129, "logical_ids": {"scene": "MODEL_PACK_1129", "ui": "UI_PACK_1129"}, "render": {"primary_node_name": "PackLowPoly_TRL", "primary_node_path": ["PackLowPoly_TRL"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1130, "set_name": "DALARAN", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1130, "logical_ids": {"scene": "MODEL_PACK_1130", "ui": "UI_PACK_1130"}, "render": {"primary_node_name": "PackLowPoly_DAL", "primary_node_path": ["PackLowPoly_DAL"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1158, "set_name": "ULDUM", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1158, "logical_ids": {"scene": "MODEL_PACK_1158", "ui": "UI_PACK_1158"}, "render": {"primary_node_name": "PackLowPoly_ULD", "primary_node_path": ["PackLowPoly_ULD"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1347, "set_name": "DRAGONS", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1347, "logical_ids": {"scene": "MODEL_PACK_1347", "ui": "UI_PACK_1347"}, "render": {"primary_node_name": "PackLowPoly_DRG", "primary_node_path": ["PackLowPoly_DRG"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1403, "set_name": "YEAR_OF_THE_DRAGON", "source_type": "native_3d_pack", "presentation_kind": "themed_pack_model_derived", "source_asset_set_id": 1403, "product_variant": "year_of_the_dragon_theme_model", "presentation_note": "Custom server card pool; this is a Year of the Dragon themed model, not an identified standard booster pack.", "logical_ids": {"scene": "MODEL_PACK_1403", "ui": "UI_PACK_1403"}, "render": {"primary_node_name": "PackLowPoly_Modular_YearOfTheDragon", "primary_node_path": ["PackLowPoly_Modular_YearOfTheDragon", "PackLowPoly_Modular_YearOfTheDragon"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1414, "set_name": "BLACK_TEMPLE", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1414, "logical_ids": {"scene": "MODEL_PACK_1414", "ui": "UI_PACK_1414"}, "render": {"primary_node_name": "PackLowPoly_BT", "primary_node_path": ["PackLowPoly_BT", "PackLowPoly_BT"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1443, "set_name": "SCHOLOMANCE", "source_type": "native_3d_pack", "presentation_kind": "official_pack_model", "source_asset_set_id": 1443, "logical_ids": {"scene": "MODEL_PACK_1443", "ui": "UI_PACK_1443"}, "render": {"primary_node_name": "SCHPack_PackLowPoly", "primary_node_path": ["SCHPack_PackLowPoly"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1463, "set_name": "DEMON_HUNTER_INITIATE", "source_type": "native_3d_pack", "presentation_kind": "class_pack_model_derived", "source_asset_set_id": 1463, "product_variant": "demon_hunter_class_pack", "presentation_note": "The original model is a Demon Hunter class pack, not a standard expansion booster.", "logical_ids": {"scene": "MODEL_PACK_1463", "ui": "UI_PACK_1463"}, "render": {"primary_node_name": "PackLowPoly_Modular_demonhunter", "primary_node_path": ["PackLowPoly_Modular_demonhunter"], "include_primary_mesh_only": true, "excluded_node_names": ["PackAmountBanner", "PackFlashQuad", "FakeShadow_Quad"], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; determine front from primary mesh UVs and use a slight yaw to show thickness."}},
+    {"set_id": 1869, "set_name": "PATH_OF_ARTHAS", "source_type": "related_theme_book_model", "presentation_kind": "related_theme_book_derived", "source_asset_set_id": 1869, "product_variant": "return_of_the_lich_king_storybook", "presentation_note": "Custom server card pool; this is a Return of the Lich King storybook display model, not a Path of Arthas booster.", "logical_ids": {"scene": "MODEL_PACK_1869", "ui": "UI_PACK_1869"}, "render": {"primary_node_name": "ROTLK_Cover_Mesh", "primary_node_path": ["AdventureBookCover_ROTLK", "ROTLK", "Adv_ROTLK_StoryModeCover", "ROTLK_Cover_Mesh"], "include_primary_mesh_only": true, "excluded_node_names": [], "camera_suggestion": "Orthographic fit to primary mesh bounds; ignore source world position; derive front from primary mesh UVs and use a slight yaw to show thickness."}}
+  ],
+  "currency_assets": [
+    {"logical_id": "UI_GOLD", "source_kind": "in_game_gold_coin_sprite", "source": {"asset_id": "9ee98b98d80a99ad02fe0069", "name": "large_coin_0", "bundle": "initial_base_global-c9f52d29-texture-2.unity3d", "cab": "CAB-7239ba1caf43aa2380d5e89b6e7fa258", "pathid": "3688991491053880391", "guid": "8b93df76d1bca8f4498744f373ed5b93", "type": "Sprite"}, "export_kind": "sprite_crop_png"},
+    {"logical_id": "UI_DUST", "source_kind": "arcane_dust_jar_icon", "source": {"asset_id": "1dd085f1d8de1e04060fa5b3", "name": "DustJar_Icon", "bundle": "essential_base_global-texture-0.unity3d", "cab": "CAB-cfdc5301ac0b17c5a76ad477fba38b57", "pathid": "163321096101898969", "guid": "d09307934c24f9348add7c21144c729f", "type": "Texture2D"}, "export_kind": "texture_png", "dimensions": [128, 128]}
+  ]
+}

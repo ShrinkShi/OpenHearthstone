@@ -1,0 +1,175 @@
+{
+  "programs": [
+    {
+      "file": "223522c32fa85768f21c4c95.native-effect.json",
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Thrust_Super_WithIdle.prefab:5b88c25bd948e0b439f78bd85bb55f05",
+      "source": {
+        "cab": "CAB-4a70eaee9f36c479d7b8e75f8b18b902",
+        "pathid": "-7276484569396546066",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-7.unity3d"
+      },
+      "audio_file": "223522c32fa85768f21c4c95.native-effect.loop-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "27544fa6167cb58c1a323d04.native-effect.json",
+      "reference": "RLKFX_UnholyFrenzy_Reticle_FX.prefab:61f44ec022c25d2429493a5291384e61",
+      "source": {
+        "cab": "CAB-f3512d6b16c4aa3131facc70ec668380",
+        "pathid": "4718566941008885101",
+        "type": "GameObject",
+        "bundle": "initial_base_global-6aa9ba6a-prefab-0.unity3d"
+      },
+      "audio_file": "27544fa6167cb58c1a323d04.native-effect.loop-audio.json",
+      "nodes": 2,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "38ddc05994c8a8f377263c1e.native-effect.json",
+      "reference": "Warlock_Missiles_Suckin_FX.prefab:3a54ec5fedb7d0648ab17213c8f07ad5",
+      "source": {
+        "cab": "CAB-67e4d1eb27ce21c49d64680c42a53700",
+        "pathid": "547732835633558971",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-10.unity3d"
+      },
+      "audio_file": "38ddc05994c8a8f377263c1e.native-effect.loop-audio.json",
+      "nodes": 5,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "3b53c6edac0ba99e03be30be.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_WithIdle.prefab:dc16293627043ed4a8204cf20b128328",
+      "source": {
+        "cab": "CAB-b9b1ced5020b2abf2023c86b1d4133e9",
+        "pathid": "-4575446067956166232",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-8.unity3d"
+      },
+      "audio_file": "3b53c6edac0ba99e03be30be.native-effect.loop-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "4d8519098584bdd2988a4511.native-effect.json",
+      "reference": "ReuseFX_Decay_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:ade894ff3a30e9b43b0bc0daa1667303",
+      "source": {
+        "cab": "CAB-4a70eaee9f36c479d7b8e75f8b18b902",
+        "pathid": "-5703792068947446823",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-7.unity3d"
+      },
+      "audio_file": "4d8519098584bdd2988a4511.native-effect.loop-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "6add519a1ee232e82b2e0ec0.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Medium_Super_WithIdle.prefab:6f83b437b11353d4d8660c204ecd355f",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-4806383628780588668",
+        "type": "GameObject",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "audio_file": "6add519a1ee232e82b2e0ec0.native-effect.loop-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "74398d37bea0bf0116c207f0.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_NoIdle.prefab:58fda7c5c9a94f04bb88e51dea789cab",
+      "source": {
+        "cab": "CAB-b9b1ced5020b2abf2023c86b1d4133e9",
+        "pathid": "-6885082320706159365",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-8.unity3d"
+      },
+      "audio_file": "74398d37bea0bf0116c207f0.native-effect.loop-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "90a7e2726cd4aa8e4a09b6a2.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Small_Super_WithIdle.prefab:c31bdfb48572b6d488f9de72d3a677c7",
+      "source": {
+        "cab": "CAB-b9b1ced5020b2abf2023c86b1d4133e9",
+        "pathid": "5574135424267607136",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-8.unity3d"
+      },
+      "audio_file": "90a7e2726cd4aa8e4a09b6a2.native-effect.loop-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Asphyxiate_Super_WithIdle.prefab:676fef5a5e50055409210c583d22859e",
+      "source": {
+        "cab": "CAB-4a70eaee9f36c479d7b8e75f8b18b902",
+        "pathid": "8107803019687819429",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-7.unity3d"
+      },
+      "audio_file": "93313b7c2aed67a49667c4c4.native-effect.loop-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "cf7378eab15cd8e4899b84b5.native-effect.json",
+      "reference": "Warlock_Missiles_FX.prefab:6ca3ce5631d161744907c7790e623216",
+      "source": {
+        "cab": "CAB-67e4d1eb27ce21c49d64680c42a53700",
+        "pathid": "-2017811885573201396",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-10.unity3d"
+      },
+      "audio_file": "cf7378eab15cd8e4899b84b5.native-effect.loop-audio.json",
+      "nodes": 4,
+      "clips": 2,
+      "errors": []
+    },
+    {
+      "file": "d554fc3ef71c90388d48ea9e.native-effect.json",
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:4c6b1bd7d021c0f4e8da477dc769a6db",
+      "source": {
+        "cab": "CAB-4a70eaee9f36c479d7b8e75f8b18b902",
+        "pathid": "1675081782238222231",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-7.unity3d"
+      },
+      "audio_file": "d554fc3ef71c90388d48ea9e.native-effect.loop-audio.json",
+      "nodes": 3,
+      "clips": 3,
+      "errors": []
+    },
+    {
+      "file": "d5938d6ea1d4ad32273f3adb.native-effect.json",
+      "reference": "ReuseFX_Necrotic_DeathKnight_Impact_Transform_Super_WithIdle.prefab:fb60ebef9e2bcac47bc697d7271ed83a",
+      "source": {
+        "cab": "CAB-0ae20e6f9b41340318836e657dd4acce",
+        "pathid": "6168994786946903701",
+        "type": "GameObject",
+        "bundle": "initial_base_global-41caf0cf-prefab-9.unity3d"
+      },
+      "audio_file": "d5938d6ea1d4ad32273f3adb.native-effect.loop-audio.json",
+      "nodes": 1,
+      "clips": 1,
+      "errors": []
+    }
+  ],
+  "notes": [
+    "Original owned AudioSource/SoundDef/clip dependencies, not full SoundManager or all-card fidelity."
+  ]
+}

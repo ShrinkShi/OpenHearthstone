@@ -1,0 +1,3333 @@
+{
+  "programs": [
+    {
+      "file": "23d38186cee691b6a6171c7a.actor-spell.json",
+      "states": [
+        {
+          "node": 1,
+          "type": 1,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "157c9765203bf4ef430d46b4",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 1,
+              "target": 0,
+              "clip": "7d0e08db7f2a0c03434d8ced",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "6625285434322156398",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        },
+        {
+          "node": 2,
+          "type": 3,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": 0,
+              "target": 0,
+              "clip": "be184559c9b09601bf4e73ff",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 8,
+              "target": 0,
+              "clip": "69815e8ba8806553fe482647",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 5,
+              "target": 0,
+              "clip": "9048c163e2599c88ff2229c3",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 2,
+              "target": 0,
+              "clip": "c35937a7c84301e02f821453",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "4237499463636974446",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        },
+        {
+          "node": 4,
+          "type": 4,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "c0da32dbab6a7291964f0b3b",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 4,
+              "target": 0,
+              "clip": "4a69cb364957c204ad9af78b",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 3,
+              "target": 0,
+              "clip": "0117bba3205444e7f1c752eb",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-5614401469708993682",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        },
+        {
+          "node": 6,
+          "type": 2,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "3828626387490143086",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        },
+        {
+          "node": 7,
+          "type": 5,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "c0da32dbab6a7291964f0b3b",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 7,
+              "target": 0,
+              "clip": "41eb0dfd9f3a639f109a3bbc",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 3,
+              "target": 0,
+              "clip": "c336a1fb555994ddcc4f116f",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "5201210011819473774",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        }
+      ],
+      "receivers": [
+        {
+          "node": 0,
+          "kind": "ActorAttackSpell",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "9199424220071099246"
+          }
+        },
+        {
+          "node": 8,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 9,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "1491674117974686574"
+          }
+        },
+        {
+          "node": 1,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "6625285434322156398"
+          }
+        },
+        {
+          "node": 2,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "4237499463636974446"
+          }
+        },
+        {
+          "node": 2,
+          "kind": "SelfAnimUtils",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "1367271115766135662"
+          }
+        },
+        {
+          "node": 3,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 3,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "5410952467654605678"
+          }
+        },
+        {
+          "node": 4,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-5614401469708993682"
+          }
+        },
+        {
+          "node": 5,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 5,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-2373482255948940434"
+          }
+        },
+        {
+          "node": 6,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "3828626387490143086"
+          }
+        },
+        {
+          "node": 7,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "5201210011819473774"
+          }
+        }
+      ],
+      "animation_events": [
+        {
+          "clip": "be184559c9b09601bf4e73ff",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4792751141647307722",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "StopWaitingToAct",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "StopWaitingToAct",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "69815e8ba8806553fe482647",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "2255474043856481557",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "157c9765203bf4ef430d46b4",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "6038358408291223302",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [],
+          "event_horizon": 0
+        },
+        {
+          "clip": "7d0e08db7f2a0c03434d8ced",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "1567802678463208941",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.5333333611488342,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5333333611488342,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.5333333611488342
+        },
+        {
+          "clip": "c35937a7c84301e02f821453",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "4257864350987652525",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayDefaultSound",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": false,
+              "object_source": {
+                "cab": "CAB-c491983cea83897756f11fa097177509",
+                "pathid": "3256782753177288405",
+                "type": "AudioClip"
+              },
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayDefaultSound",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 10,
+                  "m_PathID": 3256782753177288405
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "9048c163e2599c88ff2229c3",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-1510108346767018921",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3andChilds",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3andChilds",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "0117bba3205444e7f1c752eb",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-1728722340989957542",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "c336a1fb555994ddcc4f116f",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "100862295179257391",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.15000000596046448,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.15000000596046448,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.15000000596046448
+        },
+        {
+          "clip": "c0da32dbab6a7291964f0b3b",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4501150883399441419",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [],
+          "event_horizon": 0
+        },
+        {
+          "clip": "4a69cb364957c204ad9af78b",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "31535487643809871",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.01666666753590107,
+              "function": "OnSpellFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.01666666753590107,
+                "functionName": "OnSpellFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            },
+            {
+              "time": 0.30000001192092896,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.30000001192092896,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.30000001192092896
+        },
+        {
+          "clip": "41eb0dfd9f3a639f109a3bbc",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "3440609998036975542",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.5166666507720947,
+              "function": "OnSpellFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5166666507720947,
+                "functionName": "OnSpellFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            },
+            {
+              "time": 0.5333333611488342,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5333333611488342,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.5333333611488342
+        },
+        {
+          "clip": "40d1ba38c85bf151777c4b8e",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "8117861095199656894",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        }
+      ]
+    },
+    {
+      "file": "2a965e276d24b2db14e2483b.actor-spell.json",
+      "states": [
+        {
+          "node": 1,
+          "type": 3,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": 0,
+              "target": 0,
+              "clip": "be184559c9b09601bf4e73ff",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 7,
+              "target": 0,
+              "clip": "69815e8ba8806553fe482647",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 4,
+              "target": 0,
+              "clip": "9048c163e2599c88ff2229c3",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 1,
+              "target": 0,
+              "clip": "c35937a7c84301e02f821453",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 1,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "8882172339062587025",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "node": 2,
+          "type": 1,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "157c9765203bf4ef430d46b4",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 2,
+              "target": 0,
+              "clip": "7d0e08db7f2a0c03434d8ced",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "9060810415304162961",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "node": 5,
+          "type": 2,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": 5,
+              "target": 0,
+              "clip": "878cfeec7fe2631bac6b71dc",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "6094725271936712337",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "node": 6,
+          "type": 5,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "c0da32dbab6a7291964f0b3b",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 6,
+              "target": 0,
+              "clip": "41eb0dfd9f3a639f109a3bbc",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 3,
+              "target": 0,
+              "clip": "c336a1fb555994ddcc4f116f",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "1063891837863607953",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        }
+      ],
+      "receivers": [
+        {
+          "node": 0,
+          "kind": "ActorAttackSpell",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-5401395647147196783"
+          }
+        },
+        {
+          "node": 7,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 8,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "4733424744285879953"
+          }
+        },
+        {
+          "node": 1,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "8882172339062587025"
+          }
+        },
+        {
+          "node": 1,
+          "kind": "SelfAnimUtils",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "8599748781630635665"
+          }
+        },
+        {
+          "node": 2,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "9060810415304162961"
+          }
+        },
+        {
+          "node": 3,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 3,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "7494906898031787665"
+          }
+        },
+        {
+          "node": 4,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 4,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "4402305456587161233"
+          }
+        },
+        {
+          "node": 5,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "6094725271936712337"
+          }
+        },
+        {
+          "node": 6,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "1063891837863607953"
+          }
+        }
+      ],
+      "animation_events": [
+        {
+          "clip": "be184559c9b09601bf4e73ff",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4792751141647307722",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "StopWaitingToAct",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "StopWaitingToAct",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "69815e8ba8806553fe482647",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "2255474043856481557",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "9048c163e2599c88ff2229c3",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-1510108346767018921",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3andChilds",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3andChilds",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "c35937a7c84301e02f821453",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "4257864350987652525",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayDefaultSound",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": false,
+              "object_source": {
+                "cab": "CAB-c491983cea83897756f11fa097177509",
+                "pathid": "3256782753177288405",
+                "type": "AudioClip"
+              },
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayDefaultSound",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 10,
+                  "m_PathID": 3256782753177288405
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "157c9765203bf4ef430d46b4",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "6038358408291223302",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [],
+          "event_horizon": 0
+        },
+        {
+          "clip": "7d0e08db7f2a0c03434d8ced",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "1567802678463208941",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.5333333611488342,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5333333611488342,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.5333333611488342
+        },
+        {
+          "clip": "0117bba3205444e7f1c752eb",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-1728722340989957542",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "c336a1fb555994ddcc4f116f",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "100862295179257391",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.15000000596046448,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.15000000596046448,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.15000000596046448
+        },
+        {
+          "clip": "878cfeec7fe2631bac6b71dc",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "2874967855549149906",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.01666666753590107,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.01666666753590107,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.01666666753590107
+        },
+        {
+          "clip": "c0da32dbab6a7291964f0b3b",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4501150883399441419",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [],
+          "event_horizon": 0
+        },
+        {
+          "clip": "41eb0dfd9f3a639f109a3bbc",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "3440609998036975542",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.5166666507720947,
+              "function": "OnSpellFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5166666507720947,
+                "functionName": "OnSpellFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            },
+            {
+              "time": 0.5333333611488342,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5333333611488342,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.5333333611488342
+        },
+        {
+          "clip": "40d1ba38c85bf151777c4b8e",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "8117861095199656894",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        }
+      ]
+    },
+    {
+      "file": "53d1f58b27879d21ec864d55.actor-spell.json",
+      "states": [
+        {
+          "node": 3,
+          "type": 2,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": 1,
+              "target": 0,
+              "clip": "",
+              "clip_null": true,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "2235077752524510909",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        }
+      ],
+      "receivers": [
+        {
+          "node": 3,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "2235077752524510909"
+          }
+        }
+      ],
+      "animation_events": []
+    },
+    {
+      "file": "6f2aec92c2bb963850495dc3.actor-spell.json",
+      "states": [
+        {
+          "node": 9,
+          "type": 1,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": 1,
+              "target": 0,
+              "clip": "",
+              "clip_null": true,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": true,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-8844456895709748077",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        }
+      ],
+      "receivers": [
+        {
+          "node": 9,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-8844456895709748077"
+          }
+        }
+      ],
+      "animation_events": []
+    },
+    {
+      "file": "b060220f89189a50d06151ac.actor-spell.json",
+      "states": [
+        {
+          "node": 1,
+          "type": 1,
+          "delay": 0.0,
+          "enabled": false,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": 3,
+              "target": 0,
+              "clip": "16c50d91d83b8c8a94da4530",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 1,
+              "target": 0,
+              "clip": "71ddfeeb98e587eb589d3205",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-9b18c5a3f570b83cdae55383337bcae7",
+            "pathid": "4422607187168389820",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-5.unity3d"
+          }
+        }
+      ],
+      "receivers": [
+        {
+          "node": 1,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-9b18c5a3f570b83cdae55383337bcae7",
+            "pathid": "4422607187168389820"
+          }
+        }
+      ],
+      "animation_events": [
+        {
+          "clip": "16c50d91d83b8c8a94da4530",
+          "source": {
+            "cab": "CAB-7e3fca7052b16fc804b74a92c693e291",
+            "pathid": "7965813608013872173",
+            "type": "AnimationClip",
+            "bundle": "initial_base_global-1fbc9c0f-prefab-14.unity3d"
+          },
+          "events": [],
+          "event_horizon": 0
+        },
+        {
+          "clip": "71ddfeeb98e587eb589d3205",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "87032847113375407",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.75,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 21,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.75,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 21,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.75
+        }
+      ]
+    },
+    {
+      "file": "bf21da970c07c866f15b2302.actor-spell.json",
+      "states": [
+        {
+          "node": 1,
+          "type": 1,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "157c9765203bf4ef430d46b4",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 1,
+              "target": 0,
+              "clip": "7d0e08db7f2a0c03434d8ced",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-5197167487251225598",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "node": 2,
+          "type": 3,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": 0,
+              "target": 0,
+              "clip": "be184559c9b09601bf4e73ff",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 8,
+              "target": 0,
+              "clip": "69815e8ba8806553fe482647",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 5,
+              "target": 0,
+              "clip": "9048c163e2599c88ff2229c3",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 2,
+              "target": 0,
+              "clip": "c35937a7c84301e02f821453",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4913429643939322878",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "node": 4,
+          "type": 4,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "c0da32dbab6a7291964f0b3b",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 4,
+              "target": 0,
+              "clip": "4a69cb364957c204ad9af78b",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 3,
+              "target": 0,
+              "clip": "0117bba3205444e7f1c752eb",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-8894801344147069950",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "node": 6,
+          "type": 2,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "7650453938176353282",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "node": 7,
+          "type": 5,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "c0da32dbab6a7291964f0b3b",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 7,
+              "target": 0,
+              "clip": "41eb0dfd9f3a639f109a3bbc",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 3,
+              "target": 0,
+              "clip": "c336a1fb555994ddcc4f116f",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-5745456465986362366",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        }
+      ],
+      "receivers": [
+        {
+          "node": 0,
+          "kind": "ActorAttackSpell",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "5406991292069405698"
+          }
+        },
+        {
+          "node": 8,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 9,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "2139458507043005442"
+          }
+        },
+        {
+          "node": 1,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-5197167487251225598"
+          }
+        },
+        {
+          "node": 2,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4913429643939322878"
+          }
+        },
+        {
+          "node": 2,
+          "kind": "SelfAnimUtils",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-3274408171703999486"
+          }
+        },
+        {
+          "node": 3,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 3,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-363114533499214846"
+          }
+        },
+        {
+          "node": 4,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-8894801344147069950"
+          }
+        },
+        {
+          "node": 5,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 5,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-6571667453457505278"
+          }
+        },
+        {
+          "node": 6,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "7650453938176353282"
+          }
+        },
+        {
+          "node": 7,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-5745456465986362366"
+          }
+        }
+      ],
+      "animation_events": [
+        {
+          "clip": "be184559c9b09601bf4e73ff",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4792751141647307722",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "StopWaitingToAct",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "StopWaitingToAct",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "69815e8ba8806553fe482647",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "2255474043856481557",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "157c9765203bf4ef430d46b4",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "6038358408291223302",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [],
+          "event_horizon": 0
+        },
+        {
+          "clip": "7d0e08db7f2a0c03434d8ced",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "1567802678463208941",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.5333333611488342,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5333333611488342,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.5333333611488342
+        },
+        {
+          "clip": "c35937a7c84301e02f821453",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "4257864350987652525",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayDefaultSound",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": false,
+              "object_source": {
+                "cab": "CAB-c491983cea83897756f11fa097177509",
+                "pathid": "3256782753177288405",
+                "type": "AudioClip"
+              },
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayDefaultSound",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 10,
+                  "m_PathID": 3256782753177288405
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "9048c163e2599c88ff2229c3",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-1510108346767018921",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3andChilds",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3andChilds",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "0117bba3205444e7f1c752eb",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-1728722340989957542",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "c336a1fb555994ddcc4f116f",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "100862295179257391",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.15000000596046448,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.15000000596046448,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.15000000596046448
+        },
+        {
+          "clip": "c0da32dbab6a7291964f0b3b",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4501150883399441419",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [],
+          "event_horizon": 0
+        },
+        {
+          "clip": "4a69cb364957c204ad9af78b",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "31535487643809871",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.01666666753590107,
+              "function": "OnSpellFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.01666666753590107,
+                "functionName": "OnSpellFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            },
+            {
+              "time": 0.30000001192092896,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.30000001192092896,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.30000001192092896
+        },
+        {
+          "clip": "41eb0dfd9f3a639f109a3bbc",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "3440609998036975542",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.5166666507720947,
+              "function": "OnSpellFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5166666507720947,
+                "functionName": "OnSpellFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            },
+            {
+              "time": 0.5333333611488342,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5333333611488342,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.5333333611488342
+        },
+        {
+          "clip": "40d1ba38c85bf151777c4b8e",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "8117861095199656894",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        }
+      ]
+    },
+    {
+      "file": "c7109e87ad46c02a4a7e74ed.actor-spell.json",
+      "states": [
+        {
+          "node": 1,
+          "type": 1,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "157c9765203bf4ef430d46b4",
+              "clip_null": false,
+              "enabled": false,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 1,
+              "target": 0,
+              "clip": "7d0e08db7f2a0c03434d8ced",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-3848841360657042348",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        },
+        {
+          "node": 2,
+          "type": 3,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": 0,
+              "target": 0,
+              "clip": "be184559c9b09601bf4e73ff",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 8,
+              "target": 0,
+              "clip": "69815e8ba8806553fe482647",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 5,
+              "target": 0,
+              "clip": "9048c163e2599c88ff2229c3",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 2,
+              "target": 0,
+              "clip": "c35937a7c84301e02f821453",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-135179302448876460",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        },
+        {
+          "node": 4,
+          "type": 4,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "c0da32dbab6a7291964f0b3b",
+              "clip_null": false,
+              "enabled": false,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 4,
+              "target": 0,
+              "clip": "4a69cb364957c204ad9af78b",
+              "clip_null": false,
+              "enabled": false,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 3,
+              "target": 0,
+              "clip": "0117bba3205444e7f1c752eb",
+              "clip_null": false,
+              "enabled": false,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-8822928217494014892",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        },
+        {
+          "node": 6,
+          "type": 2,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-367348088624532396",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        },
+        {
+          "node": 7,
+          "type": 5,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": -1,
+              "target": 1,
+              "clip": "c0da32dbab6a7291964f0b3b",
+              "clip_null": false,
+              "enabled": false,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 7,
+              "target": 0,
+              "clip": "41eb0dfd9f3a639f109a3bbc",
+              "clip_null": false,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            },
+            {
+              "node": 3,
+              "target": 0,
+              "clip": "c336a1fb555994ddcc4f116f",
+              "clip_null": false,
+              "enabled": false,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-352215452467153836",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+          }
+        }
+      ],
+      "receivers": [
+        {
+          "node": 0,
+          "kind": "ActorAttackSpell",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "6026650000938349652"
+          }
+        },
+        {
+          "node": 8,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 9,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "7990542322216580180"
+          }
+        },
+        {
+          "node": 1,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-3848841360657042348"
+          }
+        },
+        {
+          "node": 2,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-135179302448876460"
+          }
+        },
+        {
+          "node": 2,
+          "kind": "SelfAnimUtils",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-3122937396729367468"
+          }
+        },
+        {
+          "node": 3,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 3,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-23080801590922156"
+          }
+        },
+        {
+          "node": 4,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-8822928217494014892"
+          }
+        },
+        {
+          "node": 5,
+          "kind": "PlayNewParticles",
+          "targets": [
+            {
+              "name": "m_Target",
+              "node": 5,
+              "object_null": false
+            },
+            {
+              "name": "m_Target2",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target3",
+              "node": -1,
+              "object_null": true
+            },
+            {
+              "name": "m_Target4",
+              "node": -1,
+              "object_null": true
+            }
+          ],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-5937922488421534636"
+          }
+        },
+        {
+          "node": 6,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-367348088624532396"
+          }
+        },
+        {
+          "node": 7,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+            "pathid": "-352215452467153836"
+          }
+        }
+      ],
+      "animation_events": [
+        {
+          "clip": "be184559c9b09601bf4e73ff",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4792751141647307722",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "StopWaitingToAct",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "StopWaitingToAct",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "69815e8ba8806553fe482647",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "2255474043856481557",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "157c9765203bf4ef430d46b4",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "6038358408291223302",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [],
+          "event_horizon": 0
+        },
+        {
+          "clip": "7d0e08db7f2a0c03434d8ced",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "1567802678463208941",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.5333333611488342,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5333333611488342,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.5333333611488342
+        },
+        {
+          "clip": "c35937a7c84301e02f821453",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "4257864350987652525",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayDefaultSound",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": false,
+              "object_source": {
+                "cab": "CAB-c491983cea83897756f11fa097177509",
+                "pathid": "3256782753177288405",
+                "type": "AudioClip"
+              },
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayDefaultSound",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 10,
+                  "m_PathID": 3256782753177288405
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "9048c163e2599c88ff2229c3",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-1510108346767018921",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3andChilds",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3andChilds",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "0117bba3205444e7f1c752eb",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-1728722340989957542",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        },
+        {
+          "clip": "c336a1fb555994ddcc4f116f",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "100862295179257391",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.15000000596046448,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.15000000596046448,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.15000000596046448
+        },
+        {
+          "clip": "c0da32dbab6a7291964f0b3b",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4501150883399441419",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [],
+          "event_horizon": 0
+        },
+        {
+          "clip": "4a69cb364957c204ad9af78b",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "31535487643809871",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.01666666753590107,
+              "function": "OnSpellFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.01666666753590107,
+                "functionName": "OnSpellFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            },
+            {
+              "time": 0.30000001192092896,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.30000001192092896,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.30000001192092896
+        },
+        {
+          "clip": "41eb0dfd9f3a639f109a3bbc",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "3440609998036975542",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.5166666507720947,
+              "function": "OnSpellFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5166666507720947,
+                "functionName": "OnSpellFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            },
+            {
+              "time": 0.5333333611488342,
+              "function": "OnStateFinished",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.5333333611488342,
+                "functionName": "OnStateFinished",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.5333333611488342
+        },
+        {
+          "clip": "40d1ba38c85bf151777c4b8e",
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "8117861095199656894",
+            "type": "AnimationClip",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "events": [
+            {
+              "time": 0.0,
+              "function": "PlayNewParticles3",
+              "text": "",
+              "number": 0.0,
+              "integer": 0,
+              "options": 0,
+              "object_null": true,
+              "object_source": null,
+              "raw": {
+                "time": 0.0,
+                "functionName": "PlayNewParticles3",
+                "data": "",
+                "objectReferenceParameter": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "floatParameter": 0.0,
+                "intParameter": 0,
+                "messageOptions": 0
+              }
+            }
+          ],
+          "event_horizon": 0.0
+        }
+      ]
+    },
+    {
+      "file": "f247151e7a36760596ca83e6.actor-spell.json",
+      "states": [
+        {
+          "node": 6,
+          "type": 1,
+          "delay": 0.0,
+          "enabled": true,
+          "audio_count": 0,
+          "animations": [
+            {
+              "node": 1,
+              "target": 0,
+              "clip": "",
+              "clip_null": true,
+              "enabled": true,
+              "layer": 0,
+              "speed": 1.0,
+              "crossfade": 0.0,
+              "particles": false,
+              "unresolved": false
+            }
+          ],
+          "source": {
+            "cab": "CAB-5e8e03719d74313c1382ff9f11117e69",
+            "pathid": "-9014207455528683367",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-2ebe64b8-prefab-2.unity3d"
+          }
+        }
+      ],
+      "receivers": [
+        {
+          "node": 6,
+          "kind": "SpellState",
+          "targets": [],
+          "source": {
+            "cab": "CAB-5e8e03719d74313c1382ff9f11117e69",
+            "pathid": "-9014207455528683367"
+          }
+        }
+      ],
+      "animation_events": []
+    }
+  ],
+  "full_spell_controller_restored": false,
+  "notes": [
+    "Source state selection and supported event callbacks restored; full controller, sound and attack synchronization remain incomplete."
+  ]
+}

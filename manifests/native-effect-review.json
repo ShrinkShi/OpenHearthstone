@@ -1,0 +1,7 @@
+{
+  "cards": [
+    {"card": "CS2_025", "review_duration": 1.2, "replace": true, "notes": "Original arcane ring hierarchy and scalar clip. Transparent blend is a compatibility approximation."},
+    {"card": "CS2_062", "review_duration": 3.1, "impact_delay": 0.35, "replace": false, "notes": "Original SpellFinishAction delay .35; one-second MainCameraShakerAction precedes Wait 2, so captured planes hide after three seconds. Clip length 6.033 is not an FSM wait. Shader/scene rendering remains incomplete."}
+  ],
+  "notes": "Local frame review; these are tuned playback intervals, not an official frame-for-frame certification. Export alone never enables a card."
+}

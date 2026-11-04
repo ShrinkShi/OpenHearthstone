@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-11",
+  "restored_full_itween": false,
+  "supported_ease_enum": [21, 30],
+  "supported_path": "non-looping time-based scale with speed/transformScale None; Renderer _Color alpha fade",
+  "python_checks": 688,
+  "existing_client_checks": 4101,
+  "native_resource_runtime_checks": 78020,
+  "new_itween_checks": 18,
+  "offscreen_gpu_checks": 41,
+  "offscreen_frames": 146,
+  "reticles": [
+    {"card": "CS2_084", "visible_samples": 10, "max_pixels": 1135, "unbound_itween_actions": 0, "completed_itween_actions": 2, "enabled": false},
+    {"card": "EX1_539", "visible_samples": 10, "max_pixels": 1135, "unbound_itween_actions": 0, "completed_itween_actions": 2, "enabled": false}
+  ],
+  "windows_build": true,
+  "duel": {
+    "match_id": "541a6f2b1b494adeb5afb9036dac40be",
+    "turn": 16,
+    "version": 58,
+    "public_hash": "d9fc164032e1d96085a4bfdb9e99e61fb478a5f1cabea4ebf67f5dc032d9efbd",
+    "winner": "Shrink2",
+    "queue_peak": 1,
+    "manual_game": false,
+    "full_gui_fps_verified": false
+  },
+  "official_install_modified": false,
+  "computer_use": false,
+  "remaining": ["target SpellObject binding", "33 other easing modes", "loop and speed paths", "zero-time FadeUpdate", "child independent stop clocks", "UberText and Light", "complete reentrant FSM and original execution ordering", "full card effects/shaders/scripts"]
+}

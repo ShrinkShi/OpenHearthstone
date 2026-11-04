@@ -1,0 +1,190 @@
+{
+  "reference": "Card_Play_Ally_SummonIn.prefab:786da6b44c25c46d39459e873d237292",
+  "source": {
+    "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+    "pathid": "-7134822941844890496",
+    "type": "GameObject",
+    "bundle": "essential_base_global-prefab-0.unity3d"
+  },
+  "nodes": [
+    {
+      "path": "",
+      "audio_sources": [
+        {
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "8380335505722186880",
+            "type": "AudioSource",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "values": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -7134822941844890496
+            },
+            "m_Enabled": 1,
+            "OutputAudioMixerGroup": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_audioClip": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Resource": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_PlayOnAwake": false,
+            "m_Volume": 0.75,
+            "m_Pitch": 1.0,
+            "Loop": false,
+            "Mute": false,
+            "Spatialize": false,
+            "SpatializePostEffects": false,
+            "Priority": 128,
+            "DopplerLevel": 1.0,
+            "MinDistance": 1.0,
+            "MaxDistance": 500.0,
+            "Pan2D": 0.0,
+            "rolloffMode": 1,
+            "BypassEffects": false,
+            "BypassListenerEffects": false,
+            "BypassReverbZones": false,
+            "rolloffCustomCurve": {
+              "m_Curve": [
+                {
+                  "time": 0.0,
+                  "value": 1.0,
+                  "inSlope": 0.0,
+                  "outSlope": 0.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.3333333432674408,
+                  "outWeight": 0.3333333432674408
+                },
+                {
+                  "time": 1.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 0.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.3333333432674408,
+                  "outWeight": 0.3333333432674408
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "panLevelCustomCurve": {
+              "m_Curve": [
+                {
+                  "time": 0.0,
+                  "value": 1.0,
+                  "inSlope": 0.0,
+                  "outSlope": 0.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.3333333432674408,
+                  "outWeight": 0.3333333432674408
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 0
+            },
+            "spreadCustomCurve": {
+              "m_Curve": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inSlope": 0.0,
+                  "outSlope": 0.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.3333333432674408,
+                  "outWeight": 0.3333333432674408
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 4
+            },
+            "reverbZoneMixCustomCurve": {
+              "m_Curve": [
+                {
+                  "time": 0.0,
+                  "value": 1.0,
+                  "inSlope": 0.0,
+                  "outSlope": 0.0,
+                  "weightedMode": 0,
+                  "inWeight": 0.3333333432674408,
+                  "outWeight": 0.3333333432674408
+                }
+              ],
+              "m_PreInfinity": 2,
+              "m_PostInfinity": 2,
+              "m_RotationOrder": 0
+            }
+          }
+        }
+      ],
+      "sound_defs": [
+        {
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "3867332086282067072",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "values": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": -7134822941844890496
+            },
+            "m_Enabled": 1,
+            "m_Script": {
+              "m_FileID": 0,
+              "m_PathID": 5395326102866774978
+            },
+            "m_Name": "",
+            "m_AudioClip": "",
+            "m_Category": 1,
+            "m_RandomClips": [
+              {
+                "m_Clip": "FX_MinionSummon_Drop.wav:2630d970c5e7b3f4ebd2bd88723877ed",
+                "m_Weight": 1.0
+              }
+            ],
+            "m_RandomPitchMin": 0.8999999761581421,
+            "m_RandomPitchMax": 1.100000023841858,
+            "m_RandomVolumeMin": 1.0,
+            "m_RandomVolumeMax": 1.0,
+            "m_IgnoreDucking": 0,
+            "m_persistPastGameEnd": 0,
+            "m_InstanceLimited": 0,
+            "m_InstanceLimitedDuration": 0.0,
+            "m_InstanceLimitMaximum": 1,
+            "m_LimitMaxOutOption": 0
+          }
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "reference": "FX_MinionSummon_Drop.wav:2630d970c5e7b3f4ebd2bd88723877ed",
+      "source": {
+        "cab": "CAB-c491983cea83897756f11fa097177509",
+        "pathid": "2307216968499716871",
+        "type": "AudioClip",
+        "bundle": "essential_base_global-audio-0.unity3d"
+      },
+      "file": "bc42c1af01f7c7c5aef6f81d.wav"
+    }
+  ],
+  "errors": [],
+  "complete": false,
+  "notes": [
+    "Exact source component data and clip provenance; SoundManager selection, ducking, limits, playback and FSM audio callbacks are not restored."
+  ],
+  "cache": "local/runtime/92c50d3e8ca46833c7a5dc25.native-audio.json"
+}

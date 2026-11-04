@@ -1,0 +1,264 @@
+{
+  "assets": [
+    {
+      "id": "MODEL_WEAPON",
+      "name": "Card_InPlay_HeroWeapon_v2",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-6128502627551980650",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_WEAPON.scene.json",
+      "usage": "equipped_weapon"
+    },
+    {
+      "id": "MODEL_HERO_POWER",
+      "name": "Card_InPlay_HeroPowerV2",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-4467978634809551811",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_HERO_POWER.scene.json",
+      "usage": "hero_power_front_and_used_back"
+    },
+    {
+      "id": "MODEL_HERO_POWER/used_back",
+      "name": "Hero_Power_D",
+      "bundle": "essential_base_global-texture-0.unity3d",
+      "cab": "CAB-cfdc5301ac0b17c5a76ad477fba38b57",
+      "pathid": "-7921515223053421486",
+      "type": "Texture2D",
+      "guids": [
+        "24eb8afd245388d41b4fab0eb8ef663f"
+      ],
+      "cache": "local/runtime/13b422cfe4c057976e183942.png",
+      "usage": "original_submesh_2_back_material"
+    },
+    {
+      "id": "MODEL_DECK_1",
+      "name": "GenFX_Deck_1",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "8038023700158553583",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_DECK_1.scene.json",
+      "usage": "deck_stack"
+    },
+    {
+      "id": "MODEL_DECK_25",
+      "name": "GenFX_Deck_25",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "275023445888017478",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_DECK_25.scene.json",
+      "usage": "deck_stack"
+    },
+    {
+      "id": "MODEL_DECK_50",
+      "name": "GenFX_Deck_50",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-6690312682492656355",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_DECK_50.scene.json",
+      "usage": "deck_stack"
+    },
+    {
+      "id": "MODEL_DECK_75",
+      "name": "GenFX_Deck_75",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "8328821602309537965",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_DECK_75.scene.json",
+      "usage": "deck_stack"
+    },
+    {
+      "id": "MODEL_DECK_Full",
+      "name": "GenFX_Deck_Full",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "-5798719775136624939",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_DECK_Full.scene.json",
+      "usage": "deck_stack"
+    },
+    {
+      "id": "VFX_FAN_DAGGER",
+      "name": "GenFX_ValeeraDagger",
+      "type": "Texture2D",
+      "cab": "CAB-598294113959974226f4db76d958eec8",
+      "pathid": "4342351337269954768",
+      "bundle": "initial_base_global-41caf0cf-texture-6.unity3d",
+      "cache": "local/runtime/96d0127db6d903fd0e88e452.png",
+      "shader": "Hero/AddMultiply/AddMultiply",
+      "usage": "fan_projectile"
+    },
+    {
+      "id": "VFX_FAN_TRAIL",
+      "name": "GenFX_FanOfKnivesTrail",
+      "type": "Texture2D",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "3745047225785717878",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cache": "local/runtime/0668acc52bcbc0fab5d968bc.png",
+      "shader": "Hero/Particle/FX Particle Additive Alpha 2Layer",
+      "usage": "fan_trail"
+    },
+    {
+      "id": "SFX_FAN_CAST",
+      "name": "Rogue_FanOfKnives_Cast_1",
+      "type": "AudioClip",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "-720440010281772493",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d",
+      "cache": "local/runtime/bd216ddd3d538165a571936a.wav",
+      "usage": "fan_cast"
+    },
+    {
+      "id": "SFX_FAN_HIT",
+      "name": "Rogue_FanOfKnives_Impact_1",
+      "type": "AudioClip",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "3422554615870832247",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d",
+      "cache": "local/runtime/63e12e2ce540b8ba6052ce02.wav",
+      "usage": "fan_impact"
+    }
+  ],
+  "card": "EX1_129",
+  "reference": "FanOfKnives_FX.prefab:22bcac556a7b1cc4a9c378da1e677e0c",
+  "research": [
+    {
+      "name": "Rogue_FanOfKnives_Impact_1",
+      "type": "AudioClip",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "3422554615870832247",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+    },
+    {
+      "name": "Rogue_FanOfKnives_Impact_2",
+      "type": "AudioClip",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "5018076613448018236",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+    },
+    {
+      "name": "Rogue_FanOfKnives_Impact_3",
+      "type": "AudioClip",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "-4140757287480652473",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+    },
+    {
+      "name": "Rogue_FanOfKnives_Impact_4",
+      "type": "AudioClip",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "5757984657886318701",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+    },
+    {
+      "name": "",
+      "type": "ParticleSystem",
+      "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+      "pathid": "2527251329262825143",
+      "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+      "cache": "local/runtime/cf809e94661feec47168e793.particlesystem.json"
+    },
+    {
+      "name": "",
+      "type": "ParticleSystem",
+      "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+      "pathid": "-5355695167289741641",
+      "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+      "cache": "local/runtime/8fe97f0699f9d2485844f8a9.particlesystem.json"
+    },
+    {
+      "name": "",
+      "type": "ParticleSystem",
+      "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+      "pathid": "5761475241335872209",
+      "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+      "cache": "local/runtime/7fddb794cf3dab5b687d9660.particlesystem.json"
+    },
+    {
+      "name": "Rogue_FanOfKnives_Cast_1",
+      "type": "AudioClip",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "-720440010281772493",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+    },
+    {
+      "name": "",
+      "type": "ParticleSystem",
+      "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+      "pathid": "-206426053823702196",
+      "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+      "cache": "local/runtime/d33f139403f5f75d08c8ff91.particlesystem.json"
+    },
+    {
+      "name": "GenFX_ValeeraDagger",
+      "type": "Material",
+      "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+      "pathid": "-1122359109781631554",
+      "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+    },
+    {
+      "name": "FX_ValeeraDaggerMissile1",
+      "type": "AnimationClip",
+      "cab": "CAB-5b0f39cffd7ca4fee2aabc8c7ed0d29f",
+      "pathid": "1123816755086597385",
+      "bundle": "initial_base_global-1fbc9c0f-prefab-5.unity3d",
+      "cache": "local/runtime/95af06452597ebb98c58a9d2.animationclip.json"
+    },
+    {
+      "name": "FX_ValeeraDaggerImpact1",
+      "type": "AnimationClip",
+      "cab": "CAB-5b0f39cffd7ca4fee2aabc8c7ed0d29f",
+      "pathid": "420016611943138397",
+      "bundle": "initial_base_global-1fbc9c0f-prefab-5.unity3d",
+      "cache": "local/runtime/8b71385fde370bfcf22c5157.animationclip.json"
+    },
+    {
+      "name": "",
+      "type": "ParticleSystem",
+      "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+      "pathid": "3284226935445728951",
+      "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+      "cache": "local/runtime/6c6e382659697643590ea844.particlesystem.json"
+    },
+    {
+      "name": "",
+      "type": "ParticleSystem",
+      "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+      "pathid": "5845950438793555639",
+      "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+      "cache": "local/runtime/e3b4bd46d123e2423bd57923.particlesystem.json"
+    },
+    {
+      "name": "",
+      "type": "ParticleSystem",
+      "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+      "pathid": "5615748087764037303",
+      "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+      "cache": "local/runtime/f35432e78e7819358c53ac4a.particlesystem.json"
+    },
+    {
+      "name": "GenFX_SneakySmokeRenderPlane",
+      "type": "Material",
+      "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+      "pathid": "-1634677431486415221",
+      "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+    },
+    {
+      "name": "GenFX_FanOfKnivesTrail",
+      "type": "Material",
+      "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+      "pathid": "6347577103316999106",
+      "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+    }
+  ],
+  "notes": [
+    "刀扇原贴图、音轨及动画/粒子参数已恢复；客户端重实现扇形轨迹，不执行原控制脚本。"
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "programs": [
+    {
+      "card_id": "EX1_129",
+      "file": "d4a8efbd566e7fc8149c939b.native-effect.json",
+      "reference": "FanOfKnives_FX.prefab:22bcac556a7b1cc4a9c378da1e677e0c",
+      "config": {
+        "source": {
+          "cab": "CAB-67e4d1eb27ce21c49d64680c42a53700",
+          "pathid": "-6072678322588216236",
+          "bundle": "initial_base_global-41caf0cf-prefab-10.unity3d"
+        },
+        "raw": {
+          "m_Enabled": 1,
+          "m_Prefab": {
+            "m_FileID": 5,
+            "m_PathID": -5970865601792823625
+          },
+          "m_damageAmountImpactSpells": [],
+          "m_UseSuperSpellLocation": 0,
+          "m_Location": 6,
+          "m_SetParentToLocation": 0,
+          "m_SpawnDelaySecMin": 0.0,
+          "m_SpawnDelaySecMax": 0.5,
+          "m_SpawnOffset": 0.0,
+          "m_GameDelaySecMin": 0.4000000059604645,
+          "m_GameDelaySecMax": 0.4000000059604645,
+          "m_AdjustRotation": 0,
+          "m_ImpactRotationAdjustment": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "impact": {
+          "enabled": true,
+          "prefab": {
+            "prefab_null": false,
+            "prefab_source": {
+              "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+              "pathid": "-5970865601792823625",
+              "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+              "type": "MonoBehaviour"
+            },
+            "prefab_reference": "ReuseFX_Sneaky_Attack_Impact_FanOfKnives.prefab:7bdf273a76b122d41b3c9fb262a6f4a9",
+            "prefab_node": 4
+          },
+          "ranges": [],
+          "use_super_location": false,
+          "location": 6,
+          "parent_to_location": false,
+          "delay_min": 0.0,
+          "delay_max": 0.5,
+          "spawn_offset": 0.0,
+          "game_delay_min": 0.4000000059604645,
+          "game_delay_max": 0.4000000059604645,
+          "adjust_rotation": false,
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "card_id": "EX1_134",
+      "file": "b5870350c3bfca9f0391faa2.native-effect.json",
+      "reference": "Sneaky_Attack_NoStart_FX.prefab:e05d432f4439cb647899c13738ebfeab",
+      "config": {
+        "source": {
+          "cab": "CAB-f5623b1ef44274dfdf6d1dfadbf8e7fb",
+          "pathid": "8170560289794278195",
+          "bundle": "initial_base_global-41caf0cf-prefab-11.unity3d"
+        },
+        "raw": {
+          "m_Enabled": 1,
+          "m_Prefab": {
+            "m_FileID": 2,
+            "m_PathID": -2906393756653490488
+          },
+          "m_damageAmountImpactSpells": [],
+          "m_UseSuperSpellLocation": 0,
+          "m_Location": 6,
+          "m_SetParentToLocation": 0,
+          "m_SpawnDelaySecMin": 0.0,
+          "m_SpawnDelaySecMax": 0.0,
+          "m_SpawnOffset": 0.0,
+          "m_GameDelaySecMin": 0.5,
+          "m_GameDelaySecMax": 0.5,
+          "m_AdjustRotation": 0,
+          "m_ImpactRotationAdjustment": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "impact": {
+          "enabled": true,
+          "prefab": {
+            "prefab_null": false,
+            "prefab_source": {
+              "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+              "pathid": "-2906393756653490488",
+              "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+              "type": "MonoBehaviour"
+            },
+            "prefab_reference": "ReuseFX_Sneaky_Attack_Impact_01.prefab:ad6a1891058a81d499ce5b6f7c330477",
+            "prefab_node": 21
+          },
+          "ranges": [],
+          "use_super_location": false,
+          "location": 6,
+          "parent_to_location": false,
+          "delay_min": 0.0,
+          "delay_max": 0.0,
+          "spawn_offset": 0.0,
+          "game_delay_min": 0.5,
+          "game_delay_max": 0.5,
+          "adjust_rotation": false,
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "prefabs": [
+    {
+      "reference": "ReuseFX_Sneaky_Attack_Impact_01.prefab:ad6a1891058a81d499ce5b6f7c330477",
+      "file": "5a1f2c96f5fe0aed6904b61c.impact-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "9550722683596488",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_Attack_Impact_01.prefab:ad6a1891058a81d499ce5b6f7c330477",
+        "cache": "local/runtime/5a1f2c96f5fe0aed6904b61c.impact-spell.json",
+        "nodes": 11,
+        "particles": 6,
+        "animations": 0,
+        "captures": 1,
+        "actions": {
+          "SpellStateAction": 2,
+          "ParticlePlayAction": 3,
+          "Wait": 1,
+          "SpellFinishAction": 1,
+          "AnimateFloat": 1,
+          "SetMaterialFloat": 2,
+          "AudioPlayRandomClipAction": 1,
+          "ActivateGameObject": 1
+        },
+        "unresolved_parameters": 2,
+        "shader_families": [
+          "Custom/FX/FX_SneakySlash",
+          "Custom/FX/FX_SneakySmoke",
+          "Hero/Additive/Additive",
+          "Hero/Particle/FX Particle Additive Alpha 2Layer",
+          "Hero/Particle/Particle Multiply"
+        ],
+        "unknown_actions": [
+          "AudioPlayRandomClipAction"
+        ],
+        "unsupported_modules": [],
+        "errors": []
+      },
+      "audio_file": "5a1f2c96f5fe0aed6904b61c.impact-audio.json",
+      "audio_errors": []
+    },
+    {
+      "reference": "ReuseFX_Sneaky_Attack_Impact_FanOfKnives.prefab:7bdf273a76b122d41b3c9fb262a6f4a9",
+      "file": "ccff72d7c18be921bf0ed7ab.impact-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-6330947963381535049",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_Attack_Impact_FanOfKnives.prefab:7bdf273a76b122d41b3c9fb262a6f4a9",
+        "cache": "local/runtime/ccff72d7c18be921bf0ed7ab.impact-spell.json",
+        "nodes": 11,
+        "particles": 5,
+        "animations": 1,
+        "captures": 1,
+        "actions": {
+          "SpellStateAction": 2,
+          "AnimationPlaythroughAction": 1,
+          "ParticlePlayAction": 2,
+          "SetVisibility": 1,
+          "Wait": 2,
+          "SpellFinishAction": 1,
+          "AudioPlayRandomClipAction": 1,
+          "ParticleStopAction": 1,
+          "ActivateGameObject": 1,
+          "EaseFloat": 1,
+          "SetMaterialFloat": 1
+        },
+        "unresolved_parameters": 2,
+        "shader_families": [
+          "Custom/FX/FX_SneakySmoke",
+          "Hero/AddMultiply/AddMultiply",
+          "Hero/Additive/Additive",
+          "Hero/Particle/FX Particle Additive Alpha 2Layer",
+          "Hero/Particle/Particle Multiply"
+        ],
+        "unknown_actions": [
+          "AudioPlayRandomClipAction"
+        ],
+        "unsupported_modules": [],
+        "errors": []
+      },
+      "audio_file": "ccff72d7c18be921bf0ed7ab.impact-audio.json",
+      "audio_errors": []
+    }
+  ],
+  "full_super_spell_restored": false
+}

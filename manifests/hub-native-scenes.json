@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "scenes": [
+    {
+      "id": "SCENE_COLLECTION_MANAGER",
+      "name": "CollectionManager",
+      "asset_id": "8544bc9fa860abd6e2cec119",
+      "bundle": "cardasset_base_qualityhigh_cm_global-prefab-0.unity3d",
+      "cab": "CAB-695acdcae12b8b71ee15bf49d24c9063",
+      "pathid": "-6398912150071876638",
+      "source_guid": "68e5e09e752e28148ba86ae599559691",
+      "expected_nodes": 346
+    },
+    {
+      "id": "SCENE_COLLECTION_PAGE",
+      "name": "CollectionPage",
+      "asset_id": "10c761d8802ee1461cffa4f3",
+      "bundle": "initial_base_qualityhigh_cm_global-prefab-0.unity3d",
+      "cab": "CAB-ad9396eede3cc8b77170eb32b9ad113b",
+      "pathid": "3103327353189785240",
+      "source_guid": "7d211404f4c1cb54480f9ac44ee8ba6c",
+      "expected_nodes": 51
+    },
+    {
+      "id": "SCENE_COLLECTION_BOOK_COVER",
+      "name": "CollectionBookCover",
+      "asset_id": "01f428152a4c311a2a952cdb",
+      "bundle": "initial_base_global-7d7ed54d-prefab-0.unity3d",
+      "cab": "CAB-ba9c3ea2627d5ee94aa21d90f482f2ae",
+      "pathid": "6487726844688975752",
+      "source_guid": "a639b04fb6567674cb0867564e54d673",
+      "expected_nodes": 10
+    },
+    {
+      "id": "SCENE_HUB_WOOD_FRAME_PC",
+      "name": "Frame_PC",
+      "asset_id": "3a2dcd3275eb72a9335e94aa",
+      "bundle": "initial_base_global-51701d19-prefab-0.unity3d",
+      "cab": "CAB-7fbb4736673c892ebdb7a0ddea1dac3e",
+      "pathid": "-1281585151025811465",
+      "expected_nodes": 1,
+      "source_texture_rect": { "x": 0, "y": 266.0761, "width": 1024, "height": 757.9239 },
+      "source_uv_transform": { "x": 50, "y": 512, "z": 50, "w": 512, "interpretation": "unknown; preserved from source metadata" },
+      "source_note": "Behavioral reconstruction: reuse this original SpriteRenderer mesh/material as a derived collection-page backdrop; this is not the original CollectionManager camera/layout. Exported UVs are rebuilt from mesh bounds into the validated source textureRect using the original 1024x1024 texture; source uvTransform is retained as unknown metadata and is not interpreted. Original texture alpha is retained."
+    },
+    {
+      "id": "SCENE_PACK_OPENING",
+      "name": "PackOpening",
+      "asset_id": "decaf1d75932344b990a5902",
+      "bundle": "initial_base_qualityhigh_global-9a595510-prefab-0.unity3d",
+      "cab": "CAB-3893b5feaddf9f29e1b2204898e66791",
+      "pathid": "-4182469205998823419",
+      "source_guid": "1eb13e056b6780048bba1ae1c7a250cf",
+      "expected_nodes": 115
+    },
+    {
+      "id": "SCENE_QUEST_LOG",
+      "name": "QuestLog",
+      "asset_id": "a420e9059d9aec428612e0bc",
+      "bundle": "initial_base_global-653c8712-prefab-0.unity3d",
+      "cab": "CAB-95f35352a2df7a28831f4817a96d8591",
+      "pathid": "-7280224926819694625",
+      "source_guid": "ebef1d3c117d90a4db8403e54a7899c4",
+      "expected_nodes": 46
+    },
+    {
+      "id": "SCENE_QUEST_LIST",
+      "name": "QuestList",
+      "asset_id": "3366f761a72144529a370523",
+      "bundle": "initial_base_global-653c8712-prefab-0.unity3d",
+      "cab": "CAB-95f35352a2df7a28831f4817a96d8591",
+      "pathid": "2500373557184027880",
+      "source_guid": "9e2688d6998adaf46b61aa5b47920a70",
+      "expected_nodes": 2
+    },
+    {
+      "id": "SCENE_QUEST_TILE",
+      "name": "QuestTile",
+      "asset_id": "c25f341c3174966ebfb5d647",
+      "bundle": "initial_base_global-653c8712-prefab-0.unity3d",
+      "cab": "CAB-95f35352a2df7a28831f4817a96d8591",
+      "pathid": "3843761581555657920",
+      "source_guid": "6a05035200522f3418a150db7763ce95",
+      "expected_nodes": 84
+    },
+    {
+      "id": "SCENE_QUEST_LOG_CONTENT",
+      "name": "QuestLog",
+      "asset_id": "969742ecd0ac7380df8ab36c",
+      "bundle": "essential_base_qualityhigh_global-content-0.unity3d",
+      "cab": "CAB-82d08c8cc01bd15ce55e7d57190fd3af",
+      "pathid": "-6556095038503938408",
+      "expected_nodes": 10
+    },
+    {
+      "id": "SCENE_MAIN_SHOP",
+      "name": "MainShopWidget",
+      "asset_id": "09f1e134f7e0d67ee3979289",
+      "bundle": "essential_base_shop_global-content-0.unity3d",
+      "cab": "CAB-de5771ecfb00e5aa7273d4f9cd73ba71",
+      "pathid": "5659035810098166591",
+      "source_guid": "debaa5f123c09694eaca007ce8375d8d",
+      "expected_nodes": 100
+    }
+  ],
+  "scene_variants": [
+    {
+      "id": "SCENE_QUEST_TILE_DAILY",
+      "source_scene": "SCENE_QUEST_TILE",
+      "expected_nodes": 84,
+      "enable_nodes": [
+        "/QuestTile/Root/FrontSpecific",
+        "/QuestTile/Root/QuestTile_Mesh",
+        "/QuestTile/Root/FrontSpecific/Regular_Ribbon",
+        "/QuestTile/Root/FrontSpecific/QuestIcon"
+      ],
+      "material_overrides": [
+        {"node": "/QuestTile/Root/QuestTile_Mesh", "material": "QuestTileDaily"},
+        {"node": "/QuestTile/Root/QuestTileShadow_mesh", "material": "QuestTileDaily_Shadow"},
+        {"node": "/QuestTile/Root/RerollButton", "material": "QuestTileDaily"},
+        {"node": "/QuestTile/Root/RerollButton/RerollButton_Shadow", "material": "QuestTileDaily_Shadow"},
+        {"node": "/QuestTile/Root/FrontSpecific/Regular_Ribbon/Ribbon", "material": "QuestTileDaily"},
+        {"node": "/QuestTile/Root/FrontSpecific/Regular_Ribbon/Ribbon/Ribbon_Shadow", "material": "QuestTileDaily_Shadow"}
+      ],
+      "source_state": "VisualController FRONT_FACING + DAILY; DAILY material overrides; reroll availability remains data-driven"
+    },
+    {
+      "id": "SCENE_QUEST_TILE_WEEKLY",
+      "source_scene": "SCENE_QUEST_TILE",
+      "expected_nodes": 84,
+      "enable_nodes": [
+        "/QuestTile/Root/FrontSpecific",
+        "/QuestTile/Root/QuestTile_Mesh",
+        "/QuestTile/Root/FrontSpecific/Regular_Ribbon",
+        "/QuestTile/Root/FrontSpecific/QuestIcon"
+      ],
+      "material_overrides": [
+        {"node": "/QuestTile/Root/QuestTile_Mesh", "material": "QuestTileWeekly"},
+        {"node": "/QuestTile/Root/QuestTileShadow_mesh", "material": "QuestTileWeekly_Shadow"},
+        {"node": "/QuestTile/Root/RerollButton", "material": "QuestTileWeekly"},
+        {"node": "/QuestTile/Root/RerollButton/RerollButton_Shadow", "material": "QuestTileWeekly_Shadow"},
+        {"node": "/QuestTile/Root/FrontSpecific/Regular_Ribbon/Ribbon", "material": "QuestTileWeekly"},
+        {"node": "/QuestTile/Root/FrontSpecific/Regular_Ribbon/Ribbon/Ribbon_Shadow", "material": "QuestTileWeekly_Shadow"}
+      ],
+      "source_state": "VisualController FRONT_FACING + WEEKLY; WEEKLY material overrides; reroll availability remains data-driven"
+    },
+    {
+      "id": "SCENE_MAIN_SHOP_PC",
+      "source_scene": "SCENE_MAIN_SHOP",
+      "expected_nodes": 100,
+      "enable_nodes": [
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC",
+        "/MainShopWidget/BoxCalibrator/ShopBox/Contents/PC_Mask"
+      ],
+      "disable_nodes": ["/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_Phone"],
+      "source_state": "VisualController SetUp_Desktop (device.screen > tablet)"
+    }
+  ],
+  "textures": [
+    {"id": "PackOpeningTray", "name": "PackOpeningTray", "asset_id": "a07908c09a62f79decca189d", "bundle": "initial_base_qualityhigh_global-8411aad9-texture-0.unity3d", "cab": "CAB-28862f2d1a28bdc9546795a2f1347371", "pathid": "7689829067499224296", "guid": "c6429757f082106448b7eeed5ff2f798", "width": 1024, "height": 1024, "format": 10},
+    {"id": "SidePackOpeningTray", "name": "SidePackOpeningTray", "asset_id": "c344939515b83d62d4b9f349", "bundle": "initial_base_global-8411aad9-texture-13.unity3d", "cab": "CAB-51315388aaeaca768a550d02d88ba4c3", "pathid": "-6581863386966491286", "guid": "369a86607595f4a42a33750784efd1dc", "width": 1024, "height": 1024, "format": 10},
+    {"id": "QuestBoard_Atlas", "name": "QuestBoard_Atlas", "asset_id": "e023c18923dfc1854c25de28", "bundle": "initial_base_global-8411aad9-texture-17.unity3d", "cab": "CAB-3a41517f5312b40c4036244276cb19b7", "pathid": "-6060851861297111317", "guid": "e92c6a74ff3023b41ade75b6c51635d9", "width": 1024, "height": 1024, "format": 10},
+    {"id": "QuestTile_Daily", "name": "QuestTile_Daily", "asset_id": "e9ecc1cf8a8ac1e8f6450711", "bundle": "initial_base_global-8411aad9-texture-17.unity3d", "cab": "CAB-3a41517f5312b40c4036244276cb19b7", "pathid": "7848137299348259314", "guid": "eb1dba0a4e5453340b5b9dda780d33cc", "width": 512, "height": 512, "format": 10},
+    {"id": "QuestTile_Weekly", "name": "QuestTile_Weekly", "asset_id": "ded688a03b156330c254545f", "bundle": "initial_base_global-8411aad9-texture-17.unity3d", "cab": "CAB-3a41517f5312b40c4036244276cb19b7", "pathid": "2774291255591039928", "guid": "3a6b4b1c5418d8e41adbe62c4f933844", "width": 512, "height": 512, "format": 10},
+    {"id": "questReroll", "name": "questReroll", "asset_id": "2ed4cadf99fae4c063072d11", "bundle": "initial_base_global-8411aad9-texture-18.unity3d", "cab": "CAB-9700719c6895aa16719c40184051ca34", "pathid": "-7810920983525696485", "guid": "aefc6720146984c15a693f74110bf57b", "width": 128, "height": 128, "format": 10},
+    {"id": "CollectionMain", "name": "CollectionMain", "asset_id": "6fa2ac9ad66bec565b68a8ce", "bundle": "initial_base_global-c9f52d29-texture-8.unity3d", "cab": "CAB-6f6c36c08f849edf3fce6d2e8c582f1f", "pathid": "-3143989874648946952", "guid": "01cf221af1d669b4abcd61427cde7409", "width": 1024, "height": 1024, "format": 10},
+    {"id": "CollectionManagerFrame_Texture", "name": "CollectionManagerFrame_Texture", "asset_id": "6e1518d5bbf7568fcc3ce250", "bundle": "initial_base_global-9f496f52-texture-3.unity3d", "cab": "CAB-5f165631adc9fe15686b01614254bf6c", "pathid": "-2328963593071177331", "guid": "b56a4831ac9e07941b3e5df53b8756d2", "width": 1024, "height": 1024, "format": 10},
+    {"id": "BookBackV3", "name": "BookBackV3", "asset_id": "08ec21256578ac0392a97e77", "bundle": "initial_base_global-8411aad9-texture-5.unity3d", "cab": "CAB-cb3e0be37e2b424618d3aebb5e7d0698", "pathid": "3013396650758999867", "guid": "e90f8c10b2d85da408dcf3e1e0eb1aa9", "width": 512, "height": 512, "format": 10},
+    {"id": "ClassTabs", "name": "ClassTabs", "asset_id": "017411e098f48c02e182fe9f", "bundle": "initial_base_global-8411aad9-texture-5.unity3d", "cab": "CAB-cb3e0be37e2b424618d3aebb5e7d0698", "pathid": "1106172711392827463", "guid": "fb87feebd5c2b804e8cf447589f742b7", "width": 128, "height": 128, "format": 10},
+    {"id": "DeckTrayV2", "name": "DeckTrayV2", "asset_id": "ffb72a10daf3f581bce6b9f3", "bundle": "essential_base_global-texture-0.unity3d", "cab": "CAB-cfdc5301ac0b17c5a76ad477fba38b57", "pathid": "-2983000560468149488", "guid": "de51073665e12764390faa247bb79145", "width": 1024, "height": 1024, "format": 10},
+    {"id": "PageEdges", "name": "PageEdges", "asset_id": "906eae30f0b8aa56bacd3ba4", "bundle": "initial_base_global-8411aad9-texture-6.unity3d", "cab": "CAB-ef670ec8c1a3d77117686311ad9b083d", "pathid": "8564473471489789697", "guid": "a75d6a62c8928984caa29fd0a135fe18", "width": 256, "height": 512, "format": 12},
+    {"id": "PageA", "name": "PageA", "asset_id": "e8df273674237f683e2f89e1", "bundle": "initial_base_qualityhigh_global-8411aad9-texture-0.unity3d", "cab": "CAB-28862f2d1a28bdc9546795a2f1347371", "pathid": "-6371011508695984205", "guid": "546158231b6da584f8abd4ff4b68dd16", "width": 512, "height": 512, "format": 10}
+  ],
+  "material_sources": [
+    {"scene": "SCENE_COLLECTION_MANAGER", "name": "BookBack", "asset_id": "d6152dad3fd572eb6ad421cf", "bundle": "initial_base_global-1982ed8a-material-0.unity3d", "cab": "CAB-9b6db58df4f09f938bd456aa78952560", "pathid": "254636930005593534", "guid": "ca6afe8d58c3fbb43a661d370261478b", "texture": "BookBackV3"},
+    {"scene": "SCENE_COLLECTION_MANAGER", "name": "DeckTray", "asset_id": "d236ec18ca3e07123c9854d0", "bundle": "essential_base_qualityhigh_global-content-0.unity3d", "cab": "CAB-82d08c8cc01bd15ce55e7d57190fd3af", "pathid": "4312545340795954181", "guid": "2f80574269b47a448b42b3f870e0f52f", "texture": "DeckTrayV2"},
+    {"scene": "SCENE_COLLECTION_MANAGER", "name": "ClassTabs", "asset_id": "de6c829d2ac1e8dc85820f54", "bundle": "initial_base_global-1982ed8a-material-0.unity3d", "cab": "CAB-9b6db58df4f09f938bd456aa78952560", "pathid": "-8270302405621495113", "guid": "567618f5fc798fa4eba9c484ed7204a6", "texture": "ClassTabs"},
+    {"scene": "SCENE_COLLECTION_MANAGER", "name": "PageA", "asset_id": "634fcac4dddc000645e01832", "bundle": "initial_base_qualityhigh_global-1982ed8a-material-0.unity3d", "cab": "CAB-0b8d79edbd658fcfce09d6fcc3b46e82", "pathid": "632235561594237662", "guid": "f24124567ae7e90459384852083c5c82", "texture": "PageA"},
+    {"scene": "SCENE_PACK_OPENING", "name": "PackOpeningTray", "asset_id": "554ac7822382e5c459cc1709", "bundle": "initial_base_qualityhigh_global-437c45cb-material-0.unity3d", "cab": "CAB-79d29ee46597d5341d286bce44530ce6", "pathid": "2088605777558999256", "guid": "51928b7891976044884506371f136854", "texture": "PackOpeningTray"},
+    {"scene": "SCENE_PACK_OPENING", "name": "SidePackOpeningTray", "asset_id": "6c13b1ac8b699e42a291ce78", "bundle": "initial_base_global-437c45cb-material-0.unity3d", "cab": "CAB-0e6dfd6f1978f0a5439ad6c4a2b0e3df", "pathid": "-7717121677677276475", "guid": "878e2a27f144c324c91c473c9327636f", "texture": "SidePackOpeningTray"},
+    {"scene": "SCENE_QUEST_LOG", "name": "QuestBoard_Atlas", "asset_id": "f17d41886a341eef9765fdd1", "bundle": "initial_base_global-06d9d3a5-material-0.unity3d", "cab": "CAB-5dc8a7a30d76931160cfb7116df5d91b", "pathid": "-2985787447115416275", "guid": "5bf4b3b99b963c94e817a036bba7d0e4", "texture": "QuestBoard_Atlas"},
+    {"scene": "SCENE_QUEST_LOG_CONTENT", "name": "QuestLog", "asset_id": "70e33e38fab61b490fb164d6", "bundle": "essential_base_qualityhigh_global-content-0.unity3d", "cab": "CAB-82d08c8cc01bd15ce55e7d57190fd3af", "pathid": "-2135513227550972807", "guid": "4ffc8ca5199309c4bbbc5026bfdc68e1", "texture": "QuestLog"},
+    {"scene": "SCENE_QUEST_TILE", "name": "QuestTileDaily", "asset_id": "82f4263ad347e2932f2e2450", "bundle": "initial_base_global-06d9d3a5-material-0.unity3d", "cab": "CAB-5dc8a7a30d76931160cfb7116df5d91b", "pathid": "1099626169748471467", "guid": "e0715536f3f3e854187d4a8e30bc39cd", "texture": "QuestTile_Daily"},
+    {"scene": "SCENE_QUEST_TILE", "name": "QuestTileDaily_Shadow", "asset_id": "f4b931c0ab9354187355442e", "bundle": "initial_base_global-06d9d3a5-material-0.unity3d", "cab": "CAB-5dc8a7a30d76931160cfb7116df5d91b", "pathid": "-286172305135450555", "guid": "33ce6693c08cd5f4c8508df0bc8de07f", "texture": "QuestTile_Daily"},
+    {"scene": "SCENE_QUEST_TILE", "name": "QuestTileWeekly", "asset_id": "dc8cc19869eabed8caccce74", "bundle": "initial_base_global-06d9d3a5-material-0.unity3d", "cab": "CAB-5dc8a7a30d76931160cfb7116df5d91b", "pathid": "-8402632557199923369", "guid": "7d337a960de58d241ab32a31db7b2939", "texture": "QuestTile_Weekly"},
+    {"scene": "SCENE_QUEST_TILE", "name": "QuestTileWeekly_Shadow", "asset_id": "49c934ba665a92c58012ccfe", "bundle": "initial_base_global-06d9d3a5-material-0.unity3d", "cab": "CAB-5dc8a7a30d76931160cfb7116df5d91b", "pathid": "-5127011305006598846", "guid": "407fa6ec6c8d0594a8aaf772ee5e362b", "texture": "QuestTile_Weekly"}
+  ],
+  "sprite_sources": [
+    {"scene": "SCENE_MAIN_SHOP", "name": "ShopBackingPlate", "asset_id": "3ce6c4867b98f622bd05f300", "bundle": "essential_base_shop_global-content-0.unity3d", "cab": "CAB-de5771ecfb00e5aa7273d4f9cd73ba71", "pathid": "2349322757241782178", "guid": "fa08791fd4a4a244abb71878655354e5", "texture": "ShopBackingPlate", "texture_pathid": "3387382257238294434", "texture_size": [858, 647]},
+    {"scene": "SCENE_MAIN_SHOP", "name": "ShopFrame_PC", "asset_id": "7ee53376ecbfd92256404143", "bundle": "essential_base_shop_global-content-0.unity3d", "cab": "CAB-de5771ecfb00e5aa7273d4f9cd73ba71", "pathid": "1178909727040285375", "guid": "02f9b59ebbe1d2a4eb42fba5fb5a435d", "texture": "ShopFrame_PC", "texture_pathid": "-8435762164230182209", "texture_size": [1024, 731], "mesh_uv": "SpriteRenderData.m_RD vertices and UV; SpriteRenderer sorting order 0"}
+  ],
+  "camera_sources": [
+    {
+      "logical_scene": "SCENE_MAIN_MENU",
+      "path": "TheBox/TheBoxCamera",
+      "bundle": "essential_base_box_global-prefab-0.unity3d",
+      "cab": "CAB-b84e9f355ab11451b0a46a63a5a58941",
+      "game_object_pathid": "600212321990648564",
+      "parent_scene_transform": {"position": {"x": 0.0, "y": 0.0, "z": 0.0}, "rotation": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0}, "scale": {"x": 9.87649917602539, "y": 9.87649917602539, "z": 9.87649917602539}},
+      "local_position": {"x": 0.0, "y": 31.171709060668945, "z": -0.02500000037252903},
+      "local_rotation": {"x": 0.7071068286895752, "y": 0.0, "z": 0.0, "w": 0.7071068286895752},
+      "world_position": {"x": 0.0, "y": 307.86735885300004, "z": -0.24691248307991742},
+      "field_of_view": 20.700000762939453,
+      "near": 5.0,
+      "far": 425.0,
+      "viewport_rect": {"x": 0.0, "y": 0.0, "width": 1.0, "height": 1.0},
+      "aspect": "not serialized; runtime render-target aspect",
+      "status": "camera in the existing SCENE_MAIN_MENU source only; its use for Collection, Pack, Quest, or Shop page framing is unverified"
+    },
+    {
+      "logical_scene": "SCENE_COLLECTION_MANAGER",
+      "name": "CollectionManager_Camera",
+      "bundle": "initial_base_qualityhigh_global-c9f52d29-prefab-3.unity3d",
+      "cab": "CAB-a7e07a04973342a202654078743d3648",
+      "candidates": [
+        {"pathid": "-1264327533916468838", "field_of_view": 25.98918342590332, "position": {"x": -1.4700000286102295, "y": -0.11999999731779099, "z": 3.930000066757202}},
+        {"pathid": "-130355292800770549", "field_of_view": 25.98918342590332, "position": {"x": -1.5487143993377686, "y": 0.2437870353460312, "z": 4.8803277015686035}},
+        {"pathid": "868879480999983430", "field_of_view": 40.400001525878906, "position": {"x": -1.4900000095367432, "y": 0.23999999463558197, "z": 4.8803277015686035}}
+      ],
+      "status": "card/hero portrait camera family under Store_HERO_02ax_CMPortraitScene; not a verified Collection page camera"
+    }
+  ],
+  "pc_visibility": {
+    "SCENE_MAIN_SHOP": {
+      "variant": "SCENE_MAIN_SHOP_PC",
+      "source_state": "VisualController SetUp_Desktop; trigger device.screen > tablet",
+      "enable_nodes": [
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC",
+        "/MainShopWidget/BoxCalibrator/ShopBox/Contents/PC_Mask"
+      ],
+      "disable_nodes": ["/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_Phone"],
+      "frame_roots": [
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC/Shop_Box_Border",
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC/Shop_Backing"
+      ],
+      "source_enabled_children": [
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC/Shop_Box_3D/Shop_Texture_BoxExtension",
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC/Shop_Box_3D/Shop_Texture_BoxExtension (Flipped)",
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC/Shop_Box_3D/BnetBarBg"
+      ],
+      "derived_filter_candidates": [
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC/Shop_Box_3D/Shop_Texture_BoxExtension",
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC/Shop_Box_3D/Shop_Texture_BoxExtension (Flipped)",
+        "/MainShopWidget/BoxCalibrator/ShopBox/Framing/Shop_Box_PC/Shop_Box_3D/BnetBarBg"
+      ],
+      "derived_filter_note": "Desktop VC does not disable these children. Filtering them is a viewport composition choice, not a source state. Shop_Box_Border is the ShopFrame_PC mesh; Shop_Backing is the ShopBackingPlate mesh."
+    }
+  },
+  "source_visibility": {
+    "SCENE_COLLECTION_MANAGER": {
+      "source_facts": [
+        "CollectionManagerDisplay.m_bookCoverPrefab references CollectionBookCover.prefab GUID a639b04fb6567674cb0867564e54d673.",
+        "CollectionPageManager.m_pageDisplayPrefab references CollectionPage.prefab GUID 7d211404f4c1cb54480f9ac44ee8ba6c; the page is instantiated separately and is not a child of the exported manager root.",
+        "The exported manager hierarchy contains the BookBack and CollectionDeckTray renderers. CollectionManagerDisplay has m_craftingTrayHiddenBone and m_craftingTrayShownBone; runtime chooses the tray transform."
+      ]
+    },
+    "SCENE_COLLECTION_PAGE": {
+      "root_local_transform": {
+        "position": {"x": 0, "y": 0, "z": 0},
+        "rotation": {"x": 0, "y": 0, "z": 0, "w": 1},
+        "scale": {"x": 1, "y": 1, "z": 1}
+      },
+      "source_active_renderers": [
+        {"node": "/CollectionPage/BasePage", "vertices": 87, "material": "PageA"},
+        {"node": "/CollectionPage/ClassName/ClassFlavorHeader", "vertices": 4, "material": "PageClassHeader"}
+      ],
+      "source_facts": [
+        "CollectionPage is a separately-instantiated content layer; its root transform is preserved in the export and is identity in source.",
+        "TouristStamp/StampDecor and TouristStamp/StampArrow are active conditional decoration renderers, not guaranteed ordinary-page content.",
+        "The Hub hides /CollectionPage/ClassName/ClassFlavorHeader because its source PageClassHeader atlas banner is an obsolete class title on this static card-book page.",
+        "Static page brightness is a behavioral reconstruction: /CollectionPage/BasePage keeps PageA texture but uses the white tint from /CollectionManager/CollectionPageManager/PageTurn/PageTurnFront, which references the same texture and is serialized inactive as a transition mesh. The source BasePage tint is 0.552941; this instance-only adjustment does not restore the Custom/BasePage shader."
+      ]
+    },
+    "SCENE_PACK_OPENING": {
+      "serialized_active_renderers": [
+        "/PackOpening/PackTray/SidePackOpeningTray",
+        "/PackOpening/SocketTray/PackOpeningTray",
+        "/PackOpening/SocketAccent"
+      ],
+      "serialized_inactive_nodes": ["/PackOpening/SocketTray/noPacks_label"],
+      "source_facts": [
+        "The prefab has no VisualController selecting another static tray state; its PackOpening and PlayMaker components drive runtime transitions.",
+        "UnopenedPackContainer is populated at runtime, so pack inventory instances are not present in the static scene export."
+      ]
+    },
+    "SCENE_QUEST_LOG": {
+      "source_state": "VisualController DEFAULT: event_active is false or event_completed is true",
+      "daily_list": {"node": "/QuestLog/Root/DailySpecific/DailyQuestList", "position": {"x": -3, "y": 0, "z": 3.13}, "prefab": "SCENE_QUEST_LIST"},
+      "weekly_list": {"node": "/QuestLog/Root/WeeklySpecific/WeeklyQuestList", "position": {"x": -3, "y": 0, "z": 0.848}, "prefab": "SCENE_QUEST_LIST"},
+      "event_list": {"node": "/QuestLog/Root/EventSpecific/EventQuestList", "position": {"x": 3.4, "y": 0, "z": 4.15}, "prefab": "SCENE_QUEST_LIST", "parent_serialized_active": false},
+      "source_facts": [
+        "DEFAULT disables /QuestLog/Root/EventSpecific and assigns QuestBoard_Atlas to BoardMesh.",
+        "DailyQuestList and WeeklyQuestList both reference QuestList.prefab GUID 9e2688d6998adaf46b61aa5b47920a70."
+      ]
+    },
+    "SCENE_QUEST_LIST": {
+      "item_template": "SCENE_QUEST_TILE",
+      "source_guid": "9e2688d6998adaf46b61aa5b47920a70",
+      "source_facts": [
+        "Listable uses quest_tile_container.tiles, maxWidgetsToShow 9999, layoutMode 1, and no virtual scrolling.",
+        "The source prefab contains the list widget, not instantiated quest entries; the UI layer composes the daily and weekly tile variants."
+      ]
+    }
+  },
+  "page_compositions": {
+    "COLLECTION_OPEN": {
+      "scene_ids": ["SCENE_COLLECTION_MANAGER", "SCENE_COLLECTION_PAGE", "SCENE_COLLECTION_BOOK_COVER"],
+      "derived_selection": "Use CollectionManager as the outer/account/deck frame, attach CollectionPage as its content layer, and keep CollectionBookCover available for the book-cover transition. The page prefab root is identity; preserve manager and page node-local transforms.",
+      "source_verified_content_nodes": ["/CollectionPage/BasePage", "/CollectionPage/ClassName/ClassFlavorHeader"]
+    },
+    "PACK_OPENING": {
+      "scene_ids": ["SCENE_PACK_OPENING"],
+      "derived_selection": "Use the source-visible side inventory tray and center socket tray. Populate inventory entries from account state; the prefab export has no instantiated unopened packs."
+    },
+    "QUEST_LOG_DAILY_WEEKLY": {
+      "scene_ids": ["SCENE_QUEST_LOG", "SCENE_QUEST_LOG_CONTENT", "SCENE_QUEST_LIST", "SCENE_QUEST_TILE_DAILY", "SCENE_QUEST_TILE_WEEKLY"],
+      "derived_selection": "Compose DailyQuestList and WeeklyQuestList with their respective QuestTile variants; leave EventSpecific disabled.",
+      "dynamic_content_limitations": ["QuestIcon is loaded by runtime Spawnable/QuestClassLib and is not a renderer in the exported tile prefab.", "Quest text, progress and reroll count are runtime data and remain UI bindings."]
+    },
+    "SHOP_PC": {
+      "scene_ids": ["SCENE_MAIN_SHOP_PC"],
+      "derived_selection": "Use Shop_Box_Border/Shop_Backing as frame roots and PC_Mask as the source-enabled content mask. If fitting the page requires filtering the wide 3D extensions, use pc_visibility.derived_filter_candidates; those nodes remain enabled in the original Desktop state.",
+      "derived_backing_fit": "The native composition fits only Shop_Backing's projected X/Z bounds and center to Shop_Box_Border after aspect scaling, preserving the source Y depth so the purple plate sits behind the original frame. This closes the observed uncovered viewport strip without changing source textures."
+    }
+  },
+  "notes": [
+    "Player level4 and level10 each contain only the CollectionManagerScene or PackOpeningScene loader shell; their visible prefab assets are separately indexed above.",
+    "No screen-specific camera or screen bounds were identified for the hub pages. Do not treat a camera candidate as confirmed without Player evidence.",
+    "The scene node array preserves the prefab root as nodes[0] with its original local transform. It is not flattened or normalized during export.",
+    "SpriteRenderer meshes retain their original SpriteRenderData UVs against the source texture. Exported atlas PNGs are texture sources, not full-screen artwork.",
+    "QuestLog source includes Daily, Weekly, and Event list widgets. All three WidgetInstance fields reference QuestList.prefab GUID 9e2688d6998adaf46b61aa5b47920a70; its BoardMesh material points at QuestBoard_Atlas.",
+    "QuestList.prefab's Listable item template points to QuestTile.prefab GUID 6a05035200522f3418a150db7763ce95. QuestTile exports 84 hierarchy nodes, 39 MeshRenderers, and 8 ParticleSystems. Its VisualController FRONT_FACING state activates Root/FrontSpecific; DAILY and WEEKLY each activate Root/QuestTile_Mesh, Root/FrontSpecific/Regular_Ribbon, and Root/FrontSpecific/QuestIcon, and swap the base/ribbon/button materials to the corresponding daily or weekly pair listed above. The serialized defaults alone are not a normal quest tile: Root/QuestTile_Mesh, Regular_Ribbon, and QuestIcon begin inactive. REROLL_AVAILABLE/NO_REROLL control the regular or event reroll button from quest pool/count; Weekly_LockPlate has no action in DAILY/WEEKLY. QuestRerolled and QuestGranted drive the burn/summon FX branches, so keep them off in a static tile.",
+    "The exporter writes SCENE_QUEST_TILE_DAILY/WEEKLY and SCENE_MAIN_SHOP_PC as derived scene variants. Quest tile material replacements resolve the exact manifest Material assets, not same-named guessed materials.",
+    "For SCENE_MAIN_SHOP_PC, SetUp_Desktop only switches the PC/phone framing roots and enables PC_Mask. The wide Shop_Texture_BoxExtension and BnetBarBg nodes remain inside the source-enabled PC subtree; any filtering is a viewport composition choice.",
+    "QuestLog DEFAULT disables EventSpecific and uses QuestBoard_Atlas; the static daily/weekly lists are WidgetInstances. QuestIcon, quest text, progress and reroll count remain runtime data and are not represented as exported renderers."
+  ]
+}

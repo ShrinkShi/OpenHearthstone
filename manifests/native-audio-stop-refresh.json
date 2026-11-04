@@ -1,0 +1,289 @@
+{
+  "programs": [
+    {
+      "file": "4434872dd310842925df6adb.native-effect.json",
+      "actions": 1,
+      "parameters": 1,
+      "updated": true,
+      "reference": "Ice_FX.prefab:af58499642cec471992ecb9e653b92b6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-8643223142898677733",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4c92ac4d973163d8aa044fed.native-effect.json",
+      "actions": 2,
+      "parameters": 2,
+      "updated": true,
+      "reference": "Fireblast_FX.prefab:eabb56c674d4248be83c5c6bc82e9ddc",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "1793577957286404385",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        },
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5bc655cb7218e5ef61cd20da.native-effect.json",
+      "actions": 1,
+      "parameters": 1,
+      "updated": true,
+      "reference": "Frost_Targetted_ConeOfCold_FX.prefab:7ffdb48f416a2fb40a0157e781ce5982",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-8643223142898677733",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5d9349d1d17e9b05e11ae8f8.native-effect.json",
+      "actions": 2,
+      "parameters": 2,
+      "updated": true,
+      "reference": "Fireball_FX.prefab:a5e144473b2f84563b77ff3cfc414b5d",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        },
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7a8e6c26f439a145cb9e19f9.native-effect.json",
+      "actions": 2,
+      "parameters": 2,
+      "updated": true,
+      "reference": "Ragnaros_Trigger_FX.prefab:51b6f614daaae8d4cbd6daebd5a69211",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        },
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "878fdf50d856cdf456617073.native-effect.json",
+      "actions": 2,
+      "parameters": 2,
+      "updated": true,
+      "reference": "DemonFire_FX.prefab:89903e1f18715bf40b4061ff2b16da8a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "6154444588970563531",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        },
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a0ef7e88beb6db6cf3e722ee.actor-spell.json",
+      "actions": 1,
+      "parameters": 1,
+      "updated": true,
+      "reference": "Card_Play_Hero_ChoFloat.prefab:1d3af9cb461d144b799dadb2683e3844",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-9b18c5a3f570b83cdae55383337bcae7",
+          "pathid": "-395968664823999303",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 7
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a484b427845ecdd3236cbf88.native-effect.json",
+      "actions": 2,
+      "parameters": 2,
+      "updated": true,
+      "reference": "ReuseFX_Missile_Fire_Fireball_Medium_Super.prefab:563aacc1b2a435441988eae90cf8de94",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        },
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ecd59dc9f68d4ea6b36a28e5.actor-spell.json",
+      "actions": 1,
+      "parameters": 1,
+      "updated": true,
+      "reference": "Card_Play_Ally_Doomed_Idle.prefab:41a3913ed61a7bd4aba344e11f71bcd6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-824a57d31e8915d6162164fd62a4305d",
+          "pathid": "-3213805098022127183",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-2ebe64b8-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ef719cc32cc2ec11a8bb1456.native-effect.json",
+      "actions": 2,
+      "parameters": 2,
+      "updated": true,
+      "reference": "ReuseFX_Missile_Fire_Fireball_Large_Super.prefab:fafdcc62cdedb2e469dec13af89c124a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6175052074802016849",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        },
+        {
+          "action": "AudioStopAction",
+          "parameter": "m_GameObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 10,
+  "failures": [],
+  "notes": [
+    "Exact source AudioStopAction parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

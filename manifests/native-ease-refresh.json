@@ -1,0 +1,672 @@
+{
+  "programs": [
+    {
+      "file": "12101c367651a87196495d15.native-effect.json",
+      "reference": "Holy_AE_MassDispel_FX.prefab:b89eb0fcb9482104594e707c4849979d",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "7428530561950821265",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2221166597344368630",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "141e414fd66fb79d7eee66c2.native-effect.json",
+      "reference": "Unique_AE_TwistingNether_FX.prefab:f1e37b644475192409ab40ebce8b40b8",
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-7288833104486020915",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "15142b65714667e95c7be7ea.native-effect.json",
+      "reference": "Warlock_DrainLife_FX.prefab:03adb1d075c3ba941a2e9cbff4a18f8f",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "2527441325544481557",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "356870063172670035",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 6,
+      "parameters": 60,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "22291b74bdc6da4185f8a0d8.native-effect.json",
+      "reference": "Frost_AE_FrostNova_FX.prefab:871269ca16c3b90419870cb2ebe37dac",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "8684928514641363595",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7099395162819936584",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "228864b1f3e778228ee15fa2.native-effect.json",
+      "reference": "Sneaky_Eviscerate_FX.prefab:0a7e22e526c4aeb47841034843ce06e7",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-7997166981442425358",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3091742677568600813",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 5,
+      "parameters": 50,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "2c575b7037eb26b115a9f5fd.native-effect.json",
+      "reference": "Rage_BloodLust_FX.prefab:314caa92b3a517d4ba25921213373cc2",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-1298189383947985034",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 10,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "3292a3d59a8d7534c8035048.native-effect.json",
+      "reference": "Stealth_Vanish_FX.prefab:9b1c755760fe5d34196ed27708b30643",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-4596798438386743061",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 4,
+      "parameters": 40,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "34c8b82ccc4284005f9e07a0.native-effect.json",
+      "reference": "Shadow_DarkCommand_FX.prefab:d2e2d2cd566ad4f4da6c800e1f0da3fa",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3029461608279519396",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3979179026735219968",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "356870063172670035",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 8,
+      "parameters": 80,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "42d36a19bfb8163583de4af9.native-effect.json",
+      "reference": "Assassinate_Targeted_FX.prefab:8e965ed568c43bc4fa0a6f093387a30a",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "5611746392261673788",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "66b8e43f03287453d605d652.native-effect.json",
+      "reference": "Sneaky_Betrayal_FX.prefab:3b83a25bbd1a176489ee997deff4eee6",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8698813812764870949",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "6ed9b2fe2d7816de1a381ef7.native-effect.json",
+      "reference": "MortalCoil_FX.prefab:51b46dd3ff842ba41b4c437325994220",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 30,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "6f0ee4ab92545f1007043c0e.native-effect.json",
+      "reference": "KnifeJuggler_FX.prefab:2fc5acc367f0ce34ab5ebd744d68aa84",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-1248601348136543556",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 10,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "711bdd40979a9097df1a99e4.native-effect.json",
+      "reference": "Holy_AE_HolyNova_FX.prefab:c3551914187ecec4d84c25717630365c",
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-17003440560794744",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-3550568295866543059",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "76cd717cacf8a2a8095c00ad.native-effect.json",
+      "reference": "Sneaky2_Attack_FX.prefab:6a9a8edafcae07b4dadc18db5550e663",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-8905959069691156520",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "7eb05bff6341edbefb72ace7.native-effect.json",
+      "reference": "ShadowBolt_FX.prefab:e6ce5b6e7e1250e4a92dac52a3508671",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 30,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "81adc1ee5e4a815a745824b5.native-effect.json",
+      "reference": "Frostmourne_OverrideSpawn.prefab:f899391938833d449a884561cf135d0e",
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-5031000274645188929",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-5293044126117901016",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-4739821098582707698",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "actions": 11,
+      "parameters": 110,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "88051a8d118ad7bc6be54abb.native-effect.json",
+      "reference": "Warlock_Corruption_FX.prefab:ba0ede6cbdb982c4c80f409b8502aee7",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3979179026735219968",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-1469527453560936289",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 6,
+      "parameters": 60,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "9056cd9b80f6f898aa88936f.native-effect.json",
+      "reference": "Warlock_Untargeted_SenseDemons.prefab:99942defbd1504f4daa3aa7f1c65e3bb",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-2204095217311699925",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Asphyxiate_Super_WithIdle.prefab:676fef5a5e50055409210c583d22859e",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3979179026735219968",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 10,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+      "reference": "Shadow_ShadowWordPain_FX.prefab:ceb8d5daaa8c10a4c9982de97967d6ae",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3029461608279519396",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3979179026735219968",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 6,
+      "parameters": 60,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "9c3b2a977d2fd3ef2c0632a9.native-effect.json",
+      "reference": "YseraDreamWorld_Untargetted.prefab:ad3e7120eb962484fba1e7c7927a2f86",
+      "sources": [
+        {
+          "cab": "CAB-17c43a3179751cfc0e2efa0ab2394e6a",
+          "pathid": "8323926786081240558",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-4.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "a2cb6db8a8404ec3b1dd3276.native-effect.json",
+      "reference": "Warlock_PowerOverwhelming_FX.prefab:fe1109b7794663e44b8d2b5f89097338",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3979179026735219968",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 4,
+      "parameters": 40,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "a78b10af18608c6a921c39e6.native-effect.json",
+      "reference": "Shadow_Untargeted_01.prefab:ec68c9be582beeb40bf4221ac5360e11",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "1982716549043662078",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "actions": 7,
+      "parameters": 70,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "b60b46f66a938713c27ca97b.native-effect.json",
+      "reference": "Sneaky_Eviscerate_Minion_FX.prefab:7db60663c68a2dc4982e2cc2b25ad045",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3279227507062366659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3091742677568600813",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 5,
+      "parameters": 50,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "b9dfacd4ee8927ded86e0875.native-effect.json",
+      "reference": "Warlock_BaneOfDoom_FX.prefab:9237d29e91604c042beba717a9dc2a30",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3979179026735219968",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "356870063172670035",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 6,
+      "parameters": 60,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "c2d07a0a5c5f3c0254949c25.native-effect.json",
+      "reference": "ShadowFlame_AE_FX.prefab:22b59fba67b563549ac1835caf191d43",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 30,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "c98cce1aae02a4161ec3adfb.native-effect.json",
+      "reference": "Warlock_SacrificialPact_FX.prefab:bf91897c0d34f6d4db6b9c68beffa066",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3979179026735219968",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "356870063172670035",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 6,
+      "parameters": 60,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "d372694235612634216d20d7.native-effect.json",
+      "reference": "Sneaky_Sap_FX.prefab:a3c617724c8f9504698573aafc53f9e4",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8698813812764870949",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "d4a8efbd566e7fc8149c939b.native-effect.json",
+      "reference": "FanOfKnives_FX.prefab:22bcac556a7b1cc4a9c378da1e677e0c",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "406272888406683319",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 1,
+      "parameters": 10,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "d755e7cc0e89cb1e6ce938a1.native-effect.json",
+      "reference": "Sneaky_Shadowstep_FX.prefab:1339cda97d8121d45b466c9894a26192",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8698813812764870949",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "d790330298f4596a1be10106.native-effect.json",
+      "reference": "Soulfire_FX.prefab:6ad98be477ebbd847b0a3110b7105abc",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 3,
+      "parameters": 30,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "e32e6f086c81d002be102d77.native-effect.json",
+      "reference": "Stealth_Conceal_FX.prefab:0c6778c2edae99645993a1c561a85ec6",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8698813812764870949",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "fb6d9baf31deec9edcdd6661.native-effect.json",
+      "reference": "Warlock_Explosion_Minion_Self_FX.prefab:df0e2b0bcd974ec44b38b5da05870be2",
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-1501448501935566248",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 2,
+      "parameters": 20,
+      "updated": false,
+      "unresolved": 0
+    },
+    {
+      "file": "fedd636d08b13599644d83e3.native-effect.json",
+      "reference": "Shadow_MindControl_FX.prefab:6af9de4d4ef35024eb3e83fe65f18af8",
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3029461608279519396",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3979179026735219968",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "actions": 6,
+      "parameters": 60,
+      "updated": false,
+      "unresolved": 0
+    }
+  ],
+  "failures": [],
+  "notes": [
+    "Exact EaseColor, EaseFloat parameters and None semantics. No activation change."
+  ]
+}

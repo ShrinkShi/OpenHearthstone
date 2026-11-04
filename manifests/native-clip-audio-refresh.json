@@ -1,0 +1,5890 @@
+{
+  "programs": [
+    {
+      "file": "000ef02b501e96de0896959a.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Physical_Weapon_Upgrade!_FX.prefab:f86876b029015334e8aa99cf52be967a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "2843360749087216156",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0208d33997474327c8d92d82.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Altruis_AE_DemonHunter_Whirlwind_Small_Super_OpponentSide.prefab:53b4bdfd6dd21364591e7c910263300f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-2a08a377353579804b020ac2f3d64792",
+          "pathid": "-5347480041967440968",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-ef57b03f-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 3
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "021ce0404a4cc61a14889b4c.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Cenarius_SubOpt_Buff.prefab:5dd8682f63119694fb5d120d560f5d99",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-5059031536342981357",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "03f4011c21d2abaf92986b43.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "RLKFX_DeathbringerSaurfang_SpawnToHand_Impact_Super.prefab:8f2635237c2c19a40ab7e144a250c616",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-f3512d6b16c4aa3131facc70ec668380",
+          "pathid": "-8546283498390005232",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-6aa9ba6a-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "04d908bfe69aa7fe54b9388b.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "NobleSacrifice_DeathOverrideSpawn.prefab:07a941032a702104dafc28c86eafd744",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "1663762677161871729",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "053cd4520d5b19462f7a0de1.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "SpawnToHand_StealthyEnemy.prefab:de8a246bcfc7cdd4bb77fd9005edf92c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-f5623b1ef44274dfdf6d1dfadbf8e7fb",
+          "pathid": "1308371115439232708",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-11.unity3d"
+        },
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8180561372989905822",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "05928182ba88d64927d6d9d6.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_BlessingOfWisdom_FX.prefab:6314c57af52625b4ba66d7fe95161296",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "05ca46c569163fce4e60f594.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_BlessingOfKings_FX.prefab:e6557a459816a9a47bea3b3cc4196e5f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "06245da8e136d71b425cf6e7.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Beast_UnTargeted_Bite_FX.prefab:f25e8e68c2da89040b1477b8c4d989c6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "4739288415162929022",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "06cf6d3f3e5615e63bff80f7.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Nature_Targeted_Heal_FX.prefab:01d131fcb95163940bbe2720920c7cb8",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-6233243982041642621",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "9032344468848309296",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 8
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "07d5c8fa493ccf7d60c73886.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "ReuseFX_Impact_Fire_AdjacentBurst_Small_FX.prefab:7bc9bf2ff0752e342a5b2ede077fd109",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "8233602220720247200",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "07ebfc013884b374cb15adea.native-effect.json",
+      "actions": 4,
+      "parameters": 52,
+      "updated": false,
+      "reference": "Nature_Targeted_Damage_FX.prefab:2166560420ef4d14b974b68e4994dbfb",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-6233243982041642621",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "9032344468848309296",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "9134150304994653329",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 8
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "RLKFX_LordMarrowgar_CustomSpawnOverride.prefab:8cbf12bd9c26545418fcad0244336ca9",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+          "pathid": "5913873795420807501",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0b35d77cb19dfbe98486aba2.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Arcane_Blast_Minion_Self_FX.prefab:340602b4cdd5edc4ba1cbed087254f16",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "5112792242839160990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0bec2a4e780bcda3d1fe6fe5.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "Beast_Targeted_Savagery_FX.prefab:8f399377643450d4784884d2dbd73296",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "3540098414449775096",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "521646678526328693",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 7
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0d67f25b786149ba8b08dddf.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Rage_Untargeted_BattleRage_FX.prefab:425db9c228e45b348b11c8949d888b26",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-865127712011010862",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0e605431912839a24eb098ef.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_Smite_FX.prefab:d4bbc7ea9f31b0a4784927f43612de09",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "0f0ec46ae18fad7f2fa1dad7.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_Small_Super.prefab:826a514f97c88fd47bc3fb4b526660d2",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-4722765840836432782",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1246094cae2466b286969390.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "ReuseFX_HealImpact_HolyLight_Small_Super_WithIdle.prefab:a8199b1050594654f84170f15e31aab2",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-2620043120407347922",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "13e4ba2cda5d567ad3d3e0be.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "RLKFX_Patchwerk_Missile_Cleaver_Super.prefab:c16105d5c6f17cd49a1d69a0d768716d",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+          "pathid": "-8374616294698780962",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "141ae6667f81251453952240.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "Physical_Target_NoMissile_FX.prefab:fe121a1dec018024bbce74ca1a8bbd88",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "141e414fd66fb79d7eee66c2.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "Unique_AE_TwistingNether_FX.prefab:f1e37b644475192409ab40ebce8b40b8",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-7288833104486020915",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 4
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "15142b65714667e95c7be7ea.native-effect.json",
+      "actions": 3,
+      "parameters": 40,
+      "updated": false,
+      "reference": "Warlock_DrainLife_FX.prefab:03adb1d075c3ba941a2e9cbff4a18f8f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "2527441325544481557",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "356870063172670035",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 21
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 27
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1ae606ad4f7dc8da9eb50b93.native-effect.json",
+      "actions": 4,
+      "parameters": 52,
+      "updated": false,
+      "reference": "ReuseFX_Missile_DemonHunter_Glaive_Medium_Super_WithIdle.prefab:8d47deab210dafb4cb7c357f12d65a2d",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7314286011951022931",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-5486757857437485659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7326343889186850926",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1ca86742da8eb534a697ead5.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "Arrow_Targeted_Arcane_FX.prefab:5ffc34d2f9910d64e94a593d8449e6ec",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "1e176322efb4694e6d3b7c02.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "ManaTideTotem.prefab:32f57093e57fbeb49a2073f3a63be871",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-17c43a3179751cfc0e2efa0ab2394e6a",
+          "pathid": "7701975264560737267",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "22263b43e2c34c25a832edda.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_BlessingOfMight_FX.prefab:e702d487e4a7e764e84b24394056fd43",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7917781848626466493",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "22291b74bdc6da4185f8a0d8.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Frost_AE_FrostNova_FX.prefab:871269ca16c3b90419870cb2ebe37dac",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "8684928514641363595",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7099395162819936584",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 16
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "223522c32fa85768f21c4c95.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Thrust_Super_WithIdle.prefab:5b88c25bd948e0b439f78bd85bb55f05",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-1479790732263158659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "228864b1f3e778228ee15fa2.native-effect.json",
+      "actions": 4,
+      "parameters": 52,
+      "updated": false,
+      "reference": "Sneaky_Eviscerate_FX.prefab:0a7e22e526c4aeb47841034843ce06e7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-7997166981442425358",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3091742677568600813",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "2618881119511248010",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3162868159105592123",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 10
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 22
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "229571f773d9642e4aeecf53.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "ReuseFX_SpawnToHand_DemonHunter_Super.prefab:f4caefa1864caf445b6d3a95de5be954",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-4a70eaee9f36c479d7b8e75f8b18b902",
+          "pathid": "839587741817866691",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-7.unity3d"
+        },
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8180561372989905822",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "22c4067aa2cd3c2bd8efeeaa.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "Silence_FX.prefab:45ff6d3a135b275449e2444b91d4e3a4",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "24891eaf285847735931d28d.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Warlock_Skull_Missile.prefab:9fcd6c9d979075447b4b920d9bc61f58",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8471017119727491199",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2625abebdd54657b9367a411.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_AE_Shockwave_Small_BothSides_Super.prefab:3bf56497742e7584cbcf43e1f7ab276c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-6371677866637212832",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "7298078293046357633",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2703a944d17e31af875f071b.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Polymorph_FX.prefab:035a11c49648b0f4fb379d2a5407d861",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "4892062274442227968",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "27544fa6167cb58c1a323d04.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "RLKFX_UnholyFrenzy_Reticle_FX.prefab:61f44ec022c25d2429493a5291384e61",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-2961124480039748281",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "27bdd075f4f6580d4778d2d3.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Lunar_Target_FX.prefab:36108f70267053d44b75a79b066f4242",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "4443207832662110207",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 2
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "29935f9acd53575e648ee1cd.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "ReuseFX_Missile_DemonHunter_Glaive_Small_Super.prefab:636507efb4db26a4a9437ed0561e110e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3643382197837519665",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2a16624e279efbdccf6138f1.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Stealth_ColdBlood_FX.prefab:42db2c47244fc1a40a6b451550563ada",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3721193731021052200",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2ac223d9b583771c9eb24338.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super_Random.prefab:e51c00c98fe156748a1e45b17b0fb182",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5909194798680725276",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2c478f5ac211da01190f3cff.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "RLKFX_LadyDeathWhisper_SpawnToHand_Super.prefab:5f94db093325459418a27f4aa66b9820",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-f3512d6b16c4aa3131facc70ec668380",
+          "pathid": "-2876491649188548307",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-6aa9ba6a-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2c575b7037eb26b115a9f5fd.native-effect.json",
+      "actions": 1,
+      "parameters": 15,
+      "updated": false,
+      "reference": "Rage_BloodLust_FX.prefab:314caa92b3a517d4ba25921213373cc2",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-1298189383947985034",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "2fce94149a7c7c6badfecc1d.native-effect.json",
+      "actions": 4,
+      "parameters": 54,
+      "updated": false,
+      "reference": "Nature_Targeted_Rockbiter_FX.prefab:f5d7a8053ac2d6140a37e0a3524094ee",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-6233243982041642621",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "9032344468848309296",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-7445082194133872178",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 8
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3145382ed4eaa71f42512d35.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Lightning_Targeted_FX.prefab:7eb7028e181c0fc4e9021f2efdf57b23",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5643892178135839218",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "34c8b82ccc4284005f9e07a0.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Shadow_DarkCommand_FX.prefab:d2e2d2cd566ad4f4da6c800e1f0da3fa",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3029461608279519396",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "356870063172670035",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3abb96f98378bc6364578070.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_Smite_Variable_FX.prefab:793557dabcfa04a6fbe77b2395defc79",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3b53c6edac0ba99e03be30be.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_WithIdle.prefab:dc16293627043ed4a8204cf20b128328",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7376166540014252046",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-1091095910909482370",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "3cb07efcffc2d55dbd6283ec.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_AE_Backlash_Super.prefab:a4aa0578359a412489a5215bf7eb420c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "557886185636452246",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "41c4e05d674c9ec7f8d18738.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Fire_AE_OpponentArea_FX.prefab:0b9b3e4ef9b62a240b4cbf362c0511b4",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7440498215539319468",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 7
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "41dc6aefe35cdc594bf0be0a.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_LayOnHands_FX.prefab:28df1bb4444584d3191e40815ef99b9c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "41e38a34b7bd86521bfdc021.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "RLKFX_TheScourge_BoardAE_Super.prefab:76308d912a476ef4eae39ca4dfb7cc79",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-565717686913190686",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "42377e0740c2662ce6bb7b06.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Lunar_Starfall_FX.prefab:45b50eacd925210439b7ff1130258e3f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "4443207832662110207",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 2
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "42a5a466e4cf3555811fcc65.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Lunar_Target_NoStart_FX.prefab:48ba3fa3d9c88274c8d362a4bcc2c112",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "4443207832662110207",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "42b269980a7b84d910d1ce3e.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nature_Idle_FarSight.prefab:ee69947dd02b2bf4baae0e66bcdac964",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-2731348747221327300",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "42d36a19bfb8163583de4af9.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Assassinate_Targeted_FX.prefab:8e965ed568c43bc4fa0a6f093387a30a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "5611746392261673788",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-5907651812258333516",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4434872dd310842925df6adb.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Ice_FX.prefab:af58499642cec471992ecb9e653b92b6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-8643223142898677733",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "45ef4addd6c85646d51fbc40.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_AE_Freeze_Halfboard_Super.prefab:e9a6dcfcb666a734bbce7a36938e7dc0",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5438443539801782664",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7594688359205784410",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "46d81302ae2bb97b610d8d97.native-effect.json",
+      "actions": 4,
+      "parameters": 52,
+      "updated": false,
+      "reference": "Lunar_Target_Large_FX.prefab:554b1cb6c449d9f409adbef48401d1b4",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-8506403831521721893",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3836939491222576833",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 10
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 20
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4a35495c36a986d5d935b812.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "SpawnToHand_Brightwing_RainbowBright.prefab:9560111678e0eed48a227aaf2a7486f0",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8180561372989905822",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4c92ac4d973163d8aa044fed.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Fireblast_FX.prefab:eabb56c674d4248be83c5c6bc82e9ddc",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "1793577957286404385",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4d8519098584bdd2988a4511.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "ReuseFX_Decay_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:ade894ff3a30e9b43b0bc0daa1667303",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-2961124480039748281",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4ee6ffa1aa571c59d1e93571.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "ReuseFX_BuffImpact_DemonHunter_Small_Super_NoIdle.prefab:4694fc2ee619cd54c9352938dbf84940",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-361057509388189232",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4fc0fe4fe4824ecbe3db289c.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "SpawnToHand_BabblingBook.prefab:8f581f7ccd7bcc640b9b3884a7f24eec",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8180561372989905822",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 17
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "547f1d181758e5d798bb68a8.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "Physical_Target_FX.prefab:6ef009996e89fae4faa2994bf3d350b8",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "57e74cc43277c106c26561a5.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "RLKFX_Xyrella_AE_Super.prefab:20d2f18a3e830884aad5a22926e4e337",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+          "pathid": "-2758471983819703186",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5840edc5ac4646f614b1ea81.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Arcane_Crystal_Small_Super.prefab:c81e3c5e81007b84ead1a6c25698213f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5b07a18207a346acdccc8e67.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Ice_Barrier_FX.prefab:65107a2e808cc4cddadf405d20cb3b7e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "4452757468564171434",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5bc655cb7218e5ef61cd20da.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Frost_Targetted_ConeOfCold_FX.prefab:7ffdb48f416a2fb40a0157e781ce5982",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-8643223142898677733",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-8250901370073851432",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 16
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5d9349d1d17e9b05e11ae8f8.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "Fireball_FX.prefab:a5e144473b2f84563b77ff3cfc414b5d",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6055582466056812273",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 37
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5ddfa427c40a9439b7ef0f7c.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Nature_Targeted_Heal_FX_AncestralHealing.prefab:c3fb39925a8c6904daa3e23939edad6e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-6233243982041642621",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "5e498ee91e9dc919512fabc3.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nature_Untargeted_FX.prefab:dd369a745c039774492f65c66bac2bf1",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-983839228407328738",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "602b502c504637627ef27839.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "NatalieSeline_Absorb_FX.prefab:06a59d8bd8a6cc34f88c703092e61830",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-8688161932157121421",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-3196424191338303324",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 8
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "621c28345b06404ee035c496.native-effect.json",
+      "actions": 2,
+      "parameters": 29,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_HandBuff_ScaleUp_OpponentAE_Super.prefab:2426721976ad3e9468d3e806b243d3a1",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "2672387297230820162",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        },
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "3236657471805114190",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 7
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "626a39e9a224655b6cbc8b10.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_AntiMagicShell_Super_WithIdle.prefab:c08f3d01cb170ce4d900696be4d8f13c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-3449912787647882535",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "8054691823212055992",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6549e4c82c2d8dd7a8ff3a34.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_Healing_Minion_FX.prefab:841d04a62b8741b49941829815c28658",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1665107967474714929",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "66b8e43f03287453d605d652.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Sneaky_Betrayal_FX.prefab:3b83a25bbd1a176489ee997deff4eee6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8698813812764870949",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "5473757702931375117",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "684234766d5c17602805a25a.native-effect.json",
+      "actions": 3,
+      "parameters": 44,
+      "updated": false,
+      "reference": "Physical_Target_Slam_FX.prefab:f627a772abe86e144abcd9cbd9bab985",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5619245801614922063",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 10
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "68ce6261cb309d1eb06e6a92.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "HolyFire_Targeted_FX.prefab:c4f70a1741b93d64ab8e6c940ca549f2",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1187844010597197590",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "69dcefb91e9e0f9355d2300e.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nature_Untargeted_Hero_FX.prefab:8269b1f09d7abd348ba75597c9e79497",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-983839228407328738",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6add519a1ee232e82b2e0ec0.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Medium_Super_WithIdle.prefab:6f83b437b11353d4d8660c204ecd355f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7376166540014252046",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-1037197477999517331",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6b31c155cae8a5b94ba13972.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nature_Untargeted_SoulOfTheForest_FX.prefab:458e1eb47283ea24794448eb1775fba4",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2870995501315015393",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6d35138c558a2b6c594b5871.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nature_Untargeted_WildGrowth.prefab:457ccffdfa378e64e83f3a81e789300e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-651622762984270547",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6ed63fc54a44561f8a5a6c63.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nature_Targeted_Heal_Minion_Paw_FX.prefab:3dcd14b24f512c84fb7ac2a5ee3a7041",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "9032344468848309296",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6ed9b2fe2d7816de1a381ef7.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "MortalCoil_FX.prefab:51b46dd3ff842ba41b4c437325994220",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "6f0ee4ab92545f1007043c0e.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "KnifeJuggler_FX.prefab:2fc5acc367f0ce34ab5ebd744d68aa84",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "5526949455797058790",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-1248601348136543556",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 3
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7024c8217869a2aa75640d34.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Beast_Targeted_KillCommand_FX.prefab:36a719e43aa59cf4d823636b97868cf5",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "3540098414449775096",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "521646678526328693",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 10
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "74398d37bea0bf0116c207f0.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Physical_Flurry_Super_NoIdle.prefab:58fda7c5c9a94f04bb88e51dea789cab",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7376166540014252046",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-1091095910909482370",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "762b0d4d666d476a37cc68d7.native-effect.json",
+      "actions": 3,
+      "parameters": 43,
+      "updated": false,
+      "reference": "ReuseFX_TransformImpact_Minion_Arcane_Super.prefab:440eed6d453960b49bad9e13d81151f4",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "4892062274442227968",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "76cd717cacf8a2a8095c00ad.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Sneaky2_Attack_FX.prefab:6a9a8edafcae07b4dadc18db5550e663",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-8905959069691156520",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-2666608994473574655",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "5755131852406077337",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 6
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "76fec7dec380b180d0d641f7.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Snipe_FX.prefab:37c8e62f57e4f4a82958d7813d4b9553",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-258815687685838777",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7a8e6c26f439a145cb9e19f9.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "Ragnaros_Trigger_FX.prefab:51b6f614daaae8d4cbd6daebd5a69211",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6055582466056812273",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 37
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7c00515137b2d3502a142b82.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "RLKFX_Frigidara_DeckAE_Super.prefab:e3635bae5f604724eafbb729d61f8440",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+          "pathid": "-2028894015933266927",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7eb05bff6341edbefb72ace7.native-effect.json",
+      "actions": 2,
+      "parameters": 27,
+      "updated": false,
+      "reference": "ShadowBolt_FX.prefab:e6ce5b6e7e1250e4a92dac52a3508671",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-8878251930795417463",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 23
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7ebc7afc761e6aadb8ca2e1c.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Physical_AE_Whirlwind_FX.prefab:2585606479a5eda4b8472f8839033e4d",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-394418018291584526",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "2373867326866674392",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 3
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "7f5b7f88ce33488167db5847.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "Lunar_Target_Silence_FX.prefab:96e1db570891845429edbb26801b06ad",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "3338127896229118990",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "4443207832662110207",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 13
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 23
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "81adc1ee5e4a815a745824b5.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "Frostmourne_OverrideSpawn.prefab:f899391938833d449a884561cf135d0e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-5293044126117901016",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "3425402841430599548",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 40
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "81d48cc85076bc4fff8d63f8.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nethrandamus_Minion_OverrideSpawn.prefab:462d9d20d9679db47b45da2d99c80804",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-2a08a377353579804b020ac2f3d64792",
+          "pathid": "8367025618424814963",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-ef57b03f-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "835f1ff8f4e1cb1d3b2b9b68.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_AE_Equality_FX.prefab:72beea1d7fde4274f9e048de567f7728",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "878fdf50d856cdf456617073.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "DemonFire_FX.prefab:89903e1f18715bf40b4061ff2b16da8a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "6154444588970563531",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "88051a8d118ad7bc6be54abb.native-effect.json",
+      "actions": 2,
+      "parameters": 27,
+      "updated": false,
+      "reference": "Warlock_Corruption_FX.prefab:ba0ede6cbdb982c4c80f409b8502aee7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-1469527453560936289",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 23
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "88b10fdc27a19c6d8b6ad1de.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Ice_Untargeted_FX.prefab:01e7f2d34d953483fa762a11c29582e0",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "7032512706991529189",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8b9080000adab86469ff8b06.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "SpawnToHand_WarlockBoosh_FX.prefab:a9d757d1dd2445340b973453f552679a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8180561372989905822",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8c7ebc1a37d6467b0a656a08.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "ReuseFX_Undead_HandAE_Blue_FriendlySide_Super.prefab:5b6122493a339c04b9172769ba81787a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-2523405938736656388",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8c973b2fb26cb9a918bb96d7.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_Healing_FX.prefab:878501a6ddf5ed84699eff303ef73930",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8e9f0d8f5a1886a9603d43dc.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Arcane_Blast_Minion_FX.prefab:4dafeada543b50048a8f82d9a3ba6dea",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "-2573246168482737926",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 25
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8eba90bc307d0125fabbc7e4.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_BlessedChampion_FX.prefab:a7435d053f542374a9854383ef331b9d",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "8f27eba70c61fc46ec632557.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Rage_Targeted_Charge_FX.prefab:b75b0c94b9f7e464e904c01709e14913",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3721193731021052200",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "9056cd9b80f6f898aa88936f.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Warlock_Untargeted_SenseDemons.prefab:99942defbd1504f4daa3aa7f1c65e3bb",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-2204095217311699925",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "90a7e2726cd4aa8e4a09b6a2.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Small_Super_WithIdle.prefab:c31bdfb48572b6d488f9de72d3a677c7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "7376166540014252046",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "4800269376480096694",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 14
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "90cd7169ec1845a50130eed1.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "AlarmAbot_Minion_Self_FX.prefab:09829da44fc24af438ddb5ee4a2cefc3",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-926b4ce5beec6189a96cd0047b6edcda",
+          "pathid": "2928215906691180576",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "93313b7c2aed67a49667c4c4.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Asphyxiate_Super_WithIdle.prefab:676fef5a5e50055409210c583d22859e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-1479790732263158659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Shadow_ShadowWordPain_FX.prefab:ceb8d5daaa8c10a4c9982de97967d6ae",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3029461608279519396",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "97020148102e8691d2fa7836.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_Humility_FX.prefab:a18668ebfbe911449aac596b88ab3f3e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "9a89c23ddecaf3091a301378.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Antonidas_Trigger_FX.prefab:e7228138c6efd0e419d56178deb446b6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-133e7f4f0b137266b615c7e62b7f2d77",
+          "pathid": "1652797805796385223",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8180561372989905822",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 2
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "9ac81ae7be2944e54fd04367.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "ReuseFX_SpawnToHand_Void_Magic.prefab:94e4bf03acd8eda41b868fcee5c41989",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8180561372989905822",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "9c3b2a977d2fd3ef2c0632a9.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "YseraDreamWorld_Untargetted.prefab:ad3e7120eb962484fba1e7c7927a2f86",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-17c43a3179751cfc0e2efa0ab2394e6a",
+          "pathid": "8323926786081240558",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "8180561372989905822",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 21
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a0614be9344a4dcba2c4ffe6.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Arcane_UnTargeted_SpellBender_FX.prefab:18ff4a9ca3c2bac439dd0fee79762a43",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "3179287452098458089",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a1cb21a4028e9494468e6214.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_Targeted_Humility_Minion_FX.prefab:cac3affffadedc04891d0abd7d7b7f07",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "1665107967474714929",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a26a0cc9cc8643e15caa29a6.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "ReuseFX_DrawBoosh_Soul_Small_Super.prefab:9fee677b5b73a29459116b94d432869a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-8607503579543097292",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a2cb6db8a8404ec3b1dd3276.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Warlock_PowerOverwhelming_FX.prefab:fe1109b7794663e44b8d2b5f89097338",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a3a72c250112359a6fb121fe.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "MasterSwordsmith_Throw_FX.prefab:2cf9947b1dfe4df4ab191fb3adb1a650",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3105090311066529495",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "2811677188189266634",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a484b427845ecdd3236cbf88.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Fire_Fireball_Medium_Super.prefab:563aacc1b2a435441988eae90cf8de94",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6778989452209898892",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6055582466056812273",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 37
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a78b10af18608c6a921c39e6.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Shadow_Untargeted_01.prefab:ec68c9be582beeb40bf4221ac5360e11",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "1982716549043662078",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_GainCorpse_Super.prefab:d10fb7a6897bc214399b5c7b42f22026",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "494788277155169936",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "a8cf92633f5d3d82c7685134.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "ReuseFX_KeywordImpact_Silence_Super_DemonHunter.prefab:d2735f7017ca28443b6f75d48d6678d9",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7314286011951022931",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ac729f443614aebbf097c5ae.native-effect.json",
+      "actions": 3,
+      "parameters": 41,
+      "updated": false,
+      "reference": "Rage_Targeted_InnerRage_FX.prefab:199d710abbd77d348a33b08f15fc90bd",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3721193731021052200",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-7445082194133872178",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "acf38a3473aedaf1aaba0517.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Rage_Targeted_BestialWrath_FX.prefab:05cc51d3d74ae514c8a65e2328250e20",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3721193731021052200",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b065ad44069e20c1ebba8485.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_VerySmall_Super_Simultaneous.prefab:829c6e1a69a97a845a7b4812a15bb366",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-912265615053973157",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super.prefab:5f189b59ddd96234ba95040813a40274",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "3278325011287662579",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b170e03850894a05de412d11.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nature_Untargeted_AutoSource_FX.prefab:c5f8bfdbcfc36c44dadd9c95af268afe",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2870995501315015393",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b1821a5603e5bb0cbd6f2deb.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeckAE_Super.prefab:0526ab56ec233994b9b5f2f0be15d9a7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "3333923375711601152",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b2596697f60ecbdf78727269.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Lightning_Single_Target_Jade_FX.prefab:8898006db108e2d4b8667b8085d0b9ff",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2624071977702876608",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5311010864273408587",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 40
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b34be3ab40864bfe57eb05fd.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Ice_Lance_FX.prefab:b1b4b03e20f064e5eafb62d78e7643a9",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-9054003336883015339",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-6764943743458128452",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 16
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b4a68adb9126b0ae5887306e.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "Physical_Target_MortalStrike_FX.prefab:40476180fbbf0704dbd00dfe62eb5a32",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-6339768974658193085",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6252441635298518882",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 7
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 10
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b5870350c3bfca9f0391faa2.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Sneaky_Attack_NoStart_FX.prefab:e05d432f4439cb647899c13738ebfeab",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-1340585798831627645",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b60b46f66a938713c27ca97b.native-effect.json",
+      "actions": 4,
+      "parameters": 52,
+      "updated": false,
+      "reference": "Sneaky_Eviscerate_Minion_FX.prefab:7db60663c68a2dc4982e2cc2b25ad045",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-3279227507062366659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3091742677568600813",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3162868159105592123",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "2618881119511248010",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 10
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 21
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b89ff4daf459f76475978850.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Paw_Untargeted_02.prefab:3221a8733c6c17545998b938994314a4",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8653800895330523113",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b9dfacd4ee8927ded86e0875.native-effect.json",
+      "actions": 2,
+      "parameters": 27,
+      "updated": false,
+      "reference": "Warlock_BaneOfDoom_FX.prefab:9237d29e91604c042beba717a9dc2a30",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "356870063172670035",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 23
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ba75c6fc744cbe4325207e64.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "Generic_Untargeted_FX.prefab:1704ef60ef2adca459261f1d6aa8353f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-348367845664475650",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ba8e1ded81a49840f2e94f91.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Holy_Idle_MindVision.prefab:bd8f150c314cd5e4585b9dc10172c7c1",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-3206141719244173332",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c0126c6b893d74983177abdd.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Beast_Targeted_HungryCrab_FX.prefab:2040bfcf64149754bb27c4862a957db9",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "2283175816759092214",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c157297bee5084d3e3b8fe7c.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Holy_Targeted_HammerOfWrath_FX.prefab:e363f1785c55f1c4c9fda2b369325989",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "4471899072495571514",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c2d07a0a5c5f3c0254949c25.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "ShadowFlame_AE_FX.prefab:22b59fba67b563549ac1835caf191d43",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c53d28f7c2d01da67780e3fd.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "RLKFX_PlaguedGrain_SpawnToDeck_Super.prefab:6b2f8f8c93b3c054189d643a8d322adb",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-4c70c08dea7926965b8654a5d72a3856",
+          "pathid": "-6429599809971246370",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-84b1a5c7-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "c98cce1aae02a4161ec3adfb.native-effect.json",
+      "actions": 2,
+      "parameters": 27,
+      "updated": false,
+      "reference": "Warlock_SacrificialPact_FX.prefab:bf91897c0d34f6d4db6b9c68beffa066",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "356870063172670035",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 27
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "cf9d4c60b62b3aa53b3bbc73.native-effect.json",
+      "actions": 4,
+      "parameters": 52,
+      "updated": false,
+      "reference": "ReuseFX_Missile_DemonHunter_EyeBeam_Small_Super.prefab:19f497e56d4024342a2879a13a492eb8",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-7314286011951022931",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "6109457353862007108",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "cfca89e9f4eaf103db6c7f47.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "Beast_Targeted_Swipe_FX.prefab:c9963a472c02b7d4091fce34732b6ca6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-727190000608455652",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d008c4b1a5fd2065b6a4df24.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Holy_UnTargeted_Healing_TruesilverChamp_FX.prefab:1bc330ad4c164c348a8d08bcd490883c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "3004981293332153997",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d0aeebd9c7c97679b9cd4cbf.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Cenarius_SubOpt_Treant.prefab:c1fdf1993159c7844889d2353df5176a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-6187282433236818078",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d372694235612634216d20d7.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Sneaky_Sap_FX.prefab:a3c617724c8f9504698573aafc53f9e4",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8698813812764870949",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-2666608994473574655",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d40370bc9615eb69423e852d.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "ReuseFX_BuffImpact_DemonHunter_Large_Super.prefab:7bfbb2c1c2a44a4499676dd9107c78be",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-4217493087491791154",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d4a8efbd566e7fc8149c939b.native-effect.json",
+      "actions": 2,
+      "parameters": 30,
+      "updated": false,
+      "reference": "FanOfKnives_FX.prefab:22bcac556a7b1cc4a9c378da1e677e0c",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "6184938291920329425",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-5902902867440772276",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 15
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 17
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d4dfd34b1825cf367c392e29.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "ReuseFX_AE_DemonHunter_Shockwave_Medium_BothSides_Super.prefab:e12888ab007dfb6439416a388f14ca49",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "370880271930061368",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "-2128819187541414741",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d554fc3ef71c90388d48ea9e.native-effect.json",
+      "actions": 3,
+      "parameters": 42,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_Missile_Physical_Slash_Super_WithIdle.prefab:4c6b1bd7d021c0f4e8da477dc769a6db",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-1479790732263158659",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d5791a890e4223c00a4717e8.native-effect.json",
+      "actions": 4,
+      "parameters": 52,
+      "updated": false,
+      "reference": "Nature_Targeted_MarkOfTheWild_FX.prefab:b26759f484c6c4e4db2a92af170b8b47",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-6233243982041642621",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "9032344468848309296",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-8787048327488422478",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 8
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d5938d6ea1d4ad32273f3adb.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_Impact_Transform_Super_WithIdle.prefab:fb60ebef9e2bcac47bc697d7271ed83a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-2961124480039748281",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-7023702009114968718",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 9
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d755e7cc0e89cb1e6ce938a1.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Sneaky_Shadowstep_FX.prefab:1339cda97d8121d45b466c9894a26192",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8698813812764870949",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d790330298f4596a1be10106.native-effect.json",
+      "actions": 2,
+      "parameters": 29,
+      "updated": false,
+      "reference": "Soulfire_FX.prefab:6ad98be477ebbd847b0a3110b7105abc",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8038510748177281442",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6055582466056812273",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 36
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d7bc8ddfe508e1eada4e992e.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nature_Untargeted_FeralSpirit_FX.prefab:a6aa22e926692644eb929cff4c0ea099",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "-5151134646276102085",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d98da28a8a8b48e1461e962d.native-effect.json",
+      "actions": 4,
+      "parameters": 56,
+      "updated": false,
+      "reference": "Arcane_Targeted_Hex_FX.prefab:815703e81b45e9f448c82fc280dac233",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "-7833996871583541132",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        },
+        {
+          "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+          "pathid": "2500138201771208410",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 13
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 13
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "dbde447b3c82b2bf7e3b858c.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Lightning_Single_Target_FX.prefab:000da182637d2ae4f9510633267d5e65",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5643892178135839218",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "dc47cf6c776ab507e0426971.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "TirionFordring_Throw_FX.prefab:61dc2ba75e02cc94680e15b1c4a3e0ee",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-133e7f4f0b137266b615c7e62b7f2d77",
+          "pathid": "-3465078888749774799",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e1259b0f7ac48a90c996cbfc.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_BuffImpact_GrantMana_Super_SourceHero.prefab:533045b7b40b18745a46fa9fb373e079",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-2340316891187675907",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e13c8852269ce9d6569c9aad.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Holy_Untargeted_FX.prefab:9abe2b276b167a9459cc37d1d50b1660",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-1256982497026704249",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e32b4e8bcf8485b4ed5fcb47.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "NatalieSeline_Destroy_FX.prefab:0c0d7deab8ddbf04091e7a718a2db13b",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-8438827454990367784",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "5356572215993946566",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e32e6f086c81d002be102d77.native-effect.json",
+      "actions": 2,
+      "parameters": 27,
+      "updated": false,
+      "reference": "Stealth_Conceal_FX.prefab:0c6778c2edae99645993a1c561a85ec6",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8698813812764870949",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-f078bd9dd63d8b294659a731a10de75e",
+          "pathid": "1011891723827223575",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-64194cb9-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 5
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e508c8fbfe00910dd007818c.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_AE_Consecration_FX.prefab:bbd5d106d5c36445b8ad3b6c5dd59dd9",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-180908081856114345",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        },
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "-1749499294890251696",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 10
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 31
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e51ebd6e18ee660c0293070a.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Physical_AE_BladeFlurry_FX.prefab:b48cf4fb5e2c3af40b33d3293759c480",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-1818375978337976521",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "295093426868532",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 3
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 12
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "e6bf6bb633f311b9460f3618.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "BGFX_Beast_Targeted_Bite_Minion_FX.prefab:a6ddc3a80fa8c814bbaeb6a649489bb7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "-4249914192052597189",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "eb9d7ab24095fdd64b49926c.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Holy_UnTargeted_Healing_Minion_FX.prefab:560b5e093f967604aaefcc1c9272e80e",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2010473292776868974",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ec35874f66086d68d154de9b.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Warlock_Tendril_SuckIn_Missile.prefab:a6ee56ff9897ec148bb4dc97b51709b7",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-cd96346f11a701f93932a70b198119c4",
+          "pathid": "-621824952075460450",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 0
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ec9f4d80a7c82910c627b95c.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Lightning_Single_Target_EarthShock_FX.prefab:feb83eb128ff8934ca8fb87f4d827382",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "2624071977702876608",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        },
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "5311010864273408587",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 40
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ed5ac22edca10110b2504c5f.native-effect.json",
+      "actions": 1,
+      "parameters": 14,
+      "updated": false,
+      "reference": "ReuseFX_Frost_DeathKnight_BuffImpact_CardDraw_Super.prefab:2084d102cd356b04ca792130b749cc21",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "4866934734530078969",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ef719cc32cc2ec11a8bb1456.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "ReuseFX_Missile_Fire_Fireball_Large_Super.prefab:fafdcc62cdedb2e469dec13af89c124a",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "6175052074802016849",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "ef926539dde7d46d001cfccd.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "Beast_UnTargeted_LeaderOfThePack_FX.prefab:04a4de06d100b7442a2a7fc030120bec",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+          "pathid": "303629441859932881",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-7445082194133872178",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 6
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "f38f608fd2eeca41219789b2.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "BloodmageThalnos_Deathrattle_FX.prefab:b138fcbbe1076ef40b499dd6b058c35f",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-926b4ce5beec6189a96cd0047b6edcda",
+          "pathid": "4237893471570126938",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-775a814d-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "f447efc81c8401982af262c0.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Smoke_Explosion_Minion_Impact_FX.prefab:e8b205a234dba0d498bd3e05e565fd22",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-2446977441391304470",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "f9e37ae0fa0b020d5f95c42d.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Nature_Untargeted_TotemicMight_FX.prefab:96ede24155f0d9d46a76995a79783322",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "6966591948988644950",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-7014860432048013800",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 4
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "fb1aeb2761c9e4e2da46df0e.native-effect.json",
+      "actions": 2,
+      "parameters": 28,
+      "updated": false,
+      "reference": "ReuseFX_Blood_DeathKnight_AE_BloodBoil_OpponentSide_Super.prefab:b7b8b1939351c264a9e2d2d5136c8641",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-3657108875630582556",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        },
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-3075381880452093031",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 11
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "fb6d9baf31deec9edcdd6661.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Warlock_Explosion_Minion_Self_FX.prefab:df0e2b0bcd974ec44b38b5da05870be2",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-1501448501935566248",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "fd19be80049757ae95f61bad.native-effect.json",
+      "actions": 2,
+      "parameters": 26,
+      "updated": false,
+      "reference": "Holy_AE_CircleOfHealing_FX.prefab:6b6a3cf3ac48ce84d8cd3e37fea909f3",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+          "pathid": "2850108345199541081",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "fddb66d335e0fcccd17db360.native-effect.json",
+      "actions": 1,
+      "parameters": 13,
+      "updated": false,
+      "reference": "Nature_Targeted_Heal_Minion_FX.prefab:d3596bf74c03d5b48b88a2c3b473fc76",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+          "pathid": "9032344468848309296",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "fedd636d08b13599644d83e3.native-effect.json",
+      "actions": 3,
+      "parameters": 39,
+      "updated": false,
+      "reference": "Shadow_MindControl_FX.prefab:6af9de4d4ef35024eb3e83fe65f18af8",
+      "machine_owners": [],
+      "sources": [
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3029461608279519396",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-2579418049112074553",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 1
+        },
+        {
+          "action": "AudioPlayClipAction",
+          "parameter": "m_ParentObject",
+          "node": 18
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source AudioPlayClipAction parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

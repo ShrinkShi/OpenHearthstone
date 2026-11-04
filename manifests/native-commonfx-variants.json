@@ -1,0 +1,298 @@
+{
+  "shader": {
+    "name": "FX/CommonFX",
+    "bundle": "essential_base_global-shader-0.unity3d",
+    "cab": "CAB-c394926ba464822396a05cbfae08a8b3",
+    "pathid": "-402334618889270515"
+  },
+  "variants": [
+    {
+      "keywords": [
+        "_COLORING_RAMP",
+        "_DISSOLVE_NONE",
+        "_SECONDTEXTURETYPE_RGBR",
+        "_SECONDTEXTURE_NOISEUV",
+        "_TEXTURETYPE_RGBA"
+      ],
+      "bindings": [
+        {
+          "subshader": 0,
+          "pass_index": 0,
+          "pass_name": "FORWARD",
+          "stage": "progVertex",
+          "blob": 126,
+          "gpu_type": 15,
+          "keywords": [
+            "_COLORING_RAMP",
+            "_DISSOLVE_NONE",
+            "_SECONDTEXTURETYPE_RGBR",
+            "_SECONDTEXTURE_NOISEUV",
+            "_TEXTURETYPE_RGBA"
+          ],
+          "parameter_blob": 1,
+          "program_sha256": "98763f211743bac9311d2e56b8d7b7a0d9899eedce6d80bfcaff8adf5eba6dfd",
+          "parameter_sha256": "4e8db647469d9f57917ed1df6cf603508c64a1a2301b39e1de0fdd264a4e8357"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 0,
+          "pass_name": "FORWARD",
+          "stage": "progFragment",
+          "blob": 1214,
+          "gpu_type": 17,
+          "keywords": [
+            "_COLORING_RAMP",
+            "_DISSOLVE_NONE",
+            "_SECONDTEXTURETYPE_RGBR",
+            "_SECONDTEXTURE_NOISEUV",
+            "_TEXTURETYPE_RGBA"
+          ],
+          "parameter_blob": 1154,
+          "program_sha256": "538c55080bd6f8ca6f3bfc7bc839b5757f36b110cbde8bfea9d2e8396bea792c",
+          "parameter_sha256": "9379ccffea163c3b77d2506862d0e1cebf620dae50ebce86cbd756d927eb131b"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 1,
+          "pass_name": "GlowTransparent",
+          "stage": "progVertex",
+          "blob": 2240,
+          "gpu_type": 15,
+          "keywords": [],
+          "parameter_blob": 2239,
+          "program_sha256": "97c9b6123bcc54ac0ff2ca40a0cb785f05ec6c81c31bddbf28ea4c2bde26a1c0",
+          "parameter_sha256": "d845031676aca9609f65d94daab053b998721832e157c002d3b8c283d5e161e0"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 1,
+          "pass_name": "GlowTransparent",
+          "stage": "progFragment",
+          "blob": 2242,
+          "gpu_type": 17,
+          "keywords": [],
+          "parameter_blob": 2241,
+          "program_sha256": "88664b1595c9397b3fbd4755fc9e794936ffba1de273cc2ccf9f37d216aad744",
+          "parameter_sha256": "129c4a338a757a67b774d10f6029655d8bec0c1a1bdfd48b0f75a81c41279697"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "_COLORING_RAMP",
+        "_DISSOLVE_NONE",
+        "_SECONDTEXTURETYPE_RGBR",
+        "_SECONDTEXTURE_MASK",
+        "_TEXTURETYPE_RGBA"
+      ],
+      "bindings": [
+        {
+          "subshader": 0,
+          "pass_index": 0,
+          "pass_name": "FORWARD",
+          "stage": "progVertex",
+          "blob": 139,
+          "gpu_type": 15,
+          "keywords": [
+            "_COLORING_RAMP",
+            "_DISSOLVE_NONE",
+            "_SECONDTEXTURETYPE_RGBR",
+            "_SECONDTEXTURE_MASK",
+            "_TEXTURETYPE_RGBA"
+          ],
+          "parameter_blob": 1,
+          "program_sha256": "98763f211743bac9311d2e56b8d7b7a0d9899eedce6d80bfcaff8adf5eba6dfd",
+          "parameter_sha256": "4e8db647469d9f57917ed1df6cf603508c64a1a2301b39e1de0fdd264a4e8357"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 0,
+          "pass_name": "FORWARD",
+          "stage": "progFragment",
+          "blob": 1227,
+          "gpu_type": 17,
+          "keywords": [
+            "_COLORING_RAMP",
+            "_DISSOLVE_NONE",
+            "_SECONDTEXTURETYPE_RGBR",
+            "_SECONDTEXTURE_MASK",
+            "_TEXTURETYPE_RGBA"
+          ],
+          "parameter_blob": 1158,
+          "program_sha256": "7fdb03563caed216bd8478365d969ef8bb8cffcf7efff7455757ad88f7529b2b",
+          "parameter_sha256": "47ce5c75cc2f961a303a85bfe41fb39fb5160a723e4860a7ebd1054c50ff09a2"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 1,
+          "pass_name": "GlowTransparent",
+          "stage": "progVertex",
+          "blob": 2240,
+          "gpu_type": 15,
+          "keywords": [],
+          "parameter_blob": 2239,
+          "program_sha256": "97c9b6123bcc54ac0ff2ca40a0cb785f05ec6c81c31bddbf28ea4c2bde26a1c0",
+          "parameter_sha256": "d845031676aca9609f65d94daab053b998721832e157c002d3b8c283d5e161e0"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 1,
+          "pass_name": "GlowTransparent",
+          "stage": "progFragment",
+          "blob": 2242,
+          "gpu_type": 17,
+          "keywords": [],
+          "parameter_blob": 2241,
+          "program_sha256": "88664b1595c9397b3fbd4755fc9e794936ffba1de273cc2ccf9f37d216aad744",
+          "parameter_sha256": "129c4a338a757a67b774d10f6029655d8bec0c1a1bdfd48b0f75a81c41279697"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "_COLORING_RAMP",
+        "_DISSOLVE_NONE",
+        "_SECONDTEXTURETYPE_RGBR",
+        "_SECONDTEXTURE_NONE",
+        "_TEXTURETYPE_RGBR"
+      ],
+      "bindings": [
+        {
+          "subshader": 0,
+          "pass_index": 0,
+          "pass_name": "FORWARD",
+          "stage": "progVertex",
+          "blob": 118,
+          "gpu_type": 15,
+          "keywords": [
+            "_COLORING_RAMP",
+            "_DISSOLVE_NONE",
+            "_SECONDTEXTURETYPE_RGBR",
+            "_SECONDTEXTURE_NONE",
+            "_TEXTURETYPE_RGBR"
+          ],
+          "parameter_blob": 0,
+          "program_sha256": "9c11ff14558fffd3035fa903d2e4c5555df511a3021d0b5b2a44bcb85c8bdb2a",
+          "parameter_sha256": "ff6aeda58ea31d9b71f49a177c5613e9e7c28bfdc5fb0fd5440af8a70fc12b53"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 0,
+          "pass_name": "FORWARD",
+          "stage": "progFragment",
+          "blob": 1206,
+          "gpu_type": 17,
+          "keywords": [
+            "_COLORING_RAMP",
+            "_DISSOLVE_NONE",
+            "_SECONDTEXTURETYPE_RGBR",
+            "_SECONDTEXTURE_NONE",
+            "_TEXTURETYPE_RGBR"
+          ],
+          "parameter_blob": 1152,
+          "program_sha256": "604bf231e4a15dda87ede13a3e73ebac3e44ee6fbbc977fad36b9158f7cec11d",
+          "parameter_sha256": "cf187c94c2c57166c3475d2659675db2d95539d976156ddfe6d62f8763b7d539"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 1,
+          "pass_name": "GlowTransparent",
+          "stage": "progVertex",
+          "blob": 2240,
+          "gpu_type": 15,
+          "keywords": [],
+          "parameter_blob": 2239,
+          "program_sha256": "97c9b6123bcc54ac0ff2ca40a0cb785f05ec6c81c31bddbf28ea4c2bde26a1c0",
+          "parameter_sha256": "d845031676aca9609f65d94daab053b998721832e157c002d3b8c283d5e161e0"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 1,
+          "pass_name": "GlowTransparent",
+          "stage": "progFragment",
+          "blob": 2242,
+          "gpu_type": 17,
+          "keywords": [],
+          "parameter_blob": 2241,
+          "program_sha256": "88664b1595c9397b3fbd4755fc9e794936ffba1de273cc2ccf9f37d216aad744",
+          "parameter_sha256": "129c4a338a757a67b774d10f6029655d8bec0c1a1bdfd48b0f75a81c41279697"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "_COLORING_NONE",
+        "_DISSOLVE_NONE",
+        "_SECONDTEXTURETYPE_RGBR",
+        "_SECONDTEXTURE_NONE",
+        "_TEXTURETYPE_RGBR"
+      ],
+      "bindings": [
+        {
+          "subshader": 0,
+          "pass_index": 0,
+          "pass_name": "FORWARD",
+          "stage": "progVertex",
+          "blob": 114,
+          "gpu_type": 15,
+          "keywords": [
+            "_COLORING_NONE",
+            "_DISSOLVE_NONE",
+            "_SECONDTEXTURETYPE_RGBR",
+            "_SECONDTEXTURE_NONE",
+            "_TEXTURETYPE_RGBR"
+          ],
+          "parameter_blob": 0,
+          "program_sha256": "9c11ff14558fffd3035fa903d2e4c5555df511a3021d0b5b2a44bcb85c8bdb2a",
+          "parameter_sha256": "ff6aeda58ea31d9b71f49a177c5613e9e7c28bfdc5fb0fd5440af8a70fc12b53"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 0,
+          "pass_name": "FORWARD",
+          "stage": "progFragment",
+          "blob": 1202,
+          "gpu_type": 17,
+          "keywords": [
+            "_COLORING_NONE",
+            "_DISSOLVE_NONE",
+            "_SECONDTEXTURETYPE_RGBR",
+            "_SECONDTEXTURE_NONE",
+            "_TEXTURETYPE_RGBR"
+          ],
+          "parameter_blob": 1151,
+          "program_sha256": "8cc87a0404224357a8a3ee1b17183980722006edbd244784dd2d9c84fe4bda6b",
+          "parameter_sha256": "141b1a982c5d717c1be6d59954649e8beff890fa1ea94e0c857f0231ee9c3aaf"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 1,
+          "pass_name": "GlowTransparent",
+          "stage": "progVertex",
+          "blob": 2240,
+          "gpu_type": 15,
+          "keywords": [],
+          "parameter_blob": 2239,
+          "program_sha256": "97c9b6123bcc54ac0ff2ca40a0cb785f05ec6c81c31bddbf28ea4c2bde26a1c0",
+          "parameter_sha256": "d845031676aca9609f65d94daab053b998721832e157c002d3b8c283d5e161e0"
+        },
+        {
+          "subshader": 0,
+          "pass_index": 1,
+          "pass_name": "GlowTransparent",
+          "stage": "progFragment",
+          "blob": 2242,
+          "gpu_type": 17,
+          "keywords": [],
+          "parameter_blob": 2241,
+          "program_sha256": "88664b1595c9397b3fbd4755fc9e794936ffba1de273cc2ccf9f37d216aad744",
+          "parameter_sha256": "129c4a338a757a67b774d10f6029655d8bec0c1a1bdfd48b0f75a81c41279697"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Only these four base variants and the shared Glow pass have been reimplemented.",
+    "DXBC inspection is not restoration of every CommonFX keyword branch or original scripts."
+  ]
+}

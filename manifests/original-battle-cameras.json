@@ -1,0 +1,738 @@
+{
+  "cameras": [
+    {
+      "name": "TooltipCamera",
+      "source": {
+        "bundle": "@player/level30",
+        "cab": "level30",
+        "pathid": "17"
+      },
+      "raw": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1
+        },
+        "m_Enabled": 1,
+        "m_ClearFlags": 3,
+        "m_BackGroundColor": {
+          "r": 0.1921568661928177,
+          "g": 0.3019607961177826,
+          "b": 0.4745098054409027,
+          "a": 0.019607843831181526
+        },
+        "m_projectionMatrixMode": 1,
+        "m_GateFitMode": 2,
+        "m_Iso": 200,
+        "m_ShutterSpeed": 0.004999999888241291,
+        "m_Aperture": 16.0,
+        "m_FocusDistance": 10.0,
+        "m_FocalLength": 50.0,
+        "m_BladeCount": 5,
+        "m_Curvature": {
+          "x": 2.0,
+          "y": 11.0
+        },
+        "m_BarrelClipping": 0.25,
+        "m_Anamorphism": 0.0,
+        "m_SensorSize": {
+          "x": 36.0,
+          "y": 24.0
+        },
+        "m_LensShift": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 1.0,
+        "far clip plane": 30.0,
+        "field of view": 34.87044906616211,
+        "orthographic": false,
+        "orthographic size": 100.0,
+        "m_Depth": 15.0,
+        "m_CullingMask": {
+          "m_Bits": 16384
+        },
+        "m_RenderingPath": -1,
+        "m_TargetTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_TargetDisplay": 0,
+        "m_TargetEye": 3,
+        "m_HDR": false,
+        "m_AllowMSAA": true,
+        "m_AllowDynamicResolution": false,
+        "m_ForceIntoRT": false,
+        "m_OcclusionCulling": true,
+        "m_StereoConvergence": 10.0,
+        "m_StereoSeparation": 0.02199999988079071
+      },
+      "projection_mode": 1,
+      "orthographic": false,
+      "size": 100.0,
+      "fov": 34.87044906616211,
+      "near": 1.0,
+      "far": 30.0,
+      "chain": [
+        {
+          "name": "TooltipCamera",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "source": {
+            "cab": "level30",
+            "pathid": "9",
+            "bundle": "@player/level30"
+          },
+          "raw": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1
+            },
+            "m_LocalRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 16
+            }
+          }
+        },
+        {
+          "name": "Main Camera",
+          "position": {
+            "x": 1092.5,
+            "y": 32.0,
+            "z": 6.099999904632568
+          },
+          "rotation": {
+            "x": 0.6870788335800171,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7265828847885132
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "source": {
+            "cab": "level30",
+            "pathid": "16",
+            "bundle": "@player/level30"
+          },
+          "raw": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 8
+            },
+            "m_LocalRotation": {
+              "x": 0.6870788335800171,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.7265828847885132
+            },
+            "m_LocalPosition": {
+              "x": 1092.5,
+              "y": 32.0,
+              "z": 6.099999904632568
+            },
+            "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 9
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 14
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 11
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "MainFullscreenFXCamera",
+      "source": {
+        "bundle": "@player/level30",
+        "cab": "level30",
+        "pathid": "18"
+      },
+      "raw": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 3
+        },
+        "m_Enabled": 1,
+        "m_ClearFlags": 3,
+        "m_BackGroundColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "m_projectionMatrixMode": 1,
+        "m_GateFitMode": 2,
+        "m_Iso": 200,
+        "m_ShutterSpeed": 0.004999999888241291,
+        "m_Aperture": 16.0,
+        "m_FocusDistance": 10.0,
+        "m_FocalLength": 50.0,
+        "m_BladeCount": 5,
+        "m_Curvature": {
+          "x": 2.0,
+          "y": 11.0
+        },
+        "m_BarrelClipping": 0.25,
+        "m_Anamorphism": 0.0,
+        "m_SensorSize": {
+          "x": 36.0,
+          "y": 24.0
+        },
+        "m_LensShift": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 1.0,
+        "far clip plane": 30.0,
+        "field of view": 34.870445251464844,
+        "orthographic": false,
+        "orthographic size": 100.0,
+        "m_Depth": 1.0010000467300415,
+        "m_CullingMask": {
+          "m_Bits": 4294967295
+        },
+        "m_RenderingPath": -1,
+        "m_TargetTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_TargetDisplay": 0,
+        "m_TargetEye": 3,
+        "m_HDR": false,
+        "m_AllowMSAA": true,
+        "m_AllowDynamicResolution": false,
+        "m_ForceIntoRT": false,
+        "m_OcclusionCulling": true,
+        "m_StereoConvergence": 10.0,
+        "m_StereoSeparation": 0.02199999988079071
+      },
+      "projection_mode": 1,
+      "orthographic": false,
+      "size": 100.0,
+      "fov": 34.870445251464844,
+      "near": 1.0,
+      "far": 30.0,
+      "chain": [
+        {
+          "name": "MainFullscreenFXCamera",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "source": {
+            "cab": "level30",
+            "pathid": "11",
+            "bundle": "@player/level30"
+          },
+          "raw": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 3
+            },
+            "m_LocalRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 16
+            }
+          }
+        },
+        {
+          "name": "Main Camera",
+          "position": {
+            "x": 1092.5,
+            "y": 32.0,
+            "z": 6.099999904632568
+          },
+          "rotation": {
+            "x": 0.6870788335800171,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7265828847885132
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "source": {
+            "cab": "level30",
+            "pathid": "16",
+            "bundle": "@player/level30"
+          },
+          "raw": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 8
+            },
+            "m_LocalRotation": {
+              "x": 0.6870788335800171,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.7265828847885132
+            },
+            "m_LocalPosition": {
+              "x": 1092.5,
+              "y": 32.0,
+              "z": 6.099999904632568
+            },
+            "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 9
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 14
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 11
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "IgnoreFullScreenEffectsCamera",
+      "source": {
+        "bundle": "@player/level30",
+        "cab": "level30",
+        "pathid": "19"
+      },
+      "raw": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 6
+        },
+        "m_Enabled": 1,
+        "m_ClearFlags": 3,
+        "m_BackGroundColor": {
+          "r": 0.9402984976768494,
+          "g": 0.8675752878189087,
+          "b": 0.5403207540512085,
+          "a": 0.019607843831181526
+        },
+        "m_projectionMatrixMode": 1,
+        "m_GateFitMode": 2,
+        "m_Iso": 200,
+        "m_ShutterSpeed": 0.004999999888241291,
+        "m_Aperture": 16.0,
+        "m_FocusDistance": 10.0,
+        "m_FocalLength": 50.0,
+        "m_BladeCount": 5,
+        "m_Curvature": {
+          "x": 2.0,
+          "y": 11.0
+        },
+        "m_BarrelClipping": 0.25,
+        "m_Anamorphism": 0.0,
+        "m_SensorSize": {
+          "x": 36.0,
+          "y": 24.0
+        },
+        "m_LensShift": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 1.0,
+        "far clip plane": 30.0,
+        "field of view": 34.870445251464844,
+        "orthographic": false,
+        "orthographic size": 100.0,
+        "m_Depth": 1.1324000358581543,
+        "m_CullingMask": {
+          "m_Bits": 4294967295
+        },
+        "m_RenderingPath": -1,
+        "m_TargetTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_TargetDisplay": 0,
+        "m_TargetEye": 3,
+        "m_HDR": false,
+        "m_AllowMSAA": true,
+        "m_AllowDynamicResolution": false,
+        "m_ForceIntoRT": false,
+        "m_OcclusionCulling": true,
+        "m_StereoConvergence": 10.0,
+        "m_StereoSeparation": 0.02199999988079071
+      },
+      "projection_mode": 1,
+      "orthographic": false,
+      "size": 100.0,
+      "fov": 34.870445251464844,
+      "near": 1.0,
+      "far": 30.0,
+      "chain": [
+        {
+          "name": "IgnoreFullScreenEffectsCamera",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "source": {
+            "cab": "level30",
+            "pathid": "14",
+            "bundle": "@player/level30"
+          },
+          "raw": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 6
+            },
+            "m_LocalRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "m_LocalPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "m_Children": [],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 16
+            }
+          }
+        },
+        {
+          "name": "Main Camera",
+          "position": {
+            "x": 1092.5,
+            "y": 32.0,
+            "z": 6.099999904632568
+          },
+          "rotation": {
+            "x": 0.6870788335800171,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7265828847885132
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "source": {
+            "cab": "level30",
+            "pathid": "16",
+            "bundle": "@player/level30"
+          },
+          "raw": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 8
+            },
+            "m_LocalRotation": {
+              "x": 0.6870788335800171,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.7265828847885132
+            },
+            "m_LocalPosition": {
+              "x": 1092.5,
+              "y": 32.0,
+              "z": 6.099999904632568
+            },
+            "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 9
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 14
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 11
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Main Camera",
+      "source": {
+        "bundle": "@player/level30",
+        "cab": "level30",
+        "pathid": "20"
+      },
+      "raw": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 8
+        },
+        "m_Enabled": 0,
+        "m_ClearFlags": 1,
+        "m_BackGroundColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "m_projectionMatrixMode": 1,
+        "m_GateFitMode": 2,
+        "m_Iso": 200,
+        "m_ShutterSpeed": 0.004999999888241291,
+        "m_Aperture": 16.0,
+        "m_FocusDistance": 10.0,
+        "m_FocalLength": 50.0,
+        "m_BladeCount": 5,
+        "m_Curvature": {
+          "x": 2.0,
+          "y": 11.0
+        },
+        "m_BarrelClipping": 0.25,
+        "m_Anamorphism": 0.0,
+        "m_SensorSize": {
+          "x": 36.0,
+          "y": 24.0
+        },
+        "m_LensShift": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_NormalizedViewPortRect": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1.0,
+          "height": 1.0
+        },
+        "near clip plane": 1.0,
+        "far clip plane": 200.0,
+        "field of view": 34.870445251464844,
+        "orthographic": false,
+        "orthographic size": 100.0,
+        "m_Depth": 1.0,
+        "m_CullingMask": {
+          "m_Bits": 4294967295
+        },
+        "m_RenderingPath": -1,
+        "m_TargetTexture": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_TargetDisplay": 0,
+        "m_TargetEye": 3,
+        "m_HDR": false,
+        "m_AllowMSAA": true,
+        "m_AllowDynamicResolution": false,
+        "m_ForceIntoRT": false,
+        "m_OcclusionCulling": true,
+        "m_StereoConvergence": 10.0,
+        "m_StereoSeparation": 0.02199999988079071
+      },
+      "projection_mode": 1,
+      "orthographic": false,
+      "size": 100.0,
+      "fov": 34.870445251464844,
+      "near": 1.0,
+      "far": 200.0,
+      "chain": [
+        {
+          "name": "Main Camera",
+          "position": {
+            "x": 1092.5,
+            "y": 32.0,
+            "z": 6.099999904632568
+          },
+          "rotation": {
+            "x": 0.6870788335800171,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.7265828847885132
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "source": {
+            "cab": "level30",
+            "pathid": "16",
+            "bundle": "@player/level30"
+          },
+          "raw": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 8
+            },
+            "m_LocalRotation": {
+              "x": 0.6870788335800171,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.7265828847885132
+            },
+            "m_LocalPosition": {
+              "x": 1092.5,
+              "y": 32.0,
+              "z": 6.099999904632568
+            },
+            "m_LocalScale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "m_Children": [
+              {
+                "m_FileID": 0,
+                "m_PathID": 9
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 14
+              },
+              {
+                "m_FileID": 0,
+                "m_PathID": 11
+              }
+            ],
+            "m_Father": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "full_scene_camera_restored": false
+}

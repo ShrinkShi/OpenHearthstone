@@ -1,0 +1,6 @@
+UnityPy==1.25.2
+Pillow==12.3.0
+pytest==9.1.1
+hearthstone==9.21.1
+hearthstone_data==251952.1
+fireplace @ git+https://github.com/jleclanche/fireplace.git@47a2572a000db66645bb74a425a090d51f1004fa

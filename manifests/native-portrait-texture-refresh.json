@@ -1,0 +1,287 @@
+{
+  "programs": [
+    {
+      "file": "2ac223d9b583771c9eb24338.native-effect.json",
+      "actions": 13,
+      "parameters": 61,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super_Random.prefab:e51c00c98fe156748a1e45b17b0fb182",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "5909194798680725276",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "5909194798680725276",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 5
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 15
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 17
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 19
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 21
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 23
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 25
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 27
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "4ee6ffa1aa571c59d1e93571.native-effect.json",
+      "actions": 3,
+      "parameters": 15,
+      "updated": false,
+      "reference": "ReuseFX_BuffImpact_DemonHunter_Small_Super_NoIdle.prefab:4694fc2ee619cd54c9352938dbf84940",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+            "pathid": "-361057509388189232",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-361057509388189232",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "b0cbd0aa93fedbfc28ee3f8e.native-effect.json",
+      "actions": 13,
+      "parameters": 61,
+      "updated": false,
+      "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_FromCorpse_Super.prefab:5f189b59ddd96234ba95040813a40274",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "3278325011287662579",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+          "pathid": "3278325011287662579",
+          "type": "MonoBehaviour",
+          "bundle": "essential_base_global-prefab-0.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 5
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 7
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 9
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 11
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 15
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 17
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 19
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 21
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 23
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 25
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 27
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    },
+    {
+      "file": "d40370bc9615eb69423e852d.native-effect.json",
+      "actions": 3,
+      "parameters": 15,
+      "updated": false,
+      "reference": "ReuseFX_BuffImpact_DemonHunter_Large_Super.prefab:7bfbb2c1c2a44a4499676dd9107c78be",
+      "machine_owners": [
+        {
+          "index": 0,
+          "node": 1,
+          "known": true,
+          "source": {
+            "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+            "pathid": "-4217493087491791154",
+            "type": "MonoBehaviour",
+            "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+          "pathid": "-4217493087491791154",
+          "type": "MonoBehaviour",
+          "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+        }
+      ],
+      "owner_targets": [
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 13
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 14
+        },
+        {
+          "action": "SetMaterialTexture",
+          "parameter": "gameObject",
+          "node": 15
+        }
+      ],
+      "unresolved": 0,
+      "none_parameters": 0
+    }
+  ],
+  "updated": 0,
+  "failures": [],
+  "notes": [
+    "Exact source GetCardPortraitTextureAction, SetMaterialTexture parameters and owner targets only. Unbound target variables remain unsupported."
+  ]
+}

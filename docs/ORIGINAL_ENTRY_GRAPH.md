@@ -1,0 +1,25 @@
+# 原入场完整状态链与协程生命周期
+
+2026-10-12。完整全卡原动画、Shader和脚本：未完成。
+
+本节点把两个FromCorpse原子效果从动作隔离检查推进为未删改状态图的连续运行：2ac223d9b583771c9eb24338（FromCorpse Super Random）、b0cbd0aa93fedbfc28ee3f8e（FromCorpse Super）。绑定真实MODEL_MINION角色，分别使用CS2_179普通随从和EX1_116传说随从。以60Hz连续运行10秒，保留原随机等待、分支、Timeline、材质/网格替换、声音、显隐、FinalizeCustomSpawn与SpellFinishAction。
+
+## 找到并修复的原脚本差异
+
+两个原Anim状态的Wait为0.7166666389秒，并发送FINISHED到Actor Visible；第二个AudioPlayClipAction延迟0.8000000119秒。旧适配器在状态退出时删除等待音效，只产生一个声音通知。隔离声音动作的测试没有经过原Wait事件，因此没有发现此缺陷。
+
+静态IL确认AudioPlayClipAction没有OnExit覆盖；FsmStateAction.OnExit直接返回，StartCoroutine把迭代器交给PlayMakerFSM.DoCoroutine。DoCoroutine迭代器继续MoveNext，不以原状态是否活动为停止条件。FsmState.OnExit只调用动作OnExit，并不统一停止协程。证据来源、程序集哈希与缓存路径在manifests/original-script-audit.json；没有执行官方程序集。
+
+NativeEffectInstance现有声音协程改为由效果实例持有，状态退出仍继续等待，但完成回调不改变后来状态的动作完成条件。每个等待只触发一次，完成后移除；重播清空并重建，Dispose清除待播放对象。实际声音仍走已有静音验证或客户端播放桥，不靠强行延长原Wait规避问题。
+
+## 实际验证
+
+四组真实角色/完整图均到达NoneState，Timeline启动一次、肖像绑定一次、Initialize/Finalize各一次、SpellFinished一次，两个声音通知，已列出的未绑定计数为零。第二个声音在Actor Visible状态出现，固定种子下时间为1.1666666269秒（包含前面的随机等待）；普通分支替换四个网格及四个材质，传说分支保持原几何。Dispose后角色父级及初始位置恢复。
+
+运行：Unity批处理执行NativeEntryGraphChecks.RunGpu；也已纳入NativeTimelineChecks.RunGpu。报告work/native-entry-graphs.json。完整GPU日志work/native-entry-lifetime-final-gpu.log退出0，既有1034项Timeline、78项声音检查以及183程序/347声音动作隔离普查通过。Python完整回归1144项通过、5项UnityPy版本回退警告。Windows构建work/build-native-entry-lifetime.log成功退出0；构建后实际混音器bundle的9组源编译常量再次精确核对。
+
+## 仍未完成
+
+新Windows后台双客户端比赛6c5df8a92eca4fa08676fb67fa096db6在47422端口完成：12回合、version37，Shrink2术士15血获胜，Shrink1法师0血失败。双方公共hash均为8f6466cc0e5822ff0f17d2739234c657a002e7d885d001f076a1807080e851a3，日志无异常/fallback。card_render_count=0，不将后台结果计为新入场效果画面或人工对局验收。
+
+每组仍报告两次Actor可见性副作用缺口：角色附属法术、护甲、阴影及高亮联动未全部恢复。原Shader完整性、实际画面合成及全卡专属效果仍未通过整效果验收。本检查不自动启用这两个效果，正式整效果启用数仍2；full_effects_verified=false。不宣称原版听感、逐帧一致、人工对局或1080p性能验收。本轮没有桌面操作，也未修改个人UI校准和官方安装。

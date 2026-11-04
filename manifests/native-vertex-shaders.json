@@ -1,0 +1,1133 @@
+[
+  {
+    "shader": {
+      "name": "Custom/FX/FX_HeroMask_VertColorOnly",
+      "bundle": "essential_base_global-shader-0.unity3d",
+      "cab": "CAB-c394926ba464822396a05cbfae08a8b3",
+      "pathid": "5264888736503454533"
+    },
+    "family": 21,
+    "bindings": [
+      {
+        "subshader": 0,
+        "pass_index": 0,
+        "pass_name": "",
+        "stage": "progVertex",
+        "blob": 1,
+        "gpu_type": 15,
+        "keywords": [],
+        "parameter_blob": 0,
+        "program_sha256": "0e1cc73d8eac226643b8db7c8e23acaae139985419ce5879c65e04e664ef7d3a",
+        "parameter_sha256": "da42d8e03d800e4e961a9ed20399a01e665b1df0847644318a7452a46784fb1b"
+      },
+      {
+        "subshader": 0,
+        "pass_index": 0,
+        "pass_name": "",
+        "stage": "progFragment",
+        "blob": 3,
+        "gpu_type": 17,
+        "keywords": [],
+        "parameter_blob": 2,
+        "program_sha256": "ffdcdda9d35c5d0a5db14913b7037e293593161e5a03189d7d22a6b705288e84",
+        "parameter_sha256": "2edc8bca652acd5d804b1432c08170c7a45bd311bfba45d974f20566821a70d0"
+      }
+    ],
+    "pass_constant_byte_offsets": [
+      {
+        "progVertex": {
+          "$Globals": {},
+          "UnityPerDraw": {}
+        },
+        "progFragment": {}
+      }
+    ],
+    "pass_render_states": [
+      {
+        "culling": 2.0,
+        "zWrite": 1.0,
+        "zTest": 4.0,
+        "blend": {
+          "srcBlend": 0.0,
+          "destBlend": 3.0,
+          "srcBlendAlpha": 0.0,
+          "destBlendAlpha": 3.0,
+          "blendOp": 0.0,
+          "blendOpAlpha": 0.0,
+          "colMask": 15.0
+        }
+      }
+    ],
+    "references": [
+      {
+        "file": "05928182ba88d64927d6d9d6.native-effect.json",
+        "reference": "Holy_Targeted_BlessingOfWisdom_FX.prefab:6314c57af52625b4ba66d7fe95161296",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "05ca46c569163fce4e60f594.native-effect.json",
+        "reference": "Holy_Targeted_BlessingOfKings_FX.prefab:e6557a459816a9a47bea3b3cc4196e5f",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "0e605431912839a24eb098ef.native-effect.json",
+        "reference": "Holy_Targeted_Smite_FX.prefab:d4bbc7ea9f31b0a4784927f43612de09",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "1246094cae2466b286969390.native-effect.json",
+        "reference": "ReuseFX_HealImpact_HolyLight_Small_Super_WithIdle.prefab:a8199b1050594654f84170f15e31aab2",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 20,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "22263b43e2c34c25a832edda.native-effect.json",
+        "reference": "Holy_Targeted_BlessingOfMight_FX.prefab:e702d487e4a7e764e84b24394056fd43",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "2a16624e279efbdccf6138f1.native-effect.json",
+        "reference": "Stealth_ColdBlood_FX.prefab:42db2c47244fc1a40a6b451550563ada",
+        "materials": [
+          {
+            "node": 9,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "2c575b7037eb26b115a9f5fd.native-effect.json",
+        "reference": "Rage_BloodLust_FX.prefab:314caa92b3a517d4ba25921213373cc2",
+        "materials": [
+          {
+            "node": 6,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "32e839f264392a2fd7b69e3e.native-effect.json",
+        "reference": "Holy_Targeted_AvengingWrath_FX.prefab:0d003801653ae4e579a3e936348109a1",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "34c8b82ccc4284005f9e07a0.native-effect.json",
+        "reference": "Shadow_DarkCommand_FX.prefab:d2e2d2cd566ad4f4da6c800e1f0da3fa",
+        "materials": [
+          {
+            "node": 9,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "3abb96f98378bc6364578070.native-effect.json",
+        "reference": "Holy_Targeted_Smite_Variable_FX.prefab:793557dabcfa04a6fbe77b2395defc79",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "41dc6aefe35cdc594bf0be0a.native-effect.json",
+        "reference": "Holy_Targeted_LayOnHands_FX.prefab:28df1bb4444584d3191e40815ef99b9c",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "6549e4c82c2d8dd7a8ff3a34.native-effect.json",
+        "reference": "Holy_Targeted_Healing_Minion_FX.prefab:841d04a62b8741b49941829815c28658",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "835f1ff8f4e1cb1d3b2b9b68.native-effect.json",
+        "reference": "Holy_AE_Equality_FX.prefab:72beea1d7fde4274f9e048de567f7728",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "8c973b2fb26cb9a918bb96d7.native-effect.json",
+        "reference": "Holy_Targeted_Healing_FX.prefab:878501a6ddf5ed84699eff303ef73930",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "8eba90bc307d0125fabbc7e4.native-effect.json",
+        "reference": "Holy_Targeted_BlessedChampion_FX.prefab:a7435d053f542374a9854383ef331b9d",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "8f27eba70c61fc46ec632557.native-effect.json",
+        "reference": "Rage_Targeted_Charge_FX.prefab:b75b0c94b9f7e464e904c01709e14913",
+        "materials": [
+          {
+            "node": 9,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "96d6edb199ef520b5b3430f4.native-effect.json",
+        "reference": "Shadow_ShadowWordPain_FX.prefab:ceb8d5daaa8c10a4c9982de97967d6ae",
+        "materials": [
+          {
+            "node": 9,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "97020148102e8691d2fa7836.native-effect.json",
+        "reference": "Holy_Targeted_Humility_FX.prefab:a18668ebfbe911449aac596b88ab3f3e",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "a1cb21a4028e9494468e6214.native-effect.json",
+        "reference": "Holy_Targeted_Humility_Minion_FX.prefab:cac3affffadedc04891d0abd7d7b7f07",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "a78b10af18608c6a921c39e6.native-effect.json",
+        "reference": "Shadow_Untargeted_01.prefab:ec68c9be582beeb40bf4221ac5360e11",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "ac729f443614aebbf097c5ae.native-effect.json",
+        "reference": "Rage_Targeted_InnerRage_FX.prefab:199d710abbd77d348a33b08f15fc90bd",
+        "materials": [
+          {
+            "node": 9,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "acf38a3473aedaf1aaba0517.native-effect.json",
+        "reference": "Rage_Targeted_BestialWrath_FX.prefab:05cc51d3d74ae514c8a65e2328250e20",
+        "materials": [
+          {
+            "node": 9,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "c157297bee5084d3e3b8fe7c.native-effect.json",
+        "reference": "Holy_Targeted_HammerOfWrath_FX.prefab:e363f1785c55f1c4c9fda2b369325989",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "d008c4b1a5fd2065b6a4df24.native-effect.json",
+        "reference": "Holy_UnTargeted_Healing_TruesilverChamp_FX.prefab:1bc330ad4c164c348a8d08bcd490883c",
+        "materials": [
+          {
+            "node": 6,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "e13c8852269ce9d6569c9aad.native-effect.json",
+        "reference": "Holy_Untargeted_FX.prefab:9abe2b276b167a9459cc37d1d50b1660",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "fd19be80049757ae95f61bad.native-effect.json",
+        "reference": "Holy_AE_CircleOfHealing_FX.prefab:6b6a3cf3ac48ce84d8cd3e37fea909f3",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "fedd636d08b13599644d83e3.native-effect.json",
+        "reference": "Shadow_MindControl_FX.prefab:6af9de4d4ef35024eb3e83fe65f18af8",
+        "materials": [
+          {
+            "node": 9,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "5a360810c62fabb080bc018b.start-spell.json",
+        "reference": "ReuseFX_Holy_Idle_01.prefab:506c0a66b79385a4391e1db1b1f7ed59",
+        "materials": [
+          {
+            "node": 6,
+            "name": "GenFX_HolyHero_CutOutMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4155944714964850293",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      }
+    ],
+    "full_card_effects_verified": false,
+    "notes": [
+      "Output = 1 + vertex.a*(vertex-1); Src=Zero/Dst=SrcColor, depth write, backface cull.",
+      "No texture samples; saved texture/tint properties not declared by the program are unused.",
+      "Full actor meshes, scene depth/order, original Card bindings and complete card playback remain incomplete."
+    ]
+  },
+  {
+    "shader": {
+      "name": "Effects/FX_AdditiveVertColor",
+      "bundle": "essential_base_global-shader-0.unity3d",
+      "cab": "CAB-c394926ba464822396a05cbfae08a8b3",
+      "pathid": "-64755960916519659"
+    },
+    "family": 22,
+    "bindings": [
+      {
+        "subshader": 0,
+        "pass_index": 0,
+        "pass_name": "",
+        "stage": "progVertex",
+        "blob": 1,
+        "gpu_type": 15,
+        "keywords": [],
+        "parameter_blob": 0,
+        "program_sha256": "b462c6f92ff6a5a377bd1e4b7965c8bf9a77be5812eb88f2589c9dcc62fd854f",
+        "parameter_sha256": "dfaf34ea53567fa326757dc01cd815b94b75b6b7ff1370798b98ba127a9f559c"
+      },
+      {
+        "subshader": 0,
+        "pass_index": 0,
+        "pass_name": "",
+        "stage": "progFragment",
+        "blob": 3,
+        "gpu_type": 17,
+        "keywords": [],
+        "parameter_blob": 2,
+        "program_sha256": "ffdcdda9d35c5d0a5db14913b7037e293593161e5a03189d7d22a6b705288e84",
+        "parameter_sha256": "2edc8bca652acd5d804b1432c08170c7a45bd311bfba45d974f20566821a70d0"
+      }
+    ],
+    "pass_constant_byte_offsets": [
+      {
+        "progVertex": {
+          "$Globals": {},
+          "UnityPerDraw": {},
+          "UnityPerMaterial": {
+            "_Color": 0
+          }
+        },
+        "progFragment": {}
+      }
+    ],
+    "pass_render_states": [
+      {
+        "culling": 0.0,
+        "zWrite": 0.0,
+        "zTest": 4.0,
+        "blend": {
+          "srcBlend": 5.0,
+          "destBlend": 1.0,
+          "srcBlendAlpha": 5.0,
+          "destBlendAlpha": 1.0,
+          "blendOp": 0.0,
+          "blendOpAlpha": 0.0,
+          "colMask": 15.0
+        }
+      }
+    ],
+    "references": [
+      {
+        "file": "05928182ba88d64927d6d9d6.native-effect.json",
+        "reference": "Holy_Targeted_BlessingOfWisdom_FX.prefab:6314c57af52625b4ba66d7fe95161296",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 19,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "05ca46c569163fce4e60f594.native-effect.json",
+        "reference": "Holy_Targeted_BlessingOfKings_FX.prefab:e6557a459816a9a47bea3b3cc4196e5f",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 19,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "0e605431912839a24eb098ef.native-effect.json",
+        "reference": "Holy_Targeted_Smite_FX.prefab:d4bbc7ea9f31b0a4784927f43612de09",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "1246094cae2466b286969390.native-effect.json",
+        "reference": "ReuseFX_HealImpact_HolyLight_Small_Super_WithIdle.prefab:a8199b1050594654f84170f15e31aab2",
+        "materials": [
+          {
+            "node": 9,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 21,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 32,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "22263b43e2c34c25a832edda.native-effect.json",
+        "reference": "Holy_Targeted_BlessingOfMight_FX.prefab:e702d487e4a7e764e84b24394056fd43",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 19,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "32e839f264392a2fd7b69e3e.native-effect.json",
+        "reference": "Holy_Targeted_AvengingWrath_FX.prefab:0d003801653ae4e579a3e936348109a1",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "3abb96f98378bc6364578070.native-effect.json",
+        "reference": "Holy_Targeted_Smite_Variable_FX.prefab:793557dabcfa04a6fbe77b2395defc79",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "41dc6aefe35cdc594bf0be0a.native-effect.json",
+        "reference": "Holy_Targeted_LayOnHands_FX.prefab:28df1bb4444584d3191e40815ef99b9c",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 20,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 21,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "634f354b95a5b5f95b589651.native-effect.json",
+        "reference": "Holy_Targeted_Redemption_FX.prefab:0f12e18807e8a6f48aed19ad5e4676fa",
+        "materials": [
+          {
+            "node": 9,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "6549e4c82c2d8dd7a8ff3a34.native-effect.json",
+        "reference": "Holy_Targeted_Healing_Minion_FX.prefab:841d04a62b8741b49941829815c28658",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 19,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "835f1ff8f4e1cb1d3b2b9b68.native-effect.json",
+        "reference": "Holy_AE_Equality_FX.prefab:72beea1d7fde4274f9e048de567f7728",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 19,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "8c973b2fb26cb9a918bb96d7.native-effect.json",
+        "reference": "Holy_Targeted_Healing_FX.prefab:878501a6ddf5ed84699eff303ef73930",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 19,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "8eba90bc307d0125fabbc7e4.native-effect.json",
+        "reference": "Holy_Targeted_BlessedChampion_FX.prefab:a7435d053f542374a9854383ef331b9d",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 22,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "97020148102e8691d2fa7836.native-effect.json",
+        "reference": "Holy_Targeted_Humility_FX.prefab:a18668ebfbe911449aac596b88ab3f3e",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 19,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "a1cb21a4028e9494468e6214.native-effect.json",
+        "reference": "Holy_Targeted_Humility_Minion_FX.prefab:cac3affffadedc04891d0abd7d7b7f07",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 19,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "b77051c245321f691eff0a45.native-effect.json",
+        "reference": "Holy_Targeted_Minion_FX.prefab:2bb2733dfe57c584291f7c50c5a24f97",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "bc0a0433da27909c271398dd.native-effect.json",
+        "reference": "Holy_Targeted_Healing_ImpactOnly_FX.prefab:98a6ddb5b34da2a419a16dcab9a2ef2c",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "c157297bee5084d3e3b8fe7c.native-effect.json",
+        "reference": "Holy_Targeted_HammerOfWrath_FX.prefab:e363f1785c55f1c4c9fda2b369325989",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "d008c4b1a5fd2065b6a4df24.native-effect.json",
+        "reference": "Holy_UnTargeted_Healing_TruesilverChamp_FX.prefab:1bc330ad4c164c348a8d08bcd490883c",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 18,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "e13c8852269ce9d6569c9aad.native-effect.json",
+        "reference": "Holy_Untargeted_FX.prefab:9abe2b276b167a9459cc37d1d50b1660",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "e508c8fbfe00910dd007818c.native-effect.json",
+        "reference": "Holy_AE_Consecration_FX.prefab:bbd5d106d5c36445b8ad3b6c5dd59dd9",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "eb9d7ab24095fdd64b49926c.native-effect.json",
+        "reference": "Holy_UnTargeted_Healing_Minion_FX.prefab:560b5e093f967604aaefcc1c9272e80e",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "fd19be80049757ae95f61bad.native-effect.json",
+        "reference": "Holy_AE_CircleOfHealing_FX.prefab:6b6a3cf3ac48ce84d8cd3e37fea909f3",
+        "materials": [
+          {
+            "node": 8,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          },
+          {
+            "node": 19,
+            "name": "GenFX_HolySpiral",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "4548553379040263064",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      },
+      {
+        "file": "5a360810c62fabb080bc018b.start-spell.json",
+        "reference": "ReuseFX_Holy_Idle_01.prefab:506c0a66b79385a4391e1db1b1f7ed59",
+        "materials": [
+          {
+            "node": 7,
+            "name": "GenFX_HeroMask",
+            "source": {
+              "cab": "CAB-08424291406c59c12c970e0a93e42644",
+              "pathid": "-2268795869083719474",
+              "type": "Material",
+              "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+            }
+          }
+        ]
+      }
+    ],
+    "full_card_effects_verified": false,
+    "notes": [
+      "Output = 2*vertex*Color; Src=SrcAlpha/Dst=One, depth write off, cull off.",
+      "No texture samples; saved texture/tint properties not declared by the program are unused.",
+      "Full actor meshes, scene depth/order, original Card bindings and complete card playback remain incomplete."
+    ]
+  }
+]

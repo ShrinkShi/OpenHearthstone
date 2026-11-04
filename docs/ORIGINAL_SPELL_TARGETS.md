@@ -1,0 +1,31 @@
+# 原 Spell 目标集合与BestTarget
+
+后续接入控制器明确历史输入的来源/目标筛选和去重；以下保留集合节点历史状态，正式原历史传输、任务执行及场景合成仍未完成，见[ORIGINAL_POWER_TARGETS](ORIGINAL_POWER_TARGETS.md)。
+
+2026-10-12。全卡专属动画、完整Shader/脚本未完成；整效果启用仍2。本节点恢复基础Spell的目标集合及BestTarget分支，未恢复完整PowerTaskList目标导入或正式攻击画面。
+
+## 原来源
+
+只读原Spell.GetTargets/GetTarget/AddTarget/AddTargets/RemoveTarget/RemoveAllTargets/IsTarget及全部VisualTarget访问器；静态IL在original-script-audit.json对应Spell缓存。原基础Spell所有VisualTarget访问器转发同一m_targets，GetTarget仅取第0项。Add直接List.Add，AddTargets直接AddRange；不会去重或过滤空对象，Remove只移除首个匹配。控制器收集Power目标时才调用Contains去重，不能混入基础集合操作。
+
+SpellUtils.FindBestTargetCard：缺少Source Card或其Controller时返回GetVisualTargetCard；否则按原顺序扫描，跳过非Card对象，返回第一个Controller Side不同的Card；没有对方Card时只回退首项的Card，不扫描下一个Card。原扫描直接访问对象组件，空/已销毁目标可能抛异常，不擅自跳过这些条目。
+
+## 本地实现
+
+NativeSpellTargets使用真实List<GameObject>，逻辑/视觉访问器共用该可变列表，保留重复、空项、范围追加异常及首项语义。NativeSpellObjectSelection延迟解析目标元数据到这份真实对象列表；visualTarget成为首项的元数据视图，清空或修改列表后不再读取过期单一目标。元数据身份按实际GameObject查找，不能把两个描述记录当作两个场景对象。
+
+BestTarget按已绑定Card/Controller Side关系选择目标；Facing3使用选中目标的Hero。缺少目标Controller信息显式报告未解析，原Card MonoBehaviour仍未加载。未知原场景对象没有绑定Card元数据时按非Card处理；不能据此声称完整官方Card身份已恢复。
+
+NativeSpellContext.FromEvent新增可选targetEntities输入，保留调用方明确提供的顺序、重复和未解析空槽，并从before/after快照寻找Entity。不根据AOE伤害推测或增加目标。正式客户端当前仍只提供SemanticEvent.target；完整任务列表/元数据目标尚未导入。
+
+## 验证与差异
+
+work/native-spell-targets-verified.log退出0，27项新增检查：共用列表、重复/空项/范围追加异常、首个移除、外部列表修改、已销毁首项、原BestTarget优先级及实际Unity空/销毁组件访问异常；显式多目标ID跨快照保存实际模型，Facing3取对方Hero。测试核对实际GameObject身份，没有将描述记录引用当作Card身份。
+
+既有35对象选择、29定位、57攻击声音/等待、57动画事件、78状态播放、78193运行时、92召唤与四入场图通过。1165Python通过，15UnityPy版本回退警告，48.86秒。
+
+未完成：完整控制器去重/任务元数据导入、派生Spell视觉目标覆盖、Card/Entity/Controller完整身份、控制权变化中间状态、源/目标空间统一、正式攻击附属生命周期及整卡合成。没有新增完整启用的原卡效果或人工画面/听音/1080p60FPS验收。未使用Computer Use，未修改官方安装。
+
+work/build-native-spell-targets.log构建退出0，实际Mixer Bundle九编译常量匹配。后台spell_targets_1/2在47433端口完成d9ec1a1432e644c5b472a9e6d8e487e7：15回合/version40，Shrink2术士16血胜、Shrink1法师0血负；两端hash均为e05122f1b89711c0f1ebcf7b676b979d706990420e54799d1410d8947017c6a8，客户端和服务器日志无异常/fallback。终局后核对命令行仅清理三自有进程。后台回归不能替代新增动画画面验收。
+
+当前原Assembly-CSharp.dll哈希与静态IL清单一致；UI校准SHA256保持E85CE40298C0FD45916D73FB1CC547AD9C46D1E3E124D2E0465F976C6B547DA6。

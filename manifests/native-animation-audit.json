@@ -1,0 +1,84 @@
+{
+  "scope": "unique cached prefabs; clip occurrences are not completed cards",
+  "prefabs": 254,
+  "counts": {
+    "direct_controller_states": 9,
+    "unsupported_controller_states": 0,
+    "clip_occurrences": 346,
+    "zero_track_occurrences": 139,
+    "decoded_mecanim_occurrences": 3,
+    "decoded_tracks": 36,
+    "unresolved_bindings": 0
+  },
+  "decoded_mecanim": [
+    {
+      "cache": "local/runtime/4ee6ffa1aa571c59d1e93571.native-effect.json",
+      "id": "2ebd8e7e28b6b73d09b664dd",
+      "name": "GenFX_BuffImpact_DemonHunter_Small_Anim_Minion",
+      "source": {
+        "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+        "pathid": "4011973372859400340",
+        "type": "AnimationClip",
+        "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+      },
+      "duration": 1.5,
+      "tracks": 12,
+      "channels": 12,
+      "properties": [
+        "material._AlphaMul",
+        "scale.x",
+        "scale.y",
+        "scale.z"
+      ],
+      "unresolved_bindings": []
+    },
+    {
+      "cache": "local/runtime/4ee6ffa1aa571c59d1e93571.native-effect.json",
+      "id": "225a66e26ed7ee9e78aba10c",
+      "name": "GenFX_BuffImpact_DemonHunter_Small_Anim_Weapon",
+      "source": {
+        "cab": "CAB-0afa0c32ae653b9edf6acc516a011107",
+        "pathid": "-5775569107846216713",
+        "type": "AnimationClip",
+        "bundle": "initial_base_global-41caf0cf-prefab-0.unity3d"
+      },
+      "duration": 1.25,
+      "tracks": 12,
+      "channels": 12,
+      "properties": [
+        "material._AlphaMul",
+        "scale.x",
+        "scale.y",
+        "scale.z"
+      ],
+      "unresolved_bindings": []
+    },
+    {
+      "cache": "local/runtime/4ee6ffa1aa571c59d1e93571.native-effect.json",
+      "id": "5c88c52dc60049c19d7552e7",
+      "name": "Bacon_Illidan_BuffImpact_DemonHunter_VerySmall_Anim",
+      "source": {
+        "cab": "CAB-2472e71d803adbfb6382befdd6044bd5",
+        "pathid": "8851344908145270953",
+        "type": "AnimationClip",
+        "bundle": "initial_base_global-64194cb9-prefab-0.unity3d"
+      },
+      "duration": 2.5,
+      "tracks": 12,
+      "channels": 12,
+      "properties": [
+        "material._AlphaMul",
+        "scale.x",
+        "scale.y",
+        "scale.z"
+      ],
+      "unresolved_bindings": []
+    }
+  ],
+  "limitations": [
+    "Mecanim property recovery is not complete original shader execution.",
+    "Unknown material hashes, blend trees, transitions and parameters stay unsupported.",
+    "Most cached clips have not been re-exported through the Mecanim decoder.",
+    "AnimatorPlayAction is a partial direct-state implementation, not complete Unity Animator."
+  ]
+}

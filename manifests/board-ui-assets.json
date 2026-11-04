@@ -1,0 +1,253 @@
+{
+  "assets": [
+    {
+      "id": "MODEL_END_TURN",
+      "name": "Button_EndTurn",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "pathid": "4420454575318040913",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_END_TURN.scene.json"
+    },
+    {
+      "id": "MODEL_GAME_MENU_BUTTON",
+      "name": "GameMenuButton_Default",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "pathid": "-6612155514829492827",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_GAME_MENU_BUTTON.scene.json"
+    },
+    {
+      "id": "MODEL_MANA_ENEMY",
+      "name": "FrameManaEnemy",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "pathid": "35375337711218290",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_MANA_ENEMY.scene.json"
+    },
+    {
+      "id": "MODEL_MANA_PLAYER",
+      "name": "FrameManaPlayer",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "pathid": "6270815025101418098",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "type": "GameObject",
+      "cache": "local/runtime/MODEL_MANA_PLAYER.scene.json"
+    },
+    {
+      "id": "UI_TOOLTIP_FRAME",
+      "name": "TooltipFrame1",
+      "bundle": "essential_base_global-texture-0.unity3d",
+      "pathid": "536530660780112826",
+      "cab": "CAB-cfdc5301ac0b17c5a76ad477fba38b57",
+      "type": "Texture2D",
+      "cache": "local/runtime/0eb459988bcebfb50b438289.png"
+    },
+    {
+      "id": "VFX_SUMMON_RING",
+      "name": "AllyInPlaySummonRing_Med",
+      "bundle": "initial_base_global-8411aad9-texture-6.unity3d",
+      "pathid": "-1020922181925071628",
+      "cab": "CAB-ef670ec8c1a3d77117686311ad9b083d",
+      "type": "Texture2D",
+      "cache": "local/runtime/5e82279edd5c8aa5c56cf6ed.png"
+    },
+    {
+      "id": "VFX_SUMMON_BURST",
+      "name": "AllyInPlaySummon_Blue",
+      "bundle": "initial_base_global-8411aad9-texture-6.unity3d",
+      "pathid": "5165501915801490128",
+      "cab": "CAB-ef670ec8c1a3d77117686311ad9b083d",
+      "type": "Texture2D",
+      "cache": "local/runtime/87cbb720a1435465b1fa5d17.png"
+    },
+    {
+      "id": "UI_OPTIONS_FRAME",
+      "name": "OptionsFrame",
+      "bundle": "essential_base_global-texture-1.unity3d",
+      "pathid": "5431586101601635171",
+      "cab": "CAB-e02b69b1bbe893a6736884865127e637",
+      "type": "Texture2D",
+      "cache": "local/runtime/3723f86f371a3702d569b0c6.png"
+    },
+    {
+      "id": "UI_CONCEDE_BUTTON",
+      "name": "Button_Concede_Red",
+      "bundle": "essential_base_global-texture-0.unity3d",
+      "pathid": "4608359170968201595",
+      "cab": "CAB-cfdc5301ac0b17c5a76ad477fba38b57",
+      "type": "Texture2D",
+      "cache": "local/runtime/11b7cd9fde4a2341c5ca5a94.png"
+    },
+    {
+      "id": "UI_MENU_ACTION",
+      "name": "ButtonsA_Dynamic",
+      "bundle": "@player/resources.assets",
+      "pathid": "30",
+      "cab": "resources.assets",
+      "type": "Texture2D",
+      "cache": "local/runtime/7657e748e0ff8398d2e87189.png"
+    },
+    {
+      "id": "UI_MANA_TRAY",
+      "name": "ManaTray",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "pathid": "4852225231403810057",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "type": "Texture2D",
+      "cache": "local/runtime/10b824eb2444ffab1ecbc8ef.png"
+    },
+    {
+      "id": "UI_BOARD_FRAME",
+      "name": "STR_FRAME",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "pathid": "7167430508614119763",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "type": "Texture2D",
+      "cache": "local/runtime/8b998c94d341b35fa02b2a88.png"
+    },
+    {
+      "id": "ANIM_END_TURN",
+      "name": "ENDTURN_NEXT_TURN",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "pathid": "-787451561820097624",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "type": "AnimationClip",
+      "cache": "local/runtime/turn-button-animation.json"
+    },
+    {
+      "id": "ANIM_END_TURN",
+      "name": "ENDTURN_YOUR_TURN",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "pathid": "5508100314535807130",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "type": "AnimationClip",
+      "cache": "local/runtime/turn-button-animation.json"
+    },
+    {
+      "id": "ANIM_END_TURN",
+      "name": "ENDTURN_WAITING",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "pathid": "-1455078728422267560",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "type": "AnimationClip",
+      "cache": "local/runtime/turn-button-animation.json"
+    },
+    {
+      "id": "ANIM_END_TURN",
+      "name": "ENDTURN_NO_MORE_PLAYS",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "pathid": "4518350029548857871",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "type": "AnimationClip",
+      "cache": "local/runtime/turn-button-animation.json"
+    },
+    {
+      "id": "VFX_SLEEP_Z",
+      "name": "Zzz",
+      "shader": "Hero/Unlit/Unlit_TransparentColor",
+      "bundle": "essential_base_global-texture-3.unity3d",
+      "cache": "local/runtime/562be8a05f5d42c672f379fa.png",
+      "file": "562be8a05f5d42c672f379fa.png",
+      "cab": "CAB-29155062fb23fa05472cfd5ec90cc365",
+      "pathid": "2257515371790887203",
+      "type": "Texture2D"
+    },
+    {
+      "id": "VFX_SUMMON_MOTE",
+      "name": "GenFX_BlueMotes_Grave",
+      "shader": "Hero/Additive/Additive",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cache": "local/runtime/100de598fa4f7f4b94f5ca39.png",
+      "file": "100de598fa4f7f4b94f5ca39.png",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-8850088658648382506",
+      "type": "Texture2D"
+    },
+    {
+      "id": "VFX_SUMMON_DUST",
+      "name": "GenFX_DustA_2x2",
+      "shader": "Hero/Particle/Particles_Transparent",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "cache": "local/runtime/a541f1744c61a9b3b1ad2277.png",
+      "file": "a541f1744c61a9b3b1ad2277.png",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-4073542940747119063",
+      "type": "Texture2D"
+    }
+  ],
+  "particles": [
+    {
+      "name": "Card_Play_Ally_Zzz",
+      "type": "ParticleSystem",
+      "pathid": "448378055411967612",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/0b301108a093a35c4e10f5e8.particle.json"
+    },
+    {
+      "name": "Card_Play_Ally_Zzz",
+      "type": "ParticleSystemRenderer",
+      "pathid": "-8546612355785873796",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/8665adf3aced26a33a0967de.particle.json"
+    },
+    {
+      "name": "Card_Play_Ally_SummonIn",
+      "type": "ParticleSystem",
+      "pathid": "7435642337723423872",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/d26c01d40d1db902f4baac5c.particle.json"
+    },
+    {
+      "name": "Card_Play_Ally_SummonIn",
+      "type": "ParticleSystemRenderer",
+      "pathid": "8878240086304496768",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/87917a2c249ed14d13bbfaf6.particle.json"
+    },
+    {
+      "name": "Card_Play_Ally_SummonIn",
+      "type": "ParticleSystem",
+      "pathid": "-7682783091912139648",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/fdba9fbfdc0615f741cbfaab.particle.json"
+    },
+    {
+      "name": "Card_Play_Ally_SummonIn",
+      "type": "ParticleSystemRenderer",
+      "pathid": "2766104757373639808",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/1c91e41708f00e7d71bfa72e.particle.json"
+    },
+    {
+      "name": "Card_Play_Ally_SummonIn",
+      "type": "ParticleSystem",
+      "pathid": "-2728181926760604544",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/1505e9bf009185bec7b5e4a1.particle.json"
+    },
+    {
+      "name": "Card_Play_Ally_SummonIn",
+      "type": "ParticleSystemRenderer",
+      "pathid": "3064111341806558336",
+      "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+      "bundle": "essential_base_global-prefab-0.unity3d",
+      "cache": "local/runtime/0e27e52523a63375a3e7ac1f.particle.json"
+    }
+  ],
+  "notes": [
+    "棋盘采用原 Board_STR 网格及贴图；相机和专用 Shader 由本项目重实现。",
+    "FrameManaEnemy 裸网格的 Standard 材质没有纹理；计数气泡从棋盘 STR_FRAME 图集恢复蓝色区域。",
+    "回合按钮重用原模型与解包的四元数采样；原控制脚本不执行。",
+    "召唤及睡觉特效重用原贴图，粒子轨迹在表现层重实现。"
+  ]
+}

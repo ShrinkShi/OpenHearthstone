@@ -1,0 +1,644 @@
+{
+  "assets": [
+    {
+      "id": "VFX_EVISCERATE_TRAIL",
+      "card_id": "EX1_124",
+      "name": "GenFX_EviscerateTrail",
+      "type": "Texture2D",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "3745047225785717878",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "shader": "Hero/Particle/FX Particle Additive Alpha 2Layer",
+      "cache": "local/runtime/0668acc52bcbc0fab5d968bc.png"
+    },
+    {
+      "id": "VFX_ROGUE_DAGGER",
+      "card_id": "EX1_124",
+      "name": "GenFX_ValeeraDagger",
+      "type": "Texture2D",
+      "cab": "CAB-598294113959974226f4db76d958eec8",
+      "pathid": "4342351337269954768",
+      "bundle": "initial_base_global-41caf0cf-texture-6.unity3d",
+      "shader": "Hero/AddMultiply/AddMultiply",
+      "cache": "local/runtime/96d0127db6d903fd0e88e452.png"
+    },
+    {
+      "id": "VFX_COLD_BLOOD_FURY",
+      "card_id": "CS2_073",
+      "name": "GenFX_RageFuryPhase1",
+      "type": "Texture2D",
+      "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+      "pathid": "-4301580663471798170",
+      "bundle": "essential_base_global-texture-2.unity3d",
+      "shader": "Hero/AddMultiply/AddMultiplyFXScrolling",
+      "cache": "local/runtime/a6ac3d1f2e923a9de5cbfa67.png"
+    },
+    {
+      "id": "VFX_COLD_BLOOD_FACE",
+      "card_id": "CS2_073",
+      "name": "GenFX_RageFace1_Top",
+      "type": "Texture2D",
+      "cab": "CAB-20dde4d77a95a3c8016d2674e34b10c7",
+      "pathid": "-2954142650742837103",
+      "bundle": "initial_base_global-41caf0cf-texture-4.unity3d",
+      "shader": "Hero/Particle/Particle Additive + 1",
+      "cache": "local/runtime/33ea5024d708f7699c4c2a2b.png"
+    },
+    {
+      "id": "MODEL_MINION_TAUNT",
+      "name": "GenFX_Taunt_Shield",
+      "type": "GameObject",
+      "bundle": "essential_base_global-mesh-0.unity3d",
+      "cab": "CAB-66e7137de3b79380e05eb711ae004556",
+      "pathid": "4551474890661330324",
+      "guids": [],
+      "cache": "local/runtime/MODEL_MINION_TAUNT.scene.json",
+      "dependencies": [
+        {
+          "type": "Mesh",
+          "cache": "local/runtime/51d23f443ad97a370a21e36e.mesh.json"
+        },
+        {
+          "type": "Texture2D",
+          "name": "GenFX_ally_taunt_d",
+          "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+          "pathid": "-7032616172599945589",
+          "guids": [
+            "b18d4b070b2265f4fbcee6b08e87f96f"
+          ],
+          "bundle": "essential_base_global-texture-2.unity3d",
+          "material": "GenFX_Taunt_Shield-mat_tauntshield",
+          "cache": "local/runtime/790d84398072e9212080c3a4.png"
+        }
+      ]
+    },
+    {
+      "id": "SFX_BACKSTAB_CAST",
+      "name": "Shared_SneakyMissileStandard2_Cast_1",
+      "type": "AudioClip",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "6039681934443577350",
+      "guids": [
+        "958c5acc06479324591c4cbe64bdb19d"
+      ],
+      "cache": "local/runtime/4aa65ad1689ddee78e71b732.wav"
+    },
+    {
+      "id": "SFX_BACKSTAB_HIT",
+      "name": "Shared_SneakyAttackImpactStandard_1",
+      "type": "AudioClip",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "-9073204961879026863",
+      "guids": [
+        "e7d0809424a1e9f409470530d6de25f8"
+      ],
+      "cache": "local/runtime/6b6930ed5b1118ad692256f2.wav"
+    },
+    {
+      "id": "SFX_EVISCERATE_CAST",
+      "name": "Rogue_Eviscerate_Cast_1",
+      "type": "AudioClip",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "4498138636245036839",
+      "guids": [
+        "d99a1ab5c2ee84846b5721e5a48a61cc"
+      ],
+      "cache": "local/runtime/a306ab6341d6760db61dab34.wav"
+    },
+    {
+      "id": "SFX_EVISCERATE_HIT",
+      "name": "Rogue_Eviscerate_Impact_1",
+      "type": "AudioClip",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "852087262339199135",
+      "guids": [
+        "c043534dbba858548aa7e17e9db62deb"
+      ],
+      "cache": "local/runtime/d5e8bfcb96f2f30360ab72bc.wav"
+    },
+    {
+      "id": "SFX_COLD_BLOOD_START",
+      "name": "Shared_Rage_PreCast_1",
+      "type": "AudioClip",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-27.unity3d",
+      "cab": "CAB-45b9fdea82cf7866c7de02f0c98c4435",
+      "pathid": "-6917102740548983763",
+      "guids": [
+        "1dcec4a83889e9046be78929f2d56115"
+      ],
+      "cache": "local/runtime/c5782d87c4c28d62f0d63c90.wav"
+    },
+    {
+      "id": "SFX_COLD_BLOOD_CAST",
+      "name": "Shared_Rage_Start_1",
+      "type": "AudioClip",
+      "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d",
+      "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+      "pathid": "-3970490615889631968",
+      "guids": [
+        "d1a90251226820f41ad5d271f792cae3"
+      ],
+      "cache": "local/runtime/b0c83ebd881f2286fb34fe1f.wav"
+    }
+  ],
+  "effects": [
+    {
+      "card_id": "CS2_072",
+      "cast": "SFX_BACKSTAB_CAST",
+      "hit": "SFX_BACKSTAB_HIT",
+      "projectile": "VFX_ROGUE_DAGGER",
+      "impact": "VFX_EVISCERATE_TRAIL",
+      "kind": "slash",
+      "cast_duration": 0.38
+    },
+    {
+      "card_id": "EX1_124",
+      "cast": "SFX_EVISCERATE_CAST",
+      "hit": "SFX_EVISCERATE_HIT",
+      "projectile": "VFX_ROGUE_DAGGER",
+      "impact": "VFX_EVISCERATE_TRAIL",
+      "kind": "slash",
+      "cast_duration": 0.55
+    },
+    {
+      "card_id": "CS2_073",
+      "start": "SFX_COLD_BLOOD_START",
+      "cast": "SFX_COLD_BLOOD_CAST",
+      "projectile": "VFX_COLD_BLOOD_FURY",
+      "impact": "VFX_COLD_BLOOD_FACE",
+      "kind": "rage",
+      "cast_duration": 0.7
+    }
+  ],
+  "research": [
+    {
+      "card_id": "CS2_072",
+      "reference": "Sneaky2_Attack_FX.prefab:6a9a8edafcae07b4dadc18db5550e663",
+      "assets": [
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "7764910331802347480",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+          "cache": "local/runtime/536ed788f795a06cc7dacb87.particlesystem.json"
+        },
+        {
+          "name": "Sneaky_Target_Loop_01",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "-5770463444995328833",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-5723646419827824680",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+          "cache": "local/runtime/0b36273fcd2af92587f56a7c.particlesystem.json"
+        },
+        {
+          "name": "Sneaky_Target_Start_01",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "4626610122676909223",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-1042717039231506472",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+          "cache": "local/runtime/0989c52175733a232bcec5d4.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "4911058978784182017",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/3d94bcf1af5533800d8d42dd.particlesystem.json"
+        },
+        {
+          "name": "Shared_SneakyMissileStandard2_Cast_1",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "6039681934443577350",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8287914798411991143",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/9b37dd42c86aa76e26d54605.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-7372151905551173735",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/07148d9664a49b41bf362361.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-229857986176796775",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/2193b47e1a9cabfac1d18189.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-846992634069960807",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/902fb3be406a228c71ad2519.particlesystem.json"
+        },
+        {
+          "name": "Shared_SneakyAttackImpactStandard_1",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "-9073204961879026863",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "6688976298941822873",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/75effc8afea522b5fd863bbf.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-5737117487968340071",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/3c41e34efa4e4032f3845788.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "2465163746958260121",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/8c501ca75c42be5a7a8d505d.particlesystem.json"
+        },
+        {
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "type": "Material",
+          "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+          "pathid": "-1634677431486415221",
+          "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+        }
+      ]
+    },
+    {
+      "card_id": "EX1_124",
+      "reference": "Sneaky_Eviscerate_FX.prefab:0a7e22e526c4aeb47841034843ce06e7",
+      "assets": [
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "7956514334939885042",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+          "cache": "local/runtime/a22d90443d4af5b2de26d91f.particlesystem.json"
+        },
+        {
+          "name": "Sneaky_Target_Loop_01",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "-5770463444995328833",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "4853412758694083309",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/72b12706e37dae0f8f7c5992.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-1738847608166732302",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+          "cache": "local/runtime/fe5a86e1f0eb041336c9b194.particlesystem.json"
+        },
+        {
+          "name": "Sneaky_Target_Start_01",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "4626610122676909223",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-7193862473609499150",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+          "cache": "local/runtime/dc59545db33262033d4a04d8.particlesystem.json"
+        },
+        {
+          "name": "GenFX_EviscerateTrail",
+          "type": "Material",
+          "cab": "CAB-eafd1cdad45fcefbd0ab155f627ea3d7",
+          "pathid": "-8574355557907829029",
+          "bundle": "initial_base_global-41caf0cf-material-2.unity3d"
+        },
+        {
+          "name": "Rogue_Eviscerate_Cast_1",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "4498138636245036839",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-2539406566722159891",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/0a519b23015831ed608d1f43.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-4193809553896244086",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/dbb329f58182e1f7bcca20b6.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "7814804005354273930",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/80acb63a947ebce1fb3c6d21.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "5933506175576046730",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/a553765ff88b08a566df9952.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-8697141457281221494",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/e5fe41656ae95bcaa21be90e.particlesystem.json"
+        },
+        {
+          "name": "Rogue_Eviscerate_Impact_1",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "852087262339199135",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-4498396970125235397",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/49f1283448898562ca8af5f7.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "5845008287603878715",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/7fee23bd5c817cd9b0ba0d44.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3613343930855516987",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/f6f599b92d46b37b4d086026.particlesystem.json"
+        },
+        {
+          "name": "GenFX_ValeeraDagger",
+          "type": "Material",
+          "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+          "pathid": "-1122359109781631554",
+          "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+        },
+        {
+          "name": "FX_ValeeraDaggerSwipe1",
+          "type": "AnimationClip",
+          "cab": "CAB-5b0f39cffd7ca4fee2aabc8c7ed0d29f",
+          "pathid": "-4247536464081537381",
+          "bundle": "initial_base_global-1fbc9c0f-prefab-5.unity3d",
+          "cache": "local/runtime/4f4c16631ad15adbe3d48014.animationclip.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "5353927036709764234",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/16cf5f653c463936e44848d7.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3916049343258426506",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/fe2b715d7e9ab9c53b9c480c.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "3353613226236443786",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/683e96975732ab8e2719910c.particlesystem.json"
+        },
+        {
+          "name": "GenFX_SneakySmokeRenderPlane",
+          "type": "Material",
+          "cab": "CAB-b30ece687426b7e9a663902a58fe38e4",
+          "pathid": "-1634677431486415221",
+          "bundle": "initial_base_global-41caf0cf-material-8.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "1681405475886983995",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/acd6ea1ac8946cbcc1217b52.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-6828404370112648389",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/ae9c3f0d0c77869299b4cdbe.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-3518462784789222597",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/5dccfbe188db78846f47b339.particlesystem.json"
+        }
+      ]
+    },
+    {
+      "card_id": "CS2_073",
+      "reference": "Stealth_ColdBlood_FX.prefab:42db2c47244fc1a40a6b451550563ada",
+      "assets": [
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "8063668143541806808",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+          "cache": "local/runtime/fde39b77fd7bf5c57a0ea444.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "6606186650935650008",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+          "cache": "local/runtime/7d9419f607ce55e2a8921284.particlesystem.json"
+        },
+        {
+          "name": "Shared_Rage_PreCast_1",
+          "type": "AudioClip",
+          "cab": "CAB-45b9fdea82cf7866c7de02f0c98c4435",
+          "pathid": "-6917102740548983763",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-27.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "7209504457113822936",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+          "cache": "local/runtime/a1ee0794f68fde6ad5ecb9bc.particlesystem.json"
+        },
+        {
+          "name": "Shared_Rage_Start_1",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "-3970490615889631968",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "Shared_Rage_Fizzle_1",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "1227670617302767253",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "Sneaky_Target_Start_01",
+          "type": "AudioClip",
+          "cab": "CAB-e4df38b0bd0df22facc200f1e01512ea",
+          "pathid": "4626610122676909223",
+          "bundle": "soundspell_base_global-ffbd77eb-audio-13.unity3d"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "4318409150616598201",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/0ad1cd388b6ea72d6082ba58.particlesystem.json"
+        },
+        {
+          "name": "",
+          "type": "ParticleSystem",
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-91461391158118727",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+          "cache": "local/runtime/78e16412c8369635be65bf74.particlesystem.json"
+        },
+        {
+          "name": "GenFX_HolyHero_CutOutMask",
+          "type": "Material",
+          "cab": "CAB-08424291406c59c12c970e0a93e42644",
+          "pathid": "4155944714964850293",
+          "bundle": "initial_base_global-41caf0cf-material-4.unity3d"
+        },
+        {
+          "name": "GenFX_RageIdleRenderPlane",
+          "type": "Material",
+          "cab": "CAB-de1cc296c5817e5321899d62ba846c8d",
+          "pathid": "-4609551944260078367",
+          "bundle": "initial_base_global-41caf0cf-material-6.unity3d"
+        },
+        {
+          "name": "GenFX_RageFuryPhase1",
+          "type": "Material",
+          "cab": "CAB-de1cc296c5817e5321899d62ba846c8d",
+          "pathid": "-1587642413966083484",
+          "bundle": "initial_base_global-41caf0cf-material-6.unity3d"
+        },
+        {
+          "name": "FX_RagePhase1",
+          "type": "AnimationClip",
+          "cab": "CAB-d7b4697d2c195bdccbdf61b3a0275072",
+          "pathid": "4920236210186908441",
+          "bundle": "initial_base_global-1fbc9c0f-prefab-4.unity3d",
+          "cache": "local/runtime/153a0e824edfb61477914656.animationclip.json"
+        },
+        {
+          "name": "FX_RageFaceOpen",
+          "type": "AnimationClip",
+          "cab": "CAB-d7b4697d2c195bdccbdf61b3a0275072",
+          "pathid": "6514525886849554802",
+          "bundle": "initial_base_global-1fbc9c0f-prefab-4.unity3d",
+          "cache": "local/runtime/75f9c1b8703090ed8cb9f34c.animationclip.json"
+        },
+        {
+          "name": "GenFX_RageFace1_Top",
+          "type": "Material",
+          "cab": "CAB-de1cc296c5817e5321899d62ba846c8d",
+          "pathid": "-3785743688216608475",
+          "bundle": "initial_base_global-41caf0cf-material-6.unity3d"
+        },
+        {
+          "name": "GenFX_RageFace1_Bottom",
+          "type": "Material",
+          "cab": "CAB-de1cc296c5817e5321899d62ba846c8d",
+          "pathid": "3405296506503808125",
+          "bundle": "initial_base_global-41caf0cf-material-6.unity3d"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "嘲讽盾牌使用原网格和材质；背刺音效来自实际关联，贴图复用刺骨匕首/刀痕。",
+    "原粒子与 AnimationClip 参数在 local 缓存；播放轨迹由客户端重实现，不声称恢复原脚本。"
+  ]
+}

@@ -1,0 +1,21 @@
+# 原 ZoneChangeList 完成与布局等待
+
+后续恢复原加载等待、Hand准备谓词及普通/死亡块布局分发；下文保留区域列表节点历史状态，实际姿态/布局算法仍未恢复，见[ORIGINAL_ZONE_LAYOUT](ORIGINAL_ZONE_LAYOUT.md)。
+
+2026-10-12。全卡专属动画、完整Shader/脚本未完成；完整效果启用仍2。本节点恢复区域列表的状态/输入阻塞转发/完成回调和等待，与原任务区域接口连接，实际布局动画仍未恢复。
+
+静态只读ZoneChangeList/ZoneChange/ZoneMgr及FinishWhenPossible迭代器，来源在original-script-audit.json；未执行官方程序集。原Finish只设置m_complete，FireCompleteCallback另行调用且不去重。原输入阻塞依次调用每项的source/destination，两个相同Zone仍各调用一次；changes允许重复，dirtyZones独立HashSet。
+
+NativeZoneChangeList保留id/taskList/local/predicted位置/取消列表与ignore标记、可变change列表、首本地trigger、opaque callback数据。NativeZoneBinding是明确提供的场景端点服务，不是官方Zone组件；其BlockInput调用转发与列表完成操作已恢复，尚未连接完整实际Zone输入/布局管理器。
+
+FinishWhenPossible先等待dirtyZones为空，再等待GameState.IsBusy为false，进入busy阶段后不退回dirty阶段。每次调用独立等待，不覆盖其他请求。原Update Yield时序与取消创建/恢复规则保留；不Yield时不额外检查token。缺失GameState报告一次并终止请求，不标记完成。SetCanceledChangeList仅设置原字段，不擅自充当异步token。
+
+列表实现INativeZoneCompletion并能由NativePowerExecution.BeginZoneChanges实际接收；task完成标记、zone完成标记和范围完成回调彼此独立。没有强制用结束动画时长替代原布局/Busy信号，也没有让Server等待这些步骤。
+
+work/native-zone-change-final.log退出0，24项新增检查：独立字段、change重复/输入转发、独立Finish/重复回调、dirty去重、两阶段等待、Update时序/取消、多等待互不覆盖、缺失服务不重试，以及真实区域列表到任务范围回调的接线。既有61任务执行、33历史收集、27集合、35选择、29定位、57攻击、78193运行时、92召唤及四入场链通过。1165Python通过，15UnityPy版本回退警告，114.40秒。
+
+未完成：实际ZoneChange的Card/Entity布局处理、UpdateDirtyZones/手牌布局协程、原ZoneMgr的服务器区域变更创建与处理、真实输入端点和Busy服务、完整历史/Controller/派生脚本、正式攻击和整卡Shader合成。普通客户端仍走既有语义事件路径，本节点没有新增完整原卡画面/听音/FPS验收。未Computer Use，未改官方安装。
+
+work/build-native-zone-change.log构建退出0，实际Mixer Bundle九编译常量匹配。后台zone_change_1/2在47437端口完成a23a5ff2f83143c0b16f916e3bf6908f：11回合/version33，Shrink2术士18血胜、Shrink1法师-2血负；两端hash均3761c88377e23e05add5147c8ad1f670cefde7c8dc3d66faf1248f240f8d4146，日志无异常/fallback。终局核对命令行后仅清理三自有进程；该比赛不代表区域动画已在正式比赛启用。
+
+UI校准SHA256保持E85CE40298C0FD45916D73FB1CC547AD9C46D1E3E124D2E0465F976C6B547DA6。

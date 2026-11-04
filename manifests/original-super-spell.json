@@ -1,0 +1,630 @@
+{
+  "programs": [
+    {
+      "card_id": "EX1_129",
+      "file": "d4a8efbd566e7fc8149c939b.native-effect.json",
+      "reference": "FanOfKnives_FX.prefab:22bcac556a7b1cc4a9c378da1e677e0c",
+      "source": {
+        "cab": "CAB-67e4d1eb27ce21c49d64680c42a53700",
+        "pathid": "-6072678322588216236",
+        "bundle": "initial_base_global-41caf0cf-prefab-10.unity3d"
+      },
+      "location": 2,
+      "target_behavior": 0,
+      "start_enabled": false,
+      "chain_available": false,
+      "reverse_available": false,
+      "missile": {
+        "m_Enabled": 1,
+        "m_Prefab": {
+          "m_FileID": 5,
+          "m_PathID": -7672780520777780354
+        },
+        "m_ReversePrefab": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_reverseDelay": 0.0,
+        "m_UseSuperSpellLocation": 1,
+        "m_SpawnDelaySecMin": 0.0,
+        "m_SpawnDelaySecMax": 0.0,
+        "m_SpawnInSequence": 0,
+        "m_SpawnOffset": 0.0,
+        "m_PathDurationMin": 0.07999999821186066,
+        "m_PathDurationMax": 0.10000000149011612,
+        "m_PathEaseType": 21,
+        "m_OrientToPath": 1,
+        "m_CenterOffsetPercent": 50.0,
+        "m_CenterPointHeightMin": 0.10000000149011612,
+        "m_CenterPointHeightMax": 0.10000000149011612,
+        "m_RightMin": 0.0,
+        "m_RightMax": 0.20000000298023224,
+        "m_LeftMin": 0.0,
+        "m_LeftMax": 0.20000000298023224,
+        "m_DebugForceMax": 0,
+        "m_DistanceScaleFactor": 8.0,
+        "m_TargetJoint": "",
+        "m_TargetHeightOffset": 0.5,
+        "m_JointUpVector": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "m_UseTargetCardPositionInsteadOfHandSlot": 0,
+        "m_TimesToHitSameTarget": 0
+      },
+      "missile_reference": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+      "impact": {
+        "enabled": true,
+        "prefab": {
+          "prefab_null": false,
+          "prefab_source": {
+            "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+            "pathid": "-5970865601792823625",
+            "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d",
+            "type": "MonoBehaviour"
+          },
+          "prefab_reference": "ReuseFX_Sneaky_Attack_Impact_FanOfKnives.prefab:7bdf273a76b122d41b3c9fb262a6f4a9",
+          "prefab_node": 4
+        },
+        "ranges": [],
+        "use_super_location": false,
+        "location": 6,
+        "parent_to_location": false,
+        "delay_min": 0.0,
+        "delay_max": 0.5,
+        "spawn_offset": 0.0,
+        "game_delay_min": 0.4000000059604645,
+        "game_delay_max": 0.4000000059604645,
+        "adjust_rotation": false,
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "area": {
+        "node": 0,
+        "kind": "SuperSpell",
+        "source": {
+          "cab": "CAB-67e4d1eb27ce21c49d64680c42a53700",
+          "pathid": "-6072678322588216236",
+          "bundle": "initial_base_global-41caf0cf-prefab-10.unity3d"
+        },
+        "friendly": {
+          "enabled": true,
+          "prefab_null": false,
+          "prefab_source": {
+            "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+            "pathid": "2161733710601214673",
+            "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+            "type": "MonoBehaviour"
+          },
+          "prefab_reference": "ReuseFX_Sneaky_AE_FanOfKnives.prefab:60570beba584281469015748504b6ea6",
+          "prefab_node": 15,
+          "use_super_location": true,
+          "location": 0,
+          "parent_to_location": false,
+          "facing": 0,
+          "rotate_x": true,
+          "rotate_y": true,
+          "delay_min": 0.0,
+          "delay_max": 0.0,
+          "raw": {
+            "m_Enabled": 1,
+            "m_Prefab": {
+              "m_FileID": 3,
+              "m_PathID": 2161733710601214673
+            },
+            "m_UseSuperSpellLocation": 1,
+            "m_Location": 0,
+            "m_SetParentToLocation": 0,
+            "m_Facing": 0,
+            "m_FacingOptions": {
+              "m_RotateX": 1,
+              "m_RotateY": 1
+            },
+            "m_SpawnDelaySecMin": 0.0,
+            "m_SpawnDelaySecMax": 0.0
+          }
+        },
+        "opponent": {
+          "enabled": true,
+          "prefab_null": false,
+          "prefab_source": {
+            "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+            "pathid": "5283157761316215628",
+            "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+            "type": "MonoBehaviour"
+          },
+          "prefab_reference": "ReuseFX_Sneaky_AE_FanOfKnives_Opponent.prefab:457dcdab0d0eab2429e985dabe5ee2b6",
+          "prefab_node": 17,
+          "use_super_location": false,
+          "location": 0,
+          "parent_to_location": false,
+          "facing": 0,
+          "rotate_x": true,
+          "rotate_y": true,
+          "delay_min": 0.0,
+          "delay_max": 0.0,
+          "raw": {
+            "m_Enabled": 1,
+            "m_Prefab": {
+              "m_FileID": 3,
+              "m_PathID": 5283157761316215628
+            },
+            "m_UseSuperSpellLocation": 0,
+            "m_Location": 0,
+            "m_SetParentToLocation": 0,
+            "m_Facing": 0,
+            "m_FacingOptions": {
+              "m_RotateX": 1,
+              "m_RotateY": 1
+            },
+            "m_SpawnDelaySecMin": 0.0,
+            "m_SpawnDelaySecMax": 0.0
+          }
+        }
+      }
+    },
+    {
+      "card_id": "EX1_134",
+      "file": "b5870350c3bfca9f0391faa2.native-effect.json",
+      "reference": "Sneaky_Attack_NoStart_FX.prefab:e05d432f4439cb647899c13738ebfeab",
+      "source": {
+        "cab": "CAB-f5623b1ef44274dfdf6d1dfadbf8e7fb",
+        "pathid": "8170560289794278195",
+        "bundle": "initial_base_global-41caf0cf-prefab-11.unity3d"
+      },
+      "location": 1,
+      "target_behavior": 0,
+      "start_enabled": false,
+      "chain_available": false,
+      "reverse_available": false,
+      "missile": {
+        "m_Enabled": 1,
+        "m_Prefab": {
+          "m_FileID": 13,
+          "m_PathID": 8863758378142258815
+        },
+        "m_ReversePrefab": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_reverseDelay": 0.0,
+        "m_UseSuperSpellLocation": 1,
+        "m_SpawnDelaySecMin": 0.0,
+        "m_SpawnDelaySecMax": 0.0,
+        "m_SpawnInSequence": 1,
+        "m_SpawnOffset": 0.0,
+        "m_PathDurationMin": 0.4000000059604645,
+        "m_PathDurationMax": 0.44999998807907104,
+        "m_PathEaseType": 21,
+        "m_OrientToPath": 0,
+        "m_CenterOffsetPercent": 115.0,
+        "m_CenterPointHeightMin": 1.0,
+        "m_CenterPointHeightMax": 1.0,
+        "m_RightMin": 2.0,
+        "m_RightMax": 4.0,
+        "m_LeftMin": 2.0,
+        "m_LeftMax": 4.0,
+        "m_DebugForceMax": 0,
+        "m_DistanceScaleFactor": 8.0,
+        "m_TargetJoint": "",
+        "m_TargetHeightOffset": 0.5,
+        "m_JointUpVector": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "m_UseTargetCardPositionInsteadOfHandSlot": 0,
+        "m_TimesToHitSameTarget": 0
+      },
+      "missile_reference": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+      "impact": {
+        "enabled": true,
+        "prefab": {
+          "prefab_null": false,
+          "prefab_source": {
+            "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+            "pathid": "-2906393756653490488",
+            "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d",
+            "type": "MonoBehaviour"
+          },
+          "prefab_reference": "ReuseFX_Sneaky_Attack_Impact_01.prefab:ad6a1891058a81d499ce5b6f7c330477",
+          "prefab_node": 21
+        },
+        "ranges": [],
+        "use_super_location": false,
+        "location": 6,
+        "parent_to_location": false,
+        "delay_min": 0.0,
+        "delay_max": 0.0,
+        "spawn_offset": 0.0,
+        "game_delay_min": 0.5,
+        "game_delay_max": 0.5,
+        "adjust_rotation": false,
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "area": {
+        "node": 0,
+        "kind": "SuperSpell",
+        "source": {
+          "cab": "CAB-f5623b1ef44274dfdf6d1dfadbf8e7fb",
+          "pathid": "8170560289794278195",
+          "bundle": "initial_base_global-41caf0cf-prefab-11.unity3d"
+        },
+        "friendly": {
+          "enabled": true,
+          "prefab_null": true,
+          "prefab_source": null,
+          "prefab_reference": "",
+          "prefab_node": -1,
+          "use_super_location": false,
+          "location": 0,
+          "parent_to_location": false,
+          "facing": 0,
+          "rotate_x": true,
+          "rotate_y": true,
+          "delay_min": 0.0,
+          "delay_max": 0.0,
+          "raw": {
+            "m_Enabled": 1,
+            "m_Prefab": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_UseSuperSpellLocation": 0,
+            "m_Location": 0,
+            "m_SetParentToLocation": 0,
+            "m_Facing": 0,
+            "m_FacingOptions": {
+              "m_RotateX": 1,
+              "m_RotateY": 1
+            },
+            "m_SpawnDelaySecMin": 0.0,
+            "m_SpawnDelaySecMax": 0.0
+          }
+        },
+        "opponent": {
+          "enabled": true,
+          "prefab_null": true,
+          "prefab_source": null,
+          "prefab_reference": "",
+          "prefab_node": -1,
+          "use_super_location": false,
+          "location": 0,
+          "parent_to_location": false,
+          "facing": 0,
+          "rotate_x": true,
+          "rotate_y": true,
+          "delay_min": 0.0,
+          "delay_max": 0.0,
+          "raw": {
+            "m_Enabled": 1,
+            "m_Prefab": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_UseSuperSpellLocation": 0,
+            "m_Location": 0,
+            "m_SetParentToLocation": 0,
+            "m_Facing": 0,
+            "m_FacingOptions": {
+              "m_RotateX": 1,
+              "m_RotateY": 1
+            },
+            "m_SpawnDelaySecMin": 0.0,
+            "m_SpawnDelaySecMax": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "prefabs": [
+    {
+      "reference": "ReuseFX_Sneaky_AE_FanOfKnives.prefab:60570beba584281469015748504b6ea6",
+      "file": "54657580ed8d827f9ea84970.root-area-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "3274374326311410385",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_AE_FanOfKnives.prefab:60570beba584281469015748504b6ea6",
+        "cache": "local/runtime/54657580ed8d827f9ea84970.root-area-spell.json",
+        "nodes": 2,
+        "particles": 1,
+        "animations": 0,
+        "captures": 0,
+        "actions": {
+          "SpellStateAction": 2,
+          "SpellFinishAction": 1,
+          "ParticlePlayAction": 1,
+          "AudioPlayClipAction": 1,
+          "Wait": 1
+        },
+        "unresolved_parameters": 0,
+        "shader_families": [
+          "Hero/Particle/Particle Additive"
+        ],
+        "unknown_actions": [
+          "AudioPlayClipAction"
+        ],
+        "unsupported_modules": [],
+        "errors": []
+      }
+    },
+    {
+      "reference": "ReuseFX_Sneaky_AE_FanOfKnives_Opponent.prefab:457dcdab0d0eab2429e985dabe5ee2b6",
+      "file": "56d2c7d5b16426c291454e54.root-area-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "-6779112381175047348",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_AE_FanOfKnives_Opponent.prefab:457dcdab0d0eab2429e985dabe5ee2b6",
+        "cache": "local/runtime/56d2c7d5b16426c291454e54.root-area-spell.json",
+        "nodes": 2,
+        "particles": 1,
+        "animations": 0,
+        "captures": 0,
+        "actions": {
+          "SpellStateAction": 2,
+          "SpellFinishAction": 1,
+          "ParticlePlayAction": 1,
+          "AudioPlayClipAction": 1,
+          "Wait": 1
+        },
+        "unresolved_parameters": 0,
+        "shader_families": [
+          "Hero/Particle/Particle Additive"
+        ],
+        "unknown_actions": [
+          "AudioPlayClipAction"
+        ],
+        "unsupported_modules": [],
+        "errors": []
+      }
+    },
+    {
+      "reference": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+      "file": "66903021322d6ccef05c91a6.root-missile-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-1330860700261165441",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_Attack_Missile_02.prefab:dae75c44f91c23440a537cf8d1b86ec0",
+        "cache": "local/runtime/66903021322d6ccef05c91a6.root-missile-spell.json",
+        "nodes": 9,
+        "particles": 2,
+        "animations": 0,
+        "captures": 0,
+        "actions": {
+          "SetProperty": 6,
+          "SpellStateAction": 4,
+          "SpellFinishAction": 1,
+          "Wait": 1,
+          "ParticleStopAction": 2,
+          "ParticlePlayAction": 2,
+          "AudioPlayRandomClipAction": 1,
+          "RandomWaitAction": 1
+        },
+        "unresolved_parameters": 2,
+        "shader_families": [
+          "Custom/FX/FX_SneakySmoke",
+          "Custom/FX/FX_SneakySmokeParticle"
+        ],
+        "unknown_actions": [
+          "AudioPlayRandomClipAction",
+          "SetProperty"
+        ],
+        "unsupported_modules": [],
+        "errors": []
+      }
+    },
+    {
+      "reference": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+      "file": "8d7692871e4e35e68559e40f.root-missile-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-2126308650509798530",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_FanOfKnives_Missile.prefab:ba7694d6e0245294e900438f422b8b61",
+        "cache": "local/runtime/8d7692871e4e35e68559e40f.root-missile-spell.json",
+        "nodes": 3,
+        "particles": 0,
+        "animations": 1,
+        "captures": 0,
+        "actions": {
+          "SpellStateAction": 4,
+          "SetVisibility": 1,
+          "AnimationPlaythroughAction": 1
+        },
+        "unresolved_parameters": 0,
+        "shader_families": [
+          "Hero/AddMultiply/AddMultiply",
+          "Hero/Particle/FX Particle Additive Alpha 2Layer"
+        ],
+        "unknown_actions": [],
+        "unsupported_modules": [],
+        "errors": []
+      }
+    },
+    {
+      "reference": "ReuseFX_Sneaky_Attack_Impact_01.prefab:ad6a1891058a81d499ce5b6f7c330477",
+      "file": "5a1f2c96f5fe0aed6904b61c.impact-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+          "pathid": "9550722683596488",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_Attack_Impact_01.prefab:ad6a1891058a81d499ce5b6f7c330477",
+        "cache": "local/runtime/5a1f2c96f5fe0aed6904b61c.impact-spell.json",
+        "nodes": 11,
+        "particles": 6,
+        "animations": 0,
+        "captures": 1,
+        "actions": {
+          "SpellStateAction": 2,
+          "ParticlePlayAction": 3,
+          "Wait": 1,
+          "SpellFinishAction": 1,
+          "AnimateFloat": 1,
+          "SetMaterialFloat": 2,
+          "AudioPlayRandomClipAction": 1,
+          "ActivateGameObject": 1
+        },
+        "unresolved_parameters": 2,
+        "shader_families": [
+          "Custom/FX/FX_SneakySlash",
+          "Custom/FX/FX_SneakySmoke",
+          "Hero/Additive/Additive",
+          "Hero/Particle/FX Particle Additive Alpha 2Layer",
+          "Hero/Particle/Particle Multiply"
+        ],
+        "unknown_actions": [
+          "AudioPlayRandomClipAction"
+        ],
+        "unsupported_modules": [],
+        "errors": []
+      },
+      "audio_file": "5a1f2c96f5fe0aed6904b61c.impact-audio.json",
+      "audio_errors": []
+    },
+    {
+      "reference": "ReuseFX_Sneaky_Attack_Impact_FanOfKnives.prefab:7bdf273a76b122d41b3c9fb262a6f4a9",
+      "file": "ccff72d7c18be921bf0ed7ab.impact-spell.json",
+      "source": {
+        "source": {
+          "cab": "CAB-6250080dacfbb0ebe4fb54dcd648911a",
+          "pathid": "-6330947963381535049",
+          "type": "GameObject",
+          "bundle": "initial_base_global-41caf0cf-prefab-6.unity3d"
+        },
+        "reference": "ReuseFX_Sneaky_Attack_Impact_FanOfKnives.prefab:7bdf273a76b122d41b3c9fb262a6f4a9",
+        "cache": "local/runtime/ccff72d7c18be921bf0ed7ab.impact-spell.json",
+        "nodes": 11,
+        "particles": 5,
+        "animations": 1,
+        "captures": 1,
+        "actions": {
+          "SpellStateAction": 2,
+          "AnimationPlaythroughAction": 1,
+          "ParticlePlayAction": 2,
+          "SetVisibility": 1,
+          "Wait": 2,
+          "SpellFinishAction": 1,
+          "AudioPlayRandomClipAction": 1,
+          "ParticleStopAction": 1,
+          "ActivateGameObject": 1,
+          "EaseFloat": 1,
+          "SetMaterialFloat": 1
+        },
+        "unresolved_parameters": 2,
+        "shader_families": [
+          "Custom/FX/FX_SneakySmoke",
+          "Hero/AddMultiply/AddMultiply",
+          "Hero/Additive/Additive",
+          "Hero/Particle/FX Particle Additive Alpha 2Layer",
+          "Hero/Particle/Particle Multiply"
+        ],
+        "unknown_actions": [
+          "AudioPlayRandomClipAction"
+        ],
+        "unsupported_modules": [],
+        "errors": []
+      },
+      "audio_file": "ccff72d7c18be921bf0ed7ab.impact-audio.json",
+      "audio_errors": []
+    }
+  ],
+  "trail_textures": [
+    {
+      "png": "366212ea518a2b54553a4348.png",
+      "raw": "366212ea518a2b54553a4348.smoke-texturedata",
+      "name": "GenFX_Smoke06",
+      "source": {
+        "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+        "pathid": "-9079290534293542457",
+        "type": "Texture2D",
+        "bundle": "essential_base_global-texture-2.unity3d"
+      },
+      "sha256": "d452dbcb7bbecbe27b2c511aa23553d34a5caaf903c9b17fa0a07eaa98ddaaec",
+      "width": 128,
+      "height": 128,
+      "format": 10,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "b447db7642f125aa6d29a7cf.png",
+      "raw": "b447db7642f125aa6d29a7cf.smoke-texturedata",
+      "name": "GenFX_Smoke6",
+      "source": {
+        "cab": "CAB-af30cce7b2d47db9dc819a028b605f2f",
+        "pathid": "-3662344470557108300",
+        "type": "Texture2D",
+        "bundle": "cardtexture_base_global-41caf0cf-texture-0.unity3d"
+      },
+      "sha256": "5d0843cd85729c52fe31398c685ec2977f3ae43ce451fcf96a07fc74634f531d",
+      "width": 256,
+      "height": 256,
+      "format": 12,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    },
+    {
+      "png": "0668acc52bcbc0fab5d968bc.png",
+      "raw": "0668acc52bcbc0fab5d968bc.smoke-texturedata",
+      "name": "GenFX_Smoke_Wispy_02",
+      "source": {
+        "cab": "CAB-572cbaceb2612afe464bd92ebbf0736a",
+        "pathid": "3745047225785717878",
+        "type": "Texture2D",
+        "bundle": "essential_base_global-texture-2.unity3d"
+      },
+      "sha256": "17977f084a32a62919b9ca90ab7e0ee57d463a0dafa9192e79cb23b82e42c242",
+      "width": 128,
+      "height": 128,
+      "format": 12,
+      "mips": 1,
+      "color_space": 1,
+      "filter": 2,
+      "aniso": 1,
+      "mip_bias": -0.5,
+      "wrap_u": 0,
+      "wrap_v": 0,
+      "wrap_w": 0
+    }
+  ],
+  "official_geometry_verified": false,
+  "whole_effect_verified": false
+}

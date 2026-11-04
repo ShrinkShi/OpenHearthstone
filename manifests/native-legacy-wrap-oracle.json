@@ -1,0 +1,12 @@
+{
+  "kind": "unity-legacy-wrap-inheritance-oracle",
+  "restored": false,
+  "editor_test": "NativeLegacyWrapChecks.Run",
+  "unity": "2022.3.60f1c1",
+  "cases": 17,
+  "passed": 39,
+  "report": "work/native-legacy-wrap-oracle.json",
+  "validated_priority": ["explicit AnimationState", "AnimationClip", "Animation component", "Once fallback"],
+  "production_sampling": "Repeat and PingPong use the same sampled time for transform/material/visibility. Exact source metadata has been refreshed in existing caches.",
+  "runtime_gap": "Positive Once ending, including Playthrough auto-retirement, and dynamic ClipClock completion/stop/replacement events are supported. Reverse Once boundaries and complete synchronous event dispatch remain incomplete."
+}

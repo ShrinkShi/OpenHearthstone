@@ -1,0 +1,1055 @@
+{
+  "limited_actions": [
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "reference": "RLKFX_LordMarrowgar_CustomSpawnOverride.prefab:8cbf12bd9c26545418fcad0244336ca9",
+      "state": "Action",
+      "source": {
+        "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+        "pathid": "5913873795420807501",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+      },
+      "index": 6,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.10000000149011612,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "0f0ec46ae18fad7f2fa1dad7.native-effect.json",
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_Small_Super.prefab:826a514f97c88fd47bc3fb4b526660d2",
+      "state": "Minion Anim",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-4722765840836432782",
+        "type": "MonoBehaviour",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "index": 2,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.5,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "0f0ec46ae18fad7f2fa1dad7.native-effect.json",
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_Small_Super.prefab:826a514f97c88fd47bc3fb4b526660d2",
+      "state": "Hero Anim",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-4722765840836432782",
+        "type": "MonoBehaviour",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "index": 2,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.5,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "22291b74bdc6da4185f8a0d8.native-effect.json",
+      "reference": "Frost_AE_FrostNova_FX.prefab:871269ca16c3b90419870cb2ebe37dac",
+      "state": "ActionState1",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "8684928514641363595",
+        "type": "MonoBehaviour",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "index": 7,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "2625abebdd54657b9367a411.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_AE_Shockwave_Small_BothSides_Super.prefab:3bf56497742e7584cbcf43e1f7ab276c",
+      "state": "State 1",
+      "source": {
+        "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+        "pathid": "-6371677866637212832",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+      },
+      "index": 0,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.30000001192092896,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "2625abebdd54657b9367a411.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_AE_Shockwave_Small_BothSides_Super.prefab:3bf56497742e7584cbcf43e1f7ab276c",
+      "state": "ActionState",
+      "source": {
+        "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+        "pathid": "7298078293046357633",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+      },
+      "index": 2,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.30000001192092896,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "2703a944d17e31af875f071b.native-effect.json",
+      "reference": "Polymorph_FX.prefab:035a11c49648b0f4fb379d2a5407d861",
+      "state": "DeathState",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "4892062274442227968",
+        "type": "MonoBehaviour",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "index": 4,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "4ee6ffa1aa571c59d1e93571.native-effect.json",
+      "reference": "ReuseFX_BuffImpact_DemonHunter_Small_Super_NoIdle.prefab:4694fc2ee619cd54c9352938dbf84940",
+      "state": "Spell Finish",
+      "source": {
+        "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+        "pathid": "-361057509388189232",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+      },
+      "index": 1,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.5,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "621c28345b06404ee035c496.native-effect.json",
+      "reference": "ReuseFX_Blood_DeathKnight_HandBuff_ScaleUp_OpponentAE_Super.prefab:2426721976ad3e9468d3e806b243d3a1",
+      "state": "Friendly",
+      "source": {
+        "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+        "pathid": "2672387297230820162",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+      },
+      "index": 6,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "621c28345b06404ee035c496.native-effect.json",
+      "reference": "ReuseFX_Blood_DeathKnight_HandBuff_ScaleUp_OpponentAE_Super.prefab:2426721976ad3e9468d3e806b243d3a1",
+      "state": "Action Boosh",
+      "source": {
+        "cab": "CAB-e988daf8172a43d0c6716d70aa00e51e",
+        "pathid": "3236657471805114190",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-1.unity3d"
+      },
+      "index": 2,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "6549e4c82c2d8dd7a8ff3a34.native-effect.json",
+      "reference": "Holy_Targeted_Healing_Minion_FX.prefab:841d04a62b8741b49941829815c28658",
+      "state": "BirthState",
+      "source": {
+        "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+        "pathid": "1665107967474714929",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+      },
+      "index": 10,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "6add519a1ee232e82b2e0ec0.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Medium_Super_WithIdle.prefab:6f83b437b11353d4d8660c204ecd355f",
+      "state": "DeathState",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-1037197477999517331",
+        "type": "MonoBehaviour",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "index": 5,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "762b0d4d666d476a37cc68d7.native-effect.json",
+      "reference": "ReuseFX_TransformImpact_Minion_Arcane_Super.prefab:440eed6d453960b49bad9e13d81151f4",
+      "state": "DeathState",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "4892062274442227968",
+        "type": "MonoBehaviour",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "index": 4,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "81adc1ee5e4a815a745824b5.native-effect.json",
+      "reference": "Frostmourne_OverrideSpawn.prefab:f899391938833d449a884561cf135d0e",
+      "state": "Action Wait",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "3425402841430599548",
+        "type": "MonoBehaviour",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "index": 3,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.10000000149011612,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "90a7e2726cd4aa8e4a09b6a2.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_Small_Super_WithIdle.prefab:c31bdfb48572b6d488f9de72d3a677c7",
+      "state": "Finish",
+      "source": {
+        "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+        "pathid": "4800269376480096694",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+      },
+      "index": 1,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "a1cb21a4028e9494468e6214.native-effect.json",
+      "reference": "Holy_Targeted_Humility_Minion_FX.prefab:cac3affffadedc04891d0abd7d7b7f07",
+      "state": "BirthState",
+      "source": {
+        "cab": "CAB-8e3755b5c7f289df2f238a71420d2eae",
+        "pathid": "1665107967474714929",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-3.unity3d"
+      },
+      "index": 10,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "a8ceb03085470907fbfcf134.native-effect.json",
+      "reference": "ReuseFX_Necrotic_DeathKnight_BuffImpact_GainCorpse_Super.prefab:d10fb7a6897bc214399b5c7b42f22026",
+      "state": "DeathState",
+      "source": {
+        "cab": "CAB-dcd33698c81564b3a1fdae06c084fb67",
+        "pathid": "494788277155169936",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-4.unity3d"
+      },
+      "index": 2,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.5,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "b065ad44069e20c1ebba8485.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_Missile_VerySmall_Super_Simultaneous.prefab:829c6e1a69a97a845a7b4812a15bb366",
+      "state": "DeathState",
+      "source": {
+        "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+        "pathid": "-912265615053973157",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+      },
+      "index": 2,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.20000000298023224,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    },
+    {
+      "file": "ed5ac22edca10110b2504c5f.native-effect.json",
+      "reference": "ReuseFX_Frost_DeathKnight_BuffImpact_CardDraw_Super.prefab:2084d102cd356b04ca792130b749cc21",
+      "state": "State 1",
+      "source": {
+        "cab": "CAB-5c18ca2f59d647acdad5c9876b9dc7ef",
+        "pathid": "4866934734530078969",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-2.unity3d"
+      },
+      "index": 0,
+      "options": {
+        "m_InstanceLimited": 1,
+        "m_InstanceLimitedDuration": 0.30000001192092896,
+        "m_InstanceLimitMaximum": 1,
+        "m_LimitMaxOutOption": 0
+      }
+    }
+  ],
+  "explicit_templates": [
+    {
+      "file": "0a68d36d48a0f777097c01e6.native-effect.json",
+      "reference": "RLKFX_LordMarrowgar_CustomSpawnOverride.prefab:8cbf12bd9c26545418fcad0244336ca9",
+      "state": "Action",
+      "source": {
+        "cab": "CAB-1eea4f12f90886ed207d2750471983f5",
+        "pathid": "5913873795420807501",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-84b1a5c7-prefab-1.unity3d"
+      },
+      "index": 6,
+      "template_source": {
+        "cab": "CAB-cb5dcbff875df9d17ec5f2e8f08234e9",
+        "pathid": "-3578336463979097055",
+        "type": "AudioSource",
+        "bundle": "initial_base_global-ffbd77eb-prefab-1.unity3d"
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 4156048342481097761
+        },
+        "m_Enabled": 1,
+        "OutputAudioMixerGroup": {
+          "m_FileID": 1,
+          "m_PathID": 8739943912118694949
+        },
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Resource": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_PlayOnAwake": false,
+        "m_Volume": 1.0,
+        "m_Pitch": 1.0,
+        "Loop": false,
+        "Mute": false,
+        "Spatialize": false,
+        "SpatializePostEffects": false,
+        "Priority": 128,
+        "DopplerLevel": 1.0,
+        "MinDistance": 100.0,
+        "MaxDistance": 500.0,
+        "Pan2D": 0.0,
+        "rolloffMode": 1,
+        "BypassEffects": false,
+        "BypassListenerEffects": false,
+        "BypassReverbZones": false,
+        "rolloffCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            },
+            {
+              "time": 1.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "panLevelCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "spreadCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "reverbZoneMixCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      },
+      "mixer_group": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "8739943912118694949",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      }
+    },
+    {
+      "file": "2c575b7037eb26b115a9f5fd.native-effect.json",
+      "reference": "Rage_BloodLust_FX.prefab:314caa92b3a517d4ba25921213373cc2",
+      "state": "BirthState",
+      "source": {
+        "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+        "pathid": "-1298189383947985034",
+        "type": "MonoBehaviour",
+        "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+      },
+      "index": 8,
+      "template_source": {
+        "cab": "CAB-7a90043267d27673fa3a284c5c408b57",
+        "pathid": "3152687695816417142",
+        "type": "AudioSource",
+        "bundle": "initial_base_global-41caf0cf-prefab-5.unity3d"
+      },
+      "values": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": -7316790929871872138
+        },
+        "m_Enabled": 1,
+        "OutputAudioMixerGroup": {
+          "m_FileID": 4,
+          "m_PathID": 8739943912118694949
+        },
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_Resource": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_PlayOnAwake": false,
+        "m_Volume": 1.0,
+        "m_Pitch": 1.0,
+        "Loop": false,
+        "Mute": false,
+        "Spatialize": false,
+        "SpatializePostEffects": false,
+        "Priority": 128,
+        "DopplerLevel": 1.0,
+        "MinDistance": 1.0,
+        "MaxDistance": 500.0,
+        "Pan2D": 0.0,
+        "rolloffMode": 0,
+        "BypassEffects": false,
+        "BypassListenerEffects": false,
+        "BypassReverbZones": false,
+        "rolloffCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            },
+            {
+              "time": 1.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "panLevelCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 0
+        },
+        "spreadCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "reverbZoneMixCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 0
+        }
+      },
+      "mixer_group": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "8739943912118694949",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      }
+    }
+  ],
+  "mixer_assets": [
+    {
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "8739943912118694949",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "type": "AudioMixerGroupController",
+      "values": {
+        "m_Name": "L_SFX",
+        "m_AudioMixer": {
+          "m_FileID": 0,
+          "m_PathID": -8058976051137792987
+        },
+        "m_GroupID": {
+          "data[0]": 1297285848,
+          "data[1]": 1194699146,
+          "data[2]": 4093623706,
+          "data[3]": 3052163823
+        },
+        "m_Children": []
+      }
+    },
+    {
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-8058976051137792987",
+        "type": "AudioMixerController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "type": "AudioMixerController",
+      "values": {
+        "m_Name": "LegendaryDucking",
+        "m_OutputGroup": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "m_MasterGroup": {
+          "m_FileID": 0,
+          "m_PathID": -2881098312436796379
+        },
+        "m_Snapshots": [
+          {
+            "m_FileID": 0,
+            "m_PathID": -4331816685678152667
+          }
+        ],
+        "m_StartSnapshot": {
+          "m_FileID": 0,
+          "m_PathID": -4331816685678152667
+        },
+        "m_SuspendThreshold": -80.0,
+        "m_EnableSuspend": true,
+        "m_UpdateMode": 0,
+        "m_MixerConstant": {
+          "groups": [
+            {
+              "parentConstantIndex": -1,
+              "volumeIndex": 0,
+              "pitchIndex": 1,
+              "mute": false,
+              "solo": false,
+              "bypassEffects": false
+            },
+            {
+              "parentConstantIndex": 0,
+              "volumeIndex": 2,
+              "pitchIndex": 3,
+              "mute": false,
+              "solo": false,
+              "bypassEffects": false
+            },
+            {
+              "parentConstantIndex": 0,
+              "volumeIndex": 4,
+              "pitchIndex": 5,
+              "mute": false,
+              "solo": false,
+              "bypassEffects": false
+            },
+            {
+              "parentConstantIndex": 0,
+              "volumeIndex": 6,
+              "pitchIndex": 7,
+              "mute": false,
+              "solo": false,
+              "bypassEffects": false
+            }
+          ],
+          "groupGUIDs": [
+            {
+              "data[0]": 2118104197,
+              "data[1]": 1336121228,
+              "data[2]": 2224726665,
+              "data[3]": 3498334330
+            },
+            {
+              "data[0]": 3557600511,
+              "data[1]": 1089484330,
+              "data[2]": 2212441264,
+              "data[3]": 2797044335
+            },
+            {
+              "data[0]": 1297285848,
+              "data[1]": 1194699146,
+              "data[2]": 4093623706,
+              "data[3]": 3052163823
+            },
+            {
+              "data[0]": 2916965287,
+              "data[1]": 1187994398,
+              "data[2]": 3913350066,
+              "data[3]": 2506368198
+            }
+          ],
+          "effects": [
+            {
+              "type": -2,
+              "groupConstantIndex": 1,
+              "sendTargetEffectIndex": 4294967295,
+              "wetMixLevelIndex": 4294967295,
+              "prevEffectIndex": 4294967295,
+              "bypass": false,
+              "parameterIndices": []
+            },
+            {
+              "type": -5,
+              "groupConstantIndex": 1,
+              "sendTargetEffectIndex": 4294967295,
+              "wetMixLevelIndex": 4294967295,
+              "prevEffectIndex": 0,
+              "bypass": false,
+              "parameterIndices": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ]
+            },
+            {
+              "type": -2,
+              "groupConstantIndex": 2,
+              "sendTargetEffectIndex": 4294967295,
+              "wetMixLevelIndex": 4294967295,
+              "prevEffectIndex": 1,
+              "bypass": false,
+              "parameterIndices": []
+            },
+            {
+              "type": -5,
+              "groupConstantIndex": 2,
+              "sendTargetEffectIndex": 4294967295,
+              "wetMixLevelIndex": 4294967295,
+              "prevEffectIndex": 2,
+              "bypass": false,
+              "parameterIndices": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+              ]
+            },
+            {
+              "type": -2,
+              "groupConstantIndex": 3,
+              "sendTargetEffectIndex": 4294967295,
+              "wetMixLevelIndex": 4294967295,
+              "prevEffectIndex": 3,
+              "bypass": false,
+              "parameterIndices": []
+            },
+            {
+              "type": -3,
+              "groupConstantIndex": 3,
+              "sendTargetEffectIndex": 1,
+              "wetMixLevelIndex": 22,
+              "prevEffectIndex": 4,
+              "bypass": false,
+              "parameterIndices": []
+            },
+            {
+              "type": -3,
+              "groupConstantIndex": 3,
+              "sendTargetEffectIndex": 3,
+              "wetMixLevelIndex": 23,
+              "prevEffectIndex": 5,
+              "bypass": false,
+              "parameterIndices": []
+            }
+          ],
+          "effectGUIDs": [
+            {
+              "data[0]": 1887977788,
+              "data[1]": 1301101587,
+              "data[2]": 3775059356,
+              "data[3]": 862850536
+            },
+            {
+              "data[0]": 2465868036,
+              "data[1]": 1153302972,
+              "data[2]": 3207298971,
+              "data[3]": 3259143188
+            },
+            {
+              "data[0]": 2629626820,
+              "data[1]": 1111817173,
+              "data[2]": 994311301,
+              "data[3]": 1535733219
+            },
+            {
+              "data[0]": 1531802655,
+              "data[1]": 1293531811,
+              "data[2]": 1496867713,
+              "data[3]": 2475909327
+            },
+            {
+              "data[0]": 128620818,
+              "data[1]": 1286131362,
+              "data[2]": 3946520731,
+              "data[3]": 3991603980
+            },
+            {
+              "data[0]": 1070149252,
+              "data[1]": 1237303841,
+              "data[2]": 4081258392,
+              "data[3]": 3233378052
+            },
+            {
+              "data[0]": 1687849611,
+              "data[1]": 1228287546,
+              "data[2]": 4257832622,
+              "data[3]": 2602853579
+            }
+          ],
+          "numSideChainBuffers": 2,
+          "snapshots": [
+            {
+              "nameHash": 3577444195,
+              "values": [
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                -10.0,
+                3.0,
+                0.0010000000474974513,
+                0.009999999776482582,
+                0.0,
+                10.0,
+                1.0,
+                -17.0,
+                4.0,
+                0.0010000000474974513,
+                0.014999999664723873,
+                0.0,
+                10.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              "transitionTypes": [],
+              "transitionIndices": []
+            }
+          ],
+          "snapshotGUIDs": [
+            {
+              "data[0]": 4227415059,
+              "data[1]": 1328008062,
+              "data[2]": 1944504736,
+              "data[3]": 2107537377
+            }
+          ],
+          "groupNameBuffer": [
+            77,
+            97,
+            115,
+            116,
+            101,
+            114,
+            0,
+            76,
+            95,
+            83,
+            116,
+            105,
+            110,
+            103,
+            101,
+            114,
+            0,
+            76,
+            95,
+            83,
+            70,
+            88,
+            0,
+            76,
+            95,
+            86,
+            79,
+            0,
+            0
+          ],
+          "snapshotNameBuffer": [
+            83,
+            110,
+            97,
+            112,
+            115,
+            104,
+            111,
+            116,
+            0,
+            0
+          ],
+          "pluginEffectNameBuffer": [
+            0
+          ],
+          "exposedParameterNames": [],
+          "exposedParameterIndices": []
+        }
+      }
+    },
+    {
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-2881098312436796379",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "type": "AudioMixerGroupController",
+      "values": {
+        "m_Name": "Master",
+        "m_AudioMixer": {
+          "m_FileID": 0,
+          "m_PathID": -8058976051137792987
+        },
+        "m_GroupID": {
+          "data[0]": 2118104197,
+          "data[1]": 1336121228,
+          "data[2]": 2224726665,
+          "data[3]": 3498334330
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 7669818204083074085
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 8739943912118694949
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": -9001829074451614683
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "7669818204083074085",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "type": "AudioMixerGroupController",
+      "values": {
+        "m_Name": "L_Stinger",
+        "m_AudioMixer": {
+          "m_FileID": 0,
+          "m_PathID": -8058976051137792987
+        },
+        "m_GroupID": {
+          "data[0]": 3557600511,
+          "data[1]": 1089484330,
+          "data[2]": 2212441264,
+          "data[3]": 2797044335
+        },
+        "m_Children": []
+      }
+    },
+    {
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-9001829074451614683",
+        "type": "AudioMixerGroupController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "type": "AudioMixerGroupController",
+      "values": {
+        "m_Name": "L_VO",
+        "m_AudioMixer": {
+          "m_FileID": 0,
+          "m_PathID": -8058976051137792987
+        },
+        "m_GroupID": {
+          "data[0]": 2916965287,
+          "data[1]": 1187994398,
+          "data[2]": 3913350066,
+          "data[3]": 2506368198
+        },
+        "m_Children": []
+      }
+    },
+    {
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-4331816685678152667",
+        "type": "AudioMixerSnapshotController",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "type": "AudioMixerSnapshotController",
+      "values": {
+        "m_Name": "Snapshot",
+        "m_AudioMixer": {
+          "m_FileID": 0,
+          "m_PathID": -8058976051137792987
+        },
+        "m_SnapshotID": {
+          "data[0]": 4227415059,
+          "data[1]": 1328008062,
+          "data[2]": 1944504736,
+          "data[3]": 2107537377
+        }
+      }
+    }
+  ],
+  "complete": false,
+  "notes": [
+    "Exact original options and mixer dependencies. Mixer assets are source metadata, not rebuilt Unity mixer resources."
+  ]
+}

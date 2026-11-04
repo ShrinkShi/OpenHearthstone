@@ -1,0 +1,1806 @@
+{
+  "reference": "ReuseFX_Necrotic_DeathKnight_OverrideSpawn_HeroPower_Super.prefab:d71d2c073842bf24a9a24f9cabada171",
+  "timelines": [
+    {
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "-3102792596762892604",
+        "type": "PlayableDirector",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "node": 1,
+      "initial_time": 0.0,
+      "wrap": 2,
+      "exposed": [
+        {
+          "name": "-2037180702",
+          "node": 15,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "7339366037341824708",
+            "type": "GameObject",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "name": "-511187549",
+          "node": 20,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4436753158236248380",
+            "type": "AudioSource",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        },
+        {
+          "name": "610327641",
+          "node": 7,
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "8921848370282587844",
+            "type": "GameObject",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          }
+        }
+      ],
+      "tracks": [
+        {
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "6480625477807203229",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "kind": "AnimationTrack",
+          "node": 2,
+          "muted": false,
+          "clips": [
+            {
+              "start": 0.0,
+              "duration": 3.0,
+              "clip_in": 0.0,
+              "speed": 1.0,
+              "pre": 1,
+              "post": 1,
+              "pre_time": 0.0,
+              "post_time": 0,
+              "source": {
+                "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+                "pathid": "2105122400581084061",
+                "type": "MonoBehaviour",
+                "bundle": "essential_base_global-prefab-0.unity3d"
+              },
+              "original_asset": {
+                "m_GameObject": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Enabled": 1,
+                "m_Script": {
+                  "m_FileID": 0,
+                  "m_PathID": -9206685818987158576
+                },
+                "m_Name": "AnimationPlayableAsset",
+                "m_Clip": {
+                  "m_FileID": 0,
+                  "m_PathID": 9031852618693110409
+                },
+                "m_Position": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "m_EulerAngles": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "m_UseTrackMatchFields": 1,
+                "m_MatchTargetFields": 63,
+                "m_RemoveStartOffset": 1,
+                "m_ApplyFootIK": 1,
+                "m_Loop": 0,
+                "m_Version": 1,
+                "m_Rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "w": 1.0
+                }
+              },
+              "original": {
+                "m_Version": 1,
+                "m_Start": 0.0,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": 2105122400581084061
+                },
+                "m_Duration": 3.0,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": 6480625477807203229
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": -1.0,
+                "m_BlendOutDuration": -1.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 1,
+                "m_PreExtrapolationMode": 1,
+                "m_PostExtrapolationTime": Infinity,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "ReuseFX_Decay_DeathKnight_GhoulCharge_CustomSpawn"
+              },
+              "animation": "d200b975c808edda4d504ea2",
+              "compatible": true,
+              "post_unlimited": true
+            }
+          ],
+          "original": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Enabled": 1,
+            "m_Script": {
+              "m_FileID": 0,
+              "m_PathID": 5412775887553941483
+            },
+            "m_Name": "Animation Track",
+            "m_Version": 3,
+            "m_AnimClip": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Locked": 0,
+            "m_Muted": 0,
+            "m_CustomPlayableFullTypename": "",
+            "m_Curves": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Parent": {
+              "m_FileID": 0,
+              "m_PathID": -1204577994028063843
+            },
+            "m_Children": [],
+            "m_Clips": [
+              {
+                "m_Version": 1,
+                "m_Start": 0.0,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": 2105122400581084061
+                },
+                "m_Duration": 3.0,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": 6480625477807203229
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": -1.0,
+                "m_BlendOutDuration": -1.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 1,
+                "m_PreExtrapolationMode": 1,
+                "m_PostExtrapolationTime": Infinity,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "ReuseFX_Decay_DeathKnight_GhoulCharge_CustomSpawn"
+              }
+            ],
+            "m_Markers": {
+              "m_Objects": []
+            },
+            "m_InfiniteClipPreExtrapolation": 0,
+            "m_InfiniteClipPostExtrapolation": 0,
+            "m_InfiniteClipOffsetPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_InfiniteClipOffsetEulerAngles": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_InfiniteClipTimeOffset": 0.0,
+            "m_InfiniteClipRemoveOffset": 0,
+            "m_InfiniteClipApplyFootIK": 1,
+            "mInfiniteClipLoop": 0,
+            "m_MatchTargetFields": 63,
+            "m_Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_EulerAngles": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "m_AvatarMask": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_ApplyAvatarMask": 1,
+            "m_TrackOffset": 0,
+            "m_InfiniteClip": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_OpenClipOffsetRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "m_Rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "m_ApplyOffsets": 0
+          }
+        },
+        {
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-1503415847783079011",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "kind": "ControlRandomizedTrack",
+          "node": -1,
+          "muted": false,
+          "clips": [
+            {
+              "start": 0.3,
+              "duration": 2.783333333333333,
+              "clip_in": 0.0,
+              "speed": 1.0,
+              "pre": 0,
+              "post": 0,
+              "pre_time": 0.0,
+              "post_time": 0.0,
+              "source": {
+                "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+                "pathid": "-565491015011966051",
+                "type": "MonoBehaviour",
+                "bundle": "essential_base_global-prefab-0.unity3d"
+              },
+              "original_asset": {
+                "m_GameObject": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Enabled": 1,
+                "m_Script": {
+                  "m_FileID": 0,
+                  "m_PathID": -7410467278107476075
+                },
+                "m_Name": "ControlRandomizedPlayableAsset",
+                "sourceGameObject": {
+                  "exposedName": "610327641",
+                  "defaultValue": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  }
+                },
+                "prefabGameObject": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "updateParticle": 1,
+                "updateDirector": 1,
+                "updateITimeControl": 1,
+                "searchHierarchy": 1,
+                "active": 1,
+                "postPlayback": 2
+              },
+              "original": {
+                "m_Version": 1,
+                "m_Start": 0.3,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": -565491015011966051
+                },
+                "m_Duration": 2.783333333333333,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": -1503415847783079011
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": 0.0,
+                "m_BlendOutDuration": 0.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "FX_Dust"
+              },
+              "animation": "",
+              "compatible": false,
+              "post_unlimited": false,
+              "control": {
+                "node": 7,
+                "particle_roots": [
+                  7
+                ],
+                "active": true,
+                "post": 2,
+                "search": true,
+                "update_director": true,
+                "update_time_control": true,
+                "prefab_null": true,
+                "compatible": true,
+                "unsupported_components": []
+              }
+            }
+          ],
+          "original": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Enabled": 1,
+            "m_Script": {
+              "m_FileID": 0,
+              "m_PathID": -8395088863650285938
+            },
+            "m_Name": "Control Randomized Track",
+            "m_Version": 3,
+            "m_AnimClip": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Locked": 0,
+            "m_Muted": 0,
+            "m_CustomPlayableFullTypename": "",
+            "m_Curves": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Parent": {
+              "m_FileID": 0,
+              "m_PathID": -1204577994028063843
+            },
+            "m_Children": [],
+            "m_Clips": [
+              {
+                "m_Version": 1,
+                "m_Start": 0.3,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": -565491015011966051
+                },
+                "m_Duration": 2.783333333333333,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": -1503415847783079011
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": 0.0,
+                "m_BlendOutDuration": 0.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "FX_Dust"
+              }
+            ],
+            "m_Markers": {
+              "m_Objects": []
+            }
+          }
+        },
+        {
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "1153232061101466525",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "kind": "ControlRandomizedTrack",
+          "node": -1,
+          "muted": false,
+          "clips": [
+            {
+              "start": 0.0,
+              "duration": 3.0,
+              "clip_in": 0.0,
+              "speed": 1.0,
+              "pre": 0,
+              "post": 0,
+              "pre_time": 0.0,
+              "post_time": 0.0,
+              "source": {
+                "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+                "pathid": "-4438540650243923043",
+                "type": "MonoBehaviour",
+                "bundle": "essential_base_global-prefab-0.unity3d"
+              },
+              "original_asset": {
+                "m_GameObject": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Enabled": 1,
+                "m_Script": {
+                  "m_FileID": 0,
+                  "m_PathID": -7410467278107476075
+                },
+                "m_Name": "ControlRandomizedPlayableAsset",
+                "sourceGameObject": {
+                  "exposedName": "-2037180702",
+                  "defaultValue": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  }
+                },
+                "prefabGameObject": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "updateParticle": 1,
+                "updateDirector": 1,
+                "updateITimeControl": 1,
+                "searchHierarchy": 1,
+                "active": 1,
+                "postPlayback": 2
+              },
+              "original": {
+                "m_Version": 1,
+                "m_Start": 0.0,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": -4438540650243923043
+                },
+                "m_Duration": 3.0,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": 1153232061101466525
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": 0.0,
+                "m_BlendOutDuration": 0.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "FX_InitialRocks"
+              },
+              "animation": "",
+              "compatible": false,
+              "post_unlimited": false,
+              "control": {
+                "node": 15,
+                "particle_roots": [
+                  15
+                ],
+                "active": true,
+                "post": 2,
+                "search": true,
+                "update_director": true,
+                "update_time_control": true,
+                "prefab_null": true,
+                "compatible": true,
+                "unsupported_components": []
+              }
+            }
+          ],
+          "original": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Enabled": 1,
+            "m_Script": {
+              "m_FileID": 0,
+              "m_PathID": -8395088863650285938
+            },
+            "m_Name": "Control Randomized Track (1)",
+            "m_Version": 3,
+            "m_AnimClip": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Locked": 0,
+            "m_Muted": 0,
+            "m_CustomPlayableFullTypename": "",
+            "m_Curves": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Parent": {
+              "m_FileID": 0,
+              "m_PathID": -1204577994028063843
+            },
+            "m_Children": [],
+            "m_Clips": [
+              {
+                "m_Version": 1,
+                "m_Start": 0.0,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": -4438540650243923043
+                },
+                "m_Duration": 3.0,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": 1153232061101466525
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": 0.0,
+                "m_BlendOutDuration": 0.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "FX_InitialRocks"
+              }
+            ],
+            "m_Markers": {
+              "m_Objects": []
+            }
+          }
+        },
+        {
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-4011314776352070755",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "kind": "CameraShaker2Track",
+          "node": -1,
+          "muted": false,
+          "clips": [
+            {
+              "start": 0.0,
+              "duration": 0.05,
+              "clip_in": 0.0,
+              "speed": 1.0,
+              "pre": 0,
+              "post": 0,
+              "pre_time": 0.0,
+              "post_time": 0.0,
+              "source": {
+                "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+                "pathid": "2347306860882453405",
+                "type": "MonoBehaviour",
+                "bundle": "essential_base_global-prefab-0.unity3d"
+              },
+              "original_asset": {
+                "m_GameObject": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Enabled": 1,
+                "m_Script": {
+                  "m_FileID": 0,
+                  "m_PathID": -7694760085388573979
+                },
+                "m_Name": "CameraShaker2Asset",
+                "template": {
+                  "m_Amount": {
+                    "x": 0.03999999910593033,
+                    "y": 0.03999999910593033,
+                    "z": 0.03999999910593033
+                  },
+                  "m_IntensityCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                      },
+                      {
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "m_interval": 0.07500000298023224
+                }
+              },
+              "original": {
+                "m_Version": 1,
+                "m_Start": 0.0,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": 2347306860882453405
+                },
+                "m_Duration": 0.05,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": -4011314776352070755
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": 0.0,
+                "m_BlendOutDuration": 0.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "CameraShaker2Asset"
+              },
+              "animation": "",
+              "compatible": false,
+              "post_unlimited": false,
+              "shaker": {
+                "amount": {
+                  "x": 0.03999999910593033,
+                  "y": 0.03999999910593033,
+                  "z": 0.03999999910593033
+                },
+                "interval": 0.07500000298023224,
+                "curve": [
+                  {
+                    "time": 0.0,
+                    "value": 1.0,
+                    "inSlope": 0.0,
+                    "outSlope": 0.0,
+                    "inWeight": 0.0,
+                    "outWeight": 0.0,
+                    "weightedMode": 0,
+                    "step": false
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 1.0,
+                    "inSlope": 0.0,
+                    "outSlope": 0.0,
+                    "inWeight": 0.0,
+                    "outWeight": 0.0,
+                    "weightedMode": 0,
+                    "step": false
+                  }
+                ],
+                "pre_wrap": 2,
+                "post_wrap": 2,
+                "compatible": true
+              }
+            },
+            {
+              "start": 0.3,
+              "duration": 1.2833333333333332,
+              "clip_in": 0.0,
+              "speed": 1.0,
+              "pre": 0,
+              "post": 0,
+              "pre_time": 0.0,
+              "post_time": 0.0,
+              "source": {
+                "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+                "pathid": "-2390349884013648995",
+                "type": "MonoBehaviour",
+                "bundle": "essential_base_global-prefab-0.unity3d"
+              },
+              "original_asset": {
+                "m_GameObject": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Enabled": 1,
+                "m_Script": {
+                  "m_FileID": 0,
+                  "m_PathID": -7694760085388573979
+                },
+                "m_Name": "CameraShaker2Asset",
+                "template": {
+                  "m_Amount": {
+                    "x": 0.029999999329447746,
+                    "y": 0.029999999329447746,
+                    "z": 0.029999999329447746
+                  },
+                  "m_IntensityCurve": {
+                    "m_Curve": [
+                      {
+                        "time": 0.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                      },
+                      {
+                        "time": 0.10528282821178436,
+                        "value": 0.9765145778656006,
+                        "inSlope": -0.9363335371017456,
+                        "outSlope": -0.9363335371017456,
+                        "weightedMode": 0,
+                        "inWeight": 0.5963569283485413,
+                        "outWeight": 0.30978408455848694
+                      },
+                      {
+                        "time": 0.20031878352165222,
+                        "value": 0.1541827917098999,
+                        "inSlope": -1.4073981046676636,
+                        "outSlope": -1.4073981046676636,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.5311033725738525
+                      },
+                      {
+                        "time": 0.3382459878921509,
+                        "value": 0.04564853012561798,
+                        "inSlope": -0.24003614485263824,
+                        "outSlope": -0.24003614485263824,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.12904009222984314
+                      },
+                      {
+                        "time": 1.0,
+                        "value": 0.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                      }
+                    ],
+                    "m_PreInfinity": 2,
+                    "m_PostInfinity": 2,
+                    "m_RotationOrder": 4
+                  },
+                  "m_interval": 0.05000000074505806
+                }
+              },
+              "original": {
+                "m_Version": 1,
+                "m_Start": 0.3,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": -2390349884013648995
+                },
+                "m_Duration": 1.2833333333333332,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": -4011314776352070755
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": 0.0,
+                "m_BlendOutDuration": 0.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "CameraShaker2Asset"
+              },
+              "animation": "",
+              "compatible": false,
+              "post_unlimited": false,
+              "shaker": {
+                "amount": {
+                  "x": 0.029999999329447746,
+                  "y": 0.029999999329447746,
+                  "z": 0.029999999329447746
+                },
+                "interval": 0.05000000074505806,
+                "curve": [
+                  {
+                    "time": 0.0,
+                    "value": 1.0,
+                    "inSlope": 0.0,
+                    "outSlope": 0.0,
+                    "inWeight": 0.0,
+                    "outWeight": 0.0,
+                    "weightedMode": 0,
+                    "step": false
+                  },
+                  {
+                    "time": 0.10528282821178436,
+                    "value": 0.9765145778656006,
+                    "inSlope": -0.9363335371017456,
+                    "outSlope": -0.9363335371017456,
+                    "inWeight": 0.5963569283485413,
+                    "outWeight": 0.30978408455848694,
+                    "weightedMode": 0,
+                    "step": false
+                  },
+                  {
+                    "time": 0.20031878352165222,
+                    "value": 0.1541827917098999,
+                    "inSlope": -1.4073981046676636,
+                    "outSlope": -1.4073981046676636,
+                    "inWeight": 0.3333333432674408,
+                    "outWeight": 0.5311033725738525,
+                    "weightedMode": 0,
+                    "step": false
+                  },
+                  {
+                    "time": 0.3382459878921509,
+                    "value": 0.04564853012561798,
+                    "inSlope": -0.24003614485263824,
+                    "outSlope": -0.24003614485263824,
+                    "inWeight": 0.3333333432674408,
+                    "outWeight": 0.12904009222984314,
+                    "weightedMode": 0,
+                    "step": false
+                  },
+                  {
+                    "time": 1.0,
+                    "value": 0.0,
+                    "inSlope": 0.0,
+                    "outSlope": 0.0,
+                    "inWeight": 0.0,
+                    "outWeight": 0.0,
+                    "weightedMode": 0,
+                    "step": false
+                  }
+                ],
+                "pre_wrap": 2,
+                "post_wrap": 2,
+                "compatible": true
+              }
+            }
+          ],
+          "original": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Enabled": 1,
+            "m_Script": {
+              "m_FileID": 0,
+              "m_PathID": 1481942008329766911
+            },
+            "m_Name": "Camera Shaker 2 Track",
+            "m_Version": 3,
+            "m_AnimClip": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Locked": 0,
+            "m_Muted": 0,
+            "m_CustomPlayableFullTypename": "",
+            "m_Curves": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Parent": {
+              "m_FileID": 0,
+              "m_PathID": -1204577994028063843
+            },
+            "m_Children": [],
+            "m_Clips": [
+              {
+                "m_Version": 1,
+                "m_Start": 0.0,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": 2347306860882453405
+                },
+                "m_Duration": 0.05,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": -4011314776352070755
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": 0.0,
+                "m_BlendOutDuration": 0.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "CameraShaker2Asset"
+              },
+              {
+                "m_Version": 1,
+                "m_Start": 0.3,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": -2390349884013648995
+                },
+                "m_Duration": 1.2833333333333332,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": -4011314776352070755
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": 0.0,
+                "m_BlendOutDuration": 0.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "CameraShaker2Asset"
+              }
+            ],
+            "m_Markers": {
+              "m_Objects": []
+            }
+          }
+        },
+        {
+          "source": {
+            "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+            "pathid": "-2002693977982147683",
+            "type": "MonoBehaviour",
+            "bundle": "essential_base_global-prefab-0.unity3d"
+          },
+          "kind": "SoundTimelineTrack",
+          "node": 20,
+          "muted": false,
+          "clips": [
+            {
+              "start": 0.0,
+              "duration": 5.0,
+              "clip_in": 0.0,
+              "speed": 1.0,
+              "pre": 0,
+              "post": 0,
+              "pre_time": 0.0,
+              "post_time": 0.0,
+              "source": {
+                "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+                "pathid": "-6307875960184151139",
+                "type": "MonoBehaviour",
+                "bundle": "essential_base_global-prefab-0.unity3d"
+              },
+              "original_asset": {
+                "m_GameObject": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Enabled": 1,
+                "m_Script": {
+                  "m_FileID": 0,
+                  "m_PathID": -1182495152902680163
+                },
+                "m_Name": "SoundTimelineAsset",
+                "m_AudioSource": {
+                  "exposedName": "-511187549",
+                  "defaultValue": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  }
+                }
+              },
+              "original": {
+                "m_Version": 1,
+                "m_Start": 0.0,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": -6307875960184151139
+                },
+                "m_Duration": 5.0,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": -2002693977982147683
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": -1.0,
+                "m_BlendOutDuration": -1.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "ReuseFX_Necrotic_DeathKnight_CustomSpawn_GhoulCharge_Token_Sound"
+              },
+              "animation": "",
+              "compatible": false,
+              "post_unlimited": false
+            }
+          ],
+          "original": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Enabled": 1,
+            "m_Script": {
+              "m_FileID": 0,
+              "m_PathID": 6922894655131706779
+            },
+            "m_Name": "Sound Timeline Track",
+            "m_Version": 3,
+            "m_AnimClip": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Locked": 0,
+            "m_Muted": 0,
+            "m_CustomPlayableFullTypename": "",
+            "m_Curves": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Parent": {
+              "m_FileID": 0,
+              "m_PathID": -1204577994028063843
+            },
+            "m_Children": [],
+            "m_Clips": [
+              {
+                "m_Version": 1,
+                "m_Start": 0.0,
+                "m_ClipIn": 0.0,
+                "m_Asset": {
+                  "m_FileID": 0,
+                  "m_PathID": -6307875960184151139
+                },
+                "m_Duration": 5.0,
+                "m_TimeScale": 1.0,
+                "m_ParentTrack": {
+                  "m_FileID": 0,
+                  "m_PathID": -2002693977982147683
+                },
+                "m_EaseInDuration": 0.0,
+                "m_EaseOutDuration": 0.0,
+                "m_BlendInDuration": -1.0,
+                "m_BlendOutDuration": -1.0,
+                "m_MixInCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_MixOutCurve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "m_BlendInCurveMode": 0,
+                "m_BlendOutCurveMode": 0,
+                "m_ExposedParameterNames": [],
+                "m_AnimationCurves": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "m_Recordable": 0,
+                "m_PostExtrapolationMode": 0,
+                "m_PreExtrapolationMode": 0,
+                "m_PostExtrapolationTime": 0.0,
+                "m_PreExtrapolationTime": 0.0,
+                "m_DisplayName": "ReuseFX_Necrotic_DeathKnight_CustomSpawn_GhoulCharge_Token_Sound"
+              }
+            ],
+            "m_Markers": {
+              "m_Objects": []
+            }
+          }
+        }
+      ],
+      "duration": 5.0
+    }
+  ],
+  "animations": [
+    {
+      "id": "d200b975c808edda4d504ea2",
+      "source": {
+        "cab": "CAB-69c88b234dfa427e02d1fcee9337ae34",
+        "pathid": "9031852618693110409",
+        "type": "AnimationClip",
+        "bundle": "essential_base_global-prefab-0.unity3d"
+      },
+      "tracks": 29,
+      "duration": 3.0833332538604736,
+      "unresolved": []
+    }
+  ],
+  "complete": false,
+  "dependency_errors": []
+}

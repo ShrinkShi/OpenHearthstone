@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "MISSING",
+  "purpose": "User-supplied official captures only; internal GPU baselines are not official.",
+  "required_cards": ["EX1_129", "EX1_134"],
+  "required_seats": [0, 1],
+  "required_phases": ["Birth", "Early", "Mid", "Arrival", "Hit", "Death"],
+  "required_sequence_fields": ["card", "seat", "source_kind", "source_media", "source_sha256", "product_version", "capture_origin", "camera", "resolution", "state", "clock", "seed", "color_pipeline", "audio_environment", "frames"],
+  "required_frame_fields": ["phase", "file", "sha256", "absolute_time", "event_alignment"],
+  "source_kind": "official_client_capture",
+  "unknown_policy": "Unknown stays Unknown; missing metadata prevents qualified pixel or timing comparison.",
+  "sequences": []
+}
