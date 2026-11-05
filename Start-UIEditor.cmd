@@ -1,7 +1,12 @@
 @echo off
 cd /d "%~dp0"
 if not exist "%~dp0build\client\HearthstoneClone.exe" (
-  echo Client build is missing. See README.md for build instructions.
+  echo Client build is missing in this checkout. See docs\BUILD.md.
+  pause
+  exit /b 1
+)
+if not exist "%~dp0local\runtime\registry.json" (
+  echo Local asset registry is missing in this checkout. See docs\BUILD.md.
   pause
   exit /b 1
 )

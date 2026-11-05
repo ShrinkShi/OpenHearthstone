@@ -24,24 +24,24 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -X utf8 -m pytest tests -q
 ```
 
-客户端所需的原版资源和本地生成缓存不随源码分发，需要自行准备；构建前请阅读 [资产管线](docs/ASSET_PIPELINE.md) 和 [构建说明](docs/BUILD.md)，并根据本机 Unity 安装位置调整命令。研究清单包含资源映射、曲线及组件数据；部分研究、视觉验证和资源导出依赖本机客户端及已有缓存，干净克隆不保证直接通过所有测试或生成完整画面。
+客户端程序和本机资源缓存不随源码分发。双击启动之前，请按 [首次构建步骤](docs/BUILD.md) 设置游戏安装目录、导出资源并构建 Unity 客户端；仅创建 Python 环境还不能启动游戏。研究清单包含资源映射、曲线及组件数据；部分研究、视觉验证和资源导出依赖本机客户端及已有缓存，干净克隆不保证直接通过所有测试或生成完整画面。
 
 源代码使用 [AGPL-3.0-or-later](LICENSE)；第三方组件的许可见 `licenses/`。游戏名称、原始素材及其权利属于各自权利人，原素材不在本仓库的许可范围内。
 
 ## 技术栈
 
-- Unity 2022.3.60f1c1: `F:\Program Files\unity\2022.3.60f1c1\Editor\Unity.exe`
+- Unity 2022.3.60f1c1，安装路径因电脑而异
 - Python 3.11 虚拟环境 `.venv`
 - UnityPy 1.25.2、SQLite 元数据索引、原始 Mesh/Transform/Material 转换
 - Fireplace 固定版本规则 DSL、TCP UTF-8 JSON Lines 权威服务器
 - pytest 规则与真实 TCP 连接测试
-- 参考仓库独立位于 `E:\HS\references`
+- 可选研究用参考仓库独立于本项目
 
 ## 在当前机器运行
 
 双击根目录 `Start-LocalDuel.cmd`，自动复用或启动本机服务器，并打开名字独立的 Shrink1 / Shrink2。每个职业的自定义套牌分别保存在各自 profile 中。
 
-也可在 `E:\HS\HearthstoneClone` 打开 PowerShell，分别启动服务器和两个客户端：
+也可在自己的项目根目录打开 PowerShell，分别启动服务器和两个客户端：
 
 ```powershell
 .\.venv\Scripts\python.exe -X utf8 -m game.server

@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import sqlite3
 from collections import Counter
@@ -16,7 +17,23 @@ from .vendor.unity import UnityReader
 from .audio_cache import publish_audio, valid_audio_file
 
 PROJECT = Path(__file__).resolve().parents[1]
-DEFAULT_GAME = Path(r'D:\Program Files (x86)\Hearthstone')
+
+
+def default_game_root(local=None):
+    configured = os.environ.get('HEARTHSTONE_GAME_ROOT')
+    if configured:
+        return Path(configured)
+    report = (local or PROJECT / 'local') / 'asset-audit.json'
+    try:
+        previous = Path(json.loads(report.read_text(encoding='utf-8'))['installation'])
+        if (previous / 'Data' / 'Win' / 'asset_manifest.unity3d').is_file():
+            return previous
+    except (OSError, ValueError, KeyError, TypeError):
+        pass
+    return Path(os.environ.get('ProgramFiles(x86)', r'C:\Program Files (x86)')) / 'Hearthstone'
+
+
+DEFAULT_GAME = default_game_root()
 
 
 class Store:
@@ -62,6 +79,10 @@ def header(obj, stop):
 class Importer:
     def __init__(self, game=DEFAULT_GAME, local=None):
         self.game = Path(game).resolve()
+        if not (self.game / 'Data' / 'Win' / 'asset_manifest.unity3d').is_file():
+            raise FileNotFoundError(
+                f'未找到游戏资源清单：{self.game}。请设置 HEARTHSTONE_GAME_ROOT 指向游戏安装目录，'
+                '或向 importer 传入 --game；详见 docs/BUILD.md。')
         self.local = Path(local) if local else PROJECT / 'local'
         self.store = Store(self.local / 'asset-index.sqlite')
         manifests = sorted((self.game / 'Data/Win').glob('asset_manifest*.unity3d'))

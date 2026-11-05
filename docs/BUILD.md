@@ -1,5 +1,40 @@
 # Windows 构建
 
+## 新克隆首次准备
+
+仓库只包含源码和研究清单，`.venv`、`local/` 和 `build/` 均不会随 Git 克隆。需要 Windows、Python 3.11、Git、Unity 2022.3.60f1c1 和本机的炉石传说安装。以下命令在**自己的仓库根目录**的 PowerShell 中执行，路径请按实际安装位置替换：
+
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+$env:HEARTHSTONE_GAME_ROOT = 'D:\Games\Hearthstone' # 改为实际安装目录
+$env:UNITY_EDITOR = 'C:\Program Files\Unity\Hub\Editor\2022.3.60f1c1\Editor\Unity.exe' # 改为实际路径
+Test-Path (Join-Path $env:HEARTHSTONE_GAME_ROOT 'Data\Win\asset_manifest.unity3d')
+Test-Path $env:UNITY_EDITOR
+```
+
+两个 `Test-Path` 都应返回 `True`。`HEARTHSTONE_GAME_ROOT` 对当前 PowerShell 会话及其子进程生效；新窗口可重新设置或自行配置为用户环境变量。成功扫描后，导入器也会尝试复用本机 `local/asset-audit.json` 中仍然存在的安装路径。游戏目录始终只读。然后准备元数据和基础资源：
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 -m tools.prepare_data
+.\.venv\Scripts\python.exe -X utf8 -m tools.importer scan
+.\.venv\Scripts\python.exe -X utf8 -m tools.export_runtime
+.\.venv\Scripts\python.exe -X utf8 -m tools.export_ui
+.\.venv\Scripts\python.exe -X utf8 -m tools.presentation_assets
+.\.venv\Scripts\python.exe -X utf8 -m tools.fireblast_ui_assets
+```
+
+扫描和导出可能耗时，且依赖本机游戏版本；请检查输出的错误和 `local/runtime/export-report.json`，缺失资源时不能认为导出完整。其他界面和特效的导出入口见 [资产管线](ASSET_PIPELINE.md)，仅运行上述基础步骤不保证全部画面还原。确认 `local/runtime/registry.json` 和五个字体文件存在后构建：
+
+```powershell
+New-Item -ItemType Directory -Force work | Out-Null
+& $env:UNITY_EDITOR -batchmode -quit -projectPath (Join-Path (Get-Location) 'UnityClient') -executeMethod BuildClient.Build -logFile (Join-Path (Get-Location) 'work\unity-build.log')
+```
+
+检查进程退出码及 `work/unity-build.log`。成功后双击 `Start-LocalDuel.cmd`；UI 编辑器使用 `Start-UIEditor.cmd`。安装位置、资源版本或 Unity 环境不同可能需要调整；本项目尚未验证所有版本的干净机器完整导出。
+
+## 本机历史记录
+
 当前 Unity 2022.3.60f1c1 已安装并激活。关闭正在运行的测试客户端，再从正式项目根目录执行：
 
 ```powershell
