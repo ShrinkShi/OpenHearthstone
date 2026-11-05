@@ -22,6 +22,11 @@ Test-Path $env:UNITY_EDITOR
 .\.venv\Scripts\python.exe -X utf8 -m tools.export_ui
 .\.venv\Scripts\python.exe -X utf8 -m tools.presentation_assets
 .\.venv\Scripts\python.exe -X utf8 -m tools.fireblast_ui_assets
+.\.venv\Scripts\python.exe -X utf8 -m tools.board_ui_assets
+.\.venv\Scripts\python.exe -X utf8 -m tools.battle_camera_source
+.\.venv\Scripts\python.exe -X utf8 -m tools.export_hub_native_scenes
+.\.venv\Scripts\python.exe -X utf8 -m tools.export_f026_hub_widgets
+.\.venv\Scripts\python.exe -X utf8 -m tools.export_pack_assets
 ```
 
 扫描和导出可能耗时，且依赖本机游戏版本；请检查输出的错误和 `local/runtime/export-report.json`，缺失资源时不能认为导出完整。其他界面和特效的导出入口见 [资产管线](ASSET_PIPELINE.md)，仅运行上述基础步骤不保证全部画面还原。确认 `local/runtime/registry.json` 和五个字体文件存在后构建：

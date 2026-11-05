@@ -70,9 +70,10 @@ def main():
                     logical = 'VFX_SLEEP_Z' if name.endswith('Zzz') else 'VFX_SUMMON_MOTE' if material['name']=='GenFX_BlueMotes_Grave' else 'VFX_SUMMON_DUST'
                     ex.registry[logical] = material['texture']
                     texture_info = next(p for p in reversed(ex.provenance) if p.get('file')==material['texture'])
-                    source = dict(id=logical,name=material['name'],shader=material['shader'],
+                    source = dict(texture_info)
+                    source.update(id=logical,name=material['name'],shader=material['shader'],
                                   bundle=source_bundle(ex,texture_info['cab']),
-                                  cache='local/runtime/'+material['texture'],**texture_info)
+                                  cache='local/runtime/'+material['texture'])
                     if source not in sources:
                         sources.append(source)
                     print('PARTICLE MATERIAL',name,material['name'],material['shader'],flush=True)
