@@ -26,6 +26,8 @@ Test-Path $env:UNITY_EDITOR
 
 扫描和导出可能耗时，且依赖本机游戏版本；请检查输出的错误和 `local/runtime/export-report.json`，缺失资源时不能认为导出完整。其他界面和特效的导出入口见 [资产管线](ASSET_PIPELINE.md)，仅运行上述基础步骤不保证全部画面还原。确认 `local/runtime/registry.json` 和五个字体文件存在后构建：
 
+`tools.prepare_data` 会校验历史快照，并在虚拟环境中的 Fireplace 依赖包含 Git LFS 指针时，下载并校验对应的卡牌定义后替换该指针；不会修改游戏安装目录。
+
 ```powershell
 New-Item -ItemType Directory -Force work | Out-Null
 & $env:UNITY_EDITOR -batchmode -quit -projectPath (Join-Path (Get-Location) 'UnityClient') -executeMethod BuildClient.Build -logFile (Join-Path (Get-Location) 'work\unity-build.log')

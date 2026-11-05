@@ -1,4 +1,6 @@
 import json
+import hashlib
+import io
 import os
 import shutil
 import subprocess
@@ -7,6 +9,7 @@ import sys
 import pytest
 
 from tools.importer import Importer, default_game_root
+from tools import prepare_data
 
 
 def test_missing_game_reports_configuration_without_creating_cache(tmp_path):
@@ -36,6 +39,37 @@ def test_previous_scan_path_is_reused_and_environment_takes_priority(tmp_path, m
     assert default_game_root(tmp_path) == game
     monkeypatch.setenv('HEARTHSTONE_GAME_ROOT', str(tmp_path / 'override'))
     assert default_game_root(tmp_path) == tmp_path / 'override'
+
+
+def test_fireplace_lfs_pointer_is_replaced_only_with_verified_data(tmp_path, monkeypatch):
+    content = b'<CardDefs />'
+    digest = hashlib.sha256(content).hexdigest()
+    path = tmp_path / 'CardDefs.xml'
+    pointer = f'version https://git-lfs.github.com/spec/v1\noid sha256:{digest}\nsize {len(content)}\n'
+    path.write_text(pointer, encoding='ascii')
+    monkeypatch.setattr(prepare_data, 'FIREPLACE_DIGEST', digest)
+    monkeypatch.setattr(prepare_data.urllib.request, 'urlopen', lambda *a, **k: io.BytesIO(content))
+    prepare_data.prepare_fireplace_carddefs(path)
+    assert path.read_bytes() == content
+    prepare_data.prepare_fireplace_carddefs(path)
+
+
+def test_fireplace_unknown_data_is_preserved(tmp_path):
+    path = tmp_path / 'CardDefs.xml'
+    path.write_bytes(b'user data')
+    with pytest.raises(ValueError, match='unexpected Fireplace'):
+        prepare_data.prepare_fireplace_carddefs(path)
+    assert path.read_bytes() == b'user data'
+
+
+def test_fireplace_rejects_corrupt_download(tmp_path, monkeypatch):
+    path = tmp_path / 'CardDefs.xml'
+    pointer = f'version https://git-lfs.github.com/spec/v1\noid sha256:{prepare_data.FIREPLACE_DIGEST}\n'
+    path.write_bytes(pointer.encode('ascii'))
+    monkeypatch.setattr(prepare_data.urllib.request, 'urlopen', lambda *a, **k: io.BytesIO(b'corrupt'))
+    with pytest.raises(ValueError, match='checksum mismatch'):
+        prepare_data.prepare_fireplace_carddefs(path)
+    assert path.read_bytes() == pointer.encode('ascii')
 
 
 @pytest.mark.skipif(sys.platform != 'win32', reason='Windows batch launcher')
