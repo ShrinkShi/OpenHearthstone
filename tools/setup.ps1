@@ -20,12 +20,21 @@ $uabeaHash = '0623ab1dc099a6397c3a7e72782b91405e60b286c6825fb6fa21e553ff2ea580'
 function Get-VerifiedFile([string]$url, [string]$path, [string]$sha256) {
     if ((Test-Path -LiteralPath $path) -and (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash -eq $sha256) { return }
     $partial = $path + '.download'
-    Write-Host "Downloading $([IO.Path]::GetFileName($path))"
-    Invoke-WebRequest -UseBasicParsing -Uri $url -OutFile $partial
-    if ((Get-FileHash -LiteralPath $partial -Algorithm SHA256).Hash -ne $sha256) {
-        throw "SHA256 mismatch: $url"
+    for ($attempt = 1; $attempt -le 4; $attempt++) {
+        try {
+            Write-Host "Downloading $([IO.Path]::GetFileName($path)) (attempt $attempt/4)"
+            Invoke-WebRequest -UseBasicParsing -Uri $url -OutFile $partial
+            if ((Get-FileHash -LiteralPath $partial -Algorithm SHA256).Hash -ne $sha256) {
+                throw "SHA256 mismatch: $url"
+            }
+            Move-Item -LiteralPath $partial -Destination $path -Force
+            return
+        } catch {
+            if ($attempt -eq 4) { throw }
+            Write-Warning "Download failed; retrying: $($_.Exception.Message)"
+            Start-Sleep -Seconds (5 * $attempt)
+        }
     }
-    Move-Item -LiteralPath $partial -Destination $path -Force
 }
 
 function Get-Python311 {

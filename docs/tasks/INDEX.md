@@ -4,7 +4,7 @@
 
 | Task | 当前状态 | 优先级 / 依赖 | 聊天 / branch/worktree | 验证 / 合并 |
 | --- | --- | --- | --- | --- |
-| [0019 可克隆开发环境与资源发布](TASK-0019-portable-release.md) | IN_PROGRESS | P1 | Release 分卷、自动配置及工作树清理 | 运行时干净克隆及后台启动通过；完整资源分卷上传进行中 |
+| [0019 可克隆开发环境与资源发布](TASK-0019-portable-release.md) | IN_PROGRESS | P1 | Release 分卷、自动配置及工作树清理 | 素材 Release 已发布并核对哈希；真实远端下载复核进行中 |
 | [0018 目录与资源整理](TASK-0018-directory-and-assets.md) | IN_PROGRESS | P1 | 项目目录迁移、兼容路径与全量资源导出 | 5,155 包已处理且报告无错误；独立核验、干净克隆及发布方案待完成 |
 | [0017 UABEA 收藏界面研究](TASK-0017-uabea-collection-research.md) | IN_PROGRESS | P1；服务0016 | UABEA 原生库和程序集静态研究 | PC 主相机、托盘、音源及翻页蒙皮已接入；原着色器、逐帧和 Player 验收待完成 |
 | [0016 收藏界面对照修正](TASK-0016-collection-reference-alignment.md) | IN_PROGRESS | P1；承接0014/0015 | 原资源、界面流程和底栏对齐并行研究 | 待实现、实际回放与独立复核 |
