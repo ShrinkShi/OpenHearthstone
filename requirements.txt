@@ -1,6 +1,7 @@
 UnityPy==1.25.2
 Pillow==12.3.0
 pytest==9.1.1
+pythonnet==3.2.0
 hearthstone==9.21.1
 hearthstone_data==251952.1
 fireplace @ https://github.com/jleclanche/fireplace/archive/47a2572a000db66645bb74a425a090d51f1004fa.zip

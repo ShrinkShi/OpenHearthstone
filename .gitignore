@@ -44,3 +44,7 @@ tests/visual/reference/internal/
 *.sln
 *.xml
 !licenses/*.xml
+# 大型素材通过 GitHub Release 分卷分发，研究缓存仍留在本机。
+/assets/
+/assetsresearch/
+/tools/thirdparty/

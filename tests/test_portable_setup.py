@@ -95,3 +95,24 @@ def test_launcher_reports_each_missing_prerequisite_in_path_with_spaces(tmp_path
     client.touch()
     result = run()
     assert result.returncode != 0 and 'asset registry is missing' in result.stdout
+
+
+@pytest.mark.skipif(sys.platform != 'win32', reason='Windows junction launcher')
+def test_launcher_connects_published_assets_without_overwriting_local_data(tmp_path):
+    root = tmp_path / 'portable checkout 测试'
+    root.mkdir()
+    launcher = root / 'Start-LocalDuel.cmd'
+    shutil.copyfile('Start-LocalDuel.cmd', launcher)
+    runtime = root / 'assets' / 'runtime'
+    runtime.mkdir(parents=True)
+    (runtime / 'registry.json').write_text('{"entries": []}', encoding='utf-8')
+    (root / 'assets' / 'card-database.json').write_text('published', encoding='utf-8')
+    result = subprocess.run(['cmd', '/d', '/c', str(launcher)], cwd=tmp_path,
+                            stdin=subprocess.DEVNULL, capture_output=True, text=True)
+    assert result.returncode != 0 and 'Python environment is missing' in result.stdout
+    assert (root / 'local' / 'runtime' / 'registry.json').is_file()
+    assert (root / 'local' / 'card-database.json').read_text() == 'published'
+    (root / 'local' / 'card-database.json').write_text('existing')
+    subprocess.run(['cmd', '/d', '/c', str(launcher)], cwd=tmp_path,
+                   stdin=subprocess.DEVNULL, capture_output=True, text=True)
+    assert (root / 'local' / 'card-database.json').read_text() == 'existing'

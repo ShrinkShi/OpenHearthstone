@@ -1,5 +1,11 @@
 # Windows 构建
 
+## 自动配置
+
+双击 `Setup-OpenHearthstone.cmd`，脚本下载带 SHA-256 校验的 Release 分卷、还原素材和预构建客户端、创建 Python 3.11 环境并安装依赖。脚本默认下载完整素材；`-RuntimeOnly` 只下载启动素材，`-NoLaunch` 禁止自动启动，`-SkipUnity` 跳过编辑器安装。已存在的本地文件不会因解包而被覆盖。
+
+脚本会检测并尝试安装 Unity 2022.3.60f1c1；Windows 安装权限和 Unity 登录、许可证激活可能仍需人工处理。预构建客户端可在没有编辑器时启动，但编辑客户端源码及重新构建仍需该编辑器。AssetStudio 0.16.0 会自动下载到 `tools/thirdparty/`；它无法读取部分新版 Unity 资源，项目导入器使用 UnityPy。
+
 ## 新克隆首次准备
 
 仓库只包含源码和研究清单，`.venv`、`local/` 和 `build/` 均不会随 Git 克隆。需要 Windows、Python 3.11、Git、Unity 2022.3.60f1c1 和本机的炉石传说安装。以下命令在**自己的仓库根目录**的 PowerShell 中执行，路径请按实际安装位置替换：
@@ -47,7 +53,7 @@ New-Item -ItemType Directory -Force work | Out-Null
 当前 Unity 2022.3.60f1c1 已安装并激活。关闭正在运行的测试客户端，再从正式项目根目录执行：
 
 ```powershell
-& 'F:\Program Files\unity\2022.3.60f1c1\Editor\Unity.exe' -batchmode -quit -projectPath E:\HS\HearthstoneClone\UnityClient -executeMethod BuildClient.Build -logFile E:\HS\HearthstoneClone\work\unity-build.log
+& 'F:\Program Files\unity\2022.3.60f1c1\Editor\Unity.exe' -batchmode -quit -projectPath E:\HS\OpenHearthstone\UnityClient -executeMethod BuildClient.Build -logFile E:\HS\OpenHearthstone\work\unity-build.log
 ```
 
 生成 `build/client/HearthstoneClone.exe` 与配套目录。原版 Unity 6000 bundle 不直接加入 Unity 2022 Assets；本地导出数据位于项目 `local`，启动可通过 `--data` 指定另一台机器自己的缓存路径。

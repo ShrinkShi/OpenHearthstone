@@ -807,6 +807,12 @@ public sealed partial class ClientApp
             GUI.Label(new Rect(rect.x + 35, rect.y + 16, rect.width - 70, 58), title, titleStyle);
         if (f026QuestPreviewActive) return;
         Rect backRect = page == "collection" ? new Rect(1380, 878, 160, 42) : new Rect(1332, 888, 160, 52);
+        if (page == "collection")
+        {
+            Rect tray = F025CollectionDeckTrayRect;
+            backRect = new Rect(tray.x + tray.width * .56f, tray.yMax - 76,
+                tray.width * .39f, 42);
+        }
         if (page == "quests") backRect = new Rect(1070, 936, 160, 52);
         bool nativePackBack = page == "packs" && nativeHubScene != null &&
             nativeHubScene.TryGetPackOpeningLayout(out _, out _, out backRect);
@@ -1014,7 +1020,7 @@ public sealed partial class ClientApp
         float inset = Mathf.Clamp(paper.width * .035f, 18, 34);
         float innerWidth = paper.width - inset * 2;
         if (f024CollectionTab == 0)
-            DrawF024ClassFilters(new Rect(paper.x + inset, paper.y + 10, innerWidth, 58));
+            DrawF024ClassFilters(new Rect(paper.x + inset, paper.y - 39, innerWidth, 48));
         else
             GUI.Label(new Rect(paper.x + inset, paper.y + 10, innerWidth, 58),
                 F024ClassName(f024DraftClassId) + " · 选择收藏卡牌加入套牌", F024PaperLabelStyle);
@@ -1037,10 +1043,10 @@ public sealed partial class ClientApp
         float inset = Mathf.Clamp(paper.width * .035f, 18, 34);
         float innerX = paper.x + inset;
         float innerWidth = paper.width - inset * 2;
-        float filterY = paper.yMax - 44;
+        float filterY = paper.yMax + 5;
         float gap = 7;
-        var setFilterRect = new Rect(innerX - 16, paper.yMax - 64, 108, 70);
-        float manaWidth = Mathf.Clamp(innerWidth * .39f, 270, 340);
+        var setFilterRect = new Rect(innerX - 8, filterY - 7, 75, 52);
+        float manaWidth = Mathf.Clamp(innerWidth * .39f, 270, 350);
         var manaRect = new Rect(setFilterRect.xMax + gap, filterY, manaWidth, 38);
         int[] collectionSets = F024CollectionSetIds();
         Rect setPopupRect = F024CollectionSetDropdownRect(setFilterRect);
@@ -1080,12 +1086,10 @@ public sealed partial class ClientApp
             }
         }
         DrawF024CollectionSetFilter(setFilterRect, collectionSets, setPopupRect);
-        float pagerWidth = Mathf.Clamp(innerWidth * .15f, 120, 150);
-        float pagerX = innerX + innerWidth - pagerWidth;
         float searchLabelWidth = 0;
         float searchX = manaRect.xMax + gap;
-        float craftWidth = 100;
-        float searchWidth = Mathf.Max(90, pagerX - gap - searchX - searchLabelWidth - craftWidth - gap);
+        float craftWidth = Mathf.Clamp(innerWidth * .15f, 100, 140);
+        float searchWidth = Mathf.Max(90, paper.xMax - inset - gap - searchX - searchLabelWidth - craftWidth - gap);
         float textX = searchX + searchLabelWidth;
         var searchRect = new Rect(textX, filterY, searchWidth, 34);
         if (!F026DrawWidget(searchRect, "collection.search.background") && Event.current.type == EventType.Repaint)
@@ -1094,6 +1098,7 @@ public sealed partial class ClientApp
             Frame(searchRect, new Color(.43f, .25f, .19f, .96f), 2);
         }
         var inputRect = searchRect;
+        inputRect.xMin += Mathf.Min(26, searchRect.width * .18f);
         bool showClearButton = !String.IsNullOrEmpty(f024CollectionSearch);
         float clearSize = Mathf.Min(22, searchRect.height - 6);
         var clearRect = new Rect(searchRect.xMax - clearSize - 5,
@@ -1117,6 +1122,8 @@ public sealed partial class ClientApp
             f024ReplayCollectionSearchKeyboardControl = GUIUtility.keyboardControl;
         }
         F024ReplayGuiMarkHandler(searchTarget, "FocusCollectionSearch");
+        if (String.IsNullOrEmpty(f024CollectionSearch) && GUI.GetNameOfFocusedControl() != searchTarget)
+            GUI.Label(inputRect, "查找", F024CollectionSearchStyle);
         if (showClearButton)
         {
             const string clearTarget = "collection.search.clear";
@@ -1148,14 +1155,13 @@ public sealed partial class ClientApp
 
         F024BuildCollectionList();
         int pageCount = Mathf.Max(1, Mathf.CeilToInt(f024FilteredCards.Length / (float)F024CollectionPageSize));
-        float pageTextWidth = pagerWidth * .46f;
-        float pageButtonWidth = (pagerWidth - pageTextWidth - 8) * .5f;
-        GUI.Label(new Rect(pagerX, filterY, pageTextWidth, 34),
-            (f024CollectionPage + 1) + "/" + pageCount, F024PaperSelectorStyle);
+        var pageLabel = new Rect(paper.center.x - 70, paper.yMax - 31, 140, 27);
+        GUI.Label(pageLabel, "第" + (f024CollectionPage + 1) + "页",
+            new GUIStyle(F024PaperLabelStyle) { alignment = TextAnchor.MiddleCenter, fontSize = 17 });
         string previousPageTarget = "collection.page.previous";
-        var previousPageRect = new Rect(pagerX + pageTextWidth + 4, filterY, pageButtonWidth, 34);
+        var previousPageRect = new Rect(paper.x, paper.center.y - 48, 28, 96);
         int pageBeforeClick = f024CollectionPage;
-        if (F029CollectionPageButton(previousPageRect, "<", previousPageTarget))
+        if (F029CollectionPageEdge(previousPageRect, "<", previousPageTarget, f024CollectionPage > 0))
         {
             f024CollectionPage = Mathf.Max(0, f024CollectionPage - 1);
             if (f024CollectionPage != pageBeforeClick)
@@ -1166,9 +1172,9 @@ public sealed partial class ClientApp
             }
         }
         string nextPageTarget = "collection.page.next";
-        var nextPageRect = new Rect(pagerX + pageTextWidth + 4 + pageButtonWidth + 4, filterY, pageButtonWidth, 34);
+        var nextPageRect = new Rect(paper.xMax - 28, paper.center.y - 48, 28, 96);
         pageBeforeClick = f024CollectionPage;
-        if (F029CollectionPageButton(nextPageRect, ">", nextPageTarget))
+        if (F029CollectionPageEdge(nextPageRect, ">", nextPageTarget, f024CollectionPage < pageCount - 1))
         {
             f024CollectionPage = Mathf.Min(pageCount - 1, f024CollectionPage + 1);
             if (f024CollectionPage != pageBeforeClick)
@@ -1181,7 +1187,7 @@ public sealed partial class ClientApp
 
         DrawF024ManaFilters(manaRect);
         float gridY = paper.y + 120;
-        float gridBottom = filterY - 8;
+        float gridBottom = paper.yMax - 34;
         float gridHeight = Mathf.Max(120, gridBottom - gridY);
         float rowHeight = gridHeight / 2f;
         float gapX = Mathf.Clamp(innerWidth * .012f, 4, 12);
@@ -1282,11 +1288,16 @@ public sealed partial class ClientApp
         finally { if (screen != null) RenderTexture.ReleaseTemporary(screen); }
     }
 
-    bool F029CollectionPageButton(Rect rect, string text, string target)
+    bool F029CollectionPageEdge(Rect rect, string text, string target, bool hasPage)
     {
         if (F024ReplayGuiEnabled) F024ReplayGuiRegisterTarget(target, rect);
         F024ReplayGuiObserveControlBefore(target, rect);
-        bool clicked = GUI.Button(rect, text, F024ButtonStyle(rect));
+        bool enabled = GUI.enabled;
+        GUI.enabled = enabled && hasPage;
+        bool clicked = GUI.Button(rect, GUIContent.none, GUIStyle.none);
+        if (GUI.enabled && rect.Contains(Event.current.mousePosition))
+            GUI.Label(rect, text, F024PaperSelectorStyle);
+        GUI.enabled = enabled;
         F024ReplayGuiObserveControlAfter(target);
         return clicked;
     }
@@ -1572,8 +1583,8 @@ public sealed partial class ClientApp
             string target = value < 0 ? "collection.filter.class.all" :
                 value == 12 ? "collection.filter.class.neutral" : "collection.filter.class." + value;
             bool isHeroClass = value >= 0 && value != 12;
-            var tabRect = new Rect(cell.center.x - cell.width * .39f, cell.y,
-                cell.width * .78f, cell.height - 17);
+            var tabRect = new Rect(cell.center.x - cell.width * .48f, cell.y,
+                cell.width * .96f, cell.height);
             if (isHeroClass)
             {
                 int classIndex = Array.FindIndex(database.classes, item => item.id == value);
@@ -1589,21 +1600,22 @@ public sealed partial class ClientApp
                     F024HighlightPaperCell(tabRect, selected == i);
                     Frame(tabRect, selected == i ? new Color(.93f, .70f, .25f) : new Color(.43f, .30f, .15f), 1);
                 }
-                var iconRect = new Rect(cell.center.x - Mathf.Min(17, cell.width * .24f), cell.y + 4,
-                    Mathf.Min(34, cell.width * .48f), cell.height - 25);
+                var iconRect = new Rect(cell.center.x - Mathf.Min(21, cell.width * .30f), cell.y + 5,
+                    Mathf.Min(42, cell.width * .60f), cell.height - 9);
                 if (icon != null && Event.current.type == EventType.Repaint)
                     GUI.DrawTexture(iconRect, icon, ScaleMode.ScaleAndCrop, true);
                 if (selected == i && Event.current.type == EventType.Repaint)
                     Frame(tabRect, new Color(1f, .80f, .30f, .95f), 2);
-                GUI.Label(new Rect(cell.x + 1, cell.yMax - 18, cell.width - 2, 18), labels[i], F024PaperSelectorStyle);
             }
             else
             {
-                F024HighlightPaperCell(cell, selected == i);
+                if (tabFrame != null && Event.current.type == EventType.Repaint)
+                    GUI.DrawTextureWithTexCoords(tabRect, tabFrame, classTabSourceUv, true);
+                else F024HighlightPaperCell(tabRect, selected == i);
             }
             if (F024ReplayGuiEnabled) F024ReplayGuiRegisterTarget(target, cell);
             F024ReplayGuiObserveControlBefore(target, cell);
-            bool clicked = GUI.Button(cell, isHeroClass ? GUIContent.none : new GUIContent(labels[i]),
+            bool clicked = GUI.Button(cell, isHeroClass ? new GUIContent("", labels[i]) : new GUIContent(labels[i]),
                 isHeroClass ? GUIStyle.none : F024PaperSelectorStyle);
             F024ReplayGuiObserveControlAfter(target);
             if (clicked && f024CollectionClass != value)
@@ -1617,9 +1629,9 @@ public sealed partial class ClientApp
 
     void DrawF024ManaFilters(Rect rect)
     {
-        string[] labels = { "0", "1", "2", "3", "4", "5", "6", "7+" };
-        float cellWidth = Mathf.Min(48, (rect.width - 14) / labels.Length);
-        var filterBackground = new Rect(rect.x, rect.y, cellWidth * labels.Length + 14, rect.height);
+        string[] labels = { "0", "1", "2", "3", "4", "5", "6", "7" };
+        float cellWidth = Mathf.Min(48, (rect.width - 14) / 8.65f);
+        var filterBackground = new Rect(rect.x, rect.y, cellWidth * 8.65f + 14, rect.height);
         if (!F026DrawWidget(filterBackground, "collection.mana.background") && Event.current.type == EventType.Repaint)
         {
             Fill(filterBackground, new Color(.90f, .82f, .64f, .86f));
@@ -1630,7 +1642,7 @@ public sealed partial class ClientApp
             : null;
         for (int i = 0; i < labels.Length; i++)
         {
-            var cell = new Rect(rect.x + 4 + i * cellWidth, rect.y, cellWidth, rect.height);
+            var cell = new Rect(rect.x + 4 + i * cellWidth, rect.y, cellWidth * (i == 7 ? 1.65f : 1f), rect.height);
             bool highlighted = f024CollectionMana == i || cell.Contains(Event.current.mousePosition);
             if (!F026DrawWidget(cell, "collection.mana.cell") && Event.current.type == EventType.Repaint)
                 F024HighlightPaperCell(cell, highlighted);
@@ -1639,8 +1651,8 @@ public sealed partial class ClientApp
             F024ReplayGuiObserveControlBefore(target, cell);
             bool clicked = GUI.Button(cell, GUIContent.none, GUIStyle.none);
             F024ReplayGuiObserveControlAfter(target);
-            float gemSize = Mathf.Min(rect.height - 2, cell.width - 4);
-            var gemRect = new Rect(cell.center.x - gemSize * .5f, cell.y + (cell.height - gemSize) * .5f,
+            float gemSize = Mathf.Min(rect.height - 2, cellWidth - 4);
+            var gemRect = new Rect(cell.x + (cellWidth - gemSize) * .5f, cell.y + (cell.height - gemSize) * .5f,
                 gemSize, gemSize);
             if (Event.current.type == EventType.Repaint && manaGem != null)
             {
@@ -1654,6 +1666,8 @@ public sealed partial class ClientApp
                 }
             }
             GUI.Label(gemRect, labels[i], F025ManaNumberStyle);
+            if (i == 7)
+                GUI.Label(new Rect(cell.x + cellWidth, cell.y, cell.width - cellWidth, cell.height), "+", F025ManaNumberStyle);
             if (clicked)
             {
                 f024CollectionMana = f024CollectionMana == i ? -1 : i;
@@ -1697,11 +1711,10 @@ public sealed partial class ClientApp
         float cardWidth = Mathf.Min(rect.width * .88f, cardHeight * (2f / 3f));
         cardHeight = cardWidth * 1.5f;
         var cardRect = new Rect(rect.x + (rect.width - cardWidth) * .5f, rect.y, cardWidth, cardHeight);
-        F024DrawCardFace(cardRect, card);
         int ownedCount = F024OwnedCardCount(card.CardId);
-        float countHeight = Mathf.Max(26, rect.yMax - cardRect.yMax - 1);
+        float countHeight = Mathf.Max(26, rect.yMax - cardRect.yMax + 4);
         float countWidth = Mathf.Clamp(rect.width * .24f, 48, 60);
-        var countRect = new Rect(rect.center.x - countWidth * .5f, cardRect.yMax + 1, countWidth, countHeight);
+        var countRect = new Rect(rect.center.x - countWidth * .5f, cardRect.yMax - 15, countWidth, countHeight);
         if (!F026DrawWidget(countRect, "collection.card.count") && Event.current.type == EventType.Repaint)
         {
             Fill(countRect, new Color(.75f, .64f, .42f, .94f));
@@ -1710,6 +1723,7 @@ public sealed partial class ClientApp
         if (f027CountStyle == null)
             f027CountStyle = new GUIStyle(F024PaperSelectorStyle) { fontSize = 19, fontStyle = FontStyle.Bold };
         GUI.Label(countRect, "x" + ownedCount, f027CountStyle);
+        F024DrawCardFace(cardRect, card);
         bool replayGui = F024ReplayGuiEnabled;
         string replayTarget = replayGui ? "collection.card:" + card.CardId : "";
         if (replayGui) F024ReplayGuiRegisterTarget(replayTarget, rect);
@@ -1747,15 +1761,17 @@ public sealed partial class ClientApp
         float insetX = Mathf.Clamp(rect.width * .065f, 14, 28);
         float insetY = Mathf.Clamp(rect.height * .055f, 14, 28);
         var titleRect = new Rect(rect.x + insetX, rect.y + 6, rect.width - insetX * 2, 42);
-        GUI.Label(titleRect, "我的套牌", F025DeckTrayTitleStyle);
+        if (F026DrawWidget(titleRect, "menu.header"))
+            GUI.Label(titleRect, "我的套牌", new GUIStyle(F024PaperSelectorStyle) { fontSize = 18 });
+        else GUI.Label(titleRect, "我的套牌", F025DeckTrayTitleStyle);
         float actionHeight = 115;
         var viewport = new Rect(rect.x + insetX, titleRect.yMax + 8, rect.width - insetX * 2,
             rect.height - titleRect.height - actionHeight - insetY * 2 - 12);
-        float rowHeight = Mathf.Clamp(viewport.height * .13f, 70, 88);
+        float rowHeight = Mathf.Clamp(viewport.height * .115f, 58, 76);
         float contentHeight = Mathf.Max(viewport.height, decks.Length * rowHeight);
         f025CollectionDeckScroll = GUI.BeginScrollView(viewport, f025CollectionDeckScroll,
             new Rect(0, 0, viewport.width - 18, contentHeight));
-        float rowWidth = Mathf.Min(viewport.width - 18, viewport.width * .84f);
+        float rowWidth = Mathf.Min(viewport.width - 18, viewport.width * .92f);
         float rowX = (viewport.width - 18 - rowWidth) * .5f;
         for (int i = 0; i < decks.Length; i++)
         {
@@ -1763,8 +1779,8 @@ public sealed partial class ClientApp
             var row = new Rect(rowX, i * rowHeight, rowWidth, rowHeight - 5);
             string target = F024ReplayGuiEnabled ? "collection.deck:" + deck.deck_id : "";
             if (F024ReplayGuiEnabled) F024ReplayGuiRegisterTarget(target, row, viewport, f025CollectionDeckScroll);
-            Fill(row, new Color(.11f, .07f, .035f, .94f));
-            var bannerRect = new Rect(row.x + 5, row.y + 5, row.width - 10, row.height - 10);
+            Fill(row, new Color(.22f, .14f, .07f, .98f));
+            var bannerRect = new Rect(row.x + 3, row.y + 3, row.width - 6, row.height - 6);
             int classIndex = Array.FindIndex(database.classes, item => item.id == deck.class_id);
             Texture heroArt = null;
             if (classIndex >= 0)
@@ -1781,17 +1797,16 @@ public sealed partial class ClientApp
                     new Rect(0, Mathf.Clamp01(.68f - visibleHeight * .5f), 1, visibleHeight), true);
             }
             else Fill(bannerRect, new Color(.16f, .22f, .25f, 1));
-            float captionHeight = Mathf.Clamp(bannerRect.height * .43f, 24, 30);
-            float captionWidth = Mathf.Min(bannerRect.width * .68f, 196);
-            var captionRect = new Rect(bannerRect.x + 1, bannerRect.yMax - captionHeight - 1,
-                captionWidth, captionHeight);
-            Fill(captionRect, new Color(.015f, .009f, .004f, .84f));
-            GUI.Label(captionRect, deck.name, F025DeckBannerTextStyle);
+            float captionHeight = Mathf.Clamp(bannerRect.height * .42f, 22, 28);
+            var captionRect = new Rect(bannerRect.x + 2, bannerRect.yMax - captionHeight - 1,
+                Mathf.Min(bannerRect.width * .65f, 190), captionHeight);
+            Fill(captionRect, new Color(.015f, .009f, .004f, .72f));
+            Ink(captionRect, deck.name ?? "", F025DeckBannerTextStyle, Color.white);
             Frame(row, deck.deck_id == f024SelectedDeckId
                 ? new Color(.96f, .75f, .30f, .98f)
                 : new Color(.49f, .34f, .16f, .96f), deck.deck_id == f024SelectedDeckId ? 3 : 2);
             bool hovered = row.Contains(Event.current.mousePosition) && !F025HubOverlayOpen;
-            if (hovered) Frame(row, new Color(1f, 1f, 1f, 1f), 3);
+            if (hovered) Frame(row, new Color(1f, .87f, .55f, 1f), 2);
             var deleteRect = new Rect(row.x + 2, row.y + 2, 32, 30);
             string deleteTarget = "collection.deck-delete:" + deck.deck_id;
             if (F024ReplayGuiEnabled) F024ReplayGuiRegisterTarget(deleteTarget, deleteRect, viewport, f025CollectionDeckScroll);
@@ -1821,7 +1836,7 @@ public sealed partial class ClientApp
         bool previous = GUI.enabled;
         GUI.enabled = previous && !f024AccountBusy;
         string editTarget = "collection.deck-new";
-        float editWidth = Mathf.Min(rect.width - insetX * 2, 250);
+        float editWidth = Mathf.Min(viewport.width * .92f, 250);
         var editRect = new Rect(rect.center.x - editWidth * .5f, rect.yMax - insetY - 108, editWidth, 42);
         if (Button(editRect, "新建卡组", editTarget))
         {
@@ -1829,6 +1844,8 @@ public sealed partial class ClientApp
             F024ReplayGuiMarkHandler(editTarget, "CreateCollectionDeck");
         }
         GUI.enabled = previous;
+        GUI.Label(new Rect(rect.x + insetX, rect.yMax - 76, rect.width * .42f, 42),
+            decks.Length + "/30\n套牌", new GUIStyle(F025DeckTrayTitleStyle) { fontSize = 14 });
         if (decks.Length == 0)
             GUI.Label(new Rect(rect.x + insetX, viewport.y + 12, viewport.width, 84), "尚无服务器卡组。", F024PaperWrappedStyle);
     }

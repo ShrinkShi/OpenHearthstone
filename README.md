@@ -2,7 +2,15 @@
 
 本机资源驱动的 Unity Windows 客户端与 Python 权威对战服务器。开发中的本地项目；十一职业均已接入，可运行同机双客户端。完整卡池核验与高还原视觉验收仍未完成。
 
-官方安装只读；原版资源、数据库和导出缓存都位于忽略的 `local/`，不会提交 Git。
+官方安装保持只读。项目素材整理在 `assets/`，研究缓存整理在 `assetsresearch/`；用户账号数据和 UI 校对文件仍位于本机 `local/`。
+
+## 一键配置与启动
+
+克隆仓库后，在 Windows x64 上双击 `Setup-OpenHearthstone.cmd`。脚本会从本仓库的 Release 下载并校验素材与预构建客户端，准备 Python 环境和卡牌数据，并尝试配置 Unity 编辑器，最后启动本地双客户端。首次完整下载和解压需要较大的磁盘空间和较长时间。
+
+可在 PowerShell 中使用 `.\Setup-OpenHearthstone.cmd -RuntimeOnly` 只准备启动所需的素材；省略参数则下载完整素材库。`-NoLaunch` 只配置不启动，`-SkipUnity` 跳过 Unity 安装。Unity 编辑器或许可证无法自动完成时，脚本会提示所需操作；预构建客户端可以独立启动。
+
+素材存放在 Release 分卷中，由脚本下载而非直接放入 Git 对象库；研究缓存和用户账号数据不会覆盖。详细说明见 [构建与配置](docs/BUILD.md) 和 [素材分发与更新](docs/ASSET_DISTRIBUTION.md)。
 
 ## 仓库目录
 
@@ -12,11 +20,13 @@
 - `manifests/`、`data/`：项目所需的映射与数据清单。
 - `tests/`：自动测试和视觉验证入口。
 - `docs/`：构建、资产管线、设计记录和任务状态。
-- `local/`、`build/`、`work/`：本机资源与生成物，不包含在仓库中。
+- `assets/`：运行时素材及按原资源包分类的提取结果。
+- `assetsresearch/`：研究缓存及全量导出报告。
+- `local/`、`build/`、`work/`：用户数据、兼容路径与本机生成物。
 
 ## 首次准备
 
-项目当前面向 Windows，使用 Python 3.11 和 Unity 2022.3.60f1c1。克隆后在仓库根目录执行：
+手动配置项目需要 Windows、Python 3.11 和 Unity 2022.3.60f1c1。也可在仓库根目录执行：
 
 ```powershell
 py -3.11 -m venv .venv

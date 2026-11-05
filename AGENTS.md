@@ -8,14 +8,14 @@
 
 ## 环境、构建、运行、验证
 
-仓库当前机器路径 `E:\HS\HearthstoneClone`；不要以聊天目录代替仓库。Unity 版本见 `UnityClient/ProjectSettings/ProjectVersion.txt`，依赖见 `requirements.txt`。
+当前开发机仓库路径是 `E:\HS\OpenHearthstone`；其他电脑以实际克隆目录为仓库根目录，不要假设盘符。Unity 版本见 `UnityClient/ProjectSettings/ProjectVersion.txt`，依赖见 `requirements.txt`。
 
 ```powershell
 # 在仓库根目录
 .\.venv\Scripts\python.exe -X utf8 -m pytest tests -q
 .\.venv\Scripts\python.exe -X utf8 -m game.server
 .\build\client\HearthstoneClone.exe --profile player1 --name Shrink1
-& 'F:\Program Files\unity\2022.3.60f1c1\Editor\Unity.exe' -batchmode -quit -projectPath E:\HS\HearthstoneClone\UnityClient -executeMethod BuildClient.Build -logFile E:\HS\HearthstoneClone\work\unity-build.log
+& 'F:\Program Files\unity\2022.3.60f1c1\Editor\Unity.exe' -batchmode -quit -projectPath E:\HS\OpenHearthstone\UnityClient -executeMethod BuildClient.Build -logFile E:\HS\OpenHearthstone\work\unity-build.log
 ```
 
 双开：`Start-LocalDuel.cmd`；校对器：`Start-UIEditor.cmd` / F6；F7 重读本地校对。完整步骤见 `docs/BUILD.md`、`docs/ASSET_PIPELINE.md`、`tests/visual/README.md`。GUI 和 GPU 检查分开；GPU RenderTexture 检查不可加 `-nographics`。Windows 后台构建使用隐藏进程并跟踪 PID/退出码，不终止用户游戏或无关 Unity 进程。
@@ -24,7 +24,7 @@
 
 - `game/`：Python 权威规则、协议；`UnityClient/Assets/Scripts/`：客户端、表现与原行为等价实现；`UnityClient/Assets/Editor/`：构建/检查。
 - `tools/`：扫描、导入、静态研究、验证工具；`manifests/`：可审阅来源/映射清单；`tests/`：自动测试与视觉入口。
-- `local/`：用户本机原资产/导出缓存；`build/`、`work/`：本地生成物，均忽略。`docs/` 是跨聊天长期记忆；`.dev-records/` 是忽略的个人过程记录，重要结论必须同步进已跟踪 docs。
+- `assets/`：项目素材，含运行时和全量提取结果；`assetsresearch/`：本机研究缓存。`local/runtime` 与 `local/cache` 为兼容联接；`local/` 仍保存用户数据，`build/`、`work/` 为本地生成物。`docs/` 是跨聊天长期记忆；`.dev-records/` 为本机过程记录。
 - 按现有语言和代码风格做小步修改；手动编辑使用 apply_patch。新解释性注释用简洁中文，标识符/日志保留原语言；不批量改已有英文注释。
 - Server 不等待动画；客户端表现时钟、队列和权威状态分开。不得为动画改规则/网络结算语义。
 - 资源路径经过 Importer / Registry，不在业务代码硬写本机原版绝对路径。自主等价实现优先，其次本机资源兼容，极少数隔离原运行时 Fallback；详见 DECISIONS。

@@ -1057,6 +1057,9 @@ public sealed class NativeHubScene : IDisposable
                 page.collectionPageManager = collectionPageManager;
                 page.collectionDeckTray = FindNodePath(page.root.transform, new[] { "CollectionManager", "CollectionDeckTray" });
                 page.collectionDeckContentsBackground = FindNodePath(page.root.transform, new[] { "CollectionManager", "CollectionDeckTray", "DeckContentsBackground" });
+                // 原 Multiply 阴影的零色调在兼容着色器中会压成纯黑。
+                var trayShadow = FindNodePath(page.root.transform, new[] { "CollectionManager", "CollectionDeckTray", "DeckTrayInnerShadow" });
+                if (trayShadow != null) trayShadow.gameObject.SetActive(false);
                 if (collectionBookBack != null)
                 {
                     page.collectionBookBackSourcePosition = collectionBookBack.localPosition;

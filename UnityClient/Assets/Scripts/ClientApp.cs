@@ -686,7 +686,8 @@ public sealed partial class ClientApp : MonoBehaviour
             else if(f026FriendsOpen) DrawF026FriendsPanel();
             else if(f024PackRevealActive) DrawF024PackReveal();
             else if(page!="battle") DrawF026HubChrome();
-            if(page!="battle"&&page!="menu"&&!hubOverlayOpen) GUI.Label(new Rect(280,930,960,35),status,smallStyle);
+            if(page!="battle"&&page!="menu"&&!hubOverlayOpen &&
+                !(page=="collection" && status=="已同步账号数据")) GUI.Label(new Rect(280,930,960,35),status,smallStyle);
             if(!F026CameraShakeEnabled)NativeCameraShakeDriver.Stop(cameraView);
         }
         finally

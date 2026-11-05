@@ -1,9 +1,10 @@
 param(
-    [string]$GameRoot = 'D:\Program Files (x86)\Hearthstone',
-    [string]$UabeaDir = 'E:\HS\HearthstoneClone\work\uabea-v8\files',
-    [string]$OutputDir = 'E:\HS\HearthstoneClone\local\collection-uabea-audit'
+    [string]$GameRoot = $env:HEARTHSTONE_GAME_ROOT,
+    [string]$UabeaDir = (Join-Path (Split-Path -Parent $PSScriptRoot) 'work\uabea-v8\files'),
+    [string]$OutputDir = (Join-Path (Split-Path -Parent $PSScriptRoot) 'assetsresearch\collection-uabea-audit')
 )
 $ErrorActionPreference = 'Stop'
+if (-not $GameRoot) { throw 'Set HEARTHSTONE_GAME_ROOT or pass -GameRoot to inspect the original installation.' }
 New-Item -ItemType Directory -Force -Path $OutputDir | Out-Null
 Add-Type -Path (Join-Path $UabeaDir 'AssetsTools.NET.dll')
 Add-Type -Path (Join-Path $UabeaDir 'Mono.Cecil.dll')
