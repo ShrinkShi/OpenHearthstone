@@ -33,6 +33,8 @@ New-Item -ItemType Directory -Force work | Out-Null
 
 检查进程退出码及 `work/unity-build.log`。成功后双击 `Start-LocalDuel.cmd`；UI 编辑器使用 `Start-UIEditor.cmd`。安装位置、资源版本或 Unity 环境不同可能需要调整；本项目尚未验证所有版本的干净机器完整导出。
 
+`BuildClient.Build` 只构建客户端；需要原开发环境完整回放数据的回归检查可使用 `BuildClient.BuildValidated`，不能把普通构建成功当作这些检查已通过。
+
 ## 本机历史记录
 
 当前 Unity 2022.3.60f1c1 已安装并激活。关闭正在运行的测试客户端，再从正式项目根目录执行：
@@ -43,7 +45,7 @@ New-Item -ItemType Directory -Force work | Out-Null
 
 生成 `build/client/HearthstoneClone.exe` 与配套目录。原版 Unity 6000 bundle 不直接加入 Unity 2022 Assets；本地导出数据位于项目 `local`，启动可通过 `--data` 指定另一台机器自己的缓存路径。
 
-2026-10-15 核实：当前 BuildClient.Build 在构建前执行 NativeEffectChecks，其中包含 Camera.Render，不能使用 `-nographics`。TASK-0002 的旧命令在该调用处 SIGSEGV / 退出 1，证据 `work/task-0002-build.log`；保留图形批处理且隐藏进程，不需要操作桌面。
+2026-10-15 历史核实：当时 BuildClient.Build 在构建前执行 NativeEffectChecks，其中包含 Camera.Render，不能使用 `-nographics`。检查现已移至 BuildClient.BuildValidated。TASK-0002 的旧命令在该调用处 SIGSEGV / 退出 1，证据 `work/task-0002-build.log`；完整验收仍需图形批处理且隐藏进程。
 
 首次 Python 环境：Python 3.11 创建 `.venv`，安装 `requirements.txt`。资产扫描与导出命令见 ASSET_PIPELINE。参考仓库独立保留，无需修改。原资源不包含在 Git 或本项目许可证中。
 

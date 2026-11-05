@@ -8,21 +8,6 @@ public static class BuildClient
 {
     public static void Build()
     {
-        PresentationChecks.Run();
-        NativeShaderTimeChecks.Run();
-        UICalibrationChecks.Run();
-        F024HubMeshChecks.Run();
-        F024AccountStateChecks.Run();
-        F024BattleChecks.Run();
-        NativeWeaponAudioChecks.Run();
-        BattleInteractionChecks.Run();
-        FeedbackChecks.Run();
-        CardInputChecks.Run();
-        CombatFeedbackChecks.Run();
-        WindowFeedbackChecks.Run();
-        AssociatedPresentationChecks.Run();
-        InteractionLifecycleChecks.Run();
-        if(File.Exists("../local/runtime/native-effect-index.json")){NativeEffectChecks.Run();HunterHeroPowerChecks.Run();}
         BuildLocalFonts();
         if(File.Exists("../local/runtime/native-mixer-program.json"))NativeMixerBuilder.Build();
         Directory.CreateDirectory("Assets/Scenes");
@@ -44,6 +29,25 @@ public static class BuildClient
             "../build/client/HearthstoneClone.exe", BuildTarget.StandaloneWindows64, BuildOptions.None);
         if (report.summary.result != UnityEditor.Build.Reporting.BuildResult.Succeeded)
             throw new Exception(report.summary.result.ToString());
+    }
+    public static void BuildValidated()
+    {
+        PresentationChecks.Run();
+        NativeShaderTimeChecks.Run();
+        UICalibrationChecks.Run();
+        F024HubMeshChecks.Run();
+        F024AccountStateChecks.Run();
+        F024BattleChecks.Run();
+        NativeWeaponAudioChecks.Run();
+        BattleInteractionChecks.Run();
+        FeedbackChecks.Run();
+        CardInputChecks.Run();
+        CombatFeedbackChecks.Run();
+        WindowFeedbackChecks.Run();
+        AssociatedPresentationChecks.Run();
+        InteractionLifecycleChecks.Run();
+        if(File.Exists("../local/runtime/native-effect-index.json")){NativeEffectChecks.Run();HunterHeroPowerChecks.Run();}
+        Build();
     }
     public static void BuildLocalFonts()
     {
